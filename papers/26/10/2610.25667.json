@@ -1,0 +1,12 @@
+{
+    "title": "A LATE-Targeting Experimental Design for Multi-Arm RCTs",
+    "abstract": "arXiv:2610.25667v2 Announce Type: replace  Abstract: We study the design of multi-arm experiments that identify local average treatment effects under imperfect compliance. With three or more arms, conventional randomization fails to identify margin-specific effects even under strong extensions of monotone compliance. A choice-theoretic analysis unifies these extensions and motivates a two-stage design: subjects report a preferred arm and are randomized conditional on it. If treatment is confined to the assigned or reported arm, one-sided noncompliance is restored conditional on the report, identifying the effect between the two for their compliers. We discuss the design's applicability and feasibility in relation to the choice model.",
+    "link": "https://arxiv.org/abs/2610.25667",
+    "context": "Title: A LATE-Targeting Experimental Design for Multi-Arm RCTs\nAbstract: arXiv:2610.25667v2 Announce Type: replace  Abstract: We study the design of multi-arm experiments that identify local average treatment effects under imperfect compliance. With three or more arms, conventional randomization fails to identify margin-specific effects even under strong extensions of monotone compliance. A choice-theoretic analysis unifies these extensions and motivates a two-stage design: subjects report a preferred arm and are randomized conditional on it. If treatment is confined to the assigned or reported arm, one-sided noncompliance is restored conditional on the report, identifying the effect between the two for their compliers. We discuss the design's applicability and feasibility in relation to the choice model.",
+    "path": "papers/26/10/2610.25667.json",
+    "total_tokens": 1007,
+    "translated_title": "一种面向多臂随机对照试验的LATE目标实验设计",
+    "translated_abstract": "我们研究了在依从性不完美的情况下，能够识别局部平均处理效应的多臂实验设计。当存在三个或更多实验组时，即使在单调依从性假设的强扩展条件下，常规随机化也无法识别特定边际的效应。基于选择理论的分析统一了这些扩展条件，并启发了一种两阶段设计：受试者首先报告自己偏好的实验组，然后在该报告条件下进行随机化。如果处理仅限于被分配的或被报告的实验组，那么在给定报告的条件下可以恢复单侧不依从性结构，从而为依从者识别两组之间的效应。我们结合选择模型讨论了该设计的适用性与可行性。",
+    "tldr": "提出一种两阶段实验设计——受试者先报告偏好实验组、再据此条件随机化——从而在多臂随机对照试验中恢复单侧不依从性结构，实现对局部平均处理效应的识别。",
+    "en_tdlr": "Proposes a two-stage experimental design—subjects report a preferred arm and are then randomized conditional on it—that restores one-sided noncompliance, enabling identification of local average treatment effects in multi-arm RCTs."
+}

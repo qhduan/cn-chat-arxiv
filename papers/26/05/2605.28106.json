@@ -1,0 +1,12 @@
+{
+    "title": "Gaussian Processes with Sample Paths in Reproducing Kernel Banach Spaces",
+    "abstract": "arXiv:2605.28106v2 Announce Type: replace-cross  Abstract: We investigate the connection between Gaussian processes and Gaussian random elements in reproducing kernel Banach spaces. We show that the covariance operator of a weak second-order Radon probability measure on such a space is uniquely determined by a symmetric positive-definite function. In the Gaussian case, we characterize those functions that arise from covariance operators in terms of $\\gamma$-radonifying operators. Building on these results, we extend Driscoll's theorem to the reproducing kernel Banach space setting.",
+    "link": "https://arxiv.org/abs/2605.28106",
+    "context": "Title: Gaussian Processes with Sample Paths in Reproducing Kernel Banach Spaces\nAbstract: arXiv:2605.28106v2 Announce Type: replace-cross  Abstract: We investigate the connection between Gaussian processes and Gaussian random elements in reproducing kernel Banach spaces. We show that the covariance operator of a weak second-order Radon probability measure on such a space is uniquely determined by a symmetric positive-definite function. In the Gaussian case, we characterize those functions that arise from covariance operators in terms of $\\gamma$-radonifying operators. Building on these results, we extend Driscoll's theorem to the reproducing kernel Banach space setting.",
+    "path": "papers/26/05/2605.28106.json",
+    "total_tokens": 869,
+    "translated_title": "样本路径位于再生核巴拿赫空间中的高斯过程",
+    "translated_abstract": "我们研究了高斯过程与再生核巴拿赫空间中的高斯随机元素之间的联系。我们证明了此类空间上弱二阶Radon概率测度的协方差算子由一个对称正定函数唯一确定。在高斯情形下，我们借助γ-可Radon化算子刻画了哪些函数可以由协方差算子产生。基于这些结果，我们将Driscoll定理推广到了再生核巴拿赫空间的情形。",
+    "tldr": "该论文揭示了高斯过程与再生核巴拿赫空间中高斯随机元素之间的联系，证明此类空间上的协方差算子由对称正定函数唯一确定，并据此将Driscoll定理首次推广到了再生核巴拿赫空间。",
+    "en_tdlr": "This paper establishes the connection between Gaussian processes and Gaussian random elements in reproducing kernel Banach spaces, proves that covariance operators on such spaces are uniquely determined by symmetric positive-definite functions, and extends Driscoll's theorem to the reproducing kernel Banach space setting."
+}

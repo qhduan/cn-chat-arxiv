@@ -1,0 +1,12 @@
+{
+    "title": "CALLIOPE: Private Insights into AI Use, Without Embeddings",
+    "abstract": "arXiv:2610.28797v1 Announce Type: cross  Abstract: We introduce CALLIOPE, a top-down framework for discovering topic hierarchies in large corpora of unstructured data (e.g., LLM conversations), while supporting differential privacy (DP). Unlike traditional and even recent LLM-augmented approaches that ultimately rely on clustering vector embeddings, our framework leverages LLM capabilities directly for the entire pipeline. Experiments demonstrate that this approach provides better utility over existing (embedding-based) methods in the DP setting, especially in the high privacy regime. We evaluate the quality of CALLIOPE outputs using a variety of traditionally studied clustering metrics, as well as some novel utility metrics that we introduce.",
+    "link": "https://arxiv.org/abs/2610.28797",
+    "context": "Title: CALLIOPE: Private Insights into AI Use, Without Embeddings\nAbstract: arXiv:2610.28797v1 Announce Type: cross  Abstract: We introduce CALLIOPE, a top-down framework for discovering topic hierarchies in large corpora of unstructured data (e.g., LLM conversations), while supporting differential privacy (DP). Unlike traditional and even recent LLM-augmented approaches that ultimately rely on clustering vector embeddings, our framework leverages LLM capabilities directly for the entire pipeline. Experiments demonstrate that this approach provides better utility over existing (embedding-based) methods in the DP setting, especially in the high privacy regime. We evaluate the quality of CALLIOPE outputs using a variety of traditionally studied clustering metrics, as well as some novel utility metrics that we introduce.",
+    "path": "papers/26/10/2610.28797.json",
+    "total_tokens": 1013,
+    "translated_title": "CALLIOPE：无需嵌入向量的AI使用私密洞察",
+    "translated_abstract": "我们提出了CALLIOPE，这是一个自顶向下的框架，用于在大型非结构化数据语料库（例如LLM对话）中发现主题层次结构，同时支持差分隐私（DP）。与传统的乃至最近的LLM增强方法不同——这些方法最终都依赖于对向量嵌入进行聚类——我们的框架在整个流程中直接利用LLM的能力。实验表明，在差分隐私设置下，该方法比现有的（基于嵌入的）方法具有更好的效用，尤其是在高隐私保护程度的情况下。我们使用多种传统的聚类指标以及我们提出的一些新颖效用指标来评估CALLIOPE输出的质量。",
+    "tldr": "CALLIOPE是一个支持差分隐私的自顶向下主题层次发现框架，它不依赖向量嵌入聚类，而是在整个流程中直接利用LLM能力，在高隐私保护程度下比基于嵌入的方法表现更好。",
+    "en_tdlr": "CALLIOPE is a top-down, differential-privacy-supporting framework for discovering topic hierarchies that leverages LLM capabilities directly throughout the pipeline instead of clustering vector embeddings, achieving better utility than embedding-based methods especially in high-privacy regimes."
+}

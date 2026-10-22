@@ -1,0 +1,12 @@
+{
+    "title": "Revenue Guarantee Equivalence between Dominant-Strategy and Bayesian Mechanisms",
+    "abstract": "arXiv:2610.29208v1 Announce Type: new  Abstract: In auction design with limited information about bidders' value distributions, we provide an optimality foundation for dominant-strategy mechanisms. We show that simple dominant-strategy incentive compatible (DIC) mechanisms--either a second-price auction with a random reserve or the standard second-price auction without a reserve--achieve a revenue guarantee equal to the worst-case optimal revenue attainable by Bayesian incentive compatible (BIC) mechanisms, thereby establishing a robust form of DIC-BIC equivalence.",
+    "link": "https://arxiv.org/abs/2610.29208",
+    "context": "Title: Revenue Guarantee Equivalence between Dominant-Strategy and Bayesian Mechanisms\nAbstract: arXiv:2610.29208v1 Announce Type: new  Abstract: In auction design with limited information about bidders' value distributions, we provide an optimality foundation for dominant-strategy mechanisms. We show that simple dominant-strategy incentive compatible (DIC) mechanisms--either a second-price auction with a random reserve or the standard second-price auction without a reserve--achieve a revenue guarantee equal to the worst-case optimal revenue attainable by Bayesian incentive compatible (BIC) mechanisms, thereby establishing a robust form of DIC-BIC equivalence.",
+    "path": "papers/26/10/2610.29208.json",
+    "total_tokens": 882,
+    "translated_title": "占优策略机制与贝叶斯机制之间的收入保证等价性",
+    "translated_abstract": "在对竞买人价值分布信息有限的拍卖设计中，我们为占优策略机制提供了最优性基础。我们证明，简单的占优策略激励相容（DIC）机制——无论是带随机保留价的二级价格拍卖，还是不带保留价的标准二级价格拍卖——所实现的收入保证等于贝叶斯激励相容（BIC）机制在最坏情形下所能达到的最优收入，从而建立了一种稳健形式的DIC-BIC等价性。",
+    "tldr": "该论文证明，在竞买人价值分布信息有限时，简单的占优策略激励相容机制（带随机保留价或无保留价的二级价格拍卖）能实现与贝叶斯激励相容机制最坏情形最优收入相等的收入保证，从而建立了稳健的DIC-BIC等价性。",
+    "en_tdlr": "Simple dominant-strategy incentive compatible mechanisms—second-price auctions with a random reserve or without a reserve—achieve revenue guarantees equal to the worst-case optimal revenue of Bayesian incentive compatible mechanisms, establishing a robust form of DIC-BIC equivalence."
+}

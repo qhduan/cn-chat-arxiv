@@ -1,0 +1,12 @@
+{
+    "title": "Actually, All Learnable Distribution Classes Are Privately Learnable",
+    "abstract": "arXiv:2610.28878v1 Announce Type: new  Abstract: We show that every class of distributions that is learnable up to arbitrarily small target error in total variation distance with finitely many samples is also learnable under ($\\varepsilon, \\delta$)-differential privacy up to arbitrarily small target error with finitely many samples. This proves a conjecture of Ashtiani. Previous work by Bun, Kamath, Mouzakis, and Singhal [arXiv:2402.00267] gave a weak refutation of this conjecture, showing that this implication is not true when learnability is defined with respect to a fixed target error. In contrast, we show that, under the standard definition of learnability, the conjecture is true.",
+    "link": "https://arxiv.org/abs/2610.28878",
+    "context": "Title: Actually, All Learnable Distribution Classes Are Privately Learnable\nAbstract: arXiv:2610.28878v1 Announce Type: new  Abstract: We show that every class of distributions that is learnable up to arbitrarily small target error in total variation distance with finitely many samples is also learnable under ($\\varepsilon, \\delta$)-differential privacy up to arbitrarily small target error with finitely many samples. This proves a conjecture of Ashtiani. Previous work by Bun, Kamath, Mouzakis, and Singhal [arXiv:2402.00267] gave a weak refutation of this conjecture, showing that this implication is not true when learnability is defined with respect to a fixed target error. In contrast, we show that, under the standard definition of learnability, the conjecture is true.",
+    "path": "papers/26/10/2610.28878.json",
+    "total_tokens": 999,
+    "translated_title": "实际上，所有可学习的分布类都是可隐私学习的",
+    "translated_abstract": "我们证明，每一个在总变差距离下能够以有限个样本学习到任意小目标误差的分布类，同样可以在（$\\varepsilon, \\delta$）-差分隐私条件下以有限个样本学习到任意小的目标误差。这证明了 Ashtiani 提出的一个猜想。Bun、Kamath、Mouzakis 和 Singhal 之前的工作 [arXiv:2402.00267] 曾对该猜想给出了弱反驳，表明当可学习性相对于固定目标误差来定义时，这一蕴含关系并不成立。与之相反，我们证明，在可学习性的标准定义下，该猜想是成立的。",
+    "tldr": "本文证明了所有在总变差距离下可学习的分布类在（ε, δ）-差分隐私下同样可学习，从而证明了 Ashtiani 的猜想。",
+    "en_tdlr": "This paper proves that every distribution class learnable up to arbitrarily small error in total variation distance with finitely many samples is also learnable under (ε, δ)-differential privacy, thereby resolving Ashtiani's conjecture affirmatively."
+}

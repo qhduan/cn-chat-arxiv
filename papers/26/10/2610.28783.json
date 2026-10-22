@@ -1,0 +1,12 @@
+{
+    "title": "Truth and Deception",
+    "abstract": "arXiv:2610.28783v1 Announce Type: new  Abstract: Organizations rely on languages that imperfectly represent underlying states. We study the interaction of a lying cost, increasing in the distance from the message prescribed by the language, and a deception cost, increasing in the distortion induced in beliefs. Higher lying costs reduce bias and informativeness; higher deception costs do the opposite. Full revelation is sustained as lying costs become small, but with unbounded bias and communication costs. The most efficient policies sustaining nearly full revelation feature high deception costs with some tolerance for lying. With complementarities, targeting messages both untruthful and deceptive sustains full revelation without communication costs.",
+    "link": "https://arxiv.org/abs/2610.28783",
+    "context": "Title: Truth and Deception\nAbstract: arXiv:2610.28783v1 Announce Type: new  Abstract: Organizations rely on languages that imperfectly represent underlying states. We study the interaction of a lying cost, increasing in the distance from the message prescribed by the language, and a deception cost, increasing in the distortion induced in beliefs. Higher lying costs reduce bias and informativeness; higher deception costs do the opposite. Full revelation is sustained as lying costs become small, but with unbounded bias and communication costs. The most efficient policies sustaining nearly full revelation feature high deception costs with some tolerance for lying. With complementarities, targeting messages both untruthful and deceptive sustains full revelation without communication costs.",
+    "path": "papers/26/10/2610.28783.json",
+    "total_tokens": 940,
+    "translated_title": "真相与欺骗",
+    "translated_abstract": "组织所依赖的语言并不能完美地表达底层真实状态。本文研究了说谎成本与欺骗成本之间的相互作用：前者随信息偏离语言规定内容的距离增大而增加，后者随信息给信念带来的失真程度增大而增加。更高的说谎成本会降低偏差和信息量；而更高的欺骗成本则产生相反的效果。当说谎成本变得足够小时，完全披露能够得以维持，但会伴随无界的偏差和沟通成本。能够维持接近完全披露的最有效政策，其特征是设置较高的欺骗成本，同时对说谎行为保持一定的容忍度。在存在互补性的情况下，采用既不真实又具有欺骗性的信息，可以在零沟通成本的条件下实现完全披露。",
+    "tldr": "本文构建了同时包含说谎成本与欺骗成本的信息传递模型，揭示两者具有相反的效应，并证明在存在互补性时，通过既不真实又具欺骗性的信息策略，可以在无沟通成本的情况下实现完全披露。",
+    "en_tdlr": "This paper develops a communication model incorporating both lying costs and deception costs with opposing effects, and shows that with complementarities, targeting messages that are both untruthful and deceptive can sustain full revelation without communication costs."
+}

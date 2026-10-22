@@ -1,0 +1,12 @@
+{
+    "title": "Double machine learning for causal inference in a multivariate sample selection model",
+    "abstract": "arXiv:2511.12640v2 Announce Type: replace  Abstract: We propose double machine learning (DML) estimators of the average treatment effect (ATE) and the average treatment effect on the treated (ATT) in the multivariate sample selection model with multiple ordinal selection equations. We establish asymptotic normality of the proposed estimators and study finite sample properties on simulated data. Specifically, the results of the analysis suggest that without addressing multivariate sample selection, the estimates of the causal parameters may be highly biased. However, the proposed estimators allow us to avoid these biases. Moreover, we apply the estimators to study the effect of female education on the log-wage ratio of spouses.",
+    "link": "https://arxiv.org/abs/2511.12640",
+    "context": "Title: Double machine learning for causal inference in a multivariate sample selection model\nAbstract: arXiv:2511.12640v2 Announce Type: replace  Abstract: We propose double machine learning (DML) estimators of the average treatment effect (ATE) and the average treatment effect on the treated (ATT) in the multivariate sample selection model with multiple ordinal selection equations. We establish asymptotic normality of the proposed estimators and study finite sample properties on simulated data. Specifically, the results of the analysis suggest that without addressing multivariate sample selection, the estimates of the causal parameters may be highly biased. However, the proposed estimators allow us to avoid these biases. Moreover, we apply the estimators to study the effect of female education on the log-wage ratio of spouses.",
+    "path": "papers/25/11/2511.12640.json",
+    "total_tokens": 968,
+    "translated_title": "多元样本选择模型中用于因果推断的双重机器学习",
+    "translated_abstract": "我们提出了在具有多个序数选择方程的多元样本选择模型中，用于估计平均处理效应（ATE）和受处理者平均处理效应（ATT）的双重机器学习（DML）估计量。我们建立了所提出估计量的渐近正态性，并在模拟数据上研究了其有限样本性质。具体而言，分析结果表明，如果不处理多元样本选择问题，因果参数的估计可能存在高度偏差。然而，所提出的估计量使我们能够避免这些偏差。此外，我们将这些估计量应用于研究女性教育对配偶对数工资比的影响。",
+    "tldr": "该论文提出了一种针对多元样本选择模型的双重机器学习估计量，能够有效消除因忽视样本选择而导致的因果参数估计偏差，并应用于研究女性教育对配偶对数工资比的影响。",
+    "en_tdlr": "This paper proposes double machine learning (DML) estimators for ATE and ATT in a multivariate sample selection model with multiple ordinal selection equations, which effectively eliminate estimation biases caused by unaddressed sample selection and are applied to study the effect of female education on spouses' log-wage ratios."
+}

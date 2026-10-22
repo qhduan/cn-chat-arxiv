@@ -1,0 +1,12 @@
+{
+    "title": "Backtracking Direct, Indirect and Total Effects",
+    "abstract": "arXiv:2610.28910v1 Announce Type: cross  Abstract: Natural direct and indirect effects are defined through cross-world interventional counterfactuals. We propose an alternative construction based on backtracking counterfactuals. Rather than intervening on the treatment or mediator, we use a backtracking conditional distribution to construct an alternative exogenous state satisfying a desired treatment-mediator constraint. This yields the backtracking direct and indirect effects, and also the backtracking total effect. Likewise, we adapt the population intervention effects.",
+    "link": "https://arxiv.org/abs/2610.28910",
+    "context": "Title: Backtracking Direct, Indirect and Total Effects\nAbstract: arXiv:2610.28910v1 Announce Type: cross  Abstract: Natural direct and indirect effects are defined through cross-world interventional counterfactuals. We propose an alternative construction based on backtracking counterfactuals. Rather than intervening on the treatment or mediator, we use a backtracking conditional distribution to construct an alternative exogenous state satisfying a desired treatment-mediator constraint. This yields the backtracking direct and indirect effects, and also the backtracking total effect. Likewise, we adapt the population intervention effects.",
+    "path": "papers/26/10/2610.28910.json",
+    "total_tokens": 808,
+    "translated_title": "回溯直接效应、间接效应与总效应",
+    "translated_abstract": "自然直接效应和间接效应是通过跨世界干预反事实来定义的。我们提出了一种基于回溯反事实的替代性构造方法。我们不再对处理变量或中介变量进行干预，而是利用回溯条件分布来构造一个满足所需处理-中介约束的替代性外生状态。由此得到了回溯直接效应和回溯间接效应，以及回溯总效应。同样地，我们也对人群干预效应进行了相应的改造。",
+    "tldr": "本文提出基于回溯反事实的因果效应新定义，无需干预处理变量或中介变量，而是通过回溯条件分布构造满足处理-中介约束的替代外生状态，从而得到回溯直接效应、间接效应和总效应。",
+    "en_tdlr": "This paper proposes novel definitions of direct, indirect, and total effects based on backtracking counterfactuals, which construct an alternative exogenous state via backtracking conditional distributions rather than intervening on the treatment or mediator."
+}

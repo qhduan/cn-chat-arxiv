@@ -1,0 +1,12 @@
+{
+    "title": "Geometric knowledge spaces, Attention pairing and Architectures",
+    "abstract": "arXiv:2610.29526v1 Announce Type: new  Abstract: In this paper, we propose a geometric approach to deriving attention mechanisms and exploring potential new transformer architectures. We begin by formalizing the notions of knowledge worlds and attention pairings, then demonstrate how this framework naturally leads to the architectures of standard attention, causal attention, linear attention, tensor attention, and recurrent neural networks. Finally, we introduce several new geometric spaces that may inspire novel neural network architectures.",
+    "link": "https://arxiv.org/abs/2610.29526",
+    "context": "Title: Geometric knowledge spaces, Attention pairing and Architectures\nAbstract: arXiv:2610.29526v1 Announce Type: new  Abstract: In this paper, we propose a geometric approach to deriving attention mechanisms and exploring potential new transformer architectures. We begin by formalizing the notions of knowledge worlds and attention pairings, then demonstrate how this framework naturally leads to the architectures of standard attention, causal attention, linear attention, tensor attention, and recurrent neural networks. Finally, we introduce several new geometric spaces that may inspire novel neural network architectures.",
+    "path": "papers/26/10/2610.29526.json",
+    "total_tokens": 809,
+    "translated_title": "几何知识空间、注意力配对与架构",
+    "translated_abstract": "在本文中，我们提出了一种几何方法来推导注意力机制并探索潜在的新型transformer架构。我们首先形式化了“知识世界”和“注意力配对”的概念，然后展示了该框架如何自然地引出标准注意力、因果注意力、线性注意力、张量注意力以及循环神经网络的架构。最后，我们引入了若干新的几何空间，这些空间可能启发新型神经网络架构的设计。",
+    "tldr": "本文提出一个几何化框架，通过形式化“知识世界”与“注意力配对”的概念，统一推导出标准注意力、因果注意力、线性注意力、张量注意力和循环神经网络等多种架构，并引入新的几何空间以启发未来神经网络架构的设计。",
+    "en_tdlr": "This paper proposes a geometric framework that formalizes \"knowledge worlds\" and \"attention pairings\" to naturally derive standard attention, causal attention, linear attention, tensor attention, and RNN architectures, and introduces new geometric spaces that may inspire novel neural network architectures."
+}

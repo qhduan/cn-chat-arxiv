@@ -1,0 +1,12 @@
+{
+    "title": "A Quasipolynomial Algorithm for $\\ell_\\infty$ Contractions",
+    "abstract": "arXiv:2610.30122v1 Announce Type: cross  Abstract: We give an algorithm for computing an $\\eps$-approximate fixed point of any $d$-dimensional nonexpansion with respect to the $\\ell_\\infty$ norm in time $\\log(1/\\eps)^{O(\\log^2 d)}$. At its core, our method uses a boosting argument to geometrically shrink a search region. Among other consequences, our algorithm implies that simple stochastic games can be solved in quasipolynomial time.",
+    "link": "https://arxiv.org/abs/2610.30122",
+    "context": "Title: A Quasipolynomial Algorithm for $\\ell_\\infty$ Contractions\nAbstract: arXiv:2610.30122v1 Announce Type: cross  Abstract: We give an algorithm for computing an $\\eps$-approximate fixed point of any $d$-dimensional nonexpansion with respect to the $\\ell_\\infty$ norm in time $\\log(1/\\eps)^{O(\\log^2 d)}$. At its core, our method uses a boosting argument to geometrically shrink a search region. Among other consequences, our algorithm implies that simple stochastic games can be solved in quasipolynomial time.",
+    "path": "papers/26/10/2610.30122.json",
+    "total_tokens": 822,
+    "translated_title": "关于 $\\ell_\\infty$ 收缩映射的拟多项式算法",
+    "translated_abstract": "我们给出了一种算法，可以在 $\\log(1/\\eps)^{O(\\log^2 d)}$ 的时间内计算任意关于 $\\ell_\\infty$ 范数的 $d$ 维非扩张映射的 $\\eps$-近似不动点。我们的方法核心在于使用一种提升论证来几何级地缩小搜索区域。作为诸多推论之一，我们的算法意味着简单随机博弈可以在拟多项式时间内求解。",
+    "tldr": "本文提出了一种在拟多项式时间内计算 $\\ell_\\infty$ 范数下非扩张映射的近似不动点的算法，由此推出简单随机博弈可以在拟多项式时间内求解。",
+    "en_tdlr": "This paper presents a quasipolynomial-time algorithm for computing approximate fixed points of nonexpansive mappings under the $\\ell_\\infty$ norm, implying that simple stochastic games can be solved in quasipolynomial time."
+}

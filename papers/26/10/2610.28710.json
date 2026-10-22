@@ -1,0 +1,12 @@
+{
+    "title": "Translation and data ethics",
+    "abstract": "arXiv:2610.28710v1 Announce Type: new  Abstract: This chapter introduces data ethics for translation and discusses a number of ethical issues regarding data. These include issues of copyright, ownership and bias, which apply to all types of data, whereas there are further issues particular to minoritised language communities and those on either side of the digital divide, as data is implicated in power imbalances and dynamics. We close with a discussion of responsibility and regulation, and reflect on the growing attention on data ethics from translation studies researchers.",
+    "link": "https://arxiv.org/abs/2610.28710",
+    "context": "Title: Translation and data ethics\nAbstract: arXiv:2610.28710v1 Announce Type: new  Abstract: This chapter introduces data ethics for translation and discusses a number of ethical issues regarding data. These include issues of copyright, ownership and bias, which apply to all types of data, whereas there are further issues particular to minoritised language communities and those on either side of the digital divide, as data is implicated in power imbalances and dynamics. We close with a discussion of responsibility and regulation, and reflect on the growing attention on data ethics from translation studies researchers.",
+    "path": "papers/26/10/2610.28710.json",
+    "total_tokens": 782,
+    "translated_title": "翻译与数据伦理",
+    "translated_abstract": "本章介绍翻译领域的数据伦理，并讨论了与数据相关的一系列伦理问题。这些问题包括版权、所有权和偏见等，适用于所有类型的数据；而对于少数语言社区以及处于数字鸿沟两侧的人群，还存在其他特殊问题，因为数据与权力失衡和权力动态密切相关。最后，我们讨论了责任与监管问题，并反思了翻译学研究者对数据伦理日益增长的关注。",
+    "tldr": "本章系统介绍了翻译领域的数据伦理，涵盖版权、所有权、偏见等普遍性问题，以及少数语言社区和数字鸿沟相关的特殊伦理问题，并探讨了责任、监管及翻译学界对数据伦理日益增长的关注。",
+    "en_tdlr": "This chapter introduces data ethics for translation, addressing universal issues like copyright, ownership and bias, as well as concerns specific to minoritised language communities and the digital divide, and concludes with reflections on responsibility, regulation and growing scholarly attention."
+}
