@@ -1,0 +1,11 @@
+{
+    "title": "Local Discrimination of Binary Classifiers via Localized AUC Functional",
+    "abstract": "arXiv:2610.31216v1 Announce Type: new  Abstract: Risk prediction models are frequently evaluated with AUC, which means that during evaluation we are blind to performance heterogeneity, which could lead to bad decision-making in clinics. In this work, we aim to change that by identifying patient cohorts for whom the risk prediction model might not be an accurate predictor. To separate these cohorts, we use a version of the weighted AUC, which we call Localized AUC or LAUC. Using this metric, we build a method that we coin LOCATOR. This method is able to identify cohorts of patients for whom the risk prediction model is inaccurate. We test this method both in real-world data and in simulations. We also build a statistical background for the use of Localized AUC for our purposes.",
+    "link": "https://arxiv.org/abs/2610.31216",
+    "context": "Title: Local Discrimination of Binary Classifiers via Localized AUC Functional\nAbstract: arXiv:2610.31216v1 Announce Type: new  Abstract: Risk prediction models are frequently evaluated with AUC, which means that during evaluation we are blind to performance heterogeneity, which could lead to bad decision-making in clinics. In this work, we aim to change that by identifying patient cohorts for whom the risk prediction model might not be an accurate predictor. To separate these cohorts, we use a version of the weighted AUC, which we call Localized AUC or LAUC. Using this metric, we build a method that we coin LOCATOR. This method is able to identify cohorts of patients for whom the risk prediction model is inaccurate. We test this method both in real-world data and in simulations. We also build a statistical background for the use of Localized AUC for our purposes.",
+    "path": "papers/26/10/2610.31216.json",
+    "total_tokens": 1044,
+    "translated_title": "基于局部化AUC泛函的二元分类器局部判别",
+    "translated_abstract": "风险预测模型通常使用AUC进行评估，这意味着在评估过程中我们对模型性能的异质性视而不见，这可能导致临床上的不良决策。在这项工作中，我们旨在通过识别风险预测模型可能无法准确预测的患者队列来改变这一现状。为了区分这些队列，我们使用了一种加权AUC的变体，我们称之为局部化AUC（Localized AUC，LAUC）。基于这一指标，我们构建了一种命名为LOCATOR的方法。该方法能够识别出风险预测模型不准确的患者队列。我们在真实世界数据和模拟实验中对该方法进行了测试。此外，我们还为局部化AUC在该应用中的使用建立了统计学理论基础。",
+    "tldr": "本文提出局部化AUC（LAUC）指标及LOCATOR方法，能够识别风险预测模型表现不佳的患者队列，从而克服传统AUC评估忽略性能异质性、可能导致临床决策失误的局限。"
+}

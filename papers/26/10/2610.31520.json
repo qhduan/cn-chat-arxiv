@@ -1,0 +1,12 @@
+{
+    "title": "The Geometry of Metaphor: Probing and Steering Metaphor Representations in Large Language Models",
+    "abstract": "arXiv:2610.31520v1 Announce Type: new  Abstract: Metaphor is a crucial aspect of human cognition. As such, we would like to understand how it is represented in large language models (LLMs) and how it might be controlled. We use mechanistic interpretability techniques to identify causal subspaces in a range of LLMs covering different architectures and sizes. We show that we are able to steer output on classification tasks across different parts of speech. We are also able to steer output on generation tasks, indicating that these techniques can be used to control the metaphoricity of LLM output.",
+    "link": "https://arxiv.org/abs/2610.31520",
+    "context": "Title: The Geometry of Metaphor: Probing and Steering Metaphor Representations in Large Language Models\nAbstract: arXiv:2610.31520v1 Announce Type: new  Abstract: Metaphor is a crucial aspect of human cognition. As such, we would like to understand how it is represented in large language models (LLMs) and how it might be controlled. We use mechanistic interpretability techniques to identify causal subspaces in a range of LLMs covering different architectures and sizes. We show that we are able to steer output on classification tasks across different parts of speech. We are also able to steer output on generation tasks, indicating that these techniques can be used to control the metaphoricity of LLM output.",
+    "path": "papers/26/10/2610.31520.json",
+    "total_tokens": 829,
+    "translated_title": "隐喻的几何学：探测与引导大语言模型中的隐喻表示",
+    "translated_abstract": "隐喻是人类认知的一个关键方面。因此，我们希望理解隐喻在大语言模型（LLM）中是如何被表示的，以及如何对其进行控制。我们使用机制可解释性技术，在涵盖不同架构和规模的一系列大语言模型中识别出隐喻相关的因果子空间。我们证明能够在分类任务上跨不同词性对输出进行引导，也能够在生成任务上引导输出，这表明这些技术可用于控制大语言模型输出的隐喻性。",
+    "tldr": "该研究利用机制可解释性技术在大语言模型中定位隐喻的因果子空间，实现对分类和生成任务中隐喻输出的引导与控制。",
+    "en_tdlr": "This study uses mechanistic interpretability to identify causal subspaces for metaphor in LLMs, enabling steering of metaphorical outputs in both classification and generation tasks."
+}

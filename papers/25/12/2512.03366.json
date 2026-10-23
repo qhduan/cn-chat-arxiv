@@ -1,0 +1,11 @@
+{
+    "title": "Evaluating A/B Testing Methodologies via Sample Splitting: Theory and Practice",
+    "abstract": "arXiv:2512.03366v3 Announce Type: replace  Abstract: We develop a theoretical framework for sample splitting in A/B testing environments, where data for each test are partitioned into two splits to measure methodological performance when the true impacts of tests are unobserved. We show that sample-split estimators are generally biased for full-sample performance but consistently estimate sample-split analogues of it. We derive their asymptotic distributions, construct valid confidence intervals, and characterize the bias-variance trade-offs underlying sample-split design choices. We validate our theoretical results through simulations and provide implementation guidance for A/B testing products seeking to evaluate new estimators and decision rules.",
+    "link": "https://arxiv.org/abs/2512.03366",
+    "context": "Title: Evaluating A/B Testing Methodologies via Sample Splitting: Theory and Practice\nAbstract: arXiv:2512.03366v3 Announce Type: replace  Abstract: We develop a theoretical framework for sample splitting in A/B testing environments, where data for each test are partitioned into two splits to measure methodological performance when the true impacts of tests are unobserved. We show that sample-split estimators are generally biased for full-sample performance but consistently estimate sample-split analogues of it. We derive their asymptotic distributions, construct valid confidence intervals, and characterize the bias-variance trade-offs underlying sample-split design choices. We validate our theoretical results through simulations and provide implementation guidance for A/B testing products seeking to evaluate new estimators and decision rules.",
+    "path": "papers/25/12/2512.03366.json",
+    "total_tokens": 1125,
+    "translated_title": "通过样本分割评估A/B测试方法论：理论与实践",
+    "translated_abstract": "我们为A/B测试环境中的样本分割建立了一个理论框架，其中每个测试的数据被划分为两个子集，以便在测试的真实影响无法被观测的情况下衡量方法论的表现。我们证明了样本分割估计量相对于全样本表现通常是有偏的，但能够一致地估计其样本分割对应量。我们推导了它们的渐近分布，构建了有效的置信区间，并刻画了样本分割设计选择背后的偏差-方差权衡。我们通过模拟验证了理论结果，并为希望评估新估计量和决策规则的A/B测试产品提供了实施指导。",
+    "tldr": "本文建立了A/B测试中基于样本分割的方法论评估理论框架，证明样本分割估计量虽对全样本表现有偏但能一致估计其对应量，并推导渐近分布、构建置信区间、刻画偏差-方差权衡，为评估新估计量和决策规则提供理论与实践指导。"
+}

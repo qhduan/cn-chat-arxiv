@@ -1,0 +1,12 @@
+{
+    "title": "Protegrity-PII Technical Report",
+    "abstract": "arXiv:2610.30518v1 Announce Type: new  Abstract: We present Protegrity-PII, a new PII decision model for structured and unstructured text. Protegrity-PII achieves a typed recall of 0.915 with a precision of 0.907 on a new benchmark we propose, PII-SCOPE. Our model processes text in 0.49 seconds per million characters at \\$0.0005 per million characters on a single RTX 6000 using batched inference. Due in part to the expansive nature of the entity type taxonomy used in training, Protegrity-PII achieves superior out-of-distribution generalization when benchmarked against a selection of state of the art models and datasets.",
+    "link": "https://arxiv.org/abs/2610.30518",
+    "context": "Title: Protegrity-PII Technical Report\nAbstract: arXiv:2610.30518v1 Announce Type: new  Abstract: We present Protegrity-PII, a new PII decision model for structured and unstructured text. Protegrity-PII achieves a typed recall of 0.915 with a precision of 0.907 on a new benchmark we propose, PII-SCOPE. Our model processes text in 0.49 seconds per million characters at \\$0.0005 per million characters on a single RTX 6000 using batched inference. Due in part to the expansive nature of the entity type taxonomy used in training, Protegrity-PII achieves superior out-of-distribution generalization when benchmarked against a selection of state of the art models and datasets.",
+    "path": "papers/26/10/2610.30518.json",
+    "total_tokens": 1076,
+    "translated_title": "Protegrity-PII 技术报告",
+    "translated_abstract": "我们提出了 Protegrity-PII，一种面向结构化和非结构化文本的新型 PII（个人身份信息）决策模型。在我们提出的新基准 PII-SCOPE 上，Protegrity-PII 实现了 0.915 的类型化召回率和 0.907 的精确率。借助批量推理，该模型在单个 RTX 6000 上以每百万字符 0.49 秒的速度处理文本，成本仅为每百万字符 0.0005 美元。部分得益于训练中使用的实体类型分类体系的广泛性，与一系列最先进的模型和数据集相比，Protegrity-PII 展现出卓越的分布外泛化能力。",
+    "tldr": "提出了新型 PII 决策模型 Protegrity-PII，在自建基准 PII-SCOPE 上实现 0.915 召回率和 0.907 精确率，兼具高速低成本推理与卓越的分布外泛化能力。",
+    "en_tdlr": "Protegrity-PII is a new PII decision model that achieves 0.915 typed recall and 0.907 precision on the proposed PII-SCOPE benchmark, offering fast, low-cost inference and superior out-of-distribution generalization."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Stationarity Constraints Improve Both Energies and Densities of Machine-Learned Exchange-Correlation Functionals",
+    "abstract": "arXiv:2610.30022v1 Announce Type: cross  Abstract: Empirical exchange-correlation functionals are fitted on fixed orbitals but used self-consistently, so better energies often come with worse densities. We show that the Brillouin residual of a trained functional on the Kohn-Sham orbitals of an accurate density controls, to first order, both the self-consistent density shift and the gap between fitted and self-consistent energies. Penalizing it requires no self-consistent-field solution during training. Trained on 6 energies and 11 CCSD densities, a neural meta-GGA surpasses SCAN in both atomization energies and densities of unseen molecules.",
+    "link": "https://arxiv.org/abs/2610.30022",
+    "context": "Title: Stationarity Constraints Improve Both Energies and Densities of Machine-Learned Exchange-Correlation Functionals\nAbstract: arXiv:2610.30022v1 Announce Type: cross  Abstract: Empirical exchange-correlation functionals are fitted on fixed orbitals but used self-consistently, so better energies often come with worse densities. We show that the Brillouin residual of a trained functional on the Kohn-Sham orbitals of an accurate density controls, to first order, both the self-consistent density shift and the gap between fitted and self-consistent energies. Penalizing it requires no self-consistent-field solution during training. Trained on 6 energies and 11 CCSD densities, a neural meta-GGA surpasses SCAN in both atomization energies and densities of unseen molecules.",
+    "path": "papers/26/10/2610.30022.json",
+    "total_tokens": 1385,
+    "translated_title": "平稳性约束同时提升机器学习交换相关泛函的能量与密度",
+    "translated_abstract": "经验性交换相关泛函通常在固定轨道上进行拟合，但在使用时却是自洽的，因此更好的能量往往伴随着更差的密度。我们证明，训练得到的泛函在精确密度的Kohn-Sham轨道上的布里渊残差，在一阶意义上同时决定了自洽密度偏移量以及拟合能量与自洽能量之间的差距；对其施加惩罚在训练过程中无需自洽场求解。仅用6个能量和11个CCSD密度进行训练，神经meta-GGA泛函在未见分子的原子化能量和密度上均超越了SCAN。",
+    "tldr": "在训练中以布里渊残差作为平稳性惩罚（无需自洽场求解），可让机器学习交换相关泛函的能量与密度精度同时得到提升，仅用6个能量和11个CCSD密度训练的神经meta-GGA泛函即可在未见分子上超越SCAN。",
+    "en_tdlr": "A Brillouin-residual stationarity penalty during training—which requires no self-consistent-field solutions—simultaneously improves the energies and densities of machine-learned exchange-correlation functionals, enabling a neural meta-GGA trained on just 6 energies and 11 CCSD densities to outperform SCAN on unseen molecules."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Agent AI Zarz\\k{a}dzaj\\k{a}cy Sieci\\k{a} Open RAN Zorientowana na U\\.zytkownika",
+    "abstract": "arXiv:2610.28860v1 Announce Type: cross  Abstract: Jednym z najwa\\.zniejszych wyzwa\\'n zwi\\k{a}zanych z implementacj\\k{a} sieci Open RAN o architekturze zorientowanej na u\\.zytkownika jest odpowiednie formowanie tzw. klastr\\'ow obs{\\l}uguj\\k{a}cych. Problem ten mo\\.ze by\\'c efektywnie rozwi\\k{a}zany za pomoc\\k{a} zaproponowanego Agenta AI bazuj\\k{a}cego na modelu j\\k{e}zykowym. Wyniki symulacji pokaza{\\l}y, \\.ze zaproponowane rozwi\\k{a}zanie pozwala na ponad 2-krotne zwi\\k{e}kszenie mediany rozk{\\l}adu przep{\\l}ywno\\'sci u\\.zytkownik\\'ow wzgl\\k{e}dem standardowej architektury zorientowanej na sie\\'c.",
+    "link": "https://arxiv.org/abs/2610.28860",
+    "context": "Title: Agent AI Zarz\\k{a}dzaj\\k{a}cy Sieci\\k{a} Open RAN Zorientowana na U\\.zytkownika\nAbstract: arXiv:2610.28860v1 Announce Type: cross  Abstract: Jednym z najwa\\.zniejszych wyzwa\\'n zwi\\k{a}zanych z implementacj\\k{a} sieci Open RAN o architekturze zorientowanej na u\\.zytkownika jest odpowiednie formowanie tzw. klastr\\'ow obs{\\l}uguj\\k{a}cych. Problem ten mo\\.ze by\\'c efektywnie rozwi\\k{a}zany za pomoc\\k{a} zaproponowanego Agenta AI bazuj\\k{a}cego na modelu j\\k{e}zykowym. Wyniki symulacji pokaza{\\l}y, \\.ze zaproponowane rozwi\\k{a}zanie pozwala na ponad 2-krotne zwi\\k{e}kszenie mediany rozk{\\l}adu przep{\\l}ywno\\'sci u\\.zytkownik\\'ow wzgl\\k{e}dem standardowej architektury zorientowanej na sie\\'c.",
+    "path": "papers/26/10/2610.28860.json",
+    "total_tokens": 964,
+    "translated_title": "管理以用户为中心的Open RAN网络的AI智能体",
+    "translated_abstract": "实现以用户为中心架构的Open RAN网络所面临的最重要挑战之一是如何正确形成所谓的“服务簇”。所提出的基于大语言模型的AI智能体可以有效解决这一问题。仿真结果表明，与传统的以网络为中心的架构相比，该解决方案能够使用户吞吐量分布的中位数提升2倍以上。",
+    "tldr": "本文提出一种基于大语言模型的AI智能体来解决以用户为中心的Open RAN网络中服务簇形成难题，仿真显示其可将用户吞吐量中位数相比传统以网络为中心的架构提升2倍以上。",
+    "en_tdlr": "This paper proposes an LLM-based AI Agent to solve the serving cluster formation challenge in user-centric Open RAN networks, with simulations showing more than 2-fold improvement in median user throughput compared to the standard network-centric architecture."
+}
