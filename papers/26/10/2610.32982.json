@@ -1,0 +1,12 @@
+{
+    "title": "The Language of Instruction: Genre and Generative AI",
+    "abstract": "arXiv:2610.32982v1 Announce Type: new  Abstract: This article argues that instruction-fine-tuned language models should be understood as implementing a genre, what is proposed as the instructional-conversational genre. This genre is an amalgamation of discursive language from prior conversations between generative models and humans recursively run through these massive neural networks. It is instantiated in applications through instruction fine-tuning, the inclusion of a pretext known as a system prompt, and the formalization of inputs in mark-up languages characterized by the use of special tokens and role assignment in turntaking structures.",
+    "link": "https://arxiv.org/abs/2610.32982",
+    "context": "Title: The Language of Instruction: Genre and Generative AI\nAbstract: arXiv:2610.32982v1 Announce Type: new  Abstract: This article argues that instruction-fine-tuned language models should be understood as implementing a genre, what is proposed as the instructional-conversational genre. This genre is an amalgamation of discursive language from prior conversations between generative models and humans recursively run through these massive neural networks. It is instantiated in applications through instruction fine-tuning, the inclusion of a pretext known as a system prompt, and the formalization of inputs in mark-up languages characterized by the use of special tokens and role assignment in turntaking structures.",
+    "path": "papers/26/10/2610.32982.json",
+    "total_tokens": 988,
+    "translated_title": "指令的语言：体裁与生成式人工智能",
+    "translated_abstract": "本文主张，经过指令微调的语言模型应被理解为实现了一种体裁，即本文所提出的“指令-会话体裁”。这一体裁是生成式模型与人类先前对话中话语语言的融合物，这些话语在这些大规模神经网络中被递归地运行处理。在应用中，该体裁通过以下方式得以实例化：指令微调、引入被称为系统提示词的前置文本，以及将输入形式化为标记语言——其特征是使用特殊标记，并在轮次对话结构中进行角色赋值。",
+    "tldr": "本文创新性地提出，指令微调后的语言模型实现了一种新的“指令-会话体裁”，该体裁融合了人机历史对话的话语语言，并通过指令微调、系统提示词以及带有特殊标记和角色赋值的标记语言输入在应用中实例化。",
+    "en_tdlr": "This paper proposes that instruction-fine-tuned language models should be understood as implementing a new \"instructional-conversational genre,\" an amalgamation of prior human-model discourse that is instantiated through instruction fine-tuning, system prompts, and mark-up formalized inputs characterized by special tokens and role assignments."
+}

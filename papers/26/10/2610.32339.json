@@ -1,0 +1,11 @@
+{
+    "title": "Optimal Multiclass Online Regret with Arbitrary Label Spaces",
+    "abstract": "arXiv:2610.32339v1 Announce Type: cross  Abstract: We determine the optimal regret in agnostic multiclass online learning with arbitrary, possibly infinite, label spaces. For every hypothesis class of multiclass Littlestone dimension $d<\\infty$, we prove a regret upper bound of $O(\\min\\{T,\\sqrt{dT}\\})$ over $T$ rounds, matching the known lower bound. This resolves a question of Hanneke et al. (2023) and extends the optimal binary regret bound of Alon et al. (2021). Our proof strengthens the one-sided expert cover of Hanneke et al. (2023) to a fractional cover. We combine this cover with a minimax reduction to a finite expert game, whose best-response rewards provide the disagreement bounds needed for chaining.",
+    "link": "https://arxiv.org/abs/2610.32339",
+    "context": "Title: Optimal Multiclass Online Regret with Arbitrary Label Spaces\nAbstract: arXiv:2610.32339v1 Announce Type: cross  Abstract: We determine the optimal regret in agnostic multiclass online learning with arbitrary, possibly infinite, label spaces. For every hypothesis class of multiclass Littlestone dimension $d<\\infty$, we prove a regret upper bound of $O(\\min\\{T,\\sqrt{dT}\\})$ over $T$ rounds, matching the known lower bound. This resolves a question of Hanneke et al. (2023) and extends the optimal binary regret bound of Alon et al. (2021). Our proof strengthens the one-sided expert cover of Hanneke et al. (2023) to a fractional cover. We combine this cover with a minimax reduction to a finite expert game, whose best-response rewards provide the disagreement bounds needed for chaining.",
+    "path": "papers/26/10/2610.32339.json",
+    "total_tokens": 1119,
+    "translated_title": "具有任意标签空间的多类在线学习最优遗憾",
+    "translated_abstract": "我们确定了在具有任意（可能是无限的）标签空间的不可知多类在线学习中的最优遗憾。对于每个多类 Littlestone 维度为 $d<\\infty$ 的假设类，我们证明了在 $T$ 轮中 $O(\\min\\{T,\\sqrt{dT}\\})$ 的遗憾上界，该上界与已知的下界相匹配。这解决了 Hanneke 等人（2023）提出的一个问题，并将 Alon 等人（2021）的最优二分类遗憾界推广到了多类情形。我们的证明将 Hanneke 等人（2023）的单边专家覆盖加强为分数覆盖，并将该覆盖与到有限专家博弈的极小极大归约相结合，其最佳响应奖励提供了链式论证所需的分歧界。",
+    "tldr": "该论文确定了具有任意（可能无限）标签空间的不可知多类在线学习的最优遗憾上界 $O(\\min\\{T,\\sqrt{dT}\\})$，解决了 Hanneke 等人（2023）提出的开放问题。"
+}

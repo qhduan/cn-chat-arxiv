@@ -1,0 +1,12 @@
+{
+    "title": "Frame Theoretical Derivation of Three Factor Learning Rule for Oja's Subspace Rule",
+    "abstract": "arXiv:2604.02849v2 Announce Type: replace-cross  Abstract: We show that the error-gated Hebbian rule for PCA (EGHR-PCA), a three-factor learning rule equivalent to Oja's subspace rule under Gaussian inputs, can be systematically derived from Oja's subspace rule using frame theory. The global third factor in EGHR-PCA arises exactly as a frame coefficient when the learning rule is expanded with respect to a natural frame on the space of symmetric matrices. This provides a principled, non-heuristic derivation of a biologically plausible learning rule from its mathematically canonical counterpart.",
+    "link": "https://arxiv.org/abs/2604.02849",
+    "context": "Title: Frame Theoretical Derivation of Three Factor Learning Rule for Oja's Subspace Rule\nAbstract: arXiv:2604.02849v2 Announce Type: replace-cross  Abstract: We show that the error-gated Hebbian rule for PCA (EGHR-PCA), a three-factor learning rule equivalent to Oja's subspace rule under Gaussian inputs, can be systematically derived from Oja's subspace rule using frame theory. The global third factor in EGHR-PCA arises exactly as a frame coefficient when the learning rule is expanded with respect to a natural frame on the space of symmetric matrices. This provides a principled, non-heuristic derivation of a biologically plausible learning rule from its mathematically canonical counterpart.",
+    "path": "papers/26/04/2604.02849.json",
+    "total_tokens": 999,
+    "translated_title": "基于框架理论的Oja子空间规则三因子学习规则推导",
+    "translated_abstract": "我们证明了用于主成分分析（PCA）的误差门控Hebbian规则（EGHR-PCA）——一种在高斯输入下与Oja子空间规则等价的三因子学习规则——可以利用框架理论从Oja子空间规则中系统地推导出来。当学习规则相对于对称矩阵空间上的一个自然框架进行展开时，EGHR-PCA中的全局第三因子恰好作为框架系数出现。这为从数学上规范的对应规则推导出生物学上合理的学习规则提供了一种有原则的、非启发式的推导方法。",
+    "tldr": "本文利用框架理论从Oja子空间规则中系统地推导出生物学上合理的误差门控Hebbian PCA学习规则（EGHR-PCA），并证明其全局第三因子恰好是对称矩阵空间自然框架下的框架系数。",
+    "en_tdlr": "This paper systematically derives the biologically plausible error-gated Hebbian rule for PCA (EGHR-PCA) from Oja's subspace rule using frame theory, showing that its global third factor arises exactly as a frame coefficient under a natural frame on the space of symmetric matrices."
+}

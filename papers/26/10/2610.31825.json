@@ -1,0 +1,11 @@
+{
+    "title": "Mimicking Volatilities under Marginal Constraints via $q_x$-Bass Martingales: A Parallel Computing Approach",
+    "abstract": "arXiv:2610.31825v1 Announce Type: new  Abstract: We study the calibration of continuous-time martingale models to observed derivative prices via a dynamic martingale optimal transport problem that penalizes deviations from the volatility of a prescribed reference model. Using $q_x$-Bass martingales, we approximate this problem through a sequence of discrete-time problems and prove that the continuous-time interpolations of their optimizers are asymptotically optimal. Building on the theory of $q_x$-Bass martingales, we develop numerical methods for the discrete-time problems that do not require full marginal distributions at calibration maturities.",
+    "link": "https://arxiv.org/abs/2610.31825",
+    "context": "Title: Mimicking Volatilities under Marginal Constraints via $q_x$-Bass Martingales: A Parallel Computing Approach\nAbstract: arXiv:2610.31825v1 Announce Type: new  Abstract: We study the calibration of continuous-time martingale models to observed derivative prices via a dynamic martingale optimal transport problem that penalizes deviations from the volatility of a prescribed reference model. Using $q_x$-Bass martingales, we approximate this problem through a sequence of discrete-time problems and prove that the continuous-time interpolations of their optimizers are asymptotically optimal. Building on the theory of $q_x$-Bass martingales, we develop numerical methods for the discrete-time problems that do not require full marginal distributions at calibration maturities.",
+    "path": "papers/26/10/2610.31825.json",
+    "total_tokens": 1015,
+    "translated_title": "通过 $q_x$-Bass 鞅在边际约束下模仿波动率：一种并行计算方法",
+    "translated_abstract": "我们研究通过一个动态鞅最优传输问题将连续时间鞅模型校准至观测到的衍生品价格，该问题对偏离指定参考模型波动率的行为施加惩罚。利用 $q_x$-Bass 鞅，我们通过一系列离散时间问题来近似该问题，并证明这些优化器的连续时间插值是渐近最优的。基于 $q_x$-Bass 鞅理论，我们为离散时间问题开发了数值方法，这些方法无需校准到期日的完整边际分布。",
+    "tldr": "本文提出一种基于 $q_x$-Bass 鞅的并行计算方法，通过离散时间近似求解带边际约束的动态鞅最优传输问题，实现对参考模型波动率的模仿与衍生品价格校准，且无需校准到期日的完整边际分布。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Clifford Kolmogorov-Arnold Networks",
+    "abstract": "arXiv:2602.05977v3 Announce Type: replace-cross  Abstract: We introduce Clifford Kolmogorov-Arnold Network (ClKAN), a flexible and efficient architecture for function approximation in arbitrary Clifford Algebra spaces. We propose the use of Randomized Quasi-Monte Carlo grid generation as a solution to the exponential scaling associated with higher-dimensional algebras. Our ClKAN also introduces new batch normalization strategies to deal with variable domain input. ClKAN finds application in scientific discovery and engineering, and is validated in synthetic and physics-inspired tasks.",
+    "link": "https://arxiv.org/abs/2602.05977",
+    "context": "Title: Clifford Kolmogorov-Arnold Networks\nAbstract: arXiv:2602.05977v3 Announce Type: replace-cross  Abstract: We introduce Clifford Kolmogorov-Arnold Network (ClKAN), a flexible and efficient architecture for function approximation in arbitrary Clifford Algebra spaces. We propose the use of Randomized Quasi-Monte Carlo grid generation as a solution to the exponential scaling associated with higher-dimensional algebras. Our ClKAN also introduces new batch normalization strategies to deal with variable domain input. ClKAN finds application in scientific discovery and engineering, and is validated in synthetic and physics-inspired tasks.",
+    "path": "papers/26/02/2602.05977.json",
+    "total_tokens": 897,
+    "translated_title": "克利福德柯尔莫哥洛夫-阿诺德网络",
+    "translated_abstract": "我们提出了克利福德柯尔莫哥洛夫-阿诺德网络，这是一种在任意克利福德代数空间中进行函数逼近的灵活而高效的架构。我们提出使用随机化拟蒙特卡罗网格生成方法，以解决与高维代数相关的指数级扩展问题。我们的ClKAN还引入了新的批归一化策略来处理可变域输入。ClKAN在科学发现和工程领域具有应用价值，并在合成任务和物理启发任务中得到了验证。",
+    "tldr": "提出了克利福德柯尔莫哥洛夫-阿诺德网络（ClKAN），通过随机化拟蒙特卡罗网格生成方法解决高维代数的指数级扩展问题，并引入新的批归一化策略处理可变域输入，实现了在任意克利福德代数空间中灵活高效的函数逼近。",
+    "en_tdlr": "This paper introduces Clifford Kolmogorov-Arnold Networks (ClKAN), a flexible and efficient architecture for function approximation in arbitrary Clifford Algebra spaces, addressing exponential scaling in higher-dimensional algebras via Randomized Quasi-Monte Carlo grid generation and handling variable domain inputs with new batch normalization strategies."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Rational Learning One Step Off the Path",
+    "abstract": "arXiv:2608.05380v2 Announce Type: replace  Abstract: We study how endogenous learning shapes beliefs and strategies in extensive-form games. We adopt the overlapping-generations model of \\citet{FL1993}, in which finitely lived Bayesian agents are randomly matched, observe only the outcomes of their own matches, and choose dynamically optimal strategies. We study limiting strategy profiles in steady states as agents become arbitrarily long lived and patient. We show that learning disciplines beliefs and strategies in subgames reached after a single deviation from the path of play. In particular, we establish the converse of \\citet{FL2006}, showing that such limiting strategy profiles must be path-equivalent to subgame-confirmed equilibria.",
+    "link": "https://arxiv.org/abs/2608.05380",
+    "context": "Title: Rational Learning One Step Off the Path\nAbstract: arXiv:2608.05380v2 Announce Type: replace  Abstract: We study how endogenous learning shapes beliefs and strategies in extensive-form games. We adopt the overlapping-generations model of \\citet{FL1993}, in which finitely lived Bayesian agents are randomly matched, observe only the outcomes of their own matches, and choose dynamically optimal strategies. We study limiting strategy profiles in steady states as agents become arbitrarily long lived and patient. We show that learning disciplines beliefs and strategies in subgames reached after a single deviation from the path of play. In particular, we establish the converse of \\citet{FL2006}, showing that such limiting strategy profiles must be path-equivalent to subgame-confirmed equilibria.",
+    "path": "papers/26/08/2608.05380.json",
+    "total_tokens": 1085,
+    "translated_title": "偏离均衡路径一步的理性学习",
+    "translated_abstract": "我们研究内生学习如何塑造扩展式博弈中的信念与策略。我们采用 Fudenberg 和 Levine (1993) 的世代交叠模型，其中有限生命的贝叶斯个体被随机匹配，仅观察自己匹配的结果，并选择动态最优策略。我们研究当个体的寿命和耐心变得任意大时，稳态中的极限策略组合。我们证明，学习能够约束在偏离均衡路径一步后所到达的子博弈中的信念与策略。特别地，我们建立了 Fudenberg 和 Levine (2006) 结论的逆定理，表明此类极限策略组合必须路径等价于子博弈确认均衡。",
+    "tldr": "该论文证明在世代交叠学习模型中，理性学习足以约束偏离均衡路径一步后到达的子博弈中的信念与策略，其极限策略组合必然路径等价于子博弈确认均衡，从而建立了 Fudenberg-Levine (2006) 结果的逆定理。",
+    "en_tdlr": "This paper shows that in an overlapping-generations learning model, rational learning disciplines beliefs and strategies in subgames reached after a single off-path deviation, with limiting strategy profiles necessarily path-equivalent to subgame-confirmed equilibria, establishing the converse of Fudenberg and Levine (2006)."
+}

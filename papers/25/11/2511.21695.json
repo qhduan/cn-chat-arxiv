@@ -1,0 +1,12 @@
+{
+    "title": "EvalCards: A Framework for Standardized Evaluation Reporting",
+    "abstract": "arXiv:2511.21695v2 Announce Type: replace-cross  Abstract: Evaluation reports guide the use of general-purpose AI (GPAI) models, yet inconsistent reporting often leaves essential questions unanswered. Through a review of prior work, we identify three central issues in evaluation reporting practices today, reproducibility, accessibility, and accountability, and examine how existing reporting artifacts fall short in addressing them. We introduce the EvalCards framework, outlining its key dimensions and presenting a preliminary format for concise evaluation summaries. We conclude by discussing how the framework can guide the future development of evaluation reporting standards.",
+    "link": "https://arxiv.org/abs/2511.21695",
+    "context": "Title: EvalCards: A Framework for Standardized Evaluation Reporting\nAbstract: arXiv:2511.21695v2 Announce Type: replace-cross  Abstract: Evaluation reports guide the use of general-purpose AI (GPAI) models, yet inconsistent reporting often leaves essential questions unanswered. Through a review of prior work, we identify three central issues in evaluation reporting practices today, reproducibility, accessibility, and accountability, and examine how existing reporting artifacts fall short in addressing them. We introduce the EvalCards framework, outlining its key dimensions and presenting a preliminary format for concise evaluation summaries. We conclude by discussing how the framework can guide the future development of evaluation reporting standards.",
+    "path": "papers/25/11/2511.21695.json",
+    "total_tokens": 803,
+    "translated_title": "EvalCards：一个用于标准化评估报告的框架",
+    "translated_abstract": "评估报告为通用人工智能模型的使用提供指导，然而不一致的报告方式往往使关键问题得不到解答。通过对以往工作的回顾，我们指出了当今评估报告实践中存在的三个核心问题——可复现性、可访问性和可问责性，并检视了现有报告工件在解决这些问题上的不足。我们提出了 EvalCards 框架，阐述了其关键维度，并给出了一种简洁评估摘要的初步格式。最后，我们讨论了该框架如何为未来评估报告标准的制定提供指导。",
+    "tldr": "本文提出 EvalCards 框架，围绕可复现性、可访问性和可问责性三个核心维度规范 AI 模型评估报告，并提供简洁评估摘要的初步格式，以推动未来评估报告标准的建立。",
+    "en_tdlr": "This paper introduces the EvalCards framework, which standardizes evaluation reporting for AI models around three core dimensions—reproducibility, accessibility, and accountability—and provides a preliminary format for concise evaluation summaries to guide future reporting standards."
+}

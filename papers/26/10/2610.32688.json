@@ -1,0 +1,12 @@
+{
+    "title": "Conditional Neural Processes for Self-Supervised Goal Discovery in Action Imitation",
+    "abstract": "arXiv:2610.32688v1 Announce Type: cross  Abstract: Inspired by infants' ability to learn novel tasks by imitating others, in this work we evaluate to what extent Conditional Neural Processes can autonomously learn representations of actions that are informative about their underlying goal. We show that the addition of an attention mechanism in the hidden space fosters the emergence of robust goal representations early on in the observation of an action sequence, making it a promising model for a robotic self-supervised general learner.",
+    "link": "https://arxiv.org/abs/2610.32688",
+    "context": "Title: Conditional Neural Processes for Self-Supervised Goal Discovery in Action Imitation\nAbstract: arXiv:2610.32688v1 Announce Type: cross  Abstract: Inspired by infants' ability to learn novel tasks by imitating others, in this work we evaluate to what extent Conditional Neural Processes can autonomously learn representations of actions that are informative about their underlying goal. We show that the addition of an attention mechanism in the hidden space fosters the emergence of robust goal representations early on in the observation of an action sequence, making it a promising model for a robotic self-supervised general learner.",
+    "path": "papers/26/10/2610.32688.json",
+    "total_tokens": 686,
+    "translated_title": "用于动作模仿中自监督目标发现的条件神经过程",
+    "translated_abstract": "受婴儿通过模仿他人学习新任务这一能力的启发，在这项工作中，我们评估了条件神经过程在多大程度上能够自主学习对其潜在目标具有信息量的动作表示。我们表明，在隐藏空间中引入注意力机制，可以在观察动作序列的早期阶段就促使鲁棒的目标表示涌现，这使其成为机器人自监督通用学习器的一个有前景的模型。",
+    "tldr": "在条件神经过程的隐藏空间中加入注意力机制，可使其在观察动作序列的早期就涌现出鲁棒的目标表示，从而实现动作模仿中的自监督目标发现，为机器人的自监督通用学习提供了有前景的模型。",
+    "en_tdlr": "Adding an attention mechanism to the hidden space of Conditional Neural Processes enables the early emergence of robust goal representations while observing action sequences, making it a promising model for self-supervised goal discovery in robotic action imitation."
+}

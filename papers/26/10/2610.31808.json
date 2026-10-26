@@ -1,0 +1,11 @@
+{
+    "title": "Patronizing and Condescending Language Detection in English and Mandarin",
+    "abstract": "arXiv:2610.31808v1 Announce Type: new  Abstract: Patronizing and condescending language (PCL) is a form of harmful language that belittles and assumes pity for vulnerable groups, reinforcing negative societal stereotypes. However, unlike overt hate speech, it is often difficult to detect, even for human judges. This paper proposes a system for the automated detection of PCL. Our first approach uses static word embeddings and a convolutional neural network for classification, while our second approach uses pre-trained BERT embeddings fine-tuned for the PCL task. Our second approach was considerably more successful, and achieved an F1 score of 0.528 over the development set.",
+    "link": "https://arxiv.org/abs/2610.31808",
+    "context": "Title: Patronizing and Condescending Language Detection in English and Mandarin\nAbstract: arXiv:2610.31808v1 Announce Type: new  Abstract: Patronizing and condescending language (PCL) is a form of harmful language that belittles and assumes pity for vulnerable groups, reinforcing negative societal stereotypes. However, unlike overt hate speech, it is often difficult to detect, even for human judges. This paper proposes a system for the automated detection of PCL. Our first approach uses static word embeddings and a convolutional neural network for classification, while our second approach uses pre-trained BERT embeddings fine-tuned for the PCL task. Our second approach was considerably more successful, and achieved an F1 score of 0.528 over the development set.",
+    "path": "papers/26/10/2610.31808.json",
+    "total_tokens": 838,
+    "translated_title": "英语和中文中的居高临下与恩赐性语言检测",
+    "translated_abstract": "居高临下与恩赐性语言（PCL）是一种有害语言形式，它贬低弱势群体并对其施以居高临下的怜悯，从而强化负面的社会刻板印象。然而，与明显的仇恨言论不同，这类语言往往难以检测，即使对人类评判者来说也是如此。本文提出了一种自动检测PCL的系统。我们的第一种方法使用静态词嵌入和卷积神经网络进行分类，第二种方法则使用针对PCL任务微调的预训练BERT嵌入。第二种方法明显更为成功，在开发集上取得了0.528的F1分数。",
+    "tldr": "该论文提出了一种自动检测英语和中文中居高临下与恩赐性语言的系统，其中基于微调BERT的方法表现显著优于静态词嵌入结合卷积神经网络的方法，在开发集上取得了0.528的F1分数。"
+}
