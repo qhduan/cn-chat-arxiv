@@ -1,0 +1,12 @@
+{
+    "title": "Probing the phon* representations of the Mimi codebooks",
+    "abstract": "arXiv:2610.35432v1 Announce Type: new  Abstract: Neural audio codecs are increasingly used to encode speech for integration with large language models. This paper investigates the phonetic representations in the first codebook (CB0) of the Mimi codec. ABX style evaluation is poorly suited to Mimi fixed 80 ms tokenization window, which often spans multiple phonemes; we instead use forced alignment, entropy analysis, and Phone-Normalized Mutual Information (PNMI). Using TIMIT speech (58/55 speakers, SA1/SA2), individual tokens are strongly associated with specific phonemes (PNMI = 0.84, above random), yet phonemes are realized by multiple competing tokens rather than a one-to-one mapping.",
+    "link": "https://arxiv.org/abs/2610.35432",
+    "context": "Title: Probing the phon* representations of the Mimi codebooks\nAbstract: arXiv:2610.35432v1 Announce Type: new  Abstract: Neural audio codecs are increasingly used to encode speech for integration with large language models. This paper investigates the phonetic representations in the first codebook (CB0) of the Mimi codec. ABX style evaluation is poorly suited to Mimi fixed 80 ms tokenization window, which often spans multiple phonemes; we instead use forced alignment, entropy analysis, and Phone-Normalized Mutual Information (PNMI). Using TIMIT speech (58/55 speakers, SA1/SA2), individual tokens are strongly associated with specific phonemes (PNMI = 0.84, above random), yet phonemes are realized by multiple competing tokens rather than a one-to-one mapping.",
+    "path": "papers/26/10/2610.35432.json",
+    "total_tokens": 1127,
+    "translated_title": "探究Mimi码本的语音表征",
+    "translated_abstract": "神经音频编解码器正越来越多地被用于对语音进行编码，以便与大语言模型集成。本文研究了Mimi编解码器第一个码本（CB0）中的语音表征。ABX式评估方法并不适合Mimi固定的80毫秒分词窗口，因为该窗口通常跨越多个音素；因此我们改用强制对齐、熵分析以及音素归一化互信息（PNMI）方法。基于TIMIT语音数据（58/55名说话人，SA1/SA2句子），研究发现单个token与特定音素存在强关联（PNMI = 0.84，高于随机水平），但音素并非与token一一对应，而是由多个相互竞争的token共同实现。",
+    "tldr": "本文通过强制对齐、熵分析和音素归一化互信息（PNMI）对Mimi编解码器首个码本进行探测，发现其token与音素存在强关联（PNMI=0.84），但音素与token并非一一对应，而是由多个竞争性token共同表示。",
+    "en_tdlr": "Probing Mimi codec's first codebook with forced alignment, entropy analysis, and PNMI, this paper finds that tokens strongly correlate with phonemes (PNMI=0.84) but not in a one-to-one mapping, as each phoneme is realized by multiple competing tokens."
+}

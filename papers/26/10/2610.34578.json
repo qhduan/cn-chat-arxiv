@@ -1,0 +1,12 @@
+{
+    "title": "Equilibrium Existence in Oligopoly Pricing and Consumer Search",
+    "abstract": "arXiv:2610.34578v1 Announce Type: new  Abstract: This paper revisits the consumer search and price competition model of Wolinsky (1986). Suppose that the market has a finite number of firms, and the match value distribution function and survival function are both log-concave. Then, there is a unique symmetric pure-strategy equilibrium price with active consumer search. Two applications are discussed.",
+    "link": "https://arxiv.org/abs/2610.34578",
+    "context": "Title: Equilibrium Existence in Oligopoly Pricing and Consumer Search\nAbstract: arXiv:2610.34578v1 Announce Type: new  Abstract: This paper revisits the consumer search and price competition model of Wolinsky (1986). Suppose that the market has a finite number of firms, and the match value distribution function and survival function are both log-concave. Then, there is a unique symmetric pure-strategy equilibrium price with active consumer search. Two applications are discussed.",
+    "path": "papers/26/10/2610.34578.json",
+    "total_tokens": 755,
+    "translated_title": "寡头定价与消费者搜索中的均衡存在性",
+    "translated_abstract": "本文重新审视了Wolinsky (1986)的消费者搜索与价格竞争模型。假设市场上企业数量为有限个，且匹配价值分布函数与生存函数均为对数凹函数，则存在唯一的对称纯策略均衡价格，此时消费者会进行积极的搜索。文中还讨论了两个应用。",
+    "tldr": "本文在匹配价值分布函数和生存函数均为对数凹的条件下，证明了Wolinsky (1986)消费者搜索与价格竞争模型中存在唯一的、伴随消费者主动搜索的对称纯策略均衡价格。",
+    "en_tdlr": "This paper proves that, under log-concavity of the match value distribution and survival functions with a finite number of firms, the Wolinsky (1986) consumer search and price competition model admits a unique symmetric pure-strategy equilibrium price with active consumer search."
+}

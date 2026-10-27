@@ -1,0 +1,11 @@
+{
+    "title": "AI in Econometric Theory: An Example",
+    "abstract": "arXiv:2610.35831v1 Announce Type: new  Abstract: This note contains a story and a paper. The paper is about the admissibility of two-stage least squares with weak instruments, a topic we have worked on together since 2019. The story is about how we (or, rather, our LLMs) wrote the paper, and some thoughts on what this may mean for our field.",
+    "link": "https://arxiv.org/abs/2610.35831",
+    "context": "Title: AI in Econometric Theory: An Example\nAbstract: arXiv:2610.35831v1 Announce Type: new  Abstract: This note contains a story and a paper. The paper is about the admissibility of two-stage least squares with weak instruments, a topic we have worked on together since 2019. The story is about how we (or, rather, our LLMs) wrote the paper, and some thoughts on what this may mean for our field.",
+    "path": "papers/26/10/2610.35831.json",
+    "total_tokens": 687,
+    "translated_title": "计量经济理论中的人工智能：一个实例",
+    "translated_abstract": "这篇笔记包含一个故事和一篇论文。论文是关于弱工具变量下两阶段最小二乘法的容许性问题，这是我们自2019年以来一直合作研究的课题。故事则是关于我们（或者更确切地说，我们的大语言模型）是如何撰写这篇论文的，以及这对我们的研究领域可能意味着什么的一些思考。",
+    "tldr": "这篇论文研究了弱工具变量下两阶段最小二乘法的容许性问题，并记录了大语言模型如何协助完成该研究的过程及其对计量经济学领域的启示。"
+}

@@ -1,0 +1,12 @@
+{
+    "title": "The Impossibility of a Gerrymander-Proof Representative Democracy",
+    "abstract": "arXiv:2607.05660v2 Announce Type: replace  Abstract: A representative democracy is immune to gerrymandering if it satisfies Chambers' (2008) representative consistency. We examine preference aggregation and show that representative consistency is incompatible with three other normative desiderata --- weak Pareto, anonymity, and neutrality. We show this impossibility result both in a setting with ordinal preferences and in a setting with expected utility preferences.",
+    "link": "https://arxiv.org/abs/2607.05660",
+    "context": "Title: The Impossibility of a Gerrymander-Proof Representative Democracy\nAbstract: arXiv:2607.05660v2 Announce Type: replace  Abstract: A representative democracy is immune to gerrymandering if it satisfies Chambers' (2008) representative consistency. We examine preference aggregation and show that representative consistency is incompatible with three other normative desiderata --- weak Pareto, anonymity, and neutrality. We show this impossibility result both in a setting with ordinal preferences and in a setting with expected utility preferences.",
+    "path": "papers/26/07/2607.05660.json",
+    "total_tokens": 1041,
+    "translated_title": "不可能存在能够免疫于不公正选区划分的代议制民主",
+    "translated_abstract": "如果一种代议制民主满足Chambers（2008）提出的代表性一致性，那么它就能免疫于不公正的选区划分（杰利蝾螈式划分）。我们通过研究偏好聚合问题，证明了代表性一致性与另外三个规范性要求——弱帕累托、匿名性和中立性——是不相容的。我们分别在序数偏好设定和期望效用偏好设定下都证明了这一不可能性结果。",
+    "tldr": "该论文证明了一个不可能性结果：能够使代议制民主免疫于不公正选区划分的代表性一致性，与弱帕累托、匿名性和中立性这三个规范性要求无法同时满足，且该结论在序数偏好和期望效用偏好两种设定下均成立。",
+    "en_tdlr": "This paper proves an impossibility result: representative consistency, which makes a representative democracy immune to gerrymandering, is incompatible with weak Pareto, anonymity, and neutrality, in both ordinal preference and expected utility preference settings."
+}

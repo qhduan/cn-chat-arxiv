@@ -1,0 +1,11 @@
+{
+    "title": "Highly Adaptive Ridge",
+    "abstract": "arXiv:2410.02680v2 Announce Type: replace  Abstract: In this paper we propose the Highly Adaptive Ridge (HAR): a regression method that achieves an $n^{-1/3}$ dimension-free $\\mathscr L_2$ convergence rate (up to log factors) in the class of right-continuous functions with square-integrable sectional derivatives. This is a large nonparametric function class that is particularly appropriate for tabular data. For squared error loss, HAR is exactly kernel ridge regression with a specific data-adaptive kernel based on a saturated zero-order tensor-product spline basis expansion, and thus scales reasonably well, computationally. We prove close connections between HAR and kernel ridge regression in Sobolev spaces of dominating mixed derivatives, and highlight practical differences. We use simulation and real data to confirm our theory.",
+    "link": "https://arxiv.org/abs/2410.02680",
+    "context": "Title: Highly Adaptive Ridge\nAbstract: arXiv:2410.02680v2 Announce Type: replace  Abstract: In this paper we propose the Highly Adaptive Ridge (HAR): a regression method that achieves an $n^{-1/3}$ dimension-free $\\mathscr L_2$ convergence rate (up to log factors) in the class of right-continuous functions with square-integrable sectional derivatives. This is a large nonparametric function class that is particularly appropriate for tabular data. For squared error loss, HAR is exactly kernel ridge regression with a specific data-adaptive kernel based on a saturated zero-order tensor-product spline basis expansion, and thus scales reasonably well, computationally. We prove close connections between HAR and kernel ridge regression in Sobolev spaces of dominating mixed derivatives, and highlight practical differences. We use simulation and real data to confirm our theory.",
+    "path": "papers/24/10/2410.02680.json",
+    "total_tokens": 1023,
+    "translated_title": "高度自适应岭回归",
+    "translated_abstract": "在本文中，我们提出了高度自适应岭回归：这是一种回归方法，在具有平方可积截面导数的右连续函数类中实现了 $n^{-1/3}$ 的维数无关的 $\\mathscr L_2$ 收敛速率（最高至对数因子）。这是一个庞大的非参数函数类，特别适用于表格数据。对于平方误差损失，HAR 恰好是采用基于饱和零阶张量积样条基展开的特定数据自适应核的核岭回归，因此在计算上具有良好的可扩展性。我们证明了 HAR 与在支配混合导数的 Sobolev 空间中的核岭回归之间的密切联系，并强调了实际应用中的差异。我们通过模拟和真实数据验证了我们的理论。",
+    "tldr": "本文提出高度自适应岭回归（HAR）方法，在适用于表格数据的大型非参数函数类中实现了维数无关的 n^{-1/3} L2 收敛速率，且在计算上具有良好的可扩展性。"
+}

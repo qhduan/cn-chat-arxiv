@@ -1,0 +1,12 @@
+{
+    "title": "Zero-Shot Multi-Class Wafer Map Classification with Rule-Ordered Prompts for Large Multimodal Models",
+    "abstract": "arXiv:2610.35080v1 Announce Type: new  Abstract: Wafer-map defect classification often requires labeled data and retraining when production conditions change. We present a training-free six-class framework that combines connected-component highlighting with morphology-, location-, and exclusion-aware prompts for a frozen large multimodal model. On Mixed-WM38 (6,866 maps), multi-region prompting achieves 92.9% macro and 93.8% overall accuracy. On WM811K (9,000 maps), it achieves 79.1% and 81.3%, respectively. Eight alternative rule orders achieve 90.1-91.9% overall accuracy, compared with 93.8% for the selected order.",
+    "link": "https://arxiv.org/abs/2610.35080",
+    "context": "Title: Zero-Shot Multi-Class Wafer Map Classification with Rule-Ordered Prompts for Large Multimodal Models\nAbstract: arXiv:2610.35080v1 Announce Type: new  Abstract: Wafer-map defect classification often requires labeled data and retraining when production conditions change. We present a training-free six-class framework that combines connected-component highlighting with morphology-, location-, and exclusion-aware prompts for a frozen large multimodal model. On Mixed-WM38 (6,866 maps), multi-region prompting achieves 92.9% macro and 93.8% overall accuracy. On WM811K (9,000 maps), it achieves 79.1% and 81.3%, respectively. Eight alternative rule orders achieve 90.1-91.9% overall accuracy, compared with 93.8% for the selected order.",
+    "path": "papers/26/10/2610.35080.json",
+    "total_tokens": 1181,
+    "translated_title": "基于规则排序提示的大规模多模态模型零样本多类别晶圆图分类",
+    "translated_abstract": "晶圆图缺陷分类通常需要标注数据，且当生产条件发生变化时需要重新训练模型。我们提出了一种无需训练的六分类框架，该框架将连通域高亮与感知形态、位置及排除规则的提示相结合，应用于冻结的大规模多模态模型。在Mixed-WM38数据集（6,866张晶圆图）上，多区域提示方法达到了92.9%的宏平均准确率和93.8%的总体准确率。在WM811K数据集（9,000张晶圆图）上，分别达到了79.1%和81.3%。八种备选的规则排序达到了90.1%至91.9%的总体准确率，而所选排序达到了93.8%。",
+    "tldr": "该论文提出一种无需训练的零样本晶圆图六分类框架，通过连通域高亮与融合形态、位置和排除感知的规则排序提示驱动冻结的大规模多模态模型，在Mixed-WM38和WM811K数据集上分别取得93.8%和81.3%的总体准确率。",
+    "en_tdlr": "This paper proposes a training-free zero-shot six-class wafer map classification framework that combines connected-component highlighting with rule-ordered prompts encoding morphology, location, and exclusion cues to drive a frozen large multimodal model, achieving 93.8% and 81.3% overall accuracy on the Mixed-WM38 and WM811K datasets respectively."
+}

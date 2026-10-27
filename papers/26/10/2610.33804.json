@@ -1,0 +1,12 @@
+{
+    "title": "Beyond Static Structures: Linking Protein Dynamics to Function via DynaReason-Pro",
+    "abstract": "arXiv:2610.33804v1 Announce Type: new  Abstract: Intrinsically disordered proteins (IDPs) carry out their functions through heterogeneous conformational ensembles that reflect their dynamics, yet most protein function prediction methods rely on sequence or a single static structure. To this end, we introduce DynaReason-Pro, the first framework to jointly predict GO terms from conformational ensembles and generate natural-language functional rationales. We evaluate DynaReason-Pro on a curated IDP benchmark from the Protein Ensemble Database (PED), with sequence- and structure-cluster-disjoint splits to prevent data leakage. Variability-stratified evaluation shows the clearest gains in the high-conformational-variability regime.",
+    "link": "https://arxiv.org/abs/2610.33804",
+    "context": "Title: Beyond Static Structures: Linking Protein Dynamics to Function via DynaReason-Pro\nAbstract: arXiv:2610.33804v1 Announce Type: new  Abstract: Intrinsically disordered proteins (IDPs) carry out their functions through heterogeneous conformational ensembles that reflect their dynamics, yet most protein function prediction methods rely on sequence or a single static structure. To this end, we introduce DynaReason-Pro, the first framework to jointly predict GO terms from conformational ensembles and generate natural-language functional rationales. We evaluate DynaReason-Pro on a curated IDP benchmark from the Protein Ensemble Database (PED), with sequence- and structure-cluster-disjoint splits to prevent data leakage. Variability-stratified evaluation shows the clearest gains in the high-conformational-variability regime.",
+    "path": "papers/26/10/2610.33804.json",
+    "total_tokens": 1007,
+    "translated_title": "超越静态结构：通过DynaReason-Pro将蛋白质动力学与功能联系起来",
+    "translated_abstract": "内在无序蛋白质（IDPs）通过反映其动力学的异质构象集合来执行功能，然而大多数蛋白质功能预测方法依赖于序列或单一静态结构。为此，我们提出了DynaReason-Pro，这是首个能够从构象集合中联合预测GO功能词条并生成自然语言功能解释的框架。我们在从蛋白质集合数据库（PED）中精心整理的IDP基准数据集上评估了DynaReason-Pro，并采用序列和结构簇不相交的数据划分方式以防止数据泄露。基于变异性分层的评估结果显示，该方法在高构象变异性区间中获得的性能提升最为显著。",
+    "tldr": "DynaReason-Pro是首个从蛋白质构象集合中联合预测GO功能词条并生成自然语言功能解释的框架，在高构象变异性（如内在无序蛋白质）场景下性能提升最为显著。",
+    "en_tdlr": "DynaReason-Pro is the first framework to jointly predict GO terms from protein conformational ensembles while generating natural-language functional rationales, achieving the clearest performance gains in the high-conformational-variability regime such as intrinsically disordered proteins."
+}

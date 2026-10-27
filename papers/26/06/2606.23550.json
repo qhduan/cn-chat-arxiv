@@ -1,0 +1,12 @@
+{
+    "title": "Approximating velocity fields with planted point attractors via Neural-ODE for classification purposes",
+    "abstract": "arXiv:2606.23550v3 Announce Type: replace-cross  Abstract: In this work, Neural ODEs equipped with a curated collection of equilibrium points have been successfully employed for classification tasks. The planted fixed points serve as indicators for the target classes, while the velocity field, leveraging the universal approximation capabilities of the architecture, shapes the dynamical landscape. This process defines the basins of attraction of the trained model, effectively directing each input (provided as an initial condition) toward its corresponding destination target.",
+    "link": "https://arxiv.org/abs/2606.23550",
+    "context": "Title: Approximating velocity fields with planted point attractors via Neural-ODE for classification purposes\nAbstract: arXiv:2606.23550v3 Announce Type: replace-cross  Abstract: In this work, Neural ODEs equipped with a curated collection of equilibrium points have been successfully employed for classification tasks. The planted fixed points serve as indicators for the target classes, while the velocity field, leveraging the universal approximation capabilities of the architecture, shapes the dynamical landscape. This process defines the basins of attraction of the trained model, effectively directing each input (provided as an initial condition) toward its corresponding destination target.",
+    "path": "papers/26/06/2606.23550.json",
+    "total_tokens": 878,
+    "translated_title": "通过神经常微分方程（Neural-ODE）近似具有植入点吸引子的速度场以用于分类任务",
+    "translated_abstract": "在这项工作中，配备了精心设计的平衡点集合的神经常微分方程（Neural ODEs）已被成功应用于分类任务。植入的不动点作为目标类别的指示器，而速度场则利用该架构的通用逼近能力来塑造动力学景观。这一过程定义了训练模型的吸引域，有效地将每个输入（作为初始条件提供）引导至其对应的目标类别。",
+    "tldr": "该论文提出在神经常微分方程（Neural-ODE）中植入预设的平衡点作为类别指示器，利用速度场的通用逼近能力塑造动力学景观并形成吸引域，从而将每个输入有效地引导至其对应的目标类别，实现分类任务。",
+    "en_tdlr": "This paper proposes classification via Neural ODEs with planted equilibrium points serving as class indicators, where the velocity field's universal approximation capability shapes the dynamical landscape and attraction basins to effectively direct each input toward its corresponding target class."
+}

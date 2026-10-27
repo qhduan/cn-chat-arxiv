@@ -1,0 +1,12 @@
+{
+    "title": "Multiscale Policy Optimization for Long-Horizon LLM Agents",
+    "abstract": "arXiv:2610.35013v1 Announce Type: new  Abstract: Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token. We observe that critic values vary primarily across turns, motivating optimization anchored at turns with finer credit allocation among tokens. We propose Multiscale Policy Optimization (MPO), combining Multiscale Advantage Estimation (MAE) and turn-level importance sampling to align credit assignment and policy updates at the turn scale. Extensive experiments across search, tool-use, and automation tasks with 4B and 30B-A3B models demonstrate consistent gains over strong RL baselines.",
+    "link": "https://arxiv.org/abs/2610.35013",
+    "context": "Title: Multiscale Policy Optimization for Long-Horizon LLM Agents\nAbstract: arXiv:2610.35013v1 Announce Type: new  Abstract: Long-horizon LLM agents interact with their environments through complete assistant turns while generating each action token by token. We observe that critic values vary primarily across turns, motivating optimization anchored at turns with finer credit allocation among tokens. We propose Multiscale Policy Optimization (MPO), combining Multiscale Advantage Estimation (MAE) and turn-level importance sampling to align credit assignment and policy updates at the turn scale. Extensive experiments across search, tool-use, and automation tasks with 4B and 30B-A3B models demonstrate consistent gains over strong RL baselines.",
+    "path": "papers/26/10/2610.35013.json",
+    "total_tokens": 1058,
+    "translated_title": "面向长时程LLM智能体的多尺度策略优化",
+    "translated_abstract": "arXiv:2610.35013v1 公告类型：新论文 摘要：长时程LLM智能体通过完整的助手回合与环境中交互，同时逐个token生成每个动作。我们观察到评论家价值主要在回合之间发生变化，这启发我们以回合为锚点进行优化，并在token之间进行更精细的信用分配。我们提出多尺度策略优化（MPO），结合多尺度优势估计（MAE）和回合级重要性采样，使信用分配与策略更新在回合尺度上对齐。在使用4B和30B-A3B模型于搜索、工具使用和自动化任务上进行的大量实验表明，该方法相较于强大的强化学习基线取得了一致的性能提升。",
+    "tldr": "该论文提出多尺度策略优化方法（MPO），通过多尺度优势估计与回合级重要性采样，以回合为锚点对长时程LLM智能体进行更精细的信用分配和策略更新，在搜索、工具使用和自动化任务上超越现有强化学习基线。",
+    "en_tdlr": "This paper proposes Multiscale Policy Optimization (MPO), which combines multiscale advantage estimation and turn-level importance sampling to anchor credit assignment and policy updates at the turn scale for long-horizon LLM agents, consistently outperforming strong RL baselines across search, tool-use, and automation tasks."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Do Round Numbers Hold Prices? Occupation Densities and Depth-Conditioned Hazards in the Limit Order Book",
+    "abstract": "arXiv:2610.34787v1 Announce Type: new  Abstract: Prices cluster at round numbers, a pattern often interpreted as evidence that these levels act as price barriers. This pattern also admits a mechanical explanation: more liquidity rests there, and prices take longer to leave deeper queues. Limit order book data allow us to distinguish these mechanisms through a tick-grid framework in which local time counts departures and level-wise volatility reflects the departure hazard. Using data for five Nasdaq stocks throughout 2025, we find that round levels attract more liquidity but do not exhibit longer depth-adjusted durations. Intel and SoFi show directional effects, with departures biased away from round levels.",
+    "link": "https://arxiv.org/abs/2610.34787",
+    "context": "Title: Do Round Numbers Hold Prices? Occupation Densities and Depth-Conditioned Hazards in the Limit Order Book\nAbstract: arXiv:2610.34787v1 Announce Type: new  Abstract: Prices cluster at round numbers, a pattern often interpreted as evidence that these levels act as price barriers. This pattern also admits a mechanical explanation: more liquidity rests there, and prices take longer to leave deeper queues. Limit order book data allow us to distinguish these mechanisms through a tick-grid framework in which local time counts departures and level-wise volatility reflects the departure hazard. Using data for five Nasdaq stocks throughout 2025, we find that round levels attract more liquidity but do not exhibit longer depth-adjusted durations. Intel and SoFi show directional effects, with departures biased away from round levels.",
+    "path": "papers/26/10/2610.34787.json",
+    "total_tokens": 1041,
+    "translated_title": "整数价位能“留住”价格吗？限价订单簿中的占用密度与深度条件化危险率",
+    "translated_abstract": "价格常常聚集在整数价位上，这一现象通常被解读为整数价位充当价格屏障的证据。然而，这一模式也存在一种机械性解释：整数价位上积聚了更多流动性，而价格离开更深的队列需要更长时间。限价订单簿数据使我们能够区分这两种机制——通过一个tick网格框架，其中局部时间用于计数价格离开事件，逐档波动率则反映离开危险率。利用2025年全年五只纳斯达克股票的数据，我们发现整数价位虽然吸引了更多流动性，但并未表现出更长的深度调整后停留时间。英特尔和SoFi呈现出方向性效应，价格离开倾向于偏离整数价位。",
+    "tldr": "该论文通过tick网格框架，利用局部时间计数价格离开事件并结合深度条件化危险率，成功区分了整数价位作为“价格屏障”与单纯流动性聚集两种解释，发现2025年五只纳斯达克股票中整数价位虽吸引更多流动性，但深度调整后的价格停留时间并未更长。",
+    "en_tdlr": "Using a tick-grid framework with local time and depth-conditioned hazards on five Nasdaq stocks throughout 2025, this paper shows that round-number price levels attract more liquidity but do not hold prices longer once queue depth is accounted for."
+}

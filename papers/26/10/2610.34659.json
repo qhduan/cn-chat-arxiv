@@ -1,0 +1,12 @@
+{
+    "title": "AdaTutor: Adaptive Tutoring through Pedagogical Strategy Selection",
+    "abstract": "arXiv:2610.34659v1 Announce Type: new  Abstract: Effective tutoring requires determining not only what information to provide, but also which form of assistance to deliver. A tutor may address the same student error using various pedagogical strategies, adapting its approach as the interaction progresses. We introduce Comparative Pedagogical Supervision (CPS), a training framework to learn to select the optimal strategy and feedback for student learning. We evaluate CPS on math and science reasoning datasets. After five tutoring turns, CPS outperforms the strongest fixed-strategy baselines. The learned tutor transfers across datasets, and its strategy selection can also inform a separate API-based tutor.",
+    "link": "https://arxiv.org/abs/2610.34659",
+    "context": "Title: AdaTutor: Adaptive Tutoring through Pedagogical Strategy Selection\nAbstract: arXiv:2610.34659v1 Announce Type: new  Abstract: Effective tutoring requires determining not only what information to provide, but also which form of assistance to deliver. A tutor may address the same student error using various pedagogical strategies, adapting its approach as the interaction progresses. We introduce Comparative Pedagogical Supervision (CPS), a training framework to learn to select the optimal strategy and feedback for student learning. We evaluate CPS on math and science reasoning datasets. After five tutoring turns, CPS outperforms the strongest fixed-strategy baselines. The learned tutor transfers across datasets, and its strategy selection can also inform a separate API-based tutor.",
+    "path": "papers/26/10/2610.34659.json",
+    "total_tokens": 847,
+    "translated_title": "AdaTutor：通过教学策略选择实现自适应辅导",
+    "translated_abstract": "有效的辅导不仅需要确定提供什么信息，还需要确定以何种形式的帮助进行辅导。辅导者可以使用不同的教学策略来应对学生的同一个错误，并随着互动的进展调整其方法。我们提出了比较式教学监督，这是一个用于学习为学生学习选择最优策略和反馈的训练框架。我们在数学和科学推理数据集上对CPS进行了评估。经过五轮辅导交互后，CPS优于最强的固定策略基线。学习到的辅导者可以跨数据集迁移，其策略选择还可以为另一个基于API的辅导系统提供指导。",
+    "tldr": "本文提出比较式教学监督（CPS）训练框架，使AI辅导系统能够根据学生情况自适应选择最优教学策略与反馈，在数学和科学推理任务上超越固定策略基线，并具备跨数据集迁移能力。",
+    "en_tdlr": "This paper proposes Comparative Pedagogical Supervision (CPS), a training framework enabling AI tutors to adaptively select optimal pedagogical strategies and feedback, outperforming fixed-strategy baselines on math and science reasoning tasks while transferring across datasets."
+}

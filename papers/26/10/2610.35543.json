@@ -1,0 +1,12 @@
+{
+    "title": "Tiny Suffix Arrays",
+    "abstract": "arXiv:2610.35543v1 Announce Type: cross  Abstract: Suffix array and inverse suffix array queries on a text of length $n$ can be answered in $\\widetilde{O}(\\tau^3)$ time using an auxiliary data structure occupying $O(n/\\tau)$ words, for any $\\tau \\in [1,n]$.",
+    "link": "https://arxiv.org/abs/2610.35543",
+    "context": "Title: Tiny Suffix Arrays\nAbstract: arXiv:2610.35543v1 Announce Type: cross  Abstract: Suffix array and inverse suffix array queries on a text of length $n$ can be answered in $\\widetilde{O}(\\tau^3)$ time using an auxiliary data structure occupying $O(n/\\tau)$ words, for any $\\tau \\in [1,n]$.",
+    "path": "papers/26/10/2610.35543.json",
+    "total_tokens": 725,
+    "translated_title": "微型后缀数组",
+    "translated_abstract": "对于长度为 $n$ 的文本，后缀数组查询和逆后缀数组查询可以在 $\\widetilde{O}(\\tau^3)$ 时间内得到回答，所使用的辅助数据结构仅占用 $O(n/\\tau)$ 个机器字的空间，其中 $\\tau$ 可以取 $[1,n]$ 范围内的任意值。",
+    "tldr": "该论文提出了一种仅占用 $O(n/\\tau)$ 个机器字空间的辅助数据结构，能够在 $\\widetilde{O}(\\tau^3)$ 时间内回答文本上任意位置的后缀数组和逆后缀数组查询，实现了空间与时间之间可灵活调节的权衡。",
+    "en_tdlr": "This paper introduces an auxiliary data structure occupying only $O(n/\\tau)$ words that answers suffix array and inverse suffix array queries in $\\widetilde{O}(\\tau^3)$ time, achieving a tunable space-time tradeoff for any parameter $\\tau \\in [1,n]$."
+}

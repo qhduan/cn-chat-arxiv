@@ -1,0 +1,12 @@
+{
+    "title": "Stable matching under regulation",
+    "abstract": "arXiv:2610.34412v1 Announce Type: new  Abstract: In a market in which any coalition can reach agreements, a stable outcome need not exist even when agents have substitutable preferences. We show how regulation can restore stability. If a regulator participates in every agreement, a setwise stable outcome exists when each ordinary agent's preference satisfies a condition weaker than substitutability, while the regulator's preference remains largely unrestricted. An alternative existence result allows ordinary agents to have arbitrary preferences while requiring the regulator to support each agent's profitable contract deletions. Our results apply to matching markets involving regulated activities.",
+    "link": "https://arxiv.org/abs/2610.34412",
+    "context": "Title: Stable matching under regulation\nAbstract: arXiv:2610.34412v1 Announce Type: new  Abstract: In a market in which any coalition can reach agreements, a stable outcome need not exist even when agents have substitutable preferences. We show how regulation can restore stability. If a regulator participates in every agreement, a setwise stable outcome exists when each ordinary agent's preference satisfies a condition weaker than substitutability, while the regulator's preference remains largely unrestricted. An alternative existence result allows ordinary agents to have arbitrary preferences while requiring the regulator to support each agent's profitable contract deletions. Our results apply to matching markets involving regulated activities.",
+    "path": "papers/26/10/2610.34412.json",
+    "total_tokens": 839,
+    "translated_title": "管制下的稳定匹配",
+    "translated_abstract": "在一个任何联盟都可以达成协议的市场中，即使参与者的偏好满足可替代性，稳定结果也未必存在。我们展示了监管如何能够恢复稳定性。如果监管者参与每一项协议，那么当每个普通参与者的偏好满足一个弱于可替代性的条件时，集合意义上的稳定结果便存在，而监管者的偏好基本不受限制。另一个存在性结果允许普通参与者拥有任意偏好，但要求监管者支持每个参与者删除其获利性合约。我们的结果适用于涉及受监管活动的匹配市场。",
+    "tldr": "本文证明当监管者参与所有协议时，即使普通参与者的偏好只需满足弱于可替代性的条件，也能保证集合稳定匹配结果的存在，从而表明监管可以恢复缺失的市场稳定性。",
+    "en_tdlr": "This paper proves that when a regulator participates in every agreement, a setwise stable outcome is guaranteed to exist even under weaker-than-substitutability preferences for ordinary agents, showing how regulation can restore lost market stability."
+}

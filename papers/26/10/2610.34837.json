@@ -1,0 +1,12 @@
+{
+    "title": "Beyond Behaviour: A Stimulus-Response Safety Evaluation of Vision-Language-Action Models",
+    "abstract": "arXiv:2610.34837v1 Announce Type: new  Abstract: Humans exhibit biological sensitivity to safety-critical stimuli that can trigger defensive action. Across three models and two video benchmarks, we investigate whether similar responses emerge in vision-language-action models by examining their internal representations and action tendencies in response to visible hazards and harmful consequences. Our findings suggest that task execution may remain the default response even when danger is internally registered.",
+    "link": "https://arxiv.org/abs/2610.34837",
+    "context": "Title: Beyond Behaviour: A Stimulus-Response Safety Evaluation of Vision-Language-Action Models\nAbstract: arXiv:2610.34837v1 Announce Type: new  Abstract: Humans exhibit biological sensitivity to safety-critical stimuli that can trigger defensive action. Across three models and two video benchmarks, we investigate whether similar responses emerge in vision-language-action models by examining their internal representations and action tendencies in response to visible hazards and harmful consequences. Our findings suggest that task execution may remain the default response even when danger is internally registered.",
+    "path": "papers/26/10/2610.34837.json",
+    "total_tokens": 712,
+    "translated_title": "超越行为：视觉-语言-动作模型的刺激-反应安全评估",
+    "translated_abstract": "人类对安全关键的刺激表现出生物敏感性，这种敏感性能够触发防御性行动。我们通过三个模型和两个视频基准，通过检验视觉-语言-动作模型在面对可见危险和有害后果时的内部表征和动作倾向，研究它们是否会出现类似的反应。我们的发现表明，即使模型内部已经识别到危险，任务执行可能仍然是其默认反应。",
+    "tldr": "研究发现视觉-语言-动作模型即使在内部表征中已识别到危险，仍倾向于默认执行任务，揭示了此类模型在安全关键场景中的潜在风险。",
+    "en_tdlr": "Vision-language-action models may default to task execution even when danger is internally registered, revealing potential safety risks in safety-critical scenarios."
+}

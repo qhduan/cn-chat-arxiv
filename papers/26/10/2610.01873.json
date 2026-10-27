@@ -1,0 +1,12 @@
+{
+    "title": "Where LLMs Fail with Visualization DSLs",
+    "abstract": "arXiv:2610.01873v2 Announce Type: replace-cross  Abstract: As LLMs take up the role of authoring charts using visualization domain-specific languages (DSLs), the human constraints that shaped those languages may no longer apply, as what is easy for a person is not necessarily easy for a model. To understand how LLMs might work better with DSLs, we explore where and how they fail with current DSL designs. We evaluate 10 JSON-style visualization DSLs with 41 tasks across 3 LLMs, then assess the generated specifications with JSON and rendering checks, and qualitative coding of failed cases. Analyzing how this specification generation process fails, we identify four recurring failure patterns, link each to specific DSL features, and discuss design considerations for future DSL designs.",
+    "link": "https://arxiv.org/abs/2610.01873",
+    "context": "Title: Where LLMs Fail with Visualization DSLs\nAbstract: arXiv:2610.01873v2 Announce Type: replace-cross  Abstract: As LLMs take up the role of authoring charts using visualization domain-specific languages (DSLs), the human constraints that shaped those languages may no longer apply, as what is easy for a person is not necessarily easy for a model. To understand how LLMs might work better with DSLs, we explore where and how they fail with current DSL designs. We evaluate 10 JSON-style visualization DSLs with 41 tasks across 3 LLMs, then assess the generated specifications with JSON and rendering checks, and qualitative coding of failed cases. Analyzing how this specification generation process fails, we identify four recurring failure patterns, link each to specific DSL features, and discuss design considerations for future DSL designs.",
+    "path": "papers/26/10/2610.01873.json",
+    "total_tokens": 1028,
+    "translated_title": "大语言模型在可视化领域特定语言（DSL）中的失败之处",
+    "translated_abstract": "当大语言模型（LLMs）开始承担使用可视化领域特定语言（DSL）编写图表的任务时，塑造这些语言的人类约束可能不再适用，因为对人类来说容易的事情对模型来说未必容易。为了理解大语言模型如何能更好地与DSL协作，我们探索了它们在当前DSL设计中的失败之处和失败方式。我们使用41个任务在3个大语言模型上评估了10种JSON风格的可视化DSL，然后通过JSON和渲染检查以及失败案例的定性编码来评估生成的规范。通过分析规范生成过程的失败方式，我们识别出四种反复出现的失败模式，将每种模式与特定的DSL特征联系起来，并讨论了未来DSL设计的考量因素。",
+    "tldr": "本研究通过在3个大语言模型上用41个任务评估10种JSON风格的可视化DSL，识别出四种反复出现的失败模式并将其与特定DSL特征关联，为未来面向LLM的DSL设计提供了设计启示。",
+    "en_tdlr": "This study evaluates 10 JSON-style visualization DSLs across 3 LLMs with 41 tasks, identifies four recurring failure patterns linked to specific DSL features, and discusses design considerations for future LLM-friendly DSL designs."
+}

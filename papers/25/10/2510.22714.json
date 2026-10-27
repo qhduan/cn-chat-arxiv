@@ -1,0 +1,11 @@
+{
+    "title": "Gini representations of skewness, kurtosis and higher-order moments",
+    "abstract": "arXiv:2510.22714v3 Announce Type: replace-cross  Abstract: We provide pairwise-difference (Gini-type) representations of higher-order central moments for both general random variables and empirical moments. Such representations do not require a measure of location. For third and fourth moments, this yields pairwise-difference representations of skewness and kurtosis coefficients. We show that all central moments possess such representations, so no reference to the mean is needed for moments of any order. This is done by considering i.i.d. replications of the random variables considered, by observing that central moments can be interpreted as covariances between a random variable and powers of the same variable, and by giving recursions which link the pairwise-difference representation of any moment to lower order ones.",
+    "link": "https://arxiv.org/abs/2510.22714",
+    "context": "Title: Gini representations of skewness, kurtosis and higher-order moments\nAbstract: arXiv:2510.22714v3 Announce Type: replace-cross  Abstract: We provide pairwise-difference (Gini-type) representations of higher-order central moments for both general random variables and empirical moments. Such representations do not require a measure of location. For third and fourth moments, this yields pairwise-difference representations of skewness and kurtosis coefficients. We show that all central moments possess such representations, so no reference to the mean is needed for moments of any order. This is done by considering i.i.d. replications of the random variables considered, by observing that central moments can be interpreted as covariances between a random variable and powers of the same variable, and by giving recursions which link the pairwise-difference representation of any moment to lower order ones.",
+    "path": "papers/25/10/2510.22714.json",
+    "total_tokens": 1014,
+    "translated_title": "偏度、峰度及高阶矩的基尼表示",
+    "translated_abstract": "我们为一般随机变量和经验矩的高阶中心矩提供了成对差分（基尼型）表示。这类表示不需要位置度量。对于三阶矩和四阶矩，由此得到偏度系数和峰度系数的成对差分表示。我们证明所有中心矩都具备此类表示，因此任何阶数的矩都无需引用均值。这一结果是通过考虑所研究随机变量的独立同分布复制样本，观察到中心矩可以解释为随机变量与其幂次之间的协方差，并给出将任意矩的成对差分表示与低阶矩相联系的递推公式来实现的。",
+    "tldr": "本文证明所有阶数的中心矩均可表示为无需均值的成对差分（基尼型）形式，由此给出偏度和峰度的此类表示，并通过协方差解释与递推公式将任意阶矩的表示联系起来。"
+}

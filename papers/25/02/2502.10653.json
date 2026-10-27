@@ -1,0 +1,12 @@
+{
+    "title": "Policy Learning with Confidence",
+    "abstract": "arXiv:2502.10653v4 Announce Type: replace  Abstract: This paper introduces a rule for policy selection in the presence of estimation uncertainty, explicitly accounting for estimation risk. The rule belongs to the class of risk-aware rules on the efficient decision frontier, characterized as policies offering maximal estimated welfare for a given level of estimation risk. Among this class, the proposed rule is chosen to provide a reporting guarantee, ensuring that the welfare delivered exceeds a threshold with a pre-specified confidence level. We apply this approach to the allocation of a limited budget among social programs using estimates of their marginal value of public funds and associated standard errors.",
+    "link": "https://arxiv.org/abs/2502.10653",
+    "context": "Title: Policy Learning with Confidence\nAbstract: arXiv:2502.10653v4 Announce Type: replace  Abstract: This paper introduces a rule for policy selection in the presence of estimation uncertainty, explicitly accounting for estimation risk. The rule belongs to the class of risk-aware rules on the efficient decision frontier, characterized as policies offering maximal estimated welfare for a given level of estimation risk. Among this class, the proposed rule is chosen to provide a reporting guarantee, ensuring that the welfare delivered exceeds a threshold with a pre-specified confidence level. We apply this approach to the allocation of a limited budget among social programs using estimates of their marginal value of public funds and associated standard errors.",
+    "path": "papers/25/02/2502.10653.json",
+    "total_tokens": 820,
+    "translated_title": "具有置信度的政策学习",
+    "translated_abstract": "本文提出了一种在存在估计不确定性情况下的政策选择规则，该规则明确考虑了估计风险。该规则属于有效决策前沿上的风险感知规则类别，其特征是：在给定的估计风险水平下，提供最大估计福利的政策。在这一类别中，所提出的规则被设计用于提供报告保证，确保所实现的福利以预先指定的置信水平超过某一阈值。我们将该方法应用于在多个社会项目之间分配有限预算的问题，利用这些项目的公共资金边际价值估计值及其相关标准误。",
+    "tldr": "本文提出了一种考虑估计风险的政策选择规则，保证所选政策的福利以预先指定的置信水平超过阈值，并将其应用于社会项目间的有限预算分配问题。",
+    "en_tdlr": "This paper proposes a policy selection rule that explicitly accounts for estimation risk, guaranteeing that the delivered welfare exceeds a threshold with a pre-specified confidence level, and applies it to allocating a limited budget across social programs."
+}
