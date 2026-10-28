@@ -1,0 +1,11 @@
+{
+    "title": "Proofs of strong forms of the Bovdi--Geche universality conjecture and a complex analogue",
+    "abstract": "arXiv:2610.35645v1 Announce Type: new  Abstract: We prove two universality theorems for neural networks consisting of a single neuron. First we prove a strong form of the Bovdi--Geche universality conjecture on neurons over finite fields, where the activation function is a certain modification of the discrete logarithm, using the Weil bound on multiplicative character sums over finite fields. Then we show a generalisation of Aizenberg's universality theorem for complex binary neurons with a weight vector independent of the target function, positively answering another question in the literature. The proof of the latter uses an equidistribution theorem for the dilates of certain maps into tori.",
+    "link": "https://arxiv.org/abs/2610.35645",
+    "context": "Title: Proofs of strong forms of the Bovdi--Geche universality conjecture and a complex analogue\nAbstract: arXiv:2610.35645v1 Announce Type: new  Abstract: We prove two universality theorems for neural networks consisting of a single neuron. First we prove a strong form of the Bovdi--Geche universality conjecture on neurons over finite fields, where the activation function is a certain modification of the discrete logarithm, using the Weil bound on multiplicative character sums over finite fields. Then we show a generalisation of Aizenberg's universality theorem for complex binary neurons with a weight vector independent of the target function, positively answering another question in the literature. The proof of the latter uses an equidistribution theorem for the dilates of certain maps into tori.",
+    "path": "papers/26/10/2610.35645.json",
+    "total_tokens": 952,
+    "translated_title": "Bovdi–Geche 普遍性猜想强形式的证明及一个复数类比",
+    "translated_abstract": "我们证明了两个关于由单个神经元组成的神经网络的普遍性定理。首先，我们利用有限域上乘法特征和的 Weil 界，证明了 Bovdi–Geche 关于有限域上神经元普遍性猜想的一个强形式，其中激活函数是离散对数的某种修改。然后，我们展示了 Aizenberg 复二值神经元普遍性定理的一个推广，其中权重向量与目标函数无关，从而正面回答了文献中的另一个问题。后者的证明使用了关于某些映入环面的映射的伸缩的一致分布定理。",
+    "tldr": "该论文证明了 Bovdi–Geche 有限域神经元普遍性猜想的强形式，并推广了 Aizenberg 的复二值神经元普遍性定理，使权重向量不再依赖于目标函数。"
+}

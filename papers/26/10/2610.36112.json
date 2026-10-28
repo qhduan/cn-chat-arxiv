@@ -1,0 +1,12 @@
+{
+    "title": "Degrading the Grade: Grading Variance as Evidence of Shirking",
+    "abstract": "arXiv:2610.36112v1 Announce Type: new  Abstract: Variation in grading standards across instructors who teach the same students is evidence of a moral hazard problem, whether or not grades are inflated. The optimal standard is the same for every section of a course, yet grades vary widely across sections. We present a principal-agent model in which instructors who know the optimal standard still depart from it, leniently or harshly, depending on their incentives. Penalizing deviations from the department average leaves the average unchanged but compresses grading variance, which raises student welfare. Disclosing the same information to students instead increases grading variance.",
+    "link": "https://arxiv.org/abs/2610.36112",
+    "context": "Title: Degrading the Grade: Grading Variance as Evidence of Shirking\nAbstract: arXiv:2610.36112v1 Announce Type: new  Abstract: Variation in grading standards across instructors who teach the same students is evidence of a moral hazard problem, whether or not grades are inflated. The optimal standard is the same for every section of a course, yet grades vary widely across sections. We present a principal-agent model in which instructors who know the optimal standard still depart from it, leniently or harshly, depending on their incentives. Penalizing deviations from the department average leaves the average unchanged but compresses grading variance, which raises student welfare. Disclosing the same information to students instead increases grading variance.",
+    "path": "papers/26/10/2610.36112.json",
+    "total_tokens": 964,
+    "translated_title": "评级的退化：评分差异作为教师卸责行为的证据",
+    "translated_abstract": "教授同一批学生的不同教师之间评分标准的差异，无论成绩是否存在通胀，都是道德风险问题存在的证据。一门课程各教学班的最优评分标准本应相同，然而各班之间的成绩却差异悬殊。我们提出了一个委托-代理模型，在该模型中，即使教师知晓最优标准，仍会依据自身激励偏离该标准，或宽或严。惩罚评分偏离系平均水平的做法能使平均水平保持不变，但会压缩评分方差，从而提高学生福利；而将同样的信息披露给学生，反而会增加评分方差。",
+    "tldr": "教授同一批学生的教师之间评分标准的差异是道德风险（教师卸责）的证据；惩罚评分偏离系均值的做法可压缩评分方差并提升学生福利，而向学生披露同样的信息反而会扩大评分方差。",
+    "en_tdlr": "Grading variance among instructors teaching the same students is evidence of moral hazard (shirking); penalizing deviations from the department mean compresses grading variance and raises student welfare, whereas disclosing the same information to students instead increases it."
+}

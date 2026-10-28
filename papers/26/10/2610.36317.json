@@ -1,0 +1,12 @@
+{
+    "title": "Event definition and the branching ratio: Hawkes estimates of price-change clustering in the consolidated quote feed",
+    "abstract": "arXiv:2610.36317v1 Announce Type: new  Abstract: Hawkes models of price changes in the consolidated US quote feed find a sub-millisecond kernel component and a branching ratio near criticality. We show that in large-tick stocks the first is the feed's construction: half of NBBO changes are locks or depleted quotes, resolved within a millisecond, which the model reads as excitation. Defining the event as a mid-price level persisting for one millisecond removes the component. Raw fits put three times the clean kernel mass within one second, which a simulation reproduces. Since the total branching ratio trades off against the baseline, we report kernel mass on a fixed window.",
+    "link": "https://arxiv.org/abs/2610.36317",
+    "context": "Title: Event definition and the branching ratio: Hawkes estimates of price-change clustering in the consolidated quote feed\nAbstract: arXiv:2610.36317v1 Announce Type: new  Abstract: Hawkes models of price changes in the consolidated US quote feed find a sub-millisecond kernel component and a branching ratio near criticality. We show that in large-tick stocks the first is the feed's construction: half of NBBO changes are locks or depleted quotes, resolved within a millisecond, which the model reads as excitation. Defining the event as a mid-price level persisting for one millisecond removes the component. Raw fits put three times the clean kernel mass within one second, which a simulation reproduces. Since the total branching ratio trades off against the baseline, we report kernel mass on a fixed window.",
+    "path": "papers/26/10/2610.36317.json",
+    "total_tokens": 1737,
+    "translated_title": "事件定义与分支比：基于Hawkes模型对综合报价流中价格变动聚类的估计",
+    "translated_abstract": "对美国综合报价流中价格变动进行Hawkes建模会发现一个亚毫秒级的核函数成分以及接近临界值的分支比。我们证明，在大报价价差股票中，前者源于数据馈送本身的构建方式：一半的NBBO（全国最佳买卖报价）变动属于锁定市场或被耗尽的报价，并在一毫秒内得到解决，模型将此误读为自激发。若将事件定义为持续至少一毫秒的中间价水平，该成分即可被消除。原始数据拟合在一秒内的核质量是清洗后数据的三倍，模拟实验再现了这一结果。鉴于总分支比与基准强度之间存在此消彼长的权衡关系，我们在固定时间窗口上报告核质量。",
+    "tldr": "论文揭示美股综合报价流Hawkes模型中的亚毫秒级聚类成分其实是数据构建方式造成的伪影（由锁定市场和耗尽报价引起），将事件重新定义为持续一毫秒以上的中间价水平即可消除该伪影。",
+    "en_tdlr": "The sub-millisecond clustering component in Hawkes models of the consolidated US quote feed is an artifact of feed construction (locked and depleted quotes), which vanishes when events are redefined as mid-price levels persisting for at least one millisecond."
+}

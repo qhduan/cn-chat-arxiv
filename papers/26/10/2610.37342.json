@@ -1,0 +1,12 @@
+{
+    "title": "Aligning Institutional Power and Operational Ability",
+    "abstract": "arXiv:2610.37342v1 Announce Type: new  Abstract: To be socially sustainable, Agentic AI systems require normative designs that align responsibilities with the ability to fulfil them. Identifying incongruences such as unsatisfiable expectations or privilege escalation is crucial in avoiding normative pitfalls. In this study, we discuss design dimensions suitable for describing multi-agent systems in light of this norm-ability alignment requirement. We propose a formal framework centred on process-oriented modelling and institutional power for the analysis of a given normatively relevant process, discuss strategies for repairing it, and elaborate on how the symmetrical relation between operational process and institutional state affects the lifecycle of normative positions.",
+    "link": "https://arxiv.org/abs/2610.37342",
+    "context": "Title: Aligning Institutional Power and Operational Ability\nAbstract: arXiv:2610.37342v1 Announce Type: new  Abstract: To be socially sustainable, Agentic AI systems require normative designs that align responsibilities with the ability to fulfil them. Identifying incongruences such as unsatisfiable expectations or privilege escalation is crucial in avoiding normative pitfalls. In this study, we discuss design dimensions suitable for describing multi-agent systems in light of this norm-ability alignment requirement. We propose a formal framework centred on process-oriented modelling and institutional power for the analysis of a given normatively relevant process, discuss strategies for repairing it, and elaborate on how the symmetrical relation between operational process and institutional state affects the lifecycle of normative positions.",
+    "path": "papers/26/10/2610.37342.json",
+    "total_tokens": 898,
+    "translated_title": "对齐制度性权力与操作性能力",
+    "translated_abstract": "为了实现社会可持续性，智能体AI系统需要规范性的设计，使责任与其履行该责任的能力相匹配。识别诸如不可满足的期望或权限提升等不一致现象，对于避免规范性陷阱至关重要。在本研究中，我们基于这一规范-能力对齐要求，讨论了适合描述多智能体系统的设计维度。我们提出了一个以面向过程的建模和制度性权力为核心的形式化框架，用于分析给定的规范相关过程，讨论了修复该过程的策略，并详细阐述了操作性过程与制度状态之间的对称关系如何影响规范地位的生命周期。",
+    "tldr": "该论文提出了一个以面向过程建模和制度性权力为核心的形式化框架，用于分析和修复多智能体AI系统中责任与履行能力之间的规范性错配问题。",
+    "en_tdlr": "This paper proposes a formal framework centered on process-oriented modelling and institutional power to analyze and repair normative misalignments between responsibilities and abilities in multi-agent agentic AI systems."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "The Term Structure of Implied Fee Rates in Liquidity Pools",
+    "abstract": "arXiv:2610.36392v1 Announce Type: new  Abstract: We develop a no-arbitrage framework to recover implied fee rates from option-implied information and quantify fee compensation for liquidity providers in automated market maker (AMM) pools. Expected accumulated fees equal the current pool value minus the risk-neutral value of its terminal payoff, reducing forward-looking LP compensation to pricing the LP payoff. We apply the framework to Uniswap v2 and Uniswap v3 ETH--USDC pools using a stochastic-volatility jump-diffusion model calibrated to Deribit options. Implied fee rates are positive, time varying, downward sloping in maturity, and highly sensitive to range design, with tighter near-the-money ranges earning larger implied returns.",
+    "link": "https://arxiv.org/abs/2610.36392",
+    "context": "Title: The Term Structure of Implied Fee Rates in Liquidity Pools\nAbstract: arXiv:2610.36392v1 Announce Type: new  Abstract: We develop a no-arbitrage framework to recover implied fee rates from option-implied information and quantify fee compensation for liquidity providers in automated market maker (AMM) pools. Expected accumulated fees equal the current pool value minus the risk-neutral value of its terminal payoff, reducing forward-looking LP compensation to pricing the LP payoff. We apply the framework to Uniswap v2 and Uniswap v3 ETH--USDC pools using a stochastic-volatility jump-diffusion model calibrated to Deribit options. Implied fee rates are positive, time varying, downward sloping in maturity, and highly sensitive to range design, with tighter near-the-money ranges earning larger implied returns.",
+    "path": "papers/26/10/2610.36392.json",
+    "total_tokens": 1054,
+    "translated_title": "流动性池中隐含费率的期限结构",
+    "translated_abstract": "我们开发了一个无套利框架，从期权隐含信息中恢复隐含费率，并量化自动做市商（AMM）池中流动性提供者的费用补偿。预期累计费用等于当前池价值减去其终端收益的风险中性价值，从而将前瞻性的LP补偿问题简化为对LP收益的定价。我们利用根据Deribit期权校准的随机波动率跳跃扩散模型，将该框架应用于Uniswap v2和Uniswap v3的ETH-USDC流动性池。研究发现，隐含费率为正、随时间变化、随期限呈下降趋势，且对价格区间设计高度敏感——越窄的接近平价（near-the-money）区间能获得越大的隐含回报。",
+    "tldr": "该论文构建了一个无套利定价框架，从期权隐含信息中提取AMM流动性池隐含费率的期限结构，发现隐含费率为正、随期限递减，且更窄的平价区间能带来更高的流动性提供回报。",
+    "en_tdlr": "This paper develops a no-arbitrage framework to extract the term structure of implied fee rates for AMM liquidity pools from option-implied information, finding that implied fee rates are positive, downward sloping in maturity, and higher for tighter near-the-money ranges."
+}

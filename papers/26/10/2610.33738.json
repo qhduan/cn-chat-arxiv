@@ -1,0 +1,12 @@
+{
+    "title": "Polynomial Residual Networks are Generically Identifiable",
+    "abstract": "arXiv:2610.33738v1 Announce Type: new  Abstract: We prove identifiability results for constant-width residual networks with polynomial activations and bias terms. For activations of degree at least five with generic coefficients, the fiber over a generic parameter is a singleton. For activations of degree at least three with no linear term after a suitable translation of the input, the generic fiber is given by translating biases and then scaling weights and translated biases by real roots of unity. These results specialize to networks without bias terms. With the same proof technique, we further derive necessary conditions for critical points of the ResNet parametrization, that are central in singular learning theory.",
+    "link": "https://arxiv.org/abs/2610.33738",
+    "context": "Title: Polynomial Residual Networks are Generically Identifiable\nAbstract: arXiv:2610.33738v1 Announce Type: new  Abstract: We prove identifiability results for constant-width residual networks with polynomial activations and bias terms. For activations of degree at least five with generic coefficients, the fiber over a generic parameter is a singleton. For activations of degree at least three with no linear term after a suitable translation of the input, the generic fiber is given by translating biases and then scaling weights and translated biases by real roots of unity. These results specialize to networks without bias terms. With the same proof technique, we further derive necessary conditions for critical points of the ResNet parametrization, that are central in singular learning theory.",
+    "path": "papers/26/10/2610.33738.json",
+    "total_tokens": 1012,
+    "translated_title": "多项式残差网络在一般情形下是可辨识的",
+    "translated_abstract": "我们证明了具有多项式激活函数和偏置项的常数宽度残差网络的可辨识性结果。对于次数至少为五且系数取一般值的激活函数，一般参数上的纤维是单点集。对于次数至少为三且在输入经过适当平移后不含线性项的激活函数，一般纤维由先平移偏置项，再将权重与平移后的偏置项乘以实数单位根进行缩放所给出。这些结果可特化到无偏置项的网络。利用相同的证明技术，我们进一步推导出 ResNet 参数化临界点的必要条件，这些条件在奇异学习理论中处于核心地位。",
+    "tldr": "本文证明了具有多项式激活函数的常数宽度残差网络在一般参数下是可辨识的（一般纤维为单点集或由单位根缩放给出），并利用相同技术推导出奇异学习理论中至关重要的 ResNet 参数化临界点的必要条件。",
+    "en_tdlr": "This paper proves generic identifiability of constant-width residual networks with polynomial activations—generic fibers are singletons or given by root-of-unity scalings—and derives necessary conditions for critical points of the ResNet parametrization that are central to singular learning theory."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Execution Logs Sway VLM Judges of Robot Progress",
+    "abstract": "arXiv:2610.34151v1 Announce Type: new  Abstract: Vision-language models now grade robot videos, and text placed beside the frames can change their verdicts. On clips where the robot is losing progress, we add one log line saying the robot is making progress. Across Gemini, Qwen and GPT judges, this flips correct verdicts to progress 10 to 35 percentage points more often than a neutral line does. A one-line warning that the log may be wrong removes most of this effect. Selected fake \"task complete\" claims flip half of Qwen's correct verdicts, against a tenth for unrelated log lines. They have no detectable effect on Gemini.",
+    "link": "https://arxiv.org/abs/2610.34151",
+    "context": "Title: Execution Logs Sway VLM Judges of Robot Progress\nAbstract: arXiv:2610.34151v1 Announce Type: new  Abstract: Vision-language models now grade robot videos, and text placed beside the frames can change their verdicts. On clips where the robot is losing progress, we add one log line saying the robot is making progress. Across Gemini, Qwen and GPT judges, this flips correct verdicts to progress 10 to 35 percentage points more often than a neutral line does. A one-line warning that the log may be wrong removes most of this effect. Selected fake \"task complete\" claims flip half of Qwen's correct verdicts, against a tenth for unrelated log lines. They have no detectable effect on Gemini.",
+    "path": "papers/26/10/2610.34151.json",
+    "total_tokens": 1045,
+    "translated_title": "执行日志动摇了视觉语言模型对机器人进展的评判",
+    "translated_abstract": "视觉语言模型如今被用于给机器人视频打分，而放置在视频帧旁边的文本可以改变它们的评判结果。在机器人正在失去进展的视频片段中，我们添加了一行声称机器人正在取得进展的日志。在Gemini、Qwen和GPT三个评判模型中，这种做法比添加一行中性日志更频繁地将正确评判翻转为“有进展”，幅度达到10到35个百分点。仅用一行警告日志可能有误的提示，就能消除大部分这种效应。精心挑选的虚假“任务完成”声明会翻转Qwen一半的正确评判，而不相关的日志行只能翻转十分之一。这些虚假声明对Gemini则没有可检测到的影响。",
+    "tldr": "仅在机器人视频旁添加一行声称“机器人正在取得进展”的执行日志，就能让Gemini、Qwen和GPT等视觉语言模型评判者将10至35个百分点的正确评判翻转为“有进展”，而一行简单的“日志可能有误”警告即可消除大部分这种效应。",
+    "en_tdlr": "A single execution log line claiming robot progress flips 10-35 percentage points of correct verdicts to \"progress\" across Gemini, Qwen, and GPT VLM judges, though a one-line warning that the log may be wrong removes most of this effect."
+}

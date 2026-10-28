@@ -1,0 +1,12 @@
+{
+    "title": "Extrapolating learned dynamics across bifurcations based on generalized synchronization",
+    "abstract": "arXiv:2610.34471v1 Announce Type: cross  Abstract: Predicting dynamics across bifurcations by extrapolating trained models is crucial in diverse fields of physics. Generalized synchronization provides a framework for understanding dynamical reconstruction by neural networks, especially in the context of reservoir computing. Building on this framework, we derive a formula combining pretrained readouts to reconstruct unseen chaotic dynamics. Using classical Lagrange interpolation theory, we derive rigorous bounds on readout errors and conjugacy residuals. Numerical examples demonstrate accurate prediction of chaotic dynamics across bifurcations.",
+    "link": "https://arxiv.org/abs/2610.34471",
+    "context": "Title: Extrapolating learned dynamics across bifurcations based on generalized synchronization\nAbstract: arXiv:2610.34471v1 Announce Type: cross  Abstract: Predicting dynamics across bifurcations by extrapolating trained models is crucial in diverse fields of physics. Generalized synchronization provides a framework for understanding dynamical reconstruction by neural networks, especially in the context of reservoir computing. Building on this framework, we derive a formula combining pretrained readouts to reconstruct unseen chaotic dynamics. Using classical Lagrange interpolation theory, we derive rigorous bounds on readout errors and conjugacy residuals. Numerical examples demonstrate accurate prediction of chaotic dynamics across bifurcations.",
+    "path": "papers/26/10/2610.34471.json",
+    "total_tokens": 861,
+    "translated_title": "基于广义同步的跨分岔学习动力学外推",
+    "translated_abstract": "通过外推训练好的模型来预测跨分岔的动力学，在物理学的众多领域中至关重要。广义同步为理解神经网络的动力学重构提供了框架，特别是在储备池计算的背景下。基于这一框架，我们推导出一个组合预训练读出层的公式，以重构未见过的混沌动力学。利用经典拉格朗日插值理论，我们得出了读出误差和共轭残差的严格界。数值示例证明了对跨分岔混沌动力学的准确预测。",
+    "tldr": "该论文基于广义同步理论推导出组合预训练读出层的公式，并利用拉格朗日插值理论给出读出误差的严格界，实现了对跨分岔未见混沌动力学的准确预测。",
+    "en_tdlr": "Building on generalized synchronization, the paper derives a formula combining pretrained readouts with rigorous error bounds from Lagrange interpolation theory, enabling accurate prediction of unseen chaotic dynamics across bifurcations."
+}

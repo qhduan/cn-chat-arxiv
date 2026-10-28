@@ -1,0 +1,12 @@
+{
+    "title": "Greedy Orthogonal Polynomial Manifolds with Lipschitz Control for Dimensionality Reduction and Reduced Modeling",
+    "abstract": "arXiv:2610.33784v1 Announce Type: new  Abstract: Polynomial manifolds provide nonlinear low-dimensional representations through polynomial decoders. We propose to represent the polynomial terms of the decoder using features that are orthonormal on the training data. This empirical orthogonality enables a greedy algorithm, Greedy-OPM, which jointly selects encoder modes and polynomial features while minimizing the reconstruction error under a prescribed bound on the decoder's Lipschitz constant. Numerical experiments show that this Lipschitz constraint improves generalization away from the training data while retaining high reconstruction accuracy.",
+    "link": "https://arxiv.org/abs/2610.33784",
+    "context": "Title: Greedy Orthogonal Polynomial Manifolds with Lipschitz Control for Dimensionality Reduction and Reduced Modeling\nAbstract: arXiv:2610.33784v1 Announce Type: new  Abstract: Polynomial manifolds provide nonlinear low-dimensional representations through polynomial decoders. We propose to represent the polynomial terms of the decoder using features that are orthonormal on the training data. This empirical orthogonality enables a greedy algorithm, Greedy-OPM, which jointly selects encoder modes and polynomial features while minimizing the reconstruction error under a prescribed bound on the decoder's Lipschitz constant. Numerical experiments show that this Lipschitz constraint improves generalization away from the training data while retaining high reconstruction accuracy.",
+    "path": "papers/26/10/2610.33784.json",
+    "total_tokens": 969,
+    "translated_title": "具有Lipschitz控制的贪心正交多项式流形用于降维与降阶建模",
+    "translated_abstract": "多项式流形通过多项式解码器提供非线性低维表示。我们提出使用在训练数据上正交归一化的特征来表示解码器的多项式项。这种经验正交性使得贪心算法Greedy-OPM成为可能，该算法在解码器Lipschitz常数的预设界限约束下最小化重构误差，同时联合选择编码器模式与多项式特征。数值实验表明，这一Lipschitz约束在保持高重构精度的同时，提升了模型在训练数据之外区域的泛化能力。",
+    "tldr": "提出Greedy-OPM贪心算法，利用训练数据上正交归一的特征构建多项式流形，在Lipschitz常数约束下联合选择编码器模式与多项式特征，实现兼顾重构精度与泛化能力的降维与降阶建模。",
+    "en_tdlr": "Greedy-OPM is a greedy algorithm that builds polynomial manifolds with features orthonormal on training data, jointly selecting encoder modes and polynomial features under a prescribed Lipschitz constant bound to achieve high reconstruction accuracy with improved generalization for dimensionality reduction and reduced modeling."
+}

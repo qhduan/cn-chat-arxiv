@@ -1,0 +1,12 @@
+{
+    "title": "Characterizing Maximum Nash Welfare: Envy-Freeness and Proportionality",
+    "abstract": "arXiv:2610.36712v1 Announce Type: new  Abstract: When allocating indivisible goods, the maximum Nash welfare rule is known to be the unique welfarist rule satisfying envy-freeness up to one good. We strengthen this characterization by showing that envy-freeness up to one good can be replaced by substantially weaker fairness requirements: envy-freeness up to $k$ goods or proportionality up to $k$ goods, for any fixed $k$. Our characterization holds even for profiles with identical goods.",
+    "link": "https://arxiv.org/abs/2610.36712",
+    "context": "Title: Characterizing Maximum Nash Welfare: Envy-Freeness and Proportionality\nAbstract: arXiv:2610.36712v1 Announce Type: new  Abstract: When allocating indivisible goods, the maximum Nash welfare rule is known to be the unique welfarist rule satisfying envy-freeness up to one good. We strengthen this characterization by showing that envy-freeness up to one good can be replaced by substantially weaker fairness requirements: envy-freeness up to $k$ goods or proportionality up to $k$ goods, for any fixed $k$. Our characterization holds even for profiles with identical goods.",
+    "path": "papers/26/10/2610.36712.json",
+    "total_tokens": 884,
+    "translated_title": "最大纳什福利的刻画：无嫉妒性与比例性",
+    "translated_abstract": "在不可分割物品的分配问题中，最大纳什福利规则（maximum Nash welfare rule）已知是唯一满足“去一即无嫉妒”（envy-freeness up to one good, EF1）性质的福利主义规则。本文强化了这一刻画，证明EF1可以被实质上更弱的公平性要求所替代：对于任意固定的 $k$，只需满足“去 $k$ 即无嫉妒”（EFk）或“去 $k$ 即比例性”（Propk）即可。此外，即使在与物品完全相同的偏好情形下，我们的刻画结论依然成立。",
+    "tldr": "本文强化了最大纳什福利规则的公理化刻画，证明其唯一性可由比EF1弱得多的公平性质（任意固定k的“去k即无嫉妒”或“去k即比例性”）来保证，且该结论在物品相同的情形下也成立。",
+    "en_tdlr": "This paper strengthens the axiomatization of the maximum Nash welfare rule by showing it is uniquely characterized by substantially weaker fairness properties—envy-freeness up to k goods or proportionality up to k goods for any fixed k—even under profiles with identical goods."
+}

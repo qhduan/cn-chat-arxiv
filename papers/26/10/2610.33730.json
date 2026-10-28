@@ -1,0 +1,12 @@
+{
+    "title": "Learning Representative Port Subsets for Efficient Fluid Antenna Systems",
+    "abstract": "arXiv:2610.33730v1 Announce Type: cross  Abstract: Fluid antenna systems (FASs) provide many candidate ports, but probing all ports for each channel realization incurs substantial online overhead. We study a complementary offline problem: compress the candidate-port space once and reuse the compressed set across future channel realizations. The method collects optimal ports from sampled training realizations, requiring only one scan of the candidate ports per realization. On a DeepMIMO 7-by-7 FAS with 49 candidate ports, 120 training realizations yield 27 representative ports on average while retaining 99.995% of the channel power gain achieved by exhaustive port selection.",
+    "link": "https://arxiv.org/abs/2610.33730",
+    "context": "Title: Learning Representative Port Subsets for Efficient Fluid Antenna Systems\nAbstract: arXiv:2610.33730v1 Announce Type: cross  Abstract: Fluid antenna systems (FASs) provide many candidate ports, but probing all ports for each channel realization incurs substantial online overhead. We study a complementary offline problem: compress the candidate-port space once and reuse the compressed set across future channel realizations. The method collects optimal ports from sampled training realizations, requiring only one scan of the candidate ports per realization. On a DeepMIMO 7-by-7 FAS with 49 candidate ports, 120 training realizations yield 27 representative ports on average while retaining 99.995% of the channel power gain achieved by exhaustive port selection.",
+    "path": "papers/26/10/2610.33730.json",
+    "total_tokens": 978,
+    "translated_title": "面向高效流体天线系统的代表性端口子集学习",
+    "translated_abstract": "流体天线系统（FAS）提供了许多候选端口，但针对每次信道实现探测所有端口会带来巨大的在线开销。我们研究一个与之互补的离线问题：一次性压缩候选端口空间，并在未来的信道实现中复用该压缩集合。该方法从采样的训练信道实现中收集最优端口，每次实现只需对候选端口进行一次扫描。在一个具有49个候选端口的DeepMIMO 7×7流体天线系统上，120次训练实现平均产生27个代表性端口，同时保留了穷举端口选择所获得的信道功率增益的99.995%。",
+    "tldr": "本文提出一种离线压缩流体天线系统候选端口空间的方法，仅需120次训练实现即可将49个候选端口压缩为平均27个代表性端口，同时保留穷举端口选择99.995%的信道功率增益，从而大幅降低在线探测开销。",
+    "en_tdlr": "This paper proposes an offline method to compress the candidate-port space of fluid antenna systems, reducing 49 candidate ports to an average of 27 representative ports with only 120 training realizations while retaining 99.995% of the channel power gain achieved by exhaustive port selection."
+}

@@ -2,163 +2,287 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Fuji: The Shape, Composition, and Spread of Demand Bursts on Robinhood Chain](https://arxiv.org/abs/2610.35738) | 本文首次实测了Robinhood Chain上需求突发的构成，发现突发期交易的流动性池数量与平静期相近但多为不同的池子且交易强度更高，中位峰值达到基准的2.5倍。 |
-| [^2] | [Weekend Crypto Volatility and Monday Market Risk](https://arxiv.org/abs/2610.35702) | 该论文的核心发现是，周末加密货币的共同波动因子自2024年起能够显著预测股票、大宗商品和国债市场周一的风险水平，将一标准差的因子冲击可使周一方差提高27-54%，并使样本外预测损失降低11-22%。 |
-| [^3] | [Differentiability and Convexity of the Solution Maps for Fully Non-linear Parabolic HJB Equations](https://arxiv.org/abs/2610.35476) | 该论文证明了全非线性抛物型HJB方程的解映射关于终端条件的有限维参数具有连续方向可微性（其导数由线性化柯西问题刻画），并在哈密顿量凸性与终端数据非退化条件下证明了点值映射的局部强凸性，从而为半鞅最优传输的对偶表述提供了理论支撑。 |
-| [^4] | [Scenario Matching for Credit Dependence Stress Tests: Temporal correlation constraints and empirical risk bounds](https://arxiv.org/abs/2610.35118) | 该论文提出一种通过最小化时间相关误差将市场路径与信用路径进行完美匹配的方法，在保留经验分布的同时为信用依赖性压力测试提供精确的经验平均损失和超越概率风险界，且独立于情景生成器、可复现地检验现有风险引擎中的依赖性假设。 |
-| [^5] | [Martingality in EFM Signature Volatility Models](https://arxiv.org/abs/2610.35022) | 本文为EFM签名波动率模型建立了鞅性判据，证明在非平凡情形下价格过程是真鞅当且仅当截断阶数为奇数且相关性参数满足特定符号条件。 |
-| [^6] | [Det-MASO: Diversity-Regularized Multi-Agent Sequential Optimization for Factor Generation](https://arxiv.org/abs/2610.34936) | 该论文提出Det-MASO框架，通过在联合优化目标中引入对智能体间相关性矩阵的可微分对数行列式惩罚，在训练阶段直接促进多智能体生成多样化且适应市场变化的Alpha因子。 |
-| [^7] | [Do Round Numbers Hold Prices? Occupation Densities and Depth-Conditioned Hazards in the Limit Order Book](https://arxiv.org/abs/2610.34787) | 该论文通过tick网格框架，利用局部时间计数价格离开事件并结合深度条件化危险率，成功区分了整数价位作为“价格屏障”与单纯流动性聚集两种解释，发现2025年五只纳斯达克股票中整数价位虽吸引更多流动性，但深度调整后的价格停留时间并未更长。 |
-| [^8] | [Optimal ratcheting dividend policies with resets](https://arxiv.org/abs/2610.34348) | 本文研究了棘轮与破产约束下的最优股利政策，创新性地允许股息率在股权估值受损后下调，给出了价值函数有限性的充要条件，并将二维变分不等式问题等价化简为一维问题，兼顾了数学与金融分析。 |
-| [^9] | [Certifying Reward Alignment in Portfolio Reinforcement Learning](https://arxiv.org/abs/2610.34153) | 该论文提出一种面向投资组合强化学习的奖励一致性认证方法，通过基于行动者、奖励和延续评论家残差的决策审计，将奖励误设定与学习误差区分开来，从而验证智能体是否真正实现了投资者的均值-方差金融偏好。 |
-| [^10] | [Smart charging without rebound peaks: Wholesale price feedback limits distribution grid peaks from price-responsive electric vehicles](https://arxiv.org/abs/2610.34133) | 本文指出，传统研究将批发价格视为外生变量从而夸大了电动汽车“回弹峰值”问题，在考虑批发价格与充电负荷之间的均衡反馈后，配电网同步峰值增幅可从260%大幅降至5%。 |
-| [^11] | [Jensen gaps and the decomposition principle](https://arxiv.org/abs/2610.33786) | 本文通过公理化方法刻画了詹森差距泛函这一统一框架（涵盖超额增长率、效用溢价、KL散度和方差等重要例子），并证明律不变性与二元分解原理相结合足以在无原子概率空间上唯一确定这类泛函。 |
-| [^12] | [Geoeconomic Stress and European Defence Readiness](https://arxiv.org/abs/2610.33785) | 本研究构建了包含宏观经济能力、部门韧性、国防工业能力和后勤保障四个维度的国家级评估框架，用以衡量28个欧洲北约盟国在五种地缘经济压力情景下维持军事战备的经济产业能力，发现各国基线能力差异显著且压力冲击的影响高度异质。 |
-| [^13] | [What FLARE's Published Numbers Actually Measure](https://arxiv.org/abs/2610.33604) | 该论文审计了FLARE金融基准的评分流程，证明其公开分数在很大程度上由未指定的答案抽取规则而非模型能力决定——不同抽取规则在相同生成结果上可造成高达0.4216的准确率差异，且各排行榜均未披露所用规则。 |
-| [^14] | [Optimal portfolio choice under green transition timing risk](https://arxiv.org/abs/2610.33597) | 本文针对绿色转型时机不确定的风险，研究了具有模糊厌恶的CRRA投资者如何构建稳健的最优投资组合，通过将转型建模为绿色股票升值、棕色股票贬值的跳跃过程，求解了转型前后的最优策略并给出验证定理。 |
-| [^15] | [Tokenised Sukuk: A Verifiable Architecture for Asset Evidence and Programmable Shariah Compliance](https://arxiv.org/abs/2610.33538) | 本文提出一种代币化伊斯兰债券的可验证架构，将马来西亚证券委员会2023年伊斯兰教法决议中的可交易性条件编码为读取EIP-712签名资产声明的链上发行与转让策略，弥补了ERC-3643等安全代币标准只验证投资者身份、不验证底层资产证据与伊斯兰教法合规的关键缺口。 |
-| [^16] | [Cross-Bond Panel Learning for Next-Day Price Forecasting of Chinese Convertible Bonds: A Reality Check](https://arxiv.org/abs/2610.33453) | 本文对中国可转债的跨债券神经网络面板学习进行了严格的方法论检验，发现在严格的样本外评估条件下，神经网络集成模型未能可靠超越随机游走基准，为该领域过于乐观的研究结论提供了现实警示。 |
-| [^17] | [Efficiency vs Capability in the Intelligence Explosion](https://arxiv.org/abs/2610.33447) | 该论文提出软件驱动的智能爆炸需要AI能力提升和效率提升两个边际同时足够快速改进且不可相互替代，通过数据校准发现能力进步很可能达标而效率进步处于临界边缘，蒙特卡洛模拟显示SIE发生概率约为49%，表明其可能但不确定。 |
-| [^18] | [Compiling and forecasting implied volatility surfaces via survey sampling, tempered inverse-probability sequence learning, and causal activity clocks](https://arxiv.org/abs/2610.33438) | 论文将有限总体抽样设计、缓和逆概率加权序列学习与因果活动时钟相结合，利用NVDA 2018–2025年高频股票-期权数据编制并预测隐含波动率曲面，并发现横截面曲面精度关键在于使抽样设计与目标泛函相匹配。 |
-| [^19] | [Tracking High-Frequency Trading Activity in China and Its Effects on Market Quality](https://arxiv.org/abs/2610.33400) | 本文提出以主动精确匹配订单作为高频交易活动的新型订单级代理指标，并利用深交所开盘时订单传播延迟的跨通道差异提供因果证据，研究高频交易对市场质量的影响。 |
-| [^20] | [A Stationary Mean-Field Model for Carbon Market Stability Reserve](https://arxiv.org/abs/2610.33132) | 该论文将碳市场稳定储备的设计建模为平稳平均场奇异控制问题，证明最优政策是由四个反射阈值刻画的机制依赖带状规则，对EU ETS的校准表明其阈值与现行规则处于同一数量级，且波动性是干预区间的主要决定因素。 |
-| [^21] | [The Digital-Energy Recomposition of the Kitchin Cycle: Exploratory Evidence from U.S. IT and Irish Data-Centre Series (1995-2025)](https://arxiv.org/abs/2610.33122) | 该研究通过断点检验发现美国IT与GDP的相关性在2014年第三季度发生显著的“战略性脱钩”（早于AI时代约六年），而爱尔兰数据中心用电量与GDP的高相关性在改用GNP后骤然消失，表明基钦周期正围绕能源与算力资产重组这一命题仅获得部分探索性证据支持。 |
-| [^22] | [Uncertainty Quantification for Financial Foundation Models: A Survey](https://arxiv.org/abs/2610.33109) | 该综述提出了一个区分六大不确定性来源的来源感知框架，并建立了基于机制的不确定性量化方法分类体系，用以系统评估金融基础模型在从证据到行动的完整工作流程中的不确定性。 |
-| [^23] | [Prospect Theory in Large Language Models: A Meta-Analysis of Loss Aversion, Diminishing Sensitivity, and Probability Weighting](https://arxiv.org/abs/2610.33103) | 本文通过对32个语言模型的102个拟合估计进行元分析，发现大型语言模型表现出温和的损失厌恶（λ=1.26）：在收益与损失对称情境下其行为与人类相容，但总体损失厌恶程度显著低于人类，且三个前景理论成分的表现各不相同。 |
-| [^24] | [The Capability Transfer: Cohort Reversal, Codified Expertise, and the Adaptability Tax of AI Transformation](https://arxiv.org/abs/2610.33102) | 本文发现AI自动化编码化工作会先削减初级岗位需求，随后因人才梯队断裂导致高级专家存量更深幅萎缩，内部培养专家的时间从约五年延长至九年，且转型的适应成本由与采用决策者不同的群体承担。 |
-| [^25] | [Identifying level-$k$ reasoning in repeated games: Strategies, beliefs, and cognitive ability](https://arxiv.org/abs/2610.33098) | 本文在超级博弈策略层面识别level-k推理，开发了一个同时纳入策略选择与信念的模型，借助无限重复囚徒困境实验和新的平衡最优容错概念，将相当比例的受试者分类为level-1或level-2，并发现认知能力与经验能够预测更高层次的推理。 |
-| [^26] | [Market Regime-Based Multi-Asset Portfolio Optimization Using Nested Clustered Optimization for Tactical Asset Allocation](https://arxiv.org/abs/2610.27751) | 该论文提出一种将基于高斯隐马尔可夫模型的市场状态检测与嵌套聚类优化（NCO）相结合的状态感知战术资产配置框架，通过在协方差估计、层次聚类和权重优化各阶段融入市场状态信息，实现更优的风险调整后表现和更低的下行风险。 |
-| [^27] | [Deep catastrophic-risk-aware reinforcement learning](https://arxiv.org/abs/2610.27214) | 本文将极值理论方法扩展至深度强化学习，提出了一种基于自动微分的可微尾部风险目标，使神经网络策略能够更准确地优化条件风险价值（CVaR），从而更好地应对罕见极端风险。 |
-| [^28] | [Combinatorial Arbitrage in Prediction Markets](https://arxiv.org/abs/2610.23517) | 该论文提出了一个结合凸包理论与整数规划的组合套利框架，通过挖掘预测市场合约间190万条逻辑关系（覆盖超过25.5万份合约）来识别最优套利组合，并在Polymarket真实订单簿回放中实现了2.2%至3.2%的利润，同时发现套利机会在发现与执行成本更高的地方持续更久。 |
-| [^29] | [StochLOB: Heavy-Tailed Score Matching for Robust Limit Order Book Trend Prediction](https://arxiv.org/abs/2610.21081) | 该论文提出StochLOB训练框架，用跳跃Lévy噪声和截断α稳定噪声等重尾非高斯扩散过程替代传统的布朗高斯噪声来加噪训练数据，以更好地捕捉限价订单簿订单流的重尾与跳跃特性，从而提升LOB趋势预测的稳健性，同时推理阶段保持确定性预测器。 |
-| [^30] | [Discrete-Time Survival Modelling with Dynamic Industrial Graphs for Mortgage Credit Risk](https://arxiv.org/abs/2610.18795) | 本文提出以产业结构相似性度量经济接近度，构建每年重建的动态产业图并结合离散时间生存模型，从而捕捉抵押贷款违约风险中随时间演变的跨地区相依性。 |
-| [^31] | [FinAutoRubric: Expert-Guided Automatic Rubric Generation for Evaluating Financial Research Agents](https://arxiv.org/abs/2609.35744) | FinAutoRubric 提出一种专家引导的自动评分准则生成框架，专家只需提供可复用的评估指导原则，由撰写者与审查者智能体及代码在长周期循环中完成针对具体查询的准则生成、验证与人工升级，其生成的准则在三个专家级金融基准上的评分与专家评分高度一致，且能为更多准则给出预期取值。 |
-| [^32] | [LiveOption: Evaluating LLM Agents in Structured Option Trading with Nonlinear Payoffs](https://arxiv.org/abs/2609.33470) | 提出了LiveOption评估框架，在真实执行与资本约束下，通过涵盖非线性收益与多腿策略构建的三类期权交易任务，弥补了现有评估仅关注股票方向性预测的不足。 |
-| [^33] | [Affine Pricing Models from Group Quantization and Holonomy](https://arxiv.org/abs/2609.28863) | 该论文提出仿射和乐群量子化（AHGQ）几何框架，通过将仿射定价符号分解为齐次二次部分与仿射部分，将坐标空间定价算子和基于广义Riccati方程的指数仿射变换表示统一到同一底层几何结构之中。 |
-| [^34] | [Recursive Reasoning or Statistical Extrapolation? In-Context Learning in Multi-Agent Interdependent Decision-Making](https://arxiv.org/abs/2609.18591) | 研究发现LLM智能体在多智能体相互依赖决策中的上下文学习主要依赖对历史统计模式的外推而非真正的递归推理，一旦统计模式被破坏，长上下文带来的决策优势便大幅消失。 |
-| [^35] | [Urban Reconstruction and Population Redistribution: Evidence from Tokyo after the Great Kanto Earthquake](https://arxiv.org/abs/2607.02978) | 该研究利用1923年关东大地震火灾破坏程度的空间差异，发现重建中的土地整理减少了东京烧毁区的住宅用地并推高了租金，致使该区域的户数和人口长期未能恢复到震前水平，从而揭示了灾害后城市重建政策对城市人口再分布的持久性影响。 |
-| [^36] | [Bayesian Parametric Portfolio Policies](https://arxiv.org/abs/2602.21173) | 本文提出贝叶斯参数化组合策略（BPPP），通过先验约束和后验权重平均解决预测变量多于观测值时组合策略无法确定的问题，在242个预测变量和五个因子下通过因子择时每年获得2.08个百分点的收益。 |
-| [^37] | [Multiscaling in the Rough Bergomi Model: A Tale of Tails](https://arxiv.org/abs/2601.11305) | 本文提出一种新颖的两阶段统计检验程序，研究粗糙Bergomi模型中多标度行为的真正来源，表明其主要由肥尾收益特性驱动而非波动率路径的粗糙性，这对极端风险估计、投资组合配置和期权定价具有重要意义。 |
-| [^38] | [LLM-Generated Counterfactual Stress Scenarios for Portfolio Risk Simulation via Hybrid Prompt-RAG Pipeline](https://arxiv.org/abs/2512.07867) | 该论文开发了一个透明、可审计的LLM混合提示-RAG流水线，用于生成反事实宏观金融压力测试情景并将其转化为投资组合损失，发现情景严重性主要继承自提示设计而非模型自发产生。 |
-| [^39] | [European Defence Readiness](https://arxiv.org/abs/2501.00058) | 本研究实证评估了欧洲的动员战备能力与全社会韧性，发现与1990年基准相比国防工业动员存在显著不足，而全社会韧性虽总体较强但各国差异明显，其中北欧国家的准备度最高。 |
-| [^40] | [Fourier-Laplace transforms in polynomial Ornstein-Uhlenbeck volatility models](https://arxiv.org/abs/2405.02170) | 本文揭示了一类多项式Ornstein-Uhlenbeck波动率模型的傅里叶-拉普拉斯泛函与无穷维Riccati方程组解之间的联系，证明了该方程组的存在性结果，并开发了高效准确的数值求解方法用于SPX期权和波动率互换的定价。 |
-| [^41] | [A multistate approach to disability insurance reserving with information delays](https://arxiv.org/abs/2312.14324) | 提出了一种考虑信息延迟的失能保险实时个体准备金多状态模型，并证明在适当独立性假设下，新准备金可通过经典准备金的自然修正方式计算得到。 |
+| [^1] | [Contemporaneous Transmission Networks and Systemic Risk in European Banking](https://arxiv.org/abs/2610.37487) | 本文基于递归非高斯网络模型，构建了衡量欧洲上市银行系统性影响（SIS）与系统性脆弱性（SVS）的市值加权新指标，揭示了银行间同时期收益传导网络中传导者与接收者的不同角色及其在系统性风险中的意义。 |
+| [^2] | [Hosting is not capturing: an exposure-capability framework and Hungary's electric-vehicle battery bet](https://arxiv.org/abs/2610.37445) | 本文提出“暴露-能力”分析框架，并以匈牙利押注电动汽车电池制造为例，揭示承接他国产业投资并不等于真正获取价值链高位——通过2010-2024年企业面板数据检验，匈牙利的大规模集中暴露究竟是追赶跃升的豪赌还是依赖地位的固化，取决于其生产能力能否深化。 |
+| [^3] | [Optimal Order Placement under a State-Dependent Hawkes Process Limit Order Book model](https://arxiv.org/abs/2610.37324) | 提出了一个基于状态依赖Hawkes过程限价订单簿模型的做市商最优报价放置框架，通过分块线性需求设定与动态规划递推刻画库存依赖的报价策略，并在真实数据实验中验证了其终端财富表现。 |
+| [^4] | [Climate change, sea level rise, and the agricultural revolution](https://arxiv.org/abs/2610.37306) | 该研究验证了农业起源与传播的多种假说，发现季节性假说最为稳健，人口密度促进了农业的发明，空间扩散推动了农业的传播，而技术进步是农业扩展到新区域的主要驱动力。 |
+| [^5] | [An Application of Geometric Riemannian Pricing Algorithm for Valuing Catastrophe Bonds in Incomplete Markets: Market-Consistent Financial Entropy and the Split of Frequency and Severity Risk Premia](https://arxiv.org/abs/2610.37171) | 本文提出一种基于黎曼几何优化金融熵的巨灾债券定价框架，在完全市场中通过纳入二级市场利差实现市场一致的定价，并证明频率与严重性风险溢价仅通过风险中性触发强度影响价格，因而无法仅凭市场数据加以区分识别。 |
+| [^6] | [A Deep Learning-Driven Operator Splitting Scheme for Free Boundary Problems: An Application to American Option Pricing in Incomplete Markets](https://arxiv.org/abs/2610.36921) | 本文提出一种深度学习驱动的算子分裂格式，将高维自由边界问题（如非完全市场中美式期权定价对应的五维非线性变分不等式）在每个时间层分解为由物理信息神经网络近似的椭圆延拓方程与强制提前行权约束的闭式投影步骤，并推导出条件稳定性界，其结果与有限差分和最小二乘蒙特卡洛基准高度吻合。 |
+| [^7] | [Depositing More Should Not Earn Less: Supplier Income Monotonicity and Rate Curve Design in Pooled Lending Markets](https://arxiv.org/abs/2610.36899) | 该论文给出了池化借贷市场中供应方收入随存款增加而不减少的充要条件 α(1+η)≤1，并提出通过在每一资金利用率下设定受保护的最大供应方份额来约束借款利率弹性，从而设计出可避免“存入更多反而赚得更少”的利率曲线。 |
+| [^8] | [Simple Portfolios that Deliver Consistent Decent Returns](https://arxiv.org/abs/2610.36491) | 本文在个人投资者的现实约束下（仅投资少数流动性好的美国ETF、月度交易且有成本、不可卖空或加杠杆），通过凸优化和公开数据构建参数完全可解释的“简单”投资组合，实证表明其能带来持续且可观的收益。 |
+| [^9] | [Risk measures for infinite-server queues driven by a Cox-BESQ process](https://arxiv.org/abs/2610.36473) | 本文利用Cox-BESQ过程的仿射结构，推导出到达强度、系统顾客数及其时间积分的联合矩生成函数封闭表达式，进而构建了以变量超过临界阈值为条件的风险度量。 |
+| [^10] | [The Term Structure of Implied Fee Rates in Liquidity Pools](https://arxiv.org/abs/2610.36392) | 该论文构建了一个无套利定价框架，从期权隐含信息中提取AMM流动性池隐含费率的期限结构，发现隐含费率为正、随期限递减，且更窄的平价区间能带来更高的流动性提供回报。 |
+| [^11] | [Event definition and the branching ratio: Hawkes estimates of price-change clustering in the consolidated quote feed](https://arxiv.org/abs/2610.36317) | 论文揭示美股综合报价流Hawkes模型中的亚毫秒级聚类成分其实是数据构建方式造成的伪影（由锁定市场和耗尽报价引起），将事件重新定义为持续一毫秒以上的中间价水平即可消除该伪影。 |
+| [^12] | [Does Ecosystem Activity Validate TVL?](https://arxiv.org/abs/2610.36274) | 研究表明，将TVL与生态系统活动指标（如采用率、使用率、开发活动、协议收入和社交关注度）相结合，在经过多重检验校正后仍无法产生超越加密货币市场基准的超额收益，说明TVL本身不包含市场投资组合之外的定价信息。 |
+| [^13] | [From Tariff Changes to Trade Effects: A Practical Framework for Empirical Trade Policy Analysis](https://arxiv.org/abs/2610.36171) | 本文针对多边关税上升的新贸易政策环境，提出了一个将关税变化转化为贸易效应的实用实证分析框架，并强调自由化与保护主义通过相对市场准入的不同变化产生效应，不应被对称对待。 |
+| [^14] | [FinLLM-KG: Knowledge Graph-Enhanced LLMs for Financial Sentiment Analysis in Algorithmic Trading](https://arxiv.org/abs/2610.36083) | 该论文提出FinLLM-KG框架，通过将因果大语言模型与金融知识图谱结合，在推理时注入来自SEC 10-K文件的公司层面知识，以近乎零计算成本提升了金融情感分析的上下文理解能力，且无需更新模型权重。 |
+| [^15] | [Practice Makes Perfect: Tacit Knowledge, Generative AI, and Returns to Schooling and Experience](https://arxiv.org/abs/2610.36008) | 该论文提出生成式AI会降低教育回报率（因其替代编码化知识），同时提升实践经验回报率（因隐性知识仍需在实践中积累），从而重塑工资结构中的教育与经验溢价。 |
+| [^16] | [Leveraging US Commercial Adjustments: MFN Tariffs and Trade Diversion](https://arxiv.org/abs/2610.35986) | 最惠国关税提高不仅会减少进口，还会通过提升现有贸易优惠的相对价值，将贸易转移至享有优惠待遇的出口国，且该效应在部门与地区间高度异质。 |
+| [^17] | [Reconstructing the Human Development Index at the Individual Level from Survey Microdata: Development and Validation of a Methodology](https://arxiv.org/abs/2610.35893) | 本研究开发并验证了一种基于调查微观数据在个体层面重构人类发展指数的方法，可在与官方HDI保持一致的前提下，为不同人口学亚群体提供分组的HDI估计。 |
+| [^18] | [Evaluating the Predictive Validity of ICT's Accumulation-Manipulation-Distribution (AMD) Model on CME E-Mini NASDAQ-100 Futures](https://arxiv.org/abs/2610.35887) | 本文首次对ICT的AMD（吸筹-操纵-派发）模型在纳斯达克100期货上进行了严格的系统量化检验，发现操纵信号在44%的交易日被触发，为这一流行的散户交易理论提供了首个实证评估。 |
+| [^19] | [Certifying Reward Alignment in Portfolio Reinforcement Learning](https://arxiv.org/abs/2610.34153) | 该论文提出一种面向投资组合强化学习的奖励一致性认证方法，通过基于行动者、奖励和延续评论家残差的决策审计，将奖励误设定与学习误差区分开来，从而验证智能体是否真正实现了投资者的均值-方差金融偏好。 |
+| [^20] | [What Prediction-Market Contracts Reveal at Launch: Trading Volume and Dispute Risk](https://arxiv.org/abs/2610.29578) | 仅凭预测市场合约上线时的可解释信息（如市场主题、措辞和结算规则）即可高度准确地预测其未来交易量与结算争议风险，但这种预测能力会随平台环境和上线格式的变化而显著衰减。 |
+| [^21] | [Market Regime-Based Multi-Asset Portfolio Optimization Using Nested Clustered Optimization for Tactical Asset Allocation](https://arxiv.org/abs/2610.27751) | 该论文提出一种将基于高斯隐马尔可夫模型的市场状态检测与嵌套聚类优化（NCO）相结合的状态感知战术资产配置框架，通过在协方差估计、层次聚类和权重优化各阶段融入市场状态信息，实现更优的风险调整后表现和更低的下行风险。 |
+| [^22] | [TRACE: Governing AI-Assisted Research with Principles from Computer Science](https://arxiv.org/abs/2610.24035) | 该论文借鉴软件工程与安全研究的成熟实践，提出TRACE五项原则（追踪记录、对照来源审查、独立采纳、控制转变、评估修正），为研究团队在整合AI工具时保持对研究过程的掌控提供了治理框架。 |
+| [^23] | [Low-rank and graphon limits for dynamic threshold distress contagion in heterogeneous financial networks](https://arxiv.org/abs/2608.04529) | 本文通过低秩因子表示和硬阈值规则下的规范最大解，为异构金融网络中的动态困境传染提供了精确降维和稳定性保证。 |
+| [^24] | [Narratives to Numbers: Large Language Models and Economic Policy Uncertainty](https://arxiv.org/abs/2511.17866) | 基于人工审计标签微调的大语言模型在构建经济政策不确定性指数时，识别审计标记文章的数量几乎是关键词方法的两倍，且不同的建模选择会显著改变指数的内涵及其与市场收益的关系。 |
+| [^25] | [Matching-LLM: Historically Anchored Synthetic Prediction of Public Opinion and Elections](https://arxiv.org/abs/2411.01582) | Matching-LLM框架通过将大语言模型生成的响应与历史人类行为数据加权融合，在调查响应重构和2024年美国总统选举预测中表现出色，预测共和党获得310张选举人票（实际为312张），准确性优于仅依赖单一数据源的方法。 |
 
 # 详细
 
-[^1]: Fuji：Robinhood Chain上需求突发的形态、构成与扩散
+[^1]: 欧洲银行业的同时期传导网络与系统性风险
 
-    Fuji: The Shape, Composition, and Spread of Demand Bursts on Robinhood Chain
+    Contemporaneous Transmission Networks and Systemic Risk in European Banking
 
-    [https://arxiv.org/abs/2610.35738](https://arxiv.org/abs/2610.35738)
+    [https://arxiv.org/abs/2610.37487](https://arxiv.org/abs/2610.37487)
 
-    本文首次实测了Robinhood Chain上需求突发的构成，发现突发期交易的流动性池数量与平静期相近但多为不同的池子且交易强度更高，中位峰值达到基准的2.5倍。
-
-    
-
-    基于区块链的市场上的需求以突发形式且高速率到来。在这些平台上数据完全可见，这使得将突发需求与常态负载进行比较成为可能。拥塞表现为对gas需求的增加，而gas是区块链出售的主要资源。现有研究关注的是如何为gas定价，而需求本身以及突发期间需求的构成却从未被测量过。我们在Robinhood Chain上对此进行了测量——这是一条二层区块链，它迅速成为交易代币化股票和meme币的场所。我们收集了其前三个活跃月份中每个区块的数据，以及突发期间发生的超过5000万笔Uniswap交换交易。我们发现，一次突发所交易的流动性池数量与平静时期大致相当，但主要是不同的池子，且交易强度更大，同时叠加了持续数小时积累起来的高涨需求。将各次突发按其峰值对齐后，中位数峰值是……的2.5倍。
-
-    arXiv:2610.35738v1 Announce Type: new  Abstract: Demand on blockchain-based marketplaces arrives in bursts and at a high rate. On these platforms the data are completely visible, which makes it feasible to compare the bursty demand against the usual load. The congestion manifests as an increased demand for gas, the primary resource a blockchain sells. Existing studies consider how to price the gas. The demand itself, and what it is made of during bursts, has not been measured. We measure it on Robinhood Chain, a layer-2 blockchain that quickly became a venue for trading tokenized equities and memecoins. We collected the data from every block of its first three active months and more than 50 million Uniswap swaps that occurred during bursty periods. We find that a burst trades about as many pools as a quiet period, mostly different ones, and trades them harder, on top of elevated demand that accumulated for hours. With the bursts aligned on their peaks, the median peak is 2.5 times the 
-    
-[^2]: 周末加密货币波动性与周一市场风险
-
-    Weekend Crypto Volatility and Monday Market Risk
-
-    [https://arxiv.org/abs/2610.35702](https://arxiv.org/abs/2610.35702)
-
-    该论文的核心发现是，周末加密货币的共同波动因子自2024年起能够显著预测股票、大宗商品和国债市场周一的风险水平，将一标准差的因子冲击可使周一方差提高27-54%，并使样本外预测损失降低11-22%。
+    本文基于递归非高斯网络模型，构建了衡量欧洲上市银行系统性影响（SIS）与系统性脆弱性（SVS）的市值加权新指标，揭示了银行间同时期收益传导网络中传导者与接收者的不同角色及其在系统性风险中的意义。
 
     
 
-    加密货币全天候持续交易，而主要传统市场在周末休市。我们研究周末加密货币波动性是否能够预测股票、大宗商品和固定收益市场周一的方差。利用2017-2026年间比特币、以太坊、XRP、标普500指数、黄金和美国国债ETF的日度基于极差的方差度量，我们在异质自回归模型中加入了一个共同的周末加密货币因子。该因子的预测能力在2024年之前较弱，但在此之后表现显著。在2024年之后的样本中，该因子每增加一个标准差，对应的拟合周一方差会提高27-54%。加入该因子可使样本外QLIKE损失降低11-22%，尽管统计证据在不同市场之间有所差异。周五加密货币波动性无法重现这一结果，且在共同因子之外，特定币种的波动变化不提供显著的预测信息。一种内生性方法估计出一个结构断点位于……（原文在此处截断）
+    我们研究了同时期股票收益传导如何塑造51家欧洲上市银行之间的系统性风险暴露。基于波动率标准化收益，采用递归非高斯网络模型，我们构建了两个基于直接和间接传导效应的市值加权指标：系统性影响得分（SIS），衡量一家银行对其他机构的潜在影响力；以及系统性脆弱性得分（SVS），衡量其对源自其他机构扰动的暴露程度。拟合出的网络揭示了明显的传导者与接收者角色，突出了具有较大对外影响力的机构与具有较高输入敏感性的机构之间的差异。在重复的网络发现过程中，接收角色通常比传导角色更具可复现性，且所识别的连接对后续观测中的下尾相关性仍具有信息价值。波动率标准化显著降低了……（原文摘要在此处截断）
 
-    arXiv:2610.35702v1 Announce Type: new  Abstract: Cryptocurrencies trade continuously while major traditional markets close over the weekend. We examine whether weekend cryptocurrency volatility predicts Monday variance in equity, commodity and fixed-income markets. Using daily range-based variance measures for Bitcoin, Ether, XRP, the S&P 500, gold and a US Treasury ETF over 2017-2026, we augment heterogeneous autoregressive models with a common weekend cryptocurrency factor. Predictive content is weak before 2024 but significant thereafter. In the post-2024 sample, a one-standard-deviation increase in the factor is associated with 27-54% higher fitted Monday variance. Adding the factor reduces out-of-sample QLIKE losses by 11-22%, although statistical evidence varies across markets. Friday cryptocurrency volatility does not reproduce the result, and coin-specific variation adds no significant predictive information beyond the common factor. An endogenous procedure estimates a break in
+    arXiv:2610.37487v1 Announce Type: cross  Abstract: We study how contemporaneous equity-return transmission shapes systemic exposure among 51 listed European banks. Using a recursive non-Gaussian network model on volatility-standardized returns, we construct two market-capitalization-weighted measures based on direct and indirect transmission effects: the Systemic Impact Score (SIS), capturing a bank's potential influence on other institutions, and the Systemic Vulnerability Score (SVS), capturing its exposure to disturbances originating elsewhere. The fitted network reveals distinct transmitting and receiving roles, highlighting differences between institutions with substantial outward influence and those with high incoming sensitivity. Receiving roles are generally more reproducible than transmitting roles across repeated network discovery, and selected connections remain informative about lower-tail dependence in subsequent observations. Volatility standardization substantially reduc
     
-[^3]: 全非线性抛物型HJB方程解映射的可微性与凸性
+[^2]: 承接不等于获取：一个“暴露-能力”框架与匈牙利的电动汽车电池豪赌
 
-    Differentiability and Convexity of the Solution Maps for Fully Non-linear Parabolic HJB Equations
+    Hosting is not capturing: an exposure-capability framework and Hungary's electric-vehicle battery bet
 
-    [https://arxiv.org/abs/2610.35476](https://arxiv.org/abs/2610.35476)
+    [https://arxiv.org/abs/2610.37445](https://arxiv.org/abs/2610.37445)
 
-    该论文证明了全非线性抛物型HJB方程的解映射关于终端条件的有限维参数具有连续方向可微性（其导数由线性化柯西问题刻画），并在哈密顿量凸性与终端数据非退化条件下证明了点值映射的局部强凸性，从而为半鞅最优传输的对偶表述提供了理论支撑。
-
-    
-
-    我们研究全非线性抛物型哈密顿–雅可比–贝尔曼（HJB）方程的解对终端条件的依赖性，其中终端条件沿一个有限维族变化。该问题的动机来自半鞅最优传输的对偶表述。方程被表述为无界空间区域上的终端值柯西问题。在对非线性算子的结构性椭圆性与正则性假设下，我们回顾了针对有界一致连续终端数据的局部抛物型Hölder估计与稳定性结果。随后，我们建立了解映射关于有限维参数的连续方向可微性，并通过相应的线性化柯西问题刻画其导数。在哈密顿函数的额外凸性假设与终端数据的非退化条件下，我们证明了点值（评估）映射的局部强凸性。
-
-    arXiv:2610.35476v1 Announce Type: cross  Abstract: We study the dependence on the terminal condition of solutions to a fully nonlinear parabolic Hamilton--Jacobi--Bellman (HJB) equation, when the terminal condition varies along a finite-dimensional family. This problem is motivated by a dual formulation of semimartingale optimal transport. The equation is posed as a terminal-value Cauchy problem on an unbounded spatial domain. Under structural ellipticity and regularity assumptions on the nonlinear operator, we recall local parabolic H\"older estimates and stability results for bounded uniformly continuous terminal data. We then establish continuous directional differentiability of the solution map with respect to the finite-dimensional parameter, and identify its derivative through the corresponding linearized Cauchy problem. Under an additional convexity assumption on the Hamiltonian and a non-degeneracy condition on the terminal data, we prove local strong convexity of the point-eva
-    
-[^4]: 信用依赖性压力测试的情景匹配：时间相关性约束与经验风险界
-
-    Scenario Matching for Credit Dependence Stress Tests: Temporal correlation constraints and empirical risk bounds
-
-    [https://arxiv.org/abs/2610.35118](https://arxiv.org/abs/2610.35118)
-
-    该论文提出一种通过最小化时间相关误差将市场路径与信用路径进行完美匹配的方法，在保留经验分布的同时为信用依赖性压力测试提供精确的经验平均损失和超越概率风险界，且独立于情景生成器、可复现地检验现有风险引擎中的依赖性假设。
+    本文提出“暴露-能力”分析框架，并以匈牙利押注电动汽车电池制造为例，揭示承接他国产业投资并不等于真正获取价值链高位——通过2010-2024年企业面板数据检验，匈牙利的大规模集中暴露究竟是追赶跃升的豪赌还是依赖地位的固化，取决于其生产能力能否深化。
 
     
 
-    我们通过最小化相对于预定目标的绝对时间相关误差，将两组模拟的市场路径和信用路径耦合起来。每条市场路径恰好分配一条信用路径，从而保留完整情景的经验分布。完美匹配检验用于判断统一的相关误差容忍度是否可行，并确定其可达到的最小值。进一步的分配给出精确的经验平均损失和超越概率界；分位数界则通过在合格的损失阈值上进行二分搜索得到。一个合成的债券远期信用压力测试示例说明了该方法。实验报告了匹配精度、经验得分尾部和敞口网格误差，并测量了匹配和平均损失计算的耗时。该方法独立于情景生成器，为检验现有风险引擎中的依赖性假设提供了一种可复现的方式。尾部度量涉及以违约概率加权的（原文在此处截断）。
+    arXiv:2610.37445v1 公告类型：新论文 摘要：当多重危机使经济一体化从效率之源转变为脆弱性之表时，一个依赖型经济体应如何应对？本文提出了“暴露-能力”框架，该框架沿两个维度——外部依赖的集中度与生产能力的深度——绘制一国的战略选择图，并由此得出四种理想型战略。本文将该框架应用于匈牙利在电动汽车电池制造领域的大规模押注，追问这种集中暴露究竟换来了什么：是向电池价值链更高位置的攀升（追赶式豪赌），还是在新产品之下复制该国既有地位（依赖性固化）。本文利用2010-2024年匈牙利最大企业的企业层面面板数据，检验了四个假设，并考察了为投资提供资金的支持政策所附加的条件。该行业已经大规模扩张，但其价值（摘要在此处截断）
 
-    arXiv:2610.35118v1 Announce Type: new  Abstract: We couple two sets of simulated market and credit paths by minimizing absolute temporal-correlation error relative to a prescribed target. Each market path receives exactly one credit path, preserving both empirical distributions of complete scenarios. A perfect-matching test identifies whether a uniform correlation-error tolerance is feasible and determines its smallest attainable value. Further assignments give exact empirical mean-loss and exceedance-probability bounds; quantile bounds follow by binary search over eligible loss thresholds. A synthetic bond-forward credit stress test illustrates the method. The experiments report matching precision, empirical score tails and exposure-grid error, and measure matching and mean-loss computation. The method is independent of the scenario generator and provides a reproducible way to examine dependence assumptions in existing risk engines. Tail measures concern default-probability-weighted c
+    arXiv:2610.37445v1 Announce Type: new  Abstract: How should a dependent economy respond when a polycrisis turns economic integration from a source of efficiency into a surface of vulnerability? This paper develops the exposure-capability framework, which maps a country's strategic options along two dimensions - the concentration of its external dependence and the depth of its productive capability - and yields four ideal strategies. It applies the framework to Hungary's large-scale bet on electric-vehicle battery manufacturing, asking what the concentrated exposure purchased: movement toward a higher position in the battery value chain, as a catch-up gamble, or the reproduction of the country's existing position under a new product, as dependent entrenchment. Using a firm-level panel of Hungary's largest companies for 2010-2024, it tests four hypotheses and examines the conditions attached to the support that financed the investments. The sector has expanded enormously, but its value c
     
-[^5]: EFM签名波动率模型中的鞅性
+[^3]: 状态依赖Hawkes过程限价订单簿模型下的最优订单放置
 
-    Martingality in EFM Signature Volatility Models
+    Optimal Order Placement under a State-Dependent Hawkes Process Limit Order Book model
 
-    [https://arxiv.org/abs/2610.35022](https://arxiv.org/abs/2610.35022)
+    [https://arxiv.org/abs/2610.37324](https://arxiv.org/abs/2610.37324)
 
-    本文为EFM签名波动率模型建立了鞅性判据，证明在非平凡情形下价格过程是真鞅当且仅当截断阶数为奇数且相关性参数满足特定符号条件。
-
-    
-
-    我们为指数衰减记忆（EFM）签名波动率模型建立了一个鞅性判据，扩展了Abi Jaber、Gassiat和Sotnikov（2026）的近期结果。在所提出的框架中，波动率过程由时间增广布朗运动的EFM签名的线性泛函给出，由此产生一个全局性质良好、完全非马尔可夫且具有平稳分布的波动率模型。通过允许签名取随机初始值，平稳的EFM签名波动率模型也被涵盖在内。此外，波动率过程可以调整以匹配初始远期方差曲线。对于该模型，在排除平凡情形的条件下，我们证明价格过程是真鞅当且仅当截断阶数为奇数且涉及相关性参数的符号条件成立。
-
-    arXiv:2610.35022v1 Announce Type: new  Abstract: We establish a martingality criterion for the Exponentially Fading Memory (EFM) signature volatility model, extending the recent result of Abi Jaber, Gassiat, and Sotnikov (2026). In the proposed framework, the volatility process is given by a linear functional of the EFM signature of a time-augmented Brownian motion, which yields a globally well-behaved, fully non-Markovian volatility model admitting a stationary distribution. The stationary EFM signature volatility model is also covered by allowing for a random initial value of the signature. Moreover, the volatility process can be adjusted to the initial forward variance curve. For this model, excluding trivial cases, we prove that the price process is a true martingale if and only if the truncation order is odd and a sign condition involving the correlation parameter holds.
-    
-[^6]: Det-MASO：面向因子生成的多样性正则化多智能体序列优化
-
-    Det-MASO: Diversity-Regularized Multi-Agent Sequential Optimization for Factor Generation
-
-    [https://arxiv.org/abs/2610.34936](https://arxiv.org/abs/2610.34936)
-
-    该论文提出Det-MASO框架，通过在联合优化目标中引入对智能体间相关性矩阵的可微分对数行列式惩罚，在训练阶段直接促进多智能体生成多样化且适应市场变化的Alpha因子。
+    提出了一个基于状态依赖Hawkes过程限价订单簿模型的做市商最优报价放置框架，通过分块线性需求设定与动态规划递推刻画库存依赖的报价策略，并在真实数据实验中验证了其终端财富表现。
 
     
 
-    量化投资需要兼具预测性和多样性的Alpha因子。然而，现有的因子生成方法，包括公式化挖掘和神经端到端模型，大多基于单智能体设计，这限制了对因子空间的探索，并降低了对变化市场的适应能力。多智能体方法可以拓宽探索范围，但在共享目标下训练的智能体往往坍缩为相似输出，而现有的多样性技术要么随资产池规模扩展性不佳，要么只能在训练之后处理冗余问题。我们提出了一种多智能体序列优化框架，用于生成多样化、上下文自适应的Alpha因子。该方法在联合目标中直接引入对智能体间相关性矩阵的可微分对数行列式惩罚，在训练过程中抑制智能体间的相关行为，且计算成本随智能体数量线性增长。
+    我们研究做市商在面对以状态依赖Hawkes过程建模的订单流时的最优报价放置问题。一种基于分块的线性需求设定将市价单数量与成交量联系起来，为连续时间离散状态的动态规划公式提供了所需的需求矩。在二次型终端库存惩罚下，我们刻画了依赖库存状态的报价，并推导出二次价值函数系数的后向递推公式。基于LOBSTER数据的数值实验考察了报价分布、库存风险敞口和终端财富。所实施的策略在一档和三档固定价差基准下产生更高的总终端财富，但低于两档基准的财富。这些结果展示了该框架的数值实现，并区分了终端财富比较与库存惩罚目标下的评估。
 
-    arXiv:2610.34936v1 Announce Type: new  Abstract: Quantitative investment requires alpha factors that are both predictive and diverse. However, existing factor generation methods, including formulaic mining and neural end-to-end models, are mostly based on a single-agent design, which limits exploration of the factor space and reduces adaptability to changing markets. Multi-agent approaches can broaden exploration, but agents trained under a shared objective often collapse to similar outputs, while existing diversity techniques either scale poorly with asset-universe size or address redundancy only after training. We propose a multi-agent sequential optimization (Det-MASO) framework for generating diversified, context-adaptive alpha factors. It introduces a differentiable log-determinant penalty on the inter-agent correlation matrix directly into the joint objective, discouraging correlated agent behavior during training with computational cost that scales linearly with the number of as
+    arXiv:2610.37324v1 Announce Type: new  Abstract: We study optimal quote placement for a market maker facing order flow modeled by a state-dependent Hawkes process. A block-based linear demand specification links market-order counts to execution volumes, providing the demand moments required by a continuous time discrete state dynamic programming formulation. Under a quadratic terminal inventory penalty, we characterize inventory-dependent quotes and derive backward recursions for the coefficients of a quadratic value function. Numerical experiments using LOBSTER data examine quote distributions, inventory exposure, and terminal wealth. The implemented strategy yields higher aggregate terminal wealth than fixed-spread benchmarks at one and three ticks, but lower wealth than the two-tick benchmark. These results illustrate the framework's numerical implementation and distinguish terminal-wealth comparisons from evaluation under the inventory-penalized objective.
     
-[^7]: 整数价位能“留住”价格吗？限价订单簿中的占用密度与深度条件化危险率
+[^4]: 气候变化、海平面上升与农业革命
 
-    Do Round Numbers Hold Prices? Occupation Densities and Depth-Conditioned Hazards in the Limit Order Book
+    Climate change, sea level rise, and the agricultural revolution
 
-    [https://arxiv.org/abs/2610.34787](https://arxiv.org/abs/2610.34787)
+    [https://arxiv.org/abs/2610.37306](https://arxiv.org/abs/2610.37306)
 
-    该论文通过tick网格框架，利用局部时间计数价格离开事件并结合深度条件化危险率，成功区分了整数价位作为“价格屏障”与单纯流动性聚集两种解释，发现2025年五只纳斯达克股票中整数价位虽吸引更多流动性，但深度调整后的价格停留时间并未更长。
-
-    
-
-    价格常常聚集在整数价位上，这一现象通常被解读为整数价位充当价格屏障的证据。然而，这一模式也存在一种机械性解释：整数价位上积聚了更多流动性，而价格离开更深的队列需要更长时间。限价订单簿数据使我们能够区分这两种机制——通过一个tick网格框架，其中局部时间用于计数价格离开事件，逐档波动率则反映离开危险率。利用2025年全年五只纳斯达克股票的数据，我们发现整数价位虽然吸引了更多流动性，但并未表现出更长的深度调整后停留时间。英特尔和SoFi呈现出方向性效应，价格离开倾向于偏离整数价位。
-
-    arXiv:2610.34787v1 Announce Type: new  Abstract: Prices cluster at round numbers, a pattern often interpreted as evidence that these levels act as price barriers. This pattern also admits a mechanical explanation: more liquidity rests there, and prices take longer to leave deeper queues. Limit order book data allow us to distinguish these mechanisms through a tick-grid framework in which local time counts departures and level-wise volatility reflects the departure hazard. Using data for five Nasdaq stocks throughout 2025, we find that round levels attract more liquidity but do not exhibit longer depth-adjusted durations. Intel and SoFi show directional effects, with departures biased away from round levels.
-    
-[^8]: 具有重置机制的最优棘轮式股利政策
-
-    Optimal ratcheting dividend policies with resets
-
-    [https://arxiv.org/abs/2610.34348](https://arxiv.org/abs/2610.34348)
-
-    本文研究了棘轮与破产约束下的最优股利政策，创新性地允许股息率在股权估值受损后下调，给出了价值函数有限性的充要条件，并将二维变分不等式问题等价化简为一维问题，兼顾了数学与金融分析。
+    该研究验证了农业起源与传播的多种假说，发现季节性假说最为稳健，人口密度促进了农业的发明，空间扩散推动了农业的传播，而技术进步是农业扩展到新区域的主要驱动力。
 
     
 
-    我们研究了在棘轮约束和破产约束下的最优股利政策问题。企业面临着股利削减所传递的负面信号与潜在未来破产之间的权衡。与以往研究不同，本文允许股息率在股权估值遭受负面影响后下调，这与该领域大量的实证文献相一致。我们给出了价值函数有限性的显式充要条件，证明了价值函数的可微性，并通过粘性解和所谓的“超接触”性质对其进行了刻画。价值函数由一个结合了最优停时、奇异控制和脉冲控制的二维变分不等式的解给出。我们证明该问题等价于一维设定，从而简化了数学和金融两方面的分析。最后，我们对模型进行了数值研究。
+    我们检验了关于农业发明与传播的多种假说：更高的温度、增强的季节性、二氧化碳施肥效应、海平面上升，以及扩展边际上的技术进步。我们成功复制了Matranga（2024年发表于《经济学季刊》）的研究。其季节性假说在替代数据、估计方法和竞争性假说的检验下依然成立。人口密度在农业的发明中发挥了作用，而空间扩散对农业的传播至关重要。海平面上升和气候变化对最早采用农业的地区的人口密度影响较小。通过外推农业发明的logit模型，波斯湾、地中海和黄海中一些现已淹没的区域曾适合早期农业。随着时间推移，技术进步是农业扩展其广泛边际的主要因素。
 
-    arXiv:2610.34348v1 Announce Type: new  Abstract: We study an optimal dividend policy problem under ratcheting and bankruptcy constraints. Firms face a tradeoff between the negative signal of a dividend reduction and a potential future bankruptcy. In contrast to previous works, the dividend rate is allowed to decrease after incurring a negative impact on equity valuation in accordance with a large empirical literature on the topic. We provide an explicit necessary and sufficient condition for the finiteness of the value function and prove the differentiability of the value function, and its characterization via viscosity solutions and the so-called supercontact property. The value function is given by the solution of a two-dimensional variational inequality combining optimal stopping, singular and impulse controls. We show that the problem is equivalent to a one-dimensional setup simplifying both mathematical and financial analysis. Finally, we provide a numerical study of the model and
+    arXiv:2610.37306v1 Announce Type: new  Abstract: We test various hypotheses for the invention and spread of agriculture: higher temperatures, increased seasonality, carbon dioxide fertilization, sea level rise, and technological progress on the extensive margin. We successfully replicate Matranga (QJE 2024). His seasonality hypothesis survives alternative data, estimators, and competing hypotheses. Population density played a role in the invention of agriculture, while spatial diffusion was important for its spread. Sea level rise and climate change had a minor effect on the population density of the areas that first adopted agriculture. Extrapolating a logit model for the invention of agriculture, some now-submerged areas in the Persian Gulf, Mediterranean, and Yellow Sea were suitable for early agriculture. Over time, technological progress was the main factor in extending agriculture's extensive margin.
     
-[^9]: 投资组合强化学习中的奖励一致性认证
+[^5]: 几何黎曼定价算法在不完全市场中巨灾债券估值的应用：市场一致金融熵与频率和严重性风险溢价的分解
+
+    An Application of Geometric Riemannian Pricing Algorithm for Valuing Catastrophe Bonds in Incomplete Markets: Market-Consistent Financial Entropy and the Split of Frequency and Severity Risk Premia
+
+    [https://arxiv.org/abs/2610.37171](https://arxiv.org/abs/2610.37171)
+
+    本文提出一种基于黎曼几何优化金融熵的巨灾债券定价框架，在完全市场中通过纳入二级市场利差实现市场一致的定价，并证明频率与严重性风险溢价仅通过风险中性触发强度影响价格，因而无法仅凭市场数据加以区分识别。
+
+    
+
+    本文提出一个通过金融熵的黎曼几何优化来为不完全市场中的巨灾（CAT）债券定价的框架。我们将定价测度的选择表述为在等价测度的有限维流形上的最大金融熵问题，该流形由不可对冲的巨灾频率风险和严重性风险的市场价格参数化，贴现由无违约期限结构固定。由于无约束的熵最大化会恢复物理测度，我们纳入了观察到的二级市场利差，包括汇总方式和逐日方式。对于具有Wang扭曲的复合泊松-广义帕累托损失模型，我们推导出了金融熵和黎曼度量的闭式表达式。我们证明巨灾债券价格主要通过风险中性触发强度依赖于频率和严重性溢价，使得这两个溢价无法仅从市场数据中识别；熵准则……
+
+    arXiv:2610.37171v1 Announce Type: new  Abstract: This paper presents a framework for pricing catastrophe (CAT) bonds in incomplete markets through Riemannian geometric optimization of financial entropy. We formulate pricing-measure selection as a maximum financial entropy problem on a finite-dimensional manifold of equivalent measures, parameterized by the non-hedgeable market prices of catastrophe frequency and severity risk, with discounting fixed by the default-free term structure. Since unconstrained entropy maximization recovers the physical measure, we incorporate observed secondary-market spreads, both pooled and date by date. For a compound Poisson-generalized Pareto loss model with Wang distortion, we derive closed-form expressions for financial entropy and the Riemannian metric. We show that CAT bond prices depend on frequency and severity premia primarily through the risk-neutral trigger intensity, making the two premia unidentifiable from market data alone; the entropy crit
+    
+[^6]: 一种面向自由边界问题的深度学习驱动算子分裂格式：在非完全市场中美式期权定价的应用
+
+    A Deep Learning-Driven Operator Splitting Scheme for Free Boundary Problems: An Application to American Option Pricing in Incomplete Markets
+
+    [https://arxiv.org/abs/2610.36921](https://arxiv.org/abs/2610.36921)
+
+    本文提出一种深度学习驱动的算子分裂格式，将高维自由边界问题（如非完全市场中美式期权定价对应的五维非线性变分不等式）在每个时间层分解为由物理信息神经网络近似的椭圆延拓方程与强制提前行权约束的闭式投影步骤，并推导出条件稳定性界，其结果与有限差分和最小二乘蒙特卡洛基准高度吻合。
+
+    
+
+    本文提出了一种针对高维自由边界问题的深度学习驱动的算子分裂格式，并以美式期权定价作为代表性应用。在一个包含比例交易成本、基于标普500数据经实证验证的非线性漂移的随机流动性风险、以及两因子随机波动率的市场中，定价问题表现为一个五维高度非线性的变分不等式。所提出的格式在每个时间层将该变分不等式分解为一个由物理信息神经网络近似的椭圆延拓方程，以及一个强制执行提前行权约束的闭式投影步骤。在给定的预解算子和Lipschitz假设条件下，推导出了条件 ℓ^∞ 稳定性界。该格式通过与有限差分和最小二乘蒙特卡洛基准方法的对比进行了验证，包括期权价格和所学习到的行权边界……（原文摘要不完整，此处为可用部分的翻译）
+
+    arXiv:2610.36921v1 Announce Type: new  Abstract: This paper proposes a deep learning-driven operator splitting scheme for high-dimensional free-boundary problems, with American option pricing as a representative application. In a market with proportional transaction costs, a stochastic liquidity risk with an empirically validated nonlinear drift based on S&P 500 data, and two-factor stochastic volatility, the pricing problem takes the form of a five-dimensional highly nonlinear variational inequality. The proposed scheme decomposes this variational inequality at each time layer into an elliptic continuation equation approximated by a physics-informed neural network and a closed-form projection step enforcing the early-exercise constraint. A conditional $\ell^\infty$ stability bound is derived under stated resolvent and Lipschitz assumptions. The scheme is validated against finite-difference and least-squares Monte Carlo benchmarks, and both the option prices and the learned exercise bo
+    
+[^7]: 存入更多不应赚得更少：池化借贷市场中的供应方收入单调性与利率曲线设计
+
+    Depositing More Should Not Earn Less: Supplier Income Monotonicity and Rate Curve Design in Pooled Lending Markets
+
+    [https://arxiv.org/abs/2610.36899](https://arxiv.org/abs/2610.36899)
+
+    该论文给出了池化借贷市场中供应方收入随存款增加而不减少的充要条件 α(1+η)≤1，并提出通过在每一资金利用率下设定受保护的最大供应方份额来约束借款利率弹性，从而设计出可避免“存入更多反而赚得更少”的利率曲线。
+
+    
+
+    在依赖资金利用率的利率模型中，即使供应方的余额增加，添加流动性也可能降低供应方的总利息收入。当且仅当持有最终池供应量份额 α 的供应方满足 α(1+η)≤1 时，其边际存款才能保持收入不减少，其中 η 是借款利率对资金利用率的弹性。当该条件不成立时，供应方反而可以通过提款来提高收入，而这会进一步推高资金利用率。在两个公开的 Drift 市场上，SOL 市场中至少有九分之一的小时、USDC 市场中至少有十三分之一的小时，出现了放贷人持有的池内份额超过曲线所保护水平的情况。协议可以将这一点转化为设计约束：在每一资金利用率下，选择其打算保护的最大供应方份额。这一选择为弹性设定了上限，对该上限进行积分即可刻画所有可接受的利率曲线。若在每个利用率下保护相同的份额，则会得到一个幂律边界，并……（原文摘要在此处被截断）
+
+    arXiv:2610.36899v1 Announce Type: new  Abstract: In utilization dependent interest rate models, adding liquidity can reduce a supplier's total interest income even as the supplier's balance increases. A supplier holding a fraction $\alpha$ of final pool supply keeps income nondecreasing with a marginal deposit exactly when $\alpha(1+\eta)\leq1$, where $\eta$ is the elasticity of the borrow rate with respect to utilization. When the condition fails, the supplier can instead raise its income by withdrawing, which pushes utilization further up. On two public Drift markets, a lender held more of the pool than the curve protected in at least one hour in nine on SOL and one in thirteen on USDC. A protocol turns this into a design constraint by choosing, at each utilization, the largest supplier share it intends to protect. That choice caps the elasticity, and integrating the cap describes every admissible curve. Protecting the same share at every utilization gives a power law boundary, and p
+    
+[^8]: 带来持续稳健收益的简单投资组合
+
+    Simple Portfolios that Deliver Consistent Decent Returns
+
+    [https://arxiv.org/abs/2610.36491](https://arxiv.org/abs/2610.36491)
+
+    本文在个人投资者的现实约束下（仅投资少数流动性好的美国ETF、月度交易且有成本、不可卖空或加杠杆），通过凸优化和公开数据构建参数完全可解释的“简单”投资组合，实证表明其能带来持续且可观的收益。
+
+    
+
+    投资组合构建在学术界和产业界都得到了广泛研究，其应用范围涵盖养老金、对冲基金乃至个人储蓄。学术文献以方法论为中心，通常在允许卖空、使用杠杆和频繁交易的设定下进行评估；而产业界则在现实约束下运作，但其数据和方法属于专有信息，大多未公开发表。这两者对个人投资者而言都无法直接获取。本文在个人投资者的设定下，对已有的投资组合构建方法进行了实证研究。我们考虑一个由流动性较好的美国ETF组成的小型可投资范围，其中交易按月进行且带有成本，同时不允许卖空或使用杠杆。我们将投资组合构建表述为一个凸优化问题，其输入由公开数据估计得出，且每个参数均可解释。我们将这样的投资组合称为“简单”投资组合。我们发现，简单……
+
+    arXiv:2610.36491v1 Announce Type: new  Abstract: Portfolio construction has been studied extensively in both academia and industry. Its applications range from pension funds and hedge funds to private savings. The academic literature centers on methodology, commonly evaluated in settings that allow short selling, leverage, and frequent trading. Industry, on the other hand, operates under real constraints, but its data and methods are proprietary and largely unpublished. Neither is directly available to the private investor. This paper is an empirical study of established portfolio construction methods in the setting of the private investor. We consider a small investable universe of liquid US ETFs, where trading is monthly and carries a cost, and neither shorting nor leverage is permitted. Portfolio construction is posed as a convex optimization problem, its inputs are estimated from public data, and every parameter is interpretable. We denote such portfolios simple. We show that simpl
+    
+[^9]: 由Cox-BESQ过程驱动的无限服务台队列的风险度量
+
+    Risk measures for infinite-server queues driven by a Cox-BESQ process
+
+    [https://arxiv.org/abs/2610.36473](https://arxiv.org/abs/2610.36473)
+
+    本文利用Cox-BESQ过程的仿射结构，推导出到达强度、系统顾客数及其时间积分的联合矩生成函数封闭表达式，进而构建了以变量超过临界阈值为条件的风险度量。
+
+    
+
+    本文提出了一种由Cox过程驱动的无限服务台队列模型，其随机强度由平方贝塞尔（BESQ）过程给出。利用底层动力学的仿射结构，我们推导出了到达强度、系统中顾客数量以及系统内顾客数量在一段时间区间上的积分这三者的联合矩生成函数（MGF）的封闭表达式。该MGF还可以在两个（或多个）时刻获得，从而能够分析由Cox-BESQ过程驱动的无限服务台队列的时间演化。这些显式MGF的可得性使得能够为这些变量开发风险度量，例如在其中一个变量超过临界阈值的条件下，到达强度、系统中顾客数量以及该数量在时间区间上的积分的联合矩。
+
+    arXiv:2610.36473v1 Announce Type: cross  Abstract: This paper introduces a model for infinite-server queues driven by a Cox process with stochastic intensity given by a squared Bessel (BESQ) process. Exploiting the affine structure of the underlying dynamics, we derive a closed-form expression for the joint moment-generating function (MGF) of the arrival intensity, the number of customers in the system, and the integral of the number of customers in the system over a time interval. This MGF can also be obtained at two (or more) dates, thereby allowing an analysis of the time evolution of infinite-server queues driven by a Cox--BESQ process. The availability of these explicit MGFs enables the development of risk measures for these variables, such as the joint moments of the arrival intensity, the number of customers in the system, and the integral of the number of customers in the system over a time interval, conditional on one of these variables exceeding a critical threshold. These ri
+    
+[^10]: 流动性池中隐含费率的期限结构
+
+    The Term Structure of Implied Fee Rates in Liquidity Pools
+
+    [https://arxiv.org/abs/2610.36392](https://arxiv.org/abs/2610.36392)
+
+    该论文构建了一个无套利定价框架，从期权隐含信息中提取AMM流动性池隐含费率的期限结构，发现隐含费率为正、随期限递减，且更窄的平价区间能带来更高的流动性提供回报。
+
+    
+
+    我们开发了一个无套利框架，从期权隐含信息中恢复隐含费率，并量化自动做市商（AMM）池中流动性提供者的费用补偿。预期累计费用等于当前池价值减去其终端收益的风险中性价值，从而将前瞻性的LP补偿问题简化为对LP收益的定价。我们利用根据Deribit期权校准的随机波动率跳跃扩散模型，将该框架应用于Uniswap v2和Uniswap v3的ETH-USDC流动性池。研究发现，隐含费率为正、随时间变化、随期限呈下降趋势，且对价格区间设计高度敏感——越窄的接近平价（near-the-money）区间能获得越大的隐含回报。
+
+    arXiv:2610.36392v1 Announce Type: new  Abstract: We develop a no-arbitrage framework to recover implied fee rates from option-implied information and quantify fee compensation for liquidity providers in automated market maker (AMM) pools. Expected accumulated fees equal the current pool value minus the risk-neutral value of its terminal payoff, reducing forward-looking LP compensation to pricing the LP payoff. We apply the framework to Uniswap v2 and Uniswap v3 ETH--USDC pools using a stochastic-volatility jump-diffusion model calibrated to Deribit options. Implied fee rates are positive, time varying, downward sloping in maturity, and highly sensitive to range design, with tighter near-the-money ranges earning larger implied returns.
+    
+[^11]: 事件定义与分支比：基于Hawkes模型对综合报价流中价格变动聚类的估计
+
+    Event definition and the branching ratio: Hawkes estimates of price-change clustering in the consolidated quote feed
+
+    [https://arxiv.org/abs/2610.36317](https://arxiv.org/abs/2610.36317)
+
+    论文揭示美股综合报价流Hawkes模型中的亚毫秒级聚类成分其实是数据构建方式造成的伪影（由锁定市场和耗尽报价引起），将事件重新定义为持续一毫秒以上的中间价水平即可消除该伪影。
+
+    
+
+    对美国综合报价流中价格变动进行Hawkes建模会发现一个亚毫秒级的核函数成分以及接近临界值的分支比。我们证明，在大报价价差股票中，前者源于数据馈送本身的构建方式：一半的NBBO（全国最佳买卖报价）变动属于锁定市场或被耗尽的报价，并在一毫秒内得到解决，模型将此误读为自激发。若将事件定义为持续至少一毫秒的中间价水平，该成分即可被消除。原始数据拟合在一秒内的核质量是清洗后数据的三倍，模拟实验再现了这一结果。鉴于总分支比与基准强度之间存在此消彼长的权衡关系，我们在固定时间窗口上报告核质量。
+
+    arXiv:2610.36317v1 Announce Type: new  Abstract: Hawkes models of price changes in the consolidated US quote feed find a sub-millisecond kernel component and a branching ratio near criticality. We show that in large-tick stocks the first is the feed's construction: half of NBBO changes are locks or depleted quotes, resolved within a millisecond, which the model reads as excitation. Defining the event as a mid-price level persisting for one millisecond removes the component. Raw fits put three times the clean kernel mass within one second, which a simulation reproduces. Since the total branching ratio trades off against the baseline, we report kernel mass on a fixed window.
+    
+[^12]: 生态系统活动能否验证TVL（总锁定价值）？
+
+    Does Ecosystem Activity Validate TVL?
+
+    [https://arxiv.org/abs/2610.36274](https://arxiv.org/abs/2610.36274)
+
+    研究表明，将TVL与生态系统活动指标（如采用率、使用率、开发活动、协议收入和社交关注度）相结合，在经过多重检验校正后仍无法产生超越加密货币市场基准的超额收益，说明TVL本身不包含市场投资组合之外的定价信息。
+
+    
+
+    总锁定价值（TVL）被广泛用于评估去中心化金融生态系统。此前的研究发现，仅基于TVL构建的投资组合会被加密货币市场投资组合所覆盖（Brigida 2025）。本文探讨当TVL与采用率、使用率、开发活动、协议收入或社交关注度等指标相结合时，是否会变得更具信息量。作者构建了周度价值加权的2x3投资组合，独立地按照TVL与市值之比以及七种生态系统活动比率之一对代币进行双重排序。投资组合收益率使用滞后市值权重从代币价格计算得出，并针对加密货币市场因子和规模因子进行评估。在可用的2022-2025年样本中，在经过多重检验校正后，六个链上双重排序组合均无法拒绝市场基准假设。在拥有社交关注度数据的83个共同周内也得出了相同的结论。部分规格在未校正的显著性水平上拒绝了原假设，但没有一个能通过Holm多重检验校正。
+
+    arXiv:2610.36274v1 Announce Type: new  Abstract: Total value locked (TVL) is widely used to assess decentralized finance ecosystems. Prior evidence finds that portfolios formed on TVL alone are spanned by the crypto market portfolio (Brigida 2025). This paper asks whether TVL becomes more informative when combined with measures of adoption, usage, development, protocol revenue, or social attention. I construct weekly value-weighted 2x3 portfolios that independently sort tokens on TVL-to-market-cap and one of seven ecosystem-activity ratios. Portfolio returns are computed from token prices using lagged-market-capitalization weights and evaluated against crypto market and size factors. Across the available 2022-2025 samples, none of the six on-chain double sorts rejects the benchmark after controlling for multiple testing. The same conclusion holds over 83 common weeks for which social-attention data are available. Several specifications reject at unadjusted levels, but none survives Hol
+    
+[^13]: 从关税变化到贸易效应：实证贸易政策分析的实用框架
+
+    From Tariff Changes to Trade Effects: A Practical Framework for Empirical Trade Policy Analysis
+
+    [https://arxiv.org/abs/2610.36171](https://arxiv.org/abs/2610.36171)
+
+    本文针对多边关税上升的新贸易政策环境，提出了一个将关税变化转化为贸易效应的实用实证分析框架，并强调自由化与保护主义通过相对市场准入的不同变化产生效应，不应被对称对待。
+
+    
+
+    经过数十年的贸易自由化，2020年代标志着全球化叙事的深刻转变，关税再次成为贸易政策的核心工具。这一逆转也对贸易政策效应的评估方式提出了挑战。现有的大量实证文献主要是为了评估双边关税削减或取消以及相关优惠优势的侵蚀而发展起来的。不断上升的多边关税则提出了一个不同的问题：它们不仅改变了直接受影响出口商所面临的贸易成本，还改变了所有竞争供应商的相对市场准入，并可能强化现有的优惠安排。本文开发了一个实用框架，用于在这一新的政策环境中将关税变化转化为贸易效应。我们认为，自由化与保护主义不应被视作对称的政策实验：二者的效应是通过相对市场准入的不同变化来发挥作用的……
+
+    arXiv:2610.36171v1 Announce Type: new  Abstract: After decades of trade liberalization, the 2020s mark a profound shift in the globalization narrative, with tariffs once again becoming a central instrument of trade policy. This reversal also challenges how the effects of trade policy are evaluated. Much of the empirical literature has been developed to assess bilateral tariff reductions or elimination and the associated erosion of preferential advantages. Rising multilateral tariffs pose a different question: they alter not only the trade costs faced by directly affected exporters but also the relative market access of all competing suppliers, potentially reinforcing existing preferences. This paper develops a practical framework for translating tariff changes into trade effects in this new policy environment. We argue that liberalization and protectionism should not be treated as symmetric policy experiments: their effects operate through different changes in relative market access an
+    
+[^14]: FinLLM-KG：面向算法交易中金融情感分析的知识图谱增强大语言模型
+
+    FinLLM-KG: Knowledge Graph-Enhanced LLMs for Financial Sentiment Analysis in Algorithmic Trading
+
+    [https://arxiv.org/abs/2610.36083](https://arxiv.org/abs/2610.36083)
+
+    该论文提出FinLLM-KG框架，通过将因果大语言模型与金融知识图谱结合，在推理时注入来自SEC 10-K文件的公司层面知识，以近乎零计算成本提升了金融情感分析的上下文理解能力，且无需更新模型权重。
+
+    
+
+    生成式人工智能的最新进展通过经过后训练的金融大语言模型（LLM）显著提升了金融情感分析的性能。然而，现有方法仍然局限于孤立地预测每篇文章的情感，并且以黑盒方式运行，这限制了上下文理解能力，也阻碍了其在高风险金融决策中的部署。为此，我们提出了FinLLM-KG，这是一个模型无关的框架，它将因果大语言模型与金融知识图谱相结合，以便在推理时注入来自SEC 10-K文件中具有时间依据的公司层面知识，而无需更新模型权重。在FinLLM-KG中，上下文既可以以自然语言公司简介的形式提供，也可以以少量按相关性排序的事实三元组的形式提供。这使得情感预测能够考虑更广泛的公司层面信息，而不仅仅是文章本身，且计算成本几乎为零，并适用于任何因果大语言模型。
+
+    arXiv:2610.36083v1 Announce Type: new  Abstract: Recent advances in Generative AI have substantially improved financial sentiment analysis through post-trained financial large language models (LLMs). However, existing approaches remain confined to predicting the sentiment of each article in isolation and operate as black boxes, which limits contextual understanding and hinders deployment in high-stakes financial decision-making. To this end, we introduce FinLLM-KG, a model-agnostic framework that combines causal LLMs with a financial knowledge graph, in order to inject temporally grounded, company-level knowledge from SEC 10-K filings at inference time, without updating model weights. Within FinLLM-KG, context is supplied either as a natural-language company profile or as a small set of relevance-ranked factual triples. This enables sentiment predictions to account for broader firm-level information rather than the article alone, at almost zero computational cost and for any causal LLM
+    
+[^15]: 熟能生巧：隐性知识、生成式人工智能与教育和经验的回报
+
+    Practice Makes Perfect: Tacit Knowledge, Generative AI, and Returns to Schooling and Experience
+
+    [https://arxiv.org/abs/2610.36008](https://arxiv.org/abs/2610.36008)
+
+    该论文提出生成式AI会降低教育回报率（因其替代编码化知识），同时提升实践经验回报率（因隐性知识仍需在实践中积累），从而重塑工资结构中的教育与经验溢价。
+
+    
+
+    生成式人工智能改变了不同形式人力资本的稀缺性。它使编码化知识在生产现场能够以低成本获取，而通过实践积累的判断力仍然与劳动者自身紧密绑定。我们研究这对工资结构中两个熟悉的价格——教育回报率和经验回报率——会产生什么影响。在短期框架下，机器供给的编码化知识直接替代了工人人力资本中的编码化部分，从而降低了教育回报的梯度。如果编码化知识与基于实践的知识是互补的，那么在通过实践学习最快的领域，经验回报率将会上升；此外，特定技术的经验也可能过时，导致经验曲线发生旋转而非整体平移。利用2018年至2026年6月美国当期人口调查（CPS）的收入数据，我们比较了ChatGPT出现前Felten-Raj-Seamans AI暴露度指标最高与最低四分位数的职业……
+
+    arXiv:2610.36008v1 Announce Type: new  Abstract: Generative AI changes the scarcity of different forms of human capital. It makes codified knowledge cheaply available at the point of production, while judgment acquired through practice remains tied more closely to the worker. We ask what this does to two familiar prices in the wage structure: the return to schooling and the return to experience. In a short-run framework, machine-supplied codified knowledge substitutes directly for the codified component of worker human capital, lowering the schooling gradient. If codified and practice-based knowledge are complements, the return to experience rises where learning through practice is fastest; technology-specific experience can also become obsolete, rotating the experience profile rather than shifting it uniformly. Using US Current Population Survey earnings data from 2018 through June 2026, we compare occupations in the top and bottom quartiles of the pre-ChatGPT Felten-Raj-Seamans expos
+    
+[^16]: 利用美国商业调整：最惠国关税与贸易转移
+
+    Leveraging US Commercial Adjustments: MFN Tariffs and Trade Diversion
+
+    [https://arxiv.org/abs/2610.35986](https://arxiv.org/abs/2610.35986)
+
+    最惠国关税提高不仅会减少进口，还会通过提升现有贸易优惠的相对价值，将贸易转移至享有优惠待遇的出口国，且该效应在部门与地区间高度异质。
+
+    
+
+    最惠国（MFN）关税的提高不仅仅是增加贸易成本。通过改变竞争性出口商之间的相对关税待遇，最惠国关税提升增加了现有贸易优惠的价值，重塑了相对市场准入和贸易分配格局。尽管较高关税的贸易减少效应已被充分证实，但人们对这一机制的了解却少得多。我们研究了更高的最惠国关税是否会放大优惠贸易伙伴的竞争优势，从而产生贸易转移。利用国内和国际贸易数据，我们估计了一个包含符合CES一致性双边关税边际的结构引力模型，并将近期美国贸易政策的变化作为实证应用。我们发现，更高的最惠国保护在减少进口的同时，会将贸易重新引导至享有优惠待遇的出口商。这些效应在各部门和各地区之间存在高度异质性，最大的损失集中在中间品和资本品领域。
+
+    arXiv:2610.35986v1 Announce Type: new  Abstract: Most-favored-nation (MFN) tariff increases do more than raise trade costs. By changing the relative tariff treatment of competing exporters, they increase the value of existing trade preferences, reshaping relative market access and trade allocation. While the trade-reducing effects of higher tariffs are well established, much less is known about this mechanism. We investigate whether higher MFN tariffs amplify the competitive advantage of preferential partners, generating trade diversion. Using domestic and international trade data, we estimate a structural gravity model with CES-consistent bilateral tariff margins and examine recent changes in US trade policy as an empirical application. We find that higher MFN protection simultaneously reduces imports and redirects trade toward preferential exporters. These effects are highly heterogeneous across sectors and regions, with the largest losses concentrated in intermediate and capital goo
+    
+[^17]: 基于调查微观数据在个体层面重构人类发展指数：一种方法的开发与验证
+
+    Reconstructing the Human Development Index at the Individual Level from Survey Microdata: Development and Validation of a Methodology
+
+    [https://arxiv.org/abs/2610.35893](https://arxiv.org/abs/2610.35893)
+
+    本研究开发并验证了一种基于调查微观数据在个体层面重构人类发展指数的方法，可在与官方HDI保持一致的前提下，为不同人口学亚群体提供分组的HDI估计。
+
+    
+
+    本研究提出并验证了一种从个体层面调查微观数据重构人类发展指数（HDI）的方法，能够在与官方HDI保持一致的同时，为人口学亚群体提供分组估计。研究分析了来自欧洲社会调查（ESS7，2014年）21个国家共40,185名受访者的数据，并结合世界银行关于预期寿命、人均国民总收入和预期受教育年限的指标。健康维度根据国家预期寿命并经自评健康调整后进行估计；收入维度通过经基尼系数校准的对数正态乘数进行估计；教育维度则结合观测受教育年限与预期受教育年限进行估计。各维度通过几何平均数进行聚合，按抽样权重加权，并采用增量法估计置信区间。在39,706名数据有效的个体中（占98.8%），重构的HDI显示出较高的……（原文摘要在此处被截断）
+
+    arXiv:2610.35893v1 Announce Type: cross  Abstract: This study proposes and validates a methodology for reconstructing the Human Development Index (HDI) from individual-level survey microdata, enabling disaggregated estimates for demographic subpopulations while maintaining coherence with the official HDI. Data from 40,185 respondents in 21 countries from the European Social Survey (ESS7, 2014) were analysed, combined with World Bank indicators for life expectancy, gross national income per capita, and expected years of schooling. The health dimension was estimated from national life expectancy, adjusted by self-rated health; income, by a lognormal multiplier calibrated by the Gini coefficient; and education, by combining observed and expected years of schooling. The dimensions were aggregated by geometric mean, weighted by sampling weights, with confidence intervals estimated via the delta method. Among the 39,706 individuals with valid data (98.8%), the reconstructed HDI showed high a
+    
+[^18]: 评估ICT吸筹-操纵-派发（AMD）模型在CME E-mini纳斯达克100指数期货上的预测效度
+
+    Evaluating the Predictive Validity of ICT's Accumulation-Manipulation-Distribution (AMD) Model on CME E-Mini NASDAQ-100 Futures
+
+    [https://arxiv.org/abs/2610.35887](https://arxiv.org/abs/2610.35887)
+
+    本文首次对ICT的AMD（吸筹-操纵-派发）模型在纳斯达克100期货上进行了严格的系统量化检验，发现操纵信号在44%的交易日被触发，为这一流行的散户交易理论提供了首个实证评估。
+
+    
+
+    据我们所知，本文首次对ICT吸筹-操纵-派发（AMD）模型在CME E-mini纳斯达克100指数期货（NQ）上进行了系统的定量评估。AMD模型提出，机构参与者按三个阶段构建日内价格输送：亚洲时段的隔夜吸筹、伦敦时段蓄意制造的假突破，以及纽约早盘时段向对手方流动性池的方向性输送。我们利用Databento提供的四年真实15分钟OHLCV数据（2022年1月至2026年7月），将AMD规则操作化为严格的机械化策略，并在N=484个操纵信号日上，采用卡方检验、Benjamini-Hochberg多重比较校正以及市场状态条件分析，研究所得信号的统计特性。研究得出三项主要发现。第一，AMD操纵信号在44%的交易日被触发。第二，57……（原文摘要在此处截断）
+
+    arXiv:2610.35887v1 Announce Type: cross  Abstract: To our knowledge, this paper provides the first systematic quantitative evaluation of the ICT Accumulation-Manipulation-Distribution (AMD) model on CME E-Mini NASDAQ-100 futures (NQ). The AMD model proposes that institutional participants structure intraday price delivery in three phases: overnight accumulation in the Asian session, a deliberate false breakout during London, and directional delivery to the opposing liquidity pool during the New York morning session. Using four years of real 15-minute OHLCV data from Databento (January 2022 to July 2026), we operationalize the AMD rules into a strict mechanical strategy and analyze the statistical properties of the resulting signal across N = 484 manipulation signal days using chi-square testing, Benjamini-Hochberg multiple comparisons correction, and regime-conditional analysis. Three principal findings emerge. First, the AMD manipulation signal fires on 44% of trading days. Second, 57
+    
+[^19]: 投资组合强化学习中的奖励一致性认证
 
     Certifying Reward Alignment in Portfolio Reinforcement Learning
 
@@ -172,231 +296,21 @@
 
     arXiv:2610.34153v1 Announce Type: new  Abstract: Financial reinforcement learning often translates an investment objective into an additive risk-adjusted reward. An agent can optimise that reward accurately yet implement a different financial preference. We develop a decision audit for terminal mean-variance equilibrium that separates reward misspecification from learning error. In a finite exogenous-state market, we bound the gain from changing one action using actor, reward and continuation-critic residuals. The certificate ignores state-constant critic offsets, accommodates convex action constraints, and has an independent-sample extension that does not require the equilibrium policy. A continuation-aware actor-critic method estimates the future-policy correction from samples. Across nine controlled markets and twenty seeds, it reduces policy distance by and one-step deviation gain by relative to a matched myopic-reward network. A separate PPO comparison tests the same reward interv
     
-[^10]: 无回弹峰值的智能充电：批发价格反馈限制了价格响应型电动汽车造成的配电网峰值
+[^20]: 预测市场合约在上线时能揭示什么：交易量与争议风险
 
-    Smart charging without rebound peaks: Wholesale price feedback limits distribution grid peaks from price-responsive electric vehicles
+    What Prediction-Market Contracts Reveal at Launch: Trading Volume and Dispute Risk
 
-    [https://arxiv.org/abs/2610.34133](https://arxiv.org/abs/2610.34133)
+    [https://arxiv.org/abs/2610.29578](https://arxiv.org/abs/2610.29578)
 
-    本文指出，传统研究将批发价格视为外生变量从而夸大了电动汽车“回弹峰值”问题，在考虑批发价格与充电负荷之间的均衡反馈后，配电网同步峰值增幅可从260%大幅降至5%。
-
-    
-
-    关于价格优化的电动汽车充电的研究一致发现，常见的价格信号会导致整个车队在最便宜的时段同步充电，从而在低压电网中产生新的“回弹”负荷峰值。几乎所有这些研究都将批发价格视为外生变量，即不受转移的电动汽车负荷的影响。本文认为这一假设夸大了问题的严重性：在低价时段充电会抬高这些时段的批发价格，在均衡状态下这将使充电分散到不同时段。我基于德国2025年数据校准的实时价格，模拟了价格优化的充电行为。即使对电力需求的增加进行调整，当地电网的同步进口峰值仍上升260%。在加入考虑价格-数量反馈的均衡批发价格模型后，这一增幅降至仅5%。在允许车网互动（V2G）的情况下，出口峰值分别上升115%和下降6%。
-
-    arXiv:2610.34133v1 Announce Type: new  Abstract: Studies on price-optimized EV charging consistently find that the common price signal synchronizes charging of the entire fleet of cars in the cheapest hours and creates new "rebound" load peaks in low-voltage grids. Almost all of these studies treat wholesale prices as exogenous, i.e., unaffected by the shifting EV load. This paper argues that this assumption overstates the problem: charging in low-price hours raises the wholesale price in those hours, which spreads charging across hours in equilibrium. I simulate price-optimized charging under real-time prices calibrated to German 2025 data. Even when adjusting for the increase in electricity demand, the coincident import peak of the local grid rises by 260%. After adding a model of equilibrium wholesale prices that takes the price-quantity feedback into account, the increase is reduced to a mere 5%. Allowing for vehicle-to-grid, the export peak rises by 115% and falls by 6%, respectiv
-    
-[^11]: 詹森差距与分解原理
-
-    Jensen gaps and the decomposition principle
-
-    [https://arxiv.org/abs/2610.33786](https://arxiv.org/abs/2610.33786)
-
-    本文通过公理化方法刻画了詹森差距泛函这一统一框架（涵盖超额增长率、效用溢价、KL散度和方差等重要例子），并证明律不变性与二元分解原理相结合足以在无原子概率空间上唯一确定这类泛函。
+    仅凭预测市场合约上线时的可解释信息（如市场主题、措辞和结算规则）即可高度准确地预测其未来交易量与结算争议风险，但这种预测能力会随平台环境和上线格式的变化而显著衰减。
 
     
 
-    我们为詹森差距泛函提供了公理化刻画，这类泛函的形式为 $\rho(X)=\mathbb{E}[f(X)]-f(\mathbb{E}[X])$，其中 $f$ 是某个实值函数，称为生成函数。该类泛函包含许多重要例子，如超额增长率、效用溢价、Kullback-Leibler（KL）散度和方差，并且与变异性度量密切相关。我们分析了詹森差距的多种凸性形式。为了刻画詹森差距，我们提出了律不变泛函的条件版本，这是陈述分解原理所必需的。在无原子概率空间上，我们证明律不变性结合二元分解原理足以刻画简单随机变量上的詹森差距。在适当的连续性条件下，该刻画可扩展到更广泛的类别，包括具有紧支撑的随机变量和可积随机变量。
+    基于Polymarket上2023年1月至2026年5月间802,863个已结算市场的近乎全量数据，仅使用上线时可获得的信息（市场的标题与描述、指定的结算来源以及合约元数据），我们预测其生命周期内的交易量以及结算日后是否会被争议。合约信息能很好地预测交易量（对数交易量的样本外R²=0.747），且大部分信号是可解释的：市场主题贡献了最大增益（相比0.220的合约特征基线，R²提升+0.289），措辞与结算规则设计带来较小但可测量的改进（合计+0.027），而神经文本模型在可解释特征之外几乎没有额外增益。这一性能无法在伴随上线格式转变的平台变革期中延续：预测市场交易量是否达到1,000美元的准确率从同期评估下的AUC 0.940下降至跨期训练评估时的0.577（原文在此处截断）。
 
-    arXiv:2610.33786v1 Announce Type: new  Abstract: We provide axiomatic characterizations of Jensen-gap functionals, which have the form $\rho(X)=\mathbb{E}[f(X)]-f(\mathbb{E}[X])$ for some real-valued function $f$ called the generator. This class includes important examples such as the excess growth rate, the utility premium, the Kullback-Leibler (KL) divergence, and the variance, and is also closely related to measures of variability. We analyze various forms of convexity for Jensen gaps. To characterize Jensen gaps, we formulate conditional versions of law-invariant functionals, which are needed to state the decomposition principle. On an atomless probability space, we show that law invariance together with a binary decomposition principle is sufficient to characterize Jensen gaps on simple random variables. Under suitable continuity conditions, the characterization extends to broader classes, including compactly supported random variables and integrable random variables. We then iden
+    arXiv:2610.29578v1 Announce Type: cross  Abstract: Using a near-census of 802,863 resolved markets listed on Polymarket between January 2023 and May 2026, and only information available at listing (the market's title and description, named resolution source, and contract metadata), we predict lifetime trading volume and whether settlement is later disputed. Contract information predicts trading volume well (out-of-sample $R^2 = 0.747$ for log volume), and most of the signal is interpretable: market topic provides the largest gain ($+0.289$ $R^2$ over a $0.220$ contract-feature baseline), wording and resolution-rule design add smaller but measurable improvements ($+0.027$ combined), and neural text models add little beyond the interpretable features. This performance does not survive a period of platform change coinciding with a shift in listing formats: accuracy in predicting whether a market reaches \$1,000 falls from AUC $0.940$ under same-period evaluation to $0.577$ when training o
     
-[^12]: 地缘经济压力与欧洲防御战备能力
-
-    Geoeconomic Stress and European Defence Readiness
-
-    [https://arxiv.org/abs/2610.33785](https://arxiv.org/abs/2610.33785)
-
-    本研究构建了包含宏观经济能力、部门韧性、国防工业能力和后勤保障四个维度的国家级评估框架，用以衡量28个欧洲北约盟国在五种地缘经济压力情景下维持军事战备的经济产业能力，发现各国基线能力差异显著且压力冲击的影响高度异质。
-
-    
-
-    本研究开发了一种国家级衡量指标，用于评估欧洲北约盟国在战略压力下调集、补充、维护和持续维持军事能力的经济产业能力。该指标由四个组成部分构成：宏观经济能力、部门韧性、国防工业能力以及后勤与持续保障能力。分析涵盖28个欧洲盟国，并在五种地缘经济压力情景下对平衡基线进行评估。研究结果区分了基线能力与压力脆弱性，并提供了一个评估框架，用于识别可能制约持续军事战备能力的经济产业瓶颈。各国基线得分差异显著，样本均值为0.610，得分范围从0.471到0.759。经校准的地缘经济冲击在每种情景下均降低了有效能力，但影响呈现高度异质性，其中复合压力情景的平均效果最大。
-
-    arXiv:2610.33785v1 Announce Type: new  Abstract: This study develops a country-level measure of the economic-industrial capacity of European NATO Allies to mobilise, replenish, maintain, and sustain military capability under strategic stress. The measure comprises four components: macroeconomic capacity, sectoral resilience, defence-industrial capability, and logistics and sustainment. The analysis covers 28 European Allies and evaluates a balanced baseline against five geoeconomic stress scenarios. The results distinguish baseline capacity from stress vulnerability and provide an assessment framework for identifying the economic-industrial bottlenecks that can constrain sustained military readiness. Baseline scores vary materially across countries, with a sample mean of 0.610 and a range from 0.471 to 0.759. The calibrated geoeconomic shocks reduce effective capacity in every scenario, though the effects are highly heterogeneous. The combined-stress scenario has the largest average ef
-    
-[^13]: FLARE公开分数实际衡量的是什么
-
-    What FLARE's Published Numbers Actually Measure
-
-    [https://arxiv.org/abs/2610.33604](https://arxiv.org/abs/2610.33604)
-
-    该论文审计了FLARE金融基准的评分流程，证明其公开分数在很大程度上由未指定的答案抽取规则而非模型能力决定——不同抽取规则在相同生成结果上可造成高达0.4216的准确率差异，且各排行榜均未披露所用规则。
-
-    
-
-    我们对FLARE——即PIXIU和FinBen背后的金融任务套件——的评分流程进行了审计，发现在相当大比例的评测单元中，分数反映的是答案抽取规则的属性，而非模型本身的性能。最清晰的证据已经公开发表：在已发布的34个Headlines分数中，有九个与该基准自身代码在没有任何输出与"Yes"逐字节相等时返回的结果精确到小数点后四位一致，且仅有四个分数超过了各分层的多数基线。FLARE将分数给予在生成文本中任意位置找到的数据集卡片选项列表的第一项；而它所派生的lm-evaluation-harness则按位置取第一个匹配项；在完全相同的生成结果上，两者准确率差异高达0.4216，且没有任何排行榜说明其数字是由哪条规则产生的。规则的未指定使分数只能得到部分识别；由于这种粗化是多重性而非缺失性，区间的宽度是可以被计算的而非仅具有界。跨越204单元的因子实验和46-c（摘要在此处截断）
-
-    arXiv:2610.33604v1 Announce Type: new  Abstract: We audit the scoring pipeline of FLARE, the financial task suite behind PIXIU and FinBen, and find that in a decisive fraction of cells the score is a property of the answer-extraction rule, not the model. The clearest evidence is already published: of the 34 released Headlines scores, nine equal to four decimals what the benchmark's own code returns when no output is byte-equal to Yes, and only four clear the per-stratum majority floor. FLARE credits the first entry of the dataset card's choices list found anywhere in a generation; the lm-evaluation-harness it forks takes the first match by position; on identical generations the two differ by up to 0.4216 accuracy, and no leaderboard states which rule produced its numbers. An unspecified rule leaves the score partially identified, and because the coarsening is multiplicity rather than missingness the interval's width is counted rather than bounded. Across a 204-cell factorial and a 46-c
-    
-[^14]: 绿色转型时机风险下的最优投资组合选择
-
-    Optimal portfolio choice under green transition timing risk
-
-    [https://arxiv.org/abs/2610.33597](https://arxiv.org/abs/2610.33597)
-
-    本文针对绿色转型时机不确定的风险，研究了具有模糊厌恶的CRRA投资者如何构建稳健的最优投资组合，通过将转型建模为绿色股票升值、棕色股票贬值的跳跃过程，求解了转型前后的最优策略并给出验证定理。
-
-    
-
-    我们研究了投资者在考虑未来可能发生的绿色转型影响时的最优投资组合选择问题，而该转型的时机是不确定的。我们将绿色转型建模为股票价格过程中的一个不连续跳跃，由一个具有恒定强度的单一跳过程驱动，其中“绿色”股票价值上升，“棕色”股票价值下降。投资者对绿色转型的时机存在模糊性认知，并据此设计对这一风险具有稳健性的投资策略。投资者对财富和模型模糊性均具有常相对风险厌恶（CRRA）偏好，这使得幂效用下引入乘法形式的模糊性惩罚，而对数效用下引入加法形式的模糊性惩罚。我们将问题分为转型前和转型后两种情形，推导出解并给出了验证定理。我们进一步证明，对数效用、模糊中性以及最坏情形等问题均可作为本文模型的特例得到。
-
-    arXiv:2610.33597v1 Announce Type: new  Abstract: We study an investor's optimal portfolio choice problem when they account for the impact of a possible future green transition, whose timing is uncertain. We model the green transition as a discontinuity in the stock price processes, driven by a single jump process with constant intensity, in which 'green' stocks increase in value and 'brown' stocks decrease in value. The investor is ambiguous about the timing of the green transition and designs an investment strategy which is robust to this risk. The investor has constant relative risk aversion preferences over both wealth and model ambiguity, which introduce a multiplicative ambiguity penalty for power utility and an additive ambiguity penalty for log utility. We separate the problem into pre- and post-transition cases, derive the solution, and provide a verification theorem. We further show that the log utility, ambiguity-neutral, and worst-case problems are obtained as special cases 
-    
-[^15]: 代币化伊斯兰债券（Sukuk）：一种资产证据与可编程伊斯兰教法合规的可验证架构
-
-    Tokenised Sukuk: A Verifiable Architecture for Asset Evidence and Programmable Shariah Compliance
-
-    [https://arxiv.org/abs/2610.33538](https://arxiv.org/abs/2610.33538)
-
-    本文提出一种代币化伊斯兰债券的可验证架构，将马来西亚证券委员会2023年伊斯兰教法决议中的可交易性条件编码为读取EIP-712签名资产声明的链上发行与转让策略，弥补了ERC-3643等安全代币标准只验证投资者身份、不验证底层资产证据与伊斯兰教法合规的关键缺口。
-
-    
-
-    ERC-3643 等安全代币标准决定了谁可以持有代币，却无法决定代币背后代表什么。对于伊斯兰债券（sukuk）而言，这一缺口至关重要：一张凭证能否以协商价格交易取决于其投资组合的内容，而仅验证投资者身份的代币在所有非债务资产被出售后仍会继续交易。我们探讨这一可交易性条件能否在链上强制执行，以及其代价如何。我们将马来西亚证券委员会伊斯兰教法咨询委员会 2023 年关于投资代理伊斯兰债券决议中的可交易性条件，编码为读取 EIP-712 声明的发行与转让策略，这些声明由不同的机构角色分别签署，内容涵盖每项资产的权利、估值、负担情况、伊斯兰教法分类以及收益的分配。在我们基于合成工具构建的 26 个场景中，仅基于身份的基线错误地允许了编码策略所拒绝的 13 项操作，并且……
-
-    arXiv:2610.33538v1 Announce Type: cross  Abstract: Security-token standards such as ERC-3643 decide who may hold a token, not what stands behind it. For a sukuk this gap matters: whether a certificate may trade at a negotiated price depends on what its portfolio contains, and a token that checks only investor identity keeps trading after every non-debt asset has been sold. We ask whether this tradability condition can be enforced on-chain, and at what cost. We encode the tradability conditions of the 2023 resolution of the Shariah Advisory Council of the Securities Commission Malaysia on Sukuk Wakalah bi al-Istithmar as issuance and transfer policies that read EIP-712 claims, signed by separate institutional roles, about each asset's rights, valuation, encumbrance and Shariah classification and about the allocation of proceeds. Across 26 scenarios that we constructed on a synthetic instrument, an identity-only baseline wrongly allowed 13 operations that the encoded policy denies, and a
-    
-[^16]: 跨债券面板学习用于中国可转债次日价格预测：一项现实检验
-
-    Cross-Bond Panel Learning for Next-Day Price Forecasting of Chinese Convertible Bonds: A Reality Check
-
-    [https://arxiv.org/abs/2610.33453](https://arxiv.org/abs/2610.33453)
-
-    本文对中国可转债的跨债券神经网络面板学习进行了严格的方法论检验，发现在严格的样本外评估条件下，神经网络集成模型未能可靠超越随机游走基准，为该领域过于乐观的研究结论提供了现实警示。
-
-    
-
-    金融机器学习的最新进展引发了将深度神经网络应用于可转债估值与预测的日益浓厚的兴趣。然而，现有研究往往侧重于样本内估值拟合或横截面收益率排序，使得样本外次日价格预测缺乏与持续性基准（随机游走）的充分对比。本文对中国可转债的跨债券面板学习进行了全面的实证现实检验。使用2022年至2025年间100只A股可转债共73,806个观测值的日度面板数据，我们在严格的时间划分、边界剔除、各折独立预处理以及考虑数据依赖性的统计推断条件下，评估跨债券神经网络架构是否能可靠地超越随机游走模型。在包含29,514个观测值的留出测试集上，随机游走模型实现了2.3577元人民币的均方根误差（RMSE）。基于五个随机种子的小型与大型价格变化多层感知器（MLP）集成模型则分别取得2.3619和2.3645元人民币的RMSE，
-
-    arXiv:2610.33453v1 Announce Type: new  Abstract: Recent advances in financial machine learning have prompted growing interest in applying deep neural networks to convertible bond valuation and forecasting. However, existing studies often focus on in-sample valuation fit or cross-sectional return rankings, leaving out-of-sample next-day price forecasting insufficiently benchmarked against persistence. This paper provides a comprehensive empirical reality check on cross-bond panel learning for Chinese convertible bonds. Using a daily panel of 73,806 observations across 100 A-share convertible bonds from 2022 to 2025, we evaluate whether cross-bond neural architectures reliably outperform the random walk under strict temporal splitting, boundary purging, fold-specific preprocessing, and dependence-aware inference. On the 29,514-observation holdout, the random walk achieves an RMSE of 2.3577 CNY. Five-seed ensembles of small and large price-change MLPs yield RMSEs of 2.3619 and 2.3645 CNY,
-    
-[^17]: 智能爆炸中的效率与能力之辩
-
-    Efficiency vs Capability in the Intelligence Explosion
-
-    [https://arxiv.org/abs/2610.33447](https://arxiv.org/abs/2610.33447)
-
-    该论文提出软件驱动的智能爆炸需要AI能力提升和效率提升两个边际同时足够快速改进且不可相互替代，通过数据校准发现能力进步很可能达标而效率进步处于临界边缘，蒙特卡洛模拟显示SIE发生概率约为49%，表明其可能但不确定。
-
-    
-
-    AI进展可以通过两种方式反馈到AI研究本身。能力改进使AI能够承担更大比例的AI研究任务，而效率改进则提高已自动化任务上每单位算力的AI研究产出。在一个AI研究的任务自动化模型中，我证明了软件驱动的智能爆炸（SIE）——即在算力和人力固定的情况下自我持续的AI进展加速——需要这两个边际都以足够快的速度改进，且任何一个边际都无法替代另一个。为了检验这些条件是否成立，我使用近期AI进展的数据对这两个边际进行了校准。我估计能力进步很可能足够快以支持SIE，而效率进步则处于临界边缘。在蒙特卡洛模拟中，SIE在49%的抽样中出现，这表明基于AI进展的历史趋势，SIE是可能的但尚不确定。最大的单一不确定性来源是……的速率。
-
-    arXiv:2610.33447v1 Announce Type: new  Abstract: AI progress can feed back into AI research in two ways. Capability improvements allow AIs to perform a larger share of AI research tasks, while efficiency improvements raise AI research output per unit of compute on tasks already automated. In a task automation model of AI research, I show that a software-driven intelligence explosion - a self-sustaining acceleration in AI progress with fixed compute and human labor - requires both margins to improve sufficiently fast, and neither margin can substitute for the other. To see whether these conditions hold, I calibrate both margins with data on recent AI progress. I estimate that capability progress is likely fast enough to support an SIE, while efficiency progress is on the knife-edge. In Monte Carlo simulations, an SIE occurs in 49% of draws, indicating that an SIE is plausible but uncertain based on historical trends in AI progress. The single largest source of uncertainty is the rate of
-    
-[^18]: 基于抽样调查、缓和逆概率序列学习与因果活动时钟的隐含波动率曲面编制与预测
-
-    Compiling and forecasting implied volatility surfaces via survey sampling, tempered inverse-probability sequence learning, and causal activity clocks
-
-    [https://arxiv.org/abs/2610.33438](https://arxiv.org/abs/2610.33438)
-
-    论文将有限总体抽样设计、缓和逆概率加权序列学习与因果活动时钟相结合，利用NVDA 2018–2025年高频股票-期权数据编制并预测隐含波动率曲面，并发现横截面曲面精度关键在于使抽样设计与目标泛函相匹配。
-
-    
-
-    从高频股票与期权数据流中编制隐含波动率（IV）曲面并预测衍生品风险，需要应对合约异质性、模式变更、波动率聚集以及非平稳交易活动等挑战。本研究基于经拆股调整的英伟达（NVDA）股票与期权面板数据（2018–2025），将有限总体抽样调查、缓和逆概率序列学习与因果活动时钟相结合，得出四项发现。第一，横截面曲面精度取决于使抽样设计与目标泛函相匹配：采用滞后单元格离散度的代入式分层配置可改善等权重曲面重建并实现完整网格覆盖，而流动性加权的按规模比例（PPS）抽样在构造上天然契合流动性加权目标，但若误用则会放大误差。第二，在纵向LSTM序列训练中，PPS与Neyman设计保持m……（原文摘要在此处截断）
-
-    arXiv:2610.33438v1 Announce Type: cross  Abstract: Compiling implied volatility (IV) surfaces and forecasting derivative risk from high-frequency equity and options feeds requires addressing contract heterogeneity, schema shifts, volatility clustering, and non-stationary trading activity. Using a split-adjusted NVIDIA (NVDA) equity and options panel (2018-2025), this study integrates finite-population survey sampling, tempered inverse-probability sequence learning, and causal activity clocks. Four findings emerge. First, cross-sectional surface accuracy depends on matching the sampling design to the target functional: plug-in stratified allocations using lagged cell dispersion improve equal-weighted surface reconstruction with full grid coverage, whereas liquidity-weighted probability proportional to size (PPS) sampling excels on liquidity-weighted targets by construction yet inflates error when misapplied. Second, in longitudinal LSTM sequence training, PPS and Neyman designs retain m
-    
-[^19]: 追踪中国高频交易活动及其对市场质量的影响
-
-    Tracking High-Frequency Trading Activity in China and Its Effects on Market Quality
-
-    [https://arxiv.org/abs/2610.33400](https://arxiv.org/abs/2610.33400)
-
-    本文提出以主动精确匹配订单作为高频交易活动的新型订单级代理指标，并利用深交所开盘时订单传播延迟的跨通道差异提供因果证据，研究高频交易对市场质量的影响。
-
-    
-
-    我们开发了一种基于精确下单的新型订单级高频交易（HFT）活动代理指标，并研究其对市场质量的影响。由于报价每秒更新多次，毫秒级的订单簿访问使高频交易者更倾向于提交主动精确匹配订单——即价格恰好等于当时对手方最优报价的限价订单。基于深圳证券交易所的数据，我们验证了该代理指标的有效性：主动精确匹配订单对报价更新的反应更快、撤销更迅速，在订单簿深度失衡有利且买卖价差较窄时集中出现，并能预测100毫秒至十分钟内的中间价收益。我们利用市场开盘时订单传播延迟的跨通道差异构建双重差分设计，结果表明更低的延迟会增加主动精确匹配订单的占比。这一变化提供了较为可信的因果证据，表明延迟降低所引发的高频交易提升了短周期……（摘要原文在此处截断）
-
-    arXiv:2610.33400v1 Announce Type: new  Abstract: We develop a new order-level proxy for high-frequency trading (HFT) activity based on precise order placement and study its effects on market quality. With quotes updating multiple times per second, millisecond-level order-book access makes high-frequency traders more likely to submit active exact-match orders, defined as limit orders priced exactly at the prevailing best opposite-side quote. Using Shenzhen Stock Exchange data, we validate the proxy: active exact-match orders respond faster to quote updates, cancel more rapidly, concentrate when depth imbalance is favorable and spreads are narrow, and predict mid-quote returns from 100 milliseconds through ten minutes. A difference-in-differences design exploiting cross-channel variation in order dissemination latency at the market open shows that lower latency increases active exact-match shares. This variation yields plausibly causal evidence that latency-induced HFT raises short-horiz
-    
-[^20]: 碳市场稳定储备的平稳平均场模型
-
-    A Stationary Mean-Field Model for Carbon Market Stability Reserve
-
-    [https://arxiv.org/abs/2610.33132](https://arxiv.org/abs/2610.33132)
-
-    该论文将碳市场稳定储备的设计建模为平稳平均场奇异控制问题，证明最优政策是由四个反射阈值刻画的机制依赖带状规则，对EU ETS的校准表明其阈值与现行规则处于同一数量级，且波动性是干预区间的主要决定因素。
-
-    
-
-    我们将市场稳定储备的设计构建为一个平稳平均场奇异控制问题。配额余额遵循一个机制切换扩散过程，而监管者通过有界变差控制来注入或撤回配额。目标函数在平均配额余额、其平稳离散度、与长期目标的偏离以及干预成本之间进行权衡。最优政策是一个依赖机制状态的带状规则，由四个反射阈值刻画。其计算可归结为一个标量不动点问题，该问题结合了耦合变分不等式与反射过程的不变分布。对欧盟碳排放交易体系（EU ETS）的校准显示，所得阈值与现行市场稳定储备规则处于同一数量级。比较静态分析表明，波动性是干预区间的主要决定因素，而危机机制的频率和持续时间的影响则较为有限。
-
-    arXiv:2610.33132v1 Announce Type: new  Abstract: We formulate the design of a market stability reserve as a stationary mean-field singular control problem. The allowance balance follows a regime-switching diffusion, while the regulator injects or withdraws allowances through bounded-variation controls. The objective trades off the average allowance balance, its stationary dispersion, deviations from a long-run target, and intervention costs. The optimal policy is a regime-dependent band rule characterized by four reflecting thresholds. Its computation reduces to a scalar fixed-point problem combining a coupled variational inequality with the invariant distribution of the reflected process. A calibration to the EU ETS yields thresholds of the same order of magnitude as the existing Market Stability Reserve rule. Comparative statics show that volatility is the main determinant of the intervention band, whereas the frequency and duration of crisis regimes have limited effects. A simpler t
-    
-[^21]: 基钦周期的数字-能源重组：来自美国IT与爱尔兰数据中心序列（1995-2025）的探索性证据
-
-    The Digital-Energy Recomposition of the Kitchin Cycle: Exploratory Evidence from U.S. IT and Irish Data-Centre Series (1995-2025)
-
-    [https://arxiv.org/abs/2610.33122](https://arxiv.org/abs/2610.33122)
-
-    该研究通过断点检验发现美国IT与GDP的相关性在2014年第三季度发生显著的“战略性脱钩”（早于AI时代约六年），而爱尔兰数据中心用电量与GDP的高相关性在改用GNP后骤然消失，表明基钦周期正围绕能源与算力资产重组这一命题仅获得部分探索性证据支持。
-
-    
-
-    利用1995年第一季度至2025年第四季度的FRED与爱尔兰中央统计局（CSO）季度数据，我们研究美国IT投资与爱尔兰数据中心用电量是否正在围绕能源与算力支撑的资产重组基钦周期。研究有三个突出发现。第一，Quandt-Andrews sup-Wald检验在美国IT-GDP相关性中定位到2014年第三季度的显著断点（sup-W = 9.69；相关系数从+0.45降至-0.12）；Fisher r-to-z检验在Bonferroni校正后依然显著（z = +3.11，p_Bonf = 0.006），而人为设定的云计算与AI分界处的类似检验则不显著（p_Bonf = 0.164），因此“战略性脱钩”比AI时代早约六年出现。第二，在爱尔兰，AI时代数据中心实测用电量与实际GDP的同步相关性较大（r = +0.41，N = 16），但当用实际GNP替代实际GDP时，该相关性骤降至r ≈ 0，表明这一表面结果在很大程度上是……（原文摘要在此处截断）
-
-    arXiv:2610.33122v1 Announce Type: cross  Abstract: Using quarterly FRED and CSO Ireland data over 1995Q1-2025Q4, we examine whether U.S.\ IT investment and Irish data-centre electricity are recomposing the Kitchin cycle around energy- and compute-backed assets. Three findings stand out. First, a Quandt-Andrews sup-Wald test locates a significant break in the U.S.\ IT-GDP correlation at 2014Q3 (sup-W $= 9.69$; $r$ falls from $+0.45$ to $-0.12$); the Fisher $r$-to-$z$ test survives Bonferroni adjustment ($z = +3.11$, $p_{\text{Bonf}} = 0.006$), whereas the analogous test on the imposed Cloud-vs-AI boundary does not ($p_{\text{Bonf}} = 0.164$), so ``Strategic Decoupling'' pre-dates the AI Era by approximately six years. Second, in Ireland the synchronous AI-Era correlation between metered data-centre electricity and Real GDP is large ($r = +0.41$, $N = 16$) but \emph{collapses to $r \approx 0$ when Real GDP is replaced by Real GNP}, suggesting the headline is largely an artefact of the sh
-    
-[^22]: 金融基础模型的不确定性量化：综述
-
-    Uncertainty Quantification for Financial Foundation Models: A Survey
-
-    [https://arxiv.org/abs/2610.33109](https://arxiv.org/abs/2610.33109)
-
-    该综述提出了一个区分六大不确定性来源的来源感知框架，并建立了基于机制的不确定性量化方法分类体系，用以系统评估金融基础模型在从证据到行动的完整工作流程中的不确定性。
-
-    
-
-    金融基础模型日益支持涵盖金融问答、信息披露分析、预测和决策等工作流程。在这些场景中，不确定性可能涉及：证据是否有效并在相关时间可用、某种解释是否合理、哪些结果仍有发生的可能，以及在成本和风险约束下哪种行动更可取。由于这些对象出现在工作流程的不同环节，不确定性不能被简化为对最终输出的置信度。我们引入了一个来源感知框架，区分了六大不确定性来源，涵盖证据与情境、模型与推理、结果与行动三个层面，同时将智能体工作流视为不确定性得以传播、改变形式或被缩减的执行层。我们建立了一个基于机制的分类体系，其依据是各类方法如何构建或验证不确定性与可靠性表示，并利用该体系对相关方法进行评估。
-
-    arXiv:2610.33109v1 Announce Type: new  Abstract: Financial foundation models increasingly support workflows spanning financial question answering, disclosure analysis, forecasting, and decision-making. In these settings, uncertainty may concern whether evidence is valid and available at the relevant time, whether an interpretation is justified, which outcomes remain plausible, or which action is preferred under costs and risk constraints. Because these objects arise at different points in a workflow, uncertainty cannot be reduced to confidence in a final output. We introduce a source-aware framework that distinguishes six sources of uncertainty across evidence and context, model and inference, and outcome and action, while treating agentic workflows as the execution layer through which uncertainty can propagate, change form, or be reduced. We develop a mechanism-based taxonomy grounded in how methods construct or verify uncertainty and reliability representations, and use it to assess 
-    
-[^23]: 大型语言模型中的前景理论：对损失厌恶、敏感性递减与概率加权的元分析
-
-    Prospect Theory in Large Language Models: A Meta-Analysis of Loss Aversion, Diminishing Sensitivity, and Probability Weighting
-
-    [https://arxiv.org/abs/2610.33103](https://arxiv.org/abs/2610.33103)
-
-    本文通过对32个语言模型的102个拟合估计进行元分析，发现大型语言模型表现出温和的损失厌恶（λ=1.26）：在收益与损失对称情境下其行为与人类相容，但总体损失厌恶程度显著低于人类，且三个前景理论成分的表现各不相同。
-
-    
-
-    前景理论将风险决策分解为三个部分：损失厌恶（以损失相对于收益的权重λ来衡量，例如λ=2意味着损失的权重是收益的两倍）、对结果大小的敏感性递减（即价值函数的曲率与线性特征），以及概率的非线性加权。本文通过对涵盖32个语言模型的11项研究中的102个拟合估计进行元分析，考察大型语言模型（LLM）是否表现出与人类相同的特性。研究发现这三个组成部分的表现各不相同：LLM的损失厌恶程度较为温和，汇总后的λ为1.26（95%置信区间为1.06至1.46），远低于最强的人类元分析估计值（λ=1.96），但与较为保守的人类估计值（1.07和1.31）相容。在匹配设计下，当收益与损失对称时，LLM与人类表现相容（λ=1.15对1.07），但当损失小于收益时，LLM的损失厌恶程度则远低于人类。
-
-    arXiv:2610.33103v1 Announce Type: new  Abstract: Prospect theory splits risky choice into three parts: loss aversion, measured by the relative weight of losses to gains, $\lambda$ (e.g., $\lambda = 2$ implies that losses weigh twice as much as gains), diminishing sensitivity to the size of outcomes (i.e., the curvature and linearity of the value function), and the nonlinear weighting of probabilities. I examined whether Large Language Models (LLMs) display the same properties as people by meta-analyzing 102 fitted estimates from 11 studies covering 32 language models. The three components emerge differently. Loss aversion is modest: the pooled $\lambda$ is 1.26 (95% CI 1.06 to 1.46), far below the strongest human meta-analytic estimate ($\lambda = 1.96$) and compatible with more conservative ones (1.07 and 1.31). Matched by design, LLMs are compatible with people when gains and losses are symmetric ($\lambda = 1.15$ against 1.07), but well below them when losses are smaller than gains 
-    
-[^24]: 能力转移：队列逆转、编码化专业知识与人工智能转型的适应性税
-
-    The Capability Transfer: Cohort Reversal, Codified Expertise, and the Adaptability Tax of AI Transformation
-
-    [https://arxiv.org/abs/2610.33102](https://arxiv.org/abs/2610.33102)
-
-    本文发现AI自动化编码化工作会先削减初级岗位需求，随后因人才梯队断裂导致高级专家存量更深幅萎缩，内部培养专家的时间从约五年延长至九年，且转型的适应成本由与采用决策者不同的群体承担。
-
-    
-
-    大多数关于人工智能与就业的分析都在探究哪些岗位会受到影响，本文则探讨生产专家的人才梯队会发生什么。本文将Caosun和Aral（2026）的模型从单一劳动者扩展到拥有初级和高级两个员工群体的企业，研究当编码化工作被自动化后，专业知识的形成会如何变化。由于初级工作最容易被编码化，对初级员工的需求首先下降；而高级员工的存量随后下降且降幅更大，因为人才梯队不再补充退休的专家。在基准校准中，初级员工需求在触底时比2022年水平低约五分之一，随后挽回大部分失地；而高级员工存量先下降四分之一，之后减半。由于专业知识需要通过在人工智能无法完成的工作上进行独立实践来积累，从内部培养一名专家所需的时间从大约五年增加到九年。其成本由与决定采用技术的当事方不同的另一方承担：一位任期……
-
-    arXiv:2610.33102v1 Announce Type: new  Abstract: Most analyses of AI and employment ask which jobs are exposed. This paper asks what happens to the pipeline that produces experts. It extends the model of Caosun and Aral (2026) from a single worker to a firm with two cohorts, juniors and seniors, and studies how expertise formation changes when codified work is automated. Because junior work is the most codified, demand for juniors falls first; the stock of seniors falls later but further, as the pipeline stops replacing the experts who retire. In the baseline calibration, junior demand bottoms out about a fifth below its 2022 level before recovering most of that ground, while the senior stock falls by a quarter and later halves. Because expertise forms through unassisted practice on work that AI cannot do, the time needed to develop an expert from within rises from about five years to nine. The costs fall on a different party from the one that decides on adoption: a manager with a thre
-    
-[^25]: 在重复博弈中识别level-k推理：策略、信念与认知能力
-
-    Identifying level-$k$ reasoning in repeated games: Strategies, beliefs, and cognitive ability
-
-    [https://arxiv.org/abs/2610.33098](https://arxiv.org/abs/2610.33098)
-
-    本文在超级博弈策略层面识别level-k推理，开发了一个同时纳入策略选择与信念的模型，借助无限重复囚徒困境实验和新的平衡最优容错概念，将相当比例的受试者分类为level-1或level-2，并发现认知能力与经验能够预测更高层次的推理。
-
-    
-
-    本文在重复博弈中识别了在超级博弈策略层面运作的level-k推理。首先，我们开发了一个level-k推理模型，该模型同时纳入了对策略的选择以及对他人所选策略的信念。然后，通过联合使用从无限重复囚徒困境实验中引导出的策略及关于策略的信念，并应用一种新的“平衡最优容错”概念，我们将相当大比例的受试者分类为level-1或level-2。此外，我们表明，当level-k推理在重复博弈策略层面运作时，认知能力和经验可以预测更高层次的推理。
-
-    arXiv:2610.33098v1 Announce Type: new  Abstract: In this paper, we identify level-$k$ reasoning in repeated games that operates at the level of a supergame strategy. First, we develop a model of level-$k$ reasoning that incorporates choices over strategies as well as beliefs about the strategies chosen by others. Then, jointly using elicited strategies and beliefs about strategies from the indefinitely repeated Prisoner's Dilemma, and applying a new notion of balance-optimal error tolerance, we classify a substantial fraction of subjects as level-1 or level-2. Moreover, we show that when level-$k$ reasoning operates at the level of a repeated-game strategy, cognitive ability and experience predict higher level reasoning.
-    
-[^26]: 基于市场状态的多资产组合优化：利用嵌套聚类优化进行战术资产配置
+[^21]: 基于市场状态的多资产组合优化：利用嵌套聚类优化进行战术资产配置
 
     Market Regime-Based Multi-Asset Portfolio Optimization Using Nested Clustered Optimization for Tactical Asset Allocation
 
@@ -410,214 +324,60 @@
 
     arXiv:2610.27751v1 Announce Type: new  Abstract: We propose a regime-aware tactical asset allocation (TAA) framework integrating market regime detection with Nested Clustered Optimization (NCO) for multi-asset portfolio construction. The central hypothesis is that incorporating market regime information into the NCO pipeline, specifically at the stages of covariance estimation, hierarchical clustering, and weight optimization, yields portfolios with improved risk-adjusted performance and reduced downside risk relative to regime-agnostic baselines. Market regimes (Bullish, Sideways/Neutral, Bearish) are detected using a Gaussian Hidden Markov Model (HMM) fitted exclusively on information available up to each decision point, thereby preventing look-ahead bias. Regime-conditional covariance matrices and clustering structures parameterize NCO at each rebalancing event. An adaptive rebalancing rule, triggered by regime transitions or material changes in optimal weights, replaces fixed-calen
     
-[^27]: 深度灾难性风险感知强化学习
+[^22]: TRACE：以计算机科学原理治理AI辅助研究
 
-    Deep catastrophic-risk-aware reinforcement learning
+    TRACE: Governing AI-Assisted Research with Principles from Computer Science
 
-    [https://arxiv.org/abs/2610.27214](https://arxiv.org/abs/2610.27214)
+    [https://arxiv.org/abs/2610.24035](https://arxiv.org/abs/2610.24035)
 
-    本文将极值理论方法扩展至深度强化学习，提出了一种基于自动微分的可微尾部风险目标，使神经网络策略能够更准确地优化条件风险价值（CVaR），从而更好地应对罕见极端风险。
-
-    
-
-    在强化学习中，随着置信水平的升高，极端风险的估计变得越来越困难，因为只有少量观测值会对条件风险价值（CVaR）的经验估计有所贡献。在本文中，我们将一种用于CVaR优化的极值理论（EVT）方法扩展到高维神经网络策略。利用超阈值表示法和矩估计方法，我们得到了一个可微的尾部风险目标，并证明在选定阈值的条件下，其有限样本梯度可以通过自动微分直接计算。我们首先在一个具有已知最优解的受控实验中验证了该方法，随后在一个包含罕见极端市场波动的深度对冲问题中研究了其性能。我们的结果表明，在正常条件下，EVT训练的策略与经验CVaR训练的策略表现出相似的对冲行为，而EVT训练的策略在应对极端情况时……（原文在此处截断）
-
-    arXiv:2610.27214v1 Announce Type: new  Abstract: Estimating extreme risk in reinforcement learning becomes increasingly difficult as the confidence level increases, since only a small number of observations contribute to empirical estimates of Conditional Value-at-Risk (CVaR). In this paper, we extend an Extreme Value Theory (EVT) approach for CVaR optimization to high-dimensional neural-network policies. Using a peaks-over-threshold representation and method-of-moments estimation, we obtain a differentiable tail-risk objective and show that, conditional on the selected threshold, its finite-sample gradient can be computed directly through automatic differentiation. We first validate the approach in a controlled experiment with a known optimal solution and then investigate its performance in a deep-hedging problem with rare extreme market movements. Our results show similar hedging behavior for EVT- and empirical-CVaR-trained policies under normal conditions, while EVT-trained policies
-    
-[^28]: 预测市场中的组合套利
-
-    Combinatorial Arbitrage in Prediction Markets
-
-    [https://arxiv.org/abs/2610.23517](https://arxiv.org/abs/2610.23517)
-
-    该论文提出了一个结合凸包理论与整数规划的组合套利框架，通过挖掘预测市场合约间190万条逻辑关系（覆盖超过25.5万份合约）来识别最优套利组合，并在Polymarket真实订单簿回放中实现了2.2%至3.2%的利润，同时发现套利机会在发现与执行成本更高的地方持续更久。
+    该论文借鉴软件工程与安全研究的成熟实践，提出TRACE五项原则（追踪记录、对照来源审查、独立采纳、控制转变、评估修正），为研究团队在整合AI工具时保持对研究过程的掌控提供了治理框架。
 
     
 
-    我们开发了一个框架，用于识别和量化逻辑相关的预测市场合约之间的套利机会。我们证明，当价格落在可行收益向量的凸包之外时即存在套利，并通过整数规划识别最优套利组合。利用平台元数据和对结算标准的语义分析，我们挖掘出190万条逻辑关系，并将其编译为覆盖超过25.5万份合约的约束系统。我们回放Polymarket全深度订单簿，模拟套利者针对挂单执行这些组合。在已结算的组合中，扣除点差和费用后的保证利润为投入资金的2.2%，而结算时的利润达到3.2%。我们发现，在逻辑关系发现和执行成本较高的地方，套利机会持续更久且观察到的市场参与更少。
+    人工智能（AI）使产出研究成果变得前所未有地容易。将智能体工具加入研究团队的工作中，有望扩展团队的能力，但也要求采取积极主动的方式来组织研究过程。因此，紧迫的问题在于研究团队应如何围绕这项技术来组织工作。我们认为这个问题并不新鲜：软件工程与安全研究早已探索了人与机器协作的团队如何在众多贡献者参与的情况下保持对项目的掌控。我们从这些文献所报告的实践中提炼出原则，并将其迁移到AI辅助研究中。这些原则构成了TRACE：追踪记录、对照来源审查、独立采纳、控制转变、评估修正。这五项原则共同为研究人员在将AI整合进工作流程时保持掌控提供了共同基础。通过界定工作单元……（摘要在此处截断）
 
-    arXiv:2610.23517v1 Announce Type: new  Abstract: We develop a framework to identify and quantify arbitrage across logically related prediction-market contracts. We prove that prices outside the convex hull of admissible payoff vectors admit arbitrage and identify optimal arbitrage portfolios through integer programming. Using venue metadata and semantic analysis of resolution criteria, we recover 1.9 million logical relations and compile them into constraint systems covering more than 255,000 contracts. We replay full-depth Polymarket order books to simulate an arbitrageur executing these portfolios against resting orders. Among settled portfolios, guaranteed profit after spreads and fees equals 2.2% of committed capital, while profit at resolution reaches 3.2%. We find that arbitrage opportunities persist longer and attract less observed participation where relation discovery and execution are more costly.
+    arXiv:2610.24035v2 Announce Type: replace  Abstract: Artificial intelligence (AI) has made it easier than ever to produce research outputs. Adding an agentic tool to a research team's work potentially extends the team's capabilities but calls for an active approach to organizing the research process. The pressing question, therefore, is how research teams should organize their work with this technology. We contend that the question is not new: software engineering and security research have long studied how teams of people working with machines keep control of projects with many contributors. We distill principles from the practices these literatures report and transpose them to AI-assisted research. The principles form TRACE: Track records, Review against sources, Accept independently, Control transitions, and Evaluate corrections. Together, the five principles give researchers a common basis for remaining in control while integrating AI into their workflows. By bounding units of work
     
-[^29]: StochLOB：用于稳健限价订单簿趋势预测的重尾分数匹配
+[^23]: 异构金融网络中动态阈值困境传染的低秩与图极限
 
-    StochLOB: Heavy-Tailed Score Matching for Robust Limit Order Book Trend Prediction
+    Low-rank and graphon limits for dynamic threshold distress contagion in heterogeneous financial networks
 
-    [https://arxiv.org/abs/2610.21081](https://arxiv.org/abs/2610.21081)
+    [https://arxiv.org/abs/2608.04529](https://arxiv.org/abs/2608.04529)
 
-    该论文提出StochLOB训练框架，用跳跃Lévy噪声和截断α稳定噪声等重尾非高斯扩散过程替代传统的布朗高斯噪声来加噪训练数据，以更好地捕捉限价订单簿订单流的重尾与跳跃特性，从而提升LOB趋势预测的稳健性，同时推理阶段保持确定性预测器。
-
-    
-
-    基于分数的扩散方法通常使用布朗高斯噪声对数据进行扰动，这对应于轻尾的前向随机微分方程（SDE）。对于市场时间序列而言，这种SDE可能是一种糟糕的抽象：限价订单簿（LOB）的订单流具有重尾性、突发性，且偶尔呈现跳跃状。我们研究了STOCHLOB，这是一个仅用于训练阶段的分数匹配框架，它改变了前向扩散的损坏规律，同时保持部署的预测器为确定性模型。该加噪过程不再仅使用布朗高斯损坏，而是采用两种受非高斯SDE启发的替代方案：通过复合泊松方差混合实现的跳跃Lévy噪声，以及通过正稳定高斯尺度混合实现的截断α稳定噪声。这些损坏机制在训练中注入了有限跳跃和重尾残差，而无需在推理阶段进行反向时间扩散采样。所得的分数目标具有一个有用的解释：其径向因子h（摘要在此处截断）
-
-    arXiv:2610.21081v1 Announce Type: new  Abstract: Score-based diffusion methods usually perturb data with Brownian Gaussian noise, corresponding to a light-tailed forward stochastic differential equation (SDE). For market time series this SDE can be a poor abstraction: limit order book (LOB) order flow is heavy-tailed, bursty, and occasionally jump-like. We study STOCHLOB, a training-only score-matching framework that changes the forward diffusion corruption law while leaving the deployed predictor deterministic. Instead of Brownian-only Gaussian corruption, the noising process uses two non-Gaussian SDE-inspired alternatives: jump-L\'evy noise through a compound-Poisson variance mixture, and clipped $\alpha$-stable noise through a positive-stable Gaussian scale mixture. These corruptions inject finite jumps and heavy-tailed residuals into training without requiring reverse-time diffusion sampling at inference. The resulting score target has a useful interpretation: its radial factor $h_
-    
-[^30]: 基于动态产业图的抵押贷款信用风险离散时间生存模型
-
-    Discrete-Time Survival Modelling with Dynamic Industrial Graphs for Mortgage Credit Risk
-
-    [https://arxiv.org/abs/2610.18795](https://arxiv.org/abs/2610.18795)
-
-    本文提出以产业结构相似性度量经济接近度，构建每年重建的动态产业图并结合离散时间生存模型，从而捕捉抵押贷款违约风险中随时间演变的跨地区相依性。
+    本文通过低秩因子表示和硬阈值规则下的规范最大解，为异构金融网络中的动态困境传染提供了精确降维和稳定性保证。
 
     
 
-    抵押贷款信用风险可能在经济上相互关联的地区之间表现出相依性，即使这些地区在地理上相距遥远。然而，现有模型通常通过固定的地理邻接关系来表示跨地区相依性，可能忽略了超越物理邻近性并随时间演变的经济联系。这些模型可能无法捕捉地理上遥远但经济上相似的地区之间的共同风险，也无法描述风险相依性的动态变化；因此可能会保留经济上已经过时的联系，同时遗漏新出现的联系。本文将产业结构的相似性作为经济接近度的度量，开发了一种带有动态产业图的离散时间生存模型，以捕捉抵押贷款违约风险中不断演变的跨地区相依性。所得到的图每年重建一次，使其拓扑结构和边权重都能随区域经济结构的变化而调整……
+    我们研究了一个由加权有向暴露网络连接金融机构的可恢复动态困境模型。交易对手困境通过累积占用时间影响损失，因此机构随后可能恢复。暴露的\(K\)-因子表示，被解释为少量主导传输通道，将\(N\)-机构系统精确简化为\(K\)个宏观反馈坐标。对于有界Lipschitz损失，我们证明了简化动力学的Wasserstein稳定性以及相应有向核方程的\(L^1\)对齐稳定性，获得了分离有限总体和核近似效应的定量误差界。然后，我们处理了经济上自然的硬阈值规则，其不连续性造成了解选择和稳定性问题。对于每个有界非负有向核，我们构造了一个规范的最大累积困境解。
 
-    arXiv:2610.18795v2 Announce Type: replace-cross  Abstract: Mortgage credit risk may exhibit dependence across economically connected areas, even when they are geographically distant. However, current models typically represent cross-area dependence through fixed geographical neighbourhoods, potentially overlooking economic connections that extend beyond physical proximity and evolve over time. These models may fail to capture shared risks among geographically distant but economically similar areas, and cannot describe a changing dependence of risk; it therefore risks retaining economically obsolete connections while omitting newly emerging ones. This paper uses similarities of industrial composition as a measure of economic proximity and develops a discrete-time survival model with dynamic industrial graphs to capture evolving cross-area dependence in mortgage default risk. The resulting graphs are reconstructed annually, allowing both their topology and edge weights to change as regio
+    arXiv:2608.04529v2 Announce Type: replace  Abstract: We study a recoverable dynamic distress model for financial institutions connected by a weighted directed exposure network. Counterparty distress affects losses through cumulative occupation time, so institutions may subsequently recover. A \(K\)-factor representation of exposures, interpreted as a small number of dominant transmission channels, reduces the \(N\)-institution system exactly to \(K\) macroscopic feedback coordinates. For bounded Lipschitz losses, we prove Wasserstein stability of the reduced dynamics and aligned \(L^1\) stability of the corresponding directed-kernel equation, obtaining quantitative error bounds that separate finite-population and kernel-approximation effects. We then address the economically natural hard-threshold rule, whose discontinuity creates solution-selection and stability problems. For every bounded nonnegative directed kernel, we construct a canonical greatest cumulative-distress solution and 
     
-[^31]: FinAutoRubric：专家引导的自动评分准则生成方法，用于评估金融研究智能体
+[^24]: 从叙事到数字：大语言模型与经济政策不确定性
 
-    FinAutoRubric: Expert-Guided Automatic Rubric Generation for Evaluating Financial Research Agents
+    Narratives to Numbers: Large Language Models and Economic Policy Uncertainty
 
-    [https://arxiv.org/abs/2609.35744](https://arxiv.org/abs/2609.35744)
+    [https://arxiv.org/abs/2511.17866](https://arxiv.org/abs/2511.17866)
 
-    FinAutoRubric 提出一种专家引导的自动评分准则生成框架，专家只需提供可复用的评估指导原则，由撰写者与审查者智能体及代码在长周期循环中完成针对具体查询的准则生成、验证与人工升级，其生成的准则在三个专家级金融基准上的评分与专家评分高度一致，且能为更多准则给出预期取值。
-
-    
-
-    评估金融研究智能体需要既反映专家标准、又固定信息截止日期时点正确取值的评分准则（rubric）。经专家审校的金融基准依赖于固定的、逐条目的评分准则，这不仅扩展成本高昂，也无法编码各机构自身的标准。在 FinAutoRubric 中，专家制定可复用的评估指导原则，而智能体和代码则执行针对具体查询的评分准则生成、审查与验证。这些专家指导通过提示词以及代码强制执行的规则来约束每一个智能体，并通过一个承载可复用准则的任务库跨任务传递。在遵循专家指导的长周期循环中，一个“撰写者”智能体负责研究每个预期取值，一个“审查者”智能体验证该取值，失败情况会上报给人类专家。在三个由专家撰写的金融基准上，其评分准则与专家评分的贴合程度与最强的受评估生成器相当，同时能为更多准则给出专家评分准则所对应的预期取值。
-
-    arXiv:2609.35744v2 Announce Type: replace  Abstract: Evaluating finance research agents requires rubrics that reflect expert standards and fix the values correct as of an information cutoff. Expert-reviewed finance benchmarks rely on fixed, per-item rubrics, which are costly to extend and cannot encode each institution's own standard. In FinAutoRubric, experts specify reusable evaluation guidance, while agents and code carry out query-specific rubric generation, review, and validation. This expert guidance governs every agent, as prompts and as rules that code enforces, and a Task Bank of reusable criteria carries it across tasks. In long-horizon loops that follow the expert guidance, a writer agent researches every expected value and a reviewer agent verifies it, and failures escalate to a human. On three expert-authored finance benchmarks, its rubrics track expert scoring as closely as the strongest evaluated generator while stating the expert rubric's expected value for more criteri
-    
-[^32]: LiveOption：在具有非线性收益的结构化期权交易中评估大语言模型智能体
-
-    LiveOption: Evaluating LLM Agents in Structured Option Trading with Nonlinear Payoffs
-
-    [https://arxiv.org/abs/2609.33470](https://arxiv.org/abs/2609.33470)
-
-    提出了LiveOption评估框架，在真实执行与资本约束下，通过涵盖非线性收益与多腿策略构建的三类期权交易任务，弥补了现有评估仅关注股票方向性预测的不足。
+    基于人工审计标签微调的大语言模型在构建经济政策不确定性指数时，识别审计标记文章的数量几乎是关键词方法的两倍，且不同的建模选择会显著改变指数的内涵及其与市场收益的关系。
 
     
 
-    大语言模型和多智能体系统在金融决策方面已展现出潜力，然而现有的评估主要集中于股票交易，且主要考察方向性预测，忽视了衍生品市场的结构复杂性。期权交易带来了根本不同的挑战，包括非线性收益和多腿策略构建，这要求结构化决策而非简单的方向性押注。我们提出了LiveOption，一个用于期权交易中基于大语言模型智能体的评估框架。LiveOption将该问题形式化为现实执行与资本约束下的结构化序贯决策，并提供了一个具有标准化交互协议的可复现环境。该框架包含三个任务套件，涵盖投资组合叠加、事件驱动的财报交易以及0DTE日内交易。我们进一步提出了一个分层指标套件，用于评估智能体的实际……（原文摘要在此处截断）
+    我们研究了在经济分析中采用机器生成数据的影响。我们不是将数据生成过程视为既定并通过计量经济学方法纠正估计值，而是评估上游建模和研究者选择如何塑造下游估计结果。通过重新审视经济政策不确定性指数，我们发现基于人工审计标签微调的大语言模型识别出的审计人员标记文章数量几乎是基于关键词方法的近两倍，并且对噪声文本和语言漂移具有鲁棒性。改变分类器、阈值和聚合方式的选择不仅在性能上产生显著差异，还会改变指数所捕捉的内容，从而重塑政策不确定性与收益率之间的关系。
 
-    arXiv:2609.33470v2 Announce Type: replace  Abstract: Large language models (LLMs) and multi-agent systems (MAS) have shown promise in financial decision-making, yet existing evaluations focus on equity trading and primarily assess directional prediction, overlooking the structural complexity of derivative markets. Option trading introduces fundamentally different challenges, including nonlinear payoffs and multi-leg strategy construction, requiring structured decisions rather than simple directional bets. We introduce LiveOption, an evaluation framework for LLM-based agents in option trading. LiveOption formulates the problem as structured sequential decision-making under realistic execution and capital constraints, and provides a reproducible environment with standardized interaction protocols. The framework includes three task suites covering portfolio overlays, event-driven earnings trading, and 0DTE intraday trading. We further propose a hierarchical metric suite that evaluates act
+    arXiv:2511.17866v3 Announce Type: replace  Abstract: We study the implications of adopting machine-generated data in economic analysis. Rather than taking the data-generating process as given and correcting estimates econometrically, we evaluate how upstream modeling and researcher choices shape downstream estimates. Revisiting the Economic Policy Uncertainty index, we find that large language models fine-tuned on human audit labels identify nearly twice as many auditor-flagged articles as keyword-based alternatives and are robust to noisy text and linguistic drift. Varying classifier, threshold, and aggregation choices produces substantial differences not only in performance but in what the index captures, reshaping the relationship between policy uncertainty and returns.
     
-[^33]: 基于群量子化与和乐的仿射定价模型
+[^25]: Matching-LLM：基于历史锚定的公众舆论与选举合成预测
 
-    Affine Pricing Models from Group Quantization and Holonomy
+    Matching-LLM: Historically Anchored Synthetic Prediction of Public Opinion and Elections
 
-    [https://arxiv.org/abs/2609.28863](https://arxiv.org/abs/2609.28863)
+    [https://arxiv.org/abs/2411.01582](https://arxiv.org/abs/2411.01582)
 
-    该论文提出仿射和乐群量子化（AHGQ）几何框架，通过将仿射定价符号分解为齐次二次部分与仿射部分，将坐标空间定价算子和基于广义Riccati方程的指数仿射变换表示统一到同一底层几何结构之中。
-
-    
-
-    仿射定价模型的解析可处理性通常通过两种互补的表述来体现：坐标空间定价算子，以及由广义Riccati方程支配的指数仿射变换表示。我们发展了“仿射和乐群量子化”（AHGQ）这一几何框架，使这两种表述源自同一个底层结构。该构造将仿射定价符号分解为齐次二次部分和互补的仿射部分：前者生成有限维辛输运和一个中心扩张李群，后者则由薄路径群胚承载的乘性和乐来表示。两者的结合确定了一个仿射Poincaré–Cartan形式，其特征动力学在动量变量下可简化为广义Riccati系统及其标量幅值，而坐标表示则恢复了标准的定价算子结构。
-
-    arXiv:2609.28863v1 Announce Type: new  Abstract: The analytic tractability of affine pricing models is usually expressed through two complementary formulations: a coordinate-space pricing operator and an exponential-affine transform representation governed by generalized Riccati equations. We develop \emph{Affine Holonomy Group Quantization} (AHGQ) as a geometric framework in which these two formulations arise from the same underlying structure. The construction separates the affine pricing symbol into a homogeneous quadratic sector and a complementary affine sector. The first generates a finite-dimensional symplectic transport and a centrally extended Lie group, while the second is represented by a multiplicative holonomy carried by a thin-path groupoid. Their combination determines an affine Poincar\'e--Cartan form. Its characteristic dynamics reduce in momentum variables to the generalized Riccati system and its scalar amplitude, whereas the coordinate representation recovers the st
-    
-[^34]: 递归推理还是统计外推？多智能体相互依赖决策中的上下文学习
-
-    Recursive Reasoning or Statistical Extrapolation? In-Context Learning in Multi-Agent Interdependent Decision-Making
-
-    [https://arxiv.org/abs/2609.18591](https://arxiv.org/abs/2609.18591)
-
-    研究发现LLM智能体在多智能体相互依赖决策中的上下文学习主要依赖对历史统计模式的外推而非真正的递归推理，一旦统计模式被破坏，长上下文带来的决策优势便大幅消失。
+    Matching-LLM框架通过将大语言模型生成的响应与历史人类行为数据加权融合，在调查响应重构和2024年美国总统选举预测中表现出色，预测共和党获得310张选举人票（实际为312张），准确性优于仅依赖单一数据源的方法。
 
     
 
-    上下文学习使大型语言模型智能体能够利用交互历史来改进决策，但这种改进究竟反映了精细化的内部推理，还是仅仅是对统计模式的外推，目前仍不清楚。为了厘清这些机制，我们研究了多智能体不完全信息博弈中需要进行递归信念推理的LLM智能体。通过构建公共物品博弈并操纵历史反馈的统计结构，我们以独立于历史的理性预期均衡（REE）为基准来评估决策质量。我们的实验发现，当历史统计模式被打乱时，更长上下文带来的收益基本消失，决策质量退化到无上下文的基线水平，且这种退化在更强的策略相互依赖条件下被急剧放大。这些结果表明，在此类策略环境中，ICL行为更符合统计外推的特征。
+    大语言模型（LLM）为预测公众舆论和选举行为提供了新的机会，但其合成响应可能无法完全反映人类态度及其异质性。本研究提出了Matching-LLM，这是一个将LLM生成的响应与历史人类行为数据相结合的加权框架。利用世界价值观调查、美国全国选举研究以及德国选举调查数据，我们评估了该方法在重构调查响应和预测选举结果方面的表现。结果表明，相较于仅使用LLM的方法，Matching-LLM通常能提高准确性，包括在12项未纳入校准的调查问题比较中有11项表现更优，尽管它并不能持续超越仅使用历史数据的方法。在2024年美国总统选举中，Matching-LLM预测共和党获得310张选举人票，与实际的312张相比，在选举人票准确性上优于两个单源基准方法。
 
-    arXiv:2609.18591v1 Announce Type: new  Abstract: In-context learning (ICL) enables large language model (LLM) agents to improve decisions using interaction history, yet it remains unclear whether such improvement reflects refined internal reasoning or mere extrapolation of statistical patterns. To disentangle these mechanisms, we study LLM agents in multi-agent incomplete-information games that require recursive belief reasoning. By constructing a public goods game and manipulating the statistical structure of historical feedback, we evaluate decision quality against a history-independent rational expectations equilibrium (REE) benchmark. Our experiments reveal that when historical statistical patterns are disrupted, the benefits of longer context largely vanish, degrading decision quality to the no-context baseline in a way sharply amplified by stronger strategic interdependence. These results suggest that, in such strategic environments, ICL behavior is more consistent with statistic
-    
-[^35]: 城市重建与人口再分布：来自关东大地震后东京的证据
-
-    Urban Reconstruction and Population Redistribution: Evidence from Tokyo after the Great Kanto Earthquake
-
-    [https://arxiv.org/abs/2607.02978](https://arxiv.org/abs/2607.02978)
-
-    该研究利用1923年关东大地震火灾破坏程度的空间差异，发现重建中的土地整理减少了东京烧毁区的住宅用地并推高了租金，致使该区域的户数和人口长期未能恢复到震前水平，从而揭示了灾害后城市重建政策对城市人口再分布的持久性影响。
-
-    
-
-    本研究考察了1923年关东大地震对东京市内人口分布的影响。地震引发的大火摧毁了城市近一半的区域，其中包括大部分城市核心地带。为了研究其后果，作者将系统性的人口普查统计资料数字化，并利用各地区之间火灾破坏程度的差异进行回归分析。结果表明，作为重建项目一部分而实施的土地整理减少了烧毁区域的住宅用地面积，导致单位租金上涨。尽管住宅总建筑面积最终通过多层住宅的建设得以恢复，但在所考察的整个时期内，烧毁区域的家庭户数始终低于震前水平；人口虽然到1935年几乎恢复，但从未超过震前水平。此外，震前建立的分区制度所产生的影响……（原文摘要在此处被截断）
-
-    arXiv:2607.02978v4 Announce Type: replace  Abstract: This study examines the impact of the 1923 Great Kanto Earthquake on population distribution within Tokyo City. The earthquake triggered massive fires that devastated nearly half of the city, including much of its urban core. To investigate its consequences, I digitized systematic census statistics and conducted regression analyses using variation in fire damage across areas. The results show that land readjustment implemented as part of the reconstruction project reduced residential land area within the burned area, leading to higher unit rents. Although the total residential floor area eventually recovered through the construction of multi-story dwellings, the number of households in the burned area remained below its pre-earthquake level throughout the period examined, and the population, while almost recovering by 1935, never exceeded its pre-earthquake level. In addition, the zoning system established before the earthquake had l
-    
-[^36]: 贝叶斯参数化组合策略
-
-    Bayesian Parametric Portfolio Policies
-
-    [https://arxiv.org/abs/2602.21173](https://arxiv.org/abs/2602.21173)
-
-    本文提出贝叶斯参数化组合策略（BPPP），通过先验约束和后验权重平均解决预测变量多于观测值时组合策略无法确定的问题，在242个预测变量和五个因子下通过因子择时每年获得2.08个百分点的收益。
-
-    
-
-    参数化组合策略将预测变量直接映射为组合权重，而无需对收益率进行建模，这使其成为因子择时的天然工具。当预测变量较多时，如果策略的系数多于观测值，数据便无法唯一确定该策略。我们提出了贝叶斯参数化组合策略，通过先验分布对策略施加约束，利用已实现效用对其进行更新，并在后验分布上对权重进行平均。我们对因子择时文献的贡献在于，将择时估计为一种组合规则，而非基于收益率预测。在242个预测变量和五个因子的情况下，BPPP通过择时每年获得2.08个百分点的收益，主要来自总体异象收益。在杠杆限制下，后验平均可以按各头寸的不确定性来确定其规模，无需单独选择规模参数，即可接近事后最大化择时收益的规模。换手率惩罚在降低换手率的同时，仍保留了显著的毛择时收益。
-
-    arXiv:2602.21173v2 Announce Type: replace  Abstract: Parametric portfolio policies map predictors into portfolio weights without modelling returns, making them a natural tool for factor timing. With many predictors, if the policy has more coefficients than observations the data cannot pin it down. We develop Bayesian Parametric Portfolio Policies (BPPP), which discipline the policy with a prior, update it with realised utility, and average the weights over the posterior. We contribute to the factor-timing literature by estimating timing as a portfolio rule rather than from return forecasts. With 242 predictors and five factors, BPPP earns 2.08 percentage points a year from timing, mostly from aggregate anomaly returns. Under a leverage limit, averaging sizes each position by its uncertainty and comes close, without a separate scale choice, to the size that maximises timing with hindsight. A turnover penalty preserves significant gross timing at lower turnover.
-    
-[^37]: 粗糙Bergomi模型中的多标度性：尾部的故事
-
-    Multiscaling in the Rough Bergomi Model: A Tale of Tails
-
-    [https://arxiv.org/abs/2601.11305](https://arxiv.org/abs/2601.11305)
-
-    本文提出一种新颖的两阶段统计检验程序，研究粗糙Bergomi模型中多标度行为的真正来源，表明其主要由肥尾收益特性驱动而非波动率路径的粗糙性，这对极端风险估计、投资组合配置和期权定价具有重要意义。
-
-    
-
-    粗糙Bergomi（rBergomi）模型以其粗糙度参数 $H$ 为特征，已被证明在 $H$ 趋近于零时会表现出多标度行为。多标度对金融建模具有深远的影响：它会影响极端风险的估计，影响不同时间尺度上的最优投资组合配置，并挑战那些假设单一标度行为的传统期权定价方法。理解多标度究竟主要源于波动率路径的粗糙性，还是源于由此产生的肥尾收益，对金融建模、期权定价和风险管理具有重要意义。本文通过引入一种新颖的两阶段统计检验程序来研究这种多标度行为的真正来源。在第一阶段，我们针对单一标度的分数布朗运动过程，确立了rBergomi模型中多标度的存在性。我们通过使用量化多标度……
-
-    arXiv:2601.11305v2 Announce Type: replace  Abstract: The rough Bergomi (rBergomi) model, characterised by its roughness parameter $H$, has been shown to exhibit multiscaling behaviour as $H$ approaches zero. Multiscaling has profound implications for financial modelling: it affects extreme risk estimation, influences optimal portfolio allocation across different time horizons, and challenges traditional option pricing approaches that assume uniscaling behaviours. Understanding whether multiscaling arises primarily from the roughness of volatility paths or from the resulting fat-tailed returns has important implications for financial modelling, option pricing, and risk management. This paper investigates the real source of this multiscaling behaviour by introducing a novel two-stage statistical testing procedure. In the first stage, we establish the presence of multiscaling in the rBergomi model against an uniscaling fractional Brownian motion process. We quantify multiscaling by using 
-    
-[^38]: 基于混合提示-RAG流水线的LLM生成反事实压力情景用于投资组合风险模拟
-
-    LLM-Generated Counterfactual Stress Scenarios for Portfolio Risk Simulation via Hybrid Prompt-RAG Pipeline
-
-    [https://arxiv.org/abs/2512.07867](https://arxiv.org/abs/2512.07867)
-
-    该论文开发了一个透明、可审计的LLM混合提示-RAG流水线，用于生成反事实宏观金融压力测试情景并将其转化为投资组合损失，发现情景严重性主要继承自提示设计而非模型自发产生。
-
-    
-
-    我们开发了一个透明、可审计的大语言模型（LLM）流水线，用于宏观金融压力测试。结构化提示（结合可选的国家基本面与新闻检索）生成七国集团（G7）宏观经济情景（GDP增长、通胀、政策利率），这些情景被转换为相对于IMF《世界经济展望》基线的偏差，并通过三通道PCA因子模型转化为投资组合损失。宏观到因子的映射是规定性而非估计性的，因此每个尾部风险倍数都以明确陈述的假设为条件。在来自两个模型家族、三次运行的2,420个已接受情景中，加上一次无锚定严重性运行和八次风险层消融实验，我们发现了三点。第一，严重性继承自情景设计，而非由模型生成：提示变体在所有方差分解中占主导地位，移除提示的严重性区间会使GPT-5.6-luna的衰退情景减轻1.6个百分点……
-
-    arXiv:2512.07867v2 Announce Type: replace-cross  Abstract: We develop a transparent, auditable large language model (LLM) pipeline for macro-financial stress testing. Structured prompting, with optional retrieval of country fundamentals and news, emits G7 macroeconomic scenarios (GDP growth, inflation, policy rate), which are converted into deviations from an IMF World Economic Outlook baseline and translated into portfolio losses through a three-channel PCA factor model. The macro-to-factor mapping is stipulated rather than estimated, so every tail-risk multiple is conditional on stated assumptions. Across 2,420 accepted scenarios from two model families and three runs, plus an unanchored-severity run and eight risk-layer ablations, we find three things. First, severity is inherited from scenario design, not generated by the model: prompt variant dominates every variance decomposition, removing the prompted severity bands makes GPT-5.6-luna's recession 1.6 pp milder, apparent country 
-    
-[^39]: 欧洲防御战备能力
-
-    European Defence Readiness
-
-    [https://arxiv.org/abs/2501.00058](https://arxiv.org/abs/2501.00058)
-
-    本研究实证评估了欧洲的动员战备能力与全社会韧性，发现与1990年基准相比国防工业动员存在显著不足，而全社会韧性虽总体较强但各国差异明显，其中北欧国家的准备度最高。
-
-    
-
-    欧洲的防御战备能力正受到日益恶化的安全环境、欧洲大陆上旷日持久的战争以及未来安全环境不确定性不断增加的考验。在此背景下，欧盟《欧洲防御白皮书——2030战备》指出了关键能力缺口、欧洲防御市场的碎片化以及军事机动性受限等问题。本研究从实证角度评估了欧洲防御战备的两个维度：动员战备能力和全社会韧性。当前战备能力评估显示，与1990年的战备基准相比，欧洲国防工业动员存在重大弱点，尤其体现在生产能力、市场碎片化和供应安全方面。全社会韧性总体较强，但在欧洲各盟国之间高度不均衡，其中北欧国家表现出相对较高的准备度和韧性水平。
-
-    arXiv:2501.00058v4 Announce Type: replace  Abstract: Europe's defence readiness is being tested by a deteriorating security environment, prolonged war on the continent and growing uncertainty over the future security environment. Against this background, the EU's White Paper for European Defence - Readiness 2030 identifies critical capability gaps, fragmentation of the European defence market and constraints on military mobility. This study assesses two dimensions of European defence readiness empirically: mobilisation readiness and whole-of-society resilience. The current-readiness assessment reveals substantial weaknesses in defence-industrial mobilisation relative to a 1990 readiness benchmark, particularly in production capacity, market fragmentation and security of supply. Whole-of-society resilience is stronger overall but highly heterogeneous across European allies, with the Nordic countries displaying comparatively high levels of preparedness and resilience. To examine how thes
-    
-[^40]: 多项式Ornstein-Uhlenbeck波动率模型中的傅里叶-拉普拉斯变换
-
-    Fourier-Laplace transforms in polynomial Ornstein-Uhlenbeck volatility models
-
-    [https://arxiv.org/abs/2405.02170](https://arxiv.org/abs/2405.02170)
-
-    本文揭示了一类多项式Ornstein-Uhlenbeck波动率模型的傅里叶-拉普拉斯泛函与无穷维Riccati方程组解之间的联系，证明了该方程组的存在性结果，并开发了高效准确的数值求解方法用于SPX期权和波动率互换的定价。
-
-    
-
-    我们研究了一大类多项式Ornstein-Uhlenbeck (OU) 波动率模型的傅里叶-拉普拉斯变换，其中包括著名的Stein-Stein模型、Schöbel-Zhu模型、单因子Bergomi模型，以及受SPX-VIX联合校准问题启发而最近提出的五次OU模型。我们展示了其对数价格与积分方差的联合傅里叶-拉普拉斯泛函与无穷维Riccati方程组解之间的联系。其次，在傅里叶-拉普拉斯变换满足某些非消失性条件下，我们建立了此类Riccati方程组的存在性结果，并证明了傅里叶-拉普拉斯泛函可以看作一列整函数的极限。在实践方面，我们开发了一种数值格式来求解刚性无穷维Riccati方程组，并演示了该格式在利用傅里叶方法为SPX期权和波动率互换定价时的高效性与准确性。
-
-    arXiv:2405.02170v2 Announce Type: replace  Abstract: We consider the Fourier-Laplace transforms of a broad class of polynomial Ornstein-Uhlenbeck (OU) volatility models, including the well-known Stein-Stein, Sch\"obel-Zhu, one-factor Bergomi, and the recently introduced quintic OU models motivated by the SPX-VIX joint calibration problem. We show the connection between the joint Fourier-Laplace functional of the log-price and the integrated variance, and the solution of an infinite-dimensional system of Riccati equations. Next, under some non-vanishing conditions on the Fourier-Laplace transforms, we establish an existence result for such Riccati equations and show how the Fourier-Laplace functional can be seen as the limit of a sequence of entire functions. On the practical side, we develop a numerical scheme to solve the stiff infinite-dimensional system of Riccati equations and demonstrate the efficiency and accuracy of the scheme for pricing SPX options and volatility swaps using F
-    
-[^41]: 一种处理信息延迟的失能保险准备金多状态方法
-
-    A multistate approach to disability insurance reserving with information delays
-
-    [https://arxiv.org/abs/2312.14324](https://arxiv.org/abs/2312.14324)
-
-    提出了一种考虑信息延迟的失能保险实时个体准备金多状态模型，并证明在适当独立性假设下，新准备金可通过经典准备金的自然修正方式计算得到。
-
-    
-
-    失能保险理赔通常受到漫长的报告延迟和裁定过程的影响。经典的多状态人寿保险建模框架难以处理此类信息延迟，因为现金流和可用信息无法再基于决定合同支付的生物统计多状态过程。我们为失能保险计划提出了一种新的个体准备金模型，该模型能够实时描述理赔的演变过程。在可用信息与底层生物统计多状态过程之间的适当独立性假设下，我们证明这些新的准备金可以作为经典准备金的自然修正来计算。对于模型各组成部分的估计，我们采用了Buchardt、Furrer和Sandqvist（2025）在《The Annals of...》中提出的针对存在报告延迟和不完整事件裁定的多状态模型的估计方法。
-
-    arXiv:2312.14324v3 Announce Type: replace-cross  Abstract: Disability insurance claims are often affected by lengthy reporting delays and adjudication processes. The classic multistate life insurance modeling framework is ill-suited to handle such information delays since the cash flow and available information can no longer be based on the biometric multistate process determining the contractual payments. We propose a new individual reserving model for disability insurance schemes which describes the claim evolution in real-time. Under suitable independence assumptions between the available information and the underlying biometric multistate process, we show that these new reserves may be calculated as natural modifications of the classic reserves. For estimation of the model constituents, we employ the procedure proposed in [Buchardt, K., Furrer, C., & Sandqvist, O. L. (2025). Estimation for multistate models subject to reporting delays and incomplete event adjudication. The Annals o
+    arXiv:2411.01582v3 Announce Type: replace  Abstract: Large language models (LLMs) offer new opportunities for predicting public opinion and electoral behavior, but their synthetic responses may not fully reflect human attitudes and heterogeneity. This study introduces Matching-LLM, a weighted framework that combines LLM-generated responses with historical human behavioral data. Using the World Values Survey, American National Election Studies, and German election survey data, we evaluate its performance in reconstructing survey responses and predicting election outcomes. Results show that Matching-LLM generally improves accuracy relative to LLM-only, including 11 of 12 comparisons on survey questions excluded from calibration, although it does not consistently outperform History-only. In the 2024 U.S. presidential election, Matching-LLM predicts 310 Republican electoral votes, compared with the actual 312, outperforming both single-source benchmarks in electoral-vote accuracy. A supple
     
 

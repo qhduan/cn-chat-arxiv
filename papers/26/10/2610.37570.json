@@ -1,0 +1,12 @@
+{
+    "title": "LCM-Promo: An LLM-Based Uplift Model for Promotion Allocation",
+    "abstract": "arXiv:2610.37570v1 Announce Type: cross  Abstract: We present LCM-Promo, an LLM-based uplift model for promotion allocation. LCM-Promo is a task-specific Large Commerce Model (LCM): a finetuned LLM trained on transactional commerce data to predict user intent and promotion response. It learns monotonic promotion-response curves from production logs by interpreting single-token outputs as conversion-threshold probabilities, while conditioning on session context such as day and delivery shift. In a production A/B test on churn reactivation, LCM-Promo increased conversion by 1% and reduced promotion cost by 6% relative to the Segment-EMA production baseline.",
+    "link": "https://arxiv.org/abs/2610.37570",
+    "context": "Title: LCM-Promo: An LLM-Based Uplift Model for Promotion Allocation\nAbstract: arXiv:2610.37570v1 Announce Type: cross  Abstract: We present LCM-Promo, an LLM-based uplift model for promotion allocation. LCM-Promo is a task-specific Large Commerce Model (LCM): a finetuned LLM trained on transactional commerce data to predict user intent and promotion response. It learns monotonic promotion-response curves from production logs by interpreting single-token outputs as conversion-threshold probabilities, while conditioning on session context such as day and delivery shift. In a production A/B test on churn reactivation, LCM-Promo increased conversion by 1% and reduced promotion cost by 6% relative to the Segment-EMA production baseline.",
+    "path": "papers/26/10/2610.37570.json",
+    "total_tokens": 1113,
+    "translated_title": "LCM-Promo：一种基于大语言模型的促销分配增益模型",
+    "translated_abstract": "我们提出了LCM-Promo，一种基于大语言模型（LLM）的促销分配增益模型。LCM-Promo是一个面向特定任务的大型商务模型（Large Commerce Model, LCM）：一个在交易型商务数据上微调的大语言模型，用于预测用户意图和促销响应。它通过将单token输出解释为转化阈值概率，从生产日志中学习单调的促销-响应曲线，同时以会话上下文（如日期和配送班次）作为条件。在一项针对流失用户召回的生产环境A/B测试中，与Segment-EMA生产基线相比，LCM-Promo将转化率提升了1%，并将促销成本降低了6%。",
+    "tldr": "LCM-Promo是一种在交易商务数据上微调的大语言模型促销分配增益模型，通过将单token输出解释为转化阈值概率来学习单调的促销-响应曲线，在生产A/B测试中将转化率提升1%并降低促销成本6%。",
+    "en_tdlr": "LCM-Promo is a finetuned LLM-based uplift model for promotion allocation that learns monotonic promotion-response curves from production logs by interpreting single-token outputs as conversion-threshold probabilities, increasing conversion by 1% and reducing promotion cost by 6% in a production A/B test."
+}

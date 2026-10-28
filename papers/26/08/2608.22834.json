@@ -1,0 +1,12 @@
+{
+    "title": "Mirror descent algorithms with logarithmic barriers",
+    "abstract": "arXiv:2608.22834v2 Announce Type: replace-cross  Abstract: We derive convergence guarantees for mirror descent and proximal mirror descent with a logarithmic barrier as the distance-generating function. When the solution lies on the boundary, the Bregman divergence blows up and classical guarantees become vacuous. While existing remedies recover $O(\\log k/k)$ rates by adapting classical bounds, we propose a more direct route in which the Bregman distance to the solution never appears, and which achieves the same rate with constant stepsize. We also construct an example showing that this rate cannot be improved in general. Finally, we compare the proposed approach with interior-point methods.",
+    "link": "https://arxiv.org/abs/2608.22834",
+    "context": "Title: Mirror descent algorithms with logarithmic barriers\nAbstract: arXiv:2608.22834v2 Announce Type: replace-cross  Abstract: We derive convergence guarantees for mirror descent and proximal mirror descent with a logarithmic barrier as the distance-generating function. When the solution lies on the boundary, the Bregman divergence blows up and classical guarantees become vacuous. While existing remedies recover $O(\\log k/k)$ rates by adapting classical bounds, we propose a more direct route in which the Bregman distance to the solution never appears, and which achieves the same rate with constant stepsize. We also construct an example showing that this rate cannot be improved in general. Finally, we compare the proposed approach with interior-point methods.",
+    "path": "papers/26/08/2608.22834.json",
+    "total_tokens": 1002,
+    "translated_title": "基于对数障碍的镜像下降算法",
+    "translated_abstract": "我们为以对数障碍作为距离生成函数的镜像下降和近端镜像下降算法推导了收敛性保证。当解位于可行域边界上时，Bregman散度会发散，经典的收敛保证变得毫无意义。虽然现有的补救方法通过调整经典界恢复了 $O(\\log k/k)$ 的收敛速率，我们提出了一条更直接的分析路线，其中到解的Bregman距离从不出现，并且在恒定步长下即可达到相同的收敛速率。我们还构造了一个例子，表明该速率在一般情况下无法进一步改进。最后，我们将所提出的方法与内点法进行了比较。",
+    "tldr": "针对解位于边界上时Bregman散度发散导致经典收敛保证失效的问题，本文提出了以对数障碍为距离生成函数的镜像下降算法的直接分析路线，在恒定步长下实现 $O(\\log k/k)$ 的收敛速率，并证明该速率在一般情况下不可改进。",
+    "en_tdlr": "This paper develops a direct convergence analysis for mirror descent with logarithmic barriers that avoids the Bregman distance to the solution entirely, achieving the $O(\\log k/k)$ rate with constant stepsize even when the solution lies on the boundary, and shows this rate is generally unimprovable."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Directional Statistics on Circles and Spheres: A New Angle on Data",
+    "abstract": "arXiv:2610.36227v1 Announce Type: cross  Abstract: Two compass bearings near north can have an ordinary arithmetic mean pointing south: the difficulty is that angles live on a circle, not a straight line. Using real wind observations, diffusion-MRI orientations, and geometric examples from machine learning, this article introduces circular and axial averages, directional variability, and probability models on circles and spheres. The guiding principle is to identify the geometry and symmetries of the observations before choosing a statistical method.",
+    "link": "https://arxiv.org/abs/2610.36227",
+    "context": "Title: Directional Statistics on Circles and Spheres: A New Angle on Data\nAbstract: arXiv:2610.36227v1 Announce Type: cross  Abstract: Two compass bearings near north can have an ordinary arithmetic mean pointing south: the difficulty is that angles live on a circle, not a straight line. Using real wind observations, diffusion-MRI orientations, and geometric examples from machine learning, this article introduces circular and axial averages, directional variability, and probability models on circles and spheres. The guiding principle is to identify the geometry and symmetries of the observations before choosing a statistical method.",
+    "path": "papers/26/10/2610.36227.json",
+    "total_tokens": 1081,
+    "translated_title": "圆与球上的方向统计：看待数据的新“角度”",
+    "translated_abstract": "两个靠近北方的罗盘方位，其普通算术平均值却可能指向南方：问题在于角度存在于圆周上，而非直线上。本文利用真实的风向观测数据、扩散磁共振成像（diffusion-MRI）方向以及来自机器学习的几何实例，介绍了圆和球上的圆形与轴向平均、方向变异性以及概率模型。其核心指导原则是：在选择统计方法之前，应先识别观测数据所具有的几何结构与对称性。",
+    "tldr": "本文指出角度数据天然位于圆和球而非直线上，直接算术平均可能导致错误结论（如朝北方位平均后指向南方），并通过风向与扩散MRI等实例介绍圆形/轴向均值、方向变异性和概率模型等方向统计工具，主张在选择统计方法前应先识别数据的几何结构与对称性。",
+    "en_tdlr": "This article introduces directional statistics on circles and spheres—circular and axial averages, directional variability, and probability models—showing through real wind and diffusion-MRI examples that because angles live on circles rather than straight lines, one must identify the geometry and symmetries of the data before choosing a statistical method."
+}

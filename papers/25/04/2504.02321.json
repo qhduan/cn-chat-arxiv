@@ -1,0 +1,12 @@
+{
+    "title": "On shallow feedforward neural networks with inputs from a topological space",
+    "abstract": "arXiv:2504.02321v3 Announce Type: replace  Abstract: We study feedforward neural networks with inputs from a topological space (TFNNs). We prove a universal approximation theorem for shallow TFNNs, which demonstrates their capacity to approximate any continuous function defined on this topological space. As an application, we obtain an approximative version of Kolmogorov's superposition theorem for compact metric spaces.",
+    "link": "https://arxiv.org/abs/2504.02321",
+    "context": "Title: On shallow feedforward neural networks with inputs from a topological space\nAbstract: arXiv:2504.02321v3 Announce Type: replace  Abstract: We study feedforward neural networks with inputs from a topological space (TFNNs). We prove a universal approximation theorem for shallow TFNNs, which demonstrates their capacity to approximate any continuous function defined on this topological space. As an application, we obtain an approximative version of Kolmogorov's superposition theorem for compact metric spaces.",
+    "path": "papers/25/04/2504.02321.json",
+    "total_tokens": 720,
+    "translated_title": "关于以拓扑空间为输入的浅层前馈神经网络",
+    "translated_abstract": "我们研究了以拓扑空间中的元素为输入的前馈神经网络（TFNNs）。我们证明了浅层TFNNs的万能逼近定理，这表明它们有能力逼近定义在该拓扑空间上的任意连续函数。作为应用，我们得到了紧度量空间上Kolmogorov叠加定理的逼近版本。",
+    "tldr": "本文证明了以拓扑空间为输入的浅层前馈神经网络的万能逼近定理，并由此得到紧度量空间上Kolmogorov叠加定理的逼近版本。",
+    "en_tdlr": "This paper proves a universal approximation theorem for shallow feedforward neural networks with inputs from a topological space, yielding as an application an approximative version of Kolmogorov's superposition theorem for compact metric spaces."
+}

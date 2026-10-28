@@ -1,0 +1,12 @@
+{
+    "title": "Building Mathematical Software -- Lessons from the Development of GAP",
+    "abstract": "arXiv:2610.36300v1 Announce Type: cross  Abstract: Mathematical software has particular needs that are not all covered by the existing literature on software engineering or algorithm design. This paper looks at some of these aspects, in the concrete context of the computer algebra system GAP. It also studies the potential impact AI systems could have on the development process for mathematical software.",
+    "link": "https://arxiv.org/abs/2610.36300",
+    "context": "Title: Building Mathematical Software -- Lessons from the Development of GAP\nAbstract: arXiv:2610.36300v1 Announce Type: cross  Abstract: Mathematical software has particular needs that are not all covered by the existing literature on software engineering or algorithm design. This paper looks at some of these aspects, in the concrete context of the computer algebra system GAP. It also studies the potential impact AI systems could have on the development process for mathematical software.",
+    "path": "papers/26/10/2610.36300.json",
+    "total_tokens": 673,
+    "translated_title": "构建数学软件——来自GAP开发的经验教训",
+    "translated_abstract": "数学软件有着一些特殊的需求，而这些需求并未被现有的软件工程或算法设计文献完全涵盖。本文以计算机代数系统GAP为具体背景，探讨了其中的若干方面。本文还研究了人工智能系统可能对数学软件开发过程产生的潜在影响。",
+    "tldr": "本文以计算机代数系统GAP的开发为具体案例，总结了现有软件工程文献未充分覆盖的数学软件特殊需求与开发经验，并探讨了AI系统对数学软件开发过程的潜在影响。",
+    "en_tdlr": "Using the development of the computer algebra system GAP as a concrete case study, this paper highlights the special needs of mathematical software not fully covered by existing software engineering literature and examines the potential impact of AI systems on its development process."
+}
