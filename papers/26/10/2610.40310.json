@@ -1,0 +1,12 @@
+{
+    "title": "Hammering with Vampire in Lean",
+    "abstract": "arXiv:2610.40310v1 Announce Type: cross  Abstract: We present Vampire-Hammer, a hammer for the Lean interactive theorem prover that discharges goals using the Vampire automated theorem prover and reconstructs proofs checked by the Lean kernel. Vampire-Hammer uses the Lean-auto framework to process goals and premises before dispatching them to Vampire for proof search. Doing so, we rely on standard TPTP problem formats and annotated TSTP proofs that support proof reconstruction. With a 10-second budget on 196,083 eligible Mathlib theorems, Vampire-Hammer solves 21,158 problems not solved by other evaluated tools within the same budget.",
+    "link": "https://arxiv.org/abs/2610.40310",
+    "context": "Title: Hammering with Vampire in Lean\nAbstract: arXiv:2610.40310v1 Announce Type: cross  Abstract: We present Vampire-Hammer, a hammer for the Lean interactive theorem prover that discharges goals using the Vampire automated theorem prover and reconstructs proofs checked by the Lean kernel. Vampire-Hammer uses the Lean-auto framework to process goals and premises before dispatching them to Vampire for proof search. Doing so, we rely on standard TPTP problem formats and annotated TSTP proofs that support proof reconstruction. With a 10-second budget on 196,083 eligible Mathlib theorems, Vampire-Hammer solves 21,158 problems not solved by other evaluated tools within the same budget.",
+    "path": "papers/26/10/2610.40310.json",
+    "total_tokens": 1397,
+    "translated_title": "在 Lean 中使用 Vampire 打造锤子工具",
+    "translated_abstract": "我们提出了 Vampire-Hammer，这是一个面向 Lean 交互式定理证明器的锤子工具，它利用 Vampire 自动定理证明器来消解证明目标，并重构出可由 Lean 内核检查的证明。Vampire-Hammer 使用 Lean-auto 框架在将目标和前提发送给 Vampire 进行证明搜索之前对其进行处理。在此过程中，我们依赖于标准的 TPTP 问题格式以及支持证明重构的带注释 TSTP 证明。在 196,083 个符合条件的 Mathlib 定理上、以 10 秒的时间预算进行测试，Vampire-Hammer 解决了 21,158 个其他被评估工具在相同预算下无法解决的问题。",
+    "tldr": "Vampire-Hammer 将 Vampire 自动定理证明器与 Lean 交互式证明器相结合，能够自动消解证明目标并重构出经 Lean 内核验证的证明，在 10 秒预算内解决了其他工具无法解决的 21,158 个 Mathlib 定理问题。",
+    "en_tdlr": "Vampire-Hammer is a hammer for Lean that leverages the Vampire automated theorem prover to discharge goals and reconstruct kernel-checked proofs, solving 21,158 Mathlib problems within a 10-second budget that other evaluated tools could not solve."
+}

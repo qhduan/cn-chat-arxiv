@@ -1,0 +1,11 @@
+{
+    "title": "Long-Term Agent Memory through Complementary Curation and Consolidation",
+    "abstract": "arXiv:2610.39790v1 Announce Type: new  Abstract: Long-horizon dialogue agents require effective memory systems to recall facts, events, and relationships from interaction histories. In this work, we propose a hybrid-memory architecture comprising episodic memories and structured relational memories and a consolidation mechanism which preserves efficiency. We conduct an empirical study across two benchmarks: LoCoMo and LongMemEval-S. Our experiments demonstrate that the two memory types are consistently complementary, combining both outperform state-of-the-art memory frameworks and achieves 90.2% accuracy on LoCoMo and 85.5% on LongMemEval-S.",
+    "link": "https://arxiv.org/abs/2610.39790",
+    "context": "Title: Long-Term Agent Memory through Complementary Curation and Consolidation\nAbstract: arXiv:2610.39790v1 Announce Type: new  Abstract: Long-horizon dialogue agents require effective memory systems to recall facts, events, and relationships from interaction histories. In this work, we propose a hybrid-memory architecture comprising episodic memories and structured relational memories and a consolidation mechanism which preserves efficiency. We conduct an empirical study across two benchmarks: LoCoMo and LongMemEval-S. Our experiments demonstrate that the two memory types are consistently complementary, combining both outperform state-of-the-art memory frameworks and achieves 90.2% accuracy on LoCoMo and 85.5% on LongMemEval-S.",
+    "path": "papers/26/10/2610.39790.json",
+    "total_tokens": 840,
+    "translated_title": "通过互补性整理与巩固实现长期智能体记忆",
+    "translated_abstract": "长时程对话智能体需要有效的记忆系统来从交互历史中回忆事实、事件和关系。在这项工作中，我们提出了一种由情景记忆和结构化关系记忆组成的混合记忆架构，以及一种保持效率的巩固机制。我们在两个基准数据集 LoCoMo 和 LongMemEval-S 上进行了实证研究。实验表明，这两种记忆类型始终具有互补性，将二者结合的性能超越了最先进的记忆框架，在 LoCoMo 上达到 90.2% 的准确率，在 LongMemEval-S 上达到 85.5%。",
+    "tldr": "该论文提出一种融合情景记忆与结构化关系记忆的混合记忆架构及巩固机制，二者互补结合后在 LoCoMo 和 LongMemEval-S 基准上分别取得 90.2% 和 85.5% 的准确率，超越了现有最先进的记忆框架。"
+}
