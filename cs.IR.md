@@ -15,24 +15,27 @@
 | [^11] | [Hierarchical Dual-Graph Retrieval for Long-form Audio Reasoning](https://arxiv.org/abs/2610.41390) | AudioHelix 是一个为大型音频语言模型设计的层次化双图 RAG 框架，通过连接时间上相距较远片段中的文本与声学证据实现多跳推理，在长音频推理任务上持续超越全音频处理和现有 RAG 方法。 |
 | [^12] | [BrowseFlow: Sparse Event Flow Matching for Generative User Simulation](https://arxiv.org/abs/2610.41374) | 提出条件离散流匹配方法BrowseFlow，通过建模浏览响应的随机性和稀疏关键事件，实现更逼真的生成式用户模拟。 |
 | [^13] | [Defining Page-Centric Visual Document Retrieval and Evaluating Existing Benchmarks](https://arxiv.org/abs/2610.41360) | 本文提出了以页面为中心的视觉文档检索（VDR）的形式化框架，定义了页面与文档两种检索粒度以及独立条目、证据集和迭代三种检索范式，并基于八项标准系统评估了42个现有基准测试。 |
-| [^14] | [MILES-Rec: Uncovering Implicit Intents from Mobility Behaviors for Cross-Domain POI Recommendation](https://arxiv.org/abs/2610.41319) | 该论文提出MILES-Rec跨领域POI推荐框架，通过从异构地图行为中推断用户潜在服务意图并将其表达为按优先级排序的自然语言查询，并结合意图对齐的组相对策略优化，实现了对用户个性化服务需求的精准挖掘与推荐。 |
-| [^15] | [Context as Infrastructure: Knowledge Compilation for Retrieval in Agentic Systems with Harnesses](https://arxiv.org/abs/2610.41172) | 提出“知识编译”应作为智能体检索的上下文基础设施：在搜索执行框架已基本解决准确性问题的前提下，通过可配置的摄取流水线为文档注入导航树、实体图、时间线等结构化上下文，充当解决上下文浪费问题的“供给层”，而非充当更准确的检索器。 |
-| [^16] | [WebOverlay: High-Throughput Vision-Only Distillation for Extreme Aspect-Ratio Web Overlay Detection](https://arxiv.org/abs/2610.41037) | 该论文提出 WebOverlay，一种从前沿视觉-语言教师模型蒸馏而来的高吞吐量纯视觉检测器，通过动态保持长宽比的分块策略与长宽比感知的边界裁决机制，解决了极端长宽比网页截图中浮层检测的效率与准确性问题。 |
-| [^17] | [FieldGuideRAG: Image-Grounded GraphRAG for Fine-Grained Recognition with Vision-Language Models](https://arxiv.org/abs/2610.40971) | FieldGuideRAG通过在知识图谱的物种节点上存储真实照片、并利用冻结的视觉语言模型进行图像验证，实现了一种无需训练的GraphRAG方法，显著优于基于文本描述的细粒度物种识别。 |
-| [^18] | [ProdCrawl: A Replayable Test Collection for Focused Crawling](https://arxiv.org/abs/2610.40855) | ProdCrawl是一个可重放的聚焦爬虫测试集，包含621个网站约110万个页面的静态镜像，并由三个大语言模型投票标注每个页面，解决了传统评估方法中爬取结果不可重复、缺乏真实标注标准的问题。 |
-| [^19] | [Prevented is Not Protected: What Attack Success Rate Hides about RAG](https://arxiv.org/abs/2610.40742) | 该论文提出“对齐RAG评估”（ARE）框架，通过匹配查询协议揭示攻击成功率指标所掩盖的问题：现有RAG防御方法虽能阻止部分投毒攻击，却可能引入意外的目标正向回答。 |
-| [^20] | [Towards Reliable, Scalable, and Value-Aligned Generative Recommendation for Large-Scale Advertising](https://arxiv.org/abs/2610.38378) | 本文提出GR4AD-X框架，通过可靠的语义标识符构建、服务高效的容量扩展和统一的价值对齐，解决了工业生成式推荐框架GR4AD在SID分配对语义边界敏感、扩展收益递减以及价值信用分配不足导致高价值候选被过早剪枝这三大局限。 |
-| [^21] | [DeFT-RAG: Incrementally Decomposing Multi-Hop Questions into Self-Contained Sub-Questions with Reusable Answers](https://arxiv.org/abs/2610.37826) | DeFT-RAG通过增量式地将多跳问题分解为携带可复用答案的自包含子问题，逐步恢复完整的证据链，从而提升RAG在多跳问答任务上的准确性。 |
-| [^22] | [SpectRAG: Weighted Chunk Graphs for Token-Budgeted Context Selection in Multi-Hop Retrieval-Augmented Generation](https://arxiv.org/abs/2610.36991) | SpectRAG提出了一种谱图增强检索框架，通过构建编码多种语义与结构关系的加权分块图，结合谱相关性传播与Token预算约束下的上下文选择，解决传统独立检索在多跳推理中证据冗余和不完整的问题。 |
-| [^23] | [Self-improving data synthesis can scale embedding models across domains and tasks](https://arxiv.org/abs/2610.14730) | 提出了SYNTRA自改进检索数据合成方法，仅需无标注语料库和少量查询-文档对，通过自改进循环迭代优化合成指令，在多数任务上超越人工校准，并使嵌入模型随数据规模扩展在15个领域持续提升性能。 |
-| [^24] | [One-Step Retrieval Framework for Real-Time Sponsored Search Ads Using Hierarchical Text Representations](https://arxiv.org/abs/2609.18296) | 提出ANGLE框架，利用LLM生成的分层文本表示将生成、判别与排序统一为单步实时检索过程，克服了传统多阶段级联架构的模块目标不一致问题以及基于SID的生成方法泛化性差、解码低效的缺陷。 |
-| [^25] | [GPUSparse: GPU-Accelerated Learned Sparse Retrieval with Parallel Inverted Indices](https://arxiv.org/abs/2606.26441) | 本论文提出了GPUSparse，通过GPU并行倒排索引和批处理评分算法，首次实现了与CPU精度一致但速度更快的学习型稀疏检索加速，解决了实时服务中的性能瓶颈。 |
-| [^26] | [TileMaxSim: IO-Aware GPU MaxSim Scoring with Dimension Tiling and Fused Product Quantization](https://arxiv.org/abs/2606.26439) | TileMaxSim通过多查询SRAM分块、维度分块和融合乘积量化三种IO感知优化策略，解决了GPU上MaxSim评分的带宽瓶颈问题，使HBM带宽利用率从5-18%大幅提升。 |
-| [^27] | [Understanding the Performance Plateau in Text-to-Video Retrieval: A Comprehensive Empirical and Linguistic Analysis](https://arxiv.org/abs/2605.00826) | 该论文在统一的预处理与评估框架下对3个数据集上的14种最先进文本到视频检索方法进行了全面实证与语言学分析，发现简短清晰的字幕（如描述单一动作或颜色属性）能获得更高召回率，而复杂事件与多步骤活动是导致性能停滞的关键因素。 |
-| [^28] | [SoK: Agentic Retrieval-Augmented Generation (RAG): Taxonomy, Architectures, Evaluation, and Research Directions](https://arxiv.org/abs/2603.07379) | 该SoK论文首次将智能体化检索增强生成（Agentic RAG）统一形式化为部分可观测马尔可夫决策过程，并在此基础上提出了全面的分类体系、模块化架构分解与研究方向。 |
-| [^29] | [EMAR: Efficient Multi-domain Adaptive Retrieval](https://arxiv.org/abs/2602.14960) | EMAR提出了一种高效的多领域自适应检索系统，通过共享单一冻结骨干模型、轻量级领域特定适配器以及动态路由机制，在保持强领域内检索效果的同时显著降低了训练成本与存储需求。 |
-| [^30] | [Your Spending Needs Attention: Modeling Financial Habits with Transformers](https://arxiv.org/abs/2507.23267) | 该论文提出利用基于Transformer的自监督表示学习方法，直接从银行交易等原始用户数据中建模用户金融习惯，以替代金融行业传统的人工特征工程方法。 |
-| [^31] | [Time Will Tell: Harness Time to Denoise Collaborative Filtering](https://arxiv.org/abs/2411.09181) | 本文提出一种简单而有效的时间感知去噪机制，利用交互的时间信息来识别并纠正协同过滤中的噪声交互，从而提升推荐模型的鲁棒性。 |
+| [^14] | [Pix2Evidence: A Multimodal RAG System for Text and Visual Evidence](https://arxiv.org/abs/2610.41335) | Pix2Evidence是一个多模态RAG系统，通过将截图图块与文本转录融合为统一的图像-文本表示实现布局与文本的联合检索，并借助视觉-语言教师模型的描述来适配检索器，从而精准定位支持答案的视觉证据。 |
+| [^15] | [MILES-Rec: Uncovering Implicit Intents from Mobility Behaviors for Cross-Domain POI Recommendation](https://arxiv.org/abs/2610.41319) | 该论文提出MILES-Rec跨领域POI推荐框架，通过从异构地图行为中推断用户潜在服务意图并将其表达为按优先级排序的自然语言查询，并结合意图对齐的组相对策略优化，实现了对用户个性化服务需求的精准挖掘与推荐。 |
+| [^16] | [Context as Infrastructure: Knowledge Compilation for Retrieval in Agentic Systems with Harnesses](https://arxiv.org/abs/2610.41172) | 提出“知识编译”应作为智能体检索的上下文基础设施：在搜索执行框架已基本解决准确性问题的前提下，通过可配置的摄取流水线为文档注入导航树、实体图、时间线等结构化上下文，充当解决上下文浪费问题的“供给层”，而非充当更准确的检索器。 |
+| [^17] | [WebOverlay: High-Throughput Vision-Only Distillation for Extreme Aspect-Ratio Web Overlay Detection](https://arxiv.org/abs/2610.41037) | 该论文提出 WebOverlay，一种从前沿视觉-语言教师模型蒸馏而来的高吞吐量纯视觉检测器，通过动态保持长宽比的分块策略与长宽比感知的边界裁决机制，解决了极端长宽比网页截图中浮层检测的效率与准确性问题。 |
+| [^18] | [FieldGuideRAG: Image-Grounded GraphRAG for Fine-Grained Recognition with Vision-Language Models](https://arxiv.org/abs/2610.40971) | FieldGuideRAG通过在知识图谱的物种节点上存储真实照片、并利用冻结的视觉语言模型进行图像验证，实现了一种无需训练的GraphRAG方法，显著优于基于文本描述的细粒度物种识别。 |
+| [^19] | [ProdCrawl: A Replayable Test Collection for Focused Crawling](https://arxiv.org/abs/2610.40855) | ProdCrawl是一个可重放的聚焦爬虫测试集，包含621个网站约110万个页面的静态镜像，并由三个大语言模型投票标注每个页面，解决了传统评估方法中爬取结果不可重复、缺乏真实标注标准的问题。 |
+| [^20] | [Retrieve-then-Disambiguate: Scalable Reviewer Discovery](https://arxiv.org/abs/2610.40768) | 提出开源的“检索-消歧”算法，通过检索相似文献并将模糊作者姓名解析为唯一研究者身份，实现可扩展的潜在审稿人自动发现。 |
+| [^21] | [Prevented is Not Protected: What Attack Success Rate Hides about RAG](https://arxiv.org/abs/2610.40742) | 该论文提出“对齐RAG评估”（ARE）框架，通过匹配查询协议揭示攻击成功率指标所掩盖的问题：现有RAG防御方法虽能阻止部分投毒攻击，却可能引入意外的目标正向回答。 |
+| [^22] | [Explain, Then Forget: Recommendation Unlearning under Asymmetric Access Constraint](https://arxiv.org/abs/2610.40658) | 提出了CEU（基于因果解释的遗忘）框架，在不修改模型参数的情况下，通过因果解释机制实现了服务运营商仅能通过API访问模型的MLaaS环境下的推荐遗忘学习。 |
+| [^23] | [Towards Reliable, Scalable, and Value-Aligned Generative Recommendation for Large-Scale Advertising](https://arxiv.org/abs/2610.38378) | 本文提出GR4AD-X框架，通过可靠的语义标识符构建、服务高效的容量扩展和统一的价值对齐，解决了工业生成式推荐框架GR4AD在SID分配对语义边界敏感、扩展收益递减以及价值信用分配不足导致高价值候选被过早剪枝这三大局限。 |
+| [^24] | [DeFT-RAG: Incrementally Decomposing Multi-Hop Questions into Self-Contained Sub-Questions with Reusable Answers](https://arxiv.org/abs/2610.37826) | DeFT-RAG通过增量式地将多跳问题分解为携带可复用答案的自包含子问题，逐步恢复完整的证据链，从而提升RAG在多跳问答任务上的准确性。 |
+| [^25] | [SpectRAG: Weighted Chunk Graphs for Token-Budgeted Context Selection in Multi-Hop Retrieval-Augmented Generation](https://arxiv.org/abs/2610.36991) | SpectRAG提出了一种谱图增强检索框架，通过构建编码多种语义与结构关系的加权分块图，结合谱相关性传播与Token预算约束下的上下文选择，解决传统独立检索在多跳推理中证据冗余和不完整的问题。 |
+| [^26] | [Self-improving data synthesis can scale embedding models across domains and tasks](https://arxiv.org/abs/2610.14730) | 提出了SYNTRA自改进检索数据合成方法，仅需无标注语料库和少量查询-文档对，通过自改进循环迭代优化合成指令，在多数任务上超越人工校准，并使嵌入模型随数据规模扩展在15个领域持续提升性能。 |
+| [^27] | [One-Step Retrieval Framework for Real-Time Sponsored Search Ads Using Hierarchical Text Representations](https://arxiv.org/abs/2609.18296) | 提出ANGLE框架，利用LLM生成的分层文本表示将生成、判别与排序统一为单步实时检索过程，克服了传统多阶段级联架构的模块目标不一致问题以及基于SID的生成方法泛化性差、解码低效的缺陷。 |
+| [^28] | [GPUSparse: GPU-Accelerated Learned Sparse Retrieval with Parallel Inverted Indices](https://arxiv.org/abs/2606.26441) | 本论文提出了GPUSparse，通过GPU并行倒排索引和批处理评分算法，首次实现了与CPU精度一致但速度更快的学习型稀疏检索加速，解决了实时服务中的性能瓶颈。 |
+| [^29] | [TileMaxSim: IO-Aware GPU MaxSim Scoring with Dimension Tiling and Fused Product Quantization](https://arxiv.org/abs/2606.26439) | TileMaxSim通过多查询SRAM分块、维度分块和融合乘积量化三种IO感知优化策略，解决了GPU上MaxSim评分的带宽瓶颈问题，使HBM带宽利用率从5-18%大幅提升。 |
+| [^30] | [Understanding the Performance Plateau in Text-to-Video Retrieval: A Comprehensive Empirical and Linguistic Analysis](https://arxiv.org/abs/2605.00826) | 该论文在统一的预处理与评估框架下对3个数据集上的14种最先进文本到视频检索方法进行了全面实证与语言学分析，发现简短清晰的字幕（如描述单一动作或颜色属性）能获得更高召回率，而复杂事件与多步骤活动是导致性能停滞的关键因素。 |
+| [^31] | [SoK: Agentic Retrieval-Augmented Generation (RAG): Taxonomy, Architectures, Evaluation, and Research Directions](https://arxiv.org/abs/2603.07379) | 该SoK论文首次将智能体化检索增强生成（Agentic RAG）统一形式化为部分可观测马尔可夫决策过程，并在此基础上提出了全面的分类体系、模块化架构分解与研究方向。 |
+| [^32] | [EMAR: Efficient Multi-domain Adaptive Retrieval](https://arxiv.org/abs/2602.14960) | EMAR提出了一种高效的多领域自适应检索系统，通过共享单一冻结骨干模型、轻量级领域特定适配器以及动态路由机制，在保持强领域内检索效果的同时显著降低了训练成本与存储需求。 |
+| [^33] | [Your Spending Needs Attention: Modeling Financial Habits with Transformers](https://arxiv.org/abs/2507.23267) | 该论文提出利用基于Transformer的自监督表示学习方法，直接从银行交易等原始用户数据中建模用户金融习惯，以替代金融行业传统的人工特征工程方法。 |
+| [^34] | [Time Will Tell: Harness Time to Denoise Collaborative Filtering](https://arxiv.org/abs/2411.09181) | 本文提出一种简单而有效的时间感知去噪机制，利用交互的时间信息来识别并纠正协同过滤中的噪声交互，从而提升推荐模型的鲁棒性。 |
 
 # 详细
 
@@ -218,7 +221,21 @@
 
     arXiv:2610.41360v1 Announce Type: new  Abstract: In modern information retrieval (IR), documents are increasingly encountered as structured sequences of visually rich, paginated units, rather than as flat text. Example documents encountered in our daily life include Word files, PDFs, and slide decks. Free text-centric retrieval systems either ignore this structure entirely or destroy it through arbitrary passage chunking. In this paper, we formulate page-centric Visual Document Retrieval (VDR) with pages as the fundamental indexing units and document context available for assessing page relevance. The formulation distinguishes two retrieval granularities, page and document, and three retrieval paradigms: independent-item, evidence-set, and iterative retrieval. We then assess 42 benchmarks using eight criteria covering corpus characteristics, query construction, relevance annotation, and ranking support. Our analysis shows two main findings on current VDR research. First, evaluation rem
     
-[^14]: MILES-Rec：从出行行为中挖掘隐式意图以实现跨领域POI推荐
+[^14]: Pix2Evidence：一种用于文本与视觉证据的多模态RAG系统
+
+    Pix2Evidence: A Multimodal RAG System for Text and Visual Evidence
+
+    [https://arxiv.org/abs/2610.41335](https://arxiv.org/abs/2610.41335)
+
+    Pix2Evidence是一个多模态RAG系统，通过将截图图块与文本转录融合为统一的图像-文本表示实现布局与文本的联合检索，并借助视觉-语言教师模型的描述来适配检索器，从而精准定位支持答案的视觉证据。
+
+    
+
+    针对视觉丰富文档的检索增强生成（RAG）必须同时找到相关内容以及支持答案的证据。截图检索能够保留图像和页面结构，但截图中的文字事实也需要可被搜索。此外，仅凭主题相关性无法确定哪个检索到的图块包含支持答案的证据。我们提出了Pix2Evidence，这是一个多模态RAG系统，它将每个截图图块与其可用的文本转录一起编码为单一的融合图像-文本表示，从而在检索过程中联合考虑布局和可读文本。为了引导证据选择，一个视觉-语言教师模型会描述支持每个训练问题的可见内容。我们利用这些描述来适配检索器，然后在答案生成之前对检索到的候选进行重排序。大量实验表明，Pix2Evidence优于当前最先进的方法。
+
+    arXiv:2610.41335v1 Announce Type: new  Abstract: Retrieval-augmented generation (RAG) over visually rich documents must find both relevant content and the evidence that supports an answer. Screenshot retrieval preserves images and page structure, but written facts within screenshots also need to be searchable. Moreover, topical relevance alone does not identify which retrieved tile contains evidence for the answer. We introduce Pix2Evidence, a multimodal RAG system that encodes each screenshot tile together with its available transcription into a single fused image--text representation, so that layout and readable text are considered jointly during retrieval. To guide evidence selection, a vision-language teacher describes the visible content that supports each training question. We use these descriptions to adapt the retriever, then rerank the retrieved candidates before answer generation. Extensive experiments demonstrate that Pix2Evidence outperforms state-of-the-art methods. Across
+    
+[^15]: MILES-Rec：从出行行为中挖掘隐式意图以实现跨领域POI推荐
 
     MILES-Rec: Uncovering Implicit Intents from Mobility Behaviors for Cross-Domain POI Recommendation
 
@@ -232,7 +249,7 @@
 
     arXiv:2610.41319v1 Announce Type: new  Abstract: Map applications bridge everyday mobility with local services, creating opportunities to recommend places by uncovering users' implicit intents. However, utility-driven map interactions provide only indirect and incomplete evidence of consumption demands, making it challenging to infer personalized service needs from observed behaviors. We propose MILES-Rec, a cross-domain POI recommendation framework that infers latent service intents from heterogeneous map behaviors and expresses them as prioritized natural language queries. It first learns from progressive reasoning demonstrations that synthesize user profiles and map histories for situation understanding, intent expansion, and query prioritization. We then introduce intent-aligned group relative policy optimization, using subsequent user interactions to reward query relevance and ranked service coverage while penalizing redundancy and excessive response length. A two-level credit ass
     
-[^15]: 上下文即基础设施：带执行框架的智能体系统中用于检索的知识编译
+[^16]: 上下文即基础设施：带执行框架的智能体系统中用于检索的知识编译
 
     Context as Infrastructure: Knowledge Compilation for Retrieval in Agentic Systems with Harnesses
 
@@ -246,7 +263,7 @@
 
     arXiv:2610.41172v1 Announce Type: cross  Abstract: Retrieval-augmented generation is becoming agentic. A search harness writes queries, reads results, reformulates, and decides when to stop. This largely solves accuracy: a harness with only BM25/grep and MiniMax M3 answers 85% of BrowseComp-Plus and 91% on multi-hop FRAMES in our runs, without compiled or vector indexes. It exposes a context problem: an undisciplined loop repeats queries, rereads documents, and fills the window with unused passages. The missing layer is knowledge compilation: a configurable ingestion pipeline where LLMs enrich documents with context no chunk contains alone--navigation hierarchies with claim-evidence leaves, entity graphs, timelines, mind maps, ontologies, wikis, and memory. Compilation is not a better retriever: under a competent harness, structural artifacts gave no detectable accuracy gain on FRAMES, and a PageIndex-style outline degraded at scale. It is a supply layer. A navigation tree whose leaves
     
-[^16]: WebOverlay：面向极端长宽比网页浮层检测的高吞吐量纯视觉蒸馏方法
+[^17]: WebOverlay：面向极端长宽比网页浮层检测的高吞吐量纯视觉蒸馏方法
 
     WebOverlay: High-Throughput Vision-Only Distillation for Extreme Aspect-Ratio Web Overlay Detection
 
@@ -260,7 +277,7 @@
 
     arXiv:2610.41037v1 Announce Type: cross  Abstract: Web overlays, such as cookie consent banners, newsletter prompts, and age gates, obstruct automated web crawlers and degrade downstream document representations. While proprietary multimodal Large Language Models (MLLMs) can accurately identify overlays, their latency and inference cost preclude web-scale ingestion. Conversely, lightweight vision models struggle with full-page renderings characterized by extreme vertical aspect ratios, where standard isotropic resizing collapses critical text features and causes false positives. In this work, we present WebOverlay, a high-throughput vision-only detector trained via distillation from a frontier vision-language teacher. We establish a dynamic tiling strategy that partitions extreme aspect-ratio web renders into aspect-preserving patches with spatial overlap, coupled with an aspect-ratio-aware boundary adjudication mechanism to eliminate boundary artifacts. To eliminate cross-modal latenc
     
-[^17]: FieldGuideRAG：面向视觉语言模型细粒度识别的图像化GraphRAG方法
+[^18]: FieldGuideRAG：面向视觉语言模型细粒度识别的图像化GraphRAG方法
 
     FieldGuideRAG: Image-Grounded GraphRAG for Fine-Grained Recognition with Vision-Language Models
 
@@ -274,7 +291,7 @@
 
     arXiv:2610.40971v1 Announce Type: cross  Abstract: We present FieldGuideRAG, a training-free GraphRAG method in which a vision-language model, or VLM, recognizes fine-grained species by comparing the query with real photographs stored on the nodes of a knowledge graph. Multimodal GraphRAG systems describe each entity in text, and text conveys little of the visual detail that separates look-alike species. Our graph stores one photograph on every species node and links each species to its relatives, its geographic range and its ecological facts. A frozen VLM verifies the query against the photograph of each candidate node. FieldGuideRAG fuses the verification scores with the range edge and answers questions about the organism from the fact edges of the verified species. On CUB-200, a Wikidata graph and four iNaturalist domains, the node photograph improves verification over the species name on every graph, while text descriptions add little. Verification of the candidate pool exceeds a S
     
-[^18]: ProdCrawl：面向聚焦爬虫的可重放测试集
+[^19]: ProdCrawl：面向聚焦爬虫的可重放测试集
 
     ProdCrawl: A Replayable Test Collection for Focused Crawling
 
@@ -288,7 +305,21 @@
 
     arXiv:2610.40855v1 Announce Type: new  Abstract: A focused crawler searches for web pages on a specific topic under a constrained download budget. Since it can only fetch a limited number of pages, its success depends on choosing which links to follow. Focused crawlers are usually evaluated on live websites by harvest rate, the fraction of downloaded pages that are relevant. This has two problems: on the one hand, websites change over time, so a crawl cannot be repeated under the same conditions; on the other hand, there is no ground truth for which pages are relevant. As a result, comparisons between crawlers are unreliable. We present ProdCrawl, a replayable test collection for focused crawling. It comprises static mirrors of 621 company and organization websites, about 1.1 million pages, with each page labeled as a product page or non-product page based on a majority vote among three large language models. Any crawler can be run on exactly the same sites and scored against the same 
     
-[^19]: 阻止并非保护：攻击成功率掩盖了RAG的哪些问题
+[^20]: 检索-消歧：可扩展的审稿人发现
+
+    Retrieve-then-Disambiguate: Scalable Reviewer Discovery
+
+    [https://arxiv.org/abs/2610.40768](https://arxiv.org/abs/2610.40768)
+
+    提出开源的“检索-消歧”算法，通过检索相似文献并将模糊作者姓名解析为唯一研究者身份，实现可扩展的潜在审稿人自动发现。
+
+    
+
+    科学投稿数量的不断增长使同行评审流程承受巨大压力，而大量相关领域的研究人员仍未被识别，因此未被纳入潜在审稿人的考虑范围。我们将发现这些研究人员的问题形式化为一个检索问题：给定一篇投稿，基于领域相似度检索并排序研究人员。我们提出了“检索-消歧”，这是一种开源算法，通过从科学文献中检索相似论文，并将有歧义的作者姓名解析为唯一的研究人员身份，来为查询的投稿识别领域相关的研究人员。我们在500篇天文学和物理学论文上对该算法进行了评估，使用与ORCID关联的第一作者、合作者以及被引研究人员作为代理标签，来评估算法能否找回与每篇查询论文存在已知关联的研究人员。在检索相似度最高的前500篇论文时，该算法大约能找回68%……（原文摘要在此处截断）
+
+    arXiv:2610.40768v1 Announce Type: new  Abstract: The growing number of scientific submissions is straining the peer review process, while a large pool of relevant researchers remains unidentified and is therefore not considered as potential reviewers. We formulate the discovery of these researchers as a retrieval problem: given a submission, we retrieve and rank researchers based on domain similarity. We present retrieve-then-disambiguate, an open-source algorithm that identifies domain relevant researchers for a query submission by retrieving similar publications from the scientific literature and resolving ambiguous author names into unique researcher identities. We evaluate the algorithm on 500 astronomy and physics publications. We use ORCID-linked first authors, coauthors, and cited researchers as proxy labels to evaluate the recovery of researchers with known connections to each query publication. When retrieving the top 500 most similar papers, the algorithm recovers roughly 68\
+    
+[^21]: 阻止并非保护：攻击成功率掩盖了RAG的哪些问题
 
     Prevented is Not Protected: What Attack Success Rate Hides about RAG
 
@@ -302,7 +333,21 @@
 
     arXiv:2610.40742v1 Announce Type: cross  Abstract: Retrieval-Augmented Generation (RAG) is vulnerable to knowledge poisoning, where adversaries manipulate retrieved evidence to influence model outputs. Existing defenses are primarily evaluated using attack success rate (ASR), which obscures defense-induced failures and the mechanisms behind apparent attack prevention. To address this issue, this work introduces \textbf{Aligned RAG Evaluation}, a matched-query protocol that jointly examines clean and poisoned responses, with and without defense. By combining matched conditions analysis, LLM-judge endorsement, and retrieval dependence controls, the proposed framework distinguishes prevented from introduced failures, target mentions from LLM endorsement, and single-passage influence from evidence composition. Experiments on HotpotQA and Natural Questions reveal that existing defenses can introduce unexpected target-positive answers, although they can prevent some attacks, while evaluation
     
-[^20]: 面向大规模广告的可靠、可扩展且价值对齐的生成式推荐
+[^22]: 解释，然后遗忘：非对称访问约束下的推荐遗忘学习
+
+    Explain, Then Forget: Recommendation Unlearning under Asymmetric Access Constraint
+
+    [https://arxiv.org/abs/2610.40658](https://arxiv.org/abs/2610.40658)
+
+    提出了CEU（基于因果解释的遗忘）框架，在不修改模型参数的情况下，通过因果解释机制实现了服务运营商仅能通过API访问模型的MLaaS环境下的推荐遗忘学习。
+
+    
+
+    推荐遗忘学习旨在消除那些不应再影响未来推荐的特定历史交互（如噪声点击或过时的用户偏好）所带来的影响。然而，在现代机器学习即服务架构中，执行推荐遗忘变得困难得多，因为推荐模型由模型提供商远程托管，服务运营商只能通过API进行访问。在这种设置下，服务运营商为最终用户提供服务，但无法访问或修改内部模型参数。因此，现有的遗忘方法难以应用，因为它们需要访问模型内部才能进行重新训练、微调或其他参数更新。为了应对这些挑战，我们提出了基于因果解释的遗忘方法（CEU），这是一种专为MLaaS环境量身定制的新型遗忘框架。CEU不修改内部模型权重，而是通过两阶段（摘要原文在此处截断）
+
+    arXiv:2610.40658v1 Announce Type: new  Abstract: Recommendation unlearning aims to remove the influence of specific historical interactions that should no longer affect future recommendations, such as noisy clicks or outdated user preferences. However, performing recommendation unlearning becomes much harder in modern Machine-Learning-as-a-Service (MLaaS) architectures, where the recommendation model is remotely hosted by a model provider (MP) and accessed by service operators (SO) only through APIs. In this setting, a service operator serves end users but cannot access or modify internal model parameters. As a result, existing unlearning methods are difficult to apply because they require access to model internals for retraining, fine-tuning, or other parameter updates. To address these challenges, we propose Causal Explanation-based Unlearning (CEU), a novel unlearning framework tailored for MLaaS environments. Instead of modifying internal model weights, CEU operates through a two-s
+    
+[^23]: 面向大规模广告的可靠、可扩展且价值对齐的生成式推荐
 
     Towards Reliable, Scalable, and Value-Aligned Generative Recommendation for Large-Scale Advertising
 
@@ -316,7 +361,7 @@
 
     arXiv:2610.38378v2 Announce Type: replace-cross  Abstract: Generative recommendation (GR) reformulates item retrieval as autoregressive generation of discrete semantic identifiers (SIDs), offering a unified paradigm for personalized recommendation. GR4AD, as an industrial generative recommendation framework, has greatly improved advertising revenue while enabling efficient real-time serving in Kuaishou. However, continued deployment has exposed three limitations: deterministic SID assignment remains sensitive to semantic boundaries; conventional backbone scaling provides diminishing revenue gains under strict serving constraints; and sequence-level value optimization provides limited credit assignment to intermediate SID decisions, causing likelihood-based beam search to prematurely prune potentially high-value candidates. We present GR4AD-X, which addresses these limitations through reliable SID construction, serving-efficient capacity scaling, and unified value alignment. Specificall
     
-[^21]: DeFT-RAG：将多跳问题增量式分解为具有可复用答案的自包含子问题
+[^24]: DeFT-RAG：将多跳问题增量式分解为具有可复用答案的自包含子问题
 
     DeFT-RAG: Incrementally Decomposing Multi-Hop Questions into Self-Contained Sub-Questions with Reusable Answers
 
@@ -330,7 +375,7 @@
 
     arXiv:2610.37826v1 Announce Type: cross  Abstract: Retrieval-augmented generation (RAG) lets a large language model (LLM) answer questions by retrieving relevant passages from a large corpus. However, RAG struggles with multi-hop questions, which require chaining facts spread across several documents through intermediate entities that the question never mentions. Graph-based RAG methods retrieve once from the entities a question names and so rarely recover the full evidence chain. Iterative RAG methods recover it step by step, but their accuracy is limited by the many tasks they ask the LLM to perform, such as planning the sub-questions, deciding their dependencies, rewriting them as answers arrive, and keeping track of what is known. We propose DeFT-RAG, a RAG framework built on three components. First, DeFT-RAG generates one self-contained sub-question at a time from the original question and the sub-questions answered so far with their answers (QA pairs). Each sub-question names eve
     
-[^22]: SpectRAG：面向多跳检索增强生成中基于Token预算的上下文选择的加权分块图
+[^25]: SpectRAG：面向多跳检索增强生成中基于Token预算的上下文选择的加权分块图
 
     SpectRAG: Weighted Chunk Graphs for Token-Budgeted Context Selection in Multi-Hop Retrieval-Augmented Generation
 
@@ -344,7 +389,7 @@
 
     arXiv:2610.36991v1 Announce Type: new  Abstract: Retrieval-augmented generation (RAG) systems ground large language models (LLMs) by retrieving external evidence and conditioning generation on the retrieved context. Although dense retrieval is effective for local semantic matching, independently ranked retrieval can return redundant passages, miss cross-chunk dependencies, and provide incomplete evidence for multi-hop reasoning. We propose SpectRAG, a spectral graph-augmented retrieval framework that combines hybrid candidate seeding, weighted chunk graph construction, graph-based expansion, spectral relevance propagation, and token-budgeted context selection. Document chunks are represented by dense semantic embeddings and graph-spectral coordinates derived from a weighted chunk graph whose edges encode semantic similarity, document adjacency, section hierarchy, shared entities, citation links, and similarity between LLM-generated utility questions. At query time, SpectRAG builds a hi
     
-[^23]: 自改进的数据合成可跨领域、跨任务扩展嵌入模型
+[^26]: 自改进的数据合成可跨领域、跨任务扩展嵌入模型
 
     Self-improving data synthesis can scale embedding models across domains and tasks
 
@@ -358,7 +403,7 @@
 
     arXiv:2610.14730v1 Announce Type: cross  Abstract: Adapting embedding models to new tasks requires training data that reflect task-specific information needs and relevance criteria. However, manual data design is costly and difficult to scale. Here we introduce SYNTRA, a novel retrieval data synthesis method whose self-improvement loop iteratively refines reusable synthesis instructions using feedback on trial outputs. This process requires only an unlabelled corpus and a few relevant query-document pairs. Experiments across 24 retrieval datasets spanning 15 domains demonstrate the effectiveness of the synthesized data. These data also improve widely used, strong embedding models on tasks with and without existing labelled training sets. Self-improvement enhances retrieval on all six evaluated tasks, outperforming human calibration on four. Moreover, retrieval performance continues to improve on MS MARCO as we scale the training dataset to 32 times its initial size. Overall, with minim
     
-[^24]: 基于分层文本表示的实时赞助搜索广告单步检索框架
+[^27]: 基于分层文本表示的实时赞助搜索广告单步检索框架
 
     One-Step Retrieval Framework for Real-Time Sponsored Search Ads Using Hierarchical Text Representations
 
@@ -372,7 +417,7 @@
 
     arXiv:2609.18296v1 Announce Type: new  Abstract: Traditional retrieval systems typically use multi-stage cascading architectures (MCA), where each module is optimized independently, leading to inconsistent objectives and the premature elimination of high-potential candidates. Recent LLM-based generation methods offer end-to-end solutions but use discrete semantic identifiers (SIDs) to retrieve ads, which are not learned by the base LLM and require memorization of numerous SID-to-ad mappings during SFT, suffering from limited generalization to unseen ads, high maintenance and update costs. The one-to-one mapping between SIDs and advertisements leads to inefficient decoding. Moreover, these methods rely on a small reward model (e.g. pctr) for relevance and ranking, limiting the LLM's ability to fully assess ads' commercial value. To address these challenges, we propose A uNified Generation-discriminative-ranking reaL-time rEtrieval (ANGLE) framework. ANGLE uses LLM-generated hierarchical
     
-[^25]: GPUSparse：基于GPU加速的并行倒排索引学习型稀疏检索系统
+[^28]: GPUSparse：基于GPU加速的并行倒排索引学习型稀疏检索系统
 
     GPUSparse: GPU-Accelerated Learned Sparse Retrieval with Parallel Inverted Indices
 
@@ -386,7 +431,7 @@
 
     arXiv:2606.26441v1 Announce Type: new  Abstract: Learned sparse retrieval models such as SPLADE achieve retrieval quality competitive with dense models while preserving the interpretability and exact-match advantages of sparse representations. However, inference-time scoring still relies on CPU-bound inverted index traversal algorithms (WAND, Block-Max WAND), creating a fundamental bottleneck for real-time serving at scale. We present GPUSparse, a system for GPU-accelerated exact learned sparse retrieval that introduces: (1) a GPU-parallel inverted index with block-aligned, warp-coalesced posting lists; (2) a batched scatter-add scoring algorithm that processes hundreds of queries simultaneously; and (3) fused Triton kernels with an analysis of the tradeoff between work-efficiency and hardware utilization. On MS MARCO passage ranking (8.8M passages) with real SPLADE embeddings, GPUSparse matches CPU exact scoring to three decimals (MRR@10=0.383, equal to Pyserini SPLADE at this precisi
     
-[^26]: TileMaxSim：通过维度分块和融合乘积量化实现IO感知的GPU MaxSim评分
+[^29]: TileMaxSim：通过维度分块和融合乘积量化实现IO感知的GPU MaxSim评分
 
     TileMaxSim: IO-Aware GPU MaxSim Scoring with Dimension Tiling and Fused Product Quantization
 
@@ -400,7 +445,7 @@
 
     arXiv:2606.26439v1 Announce Type: new  Abstract: Multi-vector retrieval models such as ColBERT achieve state-of-the-art accuracy through fine-grained token-level MaxSim scoring, yet existing GPU implementations leave most hardware performance unused. We give a roofline analysis of MaxSim on modern GPUs and identify a severe bandwidth gap: naive implementations reach only 5-18% of peak HBM bandwidth because they materialize the Nq x Nd similarity matrix, wasting memory traffic on data that is consumed once and discarded. We present TileMaxSim, a family of IO-aware Triton kernels that close this gap via (1) multi-query SRAM tiling that streams document embeddings through shared memory while accumulating per-query-token maxima in registers, reading each embedding from HBM exactly once; (2) dimension tiling that partitions the embedding dimension into 128-wide chunks, enabling scoring for d > 128 embeddings that overflow shared memory; and (3) fused product-quantization scoring via shared-
     
-[^27]: 理解文本到视频检索中的性能瓶颈：一项全面的实证与语言学分析
+[^30]: 理解文本到视频检索中的性能瓶颈：一项全面的实证与语言学分析
 
     Understanding the Performance Plateau in Text-to-Video Retrieval: A Comprehensive Empirical and Linguistic Analysis
 
@@ -414,7 +459,7 @@
 
     arXiv:2605.00826v2 Announce Type: replace-cross  Abstract: Text-to-video retrieval enables users to find relevant video content using natural language queries, a task that has grown increasingly important with the rapid expansion of online video. Over the past six years, research has produced numerous methods, such as dual encoders, attention-driven models, and multimodal fusion approaches; however, fundamental questions remain about model behavior, dataset influence, and query difficulty. In this work, we evaluate 14 state-of-the-art retrieval methods across 3 widely used datasets under a unified preprocessing and evaluation framework. We analyze caption characteristics, including length, clarity, semantic category, and Action vs. Scene balance, and link these to model performance. Our results show that short, clear, and simple captions, such as those describing single actions or color attributes, achieve higher recall, while complex events, multi-step activities, or fine-grained scen
     
-[^28]: SoK：智能体化检索增强生成（Agentic RAG）：分类体系、架构、评估与研究方向
+[^31]: SoK：智能体化检索增强生成（Agentic RAG）：分类体系、架构、评估与研究方向
 
     SoK: Agentic Retrieval-Augmented Generation (RAG): Taxonomy, Architectures, Evaluation, and Research Directions
 
@@ -428,7 +473,7 @@
 
     arXiv:2603.07379v2 Announce Type: replace-cross  Abstract: Retrieval-Augmented Generation (RAG) systems are increasingly evolving into agentic architectures where large language models autonomously coordinate multi-step reasoning, dynamic memory management, and iterative retrieval strategies. Despite rapid industrial adoption, current research lacks a systematic understanding of Agentic RAG as a sequential decision-making system, leading to highly fragmented architectures, inconsistent evaluation methodologies, and unresolved reliability risks. This Systematization of Knowledge (SoK) paper provides the first unified framework for understanding these autonomous systems. We formalize agentic retrieval-generation loops as finite-horizon partially observable Markov decision processes, explicitly modeling their control policies and state transitions. Building upon this formalization, we develop a comprehensive taxonomy and modular architectural decomposition that categorizes systems by thei
     
-[^29]: EMAR：高效的多领域自适应检索
+[^32]: EMAR：高效的多领域自适应检索
 
     EMAR: Efficient Multi-domain Adaptive Retrieval
 
@@ -442,7 +487,7 @@
 
     arXiv:2602.14960v2 Announce Type: replace  Abstract: Neural retrieval systems are increasingly deployed in multi-domain settings, where each domain may have its own vocabulary and word distribution. A common approach is to fine-tune separate models for each domain, achieving strong in-domain performance while increasing training costs and storage requirements. In contrast, a single model trained jointly across domains avoids model duplication but weakens robustness under domain shift. This creates a trade-off between effectiveness and resource-efficiency. To address this issue, we propose EMAR, a retrieval system that employs a single frozen model shared across all domains and introduces lightweight domain-specific adapters. At inference time, a learned routing mechanism dynamically selects the most suitable adapter for each query. EMAR enables efficient domain-specific retrieval by sharing the computationally expensive backbone across multiple domains and without maintaining multiple 
     
-[^30]: 你的消费需要“注意力”：使用Transformer建模金融习惯
+[^33]: 你的消费需要“注意力”：使用Transformer建模金融习惯
 
     Your Spending Needs Attention: Modeling Financial Habits with Transformers
 
@@ -456,7 +501,7 @@
 
     arXiv:2507.23267v3 Announce Type: replace  Abstract: Predictive models play a crucial role in the financial industry, enabling risk prediction, fraud detection, and personalized recommendations, where slight changes in core model performance can result in billions of dollars in revenue or losses. While financial institutions have access to enormous amounts of user data (e.g., bank transactions, in-app events, and customer support logs), leveraging this data effectively remains challenging due to its complexity and scale. Thus, in many financial institutions, most production models follow traditional machine learning (ML) approaches by converting unstructured data into manually engineered tabular features. Conversely, other domains (e.g., natural language processing) have effectively utilized self-supervised learning (SSL) to learn rich representations from raw data, removing the need for manual feature extraction. In this paper, we investigate using transformer-based representation lea
     
-[^31]: 时间会证明：利用时间信息为协同过滤去噪
+[^34]: 时间会证明：利用时间信息为协同过滤去噪
 
     Time Will Tell: Harness Time to Denoise Collaborative Filtering
 

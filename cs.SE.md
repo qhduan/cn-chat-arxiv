@@ -13,23 +13,27 @@
 | [^9] | [Post-SQLFix: Property-Guided Repair of LLM-Generated SQL with Runtime Verification](https://arxiv.org/abs/2610.41472) | 该论文提出Post-SQLFix框架，将Text-to-SQL修复重新表述为属性引导的程序修复问题，通过方言感知的规范查询结构（CQS）和三层分层静态分析器对LLM生成的SQL进行验证，从而解决了现有执行反馈方法中“未经验证的模型既提出修复又做最终仲裁”的仲裁悖论。 |
 | [^10] | [What Does a Repair Agent Gain from Remembering Its Failure? An Exploratory Study on Real Python Bugs](https://arxiv.org/abs/2610.41433) | 在75个真实Python bug的修复实验中发现，为失败后重试的智能体提供失败记忆（对话记录、自写经验教训或测试信号）虽在点估计上有提升但均不显著，且模型自写的经验教训相比完整对话记录并无优势。 |
 | [^11] | [Architectural Debt Enforcement under Incomplete Observation: A Controlled Study of Ratchets and Evidence Qualification](https://arxiv.org/abs/2610.41276) | 该论文提出一种将观测资格认定、禁止关系标识、继承债务与授权基线更新相互分离的决策契约，用于在不完全观测条件下执行架构债务门控，并通过受控实验表明其候选棘轮机制在480个构造场景中匹配了全部预期结果，同时诚实保留了观测覆盖率限制与失败案例。 |
-| [^12] | [Cognitive Inclusivity in AI Coding Assistants: Evidence from GitHub Copilot](https://arxiv.org/abs/2610.41192) | 该研究通过让20名学生使用GitHub Copilot完成代码生成、调试和重构任务的受控实验室实验，揭示了具有不同认知风格的开发者在使用AI编程助手时可能面临的认知包容性挑战。 |
-| [^13] | [Lineage Is Memory: Parent Inheritance and Feedback Disclosure in Short-Budget LLM-Guided Optimization](https://arxiv.org/abs/2610.41157) | 该研究通过1,750次预注册实验首次将父代继承与反馈披露效应分离，发现贪婪的父代继承——即谱系本身充当记忆——才是短预算LLM引导优化中绝大部分进展的真正来源，而非每轮反馈所覆盖的失败模式广度。 |
-| [^14] | [One Verdict Is Not Enough: Regression Testing Learned World Models and Their Test Harnesses](https://arxiv.org/abs/2610.41130) | 该论文提出了TetraState，一种针对学习型世界模型的回归测试协议，通过在四种固定的模型原生配置下运行成对的可能/不可能视频测试、单独报告无结论测试与失败执行、并将测试框架作为被测系统的一部分进行版本管理，从而解决了单一配置下测试结论不可靠以及测试框架故障导致错误判定的问题。 |
-| [^15] | [RepGen: Reproducing Deep Learning Bugs through Context-Aware Code Generation and Verification](https://arxiv.org/abs/2610.41097) | RepGen 是一个开源工具，通过探索代码库构建上下文、生成候选复现脚本，并利用静态检查与大语言模型反馈进行迭代验证，从而在缺陷报告不完整的情况下自动复现深度学习缺陷。 |
-| [^16] | [AIFaultBench: A Reproducible Benchmark of Real-World Faults in AI Software Systems](https://arxiv.org/abs/2610.41094) | 该论文提出了AIFaultBench，一个涵盖六类AI系统、包含来自105个软件仓库的770个真实故障的可复现基准测试，在文档化执行条件下成功复现了84.7%的故障，为AI软件调试研究提供了真实且可验证的故障资源。 |
-| [^17] | [An Empirical Study of Gas Optimization Practices in Solidity Smart Contracts](https://arxiv.org/abs/2610.40885) | 该论文通过对2018至2025年间GitHub上开源Solidity仓库中400个与gas相关提交的多阶段实证分析，构建了智能合约gas优化实践的分类体系，并揭示了理论优化模式与开发者真实实践之间的显著差距。 |
-| [^18] | [RiskyPy: Toward Model-Calibrated Prompt Generation for Joint Security and Functionality Evaluation of LLM-Generated Code](https://arxiv.org/abs/2610.40735) | RiskyPy提出了一种自动化流水线，利用功能性与漏洞金丝雀生成与模型能力相校准的安全导向代码生成数据集，实现了对LLM生成代码安全性与功能性的联合评估。 |
-| [^19] | [MetaVul: Agentic Harness Discovery for Vulnerability Detection](https://arxiv.org/abs/2610.40721) | MetaVul提出了一个用于漏洞检测的自我改进框架发现机制，通过基于工作流的优化循环，利用成对的漏洞函数与修复函数的反馈迭代优化LLM智能体框架，克服了传统固定手工编写的框架难以自适应评估反馈、且改进难以跨数据集和模型迁移的局限。 |
-| [^20] | [A small HER2 reader for routine H&E slides: real-world deployment](https://arxiv.org/abs/2610.40662) | 研究者构建了一个仅2200万参数的小型HER2判读器，可直接从常规H&E染色切片预测HER2状态，在外部验证中位列7个方法之首（AUC 0.812），性能与体积大4倍和50倍的编码器持平，并已实现真实世界部署，可作为病理医生评估HER2状态的基线工具。 |
-| [^21] | [PR4Code: A Pull Requests Dataset for AI Code Generation](https://arxiv.org/abs/2610.39890) | 本文提出了PR4Code数据集，收录了从GitHub收集的4,508个Java和8,831个Python精选Pull Request（含元数据、提交历史和代码变更），用于在完整软件功能层面支持AI代码生成的研究与评估。 |
-| [^22] | [From GPU to TPU with Coding Agents: What Works, What Fails, and What It Costs?](https://arxiv.org/abs/2610.34422) | 该研究构建了148个PyTorch研究项目的数据集，并使用Claude Code将其中10个项目从NVIDIA GPU迁移到Google Cloud TPU，通过独立评估发现迁移平均需2.4次人工干预、76%的执行尝试失败且近半数失败不报错，首次系统量化了智能体驱动代码迁移的可信度与成本。 |
-| [^23] | [Can Agentic Code Review Catch Vulnerabilities Before They Are Merged?](https://arxiv.org/abs/2610.33509) | 提出了SecPRBench——首个基于经过验证的真实漏洞引入提交来评估智能体安全代码审查的综合性基准，涵盖Firefox、V8、OpenSSL等九个关键系统的265个任务，并发现八个前沿模型的召回率仅为32.5%至78.1%。 |
-| [^24] | [Superintelligent Software Engineering: Governance That Scales with Capability](https://arxiv.org/abs/2610.31306) | 本文提出“超智能软件工程”概念，主张当AI智能体能力超越人类工程师时，必须让治理机制（门禁、契约、决策与衰减控制）随能力同步扩展，才能应对知识衰减与人工审查失效，保障软件正确性。 |
-| [^25] | [CodeLift: Your Test Suite Is Secretly a Dense SWE Curriculum](https://arxiv.org/abs/2610.17224) | CodeLift通过在每次迭代中对测试与补丁进行分组、并给少数补丁能通过的测试组赋予更高权重，动态校准测试通过率奖励，把测试套件转化为自适应课程，为软件工程智能体的强化学习提供更可靠的密集奖励信号。 |
-| [^26] | [Measuring Delivery Consistency in Practice: A DORA Extension from a Multi-Platform Release Setting](https://arxiv.org/abs/2606.00364) | 该论文提出“交付一致性”（DC）这一有界二阶矩度量指标，弥补了DORA指标无法反映部署节奏规律性的不足，并将其整合进包含八种原型的“交付健康矩阵”诊断框架，在多平台软件交付环境中进行了实践评估。 |
-| [^27] | [Human-AI Synergy in Agentic Code Review](https://arxiv.org/abs/2603.15911) | 该论文通过对300个开源项目中278,790次代码审查对话的大规模实证分析，比较了人类审查者与AI智能体的反馈差异，揭示了人机协作模式及交互方式如何影响代码审查结果与建议采纳率。 |
-| [^28] | [Instruction-Tuning Open-Weight Language Models for BPMN Model Generation](https://arxiv.org/abs/2512.12063) | 该论文提出InstruBPM方法，通过成对的文本-图表数据对开源大语言模型进行指令微调，并结合参数高效微调与量化技术，使其能够以低成本、保护隐私的本地化部署方式从自然语言描述直接生成高质量的BPMN流程模型。 |
+| [^12] | [Yesterday's Code, Today's Dependencies: How Dependency Selection Shapes PHP Migration Benchmarks](https://arxiv.org/abs/2610.41263) | 该论文发现，在PHP迁移基准测试中，采用发布日期依赖选择策略相比现代选择策略可将PHP 7.4测试通过率提高7.1个百分点，表明依赖版本的选择方式会显著影响迁移基准测试的结果。 |
+| [^13] | [Cognitive Inclusivity in AI Coding Assistants: Evidence from GitHub Copilot](https://arxiv.org/abs/2610.41192) | 该研究通过让20名学生使用GitHub Copilot完成代码生成、调试和重构任务的受控实验室实验，揭示了具有不同认知风格的开发者在使用AI编程助手时可能面临的认知包容性挑战。 |
+| [^14] | [ROSTrans: Empirically Benchmarking LLMs for ROS1-to-ROS2 Migration](https://arxiv.org/abs/2610.41168) | 本文提出了ROSTrans基准，通过包含108个源自70多个开源ROS1代码库的脚手架式补全任务，并以接口级、行为级和系统级正确性的分层分类体系，实证评估大语言模型在ROS1到ROS2代码迁移上的能力。 |
+| [^15] | [Lineage Is Memory: Parent Inheritance and Feedback Disclosure in Short-Budget LLM-Guided Optimization](https://arxiv.org/abs/2610.41157) | 该研究通过1,750次预注册实验首次将父代继承与反馈披露效应分离，发现贪婪的父代继承——即谱系本身充当记忆——才是短预算LLM引导优化中绝大部分进展的真正来源，而非每轮反馈所覆盖的失败模式广度。 |
+| [^16] | [One Verdict Is Not Enough: Regression Testing Learned World Models and Their Test Harnesses](https://arxiv.org/abs/2610.41130) | 该论文提出了TetraState，一种针对学习型世界模型的回归测试协议，通过在四种固定的模型原生配置下运行成对的可能/不可能视频测试、单独报告无结论测试与失败执行、并将测试框架作为被测系统的一部分进行版本管理，从而解决了单一配置下测试结论不可靠以及测试框架故障导致错误判定的问题。 |
+| [^17] | [RepGen: Reproducing Deep Learning Bugs through Context-Aware Code Generation and Verification](https://arxiv.org/abs/2610.41097) | RepGen 是一个开源工具，通过探索代码库构建上下文、生成候选复现脚本，并利用静态检查与大语言模型反馈进行迭代验证，从而在缺陷报告不完整的情况下自动复现深度学习缺陷。 |
+| [^18] | [AIFaultBench: A Reproducible Benchmark of Real-World Faults in AI Software Systems](https://arxiv.org/abs/2610.41094) | 该论文提出了AIFaultBench，一个涵盖六类AI系统、包含来自105个软件仓库的770个真实故障的可复现基准测试，在文档化执行条件下成功复现了84.7%的故障，为AI软件调试研究提供了真实且可验证的故障资源。 |
+| [^19] | [An Empirical Study of Gas Optimization Practices in Solidity Smart Contracts](https://arxiv.org/abs/2610.40885) | 该论文通过对2018至2025年间GitHub上开源Solidity仓库中400个与gas相关提交的多阶段实证分析，构建了智能合约gas优化实践的分类体系，并揭示了理论优化模式与开发者真实实践之间的显著差距。 |
+| [^20] | [RiskyPy: Toward Model-Calibrated Prompt Generation for Joint Security and Functionality Evaluation of LLM-Generated Code](https://arxiv.org/abs/2610.40735) | RiskyPy提出了一种自动化流水线，利用功能性与漏洞金丝雀生成与模型能力相校准的安全导向代码生成数据集，实现了对LLM生成代码安全性与功能性的联合评估。 |
+| [^21] | [MetaVul: Agentic Harness Discovery for Vulnerability Detection](https://arxiv.org/abs/2610.40721) | MetaVul提出了一个用于漏洞检测的自我改进框架发现机制，通过基于工作流的优化循环，利用成对的漏洞函数与修复函数的反馈迭代优化LLM智能体框架，克服了传统固定手工编写的框架难以自适应评估反馈、且改进难以跨数据集和模型迁移的局限。 |
+| [^22] | [A small HER2 reader for routine H&E slides: real-world deployment](https://arxiv.org/abs/2610.40662) | 研究者构建了一个仅2200万参数的小型HER2判读器，可直接从常规H&E染色切片预测HER2状态，在外部验证中位列7个方法之首（AUC 0.812），性能与体积大4倍和50倍的编码器持平，并已实现真实世界部署，可作为病理医生评估HER2状态的基线工具。 |
+| [^23] | [PR4Code: A Pull Requests Dataset for AI Code Generation](https://arxiv.org/abs/2610.39890) | 本文提出了PR4Code数据集，收录了从GitHub收集的4,508个Java和8,831个Python精选Pull Request（含元数据、提交历史和代码变更），用于在完整软件功能层面支持AI代码生成的研究与评估。 |
+| [^24] | [STORY2DIFF: A Dataset Linking Real-World User Stories to Code Changes](https://arxiv.org/abs/2610.39872) | 提出了STORY2DIFF数据集，将7,785个真实用户故事与已合并的拉取请求及其代码变更相关联，为需求到代码研究提供了真实配对的数据资源。 |
+| [^25] | [From GPU to TPU with Coding Agents: What Works, What Fails, and What It Costs?](https://arxiv.org/abs/2610.34422) | 该研究构建了148个PyTorch研究项目的数据集，并使用Claude Code将其中10个项目从NVIDIA GPU迁移到Google Cloud TPU，通过独立评估发现迁移平均需2.4次人工干预、76%的执行尝试失败且近半数失败不报错，首次系统量化了智能体驱动代码迁移的可信度与成本。 |
+| [^26] | [Can Agentic Code Review Catch Vulnerabilities Before They Are Merged?](https://arxiv.org/abs/2610.33509) | 提出了SecPRBench——首个基于经过验证的真实漏洞引入提交来评估智能体安全代码审查的综合性基准，涵盖Firefox、V8、OpenSSL等九个关键系统的265个任务，并发现八个前沿模型的召回率仅为32.5%至78.1%。 |
+| [^27] | [Superintelligent Software Engineering: Governance That Scales with Capability](https://arxiv.org/abs/2610.31306) | 本文提出“超智能软件工程”概念，主张当AI智能体能力超越人类工程师时，必须让治理机制（门禁、契约、决策与衰减控制）随能力同步扩展，才能应对知识衰减与人工审查失效，保障软件正确性。 |
+| [^28] | [CodeLift: Your Test Suite Is Secretly a Dense SWE Curriculum](https://arxiv.org/abs/2610.17224) | CodeLift通过在每次迭代中对测试与补丁进行分组、并给少数补丁能通过的测试组赋予更高权重，动态校准测试通过率奖励，把测试套件转化为自适应课程，为软件工程智能体的强化学习提供更可靠的密集奖励信号。 |
+| [^29] | [Measuring Delivery Consistency in Practice: A DORA Extension from a Multi-Platform Release Setting](https://arxiv.org/abs/2606.00364) | 该论文提出“交付一致性”（DC）这一有界二阶矩度量指标，弥补了DORA指标无法反映部署节奏规律性的不足，并将其整合进包含八种原型的“交付健康矩阵”诊断框架，在多平台软件交付环境中进行了实践评估。 |
+| [^30] | [Human-AI Synergy in Agentic Code Review](https://arxiv.org/abs/2603.15911) | 该论文通过对300个开源项目中278,790次代码审查对话的大规模实证分析，比较了人类审查者与AI智能体的反馈差异，揭示了人机协作模式及交互方式如何影响代码审查结果与建议采纳率。 |
+| [^31] | [Instruction-Tuning Open-Weight Language Models for BPMN Model Generation](https://arxiv.org/abs/2512.12063) | 该论文提出InstruBPM方法，通过成对的文本-图表数据对开源大语言模型进行指令微调，并结合参数高效微调与量化技术，使其能够以低成本、保护隐私的本地化部署方式从自然语言描述直接生成高质量的BPMN流程模型。 |
+| [^32] | [Context-Specific Instruction: A Longitudinal Study on Debugging Skill Acquisition and Retention for Novice Programmers](https://arxiv.org/abs/2509.22420) | 一项为期八周的纵向研究表明，将具体缺陷定位步骤与问题特定细节相结合的情境特定教学，能让新手程序员仅经一次训练就达到80%的调试正确率并长期保持，显著优于无教学、抽象指南和一般性具体步骤。 |
 
 # 详细
 
@@ -187,7 +191,21 @@
 
     arXiv:2610.41276v1 Announce Type: new  Abstract: Architectural debt gates must distinguish an allowed change from an incompletely observed one. We study a decision contract separating observation qualification, prohibited relation identity, inherited debt and authorized baseline updates. Across 240 fixed files from four repositories, the current observer and programmatic reference jointly qualify 166 files (69.17%), all with exact reference-relative edge agreement; 74 remain reference-UNKNOWN. Coverage varies from 13/60 to 59/60 by repository. On 480 constructed state scenarios sharing 60 source anchors, both the candidate ratchet and mature dependency-cruiser baseline match every expected outcome, whereas static and count-only baselines match 420 and 360. These results do not establish candidate superiority. Preserved failures include nine additional false-PASS probes and 120 unqualified full-tree timing attempts. A subsequent generic binding layer rejects 54 specified mismatches, acc
     
-[^12]: AI编程助手中的认知包容性：来自GitHub Copilot的证据
+[^12]: 昨天的代码，今天的依赖：依赖选择如何塑造PHP迁移基准测试
+
+    Yesterday's Code, Today's Dependencies: How Dependency Selection Shapes PHP Migration Benchmarks
+
+    [https://arxiv.org/abs/2610.41263](https://arxiv.org/abs/2610.41263)
+
+    该论文发现，在PHP迁移基准测试中，采用发布日期依赖选择策略相比现代选择策略可将PHP 7.4测试通过率提高7.1个百分点，表明依赖版本的选择方式会显著影响迁移基准测试的结果。
+
+    
+
+    迁移基准测试需要那些在迁移开始之前测试就能通过的项目。然而，一个旧项目即使代码没有任何更改，其表现也可能不同。今天重新安装它可能会引入更新的库，从而改变其初始测试结果以及迁移过程中观察到的失败情况。我们在PHP 7.4到8.3的迁移中研究了这种影响。使用未更改的项目源代码和保存的包记录，我们比较了两种依赖策略：现代选择允许快照中的所有版本，而发布日期选择只允许项目发布日期之前发布的版本。在固定Composer 2的情况下，发布日期选择在3,660个发布版本中将PHP 7.4的通过率提高了7.1个百分点。与已提交的锁定文件进行的单独比较表明，它比现代选择更接近地恢复了所记录的依赖版本。这一选择在迁移之后同样重要。在两种策略下都能在PHP 7.4上通过的项目中，PHP 8.3的测试结果……（摘要截断）
+
+    arXiv:2610.41263v1 Announce Type: new  Abstract: Migration benchmarks need projects whose tests pass before migration begins. Yet an old project can behave differently without any change to its code. Reinstalling it today may introduce newer libraries, changing both its initial test results and the failures observed during migration.   We investigate this effect in PHP 7.4-to-8.3 migration. Using unchanged project source and saved package records, we compare two dependency policies. Modern selection allows all versions in the snapshot, while release-date selection allows only versions published by the project's release date. With Composer 2 fixed, release-date selection improves the PHP 7.4 pass rate by 7.1 pp across 3,660 releases. A separate comparison against committed locks shows that it also recovers recorded dependency versions more closely than modern selection.   The choice matters after migration as well. Among projects that pass on PHP 7.4 under both policies, PHP 8.3 test ou
+    
+[^13]: AI编程助手中的认知包容性：来自GitHub Copilot的证据
 
     Cognitive Inclusivity in AI Coding Assistants: Evidence from GitHub Copilot
 
@@ -201,7 +219,21 @@
 
     arXiv:2610.41192v1 Announce Type: new  Abstract: AI coding assistants are commonly used for daily software development tasks. While prior research has examined their impact on productivity and code quality, less is understood about how these tools support diverse ways of thinking. Evidence from non-AI software engineering tools suggests that mismatches between tool design and users' cognitive styles can introduce inclusivity barriers, but it remains unclear whether similar issues arise in AI coding assistants. We investigate how developers with different cognitive styles experience and interact with these tools and whether they exhibit cognitive inclusivity challenges. We conducted a controlled laboratory study with 20 student participants using GitHub Copilot to complete code generation, debugging, and refactoring tasks. Using think-aloud protocols, semi-structured interviews, and inductive thematic analysis, we identify patterns in user interaction. We then apply the GenderMag framew
     
-[^13]: 谱系即记忆：短预算LLM引导优化中的父代继承与反馈披露
+[^14]: ROSTrans：面向ROS1到ROS2迁移的大语言模型实证基准测试
+
+    ROSTrans: Empirically Benchmarking LLMs for ROS1-to-ROS2 Migration
+
+    [https://arxiv.org/abs/2610.41168](https://arxiv.org/abs/2610.41168)
+
+    本文提出了ROSTrans基准，通过包含108个源自70多个开源ROS1代码库的脚手架式补全任务，并以接口级、行为级和系统级正确性的分层分类体系，实证评估大语言模型在ROS1到ROS2代码迁移上的能力。
+
+    
+
+    尽管大语言模型在特定领域的代码生成中已展现出强大的能力，但其在机器人软件开发中的表现，尤其是在机器人操作系统（ROS）方面，仍在很大程度上未被探索。ROS代码生成带来了独特的挑战，包括复杂的节点间协调、中间件配置以及远超标准编程基准的生命周期语义，而且许多重要的正确性属性只有在迁移后的节点被启动并进行通信时才能被观察到。我们提出了ROSTrans，一个用于评估大语言模型在ROS1到ROS2代码迁移任务上表现的基准测试，这是ROS代码生成中一个具有代表性且具有重要实际意义的场景。ROSTrans包含108个脚手架式代码补全任务，这些任务源自70多个多样化的开源ROS1代码库，并被组织成一个分层分类体系，用于评估接口级、行为级和系统级的正确性。对于每个任务，我们建立了……（摘要原文在此处截断）
+
+    arXiv:2610.41168v1 Announce Type: new  Abstract: Although large language models have shown strong capabilities in domain-specific code generation, their performance in robotics software development, especially for the Robot Operating System (ROS), remains largely unexplored. ROS code generation presents distinctive challenges, including complex inter-node coordination, middleware configuration, and lifecycle semantics that go far beyond standard coding benchmarks, and many important correctness properties become observable only once migrated nodes are launched and communicate. We present ROSTrans, a benchmark for evaluating LLMs on ROS1-to-ROS2 code migration, a representative and practically important setting for ROS code generation. ROSTrans comprises 108 scaffolded completion tasks drawn from a diverse set of 70+ open-source ROS1 repositories and organized into a hierarchical taxonomy assessing interface-level, behavioral-level and system-level correctness. For every task we establi
+    
+[^15]: 谱系即记忆：短预算LLM引导优化中的父代继承与反馈披露
 
     Lineage Is Memory: Parent Inheritance and Feedback Disclosure in Short-Budget LLM-Guided Optimization
 
@@ -215,7 +247,7 @@
 
     arXiv:2610.41157v1 Announce Type: cross  Abstract: Iterative language-model optimizers refine prompts and programs by evaluating a candidate, showing a proposer model a sample of failing cases, and keeping revisions that improve performance. Recent work attributes the limits of this loop to narrow single-round reflection, introducing full-set error clustering, targeted minibatches, or larger proposer models so the optimizer sees more failure modes per step. Yet every existing evaluation tests these mechanisms exclusively inside lineage-preserving search, where each revision edits a surviving parent, leaving the contribution of parent inheritance confounded with the breadth of per-round feedback. Across 1,750 pre-registered runs spanning nine prompt and program synthesis benchmarks, we separate parent inheritance from feedback disclosure under matched evaluation budgets. We find that greedy parent inheritance drives the vast majority of optimization progress, outperforming seed-reset re
     
-[^14]: 一个判定结果是不够的：对学习型世界模型及其测试框架进行回归测试
+[^16]: 一个判定结果是不够的：对学习型世界模型及其测试框架进行回归测试
 
     One Verdict Is Not Enough: Regression Testing Learned World Models and Their Test Harnesses
 
@@ -229,7 +261,7 @@
 
     arXiv:2610.41130v1 Announce Type: new  Abstract: Learned world models ship as software components whose model versions, preprocessing, and test harnesses change between releases. Work on model updates already counts per-sample regressions, or negative flips, that an accuracy check hides. Two problems remain: a test can pass under one configuration and fail under another, and a harness fault can produce erroneous scores and wrong verdicts without a crash. We present TetraState, a regression-testing protocol for paired possible/impossible video tests. Each test runs under four fixed model-native configurations; its number of correct verdicts assigns one of four outcome classes. Inconclusive tests and failed executions are reported separately alongside the verdict rate. Revisions are compared by per-test outcome transitions, and the harness is versioned as part of the system under test. On all 506 IntPhys 2 Main tests and two heterogeneous systems, Cosmos 3 Nano and V-JEPA 2, two V-JEPA 2
     
-[^15]: RepGen：通过上下文感知的代码生成与验证复现深度学习缺陷
+[^17]: RepGen：通过上下文感知的代码生成与验证复现深度学习缺陷
 
     RepGen: Reproducing Deep Learning Bugs through Context-Aware Code Generation and Verification
 
@@ -243,7 +275,7 @@
 
     arXiv:2610.41097v1 Announce Type: new  Abstract: Reproducing deep learning (DL) bugs is challenging because failures can involve source code, models, data, dependencies, and execution environments. Incomplete bug reports further complicate reproduction by omitting essential details. We present RepGen, an open-source tool for reproducing DL bugs through context-aware code generation and iterative verification. Given a bug report and repository, RepGen explores the codebase to build a learning-enhanced context, develop a reproduction plan, and generate candidate scripts. It refines candidates using static checks and LLM feedback to improve their correctness and relevance. When enabled, the tool prepares the execution environment, runs the script, and assesses its output against the reported failure. RepGen provides an interactive command-line interface supporting local and hosted LLMs, configurable execution budgets, and inspectable artifacts, along with a GitHub Action for automated iss
     
-[^16]: AIFaultBench：AI软件系统中真实故障的可复现基准测试
+[^18]: AIFaultBench：AI软件系统中真实故障的可复现基准测试
 
     AIFaultBench: A Reproducible Benchmark of Real-World Faults in AI Software Systems
 
@@ -257,7 +289,7 @@
 
     arXiv:2610.41094v1 Announce Type: new  Abstract: AI-based software systems remain difficult to debug because their failures can involve interactions among code, models, data, dependencies, hardware, and execution environments. Existing benchmarks cover specific classes of AI systems, while concerns about fault realism and reproducibility highlight the need for documented execution conditions and evidence. We present AIFaultBench, a benchmark of 770 real-world bugs from 105 AI-based software repositories across 76 organizations. It covers six classes of AI systems: machine learning, deep learning, reinforcement learning, systems based on large language models, agentic AI, and AI tooling and infrastructure. Each bug record connects the original report and affected codebase to structured metadata, environment setup scripts, a reproduction trigger, and investigation evidence. We reproduced 652 bugs (84.7%) under the recorded execution conditions and documented the outcomes of the remaining
     
-[^17]: Solidity智能合约中Gas优化实践的实证研究
+[^19]: Solidity智能合约中Gas优化实践的实证研究
 
     An Empirical Study of Gas Optimization Practices in Solidity Smart Contracts
 
@@ -271,7 +303,7 @@
 
     arXiv:2610.40885v1 Announce Type: new  Abstract: In the Ethereum ecosystem, smart contract execution is governed by a gas model where every computational operation incurs a direct economic cost. Consequently, gas efficiency is a critical requirement for the economic sustainability and widespread adoption of decentralized applications. Despite the importance of cost-effective development, there remains a significant gap between theoretical optimization patterns and the actual practices applied by developers in real-world projects. This paper presents an empirical study investigating gas optimization practices in open-source Solidity repositories created on GitHub between 2018 and 2025. Adopting a Mining Software Repositories approach, we analyzed a dataset of gas-related commits identified through a multi-stage pipeline involving NLP-based filtering and manual qualitative inspection. Based on the analysis of 400 representative commits, we derive an empirical taxonomy of gas optimization
     
-[^18]: RiskyPy：面向模型校准的提示生成方法，用于LLM生成代码的安全性与功能性联合评估
+[^20]: RiskyPy：面向模型校准的提示生成方法，用于LLM生成代码的安全性与功能性联合评估
 
     RiskyPy: Toward Model-Calibrated Prompt Generation for Joint Security and Functionality Evaluation of LLM-Generated Code
 
@@ -285,7 +317,7 @@
 
     arXiv:2610.40735v1 Announce Type: cross  Abstract: Evaluating approaches that improve the security of LLM code generation requires datasets that jointly assess security and functionality and remain adapted to the capabilities of the models being studied. However, existing benchmarks are costly to produce and are generally not calibrated to a chosen range of model capabilities. We introduce RiskyPy, an automated pipeline that generates security-oriented code-generation datasets calibrated to model proficiency using functionality and vulnerability canaries. We instantiate RiskyPy for Python using domains covering 18 CWEs from the 2025 CWE Top 25, producing 101 prompts. Experiments on Qwen3-4B and Seed-Coder-8B show that the generated tasks remain functionally accessible, with 57-72% of prompts yielding functional code, while only 5-10% of generations are free of Bandit findings, leaving room for joint evaluation of security and functionality of security improvement approaches.
     
-[^19]: MetaVul：面向漏洞检测的智能体框架自动发现方法
+[^21]: MetaVul：面向漏洞检测的智能体框架自动发现方法
 
     MetaVul: Agentic Harness Discovery for Vulnerability Detection
 
@@ -299,7 +331,7 @@
 
     arXiv:2610.40721v1 Announce Type: cross  Abstract: LLM agents are increasingly used to automate vulnerability detection, but reliable detection is challenging because agents must distinguish subtle, security-relevant fixes from benign code variation. While underlying LLM capability has improved significantly, the accuracy of the agent still depends heavily on the harness: the code that defines the scaffolding around the LLM. Harnesses are typically fixed, and largely hand-written, limiting adaptation to evaluator feedback. Additionally, when harnesses are static, improvements on one dataset or model may not transfer to others. To address these challenges, we introduce MetaVul, a self-improving framework for harness discovery in vulnerability detection. Starting from a seed structured reasoning scaffold, MetaVul uses a workflow-based optimization loop to iteratively refine the harness using feedback from paired vulnerable and patched functions, while preserving the structured reasoning 
     
-[^20]: 面向常规H&E切片的小型HER2判读器：真实世界部署
+[^22]: 面向常规H&E切片的小型HER2判读器：真实世界部署
 
     A small HER2 reader for routine H&E slides: real-world deployment
 
@@ -313,7 +345,7 @@
 
     arXiv:2610.40662v1 Announce Type: cross  Abstract: HER2 status decides who receives HER2-targeted therapy. Pathologists score HER2 protein by immunohistochemistry (IHC); equivocal IHC 2+ tumours, their hardest calls, wait for in situ hybridisation (ISH). We built a HER2 reader for routine H&E slides, owned end to end, as a baseline for pathologists. A 22M-parameter ViT-S/16 tile encoder was trained on public TCGA slides by self-supervision, distillation from H-optimus-0 and two rounds of JEPA refinement; five cross-validated attention-based slide classifiers average their probabilities; and an operating point is fixed on training data. Compared under one paired ten-seed protocol, readers on our encoder rank first of 7 on external validation from TCGA-BRCA to Yale-HER2 (AUC 0.812), level with readers on encoders 4 and 50 times larger. We also rebuilt PathBench's encoder benchmark on public cohorts; our replica reproduces its published order of reference encoders, and under it our encode
     
-[^21]: PR4Code：一个面向AI代码生成的Pull Request数据集
+[^23]: PR4Code：一个面向AI代码生成的Pull Request数据集
 
     PR4Code: A Pull Requests Dataset for AI Code Generation
 
@@ -327,7 +359,21 @@
 
     arXiv:2610.39890v2 Announce Type: replace  Abstract: AI-driven code generation is evolving from handling small, localized code-completion tasks toward supporting the implementation of full software features. To support this transition, this paper introduces PR4Code, a dataset of 4,508 Java and 8,831 Python curated Pull Requests (PRs) collected from GitHub, each enriched with metadata, commit histories, and detailed code changes. Unlike resources focused on isolated code fragments, PR4Code captures the feature implementation process, delivering a large and diverse collection of real-world development tasks that can be used to assess AI-driven solutions. Our analysis reveals substantial variability in PR structure, commit granularity, and textual content. In addition, we release scripts to regenerate and update the dataset, ensuring reproducibility and maintainability.
     
-[^22]: 使用编程智能体从GPU迁移到TPU：什么有效、什么失败、代价几何？
+[^24]: STORY2DIFF：一个将真实世界用户故事与代码变更关联起来的数据集
+
+    STORY2DIFF: A Dataset Linking Real-World User Stories to Code Changes
+
+    [https://arxiv.org/abs/2610.39872](https://arxiv.org/abs/2610.39872)
+
+    提出了STORY2DIFF数据集，将7,785个真实用户故事与已合并的拉取请求及其代码变更相关联，为需求到代码研究提供了真实配对的数据资源。
+
+    
+
+    从需求到代码任务的研究需要真实需求与其实现代码变更相配对的示例。然而，现有的用户故事集合大多只包含孤立的或合成的文本。为了解决这一局限性，我们提出了STORY2DIFF，这是一个包含7,785个英文用户故事的数据集，这些用户故事与2017年1月至2026年7月期间已合并的拉取请求相关联。该数据集从982个公开的Java和Python仓库中挖掘而来。数据集中的每条记录结合了原始议题、提取的Connextra元素、相关的拉取请求和提交元数据、捕获相关拉取请求所引入代码变更的文件级差异，以及变更前后受影响的文件。我们为挖掘STORY2DIFF而构建的工具可以使用不同的参数（例如不同的时间范围）来重复自动提取记录。该数据集可以支持多种任务，包括需求
+
+    arXiv:2610.39872v2 Announce Type: replace  Abstract: Research on requirements-to-code tasks needs examples in which a genuine requirement is paired with the change that implemented it. Existing user-story collections, however, largely contain isolated or synthetic text. To address this limitation, we present STORY2DIFF, a dataset of 7,785 English user stories linked to merged pull requests from January 2017 to July 2026. The dataset is mined from a set of 982 public Java and Python repositories. Each record in the dataset combines the original issue, extracted Connextra elements, the associated pull request and commit metadata, a file-level diff capturing the code changes introduced by the associated pull request, and the affected files before and after the change. The tool we built to mine STORY2DIFF can be used to repeat the automatic extraction of the records, using different parameters (e.g., a different timeframe). The dataset can support a variety of tasks, including requirement 
+    
+[^25]: 使用编程智能体从GPU迁移到TPU：什么有效、什么失败、代价几何？
 
     From GPU to TPU with Coding Agents: What Works, What Fails, and What It Costs?
 
@@ -341,7 +387,7 @@
 
     arXiv:2610.34422v1 Announce Type: new  Abstract: A coding agent can migrate a machine learning workload, report success, and still change how the model trains. Rising compute costs, limited accelerator capacity, and vendor dependence are pushing organizations toward alternatives to graphics processing units (GPUs); a key question is whether agent-generated migrations to tensor processing units (TPUs) can be trusted and at what cost. We build a dataset of 148 PyTorch ML research projects and use Claude Code to migrate ten of them from NVIDIA GPUs to Google Cloud TPUs. We independently assess whether each migration runs, preserves numerical behavior, executes on the intended hardware, maintains the project's goal, and delivers acceptable performance. We also examine failures, human effort, and costs. Eight projects meet our project-goal criterion, and migrations require 2.4 human interventions on average. Of 70 execution attempts, 53 fail (76%), and 26 of these failures (49%) raise no er
     
-[^23]: 智能体代码审查能否在合并前捕获漏洞？
+[^26]: 智能体代码审查能否在合并前捕获漏洞？
 
     Can Agentic Code Review Catch Vulnerabilities Before They Are Merged?
 
@@ -355,7 +401,7 @@
 
     arXiv:2610.33509v1 Announce Type: cross  Abstract: LLM agents have been increasingly adopted for security-focused code review, but existing benchmarks mostly derive the reviewed changes from their later fixes instead of the real-world bug-introducing commits. In this paper, we present SecPRBench, the first comprehensive benchmark for evaluating agentic security review on validated real-world code changes. More specifically, we have built an automated agentic pipeline to autonomously harvest, build, and validate massive real-world bug-introducing commits for popular software systems. To ensure precise evaluation, we also adopt LLM-as-a-judge to credit the findings matching ground-truth vulnerabilities. To date, we have collected 265 tasks from nine critical systems, including Firefox, V8, and OpenSSL with millions of lines of code. Across eight frontier models, recall ranges from 32.5% to 78.1%, with Grok 4.6 and GPT-6 sol ranking at the top. Our study also shows that most misses are no
     
-[^24]: 超智能软件工程：随能力同步扩展的治理
+[^27]: 超智能软件工程：随能力同步扩展的治理
 
     Superintelligent Software Engineering: Governance That Scales with Capability
 
@@ -369,7 +415,7 @@
 
     arXiv:2610.31306v1 Announce Type: new  Abstract: Software agents are being trained to exceed human engineers; we argue that capability alone does not produce better software engineering. We define superintelligent software engineering as the discipline of building and evolving software with agents whose capability exceeds that of human engineers, in which governance (gates, contracts, decisions and decay control) scales with capability. The argument rests on three claims. First, correctness in a project rests on decisions and contracts that the code does not carry. Second, knowledge decays. Third, once an agent outpaces its reviewers, reading catches a shrinking share of the changes built on stale knowledge. A simple model shows that, past a fixed review capacity, escaping changes grow linearly with throughput while the share that reading catches falls toward zero; governance can lower the slope, capability alone cannot. An exploratory snapshot of 452 of the most-starred public GitHub 
     
-[^25]: CodeLift：你的测试套件其实是一套密集的软件工程训练课程
+[^28]: CodeLift：你的测试套件其实是一套密集的软件工程训练课程
 
     CodeLift: Your Test Suite Is Secretly a Dense SWE Curriculum
 
@@ -383,7 +429,7 @@
 
     arXiv:2610.17224v2 Announce Type: replace  Abstract: The pass-all-test binary reward has become a standard recipe for training software engineering agents, but its sparsity eliminates difference of partially correct patches. The test pass-rate is a natural alternative. However, we find that it is not a reliable indicator of patch quality. A functionality being tested can be covered by either one challenging test or one hundred trivial tests, where the majority might be already satisfied pass-to-pass tests. We introduce CodeLift, a reinforcement learning method that dynamically calibrates pass-rate rewards, turning the test suite into an adaptive curriculum. At each iteration, CodeLift groups tests that kill the same patches and patches that pass the same tests, then gives more weight to test groups that fewer patch groups pass. This reduces the impact of majority simple tests and focuses more on what is still challenging. Within each rollout, CodeLift applies the same scoring rule to r
     
-[^26]: 实践中的交付一致性度量：来自多平台发布场景的DORA框架扩展
+[^29]: 实践中的交付一致性度量：来自多平台发布场景的DORA框架扩展
 
     Measuring Delivery Consistency in Practice: A DORA Extension from a Multi-Platform Release Setting
 
@@ -397,7 +443,7 @@
 
     arXiv:2606.00364v2 Announce Type: replace  Abstract: The DevOps Research and Assessment (DORA) framework is the most widely adopted measurement system for performance measurement across engineering teams. However, every DORA metric is a first-moment statistic or a simple ratio, which limits the potential insights into engineering process. For example, metrics like Deployment Frequency do not capture the distributional shape of deployment timing, so teams with identical measures can deploy on a metronomic cadence or in undesirably erratic bursts. We have been developing and piloting Delivery Consistency (DC), a bounded second-moment measure of cadence regularity derived from the coefficient of variation of inter-release intervals. In conjunction with other DORA concepts, we integrated DC into the Delivery Health Matrix, an eight-archetype diagnostic that maps joint readings to differentiated interventions. We report an experience evaluation on a four-platform software delivery group usi
     
-[^27]: 智能体化代码审查中的人机协同
+[^30]: 智能体化代码审查中的人机协同
 
     Human-AI Synergy in Agentic Code Review
 
@@ -411,7 +457,7 @@
 
     arXiv:2603.15911v2 Announce Type: replace  Abstract: Code review is a critical software engineering practice where developers review code changes before integration to ensure code quality, detect defects, and improve maintainability. In recent years, AI agents that can understand code context, plan review actions, and interact with development environments have been increasingly integrated into the code review process. However, there is limited empirical evidence to compare the effectiveness of AI agents and human reviewers in collaborative workflows. To address this gap, we conduct a large-scale empirical analysis of 278,790 code review conversations across 300 open-source GitHub projects. In our study, we aim to compare the feedback differences provided by human reviewers and AI agents. We investigate human-AI collaboration patterns in review conversations to understand how interaction shapes review outcomes. Moreover, we analyze the adoption of code suggestions provided by human rev
     
-[^28]: 面向BPMN模型生成的开源权重语言模型指令微调
+[^31]: 面向BPMN模型生成的开源权重语言模型指令微调
 
     Instruction-Tuning Open-Weight Language Models for BPMN Model Generation
 
@@ -424,5 +470,19 @@
     领域模型是软件工程的核心，它们能够促进共享理解、指导实现，并支持自动化分析和模型驱动开发。然而，尽管有这些好处，从业者往往因为建模耗时且需要稀缺的专业知识而跳过建模。为解决这一障碍，我们研究了经过指令微调适配的开源权重大语言模型，能否以经济高效且保护隐私的方式直接从自然语言描述生成高质量的BPMN流程模型。我们提出了InstruBPM，这是一种可复现的方法，它准备成对的文本-图表数据，并通过参数高效微调和量化技术对开源大语言模型进行指令微调，以实现本地化部署。我们从互补的角度评估微调后的模型：（i）使用BLEU、ROUGE-L和METEOR衡量文本/代码相似度，（ii）使用相对图编辑距离衡量结构保真度。
 
     arXiv:2512.12063v2 Announce Type: replace  Abstract: Domain models are central to software engineering, as they enable a shared understanding, guide implementation, and support automated analyses and model-driven development. Yet, despite these benefits, practitioners often skip modeling because it is time-consuming and demands scarce expertise. We address this barrier by investigating whether open-weight large language models, adapted via instruction tuning, can generate high-quality BPMN process models directly from natural language descriptions in a cost-effective and privacy-preserving way. We introduce InstruBPM, a reproducible approach that prepares paired text-diagram data and instruction tunes an open source large language model with parameter-efficient fine-tuning and quantization for on-prem deployment. We evaluate the tuned model through complementary perspectives: (i) text/code similarity using BLEU, ROUGE-L, and METEOR, (ii) structural fidelity using Relative Graph Edit Di
+    
+[^32]: 情境特定教学：面向新手程序员的调试技能习得与保持的纵向研究
+
+    Context-Specific Instruction: A Longitudinal Study on Debugging Skill Acquisition and Retention for Novice Programmers
+
+    [https://arxiv.org/abs/2509.22420](https://arxiv.org/abs/2509.22420)
+
+    一项为期八周的纵向研究表明，将具体缺陷定位步骤与问题特定细节相结合的情境特定教学，能让新手程序员仅经一次训练就达到80%的调试正确率并长期保持，显著优于无教学、抽象指南和一般性具体步骤。
+
+    
+
+    缺陷定位（bug localization）是一项关键技能，但新手程序员往往缺乏系统性的方法。已有研究测试了抽象性指南和一般性的具体步骤，而情境特定教学的影响尚不明确。我们开展了一项为期八周的纵向研究，设置四种实验条件：无教学（G1）、抽象指南（G2）、具体步骤（G3），以及我们的情境特定教学——将具体的缺陷定位步骤与问题特定细节相结合（G4）。共有44名本科生参与，其中41人完成了全部五次实验会话（S1–S5）。每次会话包含2–3个调试任务，要求被试定位包含预置逻辑错误的最小代码元素。我们测量了正确率（二值指标）、完成时间以及自我感知评分（压力、难度、满意度和策略遵循度）。G4取得了更高的正确率和更短的完成时间：仅在一次会话后就达到80%的正确率（其他组为20–44%），并在三次会话后仍保持80%……
+
+    arXiv:2509.22420v2 Announce Type: replace  Abstract: Bug localization is a critical skill, yet novices often lack systematic approaches. Prior work tested abstract guidelines and general concrete steps; the impact of context-specific instruction is unclear. We ran an eight-week longitudinal study with four conditions: no instruction (G1), abstract guidelines (G2), concrete steps (G3), and our context-specific instruction that pairs concrete bug-localization steps with problem-specific details (G4). Forty-four undergraduates participated; 41 completed all five sessions (S1-S5). Each session included 2-3 debugging tasks to identify the minimal code element containing a seeded logical fault. We measured correctness (binary), time to completion, self-perceived scores (stress, difficulty, satisfaction, and strategy adherence). G4 achieved higher correctness and shorter time to completion: it reached 80% correctness after one session (vs. 20-44% for other groups) and maintained 80% after thr
     
 
