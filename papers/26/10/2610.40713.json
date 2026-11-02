@@ -1,0 +1,12 @@
+{
+    "title": "The Geometry of Multitask Learning: Sharp Rates for Shared Subspace Estimation",
+    "abstract": "arXiv:2610.40713v1 Announce Type: cross  Abstract: Learning a shared subspace in multitask learning is an important statistical problem, yet exact rates remain poorly understood in many of the formal settings considered in the literature. To address this gap, which arises from limitations of existing upper-bound techniques, we propose a general multitask lemma. The lemma provides sufficient conditions for fast subspace estimation in generic multitask settings, in the form of geometric conditions on the task regression functions and their estimators. We subsequently show that the multitask lemma yields sharp minimax rates---previously unknown---for linear regression and classification in the regimes considered, and rates matching up to logarithmic factors for additive-noise regression.",
+    "link": "https://arxiv.org/abs/2610.40713",
+    "context": "Title: The Geometry of Multitask Learning: Sharp Rates for Shared Subspace Estimation\nAbstract: arXiv:2610.40713v1 Announce Type: cross  Abstract: Learning a shared subspace in multitask learning is an important statistical problem, yet exact rates remain poorly understood in many of the formal settings considered in the literature. To address this gap, which arises from limitations of existing upper-bound techniques, we propose a general multitask lemma. The lemma provides sufficient conditions for fast subspace estimation in generic multitask settings, in the form of geometric conditions on the task regression functions and their estimators. We subsequently show that the multitask lemma yields sharp minimax rates---previously unknown---for linear regression and classification in the regimes considered, and rates matching up to logarithmic factors for additive-noise regression.",
+    "path": "papers/26/10/2610.40713.json",
+    "total_tokens": 949,
+    "translated_title": "多任务学习的几何学：共享子空间估计的精确速率",
+    "translated_abstract": "在多任务学习中学习共享子空间是一个重要的统计问题，然而在文献中考虑的许多形式化设置下，其精确速率仍未被充分理解。为填补这一源于现有上界技术局限性的空白，我们提出了一个通用的多任务引理。该引理以任务回归函数及其估计量的几何条件的形式，为一般性多任务设置中的快速子空间估计提供了充分条件。随后我们证明，该多任务引理在所考虑的情形下为线性回归和分类给出了此前未知的精确极小极大速率，并为加性噪声回归给出了在对数因子意义下相匹配的速率。",
+    "tldr": "本文提出一个通用多任务引理，通过任务回归函数及其估计量的几何条件刻画共享子空间估计的充分条件，首次获得线性回归与分类的精确极小极大速率。",
+    "en_tdlr": "This paper proposes a general multitask lemma that gives geometric sufficient conditions for fast shared subspace estimation, yielding previously unknown sharp minimax rates for linear regression and classification."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Generative SDEs with Trainable Diffusion and Density-Based Losses",
+    "abstract": "arXiv:2610.41243v1 Announce Type: new  Abstract: We develop a divergence-kernel method for jointly optimizing neural SDE drift and diffusion fields and the initial Gaussian distribution, using losses that depend directly on the terminal density. In two- and eight-dimensional Gaussian-mixture experiments, we learn time-independent fields and obtain far fewer off-mode samples than score-based generators with similar parameter counts. The drift attracts samples toward the modes, while the diffusion helps disperse excess probability between them.",
+    "link": "https://arxiv.org/abs/2610.41243",
+    "context": "Title: Generative SDEs with Trainable Diffusion and Density-Based Losses\nAbstract: arXiv:2610.41243v1 Announce Type: new  Abstract: We develop a divergence-kernel method for jointly optimizing neural SDE drift and diffusion fields and the initial Gaussian distribution, using losses that depend directly on the terminal density. In two- and eight-dimensional Gaussian-mixture experiments, we learn time-independent fields and obtain far fewer off-mode samples than score-based generators with similar parameter counts. The drift attracts samples toward the modes, while the diffusion helps disperse excess probability between them.",
+    "path": "papers/26/10/2610.41243.json",
+    "total_tokens": 821,
+    "translated_title": "具有可训练扩散项和基于密度损失的生成式随机微分方程",
+    "translated_abstract": "我们提出了一种散度核方法，用于联合优化神经随机微分方程（SDE）的漂移场、扩散场以及初始高斯分布，所使用的损失函数直接依赖于终端密度。在二维和八维高斯混合实验中，我们学习到时间无关的场，与参数量相近的基于分数的生成器相比，生成的偏离模态样本要少得多。漂移场将样本吸引向各个模态，而扩散场则有助于在模态之间分散多余的概率。",
+    "tldr": "本文提出一种散度核方法，通过基于密度的损失函数联合优化神经SDE的漂移场、扩散场和初始高斯分布，显著减少了偏离模态的样本生成。"
+}

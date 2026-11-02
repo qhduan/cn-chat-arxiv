@@ -1,0 +1,12 @@
+{
+    "title": "Nonlinear Maps Between Irreducible Representations in Graph Neural Networks",
+    "abstract": "arXiv:2610.41059v1 Announce Type: new  Abstract: Equivariant linear maps cannot mix non-isomorphic irreducible representations, whereas nonlinear activations can. We develop a degree-resolved version of this nonlinear interaction picture and use the resulting block inventory to construct Specht Triple, a residual on unordered graph triples. On a synthetic structural benchmark with a frozen GIN backbone, Specht Triple reduces aggregate standardised test MSE by 11.05% relative to a parameter-matched Projector Control using the same irreducible projectors and complete linear equivariant space. The results support irreducible decomposition as an inductive bias for nonlinear higher-order equivariant processing.",
+    "link": "https://arxiv.org/abs/2610.41059",
+    "context": "Title: Nonlinear Maps Between Irreducible Representations in Graph Neural Networks\nAbstract: arXiv:2610.41059v1 Announce Type: new  Abstract: Equivariant linear maps cannot mix non-isomorphic irreducible representations, whereas nonlinear activations can. We develop a degree-resolved version of this nonlinear interaction picture and use the resulting block inventory to construct Specht Triple, a residual on unordered graph triples. On a synthetic structural benchmark with a frozen GIN backbone, Specht Triple reduces aggregate standardised test MSE by 11.05% relative to a parameter-matched Projector Control using the same irreducible projectors and complete linear equivariant space. The results support irreducible decomposition as an inductive bias for nonlinear higher-order equivariant processing.",
+    "path": "papers/26/10/2610.41059.json",
+    "total_tokens": 1068,
+    "translated_title": "图神经网络中不可约表示之间的非线性映射",
+    "translated_abstract": "等变线性映射无法混合非同构的不可约表示，而非线性激活则可以做到。我们发展了这一非线性交互图景的按度数分辨的版本，并利用由此产生的块清单构建了Specht Triple——一种作用于无序图三元组上的残差结构。在一个使用冻结GIN骨干网络的合成结构基准测试中，与采用相同不可约投影器和完整线性等变空间、参数量匹配的投影器对照组相比，Specht Triple将汇总的标准化测试MSE降低了11.05%。这些结果支持将不可约分解作为非线性高阶等变处理的归纳偏置。",
+    "tldr": "该论文提出Specht Triple结构，利用不可约表示的块清单在图三元组上构建非线性残差，证明非线性映射能够混合等变线性映射无法混合的非同构不可约表示，并在冻结GIN骨干的合成基准上将测试MSE降低11.05%。",
+    "en_tdlr": "The paper proposes Specht Triple, a residual on unordered graph triples built from irreducible representation block inventories, demonstrating that nonlinear maps can mix non-isomorphic irreducible representations that equivariant linear maps cannot, reducing test MSE by 11.05% on a synthetic benchmark with a frozen GIN backbone."
+}

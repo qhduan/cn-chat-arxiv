@@ -1,0 +1,12 @@
+{
+    "title": "Evaluating Maternity Leave Reforms When RD Fails",
+    "abstract": "arXiv:2610.41881v1 Announce Type: new  Abstract: This paper documents that expansions of UK maternity pay in the 2000s improved children's test scores while reducing maternal employment. Extending job protection alone generated similar employment effects but no detectable impact on children. None of these effects are recoverable with a conventional regression discontinuity (RD) design because eligibility is only imperfectly captured by the available data. We explain why existing corrections for measurement error in RD are not well suited and propose a simple imputation-based solution. The approach preserves RD's main advantages, nonparametric identification and transparency, and remains valid even when measurement error has economic content.",
+    "link": "https://arxiv.org/abs/2610.41881",
+    "context": "Title: Evaluating Maternity Leave Reforms When RD Fails\nAbstract: arXiv:2610.41881v1 Announce Type: new  Abstract: This paper documents that expansions of UK maternity pay in the 2000s improved children's test scores while reducing maternal employment. Extending job protection alone generated similar employment effects but no detectable impact on children. None of these effects are recoverable with a conventional regression discontinuity (RD) design because eligibility is only imperfectly captured by the available data. We explain why existing corrections for measurement error in RD are not well suited and propose a simple imputation-based solution. The approach preserves RD's main advantages, nonparametric identification and transparency, and remains valid even when measurement error has economic content.",
+    "path": "papers/26/10/2610.41881.json",
+    "total_tokens": 1072,
+    "translated_title": "当断点回归失效时评估产假改革",
+    "translated_abstract": "本文记录了英国2000年代产假薪酬的扩大在提高儿童考试成绩的同时降低了母亲的就业率。仅延长工作保护则产生了类似的就业效应，但对儿童没有可检测到的影响。由于资格条件只能被现有数据不完美地捕捉，这些效应都无法通过传统的断点回归（RD）设计来识别。我们解释了为什么现有的RD测量误差修正方法并不适用，并提出了一种基于插补的简单解决方案。该方法保留了RD的主要优势——非参数识别和透明性，并且即使测量误差本身具有经济含义时依然有效。",
+    "tldr": "本文发现英国2000年代扩大产假薪酬提高了儿童考试成绩但降低了母亲就业率，并针对资格变量存在测量误差导致断点回归（RD）设计失效的问题，提出了一种保留非参数识别优势的简单插补修正方法。",
+    "en_tdlr": "This paper documents that UK maternity pay expansions in the 2000s improved children's test scores while reducing maternal employment, and proposes a simple imputation-based correction that restores the validity of regression discontinuity designs when eligibility is measured with error."
+}

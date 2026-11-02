@@ -1,0 +1,12 @@
+{
+    "title": "A Sequential Foundation for Two-Level Nested Logit",
+    "abstract": "arXiv:2610.38098v2 Announce Type: replace  Abstract: I show that the two-level nested logit model arises exactly from a sequential choice process in which group, subgroup, and product shocks are revealed in stages. The result extends to any number of levels and holds for any nesting parameters below one, without the bounds and ordering that random utility maximization requires. Parameter estimates that applied work discards for violating the standard ordering or the lower bound are consistent with sequential choice. The linear inversion and welfare formula hold. When the standard ordering fails, improving one product can raise a rival's market share in its subgroup, even with single-unit demand.",
+    "link": "https://arxiv.org/abs/2610.38098",
+    "context": "Title: A Sequential Foundation for Two-Level Nested Logit\nAbstract: arXiv:2610.38098v2 Announce Type: replace  Abstract: I show that the two-level nested logit model arises exactly from a sequential choice process in which group, subgroup, and product shocks are revealed in stages. The result extends to any number of levels and holds for any nesting parameters below one, without the bounds and ordering that random utility maximization requires. Parameter estimates that applied work discards for violating the standard ordering or the lower bound are consistent with sequential choice. The linear inversion and welfare formula hold. When the standard ordering fails, improving one product can raise a rival's market share in its subgroup, even with single-unit demand.",
+    "path": "papers/26/10/2610.38098.json",
+    "total_tokens": 958,
+    "translated_title": "两层嵌套Logit模型的序贯选择基础",
+    "translated_abstract": "我证明了两层嵌套Logit模型可以精确地由一种序贯选择过程推导得出，在该过程中，组、子组和产品层面的冲击按阶段逐步揭示。这一结果可以推广至任意层数，并且对任意小于1的嵌套参数均成立，无需随机效用最大化所要求的边界条件和排序约束。应用研究中因违反标准排序或下界而被舍弃的参数估计结果与序贯选择是相容的。线性反演方法和福利公式依然成立。当标准排序失效时，即使需求为单单位需求，改进某一产品也可能提高其子组内竞争对手的市场份额。",
+    "tldr": "本文证明两层嵌套Logit模型可由冲击分阶段揭示的序贯选择过程精确导出，该结果无需随机效用最大化的排序和边界约束，从而使以往被应用研究舍弃的参数估计结果具有合理性。",
+    "en_tdlr": "This paper shows that the two-level nested logit model arises exactly from a sequential choice process with shocks revealed in stages, holding for any nesting parameters below one without the ordering and bounds required by random utility maximization, thereby validating parameter estimates previously discarded in applied work."
+}

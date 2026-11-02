@@ -1,0 +1,12 @@
+{
+    "title": "Towards Trustworthy Multi-stakeholder Recommender Systems",
+    "abstract": "arXiv:2610.41674v1 Announce Type: new  Abstract: Recommender system (RS) nowadays has to reflect, combine, and solve often contrasting requirements and expectations from dozens of stakeholders. In fact, the problem is even more complicated as each of the stakeholders can simultaneously have various objectives creating a diverse and complicated environment with several stakeholders and their objectives in which a RS operates. To address this problems the Multi-objective and Multi-stakeholder RS have been studied in the literature. However, a limited attention has been paid to trustworthiness aspects of such RS, which slowly becomes a new standard. In this paper, we highlight open challenges and important questions which need to be addressed on the way to trustworthy Multi-stakeholder RS.",
+    "link": "https://arxiv.org/abs/2610.41674",
+    "context": "Title: Towards Trustworthy Multi-stakeholder Recommender Systems\nAbstract: arXiv:2610.41674v1 Announce Type: new  Abstract: Recommender system (RS) nowadays has to reflect, combine, and solve often contrasting requirements and expectations from dozens of stakeholders. In fact, the problem is even more complicated as each of the stakeholders can simultaneously have various objectives creating a diverse and complicated environment with several stakeholders and their objectives in which a RS operates. To address this problems the Multi-objective and Multi-stakeholder RS have been studied in the literature. However, a limited attention has been paid to trustworthiness aspects of such RS, which slowly becomes a new standard. In this paper, we highlight open challenges and important questions which need to be addressed on the way to trustworthy Multi-stakeholder RS.",
+    "path": "papers/26/10/2610.41674.json",
+    "total_tokens": 949,
+    "translated_title": "迈向可信的多利益相关者推荐系统",
+    "translated_abstract": "如今，推荐系统（RS）必须反映、结合并解决来自数十个利益相关者的常常相互矛盾的要求和期望。事实上，问题更为复杂，因为每个利益相关者可能同时拥有多种目标，这为推荐系统的运行创造了一个由多个利益相关者及其目标构成的多样化和复杂的环境。为了解决这些问题，文献中已经对多目标和多利益相关者推荐系统进行了研究。然而，对此类推荐系统可信度方面的关注仍然有限，而可信度正逐渐成为一项新的标准。在本文中，我们重点阐述了在迈向可信的多利益相关者推荐系统的道路上需要解决的开放性挑战和重要问题。",
+    "tldr": "本文指出了构建可信多利益相关者推荐系统过程中需要解决的开放性挑战和重要问题，因为该领域对可信度方面的关注仍然有限。",
+    "en_tdlr": "This paper highlights open challenges and important questions that need to be addressed on the way to trustworthy Multi-stakeholder Recommender Systems, as trustworthiness aspects of such systems have received limited attention despite becoming a new standard."
+}
