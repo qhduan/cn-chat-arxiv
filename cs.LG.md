@@ -2,9 +2,22 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-
+| [^1] | [Community detection in complex networks via node similarity, graph representation learning, and hierarchical clustering.](http://arxiv.org/abs/2303.12212) | 本文提出了三种算法框架来将层次聚类方法应用于图中的社区检测。相似度矩阵、特征向量矩阵和节点欧几里得向量表示可应用于各种基于连接的聚类算法。同时，可以采用最先进的图表示学习算法和点间互信息正向算法。 |
 
 # 详细
 
+[^1]: 基于节点相似度、图表示学习和层次聚类的复杂网络社群检测
 
+    Community detection in complex networks via node similarity, graph representation learning, and hierarchical clustering. (arXiv:2303.12212v1 [cs.SI])
+
+    [http://arxiv.org/abs/2303.12212](http://arxiv.org/abs/2303.12212)
+
+    本文提出了三种算法框架来将层次聚类方法应用于图中的社区检测。相似度矩阵、特征向量矩阵和节点欧几里得向量表示可应用于各种基于连接的聚类算法。同时，可以采用最先进的图表示学习算法和点间互信息正向算法。
+
+    
+
+    社群检测是分析实际图和复杂网络（如社交、交通、引用、网络安全以及食物链）的一个重要挑战。本文受到社区检测与欧几里得空间中聚类之间的许多相似性的启发，提出了三种算法框架，将层次聚类方法应用于图中的社区检测。我们表明，使用我们的方法，可以基于节点相似度矩阵、其特征向量矩阵以及节点的欧几里得向量表示，应用各种基于连接的聚类算法（单链接、全连接、平均链接、Ward、Genie）来查找社区。我们进行了全面的框架选择分析，包括最先进的图表示学习算法（如深度神经图表示）以及一个已知能够产生高质量结果的点间互信息正向算法。
+
+    Community detection is a critical challenge in the analysis of real-world graphs and complex networks, including social, transportation, citation, cybersecurity networks, and food webs. Motivated by many similarities between community detection and clustering in Euclidean spaces, we propose three algorithm frameworks to apply hierarchical clustering methods for community detection in graphs. We show that using our methods, it is possible to apply various linkage-based (single-, complete-, average- linkage, Ward, Genie) clustering algorithms to find communities based on vertex similarity matrices, eigenvector matrices thereof, and Euclidean vector representations of nodes. We convey a comprehensive analysis of choices for each framework, including state-of-the-art graph representation learning algorithms, such as Deep Neural Graph Representation, and a vertex proximity matrix known to yield high-quality results in machine learning -- Positive Pointwise Mutual Information. Overall, we te
+    
 

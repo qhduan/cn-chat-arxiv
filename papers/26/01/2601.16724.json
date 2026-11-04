@@ -1,0 +1,12 @@
+{
+    "title": "Mitigating Bias in Automated Essay Scoring for ESL Learners via Contrastive Learning",
+    "abstract": "arXiv:2601.16724v3 Announce Type: replace  Abstract: Automated Essay Scoring systems disproportionately penalize high-proficiency English as a Second Language (ESL) learners. We propose Contrastive Learning with Matched Essay Pairs (CL-MEP), a bi-directional alignment strategy. CL-MEP reduces this scoring bias by 39.9% while improving overall accuracy, successfully disentangling valid syntactic complexity from surface-level grammatical errors.",
+    "link": "https://arxiv.org/abs/2601.16724",
+    "context": "Title: Mitigating Bias in Automated Essay Scoring for ESL Learners via Contrastive Learning\nAbstract: arXiv:2601.16724v3 Announce Type: replace  Abstract: Automated Essay Scoring systems disproportionately penalize high-proficiency English as a Second Language (ESL) learners. We propose Contrastive Learning with Matched Essay Pairs (CL-MEP), a bi-directional alignment strategy. CL-MEP reduces this scoring bias by 39.9% while improving overall accuracy, successfully disentangling valid syntactic complexity from surface-level grammatical errors.",
+    "path": "papers/26/01/2601.16724.json",
+    "total_tokens": 768,
+    "translated_title": "通过对比学习减轻面向ESL学习者的自动作文评分偏见",
+    "translated_abstract": "自动作文评分系统会对高水平的英语作为第二语言（ESL）学习者施加不成比例的惩罚。我们提出了基于匹配作文对的对比学习方法（CL-MEP），这是一种双向对齐策略。CL-MEP将这种评分偏见降低了39.9%，同时提高了整体准确率，成功地将有效的句法复杂性与表面层面的语法错误区分开来。",
+    "tldr": "该论文提出一种基于匹配作文对的双向对比学习策略CL-MEP，可将自动作文评分系统对高水平ESL学习者的评分偏见降低39.9%，同时提高整体评分准确率。",
+    "en_tdlr": "This paper proposes CL-MEP, a bi-directional contrastive learning strategy using matched essay pairs, which reduces automated essay scoring bias against high-proficiency ESL learners by 39.9% while improving overall scoring accuracy."
+}

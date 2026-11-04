@@ -1,0 +1,12 @@
+{
+    "title": "Constructing an Artworld Influencers Network by Mining Social Media",
+    "abstract": "arXiv:2611.02657v1 Announce Type: cross  Abstract: The author shows a methodology for constructing a network map of the artworld. The tweets posted by a manually comprised set of exemplar artworld actors and Natural Language Processing (NLP) methods are used to identify significant artworld actors, including those that do not own a Twitter account. Identified artworld actors form communities detected with the Louvain method, and their authority is evaluated with the HITS centrality method. The resulting artworld network exhibits the ability, starting with a small set of exemplar actors, to identify new artworld actors and provides a wealth of data that would be very hard to collect otherwise.",
+    "link": "https://arxiv.org/abs/2611.02657",
+    "context": "Title: Constructing an Artworld Influencers Network by Mining Social Media\nAbstract: arXiv:2611.02657v1 Announce Type: cross  Abstract: The author shows a methodology for constructing a network map of the artworld. The tweets posted by a manually comprised set of exemplar artworld actors and Natural Language Processing (NLP) methods are used to identify significant artworld actors, including those that do not own a Twitter account. Identified artworld actors form communities detected with the Louvain method, and their authority is evaluated with the HITS centrality method. The resulting artworld network exhibits the ability, starting with a small set of exemplar actors, to identify new artworld actors and provides a wealth of data that would be very hard to collect otherwise.",
+    "path": "papers/26/11/2611.02657.json",
+    "total_tokens": 949,
+    "translated_title": "通过挖掘社交媒体构建艺术界影响者网络",
+    "translated_abstract": "作者展示了一种构建艺术界网络图谱的方法论。通过使用人工编制的一组艺术界典型参与者所发布的推文以及自然语言处理（NLP）方法，来识别重要的艺术界参与者，包括那些没有Twitter账户的参与者。被识别出的艺术界参与者形成了通过Louvain方法检测出的社区，其权威性则通过HITS中心性方法进行评估。所得到的艺术界网络展示了从一小组典型参与者出发识别新的艺术界参与者的能力，并提供了以其他方式很难收集到的大量数据。",
+    "tldr": "该论文提出一种结合社交媒体挖掘与自然语言处理的方法，能够从少量典型艺术界参与者出发自动发现新的重要艺术界参与者并构建其网络图谱，利用Louvain方法检测社区、HITS中心性方法评估参与者权威性。",
+    "en_tdlr": "This paper presents a methodology that combines social media mining and NLP to construct an artworld network, starting from a small set of exemplar actors to discover new influential artworld actors (including those without Twitter accounts), with community detection via the Louvain method and authority evaluation via HITS centrality."
+}

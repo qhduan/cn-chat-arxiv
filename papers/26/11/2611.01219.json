@@ -1,0 +1,12 @@
+{
+    "title": "The Brittle Compass: Navigating LLM Prompt Sensitivity in Slovak Migration Media Discourse",
+    "abstract": "arXiv:2611.01219v1 Announce Type: new  Abstract: In this work, we present a case study that explores various tasks centered around the topic of migration in Slovak, a low-resource language, such as topic relevance and geographical relevance classification, and migration source/destination location term extraction. Our results demonstrate that native (Slovak) prompts yield a modest, task-dependent gains, while large models show significant robustness to prompt variations compared to their smaller counterparts. Analysis reveals that instructions (system or task) emerge as the most critical prompt component, more so than the examples sections, with task-specific performance benefits being more pronounced than overall language effects.",
+    "link": "https://arxiv.org/abs/2611.01219",
+    "context": "Title: The Brittle Compass: Navigating LLM Prompt Sensitivity in Slovak Migration Media Discourse\nAbstract: arXiv:2611.01219v1 Announce Type: new  Abstract: In this work, we present a case study that explores various tasks centered around the topic of migration in Slovak, a low-resource language, such as topic relevance and geographical relevance classification, and migration source/destination location term extraction. Our results demonstrate that native (Slovak) prompts yield a modest, task-dependent gains, while large models show significant robustness to prompt variations compared to their smaller counterparts. Analysis reveals that instructions (system or task) emerge as the most critical prompt component, more so than the examples sections, with task-specific performance benefits being more pronounced than overall language effects.",
+    "path": "papers/26/11/2611.01219.json",
+    "total_tokens": 979,
+    "translated_title": "脆弱的指南针：在斯洛伐克移民媒体话语中探索大语言模型的提示词敏感性",
+    "translated_abstract": "在本工作中，我们呈现了一个案例研究，探索了以斯洛伐克语（一种低资源语言）的移民话题为中心的多种任务，例如主题相关性与地理相关性分类，以及移民来源地/目的地位置术语抽取。我们的结果表明，母语（斯洛伐克语）提示词仅带来适度的、依赖于任务的性能提升，而大模型相比其较小的对应模型对提示词变化表现出显著的鲁棒性。分析揭示，指令（系统指令或任务指令）是最关键的提示词组成部分，其重要性超过示例部分，且任务特定的性能收益比整体语言效应更为显著。",
+    "tldr": "本案例研究针对斯洛伐克语这一低资源语言的移民相关NLP任务，发现母语提示词仅带来有限的、依赖任务的收益，大模型对提示词变化更鲁棒，且指令是影响性能的最关键提示词组成部分。",
+    "en_tdlr": "This case study on migration-related NLP tasks in low-resource Slovak shows that native prompts yield only modest, task-dependent gains, large models exhibit greater robustness to prompt variations, and instructions are the most critical prompt component."
+}
