@@ -1,0 +1,11 @@
+{
+    "title": "Does Calibration Pick the Right Model? Likelihood Evidence from Income Risk",
+    "abstract": "arXiv:2611.02029v1 Announce Type: new  Abstract: Quantitative macroeconomics typically disciplines models by matching selected moments. We show how finite-state hidden Markov approximations make likelihood estimation and model selection feasible for nonlinear, non-Gaussian latent processes on short panels, without simulation. We illustrate the method with PSID earnings data. The calibrations that best match moments of earnings dynamics fit complete histories worse than a likelihood-estimated process with a Gaussian persistent component. In a standard saving model, calibrations of one process that fit the targets about equally well imply mean assets that differ by a factor of three. Close agreement with selected moments can leave economic predictions largely undetermined.",
+    "link": "https://arxiv.org/abs/2611.02029",
+    "context": "Title: Does Calibration Pick the Right Model? Likelihood Evidence from Income Risk\nAbstract: arXiv:2611.02029v1 Announce Type: new  Abstract: Quantitative macroeconomics typically disciplines models by matching selected moments. We show how finite-state hidden Markov approximations make likelihood estimation and model selection feasible for nonlinear, non-Gaussian latent processes on short panels, without simulation. We illustrate the method with PSID earnings data. The calibrations that best match moments of earnings dynamics fit complete histories worse than a likelihood-estimated process with a Gaussian persistent component. In a standard saving model, calibrations of one process that fit the targets about equally well imply mean assets that differ by a factor of three. Close agreement with selected moments can leave economic predictions largely undetermined.",
+    "path": "papers/26/11/2611.02029.json",
+    "total_tokens": 1055,
+    "translated_title": "校准能选对模型吗？来自收入风险的似然证据",
+    "translated_abstract": "定量宏观经济学通常通过匹配选定的矩（moments）来约束模型。我们展示了有限状态隐马尔可夫近似如何使非线性、非高斯潜在过程在短面板数据上的似然估计和模型选择成为可行，且无需模拟。我们用PSID收入数据来说明该方法。最能匹配收入动态矩的校准，其对完整历史数据的拟合程度反而不如基于似然估计的具有高斯持久成分的过程。在一个标准的储蓄模型中，对同一过程、在拟合目标上表现大致相当的校准，所隐含的平均资产水平却相差三倍。与选定矩的高度一致可能使经济预测在很大程度上无法确定。",
+    "tldr": "本文提出无需模拟的有限状态隐马尔可夫似然估计方法，发现最优匹配收入动态矩的校准反而对完整历史拟合较差，且拟合目标相当的校准在储蓄模型中隐含的平均资产相差三倍，表明仅靠匹配选定矩无法确定经济预测。"
+}

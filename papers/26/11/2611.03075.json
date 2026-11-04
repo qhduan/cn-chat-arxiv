@@ -1,0 +1,12 @@
+{
+    "title": "Sharp Fr\\'echet--Hoeffding Bounds under Selectively Incomplete Observation",
+    "abstract": "arXiv:2611.03075v1 Announce Type: new  Abstract: Incomplete records can sharpen bounds on joint outcome probabilities even when no pair of outcomes is jointly observed. I derive sharp pointwise Fr\\'echet--Hoeffding bounds combining known population marginals with selectively observed records, without restricting the observation mechanism. I establish an exact reduction of the identification problem to finite-dimensional optimization, yielding computable characterizations of both bounds. Illustrations involving income mobility, potential outcomes, and split questionnaires demonstrate how incomplete records can improve identification relative to the classical bounds.",
+    "link": "https://arxiv.org/abs/2611.03075",
+    "context": "Title: Sharp Fr\\'echet--Hoeffding Bounds under Selectively Incomplete Observation\nAbstract: arXiv:2611.03075v1 Announce Type: new  Abstract: Incomplete records can sharpen bounds on joint outcome probabilities even when no pair of outcomes is jointly observed. I derive sharp pointwise Fr\\'echet--Hoeffding bounds combining known population marginals with selectively observed records, without restricting the observation mechanism. I establish an exact reduction of the identification problem to finite-dimensional optimization, yielding computable characterizations of both bounds. Illustrations involving income mobility, potential outcomes, and split questionnaires demonstrate how incomplete records can improve identification relative to the classical bounds.",
+    "path": "papers/26/11/2611.03075.json",
+    "total_tokens": 1035,
+    "translated_title": "选择性不完全观测下的精确Fréchet–Hoeffding界",
+    "translated_abstract": "即使没有任何一对结果是联合观测到的，不完全记录仍然可以收紧联合结果概率的界。我推导了将已知总体边际分布与选择性观测记录相结合的精确逐点Fréchet–Hoeffding界，且不对观测机制施加任何限制。我建立了将识别问题精确约化为有限维优化的方法，从而得到两个界的可计算刻画。涉及收入流动性、潜在结果和拆分问卷的示例说明了不完全记录如何相对于经典界改进识别效果。",
+    "tldr": "该论文在不限制观测机制的前提下，将已知总体边际分布与选择性不完全观测记录结合，推导出精确的逐点Fréchet–Hoeffding界，并通过精确约化为有限维优化给出可计算刻画，证明不完全记录可以改进经典识别界。",
+    "en_tdlr": "This paper derives sharp pointwise Fréchet–Hoeffding bounds that combine known population marginals with selectively incomplete records without restricting the observation mechanism, establishing an exact reduction of the identification problem to finite-dimensional optimization and showing that incomplete records can improve identification over the classical bounds."
+}

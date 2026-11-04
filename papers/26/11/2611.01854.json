@@ -1,0 +1,12 @@
+{
+    "title": "Exploiting Locally Exogeneous Variation in Spatial Data: Linear Regression with Many Small Units",
+    "abstract": "arXiv:2611.01854v1 Announce Type: new  Abstract: This article shows how researchers can exploit \\textit{locally exogeneous variation} even in the presence of endogeneity, autocorrelation, or spurious correlation. It describes the infill asymptotic properties of generalized least squares estimation with county-level data, Census tract-level data, and similar regional averages, including sufficient conditions for consistency, asymptotic normality, and valid inference.",
+    "link": "https://arxiv.org/abs/2611.01854",
+    "context": "Title: Exploiting Locally Exogeneous Variation in Spatial Data: Linear Regression with Many Small Units\nAbstract: arXiv:2611.01854v1 Announce Type: new  Abstract: This article shows how researchers can exploit \\textit{locally exogeneous variation} even in the presence of endogeneity, autocorrelation, or spurious correlation. It describes the infill asymptotic properties of generalized least squares estimation with county-level data, Census tract-level data, and similar regional averages, including sufficient conditions for consistency, asymptotic normality, and valid inference.",
+    "path": "papers/26/11/2611.01854.json",
+    "total_tokens": 795,
+    "translated_title": "利用空间数据中的局部外生变异：基于众多小单元的线性回归",
+    "translated_abstract": "本文展示了即使存在内生性、自相关或伪相关的情况下，研究者仍可以利用“局部外生变异”。文章描述了广义最小二乘估计在县级数据、人口普查区级数据以及类似区域平均数据下的填充渐近性质，包括一致性、渐近正态性和有效推断的充分条件。",
+    "tldr": "本文证明即使存在内生性、自相关或伪相关，研究者仍可利用空间数据中的局部外生变异，并给出了广义最小二乘估计在众多小空间单元数据下具有一致性、渐近正态性和有效推断的充分条件。",
+    "en_tdlr": "This paper shows that researchers can exploit locally exogeneous variation in spatial data even in the presence of endogeneity, autocorrelation, or spurious correlation, establishing sufficient conditions for consistency, asymptotic normality, and valid inference of generalized least squares estimation with many small spatial units."
+}

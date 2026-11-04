@@ -1,0 +1,12 @@
+{
+    "title": "The Costs and Benefits of Leveraged ETFs",
+    "abstract": "arXiv:2611.01392v1 Announce Type: new  Abstract: We study the costs and benefits of leveraged ETFs (LETFs), focusing on five determinants of performance: volatility drag, fees, financing costs, which products are launched, and market timing. Long broad-equity-index LETFs generated more than $100 billion in investor gains, including over $40 billion relative to counterfactual investments in the underlying assets, due to modest structural headwinds and rising markets. Single-stock LETFs, however, are launched on stocks near the top of the volatility and past-return distributions. This caters to retail demand for lottery-like payoffs, but it also creates larger volatility drag, higher financing costs, and more risk for poor market-timing.",
+    "link": "https://arxiv.org/abs/2611.01392",
+    "context": "Title: The Costs and Benefits of Leveraged ETFs\nAbstract: arXiv:2611.01392v1 Announce Type: new  Abstract: We study the costs and benefits of leveraged ETFs (LETFs), focusing on five determinants of performance: volatility drag, fees, financing costs, which products are launched, and market timing. Long broad-equity-index LETFs generated more than $100 billion in investor gains, including over $40 billion relative to counterfactual investments in the underlying assets, due to modest structural headwinds and rising markets. Single-stock LETFs, however, are launched on stocks near the top of the volatility and past-return distributions. This caters to retail demand for lottery-like payoffs, but it also creates larger volatility drag, higher financing costs, and more risk for poor market-timing.",
+    "path": "papers/26/11/2611.01392.json",
+    "total_tokens": 1072,
+    "translated_title": "杠杆ETF的成本与收益",
+    "translated_abstract": "我们研究了杠杆ETF（LETFs）的成本与收益，重点关注决定其表现的五个因素：波动率损耗、费用、融资成本、产品发行选择以及市场择时。做多宽基股指的杠杆ETF为投资者创造了超过1000亿美元的收益，其中超过400亿美元是相对于直接投资标的资产的反事实投资而言的，这得益于温和的结构性不利因素和持续上涨的市场。然而，单只股票杠杆ETF则是围绕波动率和历史收益率分布顶端附近的股票发行的。这迎合了散户对彩票式回报的需求，但同时也带来了更大的波动率损耗、更高的融资成本，以及因市场择时不佳而面临的更多风险。",
+    "tldr": "该研究量化了杠杆ETF的成本与收益，发现宽基股指杠杆ETF凭借上涨的市场为投资者创造了超千亿美元收益，而单股杠杆ETF因发行于高波动性股票之上，面临更大的波动率损耗、更高的融资成本和更差的择时风险。",
+    "en_tdlr": "This study quantifies the costs and benefits of leveraged ETFs, showing that broad-equity-index LETFs generated over $100 billion in investor gains amid rising markets, while single-stock LETFs—launched on high-volatility stocks—suffer larger volatility drag, higher financing costs, and greater market-timing risks."
+}

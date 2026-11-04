@@ -1,0 +1,12 @@
+{
+    "title": "Inference for Batched Adaptive Experiments",
+    "abstract": "arXiv:2512.10156v2 Announce Type: replace  Abstract: The advantages of adaptive experiments have led to their rapid adoption in economics, other fields, and among practitioners. However, adaptive experiments pose challenges for causal inference. This note suggests a BOLS (batched ordinary least squares) test statistic for inference on treatment effects in adaptive experiments. The statistic provides a precision-equalizing aggregation of per-period treatment-control differences under heteroskedasticity. The combined test statistic is a linear combination of heteroskedastic per-period z-statistics and can be used to construct asymptotically valid confidence intervals. We provide simulation results comparing rejection rates in the typical case with few treatment periods and few (or many) observations per batch.",
+    "link": "https://arxiv.org/abs/2512.10156",
+    "context": "Title: Inference for Batched Adaptive Experiments\nAbstract: arXiv:2512.10156v2 Announce Type: replace  Abstract: The advantages of adaptive experiments have led to their rapid adoption in economics, other fields, and among practitioners. However, adaptive experiments pose challenges for causal inference. This note suggests a BOLS (batched ordinary least squares) test statistic for inference on treatment effects in adaptive experiments. The statistic provides a precision-equalizing aggregation of per-period treatment-control differences under heteroskedasticity. The combined test statistic is a linear combination of heteroskedastic per-period z-statistics and can be used to construct asymptotically valid confidence intervals. We provide simulation results comparing rejection rates in the typical case with few treatment periods and few (or many) observations per batch.",
+    "path": "papers/25/12/2512.10156.json",
+    "total_tokens": 910,
+    "translated_title": "分批自适应实验的统计推断",
+    "translated_abstract": "自适应实验的优势使其在经济学、其他学科领域以及实践者中得到了迅速采用。然而，自适应实验给因果推断带来了挑战。本短文提出了一种BOLS（分批普通最小二乘法）检验统计量，用于自适应实验中处理效应的推断。该统计量在异方差条件下对各期处理组与对照组的差异进行精度均衡的聚合。合并后的检验统计量是各期异方差z统计量的线性组合，可用于构建渐近有效的置信区间。我们提供了模拟结果，比较了在处理期数较少且每批次观测数较少（或较多）的典型情形下该方法的拒绝率。",
+    "tldr": "本文提出一种BOLS检验统计量，通过精度均衡地聚合各期处理组与对照组差异，实现自适应实验中处理效应的渐近有效推断。",
+    "en_tdlr": "This note proposes a BOLS test statistic that aggregates per-period treatment-control differences with precision-equalizing weights, enabling asymptotically valid inference on treatment effects in adaptive experiments."
+}

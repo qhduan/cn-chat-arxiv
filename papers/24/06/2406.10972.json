@@ -1,0 +1,12 @@
+{
+    "title": "Endogenous Identity in a Social Network",
+    "abstract": "arXiv:2406.10972v2 Announce Type: replace  Abstract: We study the interaction between endogenous identity choice and peer influence in social networks. Individuals choose identities that determine behavioral norms and reference groups within a fixed network. Equilibrium peer behavior, in turn, shapes identity choice. Interventions affect behavior both within identities through conformism pressure and through identity choices. Changes that raise actions holding identities fixed can induce identity changes that lower them. Our framework explains why peer effects estimated under one composition may fail to predict the effects of reassignment. It also shows how network structure can sustain heterogeneous behavior among individuals with identical abilities.",
+    "link": "https://arxiv.org/abs/2406.10972",
+    "context": "Title: Endogenous Identity in a Social Network\nAbstract: arXiv:2406.10972v2 Announce Type: replace  Abstract: We study the interaction between endogenous identity choice and peer influence in social networks. Individuals choose identities that determine behavioral norms and reference groups within a fixed network. Equilibrium peer behavior, in turn, shapes identity choice. Interventions affect behavior both within identities through conformism pressure and through identity choices. Changes that raise actions holding identities fixed can induce identity changes that lower them. Our framework explains why peer effects estimated under one composition may fail to predict the effects of reassignment. It also shows how network structure can sustain heterogeneous behavior among individuals with identical abilities.",
+    "path": "papers/24/06/2406.10972.json",
+    "total_tokens": 912,
+    "translated_title": "社会网络中的内生身份认同",
+    "translated_abstract": "我们研究社会网络中内生身份选择与同伴影响之间的相互作用。个体选择身份，这些身份决定了固定网络中的行为规范和参照群体。而均衡状态下的同伴行为反过来又塑造身份选择。干预措施既通过从众压力在既定身份内部影响行为，也通过身份选择影响行为。在保持身份不变的情况下会提高行为的变动，可能引发降低行为的身份改变。我们的框架解释了为什么在某一群体构成下估计出的同伴效应可能无法预测重新分配后的效果，同时展示了网络结构如何在能力相同的个体之间维持异质性的行为。",
+    "tldr": "该论文提出了一个社会网络模型，研究个体内生身份选择与同伴影响的相互作用，揭示干预措施在固定身份下提升行为的同时可能通过引发身份改变而降低行为，并解释了网络结构如何在相同能力的个体间维持异质性行为。",
+    "en_tdlr": "This paper develops a framework studying the interplay between endogenous identity choice and peer influence in social networks, showing that interventions that raise behavior within fixed identities may induce identity changes that lower it, and explaining how network structure can sustain heterogeneous behavior among equally able individuals."
+}

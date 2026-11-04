@@ -1,0 +1,12 @@
+{
+    "title": "von Neumann-Morgenstern stable sets in job matching problems",
+    "abstract": "arXiv:2611.00708v1 Announce Type: new  Abstract: We show that a von Neumann-Morgenstern (vNM) stable set generically exists in the many-to-one job-matching model. Unlike the core, which can be empty in this model, a vNM stable set exists whenever there is a unique efficient matching: the set of all individually rational (IR) and efficient outcomes form a vNM stable set. If an economy has multiple efficient matchings, a vNM stable set may not exist. If the vNM stable sets are required to be rich in a certain sense, then such a rich vNM stable set exists if and only if the set of efficient matchings is essentially unique, and the set of all efficient and IR outcomes forms the unique rich vNM stable set.",
+    "link": "https://arxiv.org/abs/2611.00708",
+    "context": "Title: von Neumann-Morgenstern stable sets in job matching problems\nAbstract: arXiv:2611.00708v1 Announce Type: new  Abstract: We show that a von Neumann-Morgenstern (vNM) stable set generically exists in the many-to-one job-matching model. Unlike the core, which can be empty in this model, a vNM stable set exists whenever there is a unique efficient matching: the set of all individually rational (IR) and efficient outcomes form a vNM stable set. If an economy has multiple efficient matchings, a vNM stable set may not exist. If the vNM stable sets are required to be rich in a certain sense, then such a rich vNM stable set exists if and only if the set of efficient matchings is essentially unique, and the set of all efficient and IR outcomes forms the unique rich vNM stable set.",
+    "path": "papers/26/11/2611.00708.json",
+    "total_tokens": 1092,
+    "translated_title": "工作匹配问题中的冯·诺依曼-摩根斯坦稳定集",
+    "translated_abstract": "我们证明在多对一工作匹配模型中，冯·诺依曼-摩根斯坦（vNM）稳定集在一般意义上是存在的。与在此模型中可能为空的核心不同，只要存在唯一的有效匹配，vNM稳定集就存在：所有个体理性（IR）且有效的结果构成的集合形成一个vNM稳定集。如果一个经济体存在多个有效匹配，则vNM稳定集可能不存在。如果要求vNM稳定集在某种意义上是“丰富的”，那么这样的丰富vNM稳定集存在当且仅当有效匹配集合本质上是唯一的，并且所有有效且个体理性的结果集合构成唯一的丰富vNM稳定集。",
+    "tldr": "本文证明了在多对一工作匹配模型中，冯·诺依曼-摩根斯坦稳定集在一般情况下存在——只要存在唯一的有效匹配，所有个体理性且有效的结果便构成一个vNM稳定集，这与可能为空的核心形成鲜明对比。",
+    "en_tdlr": "This paper proves that a von Neumann-Morgenstern stable set generically exists in the many-to-one job-matching model—whenever there is a unique efficient matching, the set of all individually rational and efficient outcomes forms a vNM stable set, in contrast to the core which can be empty."
+}
