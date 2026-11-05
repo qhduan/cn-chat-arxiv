@@ -49,14 +49,15 @@
 | [^45] | [Prediction-Intervention Games and Invariant Sets](https://arxiv.org/abs/2605.16828) | 该论文提出预测-干预博弈（Stackelberg博弈的特例），并证明对于两类常见的跟随者干预目标，基于稳定毯这一不变子集的预测器性能至少与基于因果父节点的预测器相当。 |
 | [^46] | [Factual recall in linear associative memories: sharp asymptotics and mechanistic insights](https://arxiv.org/abs/2605.10795) | 本文通过引入一个与原模型等价的解耦模型，精确刻画了线性联想记忆在事实回忆任务中可存储关联数量的容量极限 $p_c$，并对学习解的结构给出了机理层面的洞察。 |
 | [^47] | [Estimating Implicit Regularization in Deep Learning](https://arxiv.org/abs/2605.05436) | 本文提出基于梯度匹配的估计方法，利用正则化导致权重更新偏离损失梯度这一信号，来量化深度学习系统（包括早停、小批量、dropout 等修改）中隐式正则化的效果。 |
-| [^48] | [Decoupling Distance and Networks: Hybrid Graph Attention-Geostatistical Methods for Spatio-temporal Risk Mapping](https://arxiv.org/abs/2603.08393) | 该研究提出一种将动态图注意力网络（GATv2）与基于模型的地统计学潜在高斯空间过程相结合的混合建模框架，可同时捕捉图结构中的关系依赖性与物理距离驱动的空间依赖性，从而在时空风险制图中实现更优的预测精度和不确定性量化。 |
-| [^49] | [Quantifying Error Propagation and Model Collapse in Diffusion Models](https://arxiv.org/abs/2602.16601) | 该论文首次为扩散模型在合成数据上递归训练导致的模型坍塌建立了散度的理论上界与下界，并刻画了分数估计误差与新鲜数据比例如何决定生成分布偏离目标分布的不同漂移区间。 |
-| [^50] | [ESS-Flow: Training-free guidance as Bayesian inference in source space](https://arxiv.org/abs/2510.05849) | ESS-Flow是一种免训练、无梯度的引导方法，通过椭圆切片采样利用流模型源分布的高斯先验直接在源空间进行贝叶斯推断，即使梯度不可用（如不可微分模拟观测或量化过程）也能引导预训练流模型完成条件生成任务。 |
-| [^51] | [Goal-Oriented Sequential Bayesian Experimental Design for Causal Learning](https://arxiv.org/abs/2507.07359) | GO-CBED是一个面向目标的贝叶斯序贯因果实验设计框架，通过变分下界估计与Transformer策略网络直接最大化用户指定因果量的期望信息增益，实现非短视且实时的干预决策，在因果推理与发现任务中优于现有基线。 |
-| [^52] | [Community detection with the Bethe-Hessian](https://arxiv.org/abs/2411.02835) | 本文首次对稀疏随机块模型中的Bethe-Hessian谱方法进行了严格分析，证明其可达到Kesten-Stigum检测阈值，并证实了矩阵负离群特征值个数能一致估计区块数量的猜想。 |
-| [^53] | [Estimating and Incentivizing Imperfect-Knowledge Agents with Hidden Rewards.](http://arxiv.org/abs/2308.06717) | 本文研究了一个自私学习代理和学习委托人之间的重复对自选游戏，探索如何估计和激励具有隐藏奖励的不完全知识代理。 |
-| [^54] | [Action-State Dependent Dynamic Model Selection.](http://arxiv.org/abs/2307.04754) | 本文提出了一种动态模型选择的方法，该方法能够根据不同的状态选择最优的模型，并通过强化学习算法对动态规划问题进行近似和估计。实验结果表明，在重新平衡成本下切换投资组合模型时，使用宏观经济信息的性能优于事后选择最佳投资组合模型。 |
-| [^55] | [Repeated Principal-Agent Games with Unobserved Agent Rewards and Perfect-Knowledge Agents.](http://arxiv.org/abs/2304.07407) | 本文提出了一个利用多臂老虎机框架结构来处理未知代理奖励的策略，并证明了其性能是渐进最优的。 |
+| [^48] | [Fr\'echet Regression on the Bures-Wasserstein Manifold](https://arxiv.org/abs/2604.03566) | 本文研究了Bures-Wasserstein度量下正定矩阵空间中条件重心（Fréchet回归）的存在性与计算，给出了极小值点存在的充分条件，并证明在该条件下目标函数不存在局部极大值。 |
+| [^49] | [Decoupling Distance and Networks: Hybrid Graph Attention-Geostatistical Methods for Spatio-temporal Risk Mapping](https://arxiv.org/abs/2603.08393) | 该研究提出一种将动态图注意力网络（GATv2）与基于模型的地统计学潜在高斯空间过程相结合的混合建模框架，可同时捕捉图结构中的关系依赖性与物理距离驱动的空间依赖性，从而在时空风险制图中实现更优的预测精度和不确定性量化。 |
+| [^50] | [Quantifying Error Propagation and Model Collapse in Diffusion Models](https://arxiv.org/abs/2602.16601) | 该论文首次为扩散模型在合成数据上递归训练导致的模型坍塌建立了散度的理论上界与下界，并刻画了分数估计误差与新鲜数据比例如何决定生成分布偏离目标分布的不同漂移区间。 |
+| [^51] | [ESS-Flow: Training-free guidance as Bayesian inference in source space](https://arxiv.org/abs/2510.05849) | ESS-Flow是一种免训练、无梯度的引导方法，通过椭圆切片采样利用流模型源分布的高斯先验直接在源空间进行贝叶斯推断，即使梯度不可用（如不可微分模拟观测或量化过程）也能引导预训练流模型完成条件生成任务。 |
+| [^52] | [Goal-Oriented Sequential Bayesian Experimental Design for Causal Learning](https://arxiv.org/abs/2507.07359) | GO-CBED是一个面向目标的贝叶斯序贯因果实验设计框架，通过变分下界估计与Transformer策略网络直接最大化用户指定因果量的期望信息增益，实现非短视且实时的干预决策，在因果推理与发现任务中优于现有基线。 |
+| [^53] | [Community detection with the Bethe-Hessian](https://arxiv.org/abs/2411.02835) | 本文首次对稀疏随机块模型中的Bethe-Hessian谱方法进行了严格分析，证明其可达到Kesten-Stigum检测阈值，并证实了矩阵负离群特征值个数能一致估计区块数量的猜想。 |
+| [^54] | [Estimating and Incentivizing Imperfect-Knowledge Agents with Hidden Rewards.](http://arxiv.org/abs/2308.06717) | 本文研究了一个自私学习代理和学习委托人之间的重复对自选游戏，探索如何估计和激励具有隐藏奖励的不完全知识代理。 |
+| [^55] | [Action-State Dependent Dynamic Model Selection.](http://arxiv.org/abs/2307.04754) | 本文提出了一种动态模型选择的方法，该方法能够根据不同的状态选择最优的模型，并通过强化学习算法对动态规划问题进行近似和估计。实验结果表明，在重新平衡成本下切换投资组合模型时，使用宏观经济信息的性能优于事后选择最佳投资组合模型。 |
+| [^56] | [Repeated Principal-Agent Games with Unobserved Agent Rewards and Perfect-Knowledge Agents.](http://arxiv.org/abs/2304.07407) | 本文提出了一个利用多臂老虎机框架结构来处理未知代理奖励的策略，并证明了其性能是渐进最优的。 |
 
 # 详细
 
@@ -718,7 +719,21 @@
 
     arXiv:2605.05436v2 Announce Type: replace-cross  Abstract: Deep learning systems are known to exhibit implicit regularization (alt. implicit bias), favoring simple solutions instead of merely minimizing the loss function. In some cases, we can analytically derive the implicit regularization -- connecting it to an equivalent penalty that augments the learning objective. However, modern deep learning systems are complex, carrying modifications to the training procedure and architecture (e.g. early stopping, minibatching, dropout) whose effects are not always directly interpretable. Although estimating the resulting implicit regularization could aid theorists in algorithm design and practitioners in interpreting their hyperparameter choices, this problem has received little direct attention. It is also tractable: regularization makes weight updates deviate from loss gradients, promising a signal for identifying implicit bias. Here we provide gradient matching methods that can be used to e
     
-[^48]: 解耦距离与网络：用于时空风险制图的图注意力-地统计学混合方法
+[^48]: Bures-Wasserstein流形上的Fréchet回归
+
+    Fr\'echet Regression on the Bures-Wasserstein Manifold
+
+    [https://arxiv.org/abs/2604.03566](https://arxiv.org/abs/2604.03566)
+
+    本文研究了Bures-Wasserstein度量下正定矩阵空间中条件重心（Fréchet回归）的存在性与计算，给出了极小值点存在的充分条件，并证明在该条件下目标函数不存在局部极大值。
+
+    
+
+    Fréchet回归，也称条件重心，是一个灵活的框架，用于在一般度量空间（如概率分布或正定矩阵）上建模协变量（通常是欧几里得空间中的）与响应变量之间的关系。然而，与经典重心问题不同，在许多非欧几里得空间中计算条件重心仍然是一个悬而未决的挑战，因为它们会产生具有仿射结构的非凸优化问题。在这项工作中，我们研究了条件重心的存在性与计算，特别是在配备Bures-Wasserstein度量的正定矩阵空间中。我们为条件重心问题极小值点的存在性提供了一个充分条件，该条件刻画了回归的外推范围。此外，我们进一步刻画了优化景观，证明在该条件下，目标函数不存在局部极大值。
+
+    arXiv:2604.03566v2 Announce Type: replace-cross  Abstract: Fr\'echet regression, or conditional Barycenters, is a flexible framework for modeling relationships between covariates (usually Euclidean) and response variables on general metric spaces, e.g., probability distributions or positive definite matrices. However, in contrast to classical barycenter problems, computing conditional counterparts in many non-Euclidean spaces remains an open challenge, as they yield non-convex optimization problems with an affine structure. In this work, we study the existence and computation of conditional barycenters, specifically in the space of positive-definite matrices with the Bures-Wasserstein metric. We provide a sufficient condition for the existence of a minimizer of the conditional barycenter problem that characterizes the regression range of extrapolation. Moreover, we further characterize the optimization landscape, proving that under this condition, the objective is free of local maxima.
+    
+[^49]: 解耦距离与网络：用于时空风险制图的图注意力-地统计学混合方法
 
     Decoupling Distance and Networks: Hybrid Graph Attention-Geostatistical Methods for Spatio-temporal Risk Mapping
 
@@ -732,7 +747,7 @@
 
     arXiv:2603.08393v3 Announce Type: replace-cross  Abstract: Accurate spatial prediction and rigorous uncertainty quantification are central to modern spatial epidemiology and environmental risk analysis. We introduce a statistically principled hybrid modelling framework that integrates the nonlinear, attention-based representation learning capabilities of a dynamic Graph Attention Network (GATv2) with a latent Gaussian spatial process from model-based geostatistics (MBG). This framework jointly captures relational dependence encoded in graph structures and continuous spatial dependence governed by physical proximity. We evaluate the proposed model via a controlled simulation study and an applied analysis of malaria prevalence data, comparing its predictive accuracy, calibration, and uncertainty quantification against classical geostatistical models and standalone GATv2 architectures. Our analyses show that GATv2 captures complex nonlinear interactions but fails to account for residual s
     
-[^49]: 量化扩散模型中的误差传播与模型坍塌
+[^50]: 量化扩散模型中的误差传播与模型坍塌
 
     Quantifying Error Propagation and Model Collapse in Diffusion Models
 
@@ -746,7 +761,7 @@
 
     arXiv:2602.16601v3 Announce Type: replace-cross  Abstract: Machine learning models are increasingly trained or fine-tuned on synthetic data. Recursively training on such data has been observed to significantly degrade performance in a wide range of tasks, often characterized by a progressive drift away from the target distribution. In this work, we theoretically analyze this phenomenon in the setting of score-based diffusion models. For a realistic pipeline where each training round uses a combination of synthetic data and fresh samples from the target distribution, we obtain upper and lower bounds on the accumulated divergence between the generated and target distributions. Notably, to the best of our knowledge, this is the first lower bound on the divergence between the learned and target distributions, even for standard diffusion models. Our results allow us to characterize different regimes of drift, depending on the score estimation error and the proportion of fresh data used in e
     
-[^50]: ESS-Flow：作为源空间中贝叶斯推断的免训练引导方法
+[^51]: ESS-Flow：作为源空间中贝叶斯推断的免训练引导方法
 
     ESS-Flow: Training-free guidance as Bayesian inference in source space
 
@@ -760,7 +775,7 @@
 
     arXiv:2510.05849v2 Announce Type: replace  Abstract: Guiding pretrained flow-based generative models for conditional generation or to produce samples with desired target properties enables solving diverse tasks without retraining on paired data. We present ESS-Flow, a gradient-free method that leverages the Gaussian prior of the source distribution in flow-based models to perform Bayesian inference directly in the source space using elliptical slice sampling. ESS-Flow only requires forward passes through the generative model and observation process, making it applicable even when gradients are unavailable, such as with non-differentiable simulation-based observations or quantization in the generation process. We demonstrate its effectiveness on scientific applications including generating materials with target properties, protein backbone structures with improved designability, and synthesizable, drug-like molecules.
     
-[^51]: 面向目标的因果学习序贯贝叶斯实验设计
+[^52]: 面向目标的因果学习序贯贝叶斯实验设计
 
     Goal-Oriented Sequential Bayesian Experimental Design for Causal Learning
 
@@ -774,7 +789,7 @@
 
     arXiv:2507.07359v2 Announce Type: replace-cross  Abstract: We present GO-CBED, a goal-oriented Bayesian framework for sequential causal experimental design. Unlike conventional approaches that select interventions aimed at inferring the full causal model, GO-CBED directly maximizes the expected information gain (EIG) on user-specified causal quantities of interest, enabling more targeted and efficient experimentation. The framework is both non-myopic, optimizing over entire intervention sequences, and goal-oriented, targeting only model aspects relevant to the causal query. To address the intractability of exact EIG computation, we introduce a variational lower bound estimator, optimized jointly through a transformer-based policy network and normalizing flow-based variational posteriors. The resulting policy enables real-time decision-making via an amortized network. We demonstrate that GO-CBED consistently outperforms existing baselines across various causal reasoning and discovery ta
     
-[^52]: 基于Bethe-Hessian矩阵的社群检测
+[^53]: 基于Bethe-Hessian矩阵的社群检测
 
     Community detection with the Bethe-Hessian
 
@@ -788,7 +803,7 @@
 
     arXiv:2411.02835v3 Announce Type: replace-cross  Abstract: The Bethe-Hessian matrix, introduced by Saade, Krzakala, and Zdeborov\'a (2014), is a Hermitian matrix designed for applying spectral clustering algorithms to sparse networks. Rather than employing a non-symmetric and high-dimensional non-backtracking operator, a spectral method based on the Bethe-Hessian matrix is conjectured to also reach the Kesten-Stigum detection threshold in the sparse stochastic block model (SBM). We provide the first rigorous analysis of the Bethe-Hessian spectral method in the SBM under both the bounded expected degree and the growing degree regimes. Specifically, we demonstrate that: (i) When the expected degree $d\geq 2$, the number of negative outliers of the Bethe-Hessian matrix can consistently estimate the number of blocks above the Kesten-Stigum threshold, thus confirming a conjecture from Saade, Krzakala, and Zdeborov\'a (2014) for $d\geq 2$. (ii) For sufficiently large $d$, its eigenvectors ca
     
-[^53]: 估计和激励具有隐藏奖励的不完全知识代理
+[^54]: 估计和激励具有隐藏奖励的不完全知识代理
 
     Estimating and Incentivizing Imperfect-Knowledge Agents with Hidden Rewards. (arXiv:2308.06717v1 [cs.LG])
 
@@ -802,7 +817,7 @@
 
     In practice, incentive providers (i.e., principals) often cannot observe the reward realizations of incentivized agents, which is in contrast to many principal-agent models that have been previously studied. This information asymmetry challenges the principal to consistently estimate the agent's unknown rewards by solely watching the agent's decisions, which becomes even more challenging when the agent has to learn its own rewards. This complex setting is observed in various real-life scenarios ranging from renewable energy storage contracts to personalized healthcare incentives. Hence, it offers not only interesting theoretical questions but also wide practical relevance. This paper explores a repeated adverse selection game between a self-interested learning agent and a learning principal. The agent tackles a multi-armed bandit (MAB) problem to maximize their expected reward plus incentive. On top of the agent's learning, the principal trains a parallel algorithm and faces a trade-of
     
-[^54]: 动作状态相关的动态模型选择
+[^55]: 动作状态相关的动态模型选择
 
     Action-State Dependent Dynamic Model Selection. (arXiv:2307.04754v1 [cs.LG])
 
@@ -816,7 +831,7 @@
 
     A model among many may only be best under certain states of the world. Switching from a model to another can also be costly. Finding a procedure to dynamically choose a model in these circumstances requires to solve a complex estimation procedure and a dynamic programming problem. A Reinforcement learning algorithm is used to approximate and estimate from the data the optimal solution to this dynamic programming problem. The algorithm is shown to consistently estimate the optimal policy that may choose different models based on a set of covariates. A typical example is the one of switching between different portfolio models under rebalancing costs, using macroeconomic information. Using a set of macroeconomic variables and price data, an empirical application to the aforementioned portfolio problem shows superior performance to choosing the best portfolio model with hindsight.
     
-[^55]: 未观测到代理奖励的重复负责人代理博弈问题研究
+[^56]: 未观测到代理奖励的重复负责人代理博弈问题研究
 
     Repeated Principal-Agent Games with Unobserved Agent Rewards and Perfect-Knowledge Agents. (arXiv:2304.07407v1 [cs.LG])
 

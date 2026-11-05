@@ -14,37 +14,38 @@
 | [^10] | [Optimality of Separate Selling with Finite-Support Values](https://arxiv.org/abs/2611.06101) | 本文刻画了可加买家多物品拍卖中分离销售收益最优的充要条件：只要至少两件物品存在严格为正的非最高支撑值，分离销售对任意数量买家最优当且仅当最高价销售对单个买家最优，且该等价性在占优策略与贝叶斯激励相容下均成立。 |
 | [^11] | [Offline Learning of Reserve Prices from Censored Bids](https://arxiv.org/abs/2611.06067) | 本文在单调风险率假设下精确刻画了从删失出价数据中识别二价拍卖最优保留价格的条件，并在识别失败时给出仅依赖删失比例和最低历史保留价格处风险率这两个可观测量的极小极大遗憾最优保留价格。 |
 | [^12] | [Neural Score-Driven Volatility and Risk Forecasting](https://arxiv.org/abs/2611.05778) | 该论文提出一种基于轻量级神经网络表示分数的波动率模型，无需预设参数化新息分布即可灵活捕捉金融收益率的不对称性（如负偏度），从而提升波动率与风险预测的准确性。 |
-| [^13] | [The potential impact of fiscal rule changes on digital products trade](https://arxiv.org/abs/2611.05714) | 本研究首次系统比较了WTO电子传输关税暂停失效后，关税与数字服务税对数字产品贸易和财政收入的影响，发现在数字服务税基础上叠加或以等效关税替代之可大幅增加财政收入，但会小幅抑制数字贸易。 |
-| [^14] | [Inventory and Assortment Optimization under General Choice: A Unified Approximation Framework](https://arxiv.org/abs/2611.05708) | 该论文提出了一个统一近似框架，将一般选择模型下的联合库存与品类组合优化（涵盖全展示库存选择与动态品类个性化两类情形）归结为静态优化问题，并在确定性/泊松到达及IFR到达等情形下获得了多项式时间的近似保证。 |
-| [^15] | [Neural networks and games](https://arxiv.org/abs/2611.05706) | 本文的核心贡献是建立了对称二值Hopfield神经网络与具有二次势函数的二行动博弈之间的精确等价关系，将神经网络稳定状态映射为纳什均衡、异步更新映射为最优反应动态、记忆存储与提取映射为均衡的设计与选择。 |
-| [^16] | [Iterated Elimination of Dominated Mixed Strategies](https://arxiv.org/abs/2611.05705) | 在紧致连续博弈中，混合策略的迭代占优剔除最多比纯策略剔除程序落后一轮，且可通过仅针对对手纯策略的检验来逐轮等价刻画。 |
-| [^17] | [Learning to Design Information](https://arxiv.org/abs/2611.05701) | 本文构建了对策略性操纵鲁棒的学习算法，使信息设计者能够通过重复互动学习接收者的信念，并以 O(log²T/T) 的快速收敛速度在静态与动态两个基准下均实现无遗憾。 |
-| [^18] | [A General Theory of Dynamic Mechanism Design with Endogenous Information and Hidden Actions](https://arxiv.org/abs/2611.05692) | 该论文建立了一个同时纳入内生信息、隐藏行为以及广泛经济环境适用性的动态机制设计一般理论，引入联合完全相关贝叶斯均衡并建立动态显示原理，进而推导出动态信息租金恒等式、条件收益等价性和动态虚拟剩余等核心结果。 |
-| [^19] | [On the Theory of Multidimensional Stationary Random Processes (1941): Translation and Commentary](https://arxiv.org/abs/2611.05644) | 本工作翻译并评注了Zasukhin 1941年的经典短文，该文首次陈述了Wold分解的多变量推广——奇异与正则分量的正交分解、正则分量的单边移动平均表示以及基于谱密度矩阵行列式的满秩正则性谱判据。 |
-| [^20] | [Economic Policy Uncertainty Index for Poland: Data, Construction, and Validation](https://arxiv.org/abs/2611.05640) | 本文基于BBD报纸文本方法构建了波兰2000-2026年的月度经济政策不确定性指数，并利用链式拼接修正程序解决了报纸面板构成变化导致的指数跳变问题。 |
-| [^21] | [Debiased Conditional Independence Tests for Causal Effects](https://arxiv.org/abs/2611.05608) | 该论文针对存在处理选择偏差和高维结果的情形，提出了三种稳健的条件独立性检验方法——基于逆倾向加权统计量的条件随机化检验、双重残差化检验以及基于双稳健Neyman正交矩的增广逆倾向加权检验——用于因果效应检验。 |
-| [^22] | [Sensitivity Analysis in Population Shares](https://arxiv.org/abs/2611.05584) | 本文提出了一个统一的敏感性分析框架，通过可求解的有限维规划计算边界，量化当放松总体中一定比例个体的分布假设时目标估计量的敏感性，并提供区分模型误设不确定性与抽样不确定性的汇总度量。 |
-| [^23] | [Decision Models as Scalable Economic Surrogates that Capture Human Variation](https://arxiv.org/abs/2611.05553) | 本研究首次评估了决策模型在经济学中作为人类替代者的潜力，发现前沿决策模型在三种经济场景中比大语言模型更能再现人类回应的多样性，同时速度快约十倍，是大规模经济模拟与调查的更优选择。 |
-| [^24] | [Aggregating treatment effects across multiple outcomes](https://arxiv.org/abs/2611.05456) | 本文揭示了主成分分析、逆方差矩阵加权和标准化平均等常用结果汇总方法的缺陷，并提出了一种基于均方误差的统计决策理论方法，用以选择兼顾结果质量的非负权重来汇总处理效应。 |
-| [^25] | [Organizing Intelligence](https://arxiv.org/abs/2611.05417) | 该论文构建了一个智能如何影响经济组织的模型，指出AI专业知识可复制与协调能力可能突破人类极限这两大差异是驱动经济变革的关键，并证明即使AI能力超过普通人，互补型人类组织仍可能胜过AI。 |
-| [^26] | [Social Networks and the Propagation of Household Shocks to Asset Prices](https://arxiv.org/abs/2611.01540) | 该论文在社会网络上构建了一个金融加权的传播算子，证明家庭局部冲击会经由社会网络传播并影响信贷价格（超额债券溢价），且由于不同网络模式下响应衰减速率不同，没有任何单一中心性指标能概括跨期限的风险敞口，并以风暴冲击数据实证验证了这一机制。 |
-| [^27] | [How Different are Different Differences-in-Differences? A Large-Scale Meta-Analysis](https://arxiv.org/abs/2610.39995) | 通过对116篇经济学论文中1,430个渐进采用规范的大规模AI辅助复制分析，本研究发现双向固定效应估计与现代双重差分估计高度相关，表明TWFE的负权重问题在实践中可能不如理论担忧的那样严重。 |
-| [^28] | [A Bulow-Klemperer Theorem for Bundling and Improved Approximation Bounds for Simple Auctions](https://arxiv.org/abs/2610.24973) | 本文证明了捆绑销售版的Bulow-Klemperer定理：在正则独立物品下，仅需增加一个竞拍者，无保留价的整体捆绑二价拍卖即可达到单个竞拍者的最优收益，并给出紧的因子2捆绑近似界，解决了EC 2025的一个开放问题。 |
-| [^29] | [Endogenous supply-chain transformation via dynamically calibrated nonneutroelastic processing networks](https://arxiv.org/abs/2609.15452) | 本文提出一种利用网络物理上游拓扑结构的混合启发式算法，通过垂直级联顺序下降与水平块坐标下降的交替优化，克服了非凸性、病态性与维数灾难等难题，实现了级联CES生产函数结构参数的动态校准，从而为供应链内生转型建模提供了可行工具。 |
-| [^30] | [Curvature-Calibrated Quasi-Bayesian Updating for Moment-Restricted Models](https://arxiv.org/abs/2608.19634) | 该方法通过迭代校准权重矩阵，实现矩约束模型的拟贝叶斯后验更新，保证一致性和收缩性。 |
-| [^31] | [Valuation Reveals Uncertainty](https://arxiv.org/abs/2606.29572) | 本文证明在适当条件下，可以从可观测的动态次线性（稳健）估值规则中显式恢复出潜在的不确定性结构，从而刻画贴现因子与状态过程分布的联合不确定性。 |
-| [^32] | [Variable Bound Tightening for Nash Equilibrium Computation in Multiplayer Imperfect-Information Games](https://arxiv.org/abs/2606.25997) | 本文提出通过变量边界收紧技术来加速求解多人不完美信息博弈中纳什均衡的二次约束规划，从而提升非凸求解器的计算效率。 |
-| [^33] | [Solving Problems of Unknown Difficulty](https://arxiv.org/abs/2604.00156) | 本文构建了一个问题难度未知的动态求解模型，发现在无法区分失败源于“方法不佳”还是“问题困难”时，最优搜索会在尝试新方法与重新审视已放弃方法之间交替进行，并将其扩展到委托-代理环境中以分析探索行为上的道德风险问题。 |
-| [^34] | [Separating the Wheat from the Chaff](https://arxiv.org/abs/2601.00653) | 在声誉性空谈博弈中，裁判偏好极端发言者的偏误并不会导致夸大其词，反而能维系专家说真话，从而帮助识别真正的专家，这一结论可应用于基于人类反馈的AI聊天机器人训练和媒体竞争场景。 |
-| [^35] | [The Dynamic Theory of Economic Complexity](https://arxiv.org/abs/2512.10672) | 该论文提出了一个基于弱连接生产函数与跨活动共享能力积累的经济复杂性动态理论，预测了从无条件收敛到可调节条件收敛的转变以及路径依赖多样化机制，并通过国际贸易数据进行了实证检验。 |
-| [^36] | [A Granular Framework for Construction Material Price Forecasting: Econometric and Machine-Learning Approaches](https://arxiv.org/abs/2512.09360) | 本研究提出了一个基于CSI MasterFormat的建筑材料价格细粒度预测框架，能够在六位数字章节级别整合原材料价格与宏观经济指标等解释变量，并对比评估了LSTM、ARIMA、VECM、Transformer和Chronos-Bolt五种时间序列模型的预测性能。 |
-| [^37] | [Randomization and ambiguity perception](https://arxiv.org/abs/2509.05076) | 本文通过公理化方法揭示了模糊厌恶决策者回避事前随机化的原因——随机化会增加模糊事件数量却无法对冲不确定性，并建立了一个决策者以付出成本的方式优化模糊性感知的唯一表示，从而识别出对模糊性及其增加的态度。 |
-| [^38] | [A Financial Brain Scan of the LLM](https://arxiv.org/abs/2508.21285) | 该论文利用稀疏自编码器对大语言模型进行“金融大脑扫描”，实现对内部概念的可解释映射与精准引导，并揭示了模型自我解释与其真实内部推理之间存在明显脱节。 |
-| [^39] | [A Relaxation Approach to Synthetic Control](https://arxiv.org/abs/2508.01793) | 提出了SCM-relaxation方法，通过在松弛线性不等式约束下最小化权重的信息论度量，将稳定平衡框架引入合成控制方法，使其能处理供体池单元数多于时间期数的情形，并实现了oracle级的样本外预测性能与平均处理效应推断能力。 |
-| [^40] | [Pay and Beyond: The Evolving Rewards for AI Skills](https://arxiv.org/abs/2507.20410) | 该研究基于2018-2025年间约一千万条美国职位招聘数据，发现生成式AI问世后各规模企业对AI技能的需求均大幅激增，AI岗位不仅享有工资溢价（在中小企业中最为突出），还更普遍地提供远程办公、包容性文化和育儿假等非货币福利。 |
-| [^41] | [Robust Tournaments](https://arxiv.org/abs/2507.16348) | 本文刻画了在噪声分布未知（仅知香农熵上界）的排名锦标赛中最大化最低均衡努力水平的鲁棒奖金设计：除最后一名外所有名次均获得正奖金且渐近遵循调和数序列，该方案虽然高度不平等，但随参赛者人数增加而趋于公平（基尼系数趋近1/2）。 |
-| [^42] | [The Linear Programming Approach to Partially Identified Models](https://arxiv.org/abs/2503.14940) | 该论文提出了一种部分识别模型中线性规划值的去偏惩罚估计量，它在可行集非空有界时具有逐点根号n一致性和单侧一致保证，在排除弱识别条件下具有一致一致性，并据此开发了两种利用LP结构的推断方法。 |
-| [^43] | [Stochastic Optimal Control with Measurable Coefficients and Applications](https://arxiv.org/abs/2502.02352) | 该论文首次针对具有可测系数的完全非线性随机最优控制问题，利用 $L^p$-粘性解理论证明了 HJB 方程强解的存在性，建立最优性充要条件的验证定理，并据此构造最优反馈控制、刻画值函数的唯一性。 |
+| [^13] | [Priced In or Bet On? Cram-School Lessons, Jeonse Leases, and Expected Appreciation in Seoul](https://arxiv.org/abs/2611.05767) | 该论文利用2015–2026年首尔约220万条公寓销售与传贳合同数据发现，临近高中备考补习班的公寓售价溢价约11.8%、传贳押金溢价约7.3%，且押金溢价高于售价溢价，表明补习班的价值更多体现为居住与使用的便利，而非买方将其计入价格并押注未来升值。 |
+| [^14] | [The potential impact of fiscal rule changes on digital products trade](https://arxiv.org/abs/2611.05714) | 本研究首次系统比较了WTO电子传输关税暂停失效后，关税与数字服务税对数字产品贸易和财政收入的影响，发现在数字服务税基础上叠加或以等效关税替代之可大幅增加财政收入，但会小幅抑制数字贸易。 |
+| [^15] | [Inventory and Assortment Optimization under General Choice: A Unified Approximation Framework](https://arxiv.org/abs/2611.05708) | 该论文提出了一个统一近似框架，将一般选择模型下的联合库存与品类组合优化（涵盖全展示库存选择与动态品类个性化两类情形）归结为静态优化问题，并在确定性/泊松到达及IFR到达等情形下获得了多项式时间的近似保证。 |
+| [^16] | [Neural networks and games](https://arxiv.org/abs/2611.05706) | 本文的核心贡献是建立了对称二值Hopfield神经网络与具有二次势函数的二行动博弈之间的精确等价关系，将神经网络稳定状态映射为纳什均衡、异步更新映射为最优反应动态、记忆存储与提取映射为均衡的设计与选择。 |
+| [^17] | [Iterated Elimination of Dominated Mixed Strategies](https://arxiv.org/abs/2611.05705) | 在紧致连续博弈中，混合策略的迭代占优剔除最多比纯策略剔除程序落后一轮，且可通过仅针对对手纯策略的检验来逐轮等价刻画。 |
+| [^18] | [Learning to Design Information](https://arxiv.org/abs/2611.05701) | 本文构建了对策略性操纵鲁棒的学习算法，使信息设计者能够通过重复互动学习接收者的信念，并以 O(log²T/T) 的快速收敛速度在静态与动态两个基准下均实现无遗憾。 |
+| [^19] | [A General Theory of Dynamic Mechanism Design with Endogenous Information and Hidden Actions](https://arxiv.org/abs/2611.05692) | 该论文建立了一个同时纳入内生信息、隐藏行为以及广泛经济环境适用性的动态机制设计一般理论，引入联合完全相关贝叶斯均衡并建立动态显示原理，进而推导出动态信息租金恒等式、条件收益等价性和动态虚拟剩余等核心结果。 |
+| [^20] | [On the Theory of Multidimensional Stationary Random Processes (1941): Translation and Commentary](https://arxiv.org/abs/2611.05644) | 本工作翻译并评注了Zasukhin 1941年的经典短文，该文首次陈述了Wold分解的多变量推广——奇异与正则分量的正交分解、正则分量的单边移动平均表示以及基于谱密度矩阵行列式的满秩正则性谱判据。 |
+| [^21] | [Economic Policy Uncertainty Index for Poland: Data, Construction, and Validation](https://arxiv.org/abs/2611.05640) | 本文基于BBD报纸文本方法构建了波兰2000-2026年的月度经济政策不确定性指数，并利用链式拼接修正程序解决了报纸面板构成变化导致的指数跳变问题。 |
+| [^22] | [Debiased Conditional Independence Tests for Causal Effects](https://arxiv.org/abs/2611.05608) | 该论文针对存在处理选择偏差和高维结果的情形，提出了三种稳健的条件独立性检验方法——基于逆倾向加权统计量的条件随机化检验、双重残差化检验以及基于双稳健Neyman正交矩的增广逆倾向加权检验——用于因果效应检验。 |
+| [^23] | [Sensitivity Analysis in Population Shares](https://arxiv.org/abs/2611.05584) | 本文提出了一个统一的敏感性分析框架，通过可求解的有限维规划计算边界，量化当放松总体中一定比例个体的分布假设时目标估计量的敏感性，并提供区分模型误设不确定性与抽样不确定性的汇总度量。 |
+| [^24] | [Decision Models as Scalable Economic Surrogates that Capture Human Variation](https://arxiv.org/abs/2611.05553) | 本研究首次评估了决策模型在经济学中作为人类替代者的潜力，发现前沿决策模型在三种经济场景中比大语言模型更能再现人类回应的多样性，同时速度快约十倍，是大规模经济模拟与调查的更优选择。 |
+| [^25] | [Aggregating treatment effects across multiple outcomes](https://arxiv.org/abs/2611.05456) | 本文揭示了主成分分析、逆方差矩阵加权和标准化平均等常用结果汇总方法的缺陷，并提出了一种基于均方误差的统计决策理论方法，用以选择兼顾结果质量的非负权重来汇总处理效应。 |
+| [^26] | [Organizing Intelligence](https://arxiv.org/abs/2611.05417) | 该论文构建了一个智能如何影响经济组织的模型，指出AI专业知识可复制与协调能力可能突破人类极限这两大差异是驱动经济变革的关键，并证明即使AI能力超过普通人，互补型人类组织仍可能胜过AI。 |
+| [^27] | [Social Networks and the Propagation of Household Shocks to Asset Prices](https://arxiv.org/abs/2611.01540) | 该论文在社会网络上构建了一个金融加权的传播算子，证明家庭局部冲击会经由社会网络传播并影响信贷价格（超额债券溢价），且由于不同网络模式下响应衰减速率不同，没有任何单一中心性指标能概括跨期限的风险敞口，并以风暴冲击数据实证验证了这一机制。 |
+| [^28] | [How Different are Different Differences-in-Differences? A Large-Scale Meta-Analysis](https://arxiv.org/abs/2610.39995) | 通过对116篇经济学论文中1,430个渐进采用规范的大规模AI辅助复制分析，本研究发现双向固定效应估计与现代双重差分估计高度相关，表明TWFE的负权重问题在实践中可能不如理论担忧的那样严重。 |
+| [^29] | [A Bulow-Klemperer Theorem for Bundling and Improved Approximation Bounds for Simple Auctions](https://arxiv.org/abs/2610.24973) | 本文证明了捆绑销售版的Bulow-Klemperer定理：在正则独立物品下，仅需增加一个竞拍者，无保留价的整体捆绑二价拍卖即可达到单个竞拍者的最优收益，并给出紧的因子2捆绑近似界，解决了EC 2025的一个开放问题。 |
+| [^30] | [Endogenous supply-chain transformation via dynamically calibrated nonneutroelastic processing networks](https://arxiv.org/abs/2609.15452) | 本文提出一种利用网络物理上游拓扑结构的混合启发式算法，通过垂直级联顺序下降与水平块坐标下降的交替优化，克服了非凸性、病态性与维数灾难等难题，实现了级联CES生产函数结构参数的动态校准，从而为供应链内生转型建模提供了可行工具。 |
+| [^31] | [Curvature-Calibrated Quasi-Bayesian Updating for Moment-Restricted Models](https://arxiv.org/abs/2608.19634) | 该方法通过迭代校准权重矩阵，实现矩约束模型的拟贝叶斯后验更新，保证一致性和收缩性。 |
+| [^32] | [Valuation Reveals Uncertainty](https://arxiv.org/abs/2606.29572) | 本文证明在适当条件下，可以从可观测的动态次线性（稳健）估值规则中显式恢复出潜在的不确定性结构，从而刻画贴现因子与状态过程分布的联合不确定性。 |
+| [^33] | [Variable Bound Tightening for Nash Equilibrium Computation in Multiplayer Imperfect-Information Games](https://arxiv.org/abs/2606.25997) | 本文提出通过变量边界收紧技术来加速求解多人不完美信息博弈中纳什均衡的二次约束规划，从而提升非凸求解器的计算效率。 |
+| [^34] | [Solving Problems of Unknown Difficulty](https://arxiv.org/abs/2604.00156) | 本文构建了一个问题难度未知的动态求解模型，发现在无法区分失败源于“方法不佳”还是“问题困难”时，最优搜索会在尝试新方法与重新审视已放弃方法之间交替进行，并将其扩展到委托-代理环境中以分析探索行为上的道德风险问题。 |
+| [^35] | [Separating the Wheat from the Chaff](https://arxiv.org/abs/2601.00653) | 在声誉性空谈博弈中，裁判偏好极端发言者的偏误并不会导致夸大其词，反而能维系专家说真话，从而帮助识别真正的专家，这一结论可应用于基于人类反馈的AI聊天机器人训练和媒体竞争场景。 |
+| [^36] | [The Dynamic Theory of Economic Complexity](https://arxiv.org/abs/2512.10672) | 该论文提出了一个基于弱连接生产函数与跨活动共享能力积累的经济复杂性动态理论，预测了从无条件收敛到可调节条件收敛的转变以及路径依赖多样化机制，并通过国际贸易数据进行了实证检验。 |
+| [^37] | [A Granular Framework for Construction Material Price Forecasting: Econometric and Machine-Learning Approaches](https://arxiv.org/abs/2512.09360) | 本研究提出了一个基于CSI MasterFormat的建筑材料价格细粒度预测框架，能够在六位数字章节级别整合原材料价格与宏观经济指标等解释变量，并对比评估了LSTM、ARIMA、VECM、Transformer和Chronos-Bolt五种时间序列模型的预测性能。 |
+| [^38] | [Randomization and ambiguity perception](https://arxiv.org/abs/2509.05076) | 本文通过公理化方法揭示了模糊厌恶决策者回避事前随机化的原因——随机化会增加模糊事件数量却无法对冲不确定性，并建立了一个决策者以付出成本的方式优化模糊性感知的唯一表示，从而识别出对模糊性及其增加的态度。 |
+| [^39] | [A Financial Brain Scan of the LLM](https://arxiv.org/abs/2508.21285) | 该论文利用稀疏自编码器对大语言模型进行“金融大脑扫描”，实现对内部概念的可解释映射与精准引导，并揭示了模型自我解释与其真实内部推理之间存在明显脱节。 |
+| [^40] | [A Relaxation Approach to Synthetic Control](https://arxiv.org/abs/2508.01793) | 提出了SCM-relaxation方法，通过在松弛线性不等式约束下最小化权重的信息论度量，将稳定平衡框架引入合成控制方法，使其能处理供体池单元数多于时间期数的情形，并实现了oracle级的样本外预测性能与平均处理效应推断能力。 |
+| [^41] | [Pay and Beyond: The Evolving Rewards for AI Skills](https://arxiv.org/abs/2507.20410) | 该研究基于2018-2025年间约一千万条美国职位招聘数据，发现生成式AI问世后各规模企业对AI技能的需求均大幅激增，AI岗位不仅享有工资溢价（在中小企业中最为突出），还更普遍地提供远程办公、包容性文化和育儿假等非货币福利。 |
+| [^42] | [Robust Tournaments](https://arxiv.org/abs/2507.16348) | 本文刻画了在噪声分布未知（仅知香农熵上界）的排名锦标赛中最大化最低均衡努力水平的鲁棒奖金设计：除最后一名外所有名次均获得正奖金且渐近遵循调和数序列，该方案虽然高度不平等，但随参赛者人数增加而趋于公平（基尼系数趋近1/2）。 |
+| [^43] | [The Linear Programming Approach to Partially Identified Models](https://arxiv.org/abs/2503.14940) | 该论文提出了一种部分识别模型中线性规划值的去偏惩罚估计量，它在可行集非空有界时具有逐点根号n一致性和单侧一致保证，在排除弱识别条件下具有一致一致性，并据此开发了两种利用LP结构的推断方法。 |
+| [^44] | [Stochastic Optimal Control with Measurable Coefficients and Applications](https://arxiv.org/abs/2502.02352) | 该论文首次针对具有可测系数的完全非线性随机最优控制问题，利用 $L^p$-粘性解理论证明了 HJB 方程强解的存在性，建立最优性充要条件的验证定理，并据此构造最优反馈控制、刻画值函数的唯一性。 |
 
 # 详细
 
@@ -216,7 +217,21 @@
 
     arXiv:2611.05778v1 Announce Type: new  Abstract: We develop a score-driven volatility model in which no particular parametric innovation distribution needs to be specified. The proposed method relies on a lightweight neural network to represent the negative score of the innovation density. By integrating and normalizing the learned score and imposing location-scale identification, we recover a flexible innovation density that can accommodate asymmetry, including negative skewness commonly observed in financial returns. Two estimation procedures are considered. A two-step procedure estimates the neural score by score matching and subsequently fits the volatility recursion with the identified density held fixed. A one-step procedure jointly refines the neural and volatility parameters under the conditional likelihood. We illustrate the practical relevance of the proposed method using eight international equity indices, with a separate evaluation of the high-volatility first half of 2020.
     
-[^13]: 财政规则变化对数字产品贸易的潜在影响
+[^13]: 已计入价格还是押注未来？补习班课程、传贳租约与首尔的预期升值
+
+    Priced In or Bet On? Cram-School Lessons, Jeonse Leases, and Expected Appreciation in Seoul
+
+    [https://arxiv.org/abs/2611.05767](https://arxiv.org/abs/2611.05767)
+
+    该论文利用2015–2026年首尔约220万条公寓销售与传贳合同数据发现，临近高中备考补习班的公寓售价溢价约11.8%、传贳押金溢价约7.3%，且押金溢价高于售价溢价，表明补习班的价值更多体现为居住与使用的便利，而非买方将其计入价格并押注未来升值。
+
+    
+
+    韩国家庭在“学院”上投入巨大，这类私立补习班专门帮助学生备战大学入学考试。本文探讨入学补习的便利在住房市场中价值几何，以及这一溢价中是否包含预期升值的成分。研究利用2015年至2026年间2,197,510笔首尔公寓销售与传贳（一次性押金租赁）合同数据，并借助一套新的营业地址地理编码工具进行定位，在同一初中划片区域和同一月份内对不同公寓进行比较。临近面向高中生备考补习班的公寓售价与押金均更高：在500米范围内，从补习班可达性的中位数小区移动到第97百分位小区，对应售价高出11.8%、传贳押金高出7.3%；若控制小区规模不变，则分别为5.6%和5.9%。在控制上述因素后，面向低龄儿童的补习班不会带来额外的售价溢价。在不同小区之间，押金溢价高于售价溢价，这反映了便利性因素：买方支付低于……（摘要原文在此处截断）
+
+    arXiv:2611.05767v1 Announce Type: new  Abstract: South Korean families spend heavily on hagwons, private cram schools that prepare students for the university entrance exam. This paper asks what access to them is worth in housing and whether the premium includes expected appreciation. Using 2,197,510 Seoul apartment sales and jeonse (lump-sum deposit lease) contracts from 2015 to 2026, located with a new business-address geocoder, the analysis compares flats within the same middle-school assignment zone and month. Flats near hagwons preparing high-school students for the exam sell and lease for more: moving from the median complex to the 97th percentile of such hagwons within 500 meters is associated with sale prices 11.8% and jeonse deposits 7.3% higher, or 5.6% and 5.9% with complex size held fixed. Hagwons teaching younger children add no sale premium once these are held fixed. A larger premium in deposits than in prices across complexes reflects convenience: buyers pay less than re
+    
+[^14]: 财政规则变化对数字产品贸易的潜在影响
 
     The potential impact of fiscal rule changes on digital products trade
 
@@ -230,7 +245,7 @@
 
     arXiv:2611.05714v1 Announce Type: new  Abstract: The WTO moratorium on customs duties on electronic transmissions lapsed in March 2026, allowing governments to impose tariffs on cross-border digital products, alongside other instruments such as digital services taxes (DSTs). Yet, how tariffs and DSTs compare in the revenue they raise and their effect on trade in digital products has not yet been assessed. Here we combine bilateral trade in 31 digital product categories in 2016-2024 with DST rates and tariffs on physical analogues, estimate gravity models and simulate alternative fiscal regimes. We find that digital trade is lower in destinations with a DST, but within destinations it declines only temporarily after adoption. In conditional scenarios for 2024 based on the event study estimate, adding tariff equivalents to DSTs raises revenue from USD 2.7 to 6.9 billion and lowers trade by about 1.4%, and replacing DSTs with tariff equivalents raises USD 4.3 billion. We also find that ta
     
-[^14]: 一般选择模型下的库存与品类组合优化：统一近似框架
+[^15]: 一般选择模型下的库存与品类组合优化：统一近似框架
 
     Inventory and Assortment Optimization under General Choice: A Unified Approximation Framework
 
@@ -244,7 +259,7 @@
 
     arXiv:2611.05708v1 Announce Type: cross  Abstract: We study joint inventory and assortment optimization under general substitutable choice models. Before a selling horizon, a decision maker chooses initial inventories subject to a capacity constraint on total units stocked, and customers then arrive sequentially and choose among the offered products. We consider two settings, show-all inventory selection, in which every in-stock product must be offered, and dynamic assortment personalization, in which the decision maker observes each customer's type and may adapt the offered assortment to remaining inventory and purchase history. We develop a unified framework linking each setting to a static optimization problem. For show-all inventory selection, a polynomial-time $\alpha$-approximation for cardinality-constrained static assortment optimization yields guarantees of $0.486\alpha$ under deterministic or Poisson arrivals and $0.4328\alpha$ under increasing-failure-rate (IFR) arrivals. Fo
     
-[^15]: 神经网络与博弈
+[^16]: 神经网络与博弈
 
     Neural networks and games
 
@@ -258,7 +273,7 @@
 
     arXiv:2611.05706v1 Announce Type: cross  Abstract: Hopfield neural networks and noncooperative games provide seemingly different approaches to understanding how collective outcomes emerge from local interactions. In a neural network, individual units adjust their states according to local signals; in a game, players choose actions to maximise individual payoffs. I establish an exact equivalence between symmetric binary Hopfield networks and binary-action games that admit a quadratic potential. The equivalence identifies stable network configurations with pure-strategy Nash equilibria, and asynchronous neural updating with best-response dynamics. More broadly, the storage and retrieval of memories in neural networks correspond, respectively, to the design and selection of equilibria in games.
     
-[^16]: 被支配混合策略的迭代剔除
+[^17]: 被支配混合策略的迭代剔除
 
     Iterated Elimination of Dominated Mixed Strategies
 
@@ -272,7 +287,7 @@
 
     arXiv:2611.05705v1 Announce Type: new  Abstract: This note compares two iterated dominance procedures, one based on eliminating mixed strategies and one based on eliminating pure strategies. It shows that, in compact and continuous games, the mixed-strategy procedure can trail the pure-strategy procedure by at most one round: If the pure-strategy procedure terminates at round $M$, the mixed-strategy procedure terminates at either $M$ or $M+1$, and this bound is tight. It also provides two characterizations of the mixed-strategy procedure that are round-for-round equivalent to it and that require checking for improvements only against opponents' pure strategies.
     
-[^17]: 学习设计信息
+[^18]: 学习设计信息
 
     Learning to Design Information
 
@@ -286,7 +301,7 @@
 
     arXiv:2611.05701v1 Announce Type: new  Abstract: Information designers, such as large language models and online platforms, often do not know the subjective beliefs of their receivers or users. We construct learning algorithms enabling the designer to learn the belief of a strategic receiver through repeated interactions. Our learning algorithms are robust to the receiver's strategic manipulation of the learning process of the designer. We study regret relative to two benchmarks to measure the performance of the algorithms. The static benchmark is $T$ times the single-period optimum for the designer under a known belief. The dynamic benchmark, which is stronger, characterizes global dynamic optimality for the designer under a known belief. Our learning algorithms allow the designer to achieve no regret against both benchmarks at fast convergence speeds of $O(\frac{\log^2 T}{T})$, significantly faster than other approaches in the literature.
     
-[^18]: 内生信息与隐藏行为下动态机制设计的一般理论
+[^19]: 内生信息与隐藏行为下动态机制设计的一般理论
 
     A General Theory of Dynamic Mechanism Design with Endogenous Information and Hidden Actions
 
@@ -300,7 +315,7 @@
 
     arXiv:2611.05692v1 Announce Type: new  Abstract: We develop a general theory of dynamic mechanism design along two dimensions: joint endogeneity and interaction of hidden actions, information production, and disclosure; and generality across economic environments and feasibility structures. We accommodate correlated private information, interdependent preferences, and potentially infinite-dimensional allocations. We introduce joint perfect correlated Bayesian equilibrium, establish a dynamic revelation principle under this concept, and recursively characterize incentive compatibility. Focusing on a private-values environment allows us to characterize joint incentives through choice optimality, reporting-envelope first-order conditions, global integral monotonicity, and history-report incentives. We derive an exact dynamic information-rent identity, conditional revenue equivalence, and dynamic virtual surplus. Comparing first-best, two second-best, and third-best contracts distinguishes
     
-[^19]: 论多维平稳随机过程理论（1941年）：翻译与评注
+[^20]: 论多维平稳随机过程理论（1941年）：翻译与评注
 
     On the Theory of Multidimensional Stationary Random Processes (1941): Translation and Commentary
 
@@ -314,7 +329,7 @@
 
     arXiv:2611.05644v1 Announce Type: new  Abstract: This edition provides an English translation and commentary on V. N. Zasukhin's 1941 note "On the Theory of Multidimensional Stationary Random Processes," originally published in Doklady Akademii Nauk SSSR, 33(7-8), 435-437. The note states a multivariate extension of Wold's decomposition: an orthogonal decomposition into singular and regular components, a one-sided moving-average representation of the regular component in terms of orthonormal innovation sequences, and a spectral criterion for regularity of full rank. The latter combines absolute continuity of the spectral functions with positivity and logarithmic integrability of the determinant of the spectral density matrix. Whittle (1953) explicitly credited Zasukhin with the multivariate generalization. The original results are presented without detailed proofs. A separate editorial note discusses their historical reception and explains the terminology. A retypeset Russian transcrip
     
-[^20]: 波兰经济政策不确定性指数：数据、构建与验证
+[^21]: 波兰经济政策不确定性指数：数据、构建与验证
 
     Economic Policy Uncertainty Index for Poland: Data, Construction, and Validation
 
@@ -328,7 +343,7 @@
 
     arXiv:2611.05640v1 Announce Type: new  Abstract: We construct a continuous monthly Economic Policy Uncertainty (EPU) index for Poland spanning January 2000 to June 2026, following the newspaper-based Baker-Bloom-Davis (BBD) methodology. The index uses six deep-history Polish newspapers (Rzeczpospolita, Parkiet, Gazeta Wyborcza, Dziennik Gazeta Prawna, Gazeta Polska Codziennie, and Puls Biznesu), scaled by article volume, standardized to unit standard deviation over a fixed 2000-2024 baseline (300 months), averaged across available papers each period, and normalized so the baseline mean equals 100.   Because newspapers enter the panel at different dates, a naive expanding-panel average can jump at each entry point from a change in composition rather than real uncertainty. We correct for this using the BBD Appendix A splicing procedure: a backward chain-splice from the richest six-paper anchor panel that matches dispersion via a multiplicative scale factor and matches level via a multipl
     
-[^21]: 因果效应的去偏条件独立性检验
+[^22]: 因果效应的去偏条件独立性检验
 
     Debiased Conditional Independence Tests for Causal Effects
 
@@ -342,7 +357,7 @@
 
     arXiv:2611.05608v1 Announce Type: new  Abstract: We propose robust tests for causal effects on potentially high-dimensional outcomes where there may be selection into treatment. These tests measure conditional independence of outcomes from treatment assignment by asking whether treatment can be predicted from outcomes more accurately than from covariates alone. We design three such tests of conditional independence. First, we propose a conditional randomization test based on an inverse propensity weighted mean squared error test statistic. If the propensity score is known, the test controls size in finite samples. Second, we propose a double-residualization approach, where we partial out covariate effects from both treatment and outcome-based treatment predictions, and test whether the correlation between the residuals is zero. Third, we propose a test based on an augmented inverse propensity weighted estimator built around doubly robust, Neyman-orthogonal population moments that are n
     
-[^22]: 总体比例的敏感性分析
+[^23]: 总体比例的敏感性分析
 
     Sensitivity Analysis in Population Shares
 
@@ -356,7 +371,7 @@
 
     arXiv:2611.05584v1 Announce Type: new  Abstract: Empirical work often relies on assumptions on the distribution of random variables, such as potential outcomes or latent variables, to identify some parameter of interest. We introduce a unified framework for assessing the sensitivity of a target estimand to relaxing these distributional assumptions for a given share of the population. We derive bounds on the values the estimand can take as this share varies between 0 and 1, and compute the bounds using tractable finite-dimensional programs. We propose plug-in estimators for the bounds and characterize their large sample properties. We also show that our bounds recover exact nonparametric sharp bounds at no additional computational cost, and introduce summary measures that separate misspecification uncertainty from sampling uncertainty and rank studies by their robustness. We apply our framework to assess the robustness of (i) average treatment effects in randomized experiments with attr
     
-[^23]: 决策模型：能够捕捉人类差异的可扩展经济替代模型
+[^24]: 决策模型：能够捕捉人类差异的可扩展经济替代模型
 
     Decision Models as Scalable Economic Surrogates that Capture Human Variation
 
@@ -370,7 +385,7 @@
 
     arXiv:2611.05553v1 Announce Type: cross  Abstract: Decision Models (DMs), a new class of AI models, give fast responses and return a probability distribution over a fixed set of options. These properties make them candidate human surrogates in economic simulations and surveys, a role increasingly filled by Large Language Models (LLMs), which are costly at scale and under-represent the variation in human behaviour. We present a first evaluation of DMs as human surrogates in economics, comparing 10 DMs with 8 LLMs in three economic settings: a household spending survey on consumption, several classic economic games and a labour-market field experiment. Frontier DMs, those that score highest on general decision-making benchmarks, reproduce the variation in human responses more closely than LLMs in all three settings. They capture the modal human response as well as LLMs in the spending survey, but less well in the economic games. Frontier DMs are also roughly ten times faster than the fas
     
-[^24]: 跨多个结果汇总处理效应
+[^25]: 跨多个结果汇总处理效应
 
     Aggregating treatment effects across multiple outcomes
 
@@ -384,7 +399,7 @@
 
     arXiv:2611.05456v1 Announce Type: new  Abstract: Researchers often aggregate outcomes to estimate treatment effects on abstract concepts, such as "crime" or "wealth." First, I document that principal component analysis (PCA), inverse variance matrix (IVM) weighting, and standardized averaging (SA) are commonly used but have unexpected shortcomings. PCA can assign negative weights, need not maximize precision, depends on an arbitrary sign normalization, and can have nonstandard asymptotics. Unlike SA, IVM can assign negative weights, but neither necessarily maximizes precision. Second, I develop a statistical decision-theoretic approach that uses mean-squared error to choose nonnegative weights while accounting for outcome quality. I revisit a study on social distancing.
     
-[^25]: 组织智能
+[^26]: 组织智能
 
     Organizing Intelligence
 
@@ -398,7 +413,7 @@
 
     arXiv:2611.05417v1 Announce Type: new  Abstract: When will advances in AI lead to economic transformation? We develop a model of how intelligence, the ability to achieve goals, matters for organizations, the key unit of economic production. Agents (human or AI) with multidimensional capabilities sort endogenously into competing firms. A firm's productivity depends on its agents' capabilities; we distinguish competence, which shifts productivity levels, from coordination, which governs how productivity scales with size. Two differences between AI and humans drive transformation: AI expertise is reproducible while humans' are in fixed supply, and AIs may not face the same human limits on coordination. We analyze how equilibrium market structure, productivity, employment, and wages evolve as AI capabilities improve. When AI is more capable than the average human, organizations of complementary humans can nonetheless outperform AI. Increases in AI competence can change the composition of w
     
-[^26]: 社会网络与家庭冲击向资产价格的传播
+[^27]: 社会网络与家庭冲击向资产价格的传播
 
     Social Networks and the Propagation of Household Shocks to Asset Prices
 
@@ -412,7 +427,7 @@
 
     arXiv:2611.01540v1 Announce Type: new  Abstract: When can local household disturbances move credit prices? I develop a financially weighted propagation operator on the social network. In a conditional household-intermediary equilibrium, its projection determines the household-demand component of the excess bond premium. Because responses decay at different rates across network patterns and channels, a location's relative financial importance generically changes with the horizon, so no single centrality measure summarizes exposure across horizons. Household measurements recover this projection exactly when they span independently measured demand sensitivities. Empirically, social exposure to storm-damaged counties is negatively associated with spending weeks later in counties outside the recorded footprints. In simulations on the observed network under the model's diffusion law, the operator predicts the propagated credit-premium component of held-out storms with about 30 percent less e
     
-[^27]: 不同的双重差分法之间有多大差异？一项大规模元分析
+[^28]: 不同的双重差分法之间有多大差异？一项大规模元分析
 
     How Different are Different Differences-in-Differences? A Large-Scale Meta-Analysis
 
@@ -426,7 +441,7 @@
 
     arXiv:2610.39995v2 Announce Type: replace  Abstract: I use AI-assisted replication to assess the empirical importance of negative weights in two-way fixed effects (TWFE) estimation, analyzing 1,430 staggered-adoption specifications from 116 economics papers. TWFE estimates are highly correlated with modern difference-in-differences estimates, with sign reversals in 12.0-14.9% of comparisons and greater precision for TWFE. Hierarchical models accounting for estimation noise imply estimand correlations of 91-97% and a 0.7-2.4% probability of a statistically significant TWFE estimate opposing the modern estimand's sign. These findings suggest negative weights may be a less serious problem in practice and illustrate how AI can support systematic, large-scale empirical assessments of new econometric methods.
     
-[^28]: 捆绑销售的Bulow-Klemperer定理及简单拍卖的改进近似界
+[^29]: 捆绑销售的Bulow-Klemperer定理及简单拍卖的改进近似界
 
     A Bulow-Klemperer Theorem for Bundling and Improved Approximation Bounds for Simple Auctions
 
@@ -440,7 +455,7 @@
 
     arXiv:2610.24973v2 Announce Type: replace-cross  Abstract: We study simple auctions for one additive bidder whose values for $m$ items are independent. Write $\mathrm{REV}$ for the optimal revenue, $\mathrm{SREV}$ and $\mathrm{BREV}$ for the optimal revenues from separate selling and grand bundling, and $\mathrm{BSPA}_2$ for the grand-bundle second-price revenue with two independent bidders.   For independent regular items, we prove $\mathrm{REV} \le \mathrm{BSPA}_2 \le 2\,\mathrm{BREV}$. Thus, one additional bidder lets a reserve-free second-price auction for the grand bundle match the optimal revenue from one bidder, regardless of the number of items. This gives a Bulow-Klemperer theorem for bundling and resolves an open question of Beyhaghi, Cai, Feng, Li, and Weinberg (EC 2025) on whether constant competition suffices for bundling. The factor-$2$ bundling approximation is also tight.   For general independent items, we prove $\mathrm{REV} \le \mathrm{SREV} + \frac{\pi^2}{6}\mathrm{
     
-[^29]: 基于动态校准的非中性弹性加工网络的内生供应链转型
+[^30]: 基于动态校准的非中性弹性加工网络的内生供应链转型
 
     Endogenous supply-chain transformation via dynamically calibrated nonneutroelastic processing networks
 
@@ -454,7 +469,7 @@
 
     arXiv:2609.15452v1 Announce Type: new  Abstract: Understanding how supply chains endogenously transform requires a parametric model of processing networks with non-neutral substitution elasticities. While the Cascaded CES (CCES) production function provides a rigorous framework for these multi-layered linkages, dynamically calibrating its structural parameters from time-series data constitutes a highly non-convex inverse optimization problem. Enforcing the strict microeconomic concavity constraint causes standard monolithic approach to fail due to extreme ill-conditioning and the curse of dimensionality. To overcome this computational bottleneck, we propose a novel structure-exploiting algorithm. By leveraging the physical upstreamness topology of the network, our hybrid heuristic alternates between a vertical cascade-sequential descent and a horizontal block coordinate descent. Our framework successfully calibrates the fundamental elasticities of a 10-sector marcoeconomic model of the
     
-[^30]: 曲率校准的拟贝叶斯更新用于矩约束模型
+[^31]: 曲率校准的拟贝叶斯更新用于矩约束模型
 
     Curvature-Calibrated Quasi-Bayesian Updating for Moment-Restricted Models
 
@@ -468,7 +483,7 @@
 
     arXiv:2608.19634v1 Announce Type: cross  Abstract: Moment restrictions provide a flexible basis for quasi-Bayesian inference when a full likelihood is unavailable, but the weighting matrix in a quadratic moment criterion determines both the relative importance of the moments and the information scale of posterior updating. We propose curvature-calibrated quasi-Bayesian updating, which uses the inverse of the covariance (or long-run covariance) of the moment conditions evaluated at a self-consistent quasi-posterior center. The resulting fixed-point procedure alternates between covariance estimation and simulation from a fixed-weight quasi-posterior, thereby avoiding parameter-dependent weighting during each simulation run. Under a Bernstein-von Mises condition for the fixed-weight quasi-posterior at the efficient population weight, we show that the calibration map is locally contractive, that its fixed point is consistent at the standard parametric rate, and that the Gaussian approximat
     
-[^31]: 估值揭示不确定性
+[^32]: 估值揭示不确定性
 
     Valuation Reveals Uncertainty
 
@@ -482,7 +497,7 @@
 
     arXiv:2606.29572v2 Announce Type: replace-cross  Abstract: This paper studies the recovery of uncertainty from dynamic sublinear valuation rules. Robust valuation assigns each payoff its worst-case expected value over a family of plausible models, thereby inducing a dynamic sublinear valuation rule. While valuation rules are observable in practice, the underlying uncertainty structure remains latent. Under suitable conditions, we show that an uncertainty structure can be recovered from an observed valuation rule and provide an explicit recovery procedure. The construction characterizes the joint uncertainty in the discount factor and the law of the state process.
     
-[^32]: 多人不完美信息博弈中纳什均衡计算的变量边界收紧方法
+[^33]: 多人不完美信息博弈中纳什均衡计算的变量边界收紧方法
 
     Variable Bound Tightening for Nash Equilibrium Computation in Multiplayer Imperfect-Information Games
 
@@ -496,7 +511,7 @@
 
     arXiv:2606.25997v3 Announce Type: replace-cross  Abstract: There has been significant recent progress in algorithms for approximation of Nash equilibrium in large two-player zero-sum imperfect-information games and exact computation of Nash equilibrium in multiplayer strategic-form games. While counterfactual regret minimization and fictitious play are scalable to large games and have convergence guarantees in two-player zero-sum games, they do not guarantee convergence to Nash equilibrium in multiplayer games. Recently, an approach has been presented for exact computation of Nash equilibrium in multiplayer imperfect-information games that solves a quadratically constrained program based on a nonlinear complementarity problem formulation derived from the sequence-form game representation. This formulation was solved using Gurobi's nonconvex quadratic solver, which employs spatial branch-and-bound to iteratively refine variable bounds by solving convex relaxations of bilinear terms. Dur
     
-[^33]: 求解难度未知的问题
+[^34]: 求解难度未知的问题
 
     Solving Problems of Unknown Difficulty
 
@@ -510,7 +525,7 @@
 
     arXiv:2604.00156v2 Announce Type: replace  Abstract: This paper studies how uncertainty about problem difficulty shapes problem-solving strategies. I develop a dynamic model where an agent solves a problem by brainstorming approaches of unknown quality and allocating a fixed effort budget among them. Success arrives from spending effort pursuing good approaches, at a rate determined by the unknown problem difficulty. The agent balances costly exploration (expanding the set of approaches) with exploitation (pursuing existing approaches). Failures could signal either a bad idea or a hard problem, and this uncertainty generates novel dynamics: optimal search alternates between trying new approaches and revisiting previously abandoned ones. I then examine a principal-agent environment, where moral hazard arises on the intensive margin: how the agent explores. Dynamic commitment creates a frontloading force, which can be counteracted by the presence of learning. The framework reflects scien
     
-[^34]: 去芜存菁：如何辨别真专家与冒牌者
+[^35]: 去芜存菁：如何辨别真专家与冒牌者
 
     Separating the Wheat from the Chaff
 
@@ -524,7 +539,7 @@
 
     arXiv:2601.00653v2 Announce Type: replace  Abstract: We study a reputational cheap-talk environment in which a judge chooses between two speakers of unknown expertise, an expert and a quack. Both speakers seek to be selected, while the judge wishes to identify the expert. The best equilibrium for the judge features truth-telling by the expert, yet the judge favors speakers with more extreme messages. This bias toward extremism does not induce exaggeration, but instead sustains truthful communication. We characterize the quack's equilibrium messaging strategy, relating the degree to which it panders to the judge's prior to the state distribution, the speakers' initial reputations, and the judge's private knowledge of the state. We interpret these results in the context of two applications, the post-training of AI chatbots through human feedback and media competition.
     
-[^35]: 经济复杂性的动态理论
+[^36]: 经济复杂性的动态理论
 
     The Dynamic Theory of Economic Complexity
 
@@ -538,7 +553,7 @@
 
     arXiv:2512.10672v2 Announce Type: replace  Abstract: Why do some activities grow faster in some economies than others? We develop a dynamic model of economic complexity in which output is determined by a weak-link production function and investment contributes to the accumulation of capabilities shared across activities. We test the model empirically by exploring two of its predictions. First, the model predicts that the capability stock at which the accumulation of a capability is fastest increases with the capability requirements of an activity. This implies a transition from unconditional to conditional convergence and a tunable conditional convergence regime. Second, shared capabilities provide a mechanism for path-dependent diversification (the principle of relatedness), including signs for the expected interaction terms between relatedness and complexity terms in regressions exploring growth by economy and activity. We evaluate these predictions using international trade, and sub
     
-[^36]: 建筑材料价格预测的细粒度框架：计量经济学与机器学习方法
+[^37]: 建筑材料价格预测的细粒度框架：计量经济学与机器学习方法
 
     A Granular Framework for Construction Material Price Forecasting: Econometric and Machine-Learning Approaches
 
@@ -552,7 +567,7 @@
 
     arXiv:2512.09360v2 Announce Type: replace  Abstract: The persistent volatility of construction material prices poses significant risks to cost estimation, budgeting, and project delivery, underscoring the urgent need for granular and scalable forecasting methods. This study develops a forecasting framework that leverages the Construction Specifications Institute (CSI) MasterFormat as the target data structure, enabling predictions at the six-digit Section level and supporting detailed cost projections across a wide spectrum of building materials. To enhance predictive accuracy, the framework integrates explanatory variables such as raw material prices, commodity indexes, and macroeconomic indicators. Five time-series models, long short-term memory (LSTM), autoregressive integrated moving average (ARIMA), vector error correction model (VECM), vanilla Transformer, and Chronos-Bolt, were evaluated under both baseline configurations (using CSI data only) and extended versions with explanat
     
-[^37]: 随机化与模糊性感知
+[^38]: 随机化与模糊性感知
 
     Randomization and ambiguity perception
 
@@ -566,7 +581,7 @@
 
     arXiv:2509.05076v3 Announce Type: replace  Abstract: Ambiguity-averse decision makers typically dislike not only the presence of ambiguous events but also their increase, contrary to what standard ambiguity models predict. We axiomatically study such a decision maker. She avoids ex ante randomization over prospects since it increases the number of relevant ambiguous events without providing a hedge against uncertainty. Our axioms lead to a representation in which the decision maker behaves as if she optimizes her ambiguity perception at a cost. We show the uniqueness of the representation and conduct comparatives of attitudes toward ambiguity and its increase. This identification is not achieved without considering ex ante randomization.
     
-[^38]: 大语言模型的金融大脑扫描
+[^39]: 大语言模型的金融大脑扫描
 
     A Financial Brain Scan of the LLM
 
@@ -580,7 +595,7 @@
 
     arXiv:2508.21285v4 Announce Type: replace-cross  Abstract: We use sparse autoencoders (SAEs) to "brain scan" large language models, mapping internal activations to interpretable concepts and enabling targeted "steering" of specific features. We show that prompting models to adopt specific preferences activates many unintended concepts, complicating causal inference. In contrast, SAEs permit smooth, more isolated steering of target concepts. Furthermore, our scans reveal a stark disconnect between the model's internal feature contributions and its self-generated explanations, showing that these explanations are unreliable guides to its reasoning. Finally, SAEs provide a lightweight intervention for existing models, producing interpretable embeddings and allowing researchers to attenuate specific economic biases.
     
-[^39]: 合成控制的一种松弛方法
+[^40]: 合成控制的一种松弛方法
 
     A Relaxation Approach to Synthetic Control
 
@@ -594,7 +609,7 @@
 
     arXiv:2508.01793v3 Announce Type: replace  Abstract: The synthetic control method (SCM) is widely used for constructing the counterfactual of a treated unit based on data from control units in a donor pool. Allowing the donor pool to contain more control units than time periods, we propose SCM-relaxation, an adaptation of the stable-balancing framework to the synthetic control setting. This approach minimizes an information-theoretic measure of the weights subject to a set of relaxed linear inequality constraints in addition to the simplex constraint. When the donor pool exhibits a group structure, SCM-relaxation approximates the equal weights within each group to diversify the prediction risk. Asymptotically, the proposed estimator achieves oracle performance in terms of out-of-sample prediction accuracy, and can be used to conduct inference about the average treatment effect on the treated. Our empirical application assesses the economic impact of Brexit on the United Kingdom's real 
     
-[^40]: 不止于薪酬：AI技能回报的演变
+[^41]: 不止于薪酬：AI技能回报的演变
 
     Pay and Beyond: The Evolving Rewards for AI Skills
 
@@ -608,7 +623,7 @@
 
     arXiv:2507.20410v4 Announce Type: replace  Abstract: This study examines the monetary and non-monetary rewards advertised in job vacancies requiring artificial intelligence skills in the U.S. labor market. Using approximately ten million online job vacancies posted between 2018 and 2025, we examine the development of AI demand, wage premia, and non-monetary benefits, including tuition assistance, paid leave, health and well-being programs, parental leave, inclusive workplace language, and remote work, across firms of different sizes. We find that demand for AI skills increased sharply following the introduction of generative AI in late 2022 across small and medium-sized enterprises (SMEs), large firms, and S&P 500 firms, while AI wage premia rose most strongly among SMEs. AI vacancies are significantly more likely than comparable non-AI roles to advertise non-monetary benefits, particularly remote work, inclusive culture, and parental leave. This premium is strongest among SMEs and lar
     
-[^41]: 鲁棒锦标赛
+[^42]: 鲁棒锦标赛
 
     Robust Tournaments
 
@@ -622,7 +637,7 @@
 
     arXiv:2507.16348v2 Announce Type: replace  Abstract: We characterize robust tournament design---the prize scheme that maximizes the lowest equilibrium effort in a rank-order tournament where the distribution of noise is unknown, except for an upper bound, $\bar{H}$, on its Shannon entropy. The robust tournament awards positive prizes to all ranks except the last, with a distinct top prize. Robust prizes spread marginal incentives as evenly as possible across performance quantiles, minimizing the Kullback--Leibler divergence from the uniform distribution to the induced distribution of performance cutoffs. Asymptotically, robust prizes follow the harmonic number sequence, while the worst-case distribution of noise converges to an exponential distribution with rate $e^{1-\bar{H}}$. The prize scheme is highly unequal, especially in small tournaments, but becomes more equitable as the number of agents grows, with the Gini coefficient approaching $1/2$. In the large tournament model, logarit
     
-[^42]: 部分识别模型的线性规划方法
+[^43]: 部分识别模型的线性规划方法
 
     The Linear Programming Approach to Partially Identified Models
 
@@ -636,7 +651,7 @@
 
     arXiv:2503.14940v2 Announce Type: replace  Abstract: In many partially identified models, sharp bounds on structural or causal parameters are values of linear programs (LPs) with estimated coefficients. We introduce a debiased penalty estimator of the LP value. It is pointwise root-n-consistent whenever the population feasible set is nonempty and bounded. Although no estimator is uniformly consistent over the unrestricted collection of distributions, ours retains a one-sided guarantee: the extent to which it can overestimate a sharp lower bound vanishes uniformly. Under a condition ruling out weak identification of the bound, it is also uniformly consistent. We develop two inference procedures exploiting LP structure: a simple pointwise procedure with exact asymptotic coverage, and a uniformly valid procedure. In simulations calibrated to Holmes (2011), our estimator avoids the anticonservative bias of unregularized benchmark estimators and the conservativeness of the set expansion est
     
-[^43]: 可测系数的随机最优控制及其应用
+[^44]: 可测系数的随机最优控制及其应用
 
     Stochastic Optimal Control with Measurable Coefficients and Applications
 
