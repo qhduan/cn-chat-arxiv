@@ -1,0 +1,11 @@
+{
+    "title": "Randomization and ambiguity perception",
+    "abstract": "arXiv:2509.05076v3 Announce Type: replace  Abstract: Ambiguity-averse decision makers typically dislike not only the presence of ambiguous events but also their increase, contrary to what standard ambiguity models predict. We axiomatically study such a decision maker. She avoids ex ante randomization over prospects since it increases the number of relevant ambiguous events without providing a hedge against uncertainty. Our axioms lead to a representation in which the decision maker behaves as if she optimizes her ambiguity perception at a cost. We show the uniqueness of the representation and conduct comparatives of attitudes toward ambiguity and its increase. This identification is not achieved without considering ex ante randomization.",
+    "link": "https://arxiv.org/abs/2509.05076",
+    "context": "Title: Randomization and ambiguity perception\nAbstract: arXiv:2509.05076v3 Announce Type: replace  Abstract: Ambiguity-averse decision makers typically dislike not only the presence of ambiguous events but also their increase, contrary to what standard ambiguity models predict. We axiomatically study such a decision maker. She avoids ex ante randomization over prospects since it increases the number of relevant ambiguous events without providing a hedge against uncertainty. Our axioms lead to a representation in which the decision maker behaves as if she optimizes her ambiguity perception at a cost. We show the uniqueness of the representation and conduct comparatives of attitudes toward ambiguity and its increase. This identification is not achieved without considering ex ante randomization.",
+    "path": "papers/25/09/2509.05076.json",
+    "total_tokens": 975,
+    "translated_title": "随机化与模糊性感知",
+    "translated_abstract": "模糊厌恶的决策者通常不仅不喜欢模糊事件的存在，也不喜欢模糊事件的增加，这与标准模糊性模型的预测相反。本文从公理化的角度研究了这样一位决策者。她会回避在前景之间进行事前随机化，因为随机化增加了相关模糊事件的数量，却无法提供对不确定性的对冲。我们的公理推导出一种表示，在该表示下，决策者的行为仿佛是在付出一定代价的前提下优化其模糊性感知。我们证明了该表示的唯一性，并对模糊性态度及对模糊性增加的态度进行了比较静态分析。如果不考虑事前随机化，这种识别是无法实现的。",
+    "tldr": "本文通过公理化方法揭示了模糊厌恶决策者回避事前随机化的原因——随机化会增加模糊事件数量却无法对冲不确定性，并建立了一个决策者以付出成本的方式优化模糊性感知的唯一表示，从而识别出对模糊性及其增加的态度。"
+}

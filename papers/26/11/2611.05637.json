@@ -1,0 +1,12 @@
+{
+    "title": "Contextual Pictograms for Repairing Multilingual ASR Errors",
+    "abstract": "arXiv:2611.05637v1 Announce Type: new  Abstract: Speech transcription errors can be difficult to recognize when competing word hypotheses are unfamiliar or visually similar. We describe an interface that combines alternative transcripts, replay and contextually checked pictograms for selected uncertain concepts. The system will initially support French and Spanish functional utterances. A counterbalanced study will assess whether pictorial feedback helps listeners recover the speaker's intended action beyond text alternatives alone. We will also quantify semantic mismatch and additional interaction time, since an inappropriate image can reinforce the wrong interpretation rather than repair it.",
+    "link": "https://arxiv.org/abs/2611.05637",
+    "context": "Title: Contextual Pictograms for Repairing Multilingual ASR Errors\nAbstract: arXiv:2611.05637v1 Announce Type: new  Abstract: Speech transcription errors can be difficult to recognize when competing word hypotheses are unfamiliar or visually similar. We describe an interface that combines alternative transcripts, replay and contextually checked pictograms for selected uncertain concepts. The system will initially support French and Spanish functional utterances. A counterbalanced study will assess whether pictorial feedback helps listeners recover the speaker's intended action beyond text alternatives alone. We will also quantify semantic mismatch and additional interaction time, since an inappropriate image can reinforce the wrong interpretation rather than repair it.",
+    "path": "papers/26/11/2611.05637.json",
+    "total_tokens": 1001,
+    "translated_title": "用于修复多语言语音识别错误的情境化象形图",
+    "translated_abstract": "当相互竞争的词候选不熟悉或在视觉上相似时，语音转录错误可能难以被察觉。我们描述了一种界面，它将备选转录文本、语音回放以及针对选定不确定概念的情境化校验象形图相结合。该系统最初将支持法语和西班牙语的功能性话语。一项平衡顺序的对照研究将评估图像反馈能否在仅依赖文本备选项之外，帮助听者恢复说话者想要表达的动作。我们还将量化语义不匹配以及额外的交互时间，因为不恰当的图像可能会强化错误的理解而非修复它。",
+    "tldr": "提出了一种结合备选转录文本、语音回放和情境化象形图校验的交互界面，帮助听者在多语言（法语、西班牙语）语音识别错误发生时恢复说话者的真实意图。",
+    "en_tdlr": "Proposes an interface combining alternative transcripts, replay, and contextually verified pictograms to help listeners recover the speaker's intended meaning when repairing multilingual ASR errors."
+}

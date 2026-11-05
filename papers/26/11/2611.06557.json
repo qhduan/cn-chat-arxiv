@@ -1,0 +1,12 @@
+{
+    "title": "Approximate minimax regret for conditionally similar tests",
+    "abstract": "arXiv:2611.06557v1 Announce Type: new  Abstract: We construct approximately minimax regret optimal tests in a scalar Gaussian instrumental variables experiment. This example shows how conditionally similar tests allow a novel approximation approach, allowing us to optimize weights over alternatives to minimize worst-case power regret. Stochastic mirror descent and averaging yield finite-iteration guarantees with exact conditional similarity. We establish bounds for exact and simulated powers and illustrate the procedure numerically. This initial algorithm shows how existing nearly-optimal test computation methods can be extended to include composite alternative hypothesis sets without the computational cost associated with maintaining size control.",
+    "link": "https://arxiv.org/abs/2611.06557",
+    "context": "Title: Approximate minimax regret for conditionally similar tests\nAbstract: arXiv:2611.06557v1 Announce Type: new  Abstract: We construct approximately minimax regret optimal tests in a scalar Gaussian instrumental variables experiment. This example shows how conditionally similar tests allow a novel approximation approach, allowing us to optimize weights over alternatives to minimize worst-case power regret. Stochastic mirror descent and averaging yield finite-iteration guarantees with exact conditional similarity. We establish bounds for exact and simulated powers and illustrate the procedure numerically. This initial algorithm shows how existing nearly-optimal test computation methods can be extended to include composite alternative hypothesis sets without the computational cost associated with maintaining size control.",
+    "path": "papers/26/11/2611.06557.json",
+    "total_tokens": 914,
+    "translated_title": "条件相似检验的近似极小极大遗憾",
+    "translated_abstract": "我们在标量高斯工具变量实验中构建了近似极小极大遗憾最优的检验。该例子展示了条件相似检验如何支持一种新颖的近似方法，使我们能够对备择假设进行权重优化，从而最小化最坏情况下的功效遗憾。通过随机镜像下降和平均化方法，可以在保持精确条件相似性的前提下获得有限迭代保证。我们为精确功效和模拟功效建立了界限，并通过数值算例说明了该方法。这一初始算法表明，现有的近似最优检验计算方法可以扩展到包含复合备择假设集的情形，而无需承担与维持检验水平控制相关的计算成本。",
+    "tldr": "本文在标量高斯工具变量实验中提出了一种基于条件相似检验与随机镜像下降的近似极小极大遗憾最优检验方法，能够在保持精确条件相似性的同时优化备择假设权重并最小化最坏情况下的功效遗憾。",
+    "en_tdlr": "This paper constructs approximately minimax regret optimal tests in a scalar Gaussian instrumental variables experiment, leveraging conditionally similar tests and stochastic mirror descent to optimize weights over alternatives and minimize worst-case power regret while maintaining exact conditional similarity."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Valuation Reveals Uncertainty",
+    "abstract": "arXiv:2606.29572v2 Announce Type: replace-cross  Abstract: This paper studies the recovery of uncertainty from dynamic sublinear valuation rules. Robust valuation assigns each payoff its worst-case expected value over a family of plausible models, thereby inducing a dynamic sublinear valuation rule. While valuation rules are observable in practice, the underlying uncertainty structure remains latent. Under suitable conditions, we show that an uncertainty structure can be recovered from an observed valuation rule and provide an explicit recovery procedure. The construction characterizes the joint uncertainty in the discount factor and the law of the state process.",
+    "link": "https://arxiv.org/abs/2606.29572",
+    "context": "Title: Valuation Reveals Uncertainty\nAbstract: arXiv:2606.29572v2 Announce Type: replace-cross  Abstract: This paper studies the recovery of uncertainty from dynamic sublinear valuation rules. Robust valuation assigns each payoff its worst-case expected value over a family of plausible models, thereby inducing a dynamic sublinear valuation rule. While valuation rules are observable in practice, the underlying uncertainty structure remains latent. Under suitable conditions, we show that an uncertainty structure can be recovered from an observed valuation rule and provide an explicit recovery procedure. The construction characterizes the joint uncertainty in the discount factor and the law of the state process.",
+    "path": "papers/26/06/2606.29572.json",
+    "total_tokens": 846,
+    "translated_title": "估值揭示不确定性",
+    "translated_abstract": "本文研究如何从动态次线性估值规则中恢复不确定性。稳健估值通过在一系列合理模型上取最坏情况下的期望值来为每笔收益定价，由此诱导出一个动态次线性估值规则。尽管估值规则在实践中是可观测的，但其背后的不确定性结构却仍是隐匿的。在适当条件下，我们证明了可以从观测到的估值规则中恢复出一个不确定性结构，并给出了显式的恢复程序。该构造刻画了贴现因子与状态过程分布律的联合不确定性。",
+    "tldr": "本文证明在适当条件下，可以从可观测的动态次线性（稳健）估值规则中显式恢复出潜在的不确定性结构，从而刻画贴现因子与状态过程分布的联合不确定性。",
+    "en_tdlr": "Under suitable conditions, the latent uncertainty structure—jointly characterizing ambiguity in the discount factor and the law of the state process—can be explicitly recovered from an observed dynamic sublinear (robust) valuation rule."
+}

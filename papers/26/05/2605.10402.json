@@ -1,0 +1,12 @@
+{
+    "title": "Every finite group admits a just finite presentation",
+    "abstract": "arXiv:2605.10402v2 Announce Type: replace-cross  Abstract: A finite presentation < X | R > of a finite group is called `just finite' if removing any relation from R results in a presentation for an infinite group. It has been an open question (Kourovka Notebook, Problem 21.10) whether every finite group admits such a presentation. We resolve this conjecture in the affirmative.",
+    "link": "https://arxiv.org/abs/2605.10402",
+    "context": "Title: Every finite group admits a just finite presentation\nAbstract: arXiv:2605.10402v2 Announce Type: replace-cross  Abstract: A finite presentation < X | R > of a finite group is called `just finite' if removing any relation from R results in a presentation for an infinite group. It has been an open question (Kourovka Notebook, Problem 21.10) whether every finite group admits such a presentation. We resolve this conjecture in the affirmative.",
+    "path": "papers/26/05/2605.10402.json",
+    "total_tokens": 893,
+    "translated_title": "每个有限群都容许一个恰有限表现",
+    "translated_abstract": "有限群的一个有限表现 < X | R > 被称为“恰有限的”，如果从 R 中移除任何一条关系后，所得的表现对应一个无限群。每个有限群是否都容许这样的表现，一直是一个悬而未决的问题（Kourovka 笔记本，问题 21.10）。我们以肯定的方式解决了这一猜想。",
+    "tldr": "本文证明了每个有限群都存在“恰有限”表现，即移除任意一条定义关系后就会变成无限群表现的有限表现，从而肯定地解决了 Kourovka 笔记本中的公开问题 21.10。",
+    "en_tdlr": "This paper proves that every finite group admits a \"just finite\" presentation—a finite presentation that becomes a presentation of an infinite group upon removal of any single relator—thereby resolving Kourovka Notebook Problem 21.10 in the affirmative."
+}

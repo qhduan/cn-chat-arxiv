@@ -1,0 +1,12 @@
+{
+    "title": "A general technique for explicit quantile representations",
+    "abstract": "arXiv:2611.06459v1 Announce Type: new  Abstract: This work proves existence of contours independent of probability level for exact quantile integrals of strictly positive real-analytic densities. Explicit constructions cover five broad distribution families and yield a finite-interval representation of Black-Scholes implied volatility using forward functions.",
+    "link": "https://arxiv.org/abs/2611.06459",
+    "context": "Title: A general technique for explicit quantile representations\nAbstract: arXiv:2611.06459v1 Announce Type: new  Abstract: This work proves existence of contours independent of probability level for exact quantile integrals of strictly positive real-analytic densities. Explicit constructions cover five broad distribution families and yield a finite-interval representation of Black-Scholes implied volatility using forward functions.",
+    "path": "papers/26/11/2611.06459.json",
+    "total_tokens": 887,
+    "translated_title": "显式分位数表示的一种通用技术",
+    "translated_abstract": "本工作证明了对于严格正的实解析密度函数的精确分位数积分，存在与概率水平无关的等值线轮廓。显式构造涵盖了五大类广泛的分布族，并利用前向函数得到了Black-Scholes隐含波动率的有限区间表示。",
+    "tldr": "本文证明了严格正实解析密度函数的精确分位数积分存在与概率水平无关的等值线，并通过对五大分布族的显式构造得到了Black-Scholes隐含波动率的有限区间表示。",
+    "en_tdlr": "This paper proves the existence of probability-level-independent contours for exact quantile integrals of strictly positive real-analytic densities, with explicit constructions covering five broad distribution families that yield a finite-interval representation of Black-Scholes implied volatility using forward functions."
+}

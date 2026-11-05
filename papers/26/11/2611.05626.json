@@ -1,0 +1,12 @@
+{
+    "title": "Exact signal recovery from generative priors with sigmoid output activation",
+    "abstract": "arXiv:2611.05626v1 Announce Type: cross  Abstract: We show exact signal recovery in generative compressed sensing for feedforward neural networks with piecewise-linear activations and a final sigmoid activation, with no assumption of expansivity. Consider a ReLU network of depth $d$ with a sigmoid final activation, whose input layer, of dimension $k$, is the narrowest, and let $K$ be the geometric mean of the widths of its layers. We show that, with high probability, all signals of the range whose entries lie in $[\\delta, 1 - \\delta]$ are uniformly recovered from $m \\gtrsim k(d \\log(K/k) + \\log(1+\\log(1/\\delta)))$ measurements.",
+    "link": "https://arxiv.org/abs/2611.05626",
+    "context": "Title: Exact signal recovery from generative priors with sigmoid output activation\nAbstract: arXiv:2611.05626v1 Announce Type: cross  Abstract: We show exact signal recovery in generative compressed sensing for feedforward neural networks with piecewise-linear activations and a final sigmoid activation, with no assumption of expansivity. Consider a ReLU network of depth $d$ with a sigmoid final activation, whose input layer, of dimension $k$, is the narrowest, and let $K$ be the geometric mean of the widths of its layers. We show that, with high probability, all signals of the range whose entries lie in $[\\delta, 1 - \\delta]$ are uniformly recovered from $m \\gtrsim k(d \\log(K/k) + \\log(1+\\log(1/\\delta)))$ measurements.",
+    "path": "papers/26/11/2611.05626.json",
+    "total_tokens": 1238,
+    "translated_title": "基于Sigmoid输出激活的生成先验实现精确信号恢复",
+    "translated_abstract": "我们证明了在生成压缩感知中，对于具有分段线性激活函数和最终Sigmoid激活函数的前馈神经网络，可以实现精确信号恢复，且无需假设网络具有扩张性。考虑一个深度为 $d$、最终激活为Sigmoid的ReLU网络，其维度为 $k$ 的输入层是最窄的一层，令 $K$ 为其各层宽度的几何平均值。我们证明，以高概率，值域中所有条目位于 $[\\delta, 1 - \\delta]$ 区间内的信号都能从 $m \\gtrsim k(d \\log(K/k) + \\log(1+\\log(1/\\delta)))$ 个测量值中被一致地精确恢复。",
+    "tldr": "该论文证明了在无需扩张性假设的条件下，带有Sigmoid最终激活的ReLU生成网络能以高概率从近最优数量的测量中一致地精确恢复值域内的所有信号。",
+    "en_tdlr": "The paper proves that ReLU generative networks with a sigmoid output activation enable exact, uniform signal recovery with high probability from near-optimal measurements, without any expansivity assumption."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Universal Nonexistence of Monotone Equilibrium in Multiunit Auctions with Risk Aversion",
+    "abstract": "arXiv:2611.06644v1 Announce Type: new  Abstract: We establish universal nonexistence results for monotone pure-strategy equilibrium in multiunit auctions with risk-averse bidders. Fix any number of bidders greater than one and any profile of strictly increasing concave utilities, with at least one strictly risk-averse bidder. Under uniform pricing, for every supply of at least three units, we construct independent, full-support type distributions under which neither lowest-winning-bid nor highest-losing-bid pricing admits an admissible monotone equilibrium. Under discriminatory pricing, we construct a finite supply and independent, full-support type distributions that preclude monotone pure-strategy equilibrium. We extend these results to all-pay auctions and finite bid grids.",
+    "link": "https://arxiv.org/abs/2611.06644",
+    "context": "Title: Universal Nonexistence of Monotone Equilibrium in Multiunit Auctions with Risk Aversion\nAbstract: arXiv:2611.06644v1 Announce Type: new  Abstract: We establish universal nonexistence results for monotone pure-strategy equilibrium in multiunit auctions with risk-averse bidders. Fix any number of bidders greater than one and any profile of strictly increasing concave utilities, with at least one strictly risk-averse bidder. Under uniform pricing, for every supply of at least three units, we construct independent, full-support type distributions under which neither lowest-winning-bid nor highest-losing-bid pricing admits an admissible monotone equilibrium. Under discriminatory pricing, we construct a finite supply and independent, full-support type distributions that preclude monotone pure-strategy equilibrium. We extend these results to all-pay auctions and finite bid grids.",
+    "path": "papers/26/11/2611.06644.json",
+    "total_tokens": 995,
+    "translated_title": "风险厌恶条件下多单位拍卖中单调均衡的普遍不存在性",
+    "translated_abstract": "我们在具有风险厌恶投标人的多单位拍卖中，建立了单调纯策略均衡的普遍不存在性结果。固定任意大于一的投标人数以及任意严格递增的凹效用函数组合，其中至少有一位严格风险厌恶的投标人。在统一价格定价下，对于每一个至少三单位的供给量，我们构造了独立且具有完全支撑的类型分布，使得无论是最低中标价定价还是最高落标价定价都不存在可容许的单调均衡。在歧视性定价下，我们构造了一个有限供给量以及独立且具有完全支撑的类型分布，从而排除了单调纯策略均衡的存在。我们将这些结果进一步扩展到全支付拍卖和有限出价网格的情形。",
+    "tldr": "本文证明了在存在风险厌恶投标人的多单位拍卖中，无论是统一价格定价、歧视性定价还是全支付拍卖，单调纯策略均衡都具有普遍的不存在性。",
+    "en_tdlr": "This paper establishes universal nonexistence of monotone pure-strategy equilibria in multiunit auctions with risk-averse bidders, under uniform pricing, discriminatory pricing, and all-pay formats."
+}

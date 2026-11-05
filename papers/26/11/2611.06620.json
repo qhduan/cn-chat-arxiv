@@ -1,0 +1,12 @@
+{
+    "title": "Weak Atomic Continuity and Subgame Perfection",
+    "abstract": "arXiv:2611.06620v1 Announce Type: new  Abstract: Subgame-perfect equilibrium need not exist in continuous games with perfect information when Nature moves. Under standard regularity assumptions, we prove that weak atomic continuity of Nature's transition probabilities yields a measurable pure-strategy subgame-perfect equilibrium for finite and infinite horizons. The condition, originating in the population genetics literature, is necessary for the existence of subgame-perfect equilibrium uniformly over the remaining primitives: whenever this condition is violated, one can construct a dynamic game with no subgame-perfect equilibrium, even in behavioral strategies. The proof preserves compactness and upper hemicontinuity of continuation payoff correspondences under integration without requiring convexity.",
+    "link": "https://arxiv.org/abs/2611.06620",
+    "context": "Title: Weak Atomic Continuity and Subgame Perfection\nAbstract: arXiv:2611.06620v1 Announce Type: new  Abstract: Subgame-perfect equilibrium need not exist in continuous games with perfect information when Nature moves. Under standard regularity assumptions, we prove that weak atomic continuity of Nature's transition probabilities yields a measurable pure-strategy subgame-perfect equilibrium for finite and infinite horizons. The condition, originating in the population genetics literature, is necessary for the existence of subgame-perfect equilibrium uniformly over the remaining primitives: whenever this condition is violated, one can construct a dynamic game with no subgame-perfect equilibrium, even in behavioral strategies. The proof preserves compactness and upper hemicontinuity of continuation payoff correspondences under integration without requiring convexity.",
+    "path": "papers/26/11/2611.06620.json",
+    "total_tokens": 1202,
+    "translated_title": "弱原子连续性与子博弈完美性",
+    "translated_abstract": "在自然参与行动的完美信息连续博弈中，子博弈完美均衡未必存在。在标准正则性假设下，我们证明自然转移概率的弱原子连续性可保证在有限和无限期界下存在可测的纯策略子博弈完美均衡。这一条件源自种群遗传学文献，对于子博弈完美均衡在其余基本要素上的一致存在性而言是必要的：只要该条件被违反，就可以构造出一个不存在子博弈完美均衡的动态博弈，即使允许使用行为策略亦然。证明方法在无需凸性要求的条件下，于积分运算中保持了延续支付对应的紧性与上半连续性。",
+    "tldr": "该论文证明，在标准正则性假设下，自然转移概率的弱原子连续性是有限和无限期界动态博弈中存在可测纯策略子博弈完美均衡的充要条件。",
+    "en_tdlr": "Under standard regularity assumptions, weak atomic continuity of Nature's transition probabilities is necessary and sufficient for the existence of measurable pure-strategy subgame-perfect equilibria in dynamic games with finite and infinite horizons."
+}

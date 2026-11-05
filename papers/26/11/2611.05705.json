@@ -1,0 +1,12 @@
+{
+    "title": "Iterated Elimination of Dominated Mixed Strategies",
+    "abstract": "arXiv:2611.05705v1 Announce Type: new  Abstract: This note compares two iterated dominance procedures, one based on eliminating mixed strategies and one based on eliminating pure strategies. It shows that, in compact and continuous games, the mixed-strategy procedure can trail the pure-strategy procedure by at most one round: If the pure-strategy procedure terminates at round $M$, the mixed-strategy procedure terminates at either $M$ or $M+1$, and this bound is tight. It also provides two characterizations of the mixed-strategy procedure that are round-for-round equivalent to it and that require checking for improvements only against opponents' pure strategies.",
+    "link": "https://arxiv.org/abs/2611.05705",
+    "context": "Title: Iterated Elimination of Dominated Mixed Strategies\nAbstract: arXiv:2611.05705v1 Announce Type: new  Abstract: This note compares two iterated dominance procedures, one based on eliminating mixed strategies and one based on eliminating pure strategies. It shows that, in compact and continuous games, the mixed-strategy procedure can trail the pure-strategy procedure by at most one round: If the pure-strategy procedure terminates at round $M$, the mixed-strategy procedure terminates at either $M$ or $M+1$, and this bound is tight. It also provides two characterizations of the mixed-strategy procedure that are round-for-round equivalent to it and that require checking for improvements only against opponents' pure strategies.",
+    "path": "papers/26/11/2611.05705.json",
+    "total_tokens": 892,
+    "translated_title": "被支配混合策略的迭代剔除",
+    "translated_abstract": "本文比较了两种迭代占优剔除程序，一种基于剔除混合策略，另一种基于剔除纯策略。研究表明，在紧致连续博弈中，混合策略程序最多比纯策略程序落后一轮：如果纯策略程序在第 $M$ 轮终止，则混合策略程序将在第 $M$ 轮或第 $M+1$ 轮终止，且该界是紧的。此外，本文还给出了混合策略程序的两种刻画方式，这两种刻画与其逐轮等价，且只需针对对手的纯策略检验是否存在改进即可。",
+    "tldr": "在紧致连续博弈中，混合策略的迭代占优剔除最多比纯策略剔除程序落后一轮，且可通过仅针对对手纯策略的检验来逐轮等价刻画。",
+    "en_tdlr": "In compact and continuous games, iterated elimination of dominated mixed strategies trails the pure-strategy procedure by at most one round, and can be characterized round-for-round by checking improvements only against opponents' pure strategies."
+}

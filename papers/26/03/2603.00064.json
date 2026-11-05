@@ -1,0 +1,12 @@
+{
+    "title": "The minimal width of universal $p$-adic ReLU neural networks",
+    "abstract": "arXiv:2603.00064v2 Announce Type: replace-cross  Abstract: We determine the minimal width of $p$-adic neural networks with the universal approximation property for continuous $\\mathbb Q_p$-valued functions on compact open subsets with respect to the $L_q$ norms and the $C_1$ norm, where the activation function is a natural $p$-adic analogue of the ReLU function.",
+    "link": "https://arxiv.org/abs/2603.00064",
+    "context": "Title: The minimal width of universal $p$-adic ReLU neural networks\nAbstract: arXiv:2603.00064v2 Announce Type: replace-cross  Abstract: We determine the minimal width of $p$-adic neural networks with the universal approximation property for continuous $\\mathbb Q_p$-valued functions on compact open subsets with respect to the $L_q$ norms and the $C_1$ norm, where the activation function is a natural $p$-adic analogue of the ReLU function.",
+    "path": "papers/26/03/2603.00064.json",
+    "total_tokens": 901,
+    "translated_title": "万能 $p$-adic ReLU 神经网络的最小宽度",
+    "translated_abstract": "我们确定了具有万能逼近性质的 $p$-adic 神经网络的最小宽度，该性质是针对紧开子集上连续的 $\\mathbb Q_p$-值函数在 $L_q$ 范数和 $C_1$ 范数意义下的逼近，其中激活函数是 ReLU 函数的一种自然的 $p$-adic 类比。",
+    "tldr": "本文确定了以自然 $p$-adic ReLU 类似函数为激活函数的 $p$-adic 神经网络，在 $L_q$ 范数和 $C_1$ 范数意义下对紧开子集上连续 $\\mathbb Q_p$-值函数具有万能逼近性质所需的最小宽度。",
+    "en_tdlr": "This paper determines the minimal width of $p$-adic neural networks with a natural $p$-adic analogue of the ReLU activation function to achieve the universal approximation property for continuous $\\mathbb Q_p$-valued functions on compact open subsets under the $L_q$ norms and the $C_1$ norm."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Prior-data fitted networks for variable selection",
+    "abstract": "arXiv:2611.05966v1 Announce Type: cross  Abstract: Prior-data fitted networks (PFNs) have become state-of-the-art for tabular prediction but remain underexplored in other areas of statistics. In this work, we present two PFNs for Bayesian variable selection: CD-PFN identifies conditional dependencies, and PC-PFN identifies parents and children in a causal graph. Both networks estimate posterior inclusion probabilities (PIPs) without posterior samples or data-specific modeling. In semi-synthetic and real data experiments, CD-PFN and PC-PFN often outperform existing methods, demonstrating the value of PFNs for variable selection and their potential in statistics more broadly. Open-source software is available.",
+    "link": "https://arxiv.org/abs/2611.05966",
+    "context": "Title: Prior-data fitted networks for variable selection\nAbstract: arXiv:2611.05966v1 Announce Type: cross  Abstract: Prior-data fitted networks (PFNs) have become state-of-the-art for tabular prediction but remain underexplored in other areas of statistics. In this work, we present two PFNs for Bayesian variable selection: CD-PFN identifies conditional dependencies, and PC-PFN identifies parents and children in a causal graph. Both networks estimate posterior inclusion probabilities (PIPs) without posterior samples or data-specific modeling. In semi-synthetic and real data experiments, CD-PFN and PC-PFN often outperform existing methods, demonstrating the value of PFNs for variable selection and their potential in statistics more broadly. Open-source software is available.",
+    "path": "papers/26/11/2611.05966.json",
+    "total_tokens": 913,
+    "translated_title": "用于变量选择的先验数据拟合网络",
+    "translated_abstract": "先验数据拟合网络（PFNs）已成为表格预测任务的最先进方法，但在统计学的其他领域仍未得到充分探索。在本工作中，我们提出了两种用于贝叶斯变量选择的PFN：CD-PFN用于识别条件依赖关系，PC-PFN用于识别因果图中的父节点和子节点。这两种网络都能估计后验包含概率（PIPs），而无需后验样本或针对特定数据的建模。在半合成数据和真实数据的实验中，CD-PFN和PC-PFN常常优于现有方法，展示了PFN在变量选择中的价值以及其在更广泛统计学领域的潜力。相关开源软件已发布。",
+    "tldr": "本文提出两种用于贝叶斯变量选择的先验数据拟合网络（CD-PFN和PC-PFN），无需后验采样或数据特定建模即可估计后验包含概率，并在实验中常常优于现有方法。",
+    "en_tdlr": "This paper proposes two prior-data fitted networks (CD-PFN and PC-PFN) for Bayesian variable selection that estimate posterior inclusion probabilities without posterior sampling or data-specific modeling, often outperforming existing methods."
+}

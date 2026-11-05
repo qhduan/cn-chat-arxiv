@@ -1,0 +1,12 @@
+{
+    "title": "Exponential Seniority Weighting Chain-Ladder Reserving",
+    "abstract": "arXiv:2611.06126v1 Announce Type: cross  Abstract: We develop a tractable state-space version of the chain-ladder model. The state-space dynamics acts on the accident year axis which, in contrast to the classical chain-ladder model, makes accident years dependent. This state-space version yields an exponential seniority weighting in the chain-ladder factor estimation, and it admits an analytical likelihood representation that enables us to compute the seniority weighted chain-ladder reserves and their prediction uncertainty: the one-year uncertainty is available in closed form and the total uncertainty requires a Monte Carlo simulation from the fully tractable likelihood representation.",
+    "link": "https://arxiv.org/abs/2611.06126",
+    "context": "Title: Exponential Seniority Weighting Chain-Ladder Reserving\nAbstract: arXiv:2611.06126v1 Announce Type: cross  Abstract: We develop a tractable state-space version of the chain-ladder model. The state-space dynamics acts on the accident year axis which, in contrast to the classical chain-ladder model, makes accident years dependent. This state-space version yields an exponential seniority weighting in the chain-ladder factor estimation, and it admits an analytical likelihood representation that enables us to compute the seniority weighted chain-ladder reserves and their prediction uncertainty: the one-year uncertainty is available in closed form and the total uncertainty requires a Monte Carlo simulation from the fully tractable likelihood representation.",
+    "path": "papers/26/11/2611.06126.json",
+    "total_tokens": 1032,
+    "translated_title": "指数年资加权链梯法准备金评估",
+    "translated_abstract": "我们开发了链梯法模型的一个易于处理的状态空间版本。该状态空间动态作用于事故年轴，与经典链梯法模型不同，这使得各事故年之间相互依赖。这一状态空间版本在链梯法因子估计中产生了指数年资加权，并且它具有解析的似然表示，使我们能够计算年资加权的链梯法准备金及其预测不确定性：其中一年期不确定性具有闭式表达式，而总不确定性则需要对完全可处理的似然表示进行蒙特卡洛模拟。",
+    "tldr": "本文提出了一种可处理的状态空间链梯法模型，通过在事故年轴上引入状态空间动态使事故年间相互依赖，从而在因子估计中产生指数年资加权，并借助解析似然表示计算年资加权准备金及其预测不确定性（一年期不确定性有闭式解，总不确定性通过蒙特卡洛模拟获得）。",
+    "en_tdlr": "We develop a tractable state-space version of the chain-ladder model with dependent accident years, which yields exponential seniority weighting in factor estimation and an analytical likelihood representation enabling computation of seniority-weighted reserves and their prediction uncertainty."
+}
