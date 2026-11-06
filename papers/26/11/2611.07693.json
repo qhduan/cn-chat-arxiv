@@ -1,0 +1,12 @@
+{
+    "title": "Non-Parametric Mutual Information Estimation with Vine Copulas",
+    "abstract": "arXiv:2611.07693v1 Announce Type: new  Abstract: We introduce VINE: a non-parametric mutual information (MI) estimator based on simplified D-vine copulas. Approximating the joint density with a simplified D-vine allows the density ratio to simplify to a product of pair copulas, which we can estimate non-parametrically. This structural simplification yields VINE, a flexible and computationally efficient MI estimator. We compare VINE against SotA neural MI estimators on a range of datasets, both under settings where the simplified D-vine assumption holds and where it is violated, demonstrating competitive accuracy at a lower computational cost for low- to medium-dimensional datasets.",
+    "link": "https://arxiv.org/abs/2611.07693",
+    "context": "Title: Non-Parametric Mutual Information Estimation with Vine Copulas\nAbstract: arXiv:2611.07693v1 Announce Type: new  Abstract: We introduce VINE: a non-parametric mutual information (MI) estimator based on simplified D-vine copulas. Approximating the joint density with a simplified D-vine allows the density ratio to simplify to a product of pair copulas, which we can estimate non-parametrically. This structural simplification yields VINE, a flexible and computationally efficient MI estimator. We compare VINE against SotA neural MI estimators on a range of datasets, both under settings where the simplified D-vine assumption holds and where it is violated, demonstrating competitive accuracy at a lower computational cost for low- to medium-dimensional datasets.",
+    "path": "papers/26/11/2611.07693.json",
+    "total_tokens": 1007,
+    "translated_title": "基于Vine Copula的非参数互信息估计",
+    "translated_abstract": "我们提出了VINE：一种基于简化D-vine copula的非参数互信息（MI）估计器。使用简化的D-vine来近似联合密度，使密度比可以简化为成对copula的乘积，从而可以对其进行非参数估计。这种结构上的简化产生了VINE，一个灵活且计算高效的互信息估计器。我们在一系列数据集上将VINE与最先进的神经互信息估计器进行比较，包括简化D-vine假设成立和被违反的设置，结果表明在低维到中等维度的数据集上，VINE以更低的计算成本实现了具有竞争力的估计精度。",
+    "tldr": "本文提出VINE，一种基于简化D-vine copula的非参数互信息估计器，通过将密度比简化为成对copula的乘积实现非参数估计，在低维到中等维度数据集上以更低的计算成本达到与最先进神经估计器相当的精度。",
+    "en_tdlr": "VINE is a non-parametric mutual information estimator based on simplified D-vine copulas that achieves competitive accuracy at lower computational cost than state-of-the-art neural MI estimators on low- to medium-dimensional datasets."
+}

@@ -2,322 +2,367 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Dull, Dirty, Dangerous? Working Conditions and the Limits of Occupational AI Exposure](https://arxiv.org/abs/2611.06888) | 该研究发现“枯燥、肮脏、危险”的工作条件与职业AI暴露度之间的关联在控制体力要求、教育培训和工资等职业特征后会显著减弱甚至消失，揭示了当前常用AI暴露度指标在解释上的局限性。 |
-| [^2] | [You Know What You Will Like: People Predict Their Own Ratings Better Than Recommender Systems](https://arxiv.org/abs/2611.06696) | 本文利用MovieLens Beliefs数据集实证发现，用户对自己未来电影评分的自我预测优于平台预测及多种协同过滤推荐模型，证明人们掌握着行为数据无法捕捉的关于自身品味的私有信息。 |
-| [^3] | [Does Frontier AI Strengthen Cyber Defense? Evidence from Project Glasswing](https://arxiv.org/abs/2611.06629) | 本文利用“玻璃翼项目”作为准自然实验，发现前沿AI漏洞发现模型使获得访问权限的美国科技公司漏洞披露翻倍、高影响漏洞披露增加约150%，外部赏金研究者将报告转向其他公司，且未见攻击者利用额外漏洞的证据，表明前沿AI目前主要强化了网络防御而非攻击。 |
-| [^4] | [Hard to Fool: A Bounded LLM Research Loop for Quantitative Finance, and What Two Dozen Campaigns Found](https://arxiv.org/abs/2611.06607) | 该论文提出开源系统"Autonomous Quant Researcher"，让LLM仅能提出声明式JSON提案、由可信代码执行严格评估（不可变数据划分、只能打开一次的留出集和多重绝对接受门槛），从而防止量化交易研究中因智能体循环导致的过拟合与虚假发现。 |
-| [^5] | [Constrained defined-contribution pension management: A reparameterized neural network approach](https://arxiv.org/abs/2611.06495) | 本文针对双因子市场下受一般凸交易约束（如禁止卖空、禁止借贷和组合混合约束）并考虑购买定期寿险的缴费确定型养老金管理问题，通过构造人工市场和对偶变换，提出了一种重参数化神经网络求解方法。 |
-| [^6] | [A general technique for explicit quantile representations](https://arxiv.org/abs/2611.06459) | 本文证明了严格正实解析密度函数的精确分位数积分存在与概率水平无关的等值线，并通过对五大分布族的显式构造得到了Black-Scholes隐含波动率的有限区间表示。 |
-| [^7] | [Exponential Seniority Weighting Chain-Ladder Reserving](https://arxiv.org/abs/2611.06126) | 本文提出了一种可处理的状态空间链梯法模型，通过在事故年轴上引入状态空间动态使事故年间相互依赖，从而在因子估计中产生指数年资加权，并借助解析似然表示计算年资加权准备金及其预测不确定性（一年期不确定性有闭式解，总不确定性通过蒙特卡洛模拟获得）。 |
-| [^8] | [Priced In or Bet On? Cram-School Lessons, Jeonse Leases, and Expected Appreciation in Seoul](https://arxiv.org/abs/2611.05767) | 该论文利用2015–2026年首尔约220万条公寓销售与传贳合同数据发现，临近高中备考补习班的公寓售价溢价约11.8%、传贳押金溢价约7.3%，且押金溢价高于售价溢价，表明补习班的价值更多体现为居住与使用的便利，而非买方将其计入价格并押注未来升值。 |
-| [^9] | [The potential impact of fiscal rule changes on digital products trade](https://arxiv.org/abs/2611.05714) | 本研究首次系统比较了WTO电子传输关税暂停失效后，关税与数字服务税对数字产品贸易和财政收入的影响，发现在数字服务税基础上叠加或以等效关税替代之可大幅增加财政收入，但会小幅抑制数字贸易。 |
-| [^10] | [Economic Policy Uncertainty Index for Poland: Data, Construction, and Validation](https://arxiv.org/abs/2611.05640) | 本文基于BBD报纸文本方法构建了波兰2000-2026年的月度经济政策不确定性指数，并利用链式拼接修正程序解决了报纸面板构成变化导致的指数跳变问题。 |
-| [^11] | [Decision Models as Scalable Economic Surrogates that Capture Human Variation](https://arxiv.org/abs/2611.05553) | 本研究首次评估了决策模型在经济学中作为人类替代者的潜力，发现前沿决策模型在三种经济场景中比大语言模型更能再现人类回应的多样性，同时速度快约十倍，是大规模经济模拟与调查的更优选择。 |
-| [^12] | [AIDA: An AI Outage Registry with Evidence from On-Chain MEV](https://arxiv.org/abs/2611.01656) | 该论文创建了首个系统性记录AI服务故障的多供应商登记数据库AIDA，并结合链上MEV交易数据证明：在仅需代码和公开信息的领域，AI编程工具降低了准入成本、显著扩大了MEV参与者的进入，而依赖私人资源的参与者减少且执行仍高度集中。 |
-| [^13] | [Social Networks and the Propagation of Household Shocks to Asset Prices](https://arxiv.org/abs/2611.01540) | 该论文在社会网络上构建了一个金融加权的传播算子，证明家庭局部冲击会经由社会网络传播并影响信贷价格（超额债券溢价），且由于不同网络模式下响应衰减速率不同，没有任何单一中心性指标能概括跨期限的风险敞口，并以风暴冲击数据实证验证了这一机制。 |
-| [^14] | [Endogenous supply-chain transformation via dynamically calibrated nonneutroelastic processing networks](https://arxiv.org/abs/2609.15452) | 本文提出一种利用网络物理上游拓扑结构的混合启发式算法，通过垂直级联顺序下降与水平块坐标下降的交替优化，克服了非凸性、病态性与维数灾难等难题，实现了级联CES生产函数结构参数的动态校准，从而为供应链内生转型建模提供了可行工具。 |
-| [^15] | [Valuation Reveals Uncertainty](https://arxiv.org/abs/2606.29572) | 本文证明在适当条件下，可以从可观测的动态次线性（稳健）估值规则中显式恢复出潜在的不确定性结构，从而刻画贴现因子与状态过程分布的联合不确定性。 |
-| [^16] | [Geometric Observables for Financial Regime Detection](https://arxiv.org/abs/2605.17117) | 该研究提出从股指收益谱嵌入中提取的四种几何可观测量可作为有效的金融市场状态转换检测器，其误报率显著低于监督学习基线，且与经典风险指标捕捉的信号互补。 |
-| [^17] | [The Dynamic Theory of Economic Complexity](https://arxiv.org/abs/2512.10672) | 该论文提出了一个基于弱连接生产函数与跨活动共享能力积累的经济复杂性动态理论，预测了从无条件收敛到可调节条件收敛的转变以及路径依赖多样化机制，并通过国际贸易数据进行了实证检验。 |
-| [^18] | [A Financial Brain Scan of the LLM](https://arxiv.org/abs/2508.21285) | 该论文利用稀疏自编码器对大语言模型进行“金融大脑扫描”，实现对内部概念的可解释映射与精准引导，并揭示了模型自我解释与其真实内部推理之间存在明显脱节。 |
-| [^19] | [Pay and Beyond: The Evolving Rewards for AI Skills](https://arxiv.org/abs/2507.20410) | 该研究基于2018-2025年间约一千万条美国职位招聘数据，发现生成式AI问世后各规模企业对AI技能的需求均大幅激增，AI岗位不仅享有工资溢价（在中小企业中最为突出），还更普遍地提供远程办公、包容性文化和育儿假等非货币福利。 |
-| [^20] | [Stochastic Optimal Control with Measurable Coefficients and Applications](https://arxiv.org/abs/2502.02352) | 该论文首次针对具有可测系数的完全非线性随机最优控制问题，利用 $L^p$-粘性解理论证明了 HJB 方程强解的存在性，建立最优性充要条件的验证定理，并据此构造最优反馈控制、刻画值函数的唯一性。 |
-| [^21] | [Action-State Dependent Dynamic Model Selection.](http://arxiv.org/abs/2307.04754) | 本文提出了一种动态模型选择的方法，该方法能够根据不同的状态选择最优的模型，并通过强化学习算法对动态规划问题进行近似和估计。实验结果表明，在重新平衡成本下切换投资组合模型时，使用宏观经济信息的性能优于事后选择最佳投资组合模型。 |
+| [^1] | [Cross-Border Ownership and Input Access: Evidence from the Lithium Supply Chain](https://arxiv.org/abs/2611.08430) | 本文利用全球锂矿与冶炼厂数据建立模型，发现剥离中国海外股权几乎不影响锂产量，而禁止矿石出口中国会显著减少全球锂供应，表明在现有产能下限制中国获取矿石的代价高昂。 |
+| [^2] | [Economies of scale and the equity-efficiency trade-off: Evidence from a piped water network in rural Bangladesh](https://arxiv.org/abs/2611.08031) | 该研究利用在孟加拉国农村新建管道供水网络并激励式引导支付意愿的数据，证明由于规模经济效应远超用户收费收入，使每户接入成本最小化的最优定价为零。 |
+| [^3] | [Stay, Reposition, or Recharge: Battery-Aware Operation of Robotaxi Fleets](https://arxiv.org/abs/2611.07699) | 本文提出一个连续时间流体模型来研究自动驾驶出租车车队的服务、重新调度与充电联合决策，证明了最优策略具有简单的阈值结构，并识别出经典重新调度模型所缺失的“提前返回场站充电”与“电量感知重新调度”两种控制机制。 |
+| [^4] | [FINCOSMOS: An Open-World Evaluation Paradigm for Agents in Finance](https://arxiv.org/abs/2611.07464) | FINCOSMOS提出了一个金融智能体的开放世界评估范式：模拟用户隐藏其投资策略，智能体必须自主从网络获取数据并构建防“未来函数”的回测，从而实现无需参考答案、程序可验证的评估。 |
+| [^5] | [Information-Theoretic Model for the Growth Optimal Portfolio of Stocks](https://arxiv.org/abs/2611.07457) | 本文基于信息论原理构建了股票增长最优组合的代理模型，预测其对数收益率服从自由度略小于4的学生t分布，并以该基准实现了基准中性的金融衍生品定价与对冲。 |
+| [^6] | [Neural Realized Measures: Forecast-Supervised Intraday Aggregation for Volatility Forecasting](https://arxiv.org/abs/2611.07287) | 该论文提出神经实现测度（NRM），一种以波动率预测为监督、通过可学习的正的上下文相关权重来聚合日内观测的框架，将经典实现测度嵌套为特例，从而改进波动率预测。 |
+| [^7] | [A Rough Instantaneous Squared VIX Model for Term Structure and Option Pricing](https://arxiv.org/abs/2611.07120) | 本文提出将分数阶记忆引入传统马尔可夫框架的粗糙瞬时平方VIX（RISVIX）模型，推导出Mittag–Leffler衰减形式的VIX期限结构显式表示和基于仿射Fourier–Laplace变换的VIX期权半闭式定价公式，并通过两步校准方法在实证中显著优于马尔可夫基准模型。 |
+| [^8] | [Credibility Clustering for Experience Rating: An Automated Approach to Risk Group Allocation in Group Life Insurance](https://arxiv.org/abs/2611.07110) | 该论文提出将多维 Bühlmann-Straub 信度模型与 k-means 聚类相结合的“信度聚类”方法，以数据驱动方式自动完成团体人寿保险中的同质风险组划分，取代传统依赖人工决策与主观阈值的分类方式。 |
+| [^9] | [Necessary and sufficient conditions for the martingale property of stochastic exponentials driven by multi-dimensional diffusions](https://arxiv.org/abs/2611.07083) | 本文给出了由多维扩散驱动的随机指数成为真鞅的系数充要条件，将分析分解为光滑边界上平移Fichera漂移的非正性判据、无穷远处基于Feller检验的精确准则以及非光滑边界情形，并应用于具有相关因子的逆CIR和4/2模型。 |
+| [^10] | [Return Decomposition of Hybrid Strategies in the Brazilian Market: Evidence of Genuine Alpha and Factor Exposure](https://arxiv.org/abs/2611.06919) | 本文分解了巴西市场中基本面筛选与均线交叉技术系统相结合的混合策略收益来源，发现策略在控制多因子风险后仍具有每月约1%的显著真实Alpha，但出乎意料的是价值因子（HML）并不显著，表明ROE和净利率等质量指标使选股偏向高质量公司，从而掩盖了价值溢价。 |
+| [^11] | [Quantifying Repair Risk in Crypto Option Surfaces](https://arxiv.org/abs/2611.00958) | 该论文提出“修复风险”概念——同一加密期权报价在满足买卖价差与无套利约束下可能存在多个可容许修复曲面，导致希腊字母与风险度量产生显著差异（经有限差分放大机制可放大至 $4\varepsilon/h^2$），并建立修复风险验证框架在 Deribit BTC/ETH 期权链上量化这种离散性。 |
+| [^12] | [Safety Research and the Allocation of Frontier Compute](https://arxiv.org/abs/2610.14305) | 本文建模了前沿AI起飞期间实验室如何在能力研究与安全研究之间分配算力，表明当客户服务水平高于某阈值时应由客户算力资助安全研究、否则应从能力研究中抽调，并分析了延迟成本、额外安全学习和服务估值对这一决策阈值的影响。 |
+| [^13] | [Risk Ceilings and Development Deadlines: Pacing AI under Uncertain Safety Productivity](https://arxiv.org/abs/2610.11093) | 该论文提出，在安全研究生产力不确定的情况下，“先安全学习、后重演开发”并预留安全算力的策略能以仅比理论下界高3.3%的生产力代价，接近实现风险上限与发展期限的双重监管承诺，且保障成本可由客户服务承担。 |
+| [^14] | [Information Games: Strategic Crowding and Firm Repositioning in Language-Model Space](https://arxiv.org/abs/2609.37820) | 本文提出具有唯一均衡的ESCAPE理性份额博弈模型，证明竞争并非使企业分散，而是改变它们对同一机会变化的反应差异，相对反应分量解释了战略型与独立型企业之间90.5%的反应对比。 |
+| [^15] | [Reaction-boundary variance and adjoint-consistent local-volatility projection](https://arxiv.org/abs/2607.05011) | 本文提出了一种基于潜在订单簿反应边界的新方法，通过操作时间方差核分离波动率模型中的结构、时钟和测度选择，并推导了长记忆情况下的闭合渐近形式。 |
+| [^16] | [Absolute Continuity of Monotone Aggregations under Positive Regression Dependence](https://arxiv.org/abs/2606.21042) | 本文证明了在正回归相关性下，满足逐坐标单调性与一致下增量条件的单调聚合函数作用于绝对连续分布的随机变量时，其输出分布必然绝对连续，且无需独立性或联合密度假设。 |
+| [^17] | [Proxy-Reliance Control in Conformal Recalibration of One-Sided Value-at-Risk](https://arxiv.org/abs/2603.22569) | 该论文提出在单侧VaR保形再校准中引入一个可调节的“代理依赖度”参数，理论证明更高的代理依赖度虽能提升尾部调整对波动率代理的响应性，但会在代理反应不足时放大压力状态下的脆弱性，从而将代理依赖度确立为一个独立且可解释的设计选择。 |
+| [^18] | [Could It Have Fit Anything? Restrictiveness of Economic Models, LLMs, and AI Workflows](https://arxiv.org/abs/2602.07688) | 该论文提出了一种将经济模型的“约束性”测度扩展至大语言模型和AI智能体等黑箱预测程序的方法，发现这些AI工作流虽能达到与经济模型相当的预测完备性，但约束性显著更低——即它们几乎可以拟合任何数据模式。 |
+| [^19] | [Did a feedback mechanism between propositional and prescriptive knowledge create modern growth?](https://arxiv.org/abs/2512.16587) | 本文首次对莫基尔“工业启蒙”假说进行定量检验，通过构建基于文本的出版物创新性与知识溢出度量指标，并分析约30万条1600—1800年的英文出版物标题和专利描述，发现命题性知识与处方性知识之间的反馈循环在18世纪中叶转为正向，从而支持了该假说。 |
+| [^20] | [Deep Neural Operator Learning for Probabilistic Models](https://arxiv.org/abs/2511.07235) | 该论文提出了一个适用于概率模型的深度神经算子框架，建立了具有显式网络规模界的通用逼近定理，并证明所学模型无需重新训练即可为新的执行价格生成美式期权的最优停止边界。 |
+| [^21] | [FinMultiHopQA: A KG-Grounded Multi-Hop Financial QA Benchmark for Evidence-Driven Reasoning](https://arxiv.org/abs/2510.02906) | 该论文提出了FinMultiHopQA基准，包含15,600个定性与定量问题，基于从SEC 10-K申报文件构建的、含1750万+三元组的金融知识图谱FinReflectKG，支持跨章节、跨财年、跨公司的多跳证据推理，并能控制证据呈现方式的变化以实现可复现、可审计的评测。 |
+| [^22] | [Why financial prices exhibit Brownian motion despite predictable order flow: An exactly solvable nonlinear price impact model](https://arxiv.org/abs/2502.17906) | 本文提出一个精确可解的非线性价格冲击模型，通过将 Lillo–Mike–Farmer 模型推广并映射到可解的 Lévy 游走模型，证明了即使订单流具有可预测的持续性且价格冲击遵循平方根定律，价格动态仍然保持布朗（扩散）运动，从而统一解释了市场微观结构中的两大谜题。 |
+| [^23] | [On consistency of optimal portfolio choice for state-dependent exponential utilities](https://arxiv.org/abs/2501.01748) | 该论文在完备布朗市场中刻画了状态依赖指数效用函数跨投资期限的一致性，证明一致性等价于风险容忍度的漂移与扩散系数满足某个显式关系，并揭示了前瞻性能量性质蕴含一致性而反之不成立。 |
+| [^24] | [AI Oversight and Human Mistakes: Evidence from Centre Court.](http://arxiv.org/abs/2401.16754) | 人工智能系统在纠正人类错误方面起到了积极作用，但此举也潜在导致心理成本，并影响人的决策。通过研究网球比赛中的Hawk-Eye审查系统，我们发现引入AI监督后，裁判员的错误率下降，心理成本导致他们更倾向于将球判为进界，从而产生了类型错判的转变。 |
 
 # 详细
 
-[^1]: 枯燥、肮脏、危险？工作条件与职业AI暴露度指标解释的局限性
+[^1]: 跨境所有权与投入品获取：来自锂供应链的证据
 
-    Dull, Dirty, Dangerous? Working Conditions and the Limits of Occupational AI Exposure
+    Cross-Border Ownership and Input Access: Evidence from the Lithium Supply Chain
 
-    [https://arxiv.org/abs/2611.06888](https://arxiv.org/abs/2611.06888)
+    [https://arxiv.org/abs/2611.08430](https://arxiv.org/abs/2611.08430)
 
-    该研究发现“枯燥、肮脏、危险”的工作条件与职业AI暴露度之间的关联在控制体力要求、教育培训和工资等职业特征后会显著减弱甚至消失，揭示了当前常用AI暴露度指标在解释上的局限性。
-
-    
-
-    自动化常被论证为是将人们从枯燥、肮脏和危险的工作中解脱出来的手段。我利用涵盖754个美国职业的21个O*NET条目，考察了这些工作条件与职业AI暴露度之间的关系。在大语言模型（LLM）度量和AI职业暴露度（AIOE）指标下，无论采用等权职业权重还是就业权重，较高的暴露度都与较低的工作条件评分相关。在对体力要求、所需教育、培训和经验以及工资进行调整后，这种综合关联性有所减弱。调整后的置信区间在LLM暴露度方面包含零，而AIOE的置信区间仍低于零。将重复性与受限自主权分开处理，也会改变合并后的“枯燥”分数所传达的含义。这些比较表明，条目分组方式和职业特征会影响对暴露度估计结果的解释。职业画像为选择具有对比性的研究场景提供了起点。确定期望的自动化或……
-
-    arXiv:2611.06888v1 Announce Type: new  Abstract: Automation is often justified as relief from dull, dirty, and dangerous work. I examine how these conditions relate to occupational AI exposure using 21 O*NET items across 754 US occupations. Higher exposure is associated with lower condition scores under a large language model (LLM) measure and AI Occupational Exposure (AIOE), with equal occupation weights and employment weights. Adjustment for physical demands, required education, training and experience, and wages reduces the composite association. The adjusted confidence intervals include zero for LLM exposure and remain below zero for AIOE. Separating repetition from restricted discretion also changes what the combined Dull score conveys. These comparisons show how item groupings and occupational characteristics shape the interpretation of exposure estimates. Occupational profiles offer a starting point for selecting contrasting research settings. Establishing desired automation or 
-    
-[^2]: 你知道自己会喜欢什么：人们对自身评分的预测优于推荐系统
-
-    You Know What You Will Like: People Predict Their Own Ratings Better Than Recommender Systems
-
-    [https://arxiv.org/abs/2611.06696](https://arxiv.org/abs/2611.06696)
-
-    本文利用MovieLens Beliefs数据集实证发现，用户对自己未来电影评分的自我预测优于平台预测及多种协同过滤推荐模型，证明人们掌握着行为数据无法捕捉的关于自身品味的私有信息。
+    本文利用全球锂矿与冶炼厂数据建立模型，发现剥离中国海外股权几乎不影响锂产量，而禁止矿石出口中国会显著减少全球锂供应，表明在现有产能下限制中国获取矿石的代价高昂。
 
     
 
-    arXiv:2611.06696v1 公告类型：cross 摘要：推荐系统通常从人们已经做过的事情中学习他们想要什么。平台也可以直接询问用户，但询问成本高昂：在我们数据中，98.8%的提问提示无人回应。统计预测理论意味着，个人自身的预测对于基于众多用户行为构建的推荐算法几乎没有额外价值；而分散知识理论则意味着，人们掌握着关于自身品味的、行为数据中所缺失的信息。我们用MovieLens Beliefs数据集对这两种理论进行了检验。在2023至2024年间，主页提示询问成员：他们预期自己会给那些声称尚未看过的电影打多少分。在26,020条此类预期中，有551条（来自277名成员）在至少一天之后伴随着一条实际评分出现。我们将每条预期与四个基准进行比较：平台自身的预测评分、两个协同过滤模型（矩阵分解和物品邻域方法），以及一个在其他成员评分结果上训练的堆叠模型。训练出的模型使用每个……
+    跨境所有权如何塑造锂供应链？本文利用全球矿山和冶炼厂的全球数据，估计了一个模型，其中所有权可以降低冶炼厂的有效矿石成本、促使矿山限制现货销售，并弱化市场竞争。为研究这些效应，我考察了出于对关键矿物投入可靠获取的国家安全担忧而出台的两项政策：剥离中国在海外的生产企业的股份，以及禁止向中国出口矿石。研究结果表明，股权剥离增加了现货矿石供应，但锂产量几乎保持不变，而持续的贸易保持了中国获取矿石的渠道。出口禁令会减少全球锂供应，因为其他地区的冶炼产能无法完全替代中国损失的产量。所有权转移并不会将矿石保留给国内生产；在现有产能条件下，限制中国的矿石获取渠道会带来巨大的供应成本。
 
-    arXiv:2611.06696v1 Announce Type: cross  Abstract: Recommender systems usually learn what people want from what they have done. Platforms could also ask people directly, but asking is costly: 98.8% of the prompts in our data went unanswered. Theories of statistical prediction imply that a person's own forecast adds little to a recommender algorithm built from many people's behavior. Theories of dispersed knowledge imply that people hold information about their own taste that the data lack. We test the two with the MovieLens Beliefs dataset. In 2023-2024, a homepage prompt asked members how they expected to rate movies they said they had not seen. Of 26,020 such expectations, 551 from 277 members were followed by a rating at least a day later. We compare each expectation with four benchmarks: the platform's own predicted rating, two collaborative-filtering models (matrix factorization and an item neighborhood), and a stack trained on other members' outcomes. The trained models use each 
+    arXiv:2611.08430v1 Announce Type: new  Abstract: How does cross-border ownership shape the lithium supply chain? Using global data on mines and refineries, I estimate a model in which ownership can lower refiners' effective ore costs, encourage mines to restrict spot sales, and soften competition. To study these effects, I examine policies motivated by national security concerns about reliable access to critical mineral inputs: divestiture of Chinese stakes in overseas producers and a ban on ore exports to China. Divestiture increases spot ore supply but leaves lithium output nearly unchanged, while continued trade preserves Chinese access to ore. The export ban reduces global lithium supply because refining capacity elsewhere cannot fully replace lost Chinese production. Ownership transfers do not reserve ore for domestic production; restricting Chinese access imposes a substantial supply cost at existing capacities.
     
-[^3]: 前沿AI能否增强网络防御？来自“玻璃翼项目”的证据
+[^2]: 规模经济与公平-效率权衡：来自孟加拉国农村管道供水网络的证据
 
-    Does Frontier AI Strengthen Cyber Defense? Evidence from Project Glasswing
+    Economies of scale and the equity-efficiency trade-off: Evidence from a piped water network in rural Bangladesh
 
-    [https://arxiv.org/abs/2611.06629](https://arxiv.org/abs/2611.06629)
+    [https://arxiv.org/abs/2611.08031](https://arxiv.org/abs/2611.08031)
 
-    本文利用“玻璃翼项目”作为准自然实验，发现前沿AI漏洞发现模型使获得访问权限的美国科技公司漏洞披露翻倍、高影响漏洞披露增加约150%，外部赏金研究者将报告转向其他公司，且未见攻击者利用额外漏洞的证据，表明前沿AI目前主要强化了网络防御而非攻击。
-
-    
-
-    防御者与攻击者竞相寻找相同的软件缺陷。本文利用“玻璃翼项目”的启动来研究获取前沿AI如何影响防御者、外部研究者和攻击者——该项目让一小部分美国大型科技公司提前获得了Claude Mythos Preview，一种用于发现软件漏洞的模型。基于公开披露的全部漏洞数据，我发现获得访问权限的公司相对于没有访问权限的中国和俄罗斯科技公司，其漏洞披露数量增加了一倍以上，披露的高影响漏洞多出约150%，且修复已报告缺陷的速度与以前一样快。由于受影响的公司自己发现了更多缺陷，通过漏洞赏金出售研究结果的外部研究者在受影响公司代码中报告的漏洞减少了约一半，而在其他公司代码中报告的漏洞增多，且并未退出市场。没有证据表明攻击者利用了这些额外的漏洞：被利用的份额（摘要在此处截断）
-
-    arXiv:2611.06629v1 Announce Type: cross  Abstract: Defenders and attackers race to find the same software flaws. I use the launch of Project Glasswing, which gave a small group of large US tech firms early access to Claude Mythos Preview, a model for finding software vulnerabilities, to study how access to frontier AI affects defenders, external researchers, and attackers. Using the universe of publicly disclosed vulnerabilities, I find that firms with access more than doubled their disclosures relative to Chinese and Russian tech firms without access, disclosed about 150 percent more high-impact vulnerabilities, and fixed reported flaws as quickly as before. As treated firms found more flaws themselves, external researchers, who sell their findings through bug bounties, reported about half as many vulnerabilities in treated firms' code and more in other firms' code, without leaving the market. There is no evidence that attackers exploited the additional vulnerabilities: the share expl
-    
-[^4]: 难以欺骗：面向量化金融的有界LLM研究循环，以及二十余次实验活动的发现
-
-    Hard to Fool: A Bounded LLM Research Loop for Quantitative Finance, and What Two Dozen Campaigns Found
-
-    [https://arxiv.org/abs/2611.06607](https://arxiv.org/abs/2611.06607)
-
-    该论文提出开源系统"Autonomous Quant Researcher"，让LLM仅能提出声明式JSON提案、由可信代码执行严格评估（不可变数据划分、只能打开一次的留出集和多重绝对接受门槛），从而防止量化交易研究中因智能体循环导致的过拟合与虚假发现。
+    该研究利用在孟加拉国农村新建管道供水网络并激励式引导支付意愿的数据，证明由于规模经济效应远超用户收费收入，使每户接入成本最小化的最优定价为零。
 
     
 
-    让语言模型提出修改、运行固定实验并保留任何能提升指标结果的方案——这类智能体研究循环在机器学习中行之有效。但在交易研究中，同样的循环却是一台制造虚假发现的机器：默认情况下，一个“提升了指标”的回测要么是过拟合，要么存在前视偏差，要么是多重比较产生的假象，要么忽略了交易成本，要么只是披着策略外衣的市场漂移。我们介绍了 Autonomous Quant Researcher，一个建立在相反前提之上的开源研究循环：模型只负责提出方案，决策权完全交由可信代码。提案必须是基于固定词表的严格声明式JSON，因此不存在需要沙箱隔离的模型生成代码。评估在不可变的时序数据存储上运行，数据被划分为发现集、验证集和一个最终留出集——留出集只能在写入持久化收据之后被打开一次。接受标准是一系列绝对门槛的合取（扣除成本后为正的边际优势与净损益、按周聚类的自助法下界为正……[摘要在此处截断]）
+    为公共基础设施定价的政策制定者通常会预期存在公平与效率之间的权衡：较高的价格可以增加付费用户带来的收入、有助于弥补成本，但可能会降低贫困人口的接入意愿。然而，在存在规模经济的情况下——这在基础设施网络中十分常见——这种权衡会发生根本性改变。我们针对孟加拉国农村的入户管道饮用水接入服务引导出支付意愿，其中通过接入我们新建管道网络的机会来激励受访者真实披露其偏好，并利用项目成本数据来衡量规模经济。将两者结合，我们证明了成本效益最大化价格——即使每户接入成本最小化的价格——为零。规模经济效应远超用户收费所带来的收入。更一般地，零价格实现成本效益最大化所需的两个条件……
 
-    arXiv:2611.06607v1 Announce Type: new  Abstract: Agentic research loops that let a language model propose a change, run a fixed experiment and keep whatever improves the metric work well in machine learning. In trading research the same loop is a machine for producing false discoveries: a backtest that "improves the metric" is, by default, overfit, look-ahead, a multiple-comparisons artifact, cost-free, or market drift wearing a strategy. We describe Autonomous Quant Researcher, an open-source loop built on the opposite premise: the model proposes, and only trusted code decides. Proposals are strict declarative JSON over a fixed vocabulary, so there is no model-written code to sandbox. Evaluation runs on immutable chronological stores split into discovery, validation and a final holdout that can be opened exactly once, after a durable receipt is written. Acceptance is a conjunction of absolute gates (positive edge and net P&L after costs, a positive weekly-cluster bootstrap lower bound
+    arXiv:2611.08031v1 Announce Type: new  Abstract: Policymakers who set prices for public infrastructure often anticipate an equity-efficiency trade-off: while higher prices could increase revenues from fee-paying users, helping to offset costs, they may reduce take-up among the poor. But this trade-off is fundamentally altered in the presence of economies of scale, which are common in infrastructure networks. We elicit willingness to pay for a household-level piped drinking water connection in rural Bangladesh, where truthful revelation of preferences is incentivized by the opportunity to connect to a new pipeline network that we construct, and we use project cost data to measure economies of scale. Combining the two, we show that the cost-effectiveness-maximizing price---that which minimizes the cost per connected household---is zero. Economies of scale strongly dominate revenues raised by user fees. More generally, the two conditions needed for a zero price to maximize cost-effectiven
     
-[^5]: 受约束的缴费确定型养老金管理：一种重参数化神经网络方法
+[^3]: 停留、重新调度还是充电：自动驾驶出租车车队的电池感知运营
 
-    Constrained defined-contribution pension management: A reparameterized neural network approach
+    Stay, Reposition, or Recharge: Battery-Aware Operation of Robotaxi Fleets
 
-    [https://arxiv.org/abs/2611.06495](https://arxiv.org/abs/2611.06495)
+    [https://arxiv.org/abs/2611.07699](https://arxiv.org/abs/2611.07699)
 
-    本文针对双因子市场下受一般凸交易约束（如禁止卖空、禁止借贷和组合混合约束）并考虑购买定期寿险的缴费确定型养老金管理问题，通过构造人工市场和对偶变换，提出了一种重参数化神经网络求解方法。
-
-    
-
-    本文研究了双因子金融市场模型下受约束的缴费确定型（DC）养老金管理问题。养老金参与者可以投资于现金、两种名义债券、一种通胀挂钩债券和股票指数，此外还可以购买定期人寿保险以管理退休前的死亡风险。与传统文献不同，我们考虑将养老金成员限制在一个一般的非空、闭且凸的交易约束集内，该约束集将禁止卖空、禁止借贷以及投资组合混合约束作为特例涵盖其中，此类限制反映了养老金账户交易中的常见限制。为求解该问题，我们构造了一族无约束的人工市场，通过调整风险资产的漂移项使原始交易约束得以满足。利用对偶变换，我们导出了拉格朗日对偶问题，并提出了一种重参数化神经网络方法来计算下……
-
-    arXiv:2611.06495v1 Announce Type: new  Abstract: This paper studies constrained defined contribution (DC) pension management under a two-factor financial market model. The pension participant is allowed to invest in cash, two nominal bonds, an inflation-linked bond, and a stock index. Moreover, they can also purchase term life insurance to manage pre-retirement death risk. Unlike traditional literature, we consider a pension member restricted to a general non-empty, closed, and convex trading constraint set that includes no short-selling, no borrowing, and portfolio-mix constraints as special cases. Such restrictions reflect common limits on pension-account trading. To solve the problem, we construct a family of unconstrained artificial markets, in which the original trading constraints are satisfied by adjusting the drift terms of the risky assets. Using a duality transformation, we derive the Lagrangian dual problem and propose a reparameterized neural network method to compute lower
-    
-[^6]: 显式分位数表示的一种通用技术
-
-    A general technique for explicit quantile representations
-
-    [https://arxiv.org/abs/2611.06459](https://arxiv.org/abs/2611.06459)
-
-    本文证明了严格正实解析密度函数的精确分位数积分存在与概率水平无关的等值线，并通过对五大分布族的显式构造得到了Black-Scholes隐含波动率的有限区间表示。
+    本文提出一个连续时间流体模型来研究自动驾驶出租车车队的服务、重新调度与充电联合决策，证明了最优策略具有简单的阈值结构，并识别出经典重新调度模型所缺失的“提前返回场站充电”与“电量感知重新调度”两种控制机制。
 
     
 
-    本工作证明了对于严格正的实解析密度函数的精确分位数积分，存在与概率水平无关的等值线轮廓。显式构造涵盖了五大类广泛的分布族，并利用前向函数得到了Black-Scholes隐含波动率的有限区间表示。
+    电动自动驾驶出租车正从试点阶段快速扩展至规模化商业部署；与传统由人类驾驶的网约车不同，它们需要集中的车队控制以及对车辆荷电状态（SoC）的精细管理。我们研究了车队管理者应如何在此类系统中联合做出服务、空车重新调度、闲置和充电决策。我们建立了一个连续时间流体模型，其中车辆在“位置-电量”状态之间演化，并识别出经典重新调度模型中所缺失的两种电量感知控制形式：提前返回场站（RTD）和电量感知的重新调度。特别地，最优解呈现出简单的阈值结构。每个位置都存在一个电池阈值：当车辆的SoC低于该阈值时，应返回场站充电；高于该阈值时则不应返回。车辆同样不应在低于同一阈值时进行重新调度；高于该阈值时，其选择……
 
-    arXiv:2611.06459v1 Announce Type: new  Abstract: This work proves existence of contours independent of probability level for exact quantile integrals of strictly positive real-analytic densities. Explicit constructions cover five broad distribution families and yield a finite-interval representation of Black-Scholes implied volatility using forward functions.
+    arXiv:2611.07699v1 Announce Type: cross  Abstract: Electric robotaxis are rapidly expanding from pilots to scaled commercial deployment; unlike traditional human-driven ride-hailing vehicles, they require centralized fleet control and careful management of vehicle state of charge (SoC). We study how a fleet manager should jointly make service, empty repositioning, idling, and charging decisions in such systems. We develop a continuous-time fluid model in which vehicles evolve across location-charge states, and identify two forms of charge-aware control that are absent from classic repositioning models: early return-to-depot (RTD) and charge-aware repositioning. In particular, the optimal solution admits simple threshold structures. Each location has a battery threshold such that vehicles should return to the depot to recharge when their SoC is below it and should not do so when their SoC is above it. Vehicles should not reposition below the same threshold either; above it, the choice o
     
-[^7]: 指数年资加权链梯法准备金评估
+[^4]: FINCOSMOS：一个面向金融领域智能体的开放世界评估范式
 
-    Exponential Seniority Weighting Chain-Ladder Reserving
+    FINCOSMOS: An Open-World Evaluation Paradigm for Agents in Finance
 
-    [https://arxiv.org/abs/2611.06126](https://arxiv.org/abs/2611.06126)
+    [https://arxiv.org/abs/2611.07464](https://arxiv.org/abs/2611.07464)
 
-    本文提出了一种可处理的状态空间链梯法模型，通过在事故年轴上引入状态空间动态使事故年间相互依赖，从而在因子估计中产生指数年资加权，并借助解析似然表示计算年资加权准备金及其预测不确定性（一年期不确定性有闭式解，总不确定性通过蒙特卡洛模拟获得）。
-
-    
-
-    我们开发了链梯法模型的一个易于处理的状态空间版本。该状态空间动态作用于事故年轴，与经典链梯法模型不同，这使得各事故年之间相互依赖。这一状态空间版本在链梯法因子估计中产生了指数年资加权，并且它具有解析的似然表示，使我们能够计算年资加权的链梯法准备金及其预测不确定性：其中一年期不确定性具有闭式表达式，而总不确定性则需要对完全可处理的似然表示进行蒙特卡洛模拟。
-
-    arXiv:2611.06126v1 Announce Type: cross  Abstract: We develop a tractable state-space version of the chain-ladder model. The state-space dynamics acts on the accident year axis which, in contrast to the classical chain-ladder model, makes accident years dependent. This state-space version yields an exponential seniority weighting in the chain-ladder factor estimation, and it admits an analytical likelihood representation that enables us to compute the seniority weighted chain-ladder reserves and their prediction uncertainty: the one-year uncertainty is available in closed form and the total uncertainty requires a Monte Carlo simulation from the fully tractable likelihood representation.
-    
-[^8]: 已计入价格还是押注未来？补习班课程、传贳租约与首尔的预期升值
-
-    Priced In or Bet On? Cram-School Lessons, Jeonse Leases, and Expected Appreciation in Seoul
-
-    [https://arxiv.org/abs/2611.05767](https://arxiv.org/abs/2611.05767)
-
-    该论文利用2015–2026年首尔约220万条公寓销售与传贳合同数据发现，临近高中备考补习班的公寓售价溢价约11.8%、传贳押金溢价约7.3%，且押金溢价高于售价溢价，表明补习班的价值更多体现为居住与使用的便利，而非买方将其计入价格并押注未来升值。
+    FINCOSMOS提出了一个金融智能体的开放世界评估范式：模拟用户隐藏其投资策略，智能体必须自主从网络获取数据并构建防“未来函数”的回测，从而实现无需参考答案、程序可验证的评估。
 
     
 
-    韩国家庭在“学院”上投入巨大，这类私立补习班专门帮助学生备战大学入学考试。本文探讨入学补习的便利在住房市场中价值几何，以及这一溢价中是否包含预期升值的成分。研究利用2015年至2026年间2,197,510笔首尔公寓销售与传贳（一次性押金租赁）合同数据，并借助一套新的营业地址地理编码工具进行定位，在同一初中划片区域和同一月份内对不同公寓进行比较。临近面向高中生备考补习班的公寓售价与押金均更高：在500米范围内，从补习班可达性的中位数小区移动到第97百分位小区，对应售价高出11.8%、传贳押金高出7.3%；若控制小区规模不变，则分别为5.6%和5.9%。在控制上述因素后，面向低龄儿童的补习班不会带来额外的售价溢价。在不同小区之间，押金溢价高于售价溢价，这反映了便利性因素：买方支付低于……（摘要原文在此处截断）
+    语言智能体越来越多地在开放网络上为用户工作，而金融领域是对它们最难以信任的场景。数据必须来自网络，策略只存在于用户脑中，且正确性依赖于时间，因此智能体可能“无声地失败”：执行一个用户从未要求过的策略、使用未经核实的数据，或进行一次使用了未来信息的回测——这些都会产出一个与正确报告同样令人信服的报告。现有基准测试总会在某处封闭世界，固定任务、数据或时间线，从而消除了这些失败模式而非度量它们。我们提出FINCOSMOS，一个面向金融工作智能体的开放世界评估范式：模拟用户持有一个从组合文法中采样得到的隐藏策略，且仅在被询问时才透露；智能体不会获得任何数据，因此必须自行从网络获取数据、在数据截止日期约束下构建自己的回测，并交付可验证的结果。评分无需参考答案，程序可自动验证时点正确性。
 
-    arXiv:2611.05767v1 Announce Type: new  Abstract: South Korean families spend heavily on hagwons, private cram schools that prepare students for the university entrance exam. This paper asks what access to them is worth in housing and whether the premium includes expected appreciation. Using 2,197,510 Seoul apartment sales and jeonse (lump-sum deposit lease) contracts from 2015 to 2026, located with a new business-address geocoder, the analysis compares flats within the same middle-school assignment zone and month. Flats near hagwons preparing high-school students for the exam sell and lease for more: moving from the median complex to the 97th percentile of such hagwons within 500 meters is associated with sale prices 11.8% and jeonse deposits 7.3% higher, or 5.6% and 5.9% with complex size held fixed. Hagwons teaching younger children add no sale premium once these are held fixed. A larger premium in deposits than in prices across complexes reflects convenience: buyers pay less than re
+    arXiv:2611.07464v1 Announce Type: new  Abstract: Language agents increasingly work for users on the open Web, and finance is where trusting them is hardest. The data must come from the Web, the strategy lives in the user's head, and correctness depends on time, so an agent can fail silently: a strategy the user never asked for, unverified data, or a backtest that uses the future yields a report as convincing as a correct one. Existing benchmarks close the world somewhere, fixing the task, the data, or the timeline, and thereby remove these failures instead of measuring them. We introduce FINCOSMOS, an open-world evaluation paradigm for agents doing financial work. A simulated user holds a hidden strategy sampled from a compositional grammar and reveals it only when asked. The agent receives no data, so it must acquire data from the Web, build its own backtest under a data cutoff, and deliver verifiable results. Grading needs no reference answer. Programs verify point-in-time correctnes
     
-[^9]: 财政规则变化对数字产品贸易的潜在影响
+[^5]: 股票增长最优组合的信息论模型
 
-    The potential impact of fiscal rule changes on digital products trade
+    Information-Theoretic Model for the Growth Optimal Portfolio of Stocks
 
-    [https://arxiv.org/abs/2611.05714](https://arxiv.org/abs/2611.05714)
+    [https://arxiv.org/abs/2611.07457](https://arxiv.org/abs/2611.07457)
 
-    本研究首次系统比较了WTO电子传输关税暂停失效后，关税与数字服务税对数字产品贸易和财政收入的影响，发现在数字服务税基础上叠加或以等效关税替代之可大幅增加财政收入，但会小幅抑制数字贸易。
-
-    
-
-    世界贸易组织（WTO）对电子传输免征关税的暂停协议于2026年3月失效，这使得各国政府可以对跨境数字产品征收关税，同时也可采用数字服务税（DST）等其他政策工具。然而，关税与数字服务税在财政收入规模及其对数字产品贸易的影响方面孰优孰劣，此前尚未得到评估。本研究将2016至2024年间31类数字产品的双边贸易数据与数字服务税税率及实体类似产品的关税相结合，估计引力模型并模拟了不同的财政制度方案。研究发现，实施数字服务税的目的地数字贸易水平整体较低，但在政策实施之后，其境内数字贸易仅出现暂时性下降。基于事件研究估计构建的2024年条件情景显示，在数字服务税基础上叠加等效关税，可使相关财政收入从27亿美元提高至69亿美元，同时使贸易下降约1.4%；而以等效关税取代数字服务税则可带来43亿美元的收入。此外还发现……（原文摘要在此处截断）
-
-    arXiv:2611.05714v1 Announce Type: new  Abstract: The WTO moratorium on customs duties on electronic transmissions lapsed in March 2026, allowing governments to impose tariffs on cross-border digital products, alongside other instruments such as digital services taxes (DSTs). Yet, how tariffs and DSTs compare in the revenue they raise and their effect on trade in digital products has not yet been assessed. Here we combine bilateral trade in 31 digital product categories in 2016-2024 with DST rates and tariffs on physical analogues, estimate gravity models and simulate alternative fiscal regimes. We find that digital trade is lower in destinations with a DST, but within destinations it declines only temporarily after adoption. In conditional scenarios for 2024 based on the event study estimate, adding tariff equivalents to DSTs raises revenue from USD 2.7 to 6.9 billion and lowers trade by about 1.4%, and replacing DSTs with tariff equivalents raises USD 4.3 billion. We also find that ta
-    
-[^10]: 波兰经济政策不确定性指数：数据、构建与验证
-
-    Economic Policy Uncertainty Index for Poland: Data, Construction, and Validation
-
-    [https://arxiv.org/abs/2611.05640](https://arxiv.org/abs/2611.05640)
-
-    本文基于BBD报纸文本方法构建了波兰2000-2026年的月度经济政策不确定性指数，并利用链式拼接修正程序解决了报纸面板构成变化导致的指数跳变问题。
+    本文基于信息论原理构建了股票增长最优组合的代理模型，预测其对数收益率服从自由度略小于4的学生t分布，并以该基准实现了基准中性的金融衍生品定价与对冲。
 
     
 
-    我们遵循基于报纸文本的Baker-Bloom-Davis（BBD）方法，构建了覆盖2000年1月至2026年6月、连续的波兰月度经济政策不确定性（EPU）指数。该指数基于六份拥有深厚历史的波兰报纸（Rzeczpospolita、Parkiet、Gazeta Wyborcza、Dziennik Gazeta Prawna、Gazeta Polska Codziennie 和 Puls Biznesu），按文章总量进行缩放，在固定的2000-2024年基线期（300个月）上标准化为单位标准差，每期对所有可用报纸的结果取平均，并进行归一化使基线期均值等于100。由于各报纸在不同时点加入样本面板，朴素的扩展面板平均方法可能在每个报纸加入时点因样本构成变化（而非真实的不确定性变化）而产生指数跳变。我们采用BBD附录A中的拼接程序对此加以修正：从覆盖最全的六报锚定面板出发进行向后链式拼接，通过乘法比例因子匹配离散度、通过乘法因子匹配水平。
+    借鉴信息论原理和实证证据，本文构建并对股票增长最优组合的代理（即基准）进行了建模。其活性时间的导数能够捕捉交易行为中的过度反应，并遵循一个快速移动的拟平稳标量扩散过程。模型预测该基准的对数收益率服从自由度略小于四的学生t分布，并通过实证检验验证了这一预测。以该基准作为计价单位，所导出的模型能够实现基准中性的定价与对冲。
 
-    arXiv:2611.05640v1 Announce Type: new  Abstract: We construct a continuous monthly Economic Policy Uncertainty (EPU) index for Poland spanning January 2000 to June 2026, following the newspaper-based Baker-Bloom-Davis (BBD) methodology. The index uses six deep-history Polish newspapers (Rzeczpospolita, Parkiet, Gazeta Wyborcza, Dziennik Gazeta Prawna, Gazeta Polska Codziennie, and Puls Biznesu), scaled by article volume, standardized to unit standard deviation over a fixed 2000-2024 baseline (300 months), averaged across available papers each period, and normalized so the baseline mean equals 100.   Because newspapers enter the panel at different dates, a naive expanding-panel average can jump at each entry point from a change in composition rather than real uncertainty. We correct for this using the BBD Appendix A splicing procedure: a backward chain-splice from the richest six-paper anchor panel that matches dispersion via a multiplicative scale factor and matches level via a multipl
+    arXiv:2611.07457v1 Announce Type: new  Abstract: Drawing on information-theoretic principles and empirical evidence, a proxy for the growth-optimal portfolio of stocks (the benchmark) is constructed and modeled. The derivative of its activity time captures overreactions in trading behavior and follows a fast-moving, quasi-stationary scalar diffusion. The benchmark's log-returns are predicted to follow a Student t distribution with degrees of freedom slightly less than four, and this prediction is tested empirically. With the benchmark as numeraire, the derived model enables benchmark-neutral pricing and hedging.
     
-[^11]: 决策模型：能够捕捉人类差异的可扩展经济替代模型
+[^6]: 神经实现测度：面向波动率预测的预测监督型日内聚合方法
 
-    Decision Models as Scalable Economic Surrogates that Capture Human Variation
+    Neural Realized Measures: Forecast-Supervised Intraday Aggregation for Volatility Forecasting
 
-    [https://arxiv.org/abs/2611.05553](https://arxiv.org/abs/2611.05553)
+    [https://arxiv.org/abs/2611.07287](https://arxiv.org/abs/2611.07287)
 
-    本研究首次评估了决策模型在经济学中作为人类替代者的潜力，发现前沿决策模型在三种经济场景中比大语言模型更能再现人类回应的多样性，同时速度快约十倍，是大规模经济模拟与调查的更优选择。
-
-    
-
-    决策模型（DMs）是一类新型AI模型，能够快速给出响应，并返回一组固定选项上的概率分布。这些特性使其成为经济模拟与调查中人类替代者的有力候选——这一角色目前正越来越多地由大语言模型（LLMs）承担，但LLMs在大规模应用时成本高昂，且无法充分体现人类行为的多样性。我们首次评估了DMs在经济学领域作为人类替代者的表现，在三种经济场景中将10个DMs与8个LLMs进行比较：一项关于消费的家庭支出调查、若干经典经济博弈，以及一项劳动力市场田野实验。在所有三种场景中，前沿DMs（即在通用决策基准上得分最高的模型）都比LLMs更贴近地再现了人类回应的多样性。在支出调查中，它们对人类最典型回应的捕捉能力与LLMs相当，但在经济博弈中表现稍逊。此外，前沿DMs的速度比最快的……大约快十倍
-
-    arXiv:2611.05553v1 Announce Type: cross  Abstract: Decision Models (DMs), a new class of AI models, give fast responses and return a probability distribution over a fixed set of options. These properties make them candidate human surrogates in economic simulations and surveys, a role increasingly filled by Large Language Models (LLMs), which are costly at scale and under-represent the variation in human behaviour. We present a first evaluation of DMs as human surrogates in economics, comparing 10 DMs with 8 LLMs in three economic settings: a household spending survey on consumption, several classic economic games and a labour-market field experiment. Frontier DMs, those that score highest on general decision-making benchmarks, reproduce the variation in human responses more closely than LLMs in all three settings. They capture the modal human response as well as LLMs in the spending survey, but less well in the economic games. Frontier DMs are also roughly ten times faster than the fas
-    
-[^12]: AIDA：基于链上MEV证据的AI服务中断登记系统
-
-    AIDA: An AI Outage Registry with Evidence from On-Chain MEV
-
-    [https://arxiv.org/abs/2611.01656](https://arxiv.org/abs/2611.01656)
-
-    该论文创建了首个系统性记录AI服务故障的多供应商登记数据库AIDA，并结合链上MEV交易数据证明：在仅需代码和公开信息的领域，AI编程工具降低了准入成本、显著扩大了MEV参与者的进入，而依赖私人资源的参与者减少且执行仍高度集中。
+    该论文提出神经实现测度（NRM），一种以波动率预测为监督、通过可学习的正的上下文相关权重来聚合日内观测的框架，将经典实现测度嵌套为特例，从而改进波动率预测。
 
     
 
-    生成式AI编程工具降低了编写交易软件的成本，但目前尚无系统性数据集记录这些服务何时发生故障。我们提出了AI事件与中断档案（AIDA），这是一个涵盖2025年至2026年间30家供应商共5,868条去重后中断事件的多供应商登记库，其中基础模型相关事件均通过与原始状态页面或事后分析报告的URL进行了核验。将AIDA与8,516个以太坊地址的5,041,034笔经验证的最大可提取价值（MEV）交易及其合约创建记录，以及一个为期22个月、包含1,099,593,191笔交换交易和29,120个私人执行者的Base二层网络面板数据相结合，我们确立了两个发现。第一，在代码与公开状态信息即可满足需求的情况下，MEV领域的准入规模显著扩张——活跃套利地址数量从2024年底到2026年底增长了四倍，清算者数量增长了三分之一，而依赖私人订单流和构建者访问权限的三明治攻击者数量则有所下降。尽管如此，执行环节仍然保持高度集中……
+    高频波动率预测通常将测量与预测两个环节分离：日内观测首先通过固定的聚合规则被压缩为日度实现测度，随后所得统计量再被传入预测模型。因此，这种传统流程将测度构建视为与预测无关的预处理步骤。我们提出这样的问题：聚合阶段本身能否基于下游预测目标进行学习，同时保留既有实现测度的统计结构。我们提出神经实现测度（NRM），这是一个保持原语、以预测为监督的聚合框架，它保留了原始的测度特定日内贡献，但以正的、均值归一化且依赖上下文的权重取代了均匀聚合。当使用均匀权重时，可以精确恢复相应的原始实现测度（RRM），因此经典构造被嵌套为该框架的特例。
 
-    arXiv:2611.01656v2 Announce Type: replace  Abstract: Generative AI coding tools have lowered the cost of writing trading software, but no systematic dataset records when these services fail. We introduce the AI Incident and Disruption Archive (AIDA), a multi-vendor registry of 5,868 deduplicated outage incidents across 30 providers from 2025 to 2026, with foundation-model incidents verified against primary status-page or postmortem URLs. Pairing AIDA with 5,041,034 verified maximal extractable value (MEV) transactions by 8,516 Ethereum addresses, their contract creations, and a 22-month Base Layer-2 panel of 1,099,593,191 swaps and 29,120 private executors, we establish two findings. First, entry into MEV expanded where code and public state suffice, as active arbitrage addresses quadrupled from late 2024 to late 2026 and liquidators grew by a third, while sandwich attackers, who need private order flow and builder access, declined. Execution nonetheless remained concentrated, with the
+    arXiv:2611.07287v1 Announce Type: new  Abstract: High-frequency volatility forecasting typically separates measurement from prediction: intraday observations are first compressed into a daily realized measure using a fixed aggregation rule, and the resulting statistic is then passed to a forecasting model. This conventional pipeline therefore treats measure construction as forecast-agnostic preprocessing. We ask whether the aggregation stage itself can instead be learned from the downstream forecasting objective while preserving the statistical structure of established realized measures. We propose Neural Realized Measures (NRM), a primitive-preserving, forecast-supervised aggregation framework that retains the original measure-specific intraday contributions but replaces uniform aggregation with positive, mean-normalized context-dependent weights. Uniform weights exactly recover the corresponding raw realized measure (RRM), so the classical construction is nested as a special case. Be
     
-[^13]: 社会网络与家庭冲击向资产价格的传播
+[^7]: 用于期限结构与期权定价的粗糙瞬时平方VIX模型
 
-    Social Networks and the Propagation of Household Shocks to Asset Prices
+    A Rough Instantaneous Squared VIX Model for Term Structure and Option Pricing
 
-    [https://arxiv.org/abs/2611.01540](https://arxiv.org/abs/2611.01540)
+    [https://arxiv.org/abs/2611.07120](https://arxiv.org/abs/2611.07120)
 
-    该论文在社会网络上构建了一个金融加权的传播算子，证明家庭局部冲击会经由社会网络传播并影响信贷价格（超额债券溢价），且由于不同网络模式下响应衰减速率不同，没有任何单一中心性指标能概括跨期限的风险敞口，并以风暴冲击数据实证验证了这一机制。
-
-    
-
-    家庭层面的局部扰动何时能够影响信贷价格？我在社会网络上构建了一个金融加权的传播算子。在一个条件性的家庭—中介均衡中，该算子的投影决定了超额债券溢价中的家庭需求成分。由于响应在不同网络模式与渠道下以不同速率衰减，一个地区的相对金融重要性通常会随时间跨度（期限）而变化，因此没有任何单一的中心性指标能够概括跨期限的风险敞口。当家庭层面的度量能够张成独立测量的需求敏感性时，即可精确恢复这一投影。实证上，与遭受风暴袭击各县的社会关联度，与数周后位于受灾记录范围之外地区的支出呈负相关。在基于观测网络并遵循模型扩散规律的模拟中，该算子对留出样本风暴的传播信贷溢价成分的预测误差约低30%……
-
-    arXiv:2611.01540v1 Announce Type: new  Abstract: When can local household disturbances move credit prices? I develop a financially weighted propagation operator on the social network. In a conditional household-intermediary equilibrium, its projection determines the household-demand component of the excess bond premium. Because responses decay at different rates across network patterns and channels, a location's relative financial importance generically changes with the horizon, so no single centrality measure summarizes exposure across horizons. Household measurements recover this projection exactly when they span independently measured demand sensitivities. Empirically, social exposure to storm-damaged counties is negatively associated with spending weeks later in counties outside the recorded footprints. In simulations on the observed network under the model's diffusion law, the operator predicts the propagated credit-premium component of held-out storms with about 30 percent less e
-    
-[^14]: 基于动态校准的非中性弹性加工网络的内生供应链转型
-
-    Endogenous supply-chain transformation via dynamically calibrated nonneutroelastic processing networks
-
-    [https://arxiv.org/abs/2609.15452](https://arxiv.org/abs/2609.15452)
-
-    本文提出一种利用网络物理上游拓扑结构的混合启发式算法，通过垂直级联顺序下降与水平块坐标下降的交替优化，克服了非凸性、病态性与维数灾难等难题，实现了级联CES生产函数结构参数的动态校准，从而为供应链内生转型建模提供了可行工具。
+    本文提出将分数阶记忆引入传统马尔可夫框架的粗糙瞬时平方VIX（RISVIX）模型，推导出Mittag–Leffler衰减形式的VIX期限结构显式表示和基于仿射Fourier–Laplace变换的VIX期权半闭式定价公式，并通过两步校准方法在实证中显著优于马尔可夫基准模型。
 
     
 
-    理解供应链如何实现内生转型，需要一个具有非中性替代弹性的加工网络参数化模型。虽然级联CES（CCES）生产函数为这些多层关联提供了严格的框架，但从时间序列数据动态校准其结构参数构成了一个高度非凸的逆优化问题。强制施加严格的微观经济凹性约束，会使标准的整体式方法因极端病态性和维数灾难而失效。为克服这一计算瓶颈，我们提出了一种新颖的利用结构特征的算法。通过利用网络的物理上游拓扑结构，我们的混合启发式算法在垂直级联顺序下降与水平块坐标下降之间交替进行。我们的框架成功校准了一个10部门宏观经济模型的基本弹性……
+    VIX期限结构提供了跨期限的市场不确定性前瞻性度量，而VIX期权则使投资者能够对冲波动率风险。本文通过在传统马尔可夫框架中引入分数阶记忆，提出了一种粗糙瞬时平方VIX（RISVIX）模型。我们推导出了由Mittag–Leffler衰减所刻画的VIX期限结构的显式表示，以及基于仿射Fourier–Laplace变换的VIX期权半闭式定价公式。这些结果支持一个两步校准程序：先从VIX期限结构指数中估计记忆参数、均值回复参数以及特定日期的初始状态，然后再将其余分布参数校准至VIX期权价格。利用2018年1月至2025年6月的每日VIX期限结构指数和VIX期权报价，我们发现RISVIX在拟合VIX期限结构方面优于马尔可夫基准模型，且改善在（市场动荡）期间更为显著。
 
-    arXiv:2609.15452v1 Announce Type: new  Abstract: Understanding how supply chains endogenously transform requires a parametric model of processing networks with non-neutral substitution elasticities. While the Cascaded CES (CCES) production function provides a rigorous framework for these multi-layered linkages, dynamically calibrating its structural parameters from time-series data constitutes a highly non-convex inverse optimization problem. Enforcing the strict microeconomic concavity constraint causes standard monolithic approach to fail due to extreme ill-conditioning and the curse of dimensionality. To overcome this computational bottleneck, we propose a novel structure-exploiting algorithm. By leveraging the physical upstreamness topology of the network, our hybrid heuristic alternates between a vertical cascade-sequential descent and a horizontal block coordinate descent. Our framework successfully calibrates the fundamental elasticities of a 10-sector marcoeconomic model of the
+    arXiv:2611.07120v1 Announce Type: new  Abstract: The VIX term structure provides forward-looking measures of market uncertainty across horizons, while VIX options allow investors to hedge volatility risk. This paper proposes a rough instantaneous squared VIX (RISVIX) model by introducing fractional memory into the conventional Markovian framework. We derive an explicit representation of the VIX term structure governed by Mittag--Leffler decay and a semi-closed-form pricing formula for VIX options based on an affine Fourier--Laplace transform. These results support a two-step calibration procedure that estimates memory, mean reversion, and date-specific initial states from VIX term-structure indices before calibrating the remaining distributional parameters to VIX option prices. Using daily VIX term-structure indices and VIX option quotes from January 2018 to June 2025, we find that RISVIX improves upon the Markovian benchmark in fitting the VIX term structure, with larger gains during 
     
-[^15]: 估值揭示不确定性
+[^8]: 面向经验费率的信度聚类：团体人寿保险中风险组分配的自动化方法
 
-    Valuation Reveals Uncertainty
+    Credibility Clustering for Experience Rating: An Automated Approach to Risk Group Allocation in Group Life Insurance
 
-    [https://arxiv.org/abs/2606.29572](https://arxiv.org/abs/2606.29572)
+    [https://arxiv.org/abs/2611.07110](https://arxiv.org/abs/2611.07110)
 
-    本文证明在适当条件下，可以从可观测的动态次线性（稳健）估值规则中显式恢复出潜在的不确定性结构，从而刻画贴现因子与状态过程分布的联合不确定性。
-
-    
-
-    本文研究如何从动态次线性估值规则中恢复不确定性。稳健估值通过在一系列合理模型上取最坏情况下的期望值来为每笔收益定价，由此诱导出一个动态次线性估值规则。尽管估值规则在实践中是可观测的，但其背后的不确定性结构却仍是隐匿的。在适当条件下，我们证明了可以从观测到的估值规则中恢复出一个不确定性结构，并给出了显式的恢复程序。该构造刻画了贴现因子与状态过程分布律的联合不确定性。
-
-    arXiv:2606.29572v2 Announce Type: replace-cross  Abstract: This paper studies the recovery of uncertainty from dynamic sublinear valuation rules. Robust valuation assigns each payoff its worst-case expected value over a family of plausible models, thereby inducing a dynamic sublinear valuation rule. While valuation rules are observable in practice, the underlying uncertainty structure remains latent. Under suitable conditions, we show that an uncertainty structure can be recovered from an observed valuation rule and provide an explicit recovery procedure. The construction characterizes the joint uncertainty in the discount factor and the law of the state process.
-    
-[^16]: 用于金融市场状态检测的几何可观测量
-
-    Geometric Observables for Financial Regime Detection
-
-    [https://arxiv.org/abs/2605.17117](https://arxiv.org/abs/2605.17117)
-
-    该研究提出从股指收益谱嵌入中提取的四种几何可观测量可作为有效的金融市场状态转换检测器，其误报率显著低于监督学习基线，且与经典风险指标捕捉的信号互补。
+    该论文提出将多维 Bühlmann-Straub 信度模型与 k-means 聚类相结合的“信度聚类”方法，以数据驱动方式自动完成团体人寿保险中的同质风险组划分，取代传统依赖人工决策与主观阈值的分类方式。
 
     
 
-    我们从股指收益的学习谱嵌入中提取了四种几何可观测量——贝里相位率、谱熵、约化态纯度和哈密顿灵敏度，并在2000至2024年间的17次历史危机中，将其作为市场状态转换检测器与46种经典及机器学习基线方法进行对比评估。在九个标注窗口上采用向前滚动嵌套超参数选择的条件下，贝里相位率取得了无偏的样本外中位数Cohen's d = 0.72（95%百分位自助法置信区间为[0.34, 1.18]，10,000次重采样），且每年产生的误报比有标签监督的随机森林少约67%（每年1.2次对3.6次）。约化态纯度在所有方法中取得了最高的样本内可分性（d = 0.83），吸收比率紧随其后（d = 0.80）；几何通道与经典通道在很大程度上互不相关（平均|ρ| ≈ 0.22），表明二者捕捉的是不同的风险信号。
+    在保险业中，经验费率通过根据历史理赔经验调整保费，在缓解逆向选择方面发挥着至关重要的作用。这一过程中的关键步骤是将被保险团体划分到同质的风险组中。在团体人寿保险领域，这种划分传统上依赖于人工决策和任意设定的阈值，可能导致效率低下和结果不一致。本文提出了一种数据驱动的方法，结合多维 Bühlmann-Straub 模型与 k-means 聚类来自动化风险组分配——该方法被称为信度聚类。通过引入信度权重，该方法考虑了经验数据统计显著性的差异，确保风险分类既在精算上合理，又具备实际可操作性。基于某欧洲大型保险公司的真实团体人寿保险数据的实证结果表明……（原文摘要至此截断）
 
-    arXiv:2605.17117v3 Announce Type: replace  Abstract: We extract four geometric observables -- Berry Phase Rate, Spectral Entropy, Reduced State Purity, and Hamiltonian Sensitivity -- from a learned spectral embedding of equity-index returns and evaluate them as regime-shift detectors against 46 classical and machine-learning baselines on 17 historical crises spanning 2000-2024. Under walk-forward nested hyperparameter selection on nine labelled windows, the Berry Phase Rate achieves an unbiased out-of-sample median Cohen's $d = 0.72$ (95% percentile-bootstrap CI $[0.34, 1.18]$, 10,000 resamples) and produces approximately 67% fewer false alarms per year than a label-supervised Random Forest (1.2 vs. 3.6 per year). Reduced State Purity attains the highest in-sample separability of any method ($d = 0.83$), tied closely by the Absorption Ratio ($d = 0.80$); geometric and classical channels are largely uncorrelated (mean $|\rho| \approx 0.22$), suggesting they capture distinct risk signals
+    arXiv:2611.07110v1 Announce Type: cross  Abstract: In insurance, experience rating plays a crucial role in mitigating adverse selection by adjusting premiums according to historical claims experience. A key step in this process is the classification of insured collectives into homogeneous risk groups. Within group life insurance, this classification traditionally relies on manual decisions and arbitrary thresholds, which may lead to inefficiencies and inconsistent outcomes. This paper proposes a data-driven methodology for automating risk group allocation based on a combination of the multidimensional B\"uhlmann-Straub model and k-means clustering -- referred to as credibility clustering. By incorporating credibility weights, the method accounts for the varying statistical significance of experience data and ensuresthat risk classifications are both actuarially sound and practically implementable. Empirical results based on real-world group life insurance data from a major European ins
     
-[^17]: 经济复杂性的动态理论
+[^9]: 由多维扩散过程驱动的随机指数鞅性质的充要条件
 
-    The Dynamic Theory of Economic Complexity
+    Necessary and sufficient conditions for the martingale property of stochastic exponentials driven by multi-dimensional diffusions
 
-    [https://arxiv.org/abs/2512.10672](https://arxiv.org/abs/2512.10672)
+    [https://arxiv.org/abs/2611.07083](https://arxiv.org/abs/2611.07083)
 
-    该论文提出了一个基于弱连接生产函数与跨活动共享能力积累的经济复杂性动态理论，预测了从无条件收敛到可调节条件收敛的转变以及路径依赖多样化机制，并通过国际贸易数据进行了实证检验。
-
-    
-
-    为什么有些活动在某些经济体中比在其他经济体增长得更快？我们建立了一个经济复杂性的动态模型，其中产出由弱连接生产函数决定，而投资有助于积累跨活动共享的能力。我们通过检验该模型的两个预测来进行实证验证。首先，模型预测能力积累速度最快时所对应的能力存量会随着某项活动的能力需求而增加，这意味着经济从无条件收敛向条件收敛的转变，并形成一个可调节的条件收敛机制。其次，共享能力为路径依赖的多样化（即相关性原理）提供了一种机制，包括在探索经济体与活动增长的回归分析中，相关性与复杂性交互项的预期符号。我们利用国际贸易数据及相关数据对这些预测进行了评估。
-
-    arXiv:2512.10672v2 Announce Type: replace  Abstract: Why do some activities grow faster in some economies than others? We develop a dynamic model of economic complexity in which output is determined by a weak-link production function and investment contributes to the accumulation of capabilities shared across activities. We test the model empirically by exploring two of its predictions. First, the model predicts that the capability stock at which the accumulation of a capability is fastest increases with the capability requirements of an activity. This implies a transition from unconditional to conditional convergence and a tunable conditional convergence regime. Second, shared capabilities provide a mechanism for path-dependent diversification (the principle of relatedness), including signs for the expected interaction terms between relatedness and complexity terms in regressions exploring growth by economy and activity. We evaluate these predictions using international trade, and sub
-    
-[^18]: 大语言模型的金融大脑扫描
-
-    A Financial Brain Scan of the LLM
-
-    [https://arxiv.org/abs/2508.21285](https://arxiv.org/abs/2508.21285)
-
-    该论文利用稀疏自编码器对大语言模型进行“金融大脑扫描”，实现对内部概念的可解释映射与精准引导，并揭示了模型自我解释与其真实内部推理之间存在明显脱节。
+    本文给出了由多维扩散驱动的随机指数成为真鞅的系数充要条件，将分析分解为光滑边界上平移Fichera漂移的非正性判据、无穷远处基于Feller检验的精确准则以及非光滑边界情形，并应用于具有相关因子的逆CIR和4/2模型。
 
     
 
-    我们使用稀疏自编码器（SAEs）对大型语言模型进行“大脑扫描”，将模型内部激活映射到可解释的概念上，并能够对特定特征进行有针对性的“引导”。我们表明，通过提示让模型采用特定偏好会激活许多非预期的概念，从而使因果推断变得复杂。相比之下，SAE 能够对目标概念实现平滑且更加孤立的引导。此外，我们的扫描揭示了模型内部特征贡献与其自我生成的解释之间存在明显的脱节，表明这些解释并不能可靠地反映模型的推理过程。最后，SAE 为现有模型提供了一种轻量级的干预手段，能够生成可解释的嵌入，并使研究人员能够减弱模型中特定的经济偏见。
+    我们给出了由多维扩散过程驱动的随机指数成为真鞅的系数充要条件。通过带有Girsanov平移漂移的扩散过程不越出区域的经典约化方法，我们将分析分为光滑边界点、无穷远处以及非光滑边界部分。在光滑区域上，在正则性与非爆炸性假设下，鞅性等价于平移后的Fichera漂移的非正性，前提是在该漂移消失且随机被积函数无界处满足一个显式的局部条件。在无穷远处，当扩散过程的某个标量函数经过一个速率有上下界的时间变换后约化为一维扩散时，Feller检验给出精确判据。一般的径向检验和投影检验提供充分条件。应用部分给出了具有相关因子的逆CIR模型和4/2模型的显式充要条件。
 
-    arXiv:2508.21285v4 Announce Type: replace-cross  Abstract: We use sparse autoencoders (SAEs) to "brain scan" large language models, mapping internal activations to interpretable concepts and enabling targeted "steering" of specific features. We show that prompting models to adopt specific preferences activates many unintended concepts, complicating causal inference. In contrast, SAEs permit smooth, more isolated steering of target concepts. Furthermore, our scans reveal a stark disconnect between the model's internal feature contributions and its self-generated explanations, showing that these explanations are unreliable guides to its reasoning. Finally, SAEs provide a lightweight intervention for existing models, producing interpretable embeddings and allowing researchers to attenuate specific economic biases.
+    arXiv:2611.07083v1 Announce Type: cross  Abstract: We give necessary and sufficient coefficient conditions for stochastic exponentials driven by multidimensional diffusions to be true martingales. The classical reduction to non-exit of the diffusion with Girsanov-shifted drift separates the analysis into smooth boundary points, infinity, and nonsmooth boundary pieces. On smooth domains, under regularity and non-explosion hypotheses, martingality is equivalent to nonpositivity of the shifted Fichera drift, provided an explicit local condition holds where that drift vanishes and the stochastic integrand is unbounded. At infinity, Feller's test gives exact criteria when a scalar function of the diffusion reduces to a one-dimensional diffusion up to a time change with rate bounded above and away from zero. General radial and projection tests supply sufficient conditions. Applications give explicit necessary and sufficient conditions for inverse-CIR and $4/2$ models with correlated factors 
     
-[^19]: 不止于薪酬：AI技能回报的演变
+[^10]: 巴西市场混合策略的收益分解：真实Alpha与因子暴露的证据
 
-    Pay and Beyond: The Evolving Rewards for AI Skills
+    Return Decomposition of Hybrid Strategies in the Brazilian Market: Evidence of Genuine Alpha and Factor Exposure
 
-    [https://arxiv.org/abs/2507.20410](https://arxiv.org/abs/2507.20410)
+    [https://arxiv.org/abs/2611.06919](https://arxiv.org/abs/2611.06919)
 
-    该研究基于2018-2025年间约一千万条美国职位招聘数据，发现生成式AI问世后各规模企业对AI技能的需求均大幅激增，AI岗位不仅享有工资溢价（在中小企业中最为突出），还更普遍地提供远程办公、包容性文化和育儿假等非货币福利。
-
-    
-
-    本研究考察了美国劳动力市场中要求人工智能技能的职位招聘所宣传的货币与非货币回报。利用2018年至2025年间发布的约一千万条在线职位招聘信息，我们研究了不同规模企业对AI人才需求的演变、工资溢价以及非货币福利（包括学费资助、带薪休假、健康与福祉项目、育儿假、包容性职场用语和远程办公）的发展。我们发现，自2022年底生成式AI问世以来，中小企业（SMEs）、大型企业以及标普500企业对AI技能的需求均急剧上升，其中中小企业的AI工资溢价涨幅最为显著。与可比的非AI岗位相比，AI岗位在招聘广告中宣传非货币福利的可能性显著更高，尤其是远程办公、包容性文化和育儿假。这一溢价在中小企业和大（原文摘要在此处截断）
-
-    arXiv:2507.20410v4 Announce Type: replace  Abstract: This study examines the monetary and non-monetary rewards advertised in job vacancies requiring artificial intelligence skills in the U.S. labor market. Using approximately ten million online job vacancies posted between 2018 and 2025, we examine the development of AI demand, wage premia, and non-monetary benefits, including tuition assistance, paid leave, health and well-being programs, parental leave, inclusive workplace language, and remote work, across firms of different sizes. We find that demand for AI skills increased sharply following the introduction of generative AI in late 2022 across small and medium-sized enterprises (SMEs), large firms, and S&P 500 firms, while AI wage premia rose most strongly among SMEs. AI vacancies are significantly more likely than comparable non-AI roles to advertise non-monetary benefits, particularly remote work, inclusive culture, and parental leave. This premium is strongest among SMEs and lar
-    
-[^20]: 可测系数的随机最优控制及其应用
-
-    Stochastic Optimal Control with Measurable Coefficients and Applications
-
-    [https://arxiv.org/abs/2502.02352](https://arxiv.org/abs/2502.02352)
-
-    该论文首次针对具有可测系数的完全非线性随机最优控制问题，利用 $L^p$-粘性解理论证明了 HJB 方程强解的存在性，建立最优性充要条件的验证定理，并据此构造最优反馈控制、刻画值函数的唯一性。
+    本文分解了巴西市场中基本面筛选与均线交叉技术系统相结合的混合策略收益来源，发现策略在控制多因子风险后仍具有每月约1%的显著真实Alpha，但出乎意料的是价值因子（HML）并不显著，表明ROE和净利率等质量指标使选股偏向高质量公司，从而掩盖了价值溢价。
 
     
 
-    我们考虑具有可测系数和（局部）一致椭圆扩散的完全非线性随机最优控制问题。利用 $L^p$-粘性解理论，我们证明了 Hamilton-Jacobi-Bellman (HJB) 方程存在一个 $L^p$-粘性解 $v\in W_{\rm loc}^{2,p}$，并且该解也是一个强解（即它在几乎处处逐点满足 HJB 方程）。在此基础上，我们证明了验证定理，给出了最优性的充要条件。这些结果使我们能够构造最优反馈控制，并将值函数刻画为 HJB 方程唯一的 $L^p$-粘性解。据我们所知，这是关于具有可测系数的完全非线性随机最优控制问题的首个结果。我们运用所发展的理论求解了经济学中出现的一个随机最优控制问题，该问题处于最优框架的背景下。
+    本文分解了一个混合投资组合的收益来源，该组合将基于市盈率（P/E）、净资产收益率（ROE）、净利率、流动比率和市净率（P/BV）的基本面筛选与移动平均线交叉系统（SMA 9/46）相结合，应用于巴西证券交易所（B3），样本期为2000年1月至2025年12月（300个月度观测值）。通过采用异方差稳健标准误的普通最小二乘法（OLS）估计的CAPM以及Fama-French三因子和四因子模型，在三因子模型中识别出正向且统计显著的Jensen alpha，为每月1.11%（p = 0.005）。在包含动量因子的四因子模型中，alpha仍然显著（每月0.98%；p = 0.009），而动量因子不显著（p = 0.409）。核心——也是出乎意料的——发现是HML因子不显著（beta_h = 0.1266；p = 0.544）：尽管明确采用了价值筛选标准，收益却并未对价值溢价产生载荷，这可能是因为ROE和净利率使选股偏向高质量公司。
 
-    arXiv:2502.02352v4 Announce Type: replace-cross  Abstract: We consider fully non-linear stochastic optimal control problems with measurable coefficients and (local) uniformly elliptic diffusion. Using the theory of $L^p$-viscosity solutions, we show existence of an $L^p$-viscosity solution $v\in W_{\rm loc}^{2,p}$ of the Hamilton-Jacobi-Bellman (HJB) equation, which, in turn, is also a strong solution (i.e. it satisfies the HJB equation pointwise a.e.). We are then led to prove verification theorems, providing necessary and sufficient conditions for optimality. These results allow us to construct optimal feedback controls and to characterize the value function as the unique $L^p$-viscosity solution of the HJB equation. To the best of our knowledge, these are the first results for fully non-linear stochastic optimal control problems with measurable coefficients. We use the theory developed to solve a stochastic optimal control problem arising in economics within the context of optimal a
+    arXiv:2611.06919v1 Announce Type: new  Abstract: This paper decomposes the return sources of a hybrid portfolio combining a fundamentalist screen - based on P/E, ROE, Net Margin, Current Ratio, and P/BV - with a moving-average crossover system (SMA 9/46), applied to the Brazilian stock exchange (B3) from January 2000 to December 2025 (300 monthly observations). CAPM and Fama-French three- and four-factor models estimated by OLS with heteroskedasticity-robust standard errors identify a positive and statistically significant Jensen alpha of 1.11% per month (p = 0.005) in the three-factor model. In the four-factor model with momentum, alpha remains significant (0.98% p.m.; p = 0.009), while momentum is not significant (p = 0.409). The central - and unexpected - finding is the non-significance of the HML factor (beta_h = 0.1266; p = 0.544): despite explicit value criteria, returns do not load on the value premium, likely because ROE and Net Margin tilt selection toward quality firms. By co
     
-[^21]: 动作状态相关的动态模型选择
+[^11]: 量化加密期权曲面中的修复风险
 
-    Action-State Dependent Dynamic Model Selection. (arXiv:2307.04754v1 [cs.LG])
+    Quantifying Repair Risk in Crypto Option Surfaces
 
-    [http://arxiv.org/abs/2307.04754](http://arxiv.org/abs/2307.04754)
+    [https://arxiv.org/abs/2611.00958](https://arxiv.org/abs/2611.00958)
 
-    本文提出了一种动态模型选择的方法，该方法能够根据不同的状态选择最优的模型，并通过强化学习算法对动态规划问题进行近似和估计。实验结果表明，在重新平衡成本下切换投资组合模型时，使用宏观经济信息的性能优于事后选择最佳投资组合模型。
+    该论文提出“修复风险”概念——同一加密期权报价在满足买卖价差与无套利约束下可能存在多个可容许修复曲面，导致希腊字母与风险度量产生显著差异（经有限差分放大机制可放大至 $4\varepsilon/h^2$），并建立修复风险验证框架在 Deribit BTC/ETH 期权链上量化这种离散性。
 
     
 
-    在世界的某些状态下，多个模型中的一个可能只在其中某些状态下表现最佳。而在模型之间的切换也可能代价高昂。在这种情况下，寻找一种能够动态选择模型的过程需要解决一个复杂的估计问题和动态规划问题。本文使用强化学习算法来从数据中近似和估计这个动态规划问题的最优解。实验结果表明，该算法能够一致地估计出根据一组协变量选择不同模型的最优策略。具体应用方面，例如在重新平衡成本下切换不同投资组合模型，使用宏观经济信息进行决策。通过一组宏观经济变量和价格数据，经验应用于上述投资组合问题表现出比事后选择最佳投资组合模型更优的性能。
+    期权交易台在计算希腊字母、对冲数量或风险度量之前，会将加密期权报价调整为保持在买卖价差区间内、并在各行权价间满足标准无套利约束的价格曲面。然而，对于同一报价面板，这些约束可能允许多个符合条件的曲面（我们称之为可容许修复），而不同曲面会产生不同的下游输出。我们将由此产生的变异定义为修复风险，并提出修复风险验证，这是一个用于量化希腊字母、对冲数量和风险度量离散程度的匹配框架。其机制是有限差分放大：价格距离为 $\varepsilon$ 的两个可容许修复，其局部归一化行权价曲率可相差 $4\varepsilon/h^2$，其中 $h$ 为局部归一化行权价间距。我们在 Deribit 的 BTC 和 ETH 期权链上评估修复风险，并将中点价格在同一可容许集合上的 $L_1$ 和 $L_2$ 投影作为匹配对照组。
 
-    A model among many may only be best under certain states of the world. Switching from a model to another can also be costly. Finding a procedure to dynamically choose a model in these circumstances requires to solve a complex estimation procedure and a dynamic programming problem. A Reinforcement learning algorithm is used to approximate and estimate from the data the optimal solution to this dynamic programming problem. The algorithm is shown to consistently estimate the optimal policy that may choose different models based on a set of covariates. A typical example is the one of switching between different portfolio models under rebalancing costs, using macroeconomic information. Using a set of macroeconomic variables and price data, an empirical application to the aforementioned portfolio problem shows superior performance to choosing the best portfolio model with hindsight.
+    arXiv:2611.00958v2 Announce Type: replace  Abstract: Option desks adjust crypto option quotes into price surfaces that remain within bid-ask intervals and satisfy standard no-arbitrage restrictions across strikes before computing Greeks, hedge quantities, or risk measures. For the same quote panel, however, these constraints may admit multiple such surfaces, which we call admissible repairs, with different downstream outputs. We define the resulting variation as repair risk and propose repair-risk validation, a matched framework for quantifying dispersion in Greeks, hedge quantities, and risk measures. The mechanism is finite-difference amplification: two admissible repairs within price distance $\varepsilon$ can differ in local normalized-strike curvature by $4\varepsilon/h^2$, where $h$ is local normalized-strike spacing. We evaluate repair risk on Deribit BTC and ETH option chains, using $L_1$ and $L_2$ projections of midpoint prices onto the same admissible set as matched controls.
+    
+[^12]: 安全研究与前沿算力的分配
+
+    Safety Research and the Allocation of Frontier Compute
+
+    [https://arxiv.org/abs/2610.14305](https://arxiv.org/abs/2610.14305)
+
+    本文建模了前沿AI起飞期间实验室如何在能力研究与安全研究之间分配算力，表明当客户服务水平高于某阈值时应由客户算力资助安全研究、否则应从能力研究中抽调，并分析了延迟成本、额外安全学习和服务估值对这一决策阈值的影响。
+
+    
+
+    在前沿起飞期间，一个人工智能实验室将承诺的算力总量分配给能力研究、安全研究和客户，而监管机构则同时限制客户损失的服务以及任何能力可以被延迟的时间。额外的安全算力可以来自客户，也可以来自能力研究。从能力研究中抽调资金会推迟起飞期的结束，因此更廉价的资金来源取决于完成研究能在多大程度上提升客户服务：当服务水平高于某一阈值时，应从客户算力中资助；远低于该阈值时，则应从能力研究中资助。客户出资使能力发布日期保持不变，而研究出资则给安全知识更多时间，代价是能力发布和客户服务的推迟。该阈值是在给定分配方案和共同延续路径下进行评估的。改变校准参数可以显示延迟成本、额外安全学习和服务估值如何影响该阈值；在基准情形中，该阈值随服务预算的增加而上升。（原文摘要在此处截断）
+
+    arXiv:2610.14305v2 Announce Type: replace  Abstract: During a frontier takeoff period, an AI lab splits a committed stock of compute among capability research, safety research, and customers, and a regulator limits both the services customers lose and how long any capability can be delayed. Extra safety compute can then come from customers or from capability research. Funding from capability research delays the end of the takeoff period, so the cheaper source depends on how much finishing raises customer services: customers above a threshold, capability research as well below it. Customer funding leaves capability dates unchanged, while research funding gives safety knowledge more time at the cost of later capability and customer services. The threshold is evaluated at a given allocation under a common continuation. Varying the calibration shows how delay costs, additional safety learning, and service valuation move it; in the baseline, it rises with the service budget. Customer-funded
+    
+[^13]: 风险上限与发展期限：在安全生产力不确定时为人工智能设定节奏
+
+    Risk Ceilings and Development Deadlines: Pacing AI under Uncertain Safety Productivity
+
+    [https://arxiv.org/abs/2610.11093](https://arxiv.org/abs/2610.11093)
+
+    该论文提出，在安全研究生产力不确定的情况下，“先安全学习、后重演开发”并预留安全算力的策略能以仅比理论下界高3.3%的生产力代价，接近实现风险上限与发展期限的双重监管承诺，且保障成本可由客户服务承担。
+
+    
+
+    当安全生产力未知时，监管者能否同时承诺风险上限与发展期限？要使风险上限低于最终模型在无防护情况下的危险水平，需要最低限度的安全知识储备，因此只有当能够排除较弱的研究成果时，这两项承诺才能同时成立。“先学习、后重演开发”，并在安全上预留富余算力的策略可以接近这一最低要求。在一个仅包含状态风险、恒定安全产出和完全知识转移的校准设定下，该方法所需的生产力仅比必要下界高3.3%。这一保障的成本由客户服务来支付。固定算力分配的规则固定的是期限，而非风险。
+
+    arXiv:2610.11093v1 Announce Type: new  Abstract: Can a regulator promise both a risk ceiling and a development deadline when safety productivity is unknown? A ceiling below the final model's unprotected hazard requires a minimum stock of safety knowledge, so both promises hold only if weak research can be ruled out. Learning first and then replaying development, with spare compute in safety, comes close to that minimum. In a calibration with only state risk, constant safety yield, and full knowledge transfer, it needs only 3.3 percent more productivity than the necessary bound. Customer services pay for the guarantee. Rules that fix compute allocation fix dates, not risk.
+    
+[^14]: 信息博弈：语言模型空间中的战略拥挤与企业重新定位
+
+    Information Games: Strategic Crowding and Firm Repositioning in Language-Model Space
+
+    [https://arxiv.org/abs/2609.37820](https://arxiv.org/abs/2609.37820)
+
+    本文提出具有唯一均衡的ESCAPE理性份额博弈模型，证明竞争并非使企业分散，而是改变它们对同一机会变化的反应差异，相对反应分量解释了战略型与独立型企业之间90.5%的反应对比。
+
+    
+
+    企业会追随不断变化的经济机会，但竞争会改变它们的反应方式。我们提出了ESCAPE，一个具有异质性能力成本的、以分布为定位载体的理性份额博弈，建立了唯一均衡，并推导出一个精确的再配置约束，将机会贡献与拥挤贡献分离开来。竞争未必会把企业推向彼此分散：理性企业可能进入日益拥挤的区域，因为即使其拥挤分量为负，完整的再配置收益仍可能为正。相反，竞争改变的是企业对同一机会变化所做出反应的差异程度。在基准的多企业经济中，相对反应分量解释了战略型企业与独立型企业之间加权平方构成反应对比的90.5%；而在企业能力完全相同时，该分量在数值上为零。在语料库规模的测量下，这种对比依然可以分辨。企业新闻分布记录了持续存在的……
+
+    arXiv:2609.37820v1 Announce Type: cross  Abstract: Firms follow changing economic opportunities, but rivalry changes their response. We develop ESCAPE, a rational-share game of distribution-valued positioning with heterogeneous capability costs, establish a unique equilibrium, and derive an exact reallocation restriction separating opportunity and crowding contributions. Competition need not push firms apart: rational firms can enter increasingly crowded regions, because the full reallocation gain can be positive even when its crowding component is negative. Rivalry instead changes how differently firms respond to the same opportunity shift. In the benchmark many-firm economy, the relative-response component accounts for 90.5% of the weighted squared composition-response contrast between strategic and independent firms; it is numerically zero under identical capabilities. The contrast remains distinguishable under corpus-scale measurement. Corporate news distributions document persiste
+    
+[^15]: 反应边界方差与伴随一致的局部波动率投影
+
+    Reaction-boundary variance and adjoint-consistent local-volatility projection
+
+    [https://arxiv.org/abs/2607.05011](https://arxiv.org/abs/2607.05011)
+
+    本文提出了一种基于潜在订单簿反应边界的新方法，通过操作时间方差核分离波动率模型中的结构、时钟和测度选择，并推导了长记忆情况下的闭合渐近形式。
+
+    
+
+    我们为潜在订单簿反应边界推导了一个操作时间方差核，并利用它来分离通常在日历时间波动率模型中被合并的三个对象：结构边界累积量、时钟投影和定价测度选择。反应边界是买卖失衡场的一个零点。对于局部线性订单簿，有符号订单流扰动通过阻尼阿贝尔响应核移动该零点，因此边界增量的方差作为有限尺度格林函数累积量获得，而非作为原始扩散系数引入。对于指数$0<\gamma<1$的长记忆强迫，操作方差具有一个闭合渐近形式，涉及有效有符号强迫强度、流动性斜率、弹性、记忆和操作粗粒化尺度。确定性活动时钟给出了基准局部波动率投影。更一般、非唯一的时钟生成...
+
+    arXiv:2607.05011v3 Announce Type: replace  Abstract: We derive an operational-time variance kernel for a latent-order-book reaction boundary and use it to separate three objects usually collapsed in calendar-time volatility models: a structural boundary cumulant, a clock projection, and a pricing-measure choice. The reaction boundary is the zero of a bid--ask imbalance field. For a locally linear book, signed order-flow perturbations displace this zero through a damped Abel response kernel, so the variance of boundary increments is obtained as a finite-scale Green-function cumulant rather than introduced as a primitive diffusion coefficient. For long-memory forcing with exponent $0<\gamma<1$, the operational variance has a closed asymptotic form involving effective signed-forcing intensity, liquidity slope, resilience, memory, and operational coarse-graining scale. A deterministic activity clock gives the benchmark local-volatility projection. More general, non-unique clocks generate c
+    
+[^16]: 正回归相关性下单调聚合的绝对连续性
+
+    Absolute Continuity of Monotone Aggregations under Positive Regression Dependence
+
+    [https://arxiv.org/abs/2606.21042](https://arxiv.org/abs/2606.21042)
+
+    本文证明了在正回归相关性下，满足逐坐标单调性与一致下增量条件的单调聚合函数作用于绝对连续分布的随机变量时，其输出分布必然绝对连续，且无需独立性或联合密度假设。
+
+    
+
+    本文为相依随机向量的一维推前分布的绝对连续性提供了充分条件。假设随机变量X具有绝对连续的分布，且R^d值随机向量Y在给定X=x条件下的分布在通常随机序意义下关于x∈R非递减（即正回归相关性）。对于满足关于Y的逐坐标单调性条件以及关于X的一致下增量条件的Borel映射g: R×R^d→R，我们证明g(X,Y)具有绝对连续的分布。该结果既不要求独立性，也不要求联合密度存在，并且允许Y的边际分布完全任意。此外，若将R^d替换为赋予自反二元关系的任意可测空间，该结果依然成立。我们还讨论了该结果对单调风险聚合的意义及相关扩展。
+
+    arXiv:2606.21042v2 Announce Type: replace-cross  Abstract: In this paper, we provide sufficient conditions for the absolute continuity of one-dimensional push-forwards of dependent random vectors. Suppose that $X$ has an absolutely continuous distribution and that the conditional distribution of an $\mathbb{R}^d$-valued random vector $Y$ given $X=x$ is nondecreasing in $x\in \mathbb{R}$ in the usual stochastic order. For Borel maps $g\colon \mathbb{R}\times\mathbb{R}^d\to\mathbb{R}$ satisfying a coordinatewise monotonicity condition in $Y$ and a uniform lower-increment condition in $X$, we prove that $g(X,Y)$ has an absolutely continuous distribution. The result requires neither independence nor a joint density, and allows the marginal law of $Y$ to be completely arbitrary. Moreover, the result remains valid if $\mathbb{R}^d$ is replaced by an arbitrary measurable space endowed with a reflexive binary relation. We discuss consequences for monotone risk aggregation and extensions of the
+    
+[^17]: 单侧风险价值保形再校准中的代理依赖度控制
+
+    Proxy-Reliance Control in Conformal Recalibration of One-Sided Value-at-Risk
+
+    [https://arxiv.org/abs/2603.22569](https://arxiv.org/abs/2603.22569)
+
+    该论文提出在单侧VaR保形再校准中引入一个可调节的“代理依赖度”参数，理论证明更高的代理依赖度虽能提升尾部调整对波动率代理的响应性，但会在代理反应不足时放大压力状态下的脆弱性，从而将代理依赖度确立为一个独立且可解释的设计选择。
+
+    
+
+    我们提出了一种面向单侧风险价值（VaR）的代理依赖度可控的保形再校准框架，并研究了现有状态感知方法通常未曾单独隔离探讨的一个问题：再校准调整应当在多大程度上依赖于一个不完美的波动率代理？我们通过一个代理依赖度参数将这一问题形式化，该参数在近似常数偏移修正与完全代理缩放修正之间进行连续插值。这使得代理依赖度成为单侧VaR再校准中一个独立且具有实际可解释性的设计选择。我们在理论上证明，更大的代理依赖度会增强尾部调整对代理规模的响应性，但在代理反应不足时也会加剧压力状态下的脆弱性。在实证方面，通过在包含VIX关联状态变量的六只ETF面板上进行滚动样本外测试，并辅以SPY的支持性证据，我们发现代理依赖度控制的实证价值……（原文摘要在此处截断）
+
+    arXiv:2603.22569v2 Announce Type: replace  Abstract: We introduce a proxy-reliance-controlled conformal recalibration framework for one-sided Value-at-Risk (VaR), and study a question that existing state-aware methods do not usually isolate: how strongly should the recalibration adjustment depend on an imperfect volatility proxy? We formalize this through a proxy-reliance parameter that continuously interpolates between an approximately constant-shift correction and a fully proxy-scaled correction. This makes proxy reliance a distinct and practically interpretable design choice in one-sided VaR recalibration.   We show theoretically that larger proxy reliance increases the responsiveness of the tail adjustment to proxy scale, but also increases stressed-state fragility when the proxy underreacts. Empirically, in rolling out-of-sample tests on a six-ETF panel with VIX-linked state variables, and with supporting evidence from SPY, we find that the empirical value of proxy-reliance contro
+    
+[^18]: 它能拟合任何东西吗？经济模型、大语言模型与AI工作流的约束性
+
+    Could It Have Fit Anything? Restrictiveness of Economic Models, LLMs, and AI Workflows
+
+    [https://arxiv.org/abs/2602.07688](https://arxiv.org/abs/2602.07688)
+
+    该论文提出了一种将经济模型的“约束性”测度扩展至大语言模型和AI智能体等黑箱预测程序的方法，发现这些AI工作流虽能达到与经济模型相当的预测完备性，但约束性显著更低——即它们几乎可以拟合任何数据模式。
+
+    
+
+    当预测程序所属的模型类别未被指定时，它能排除多少种可能性？我们将“约束性”这一概念从经济模型扩展到黑箱程序，通过衡量这些程序在多大程度上逼近满足特定经济约束的模拟预测规则来进行测度。该测度适用于连续统域，并在风险一致性条件下收敛于模型类别的约束性。我们提供了基于模拟的估计量和统计推断方法，并在两个应用场景中将该测度与经验完备性一同使用。在彩票确定性等价的例子中，大语言模型补全与代码执行智能体达到了几乎相同的完备性，但代码执行智能体的约束性明显更低。一个两参数的累积前景理论设定在达到接近大语言模型程序和表格基础模型（TFM）的完备性的同时，具有明显更高的约束性。在消费者产品选择的例子中，大语言模型智能体和表格基础模型的约束性低于拟合的多元……（摘要原文在此处截断）
+
+    arXiv:2602.07688v4 Announce Type: replace  Abstract: How much does a prediction procedure rule out when its model class is unspecified? We extend restrictiveness from economic models to black-box procedures by measuring how well they approximate simulated prediction rules satisfying specified economic restrictions. The measure applies to continuum domains, and converges to model-class restrictiveness under risk consistency. We provide simulation-based estimators and inference, and apply the measure alongside empirical completeness in two settings. For lottery certainty equivalents, LLM completion and a code-execution agent attain nearly identical completeness, but the agent is substantially less restrictive. A two-parameter cumulative prospect theory specification achieves completeness close to the LLM procedures and tabular foundation models (TFM) while being substantially more restrictive. For consumer choice over products, an LLM agent and a TFM are less restrictive than fitted mult
+    
+[^19]: 命题性知识与处方性知识之间的反馈机制是否创造了现代增长？
+
+    Did a feedback mechanism between propositional and prescriptive knowledge create modern growth?
+
+    [https://arxiv.org/abs/2512.16587](https://arxiv.org/abs/2512.16587)
+
+    本文首次对莫基尔“工业启蒙”假说进行定量检验，通过构建基于文本的出版物创新性与知识溢出度量指标，并分析约30万条1600—1800年的英文出版物标题和专利描述，发现命题性知识与处方性知识之间的反馈循环在18世纪中叶转为正向，从而支持了该假说。
+
+    
+
+    乔尔·莫基尔（Joel Mokyr）曾提出，自我持续的现代增长源于命题性（理论）知识与处方性（应用）知识之间的反馈循环，该循环在18世纪的“工业启蒙”时期转为正向。本文首次对这种反馈循环是否存在进行了定量检验。为此，本文引入了新的基于文本的度量方法，用于衡量1）出版物的创新性以及2）知识溢出。随后，将这些方法应用于约30万条1600至1800年间的英文出版物标题和简短专利描述。研究发现，命题性知识与处方性知识之间的反馈循环在18世纪中叶转为正向，支持了莫基尔的原始假说。
+
+    arXiv:2512.16587v3 Announce Type: replace  Abstract: Joel Mokyr has argued that self-sustained modern growth originated from a feedback loop between propositional (theoretical) and prescriptive (applied) knowledge that turned positive during the eighteenth century "Industrial Enlightenment". This paper presents the first quantitative test of whether such a feedback loop existed. For this, it introduces new text-based measures for 1) the innovativeness of publications and 2) knowledge spillovers. It then applies them to ca. 300,000 English publication titles and short patent descriptions, 1600--1800. The paper finds that a feedback loop between propositional and prescriptive knowledge became positive by the mid-eighteenth century, supporting Mokyr's original hypothesis.
+    
+[^20]: 概率模型的深度神经算子学习
+
+    Deep Neural Operator Learning for Probabilistic Models
+
+    [https://arxiv.org/abs/2511.07235](https://arxiv.org/abs/2511.07235)
+
+    该论文提出了一个适用于概率模型的深度神经算子框架，建立了具有显式网络规模界的通用逼近定理，并证明所学模型无需重新训练即可为新的执行价格生成美式期权的最优停止边界。
+
+    
+
+    我们为一大类概率模型提出了一个深度神经算子框架。在算子在整个欧几里得空间上满足全局Lipschitz条件的情况下——并且针对一大类概率模型——我们为所提出的架构建立了具有显式网络规模界的通用逼近定理。底层随机过程只需满足可积性和一般的尾概率条件。我们在前向-后向随机微分方程（FBSDE）框架内验证了这些假设对欧式和美式期权定价问题均成立，这进而涵盖了一大类由抛物型偏微分方程产生的算子，无论是否带有自由边界。最后，我们给出了一个美式期权组合的数值例子，表明所学习的模型无需重新训练即可为新的执行价格产生最优停止边界。
+
+    arXiv:2511.07235v2 Announce Type: replace  Abstract: We propose a deep neural-operator framework for a general class of probabilistic models. Under global Lipschitz conditions on the operator over the entire Euclidean space-and for a broad class of probabilistic models-we establish a universal approximation theorem with explicit network-size bounds for the proposed architecture. The underlying stochastic processes are required only to satisfy integrability and general tail-probability conditions. We verify these assumptions for both European and American option-pricing problems within the forward-backward SDE (FBSDE) framework, which in turn covers a broad class of operators arising from parabolic PDEs, with or without free boundaries. Finally, we present a numerical example for a basket of American options, demonstrating that the learned model produces optimal stopping boundaries for new strike prices without retraining.
+    
+[^21]: FinMultiHopQA：一个基于知识图谱的多跳金融问答基准，面向证据驱动的推理
+
+    FinMultiHopQA: A KG-Grounded Multi-Hop Financial QA Benchmark for Evidence-Driven Reasoning
+
+    [https://arxiv.org/abs/2510.02906](https://arxiv.org/abs/2510.02906)
+
+    该论文提出了FinMultiHopQA基准，包含15,600个定性与定量问题，基于从SEC 10-K申报文件构建的、含1750万+三元组的金融知识图谱FinReflectKG，支持跨章节、跨财年、跨公司的多跳证据推理，并能控制证据呈现方式的变化以实现可复现、可审计的评测。
+
+    
+
+    多跳金融问答通常需要综合分布在申报文件不同章节、不同财年以及同业公司之间的证据。以往的金融问答基准只分别解决了该问题的部分方面，但没有任何一个基准能够同时支持受控的多跳分类体系、文档拓扑结构、基于模体的可复现性以及大规模的溯源可审计性。我们提出了FinMultiHopQA，一个包含15,600个定性与定量问题的基准，其建立在FinReflectKG之上——这是一个从SEC 10-K申报文件中提取的、具有时间索引的金融知识图谱，包含超过1750万条三元组。该构建流程在文档内、跨年度和跨公司三种模式下实例化统计显著的2-3跳带类型知识图谱模体。除了填补这一空白之外，同样的构建方式还使我们能够在保持每个问题底层证据不变的情况下，仅改变其呈现方式——例如将其嵌入嘈杂的上下文中或改变其顺序——从而实现受控的……（原文在此处截断）
+
+    arXiv:2510.02906v2 Announce Type: replace-cross  Abstract: Multi-hop financial question answering often requires composing evidence distributed across filing sections, fiscal years, and peer companies. Prior financial QA benchmarks address parts of this problem individually, but none jointly support controlled multi-hop taxonomies, document topologies, motif-level reproducibility, and provenance-linked auditability at scale. We introduce FinMultiHopQA, a benchmark of 15,600 qualitative and quantitative questions, grounded in FinReflectKG, a temporally indexed financial knowledge graph derived from SEC 10-K filings with 17.5M+ triples. The pipeline instantiates statistically salient 2-3 hop typed KG motifs across intra-document, inter-year, and cross-company regimes. Beyond closing this gap, the same construction lets us hold each question's underlying evidence constant while varying only its presentation - embedding it in noisy surrounding context or changing its order - giving a contr
+    
+[^22]: 为什么金融价格在订单流可预测的情况下仍呈现布朗运动：一个精确可解的非线性价格冲击模型
+
+    Why financial prices exhibit Brownian motion despite predictable order flow: An exactly solvable nonlinear price impact model
+
+    [https://arxiv.org/abs/2502.17906](https://arxiv.org/abs/2502.17906)
+
+    本文提出一个精确可解的非线性价格冲击模型，通过将 Lillo–Mike–Farmer 模型推广并映射到可解的 Lévy 游走模型，证明了即使订单流具有可预测的持续性且价格冲击遵循平方根定律，价格动态仍然保持布朗（扩散）运动，从而统一解释了市场微观结构中的两大谜题。
+
+    
+
+    在经济物理学中，金融市场微观结构存在两条神秘的实证规律：（i）由于机构投资者将大额订单拆分执行，市场订单流呈现出可预测的持续性，正如 Lillo–Mike–Farmer 模型所描述的那样。然而，考虑到价格动态的扩散性与不可预测性，这一现象似乎构成悖论。（ii）大额订单 $Q_{\rm tot}$ 的价格冲击 $I(Q_{\rm tot})$ 遵循平方根定律，即 $I(Q_{\rm tot})\propto \sqrt{Q_{\rm tot}}$。在这篇快报中，我们通过一个精确可解的模型统一了这两个谜题，揭示了为何尽管订单流可预测，价格动态仍遵循布朗运动。我们将 Lillo–Mike–Farmer 模型推广至非线性价格冲击动力学，并将其映射到一个可解的 Lévy 游走模型。我们的精确解表明，在平方根定律下，即使订单流具有持续性，价格动态仍保持扩散性，这反映了（截断处：有限方差……）
+
+    arXiv:2502.17906v5 Announce Type: replace-cross  Abstract: In econophysics, there are two enigmatic empirical laws of financial market microstructure: (i) the market-order flow has predictable persistence due to metaorder splitting by institutional investors, as formulated by the Lillo--Mike--Farmer model. However, this phenomenon seems paradoxical given the diffusive and unpredictable price dynamics. (ii) The price impact $I(Q_{\rm tot})$ of a large metaorder $Q_{\rm tot}$ follows the square-root law, $I(Q_{\rm tot})\propto \sqrt{Q_{\rm tot}}$. In this Letter, we reveal why price dynamics follows Brownian motion despite predictable order flow by unifying these enigmas via an exactly solvable model. We generalize the Lillo--Mike--Farmer model to nonlinear price-impact dynamics, which is mapped to a solvable L\'evy-walk model. Our exact solution shows that the price dynamics remains diffusive under the square-root law, even under persistent order flow, reflecting the finite variance of 
+    
+[^23]: 关于状态依赖指数效用函数最优投资组合选择的一致性研究
+
+    On consistency of optimal portfolio choice for state-dependent exponential utilities
+
+    [https://arxiv.org/abs/2501.01748](https://arxiv.org/abs/2501.01748)
+
+    该论文在完备布朗市场中刻画了状态依赖指数效用函数跨投资期限的一致性，证明一致性等价于风险容忍度的漂移与扩散系数满足某个显式关系，并揭示了前瞻性能量性质蕴含一致性而反之不成立。
+
+    
+
+    在一个完备的布朗市场中，我们刻画了状态依赖指数效用函数在不同投资期限之间的一致性。我们证明了一致性等价于风险容忍度的漂移与扩散系数和一个确定性绝对连续函数之间的显式关系。在这一族效用函数中，前瞻性能量性质唯一地确定了一个系数。更一般地，在所述的容许性条件下，前瞻性能量是一致的，而仅有一致性并不能推出前瞻性能量性质。
+
+    arXiv:2501.01748v2 Announce Type: replace  Abstract: In a complete Brownian market, we characterize consistency across investment horizons for state-dependent exponential utilities. We show that consistency is equivalent to an explicit relation between the drift and diffusion of risk tolerance and a deterministic absolutely continuous function. Within this family, the forward performance property selects a unique coefficient. More generally, under the stated admissibility conditions, a forward performance is consistent, whereas consistency alone does not imply the forward performance property.
+    
+[^24]: AI监督和人类错误：来自中心法庭的证据
+
+    AI Oversight and Human Mistakes: Evidence from Centre Court. (arXiv:2401.16754v1 [cs.LG])
+
+    [http://arxiv.org/abs/2401.16754](http://arxiv.org/abs/2401.16754)
+
+    人工智能系统在纠正人类错误方面起到了积极作用，但此举也潜在导致心理成本，并影响人的决策。通过研究网球比赛中的Hawk-Eye审查系统，我们发现引入AI监督后，裁判员的错误率下降，心理成本导致他们更倾向于将球判为进界，从而产生了类型错判的转变。
+
+    
+
+    在机器学习算法不断提升的驱动下，人工智能（AI）系统已经开始在许多场合用于纠正人类错误。我们提供了首个实地证据，证明这种AI监督会产生心理成本，影响人的决策。我们调查了AI监督发生的最高可见性场景之一：顶级网球比赛中裁判的Hawk-Eye审查。我们发现，引入Hawk-Eye审查后，裁判的整体错误率降低，符合心理成本被AI否定的合理忽视现象。我们还发现，裁判增加了对球入内的判定率，从而产生了从II类错误（将球判为出界，实际上是进界）到I类错误（将球判为进界，实际上是出界）的转变。通过对理性不注意的裁判模型进行心理成本的结构估计，我们的结果表明，由于AI否定的心理成本，裁判员降低了错误判定的风险并提高了球入内的判定率。
+
+    Powered by the increasing predictive capabilities of machine learning algorithms, artificial intelligence (AI) systems have begun to be used to overrule human mistakes in many settings. We provide the first field evidence this AI oversight carries psychological costs that can impact human decision-making. We investigate one of the highest visibility settings in which AI oversight has occurred: the Hawk-Eye review of umpires in top tennis tournaments. We find that umpires lowered their overall mistake rate after the introduction of Hawk-Eye review, in line with rational inattention given psychological costs of being overruled by AI. We also find that umpires increased the rate at which they called balls in, which produced a shift from making Type II errors (calling a ball out when in) to Type I errors (calling a ball in when out). We structurally estimate the psychological costs of being overruled by AI using a model of rational inattentive umpires, and our results suggest that because 
     
 

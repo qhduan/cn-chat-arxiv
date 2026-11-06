@@ -1,0 +1,12 @@
+{
+    "title": "Brave New Data: Pricing Expertise and Discovery",
+    "abstract": "arXiv:2611.07278v1 Announce Type: new  Abstract: We study the procurement of verifiable evidence from an expert who privately assesses a binary state and chooses the direction and intensity of evidence acquisition. The buyer balances the ease of inducing discovery against its value for decisions beyond the expert's initial assessment. An optimal contract pays only for disclosed evidence, independently of the initial report. When acquisition is cheap, equal rewards for evidence of either state induce intensive search whose failure is informative. As costs rise, rewarding evidence of only one state becomes optimal despite the symmetry of the environment, reducing expected payments at the expense of decision accuracy.",
+    "link": "https://arxiv.org/abs/2611.07278",
+    "context": "Title: Brave New Data: Pricing Expertise and Discovery\nAbstract: arXiv:2611.07278v1 Announce Type: new  Abstract: We study the procurement of verifiable evidence from an expert who privately assesses a binary state and chooses the direction and intensity of evidence acquisition. The buyer balances the ease of inducing discovery against its value for decisions beyond the expert's initial assessment. An optimal contract pays only for disclosed evidence, independently of the initial report. When acquisition is cheap, equal rewards for evidence of either state induce intensive search whose failure is informative. As costs rise, rewarding evidence of only one state becomes optimal despite the symmetry of the environment, reducing expected payments at the expense of decision accuracy.",
+    "path": "papers/26/11/2611.07278.json",
+    "total_tokens": 1120,
+    "translated_title": "美丽新数据：为专业知识与发现定价",
+    "translated_abstract": "我们研究从专家处采购可验证证据的问题，该专家私下评估一个二元状态，并自主选择证据获取的方向与强度。买方需要在“诱使专家发现证据的难易程度”与“该证据对超越专家初始评估之外决策的价值”之间进行权衡。最优契约仅对已披露的证据进行支付，而与专家的初始报告无关。当证据获取成本较低时，对两种状态的证据给予同等奖励会诱发密集搜索，而搜索的失败本身也具有信息价值。随着成本上升，尽管环境本身是对称的，仅奖励单一状态的证据会成为最优选择，这以牺牲决策准确性为代价降低了预期支付。",
+    "tldr": "本文研究了从专家处采购可验证证据的最优契约设计，发现当证据获取成本低时应对两种状态的证据给予同等奖励以诱发密集搜索（搜索失败本身具有信息价值），而当成本上升时，最优契约将打破环境对称性、仅奖励单一状态的证据，以牺牲决策准确性为代价降低预期支付。",
+    "en_tdlr": "This paper studies optimal contracts for procuring verifiable evidence from an expert, showing that equal rewards inducing intensive search are optimal when acquisition is cheap, while rising costs make it optimal to break environmental symmetry by rewarding only one state's evidence, trading decision accuracy for lower expected payments."
+}

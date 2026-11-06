@@ -1,0 +1,12 @@
+{
+    "title": "ConvPE: Convolutional Position Embedding Improves Transformers",
+    "abstract": "arXiv:2611.07749v1 Announce Type: new  Abstract: ConvPE (Convolutional Position Embedding) improves both the performance and efficiency of Transformer models in language modeling, long-context extension, and vision. It injects a windowed, content-dependent bias into attention scores through a lightweight causal convolution over a low-dimensional projection of the hidden states. As a lightweight plug-in, ConvPE is compatible with RoPE, attention masks, and KV concatenation. It also supports high-dimensional position embeddings via high-dimensional convolutions. In a reproduction, ConvPE outperforms five 1D baselines and eight 2D baselines. The code is publicly available at https://github.com/wzhagi/convpe.",
+    "link": "https://arxiv.org/abs/2611.07749",
+    "context": "Title: ConvPE: Convolutional Position Embedding Improves Transformers\nAbstract: arXiv:2611.07749v1 Announce Type: new  Abstract: ConvPE (Convolutional Position Embedding) improves both the performance and efficiency of Transformer models in language modeling, long-context extension, and vision. It injects a windowed, content-dependent bias into attention scores through a lightweight causal convolution over a low-dimensional projection of the hidden states. As a lightweight plug-in, ConvPE is compatible with RoPE, attention masks, and KV concatenation. It also supports high-dimensional position embeddings via high-dimensional convolutions. In a reproduction, ConvPE outperforms five 1D baselines and eight 2D baselines. The code is publicly available at https://github.com/wzhagi/convpe.",
+    "path": "papers/26/11/2611.07749.json",
+    "total_tokens": 985,
+    "translated_title": "ConvPE：卷积位置嵌入改进Transformer",
+    "translated_abstract": "ConvPE（卷积位置嵌入）在语言建模、长上下文扩展和视觉任务中同时提升了Transformer模型的性能与效率。它通过对隐藏状态的低维投影进行轻量级因果卷积，向注意力分数中注入一种窗口化的、依赖于内容的偏置。作为一个轻量级插件，ConvPE与RoPE、注意力掩码和KV拼接兼容，并且可以通过高维卷积支持高维位置嵌入。在一项复现实验中，ConvPE优于五个一维基线方法和八个二维基线方法。代码已在 https://github.com/wzhagi/convpe 公开发布。",
+    "tldr": "ConvPE通过对隐藏状态低维投影进行轻量级因果卷积，向注意力分数注入窗口化、内容相关的偏置，作为即插即用模块在语言建模、长上下文扩展和视觉任务中同时提升了Transformer的性能与效率。",
+    "en_tdlr": "ConvPE injects a windowed, content-dependent bias into attention scores via lightweight causal convolution over low-dimensional hidden state projections, serving as a plug-in module that improves both performance and efficiency of Transformers in language modeling, long-context extension, and vision."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Cores of $3$-distant convex games",
+    "abstract": "arXiv:2611.07572v1 Announce Type: cross  Abstract: Convex cooperative games have a nonempty core and admit an efficient construction of core allocations. However, economically natural local frictions may violate convexity. We study the core of $3$-distant convex games, which permit violations of convexity only between closely related coalitions. Although the core of such a game may be empty, we establish a simple necessary and sufficient condition for its nonemptiness. We also develop a strongly polynomial-time combinatorial algorithm for finding a core allocation whenever one exists. Finally, we demonstrate the applicability of the framework to oligopolistic competition with merger synergies and profit allocation of joint production with complementary inputs.",
+    "link": "https://arxiv.org/abs/2611.07572",
+    "context": "Title: Cores of $3$-distant convex games\nAbstract: arXiv:2611.07572v1 Announce Type: cross  Abstract: Convex cooperative games have a nonempty core and admit an efficient construction of core allocations. However, economically natural local frictions may violate convexity. We study the core of $3$-distant convex games, which permit violations of convexity only between closely related coalitions. Although the core of such a game may be empty, we establish a simple necessary and sufficient condition for its nonemptiness. We also develop a strongly polynomial-time combinatorial algorithm for finding a core allocation whenever one exists. Finally, we demonstrate the applicability of the framework to oligopolistic competition with merger synergies and profit allocation of joint production with complementary inputs.",
+    "path": "papers/26/11/2611.07572.json",
+    "total_tokens": 1039,
+    "translated_title": "3-距离凸博弈的核心",
+    "translated_abstract": "凸合作博弈具有非空的核心，并且可以高效地构造核心分配。然而，经济上自然的局部摩擦可能会破坏凸性。我们研究了3-距离凸博弈的核心，这类博弈仅允许在密切相关的联盟之间违反凸性。尽管这类博弈的核心可能为空，我们建立了其非空性的一个简单的充要条件。我们还开发了一个强多项式时间的组合算法，只要核心分配存在就能找到它。最后，我们展示了该框架在具有并购协同效应的寡头竞争以及具有互补投入的联合生产利润分配问题中的适用性。",
+    "tldr": "本文针对允许局部违反凸性的3-距离凸博弈，建立了核心非空的简单充要条件，并开发了强多项式时间的组合算法来寻找核心分配，且该框架可应用于寡头竞争与联合生产利润分配等经济问题。",
+    "en_tdlr": "This paper establishes a simple necessary and sufficient condition for the nonemptiness of the core of 3-distant convex games and develops a strongly polynomial-time combinatorial algorithm for finding core allocations, with applications to oligopolistic competition and profit allocation in joint production."
+}

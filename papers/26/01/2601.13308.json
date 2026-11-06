@@ -1,0 +1,11 @@
+{
+    "title": "Scaling laws for amplitude surrogates",
+    "abstract": "arXiv:2601.13308v2 Announce Type: replace-cross  Abstract: Scaling laws describing the dependence of neural network performance on the amount of training data, the spent compute, and the network size have emerged across a huge variety of machine learning task and datasets. In this work, we systematically investigate these scaling laws in the context of amplitude surrogates for particle physics. We show that the scaling coefficients are connected to the number of external particles of the process. Our results demonstrate that scaling laws are a useful tool to achieve desired precision targets.",
+    "link": "https://arxiv.org/abs/2601.13308",
+    "context": "Title: Scaling laws for amplitude surrogates\nAbstract: arXiv:2601.13308v2 Announce Type: replace-cross  Abstract: Scaling laws describing the dependence of neural network performance on the amount of training data, the spent compute, and the network size have emerged across a huge variety of machine learning task and datasets. In this work, we systematically investigate these scaling laws in the context of amplitude surrogates for particle physics. We show that the scaling coefficients are connected to the number of external particles of the process. Our results demonstrate that scaling laws are a useful tool to achieve desired precision targets.",
+    "path": "papers/26/01/2601.13308.json",
+    "total_tokens": 764,
+    "translated_title": "振幅代理模型的缩放定律",
+    "translated_abstract": "描述神经网络性能与训练数据量、计算开销和网络规模之间依赖关系的缩放定律，已在各种机器学习任务和数据集中广泛出现。在这项工作中，我们在粒子物理学的振幅代理模型背景下系统地研究了这些缩放定律。我们证明了缩放系数与该过程的外部粒子数量相关。我们的结果表明，缩放定律是实现所需精度目标的有用工具。",
+    "tldr": "该论文系统研究了粒子物理振幅代理模型的缩放定律，发现缩放系数与过程的外部粒子数量相关，并证明缩放定律是实现所需精度目标的有效工具。"
+}

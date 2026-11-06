@@ -1,0 +1,12 @@
+{
+    "title": "Higher-Order Neyman Orthogonality in Moment-Condition Models",
+    "abstract": "arXiv:2605.10842v3 Announce Type: replace  Abstract: We construct moment functions that are Neyman-orthogonal to a chosen order in moment-condition models that involve finite-dimensional nuisance parameters. These moment functions reduce sensitivity to estimation error in the nuisance parameters and, as such, offer a unified and tractable route to higher-order debiasing in a wide range of econometric models. The number of additional nuisance parameters required by our construction, beyond those already present in the original moment conditions, is independent of the order of orthogonalization and can be reduced to a single scalar if desired.",
+    "link": "https://arxiv.org/abs/2605.10842",
+    "context": "Title: Higher-Order Neyman Orthogonality in Moment-Condition Models\nAbstract: arXiv:2605.10842v3 Announce Type: replace  Abstract: We construct moment functions that are Neyman-orthogonal to a chosen order in moment-condition models that involve finite-dimensional nuisance parameters. These moment functions reduce sensitivity to estimation error in the nuisance parameters and, as such, offer a unified and tractable route to higher-order debiasing in a wide range of econometric models. The number of additional nuisance parameters required by our construction, beyond those already present in the original moment conditions, is independent of the order of orthogonalization and can be reduced to a single scalar if desired.",
+    "path": "papers/26/05/2605.10842.json",
+    "total_tokens": 919,
+    "translated_title": "矩条件模型中的高阶Neyman正交性",
+    "translated_abstract": "我们在涉及有限维冗余（nuisance）参数的矩条件模型中，构造了满足指定阶数Neyman正交性的矩函数。这些矩函数降低了对冗余参数估计误差的敏感性，从而为广泛的计量经济学模型中的高阶去偏提供了一条统一且易于处理的途径。我们的构造所需的额外冗余参数数量（超出原始矩条件中已有的参数之外）与正交化的阶数无关，并且在需要时可以减少到单个标量。",
+    "tldr": "本文提出了一种在矩条件模型中构造任意指定阶数Neyman正交矩函数的方法，可降低对冗余参数估计误差的敏感性并实现高阶去偏，且所需额外冗余参数数量与正交化阶数无关，还可压缩至单个标量。",
+    "en_tdlr": "This paper constructs moment functions that are Neyman-orthogonal to any chosen order in moment-condition models, enabling higher-order debiasing with the number of additional nuisance parameters independent of the orthogonalization order and reducible to a single scalar."
+}

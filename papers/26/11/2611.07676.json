@@ -1,0 +1,11 @@
+{
+    "title": "$O(1/n)$ Convergence Rate for RVI $Q$-Learning",
+    "abstract": "arXiv:2611.07676v1 Announce Type: new  Abstract: We establish finite-time convergence guarantee for synchronous relative value iteration (RVI) $Q$-learning for finite weakly communicating Markov decision processes (MDPs). For stochastic Krasnosel'ski\\u{\\i}--Mann iterations driven by a non-expansive, linearly regular map on a finite-dimensional normed space, we establish last-iterate mean-squared residual bounds under martingale-difference noise whose conditional second moment grows at most linearly with the squared residual. Suitable polynomial stepsizes of order $n^{-a}$ yield an $O(n^{-a})$ rate for $0",
+    "link": "https://arxiv.org/abs/2611.07676",
+    "context": "Title: $O(1/n)$ Convergence Rate for RVI $Q$-Learning\nAbstract: arXiv:2611.07676v1 Announce Type: new  Abstract: We establish finite-time convergence guarantee for synchronous relative value iteration (RVI) $Q$-learning for finite weakly communicating Markov decision processes (MDPs). For stochastic Krasnosel'ski\\u{\\i}--Mann iterations driven by a non-expansive, linearly regular map on a finite-dimensional normed space, we establish last-iterate mean-squared residual bounds under martingale-difference noise whose conditional second moment grows at most linearly with the squared residual. Suitable polynomial stepsizes of order $n^{-a}$ yield an $O(n^{-a})$ rate for $0",
+    "path": "papers/26/11/2611.07676.json",
+    "total_tokens": 1691,
+    "translated_title": "RVI Q-学习的 $O(1/n)$ 收敛速率",
+    "translated_abstract": "我们为有限弱通信马尔可夫决策过程（MDP）上的同步相对值迭代（RVI）Q-学习建立了有限时间收敛保证。对于在有限维赋范空间上由非扩张且线性正则的映射驱动的随机 Krasnosel'skiĭ–Mann 迭代，我们在鞅差噪声（其条件二阶矩至多以残差平方的线性速度增长）下建立了末次迭代的均方残差界。适当选取 $n^{-a}$ 阶的多项式步长，在 $0<\\cdots$（摘要原文在此处截断）条件下可获得 $O(n^{-a})$ 的收敛速率。",
+    "tldr": "该论文通过分析随机 Krasnosel'skiĭ–Mann 迭代，为有限弱通信 MDP 上的同步 RVI Q-学习建立了有限时间收敛保证，并在适当多项式步长下达到 $O(1/n)$ 的收敛速率。"
+}

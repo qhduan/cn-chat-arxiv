@@ -1,0 +1,12 @@
+{
+    "title": "On the Rate of Gaussian Approximation for Online Linear Regression Problems",
+    "abstract": "arXiv:2509.14039v2 Announce Type: replace-cross  Abstract: In this paper, we consider the problem of Gaussian approximation for the online linear regression task. We derive the corresponding rates for the setting of a constant stepsize and study the explicit dependence of the convergence rate on the problem dimension $d$ and quantities related to the design matrix. When the number of iterations $n$ is known in advance, our results yield a normal approximation rate of order $\\sqrt{\\log{n}/n}$, provided that the sample size $n$ is large enough.",
+    "link": "https://arxiv.org/abs/2509.14039",
+    "context": "Title: On the Rate of Gaussian Approximation for Online Linear Regression Problems\nAbstract: arXiv:2509.14039v2 Announce Type: replace-cross  Abstract: In this paper, we consider the problem of Gaussian approximation for the online linear regression task. We derive the corresponding rates for the setting of a constant stepsize and study the explicit dependence of the convergence rate on the problem dimension $d$ and quantities related to the design matrix. When the number of iterations $n$ is known in advance, our results yield a normal approximation rate of order $\\sqrt{\\log{n}/n}$, provided that the sample size $n$ is large enough.",
+    "path": "papers/25/09/2509.14039.json",
+    "total_tokens": 854,
+    "translated_title": "关于在线线性回归问题的高斯近似速率研究",
+    "translated_abstract": "本文研究了在线线性回归任务中的高斯近似问题。我们在恒定步长的设定下推导了相应的收敛速率，并研究了该收敛速率对问题维度 $d$ 以及与设计矩阵相关量的显式依赖关系。当迭代次数 $n$ 事先已知时，只要样本量 $n$ 足够大，我们的结果给出了阶为 $\\sqrt{\\log{n}/n}$ 的正态近似速率。",
+    "tldr": "本文针对恒定步长下的在线线性回归问题推导了高斯近似速率，显式刻画了其对问题维度和设计矩阵相关量的依赖，并证明当样本量足够大时可获得 $\\sqrt{\\log{n}/n}$ 阶的正态近似速率。",
+    "en_tdlr": "This paper derives Gaussian approximation rates for online linear regression with constant stepsize, explicitly characterizing the dependence on the problem dimension and design matrix, and establishes a $\\sqrt{\\log{n}/n}$ normal approximation rate when the sample size is sufficiently large."
+}

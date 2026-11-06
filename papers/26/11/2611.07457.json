@@ -1,0 +1,12 @@
+{
+    "title": "Information-Theoretic Model for the Growth Optimal Portfolio of Stocks",
+    "abstract": "arXiv:2611.07457v1 Announce Type: new  Abstract: Drawing on information-theoretic principles and empirical evidence, a proxy for the growth-optimal portfolio of stocks (the benchmark) is constructed and modeled. The derivative of its activity time captures overreactions in trading behavior and follows a fast-moving, quasi-stationary scalar diffusion. The benchmark's log-returns are predicted to follow a Student t distribution with degrees of freedom slightly less than four, and this prediction is tested empirically. With the benchmark as numeraire, the derived model enables benchmark-neutral pricing and hedging.",
+    "link": "https://arxiv.org/abs/2611.07457",
+    "context": "Title: Information-Theoretic Model for the Growth Optimal Portfolio of Stocks\nAbstract: arXiv:2611.07457v1 Announce Type: new  Abstract: Drawing on information-theoretic principles and empirical evidence, a proxy for the growth-optimal portfolio of stocks (the benchmark) is constructed and modeled. The derivative of its activity time captures overreactions in trading behavior and follows a fast-moving, quasi-stationary scalar diffusion. The benchmark's log-returns are predicted to follow a Student t distribution with degrees of freedom slightly less than four, and this prediction is tested empirically. With the benchmark as numeraire, the derived model enables benchmark-neutral pricing and hedging.",
+    "path": "papers/26/11/2611.07457.json",
+    "total_tokens": 872,
+    "translated_title": "股票增长最优组合的信息论模型",
+    "translated_abstract": "借鉴信息论原理和实证证据，本文构建并对股票增长最优组合的代理（即基准）进行了建模。其活性时间的导数能够捕捉交易行为中的过度反应，并遵循一个快速移动的拟平稳标量扩散过程。模型预测该基准的对数收益率服从自由度略小于四的学生t分布，并通过实证检验验证了这一预测。以该基准作为计价单位，所导出的模型能够实现基准中性的定价与对冲。",
+    "tldr": "本文基于信息论原理构建了股票增长最优组合的代理模型，预测其对数收益率服从自由度略小于4的学生t分布，并以该基准实现了基准中性的金融衍生品定价与对冲。",
+    "en_tdlr": "This paper constructs an information-theoretic proxy model for the growth-optimal portfolio of stocks, predicts its log-returns follow a Student t distribution with degrees of freedom slightly below four, and enables benchmark-neutral pricing and hedging using the benchmark as numeraire."
+}

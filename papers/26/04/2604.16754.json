@@ -1,0 +1,12 @@
+{
+    "title": "AI Slop and the Software Commons",
+    "abstract": "arXiv:2604.16754v4 Announce Type: replace  Abstract: We argue that AI slop in software development is creating a tragedy of the commons. Slop is cheap to generate but expensive to review, and its costs fall on shared resources such as reviewer capacity, which was limited even before AI assistants became widespread. Ostrom documented how communities avoid such tragedies by setting and enforcing their own rules. We translate Ostrom's design principles for sustainable commons institutions into concrete proposals for contributors, reviewers, tool developers, team leads, organizational leaders, and educators.",
+    "link": "https://arxiv.org/abs/2604.16754",
+    "context": "Title: AI Slop and the Software Commons\nAbstract: arXiv:2604.16754v4 Announce Type: replace  Abstract: We argue that AI slop in software development is creating a tragedy of the commons. Slop is cheap to generate but expensive to review, and its costs fall on shared resources such as reviewer capacity, which was limited even before AI assistants became widespread. Ostrom documented how communities avoid such tragedies by setting and enforcing their own rules. We translate Ostrom's design principles for sustainable commons institutions into concrete proposals for contributors, reviewers, tool developers, team leads, organizational leaders, and educators.",
+    "path": "papers/26/04/2604.16754.json",
+    "total_tokens": 960,
+    "translated_title": "AI 垃圾内容与软件公共资源",
+    "translated_abstract": "我们认为，软件开发中的 AI 垃圾内容正在制造一场“公地悲剧”。垃圾内容生成成本低廉，但审查代价高昂，其成本被转嫁到共享资源上，例如审查者的精力——早在 AI 助手普及之前，这种资源就已十分有限。Ostrom 记录了社区如何通过制定并执行自身规则来避免此类悲剧。我们将 Ostrom 关于可持续公共资源制度的设计原则转化为面向贡献者、审查者、工具开发者、团队负责人、组织领导者和教育工作者的具体建议。",
+    "tldr": "本文论证 AI 生成的低质量代码正在引发软件开发的“公地悲剧”，并借鉴 Ostrom 的公共资源治理设计原则，为软件社区各类角色提出可持续治理垃圾内容的具体方案。",
+    "en_tdlr": "This paper argues that AI slop is creating a tragedy of the commons in software development and translates Ostrom's design principles for sustainable commons governance into concrete proposals for contributors, reviewers, tool developers, and leaders."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Minimal Filling Architectures for Polynomial Neural Networks",
+    "abstract": "arXiv:2605.09609v3 Announce Type: replace  Abstract: Minimal filling architectures describe the smallest hidden-layer widths for which the neurovariety of a polynomial neural network fills its ambient function space. It was conjectured that every such architecture has unimodal hidden widths. We construct counterexamples to this conjecture using a frontier search and certify the main example through finite-field Jacobian computations and recursive dimension bounds. In the opposite direction, we prove that every minimal filling architecture of depth at most three is unimodal. A nonunimodal minimal filling architecture of depth four shows that the depth bound is sharp.",
+    "link": "https://arxiv.org/abs/2605.09609",
+    "context": "Title: Minimal Filling Architectures for Polynomial Neural Networks\nAbstract: arXiv:2605.09609v3 Announce Type: replace  Abstract: Minimal filling architectures describe the smallest hidden-layer widths for which the neurovariety of a polynomial neural network fills its ambient function space. It was conjectured that every such architecture has unimodal hidden widths. We construct counterexamples to this conjecture using a frontier search and certify the main example through finite-field Jacobian computations and recursive dimension bounds. In the opposite direction, we prove that every minimal filling architecture of depth at most three is unimodal. A nonunimodal minimal filling architecture of depth four shows that the depth bound is sharp.",
+    "path": "papers/26/05/2605.09609.json",
+    "total_tokens": 952,
+    "translated_title": "多项式神经网络的最小填充架构",
+    "translated_abstract": "最小填充架构描述的是使多项式神经网络的神经簇充满其周围函数空间所需的最小隐藏层宽度。此前有猜想认为，每一个这样的架构都具有单峰的隐藏层宽度。我们利用前沿搜索方法构造了该猜想的反例，并通过有限域雅可比行列式计算和递归维数界对主要反例进行了验证。在相反方向上，我们证明了所有深度不超过三的最小填充架构都是单峰的。一个深度为四的非单峰最小填充架构表明该深度界限是紧的。",
+    "tldr": "本文推翻了“所有最小填充架构的隐藏层宽度均为单峰”的猜想，通过前沿搜索和有限域计算构造并验证了反例，同时证明了深度不超过三的最小填充架构必为单峰，而深度为四的非单峰反例表明该界限是最优的。",
+    "en_tdlr": "This paper disproves the conjecture that all minimal filling architectures have unimodal hidden widths by constructing and certifying counterexamples via frontier search and finite-field computations, while proving that all minimal filling architectures of depth at most three are unimodal, with a depth-four nonunimodal example showing the bound is sharp."
+}

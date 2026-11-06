@@ -1,0 +1,12 @@
+{
+    "title": "On consistency of optimal portfolio choice for state-dependent exponential utilities",
+    "abstract": "arXiv:2501.01748v2 Announce Type: replace  Abstract: In a complete Brownian market, we characterize consistency across investment horizons for state-dependent exponential utilities. We show that consistency is equivalent to an explicit relation between the drift and diffusion of risk tolerance and a deterministic absolutely continuous function. Within this family, the forward performance property selects a unique coefficient. More generally, under the stated admissibility conditions, a forward performance is consistent, whereas consistency alone does not imply the forward performance property.",
+    "link": "https://arxiv.org/abs/2501.01748",
+    "context": "Title: On consistency of optimal portfolio choice for state-dependent exponential utilities\nAbstract: arXiv:2501.01748v2 Announce Type: replace  Abstract: In a complete Brownian market, we characterize consistency across investment horizons for state-dependent exponential utilities. We show that consistency is equivalent to an explicit relation between the drift and diffusion of risk tolerance and a deterministic absolutely continuous function. Within this family, the forward performance property selects a unique coefficient. More generally, under the stated admissibility conditions, a forward performance is consistent, whereas consistency alone does not imply the forward performance property.",
+    "path": "papers/25/01/2501.01748.json",
+    "total_tokens": 911,
+    "translated_title": "关于状态依赖指数效用函数最优投资组合选择的一致性研究",
+    "translated_abstract": "在一个完备的布朗市场中，我们刻画了状态依赖指数效用函数在不同投资期限之间的一致性。我们证明了一致性等价于风险容忍度的漂移与扩散系数和一个确定性绝对连续函数之间的显式关系。在这一族效用函数中，前瞻性能量性质唯一地确定了一个系数。更一般地，在所述的容许性条件下，前瞻性能量是一致的，而仅有一致性并不能推出前瞻性能量性质。",
+    "tldr": "该论文在完备布朗市场中刻画了状态依赖指数效用函数跨投资期限的一致性，证明一致性等价于风险容忍度的漂移与扩散系数满足某个显式关系，并揭示了前瞻性能量性质蕴含一致性而反之不成立。",
+    "en_tdlr": "This paper characterizes horizon consistency for state-dependent exponential utilities in a complete Brownian market, showing that consistency is equivalent to an explicit relation between the drift and diffusion of risk tolerance, and that the forward performance property implies consistency but not vice versa."
+}

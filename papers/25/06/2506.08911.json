@@ -1,0 +1,12 @@
+{
+    "title": "Implementing Keyword Spotting on the MCXN947 Microcontroller with Integrated NPU",
+    "abstract": "arXiv:2506.08911v2 Announce Type: replace-cross  Abstract: This paper presents a keyword spotting (KWS) system implemented on the NXP MCXN947 microcontroller with an integrated Neural Processing Unit (NPU), enabling real-time voice interaction on resource-constrained devices. The system combines MFCC feature extraction with a CNN classifier, optimized using Quantization Aware Training to reduce model size with minimal accuracy drop. Experimental results demonstrate a 59x speedup in inference time when leveraging the NPU compared to CPU-only execution, achieving 97.06% accuracy with a model size of 30.58 KB, demonstrating the feasibility of efficient, low-power voice interfaces on embedded platforms.",
+    "link": "https://arxiv.org/abs/2506.08911",
+    "context": "Title: Implementing Keyword Spotting on the MCXN947 Microcontroller with Integrated NPU\nAbstract: arXiv:2506.08911v2 Announce Type: replace-cross  Abstract: This paper presents a keyword spotting (KWS) system implemented on the NXP MCXN947 microcontroller with an integrated Neural Processing Unit (NPU), enabling real-time voice interaction on resource-constrained devices. The system combines MFCC feature extraction with a CNN classifier, optimized using Quantization Aware Training to reduce model size with minimal accuracy drop. Experimental results demonstrate a 59x speedup in inference time when leveraging the NPU compared to CPU-only execution, achieving 97.06% accuracy with a model size of 30.58 KB, demonstrating the feasibility of efficient, low-power voice interfaces on embedded platforms.",
+    "path": "papers/25/06/2506.08911.json",
+    "total_tokens": 920,
+    "translated_title": "在集成NPU的MCXN947微控制器上实现关键词唤醒",
+    "translated_abstract": "本文介绍了一个在NXP MCXN947微控制器上实现的关键词唤醒（KWS）系统，该微控制器集成了神经网络处理单元（NPU），能够在资源受限的设备上实现实时语音交互。该系统将MFCC特征提取与CNN分类器相结合，并采用量化感知训练进行优化，以在精度损失极小的情况下减小模型大小。实验结果表明，与仅使用CPU执行相比，利用NPU可将推理时间加速59倍，在模型大小仅为30.58 KB的情况下达到了97.06%的准确率，证明了在嵌入式平台上实现高效、低功耗语音接口的可行性。",
+    "tldr": "本文在集成NPU的MCXN947微控制器上实现了关键词唤醒系统，通过量化感知训练优化MFCC+CNN模型，相比仅CPU执行实现59倍推理加速，以仅30.58 KB的模型大小达到97.06%的准确率。",
+    "en_tdlr": "This paper implements a keyword spotting system on the NXP MCXN947 microcontroller with integrated NPU, using quantization-aware training to optimize an MFCC+CNN model, achieving 59x inference speedup over CPU-only execution with 97.06% accuracy at a model size of only 30.58 KB."
+}

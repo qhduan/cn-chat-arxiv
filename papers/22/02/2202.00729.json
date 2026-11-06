@@ -1,0 +1,12 @@
+{
+    "title": "The Impact of Connectivity on the Production and Diffusion of Knowledge",
+    "abstract": "arXiv:2202.00729v3 Announce Type: replace  Abstract: We study a social bandit problem featuring the production and diffusion of knowledge. While higher connectivity enhances knowledge diffusion, it may reduce knowledge production as agents shy away from experimentation and free-ride on others' discoveries. In the symmetric mixed-strategy equilibrium, exploration probability falls with connectivity, while expected per-capita equilibrium surplus is constant in the interior mixing region. Under finite-player pure strategies, surplus can fall discontinuously when the integer number of explorers drops. In the large-population limit these jumps vanish, and per-capita equilibrium surplus is weakly increasing in connectivity and eventually flat for intermediate beliefs.",
+    "link": "https://arxiv.org/abs/2202.00729",
+    "context": "Title: The Impact of Connectivity on the Production and Diffusion of Knowledge\nAbstract: arXiv:2202.00729v3 Announce Type: replace  Abstract: We study a social bandit problem featuring the production and diffusion of knowledge. While higher connectivity enhances knowledge diffusion, it may reduce knowledge production as agents shy away from experimentation and free-ride on others' discoveries. In the symmetric mixed-strategy equilibrium, exploration probability falls with connectivity, while expected per-capita equilibrium surplus is constant in the interior mixing region. Under finite-player pure strategies, surplus can fall discontinuously when the integer number of explorers drops. In the large-population limit these jumps vanish, and per-capita equilibrium surplus is weakly increasing in connectivity and eventually flat for intermediate beliefs.",
+    "path": "papers/22/02/2202.00729.json",
+    "total_tokens": 956,
+    "translated_title": "连接性对知识生产与扩散的影响",
+    "translated_abstract": "我们研究了一个以知识生产与扩散为核心的社会性老虎机问题。尽管更高的连接性促进了知识扩散，但它可能会减少知识生产，因为个体会回避实验并搭他人发现的便车。在对称混合策略均衡中，探索概率随连接性增加而下降，而在内部混合区域，预期人均均衡剩余保持不变。在有限参与者纯策略的情形下，当探索者的整数数量减少时，剩余可能出现不连续的下降。在人口规模趋于无穷大的极限下，这些跳跃消失，人均均衡剩余随连接性弱递增，并且在中间信念区间最终趋于平坦。",
+    "tldr": "该论文通过社会性老虎机模型揭示了一个权衡关系：更高的连接性虽然促进知识扩散，但会因个体搭便车而抑制知识生产，且在人口规模较大的极限下，人均均衡剩余随连接性弱递增。",
+    "en_tdlr": "This paper reveals a trade-off via a social bandit model: higher connectivity enhances knowledge diffusion but dampens knowledge production due to free-riding, and in the large-population limit, per-capita equilibrium surplus is weakly increasing in connectivity."
+}
