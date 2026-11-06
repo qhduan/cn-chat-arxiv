@@ -1,0 +1,12 @@
+{
+    "title": "Robust prizes in all-pay contests with loss aversion",
+    "abstract": "arXiv:2611.07419v1 Announce Type: new  Abstract: We study robust prize design in all-pay contests with loss-averse agents when the principal does not know the agents' convex cost of effort, subject to an aggregate productivity constraint. The robustly optimal prize structure awards equal prizes to all contestants except the one ranked last. The optimal bottom prize is zero under moderate loss aversion, but becomes positive and increases with loss aversion when loss aversion is sufficiently strong. Under strong loss aversion, the robust solution involves partial participation in the contest.",
+    "link": "https://arxiv.org/abs/2611.07419",
+    "context": "Title: Robust prizes in all-pay contests with loss aversion\nAbstract: arXiv:2611.07419v1 Announce Type: new  Abstract: We study robust prize design in all-pay contests with loss-averse agents when the principal does not know the agents' convex cost of effort, subject to an aggregate productivity constraint. The robustly optimal prize structure awards equal prizes to all contestants except the one ranked last. The optimal bottom prize is zero under moderate loss aversion, but becomes positive and increases with loss aversion when loss aversion is sufficiently strong. Under strong loss aversion, the robust solution involves partial participation in the contest.",
+    "path": "papers/26/11/2611.07419.json",
+    "total_tokens": 938,
+    "translated_title": "损失厌恶下全支付竞赛中的稳健奖励设计",
+    "translated_abstract": "我们研究了在总生产率约束下，当委托人不知道代理人凸性的努力成本时，具有损失厌恶代理人的全支付竞赛中的稳健奖励设计问题。稳健最优的奖励结构是向所有参赛者颁发相同的奖励，唯独排名最后一位的参赛者除外。在中等程度的损失厌恶下，最优的末位奖励为零；但当损失厌恶足够强时，末位奖励变为正值并随损失厌恶程度的增加而上升。在强损失厌恶下，稳健解会导致竞赛中出现部分参与。",
+    "tldr": "该论文证明了在代理人损失厌恶且努力成本未知的全支付竞赛中，稳健最优奖励结构为除末位外人人奖励相等，且末位奖励随损失厌恶增强由零变为正值并引发部分参与。",
+    "en_tdlr": "This paper shows that in all-pay contests with loss-averse agents and unknown convex effort costs, the robustly optimal prize structure awards equal prizes to all but the last-ranked contestant, whose prize turns positive and grows with sufficiently strong loss aversion, inducing partial participation."
+}

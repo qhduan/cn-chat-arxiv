@@ -1,0 +1,12 @@
+{
+    "title": "Complex Menus in Discriminatory Pricing",
+    "abstract": "arXiv:2611.07128v1 Announce Type: new  Abstract: Advances in technology decrease the costs of offering and choosing from large menus of varieties. As these complexity costs fall, how large are the menus offered by monopolists likely to become? For the multi-product or multi-attribute case, ubiquitous in practice, we show that optimal menus are generically infinite in the absence of complexity costs. Complexity costs can decrease the menu size, but it grows without bound as these costs decrease. These results have no analogue in the single-dimensional model and do not rely on non-linearities in production costs or preferences; the extensive product differentiation is caused by screening considerations alone.",
+    "link": "https://arxiv.org/abs/2611.07128",
+    "context": "Title: Complex Menus in Discriminatory Pricing\nAbstract: arXiv:2611.07128v1 Announce Type: new  Abstract: Advances in technology decrease the costs of offering and choosing from large menus of varieties. As these complexity costs fall, how large are the menus offered by monopolists likely to become? For the multi-product or multi-attribute case, ubiquitous in practice, we show that optimal menus are generically infinite in the absence of complexity costs. Complexity costs can decrease the menu size, but it grows without bound as these costs decrease. These results have no analogue in the single-dimensional model and do not rely on non-linearities in production costs or preferences; the extensive product differentiation is caused by screening considerations alone.",
+    "path": "papers/26/11/2611.07128.json",
+    "total_tokens": 916,
+    "translated_title": "歧视性定价中的复杂菜单",
+    "translated_abstract": "技术的进步降低了提供大量品种菜单以及从中进行选择的成本。随着这些复杂性成本的下降，垄断者所提供的菜单可能会变得多大？对于实践中普遍存在的多产品或多属性情形，我们证明了在没有复杂性成本的情况下，最优菜单通常是无限的。复杂性成本能够减小菜单的规模，但随着这些成本的降低，菜单规模会无限制地增长。这些结果在单维模型中没有对应的情形，并且不依赖于生产成本或偏好中的非线性因素；这种广泛的产品差异化完全是由筛选（甄别）机制所导致的。",
+    "tldr": "本文证明了在多产品或多属性的歧视性定价中，当不存在复杂性成本时垄断者的最优菜单通常是无限的，且菜单规模会随复杂性成本的降低而无限制地增长，这种广泛的产品差异化完全源于筛选机制的考量。",
+    "en_tdlr": "This paper shows that in multi-product or multi-attribute discriminatory pricing, optimal menus are generically infinite in the absence of complexity costs, and menu size grows without bound as complexity costs decrease, with extensive product differentiation driven solely by screening considerations."
+}
