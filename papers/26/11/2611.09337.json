@@ -1,0 +1,12 @@
+{
+    "title": "Sanctions, Evasion, and Deterrence: Evidence from Speeding Enforcement",
+    "abstract": "arXiv:2611.09337v1 Announce Type: new  Abstract: The design of sanctions plays a central role in shaping reoffending behavior. We study the effects of fixed monetary fines and accumulating penalty points on speeding recidivism and liability transfer. Exploiting a large increase in sanctions in Queensland, Australia, we estimate the causal effects of these sanctions on subsequent offending and nomination of other drivers. Higher demerit points increase fine renomination, consistent with strategic blame shifting. Estimated reductions in reoffending are small among offenders facing higher fines alone. Reoffending falls by a substantial 4.6 percentage points when higher fines are accompanied by additional penalty points.",
+    "link": "https://arxiv.org/abs/2611.09337",
+    "context": "Title: Sanctions, Evasion, and Deterrence: Evidence from Speeding Enforcement\nAbstract: arXiv:2611.09337v1 Announce Type: new  Abstract: The design of sanctions plays a central role in shaping reoffending behavior. We study the effects of fixed monetary fines and accumulating penalty points on speeding recidivism and liability transfer. Exploiting a large increase in sanctions in Queensland, Australia, we estimate the causal effects of these sanctions on subsequent offending and nomination of other drivers. Higher demerit points increase fine renomination, consistent with strategic blame shifting. Estimated reductions in reoffending are small among offenders facing higher fines alone. Reoffending falls by a substantial 4.6 percentage points when higher fines are accompanied by additional penalty points.",
+    "path": "papers/26/11/2611.09337.json",
+    "total_tokens": 940,
+    "translated_title": "制裁、规避与威慑：来自超速执法的证据",
+    "translated_abstract": "制度的设计在塑造再犯行为方面发挥着核心作用。我们研究了固定罚款和累积扣分对超速再犯行为和责任转移的影响。利用澳大利亚昆士兰州制裁力度的大幅提高，我们估计了这些制裁对后续违法行为和提名其他驾驶员承担责任的因果效应。更高的扣分会增加罚款的重新提名行为，这与策略性的推卸责任相一致。对于仅面临更高罚款的违法者来说，再犯行为的减少幅度很小。而当更高罚款伴随额外的扣分时，再犯率显著下降4.6个百分点。",
+    "tldr": "研究发现仅提高罚款对减少超速再犯的作用有限，而罚款与累积扣分相结合可使再犯率显著下降4.6个百分点，但更高的扣分也会促使司机策略性地将责任转嫁给其他驾驶员。",
+    "en_tdlr": "Higher fines alone modestly reduce speeding reoffending, but combining higher fines with accumulated penalty points substantially reduces recidivism by 4.6 percentage points, though higher demerit points also induce strategic blame shifting to other drivers."
+}

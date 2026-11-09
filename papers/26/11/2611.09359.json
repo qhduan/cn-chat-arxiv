@@ -1,0 +1,12 @@
+{
+    "title": "TwinLight: A Multi-Timescale Physical-Layer-Aware T-API-Compliant Optical Domain Controller Digital Twin",
+    "abstract": "arXiv:2611.09359v1 Announce Type: cross  Abstract: We demonstrate TwinLight, an open-source optical-network digital twin acting as an optical domain controller. Its T-API REST and telemetry streaming interfaces expose a physical-layer engine that combines a GNPy steady-state baseline with four analytical transients.",
+    "link": "https://arxiv.org/abs/2611.09359",
+    "context": "Title: TwinLight: A Multi-Timescale Physical-Layer-Aware T-API-Compliant Optical Domain Controller Digital Twin\nAbstract: arXiv:2611.09359v1 Announce Type: cross  Abstract: We demonstrate TwinLight, an open-source optical-network digital twin acting as an optical domain controller. Its T-API REST and telemetry streaming interfaces expose a physical-layer engine that combines a GNPy steady-state baseline with four analytical transients.",
+    "path": "papers/26/11/2611.09359.json",
+    "total_tokens": 1236,
+    "translated_title": "TwinLight：一个多时间尺度、物理层感知、符合T-API标准的光域控制器数字孪生",
+    "translated_abstract": "arXiv:2611.09359v1 公告类型：交叉。我们演示了TwinLight，一个作为光域控制器的开源光网络数字孪生系统。其T-API REST接口和遥测流式接口接入了一个物理层引擎，该引擎将GNPy稳态基线与四种解析瞬态模型相结合。",
+    "tldr": "TwinLight是一个开源光网络数字孪生系统，可作为光域控制器，通过T-API REST和遥测流接口提供融合GNPy稳态基线与四种解析瞬态模型的物理层引擎，实现多时间尺度的物理层感知。",
+    "en_tdlr": "TwinLight is an open-source optical-network digital twin acting as an optical domain controller, exposing a physical-layer engine that combines a GNPy steady-state baseline with four analytical transients via T-API REST and telemetry streaming interfaces."
+}

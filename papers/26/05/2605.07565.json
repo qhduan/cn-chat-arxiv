@@ -1,0 +1,12 @@
+{
+    "title": "Ensemble Distributionally Robust Bayesian Optimisation",
+    "abstract": "arXiv:2605.07565v3 Announce Type: replace-cross  Abstract: We study zeroth-order optimisation under context distributional uncertainty, a setting commonly tackled using Bayesian optimisation (BO). A prevailing strategy to make BO more robust to the complex and noisy nature of data is to employ an ensemble as the surrogate model, thereby mitigating the weaknesses of any single model. In this study, we propose a novel algorithm for Ensemble Distributionally Robust Bayesian Optimisation that remains computationally tractable while managing continuous context. We obtain theoretical sublinear regret bounds, improving current state-of-the-art results. We show that our method's empirical behaviour aligns with its theoretical guarantees.",
+    "link": "https://arxiv.org/abs/2605.07565",
+    "context": "Title: Ensemble Distributionally Robust Bayesian Optimisation\nAbstract: arXiv:2605.07565v3 Announce Type: replace-cross  Abstract: We study zeroth-order optimisation under context distributional uncertainty, a setting commonly tackled using Bayesian optimisation (BO). A prevailing strategy to make BO more robust to the complex and noisy nature of data is to employ an ensemble as the surrogate model, thereby mitigating the weaknesses of any single model. In this study, we propose a novel algorithm for Ensemble Distributionally Robust Bayesian Optimisation that remains computationally tractable while managing continuous context. We obtain theoretical sublinear regret bounds, improving current state-of-the-art results. We show that our method's empirical behaviour aligns with its theoretical guarantees.",
+    "path": "papers/26/05/2605.07565.json",
+    "total_tokens": 878,
+    "translated_title": "集成分布鲁棒贝叶斯优化",
+    "translated_abstract": "我们研究了上下文分布不确定性下的零阶优化问题，这一设置通常使用贝叶斯优化（BO）来解决。使BO对数据复杂性和噪声特性更具鲁棒性的一种普遍策略是采用集成模型作为代理模型，从而弥补任何单一模型的弱点。在本研究中，我们提出了一种新颖的集成分布鲁棒贝叶斯优化算法，该算法在处理连续上下文的同时保持计算上的可处理性。我们获得了理论上的次线性遗憾界，改进了当前最先进的结果。我们证明了该方法的实证表现与其理论保证相一致。",
+    "tldr": "提出了一种计算上可处理的集成分布鲁棒贝叶斯优化算法，能够处理连续上下文并获得次线性遗憾界，改进了当前最先进的理论结果。",
+    "en_tdlr": "Proposes a computationally tractable ensemble distributionally robust Bayesian optimisation algorithm that handles continuous contexts and achieves sublinear regret bounds, improving upon current state-of-the-art results."
+}

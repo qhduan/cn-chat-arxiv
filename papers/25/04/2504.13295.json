@@ -1,0 +1,11 @@
+{
+    "title": "Using Multiple Outcomes to Adjust Standard Errors for Spatial Correlation",
+    "abstract": "arXiv:2504.13295v3 Announce Type: replace  Abstract: A researcher interested in a particular outcome variable often observes dozens of other outcomes for the same units. If these auxiliary outcomes exhibit the same cross-sectional correlation as the outcome of interest, they can be used to estimate that correlation directly. We develop a procedure that uses estimates of this form to adjust standard errors in a given regression problem for cross-sectional dependence. We show, theoretically and with simulations, that the resulting standard errors can be substantially more accurate. Re-analyzing nine papers, we find that the proposed correction can make a meaningful difference in practice.",
+    "link": "https://arxiv.org/abs/2504.13295",
+    "context": "Title: Using Multiple Outcomes to Adjust Standard Errors for Spatial Correlation\nAbstract: arXiv:2504.13295v3 Announce Type: replace  Abstract: A researcher interested in a particular outcome variable often observes dozens of other outcomes for the same units. If these auxiliary outcomes exhibit the same cross-sectional correlation as the outcome of interest, they can be used to estimate that correlation directly. We develop a procedure that uses estimates of this form to adjust standard errors in a given regression problem for cross-sectional dependence. We show, theoretically and with simulations, that the resulting standard errors can be substantially more accurate. Re-analyzing nine papers, we find that the proposed correction can make a meaningful difference in practice.",
+    "path": "papers/25/04/2504.13295.json",
+    "total_tokens": 902,
+    "translated_title": "利用多个结果变量调整空间相关性的标准误",
+    "translated_abstract": "对某一特定结果变量感兴趣的研究者，通常能观察到同一单位的数十个其他结果变量。如果这些辅助结果变量表现出与所关注结果变量相同的横截面相关性，就可以直接利用它们来估计这种相关性。我们开发了一种方法，利用此类估计来调整给定回归问题中因横截面相依性而产生的标准误。我们从理论和模拟两方面证明，由此得到的标准误可以显著更加准确。通过对九篇论文的重新分析，我们发现所提出的修正在实践中能够产生有意义的影响。",
+    "tldr": "该论文提出了一种新方法，利用同一观测单位的多个辅助结果变量直接估计横截面相关性并据此调整回归标准误，理论和模拟证明其准确性显著提升，且对九篇论文的重新分析表明该修正在实践中具有重要价值。"
+}

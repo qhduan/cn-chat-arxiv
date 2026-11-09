@@ -1,0 +1,12 @@
+{
+    "title": "Instant Payments After a Betting Ban: Evidence from Brazil",
+    "abstract": "arXiv:2611.08859v1 Announce Type: new  Abstract: Brazil has been facing major problems with delinquency, household debt, high interest rates, consumption, and access to credit. Betting has emerged in public debate as a possible contributing factor. On September 25, 2026, the federal government banned betting nationwide. We investigate how the ban affected instant payments (Pix). Our main finding, under the linear-trend specification, is that cumulative transaction counts over 37 days were approximately 8.37% below forecast, while settlement values were 10.83% lower. Both deviations were statistically significant under this specification.",
+    "link": "https://arxiv.org/abs/2611.08859",
+    "context": "Title: Instant Payments After a Betting Ban: Evidence from Brazil\nAbstract: arXiv:2611.08859v1 Announce Type: new  Abstract: Brazil has been facing major problems with delinquency, household debt, high interest rates, consumption, and access to credit. Betting has emerged in public debate as a possible contributing factor. On September 25, 2026, the federal government banned betting nationwide. We investigate how the ban affected instant payments (Pix). Our main finding, under the linear-trend specification, is that cumulative transaction counts over 37 days were approximately 8.37% below forecast, while settlement values were 10.83% lower. Both deviations were statistically significant under this specification.",
+    "path": "papers/26/11/2611.08859.json",
+    "total_tokens": 886,
+    "translated_title": "博彩禁令后的即时支付：来自巴西的证据",
+    "translated_abstract": "巴西一直面临拖欠、家庭债务、高利率、消费以及信贷获取等方面的重大问题。博彩活动在公共讨论中被视为可能的促成因素之一。2026年9月25日，联邦政府在全国范围内禁止了博彩活动。我们研究了该禁令如何影响即时支付系统。在线性趋势模型设定下，我们的主要发现是：禁令实施后37天内的累计交易笔数比预测水平低约8.37%，而结算金额则低10.83%。在该模型设定下，这两个偏差均具有统计显著性。",
+    "tldr": "巴西全国博彩禁令实施后，即时支付Pix在37天内的累计交易笔数较预测下降约8.37%，结算金额下降10.83%，且两项偏差均具有统计显著性。",
+    "en_tdlr": "Following Brazil's nationwide betting ban, Pix instant payments fell approximately 8.37% below forecast in cumulative transaction counts and 10.83% lower in settlement values over 37 days, with both deviations statistically significant."
+}

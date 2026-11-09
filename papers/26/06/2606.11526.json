@@ -1,0 +1,12 @@
+{
+    "title": "What is the Long-Term Value of Reliability?",
+    "abstract": "arXiv:2606.11526v2 Announce Type: replace-cross  Abstract: We describe Chronos LTV, a system to measure the long-term impact of delays and other service defects on key business metrics. We use Markov decision processes to model customer interactions over time, and formalize our target estimand as the marginal policy effect with respect to moving the average delay rate. Given this setup, we show that we can identify long-term effects under a sequential unconfoundedness assumption where delays are as good as random given observed order characteristics; and can estimate these effects using a simple covariate-balancing algorithm.",
+    "link": "https://arxiv.org/abs/2606.11526",
+    "context": "Title: What is the Long-Term Value of Reliability?\nAbstract: arXiv:2606.11526v2 Announce Type: replace-cross  Abstract: We describe Chronos LTV, a system to measure the long-term impact of delays and other service defects on key business metrics. We use Markov decision processes to model customer interactions over time, and formalize our target estimand as the marginal policy effect with respect to moving the average delay rate. Given this setup, we show that we can identify long-term effects under a sequential unconfoundedness assumption where delays are as good as random given observed order characteristics; and can estimate these effects using a simple covariate-balancing algorithm.",
+    "path": "papers/26/06/2606.11526.json",
+    "total_tokens": 842,
+    "translated_title": "可靠性的长期价值是什么？",
+    "translated_abstract": "我们介绍了 Chronos LTV，这是一个用于衡量延迟及其他服务缺陷对关键业务指标长期影响的系统。我们使用马尔可夫决策过程对客户随时间的交互进行建模，并将目标估计量形式化为关于改变平均延迟率的边际政策效应。在此框架下，我们证明了在顺序无混杂假设下——即在给定可观测订单特征时，延迟近似于随机——可以识别长期效应，并且可以使用简单的协变量平衡算法来估计这些效应。",
+    "tldr": "该论文提出了 Chronos LTV 系统，通过马尔可夫决策过程建模和边际政策效应方法，在顺序无混杂假设下识别并估计延迟等服务缺陷对关键业务指标的长期影响。",
+    "en_tdlr": "This paper introduces Chronos LTV, a system that leverages Markov decision processes and marginal policy effects to identify and estimate the long-term impact of delays and other service defects on key business metrics under a sequential unconfoundedness assumption."
+}

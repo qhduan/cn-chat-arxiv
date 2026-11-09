@@ -1,0 +1,12 @@
+{
+    "title": "Large Language Model Deployment on Resource-Constrained Edge Devices: A Practitioners Survey",
+    "abstract": "arXiv:2611.09075v1 Announce Type: cross  Abstract: Large Language Models (LLMs) have transformed many areas of artificial intelligence (AI), but their substantial resource requirements limit their deployment on mobile and edge devices. Although LLMs have demonstrated impressive capabilities in various applications, the next challenge is deploying these models on resource-limited edge devices. Recent innovations in software optimizations and specialized hardware have made it feasible to deploy LLMs on edge devices. Edge deployment offers benefits including local data processing, cost savings, reduced latency, and personalized responses. This paper reviews the latest techniques that make the deployment of LLMs on edge devices feasible.",
+    "link": "https://arxiv.org/abs/2611.09075",
+    "context": "Title: Large Language Model Deployment on Resource-Constrained Edge Devices: A Practitioners Survey\nAbstract: arXiv:2611.09075v1 Announce Type: cross  Abstract: Large Language Models (LLMs) have transformed many areas of artificial intelligence (AI), but their substantial resource requirements limit their deployment on mobile and edge devices. Although LLMs have demonstrated impressive capabilities in various applications, the next challenge is deploying these models on resource-limited edge devices. Recent innovations in software optimizations and specialized hardware have made it feasible to deploy LLMs on edge devices. Edge deployment offers benefits including local data processing, cost savings, reduced latency, and personalized responses. This paper reviews the latest techniques that make the deployment of LLMs on edge devices feasible.",
+    "path": "papers/26/11/2611.09075.json",
+    "total_tokens": 844,
+    "translated_title": "大语言模型在资源受限边缘设备上的部署：从业者综述",
+    "translated_abstract": "大语言模型已经变革了人工智能的众多领域，但其巨大的资源需求限制了它们在移动和边缘设备上的部署。尽管大语言模型在各种应用中展现出令人印象深刻的能力，下一个挑战是将这些模型部署到资源有限的边缘设备上。软件优化和专用硬件方面的最新创新使在边缘设备上部署大语言模型成为可能。边缘部署带来了诸多优势，包括本地数据处理、成本节约、降低延迟以及个性化响应。本文综述了使大语言模型在边缘设备上部署成为可行的最新技术。",
+    "tldr": "本文综述了软件优化与专用硬件领域的最新技术，使大语言模型能够在资源受限的边缘设备上部署，并阐述了本地数据处理、成本节约、降低延迟和个性化响应等边缘部署优势。",
+    "en_tdlr": "This survey reviews the latest techniques in software optimization and specialized hardware that enable LLM deployment on resource-constrained edge devices, highlighting benefits such as local data processing, cost savings, reduced latency, and personalized responses."
+}
