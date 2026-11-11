@@ -1,0 +1,11 @@
+{
+    "title": "Optimal Trading Speed on Blockchain",
+    "abstract": "arXiv:2611.13616v1 Announce Type: cross  Abstract: On blockchain-based exchanges, faster blocks weaken the priority-fee competition among arbitrageurs and shift rents from the block producer to them. Equilibrium liquidity peaks at an interior block speed; beyond a threshold, an active liquidity provider cream-skims and passive capital shrinks. Evidence from the Base Flashblocks upgrade, a tenfold block-speed increase, confirms the predictions. Priority-fee bids decrease sharply and arbitrageurs' net profit rises. The active liquidity provider rebalances faster, avoids toxic flow, and earns a higher profit. Pool depth falls and effective spreads widen despite closer tracking of external prices.",
+    "link": "https://arxiv.org/abs/2611.13616",
+    "context": "Title: Optimal Trading Speed on Blockchain\nAbstract: arXiv:2611.13616v1 Announce Type: cross  Abstract: On blockchain-based exchanges, faster blocks weaken the priority-fee competition among arbitrageurs and shift rents from the block producer to them. Equilibrium liquidity peaks at an interior block speed; beyond a threshold, an active liquidity provider cream-skims and passive capital shrinks. Evidence from the Base Flashblocks upgrade, a tenfold block-speed increase, confirms the predictions. Priority-fee bids decrease sharply and arbitrageurs' net profit rises. The active liquidity provider rebalances faster, avoids toxic flow, and earns a higher profit. Pool depth falls and effective spreads widen despite closer tracking of external prices.",
+    "path": "papers/26/11/2611.13616.json",
+    "total_tokens": 863,
+    "translated_title": "区块链上的最优交易速度",
+    "translated_abstract": "在基于区块链的交易平台上，更快的区块会削弱套利者之间的优先费竞争，并将租金从区块生产者转移给套利者。均衡流动性在某个内部区块速度处达到峰值；一旦超过阈值，主动流动性提供者会进行“撇脂”操作，导致被动资本萎缩。来自 Base Flashblocks 升级（区块速度提升十倍）的实证证据证实了这些预测：优先费出价急剧下降，套利者的净利润上升；主动流动性提供者能够更快地再平衡头寸、规避有毒交易流，从而赚取更高的利润；尽管对外部价格的跟踪更加紧密，但资金池深度下降、有效点差扩大。",
+    "tldr": "该论文提出区块链交易存在一个内部最优出块速度——提速虽能削弱套利者间的优先费竞争并使其获利，但超过阈值后会挤占被动流动性，并利用 Base Flashblocks 十倍提速的真实数据验证了这一理论预测。"
+}

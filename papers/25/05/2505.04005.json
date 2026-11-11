@@ -1,0 +1,12 @@
+{
+    "title": "Iterative Orthogonalization Scaling Laws",
+    "abstract": "arXiv:2505.04005v3 Announce Type: replace  Abstract: The muon optimizer has picked up much attention as of late as a possible replacement to the seemingly omnipresent Adam optimizer. Recently, care has been taken to document the scaling laws of hyper-parameters under muon such as weight decay and learning rate. However, at much larger scales the iterative orthogonalization procedure present in muon may suffer a possible issue as the singular values of random matrices shrink with scale. This paper shows this scaling behavior theoretically and empirically on random matrices but does not suggest what to do about it.",
+    "link": "https://arxiv.org/abs/2505.04005",
+    "context": "Title: Iterative Orthogonalization Scaling Laws\nAbstract: arXiv:2505.04005v3 Announce Type: replace  Abstract: The muon optimizer has picked up much attention as of late as a possible replacement to the seemingly omnipresent Adam optimizer. Recently, care has been taken to document the scaling laws of hyper-parameters under muon such as weight decay and learning rate. However, at much larger scales the iterative orthogonalization procedure present in muon may suffer a possible issue as the singular values of random matrices shrink with scale. This paper shows this scaling behavior theoretically and empirically on random matrices but does not suggest what to do about it.",
+    "path": "papers/25/05/2505.04005.json",
+    "total_tokens": 766,
+    "translated_title": "迭代正交化缩放定律",
+    "translated_abstract": "Muon优化器近来备受关注，被视为可能取代似乎无处不在的Adam优化器的候选方案。近期，研究者已着手记录Muon下超参数的缩放定律，例如权重衰减和学习率。然而，在更大的规模下，Muon中的迭代正交化过程可能会遇到一个潜在问题，因为随机矩阵的奇异值会随着规模的增大而缩小。本文从理论和实验两方面展示了随机矩阵的这种缩放行为，但并未提出应对该问题的解决方案。",
+    "tldr": "本文从理论和实验上证明了随机矩阵奇异值随规模增大而缩小的现象，揭示了Muon优化器的迭代正交化过程在大规模场景下可能存在的问题，但未给出解决方案。",
+    "en_tdlr": "This paper theoretically and empirically demonstrates that the singular values of random matrices shrink with scale, revealing a potential issue with the iterative orthogonalization procedure in the Muon optimizer at large scales, though it does not propose a solution."
+}

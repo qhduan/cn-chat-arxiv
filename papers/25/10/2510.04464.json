@@ -1,0 +1,12 @@
+{
+    "title": "Identification in Auctions with Truncated Transaction Prices",
+    "abstract": "arXiv:2510.04464v3 Announce Type: replace  Abstract: This paper studies nonparametric identification in auction models with truncated transaction price data arising from either binding reserve prices or endogenous entry. I characterize identification under alternative information structures that differ according to whether the number of potential bidders is fixed or varies across auctions and whether the econometrician observes the number of potential or active bidders. A central insight is that identification hinges on recovering the screening threshold that determines bidder participation. The analysis provides a unified characterization of identification in first- and second-price auctions under both truncation mechanisms.",
+    "link": "https://arxiv.org/abs/2510.04464",
+    "context": "Title: Identification in Auctions with Truncated Transaction Prices\nAbstract: arXiv:2510.04464v3 Announce Type: replace  Abstract: This paper studies nonparametric identification in auction models with truncated transaction price data arising from either binding reserve prices or endogenous entry. I characterize identification under alternative information structures that differ according to whether the number of potential bidders is fixed or varies across auctions and whether the econometrician observes the number of potential or active bidders. A central insight is that identification hinges on recovering the screening threshold that determines bidder participation. The analysis provides a unified characterization of identification in first- and second-price auctions under both truncation mechanisms.",
+    "path": "papers/25/10/2510.04464.json",
+    "total_tokens": 887,
+    "translated_title": "具有截断交易价格的拍卖中的识别问题",
+    "translated_abstract": "本文研究了拍卖模型中基于截断交易价格数据的非参数识别问题，这些数据截断源于有约束力的保留价格或内生进入。我在不同的信息结构下刻画了识别性，这些信息结构根据潜在竞拍者数量是固定还是随拍卖变化，以及计量经济学家观测到的是潜在竞拍者数量还是活跃竞拍者数量而有所不同。一个核心见解是，识别性取决于能否恢复决定竞拍者参与的筛选门槛。该分析为第一价格拍卖和第二价格拍卖在两种截断机制下的识别性提供了统一的刻画。",
+    "tldr": "本文研究了因保留价格约束或内生进入导致交易价格截断时拍卖模型的非参数识别问题，核心发现是识别性取决于恢复决定竞拍者参与的筛选门槛，并为第一价格和第二价格拍卖在两种截断机制下的识别提供了统一刻画。",
+    "en_tdlr": "This paper provides a unified characterization of nonparametric identification in first- and second-price auctions with truncated transaction prices, showing that identification hinges on recovering the screening threshold that determines bidder participation."
+}

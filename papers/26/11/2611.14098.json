@@ -1,0 +1,12 @@
+{
+    "title": "CUVE: Making Supervised Classification more Accessible through Visualization",
+    "abstract": "arXiv:2611.14098v1 Announce Type: cross  Abstract: We present CUVE, an interface that enables people to build classifiers by generating visualizations that are interpretable by both humans and learning algorithms (the Visualization as Intermediate Representation approach). This UI enables users to create supervised classifiers and to visually investigate how to improve them and how they carry out their function. A preliminary study investigates the usability of our prototype and compares it with a traditional text-based programming interface.",
+    "link": "https://arxiv.org/abs/2611.14098",
+    "context": "Title: CUVE: Making Supervised Classification more Accessible through Visualization\nAbstract: arXiv:2611.14098v1 Announce Type: cross  Abstract: We present CUVE, an interface that enables people to build classifiers by generating visualizations that are interpretable by both humans and learning algorithms (the Visualization as Intermediate Representation approach). This UI enables users to create supervised classifiers and to visually investigate how to improve them and how they carry out their function. A preliminary study investigates the usability of our prototype and compares it with a traditional text-based programming interface.",
+    "path": "papers/26/11/2611.14098.json",
+    "total_tokens": 737,
+    "translated_title": "CUVE：通过可视化让监督分类更加易于上手",
+    "translated_abstract": "我们提出了CUVE，这是一个让用户能够通过生成既可被人类理解、又可被学习算法解释的可视化来构建分类器的界面（即“可视化作为中间表示”方法）。该用户界面使用户能够创建监督分类器，并以可视化的方式探索如何改进分类器以及分类器如何执行其功能。一项初步研究调查了该原型的可用性，并将其与传统的基于文本的编程界面进行了比较。",
+    "tldr": "CUVE是一种可视化界面，通过生成人类和机器学习算法均可理解的可视化作为中间表示，帮助用户更便捷地构建、理解和改进监督分类器。",
+    "en_tdlr": "CUVE is a visualization interface that makes supervised classification more accessible by enabling users to build and improve classifiers through visualizations interpretable by both humans and learning algorithms (Visualization as Intermediate Representation)."
+}

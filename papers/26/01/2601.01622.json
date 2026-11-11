@@ -1,0 +1,12 @@
+{
+    "title": "State-Dependent Local Projections and Vector Autoregressions",
+    "abstract": "arXiv:2601.01622v2 Announce Type: replace  Abstract: This paper studies the relationship between state-dependent local projections (LPs) and vector autoregressions (VARs). I show nonparametrically that state-dependent LPs estimate the projection of a convex weighted average of causal effects on the state, including continuous and multidimensional states. In contrast, conventional state-dependent VARs need not have a causal interpretation, even when they model state transitions correctly. A new backshifted VAR, conditioning every prediction step on the pre-shock state, asymptotically matches the LP estimand up to its lag order.",
+    "link": "https://arxiv.org/abs/2601.01622",
+    "context": "Title: State-Dependent Local Projections and Vector Autoregressions\nAbstract: arXiv:2601.01622v2 Announce Type: replace  Abstract: This paper studies the relationship between state-dependent local projections (LPs) and vector autoregressions (VARs). I show nonparametrically that state-dependent LPs estimate the projection of a convex weighted average of causal effects on the state, including continuous and multidimensional states. In contrast, conventional state-dependent VARs need not have a causal interpretation, even when they model state transitions correctly. A new backshifted VAR, conditioning every prediction step on the pre-shock state, asymptotically matches the LP estimand up to its lag order.",
+    "path": "papers/26/01/2601.01622.json",
+    "total_tokens": 925,
+    "translated_title": "状态依赖的局部投影与向量自回归",
+    "translated_abstract": "本文研究了状态依赖的局部投影（LP）与向量自回归（VAR）之间的关系。我以非参数方式证明，状态依赖的局部投影估计的是因果效应的凸加权平均在状态上的投影，其中包括连续状态和多维状态。相比之下，传统的状态依赖VAR即使正确建模了状态转移过程，也未必具有因果解释。本文提出一种新的后移VAR（backshifted VAR），它在每个预测步骤均以冲击前的状态为条件，在滞后阶数范围内渐近地匹配局部投影的估计对象。",
+    "tldr": "本文非参数地证明了状态依赖局部投影估计的是因果效应的凸加权平均，而传统状态依赖VAR缺乏因果解释，并提出一种以后移（冲击前）状态为条件的新型VAR，使其渐近匹配局部投影的估计对象。",
+    "en_tdlr": "This paper shows nonparametrically that state-dependent local projections estimate a convex weighted average of causal effects, while conventional state-dependent VARs need not be causal, and proposes a backshifted VAR that asymptotically matches the LP estimand."
+}

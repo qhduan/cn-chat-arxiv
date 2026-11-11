@@ -1,0 +1,12 @@
+{
+    "title": "Mechanistic Interpretability of Deep Neural Networks: Methods, Frameworks, and Perspectives",
+    "abstract": "arXiv:2611.13868v1 Announce Type: cross  Abstract: Deep neural networks underpin fundamental tasks in a wide range of signal domains, such as image, audio, and language processing. However, their internal mechanisms are notably difficult to interpret. Internal activations are structured signals transformed across layers that may encode a multitude of interdependent relationships, as individual neurons frequently represent multiple underlying concepts. Mechanistic interpretability aims to uncover the internal mechanisms of neural networks by identifying components whose activations are causally responsible for specific behaviors. In such a context, this article provides an overview of advances in mechanistic interpretability for the analysis of causal inference in deep neural networks.",
+    "link": "https://arxiv.org/abs/2611.13868",
+    "context": "Title: Mechanistic Interpretability of Deep Neural Networks: Methods, Frameworks, and Perspectives\nAbstract: arXiv:2611.13868v1 Announce Type: cross  Abstract: Deep neural networks underpin fundamental tasks in a wide range of signal domains, such as image, audio, and language processing. However, their internal mechanisms are notably difficult to interpret. Internal activations are structured signals transformed across layers that may encode a multitude of interdependent relationships, as individual neurons frequently represent multiple underlying concepts. Mechanistic interpretability aims to uncover the internal mechanisms of neural networks by identifying components whose activations are causally responsible for specific behaviors. In such a context, this article provides an overview of advances in mechanistic interpretability for the analysis of causal inference in deep neural networks.",
+    "path": "papers/26/11/2611.13868.json",
+    "total_tokens": 868,
+    "translated_title": "深度神经网络的机制可解释性：方法、框架与视角",
+    "translated_abstract": "深度神经网络支撑着图像、音频和语言处理等众多信号领域的基础任务，然而其内部机制却极难解释。内部激活是跨层变换的结构化信号，可能编码大量相互依赖的关系，因为单个神经元常常代表多个潜在概念。机制可解释性旨在通过识别其激活对特定行为具有因果影响的组件，来揭示神经网络的内部机制。在此背景下，本文对用于分析深度神经网络因果推理的机制可解释性研究进展进行了综述。",
+    "tldr": "本文系统综述了深度神经网络机制可解释性的方法与框架，其核心在于通过识别对特定行为具有因果影响的内部组件来揭示网络的内部工作机制。",
+    "en_tdlr": "This article provides an overview of advances in mechanistic interpretability for deep neural networks, aiming to uncover internal mechanisms by identifying components whose activations causally drive specific behaviors."
+}

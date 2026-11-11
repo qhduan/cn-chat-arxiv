@@ -1,0 +1,12 @@
+{
+    "title": "Pterodactyl: Pushing the Limits of Efficient Automated Translation Evaluation",
+    "abstract": "arXiv:2611.14480v1 Announce Type: new  Abstract: In this paper, we present 1020 Group's submission to the WMT26 shared task on automated quality evaluation. Our system, Pterodactyl, was engineered specifically for subtasks 2 and 3, that is, segment-level quality score prediction and the detection of error-free segments. Pterodactyl is a highly customizable, ultra-low cost system optimized for binary classification in translation triage and data curation. It is based on an LLM-as-a-judge approach, with prompt engineering and model selection guided by ROC analysis. We also developed several variants of Pterodactyl that were specifically adapted for subtasks 3.",
+    "link": "https://arxiv.org/abs/2611.14480",
+    "context": "Title: Pterodactyl: Pushing the Limits of Efficient Automated Translation Evaluation\nAbstract: arXiv:2611.14480v1 Announce Type: new  Abstract: In this paper, we present 1020 Group's submission to the WMT26 shared task on automated quality evaluation. Our system, Pterodactyl, was engineered specifically for subtasks 2 and 3, that is, segment-level quality score prediction and the detection of error-free segments. Pterodactyl is a highly customizable, ultra-low cost system optimized for binary classification in translation triage and data curation. It is based on an LLM-as-a-judge approach, with prompt engineering and model selection guided by ROC analysis. We also developed several variants of Pterodactyl that were specifically adapted for subtasks 3.",
+    "path": "papers/26/11/2611.14480.json",
+    "total_tokens": 1011,
+    "translated_title": "翼龙：突破高效自动翻译评估的极限",
+    "translated_abstract": "在本文中，我们介绍了1020 Group参加WMT26自动质量评估共享任务的提交系统。我们的系统Pterodactyl（翼龙）专为子任务2和3设计，即句段级质量分数预测和无错误句段的检测。Pterodactyl是一个高度可定制、超低成本的系统，针对翻译分拣和数据整理中的二分类任务进行了优化。它基于LLM-as-a-judge（大语言模型作为评判者）的方法，通过ROC分析指导提示工程和模型选择。我们还开发了多个专门适配子任务3的Pterodactyl变体。",
+    "tldr": "本文提出了Pterodactyl系统，一个基于LLM-as-a-judge方法、通过ROC分析指导提示工程与模型选择的高度可定制超低成本系统，专为WMT26质量评估任务中的句段级质量分数预测和无错误句段检测而设计。",
+    "en_tdlr": "Pterodactyl is a highly customizable, ultra-low-cost LLM-as-a-judge system with ROC-guided prompt engineering and model selection, engineered for segment-level quality score prediction and error-free segment detection in the WMT26 quality evaluation shared task."
+}

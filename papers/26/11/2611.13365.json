@@ -1,0 +1,12 @@
+{
+    "title": "Making sense of rule 605",
+    "abstract": "arXiv:2611.13365v1 Announce Type: new  Abstract: The paper analyzes monthly reports of two companies: one market maker, Virtu, and one broker-dealer, SoHo, in the period between January 2021 and March 2024. The predictive power of standard methods for the probability laws of stock orders- linear regression and LSTM- is poor, despite their probability laws being relatively stable. However, the month-to-month correlations are highly stable and predictable. In this paper, we study the distributions of the sixteen datasets resulting from the 26 stock-trading parameters reported by brokerages under regulatory requirements.",
+    "link": "https://arxiv.org/abs/2611.13365",
+    "context": "Title: Making sense of rule 605\nAbstract: arXiv:2611.13365v1 Announce Type: new  Abstract: The paper analyzes monthly reports of two companies: one market maker, Virtu, and one broker-dealer, SoHo, in the period between January 2021 and March 2024. The predictive power of standard methods for the probability laws of stock orders- linear regression and LSTM- is poor, despite their probability laws being relatively stable. However, the month-to-month correlations are highly stable and predictable. In this paper, we study the distributions of the sixteen datasets resulting from the 26 stock-trading parameters reported by brokerages under regulatory requirements.",
+    "path": "papers/26/11/2611.13365.json",
+    "total_tokens": 941,
+    "translated_title": "解读605规则",
+    "translated_abstract": "本文分析了两家公司的月度报告：一家是做市商Virtu，另一家是经纪自营商SoHo，时间跨度为2021年1月至2024年3月。尽管股票订单的概率规律相对稳定，但标准预测方法——线性回归和LSTM——对这些概率规律的预测能力较差。然而，月与月之间的相关性却高度稳定且可预测。在本文中，我们研究了根据监管要求由券商报告的26个股票交易参数所产生的16个数据集的分布情况。",
+    "tldr": "本文分析了Virtu和SoHo两家公司在2021-2024年间的Rule 605月度报告，发现尽管线性回归和LSTM等标准方法对股票订单概率规律的预测能力较差，但月度相关性高度稳定且可预测。",
+    "en_tdlr": "This paper analyzes Rule 605 monthly reports from Virtu and SoHo (2021–2024), finding that while standard methods like linear regression and LSTM poorly predict the probability laws of stock orders, month-to-month correlations are highly stable and predictable."
+}

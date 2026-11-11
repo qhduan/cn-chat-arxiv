@@ -1,0 +1,12 @@
+{
+    "title": "On the Spectral Estimation of VARMA Processes",
+    "abstract": "arXiv:2611.13973v1 Announce Type: cross  Abstract: We consider the problem of estimating the power spectral density of a Vector-valued Autoregressive Moving-Average (VARMA) process. A well-established approach to accomplishing this task consists of formulating a moment problem that selects the spectral density maximizing an entropy-like index while matching certain moments of the underlying process. However, existing methods assume that the moving-average (MA) component is either fixed or scalar, thereby reducing the class of ARMA models over which the optimal spectral density is sought. In this paper, we propose a new moment problem, based on the notion of transportation entropy, for learning the spectral density of a VARMA process without fixing the MA component or restricting it to be scalar.",
+    "link": "https://arxiv.org/abs/2611.13973",
+    "context": "Title: On the Spectral Estimation of VARMA Processes\nAbstract: arXiv:2611.13973v1 Announce Type: cross  Abstract: We consider the problem of estimating the power spectral density of a Vector-valued Autoregressive Moving-Average (VARMA) process. A well-established approach to accomplishing this task consists of formulating a moment problem that selects the spectral density maximizing an entropy-like index while matching certain moments of the underlying process. However, existing methods assume that the moving-average (MA) component is either fixed or scalar, thereby reducing the class of ARMA models over which the optimal spectral density is sought. In this paper, we propose a new moment problem, based on the notion of transportation entropy, for learning the spectral density of a VARMA process without fixing the MA component or restricting it to be scalar.",
+    "path": "papers/26/11/2611.13973.json",
+    "total_tokens": 897,
+    "translated_title": "论VARMA过程的谱估计",
+    "translated_abstract": "我们考虑估计向量自回归移动平均（VARMA）过程的功率谱密度的问题。完成这一任务的一种成熟方法是构建矩问题，在匹配底层过程的某些矩的同时，选择使熵类指标最大化的谱密度。然而，现有方法假设移动平均（MA）分量是固定的或标量的，从而缩小了寻求最优谱密度的ARMA模型类别。在本文中，我们基于传输熵的概念，提出了一种新的矩问题，用于学习VARMA过程的谱密度，而无需固定MA分量或将其限制为标量。",
+    "tldr": "本文提出了一种基于传输熵概念的新矩问题，能够在不固定移动平均分量或不将其限制为标量的情况下，学习VARMA过程的功率谱密度。",
+    "en_tdlr": "This paper proposes a new moment problem based on the notion of transportation entropy for learning the spectral density of VARMA processes without fixing the MA component or restricting it to be scalar."
+}

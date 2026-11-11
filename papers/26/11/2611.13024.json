@@ -1,0 +1,12 @@
+{
+    "title": "GRAP: Gender Rubric-Aware Probing for Analyzing Gender Bias in LLMs",
+    "abstract": "arXiv:2611.13024v1 Announce Type: new  Abstract: As LLMs increasingly mediate everyday interactions, subtle gender biases in open-ended responses pose growing societal risks. Existing probing methods have two key limitations: they rely on fixed-format tasks, such as pronoun resolution or occupation association, that alignment-tuned models can easily handle; and they compare raw group-level rubric scores, ignoring per-dimension variance and obscuring which bias dimensions reliably distinguish gender groups. We introduce GRAP (Gender Rubric-Aware Probing), a framework that uses a lightweight logistic probe to identify the most discriminative bias dimensions from responses scored across 10 rubric dimensions, operating task-agnostically on open-ended instruction following.",
+    "link": "https://arxiv.org/abs/2611.13024",
+    "context": "Title: GRAP: Gender Rubric-Aware Probing for Analyzing Gender Bias in LLMs\nAbstract: arXiv:2611.13024v1 Announce Type: new  Abstract: As LLMs increasingly mediate everyday interactions, subtle gender biases in open-ended responses pose growing societal risks. Existing probing methods have two key limitations: they rely on fixed-format tasks, such as pronoun resolution or occupation association, that alignment-tuned models can easily handle; and they compare raw group-level rubric scores, ignoring per-dimension variance and obscuring which bias dimensions reliably distinguish gender groups. We introduce GRAP (Gender Rubric-Aware Probing), a framework that uses a lightweight logistic probe to identify the most discriminative bias dimensions from responses scored across 10 rubric dimensions, operating task-agnostically on open-ended instruction following.",
+    "path": "papers/26/11/2611.13024.json",
+    "total_tokens": 873,
+    "translated_title": "GRAP：用于分析大语言模型性别偏见的性别量表感知探测方法",
+    "translated_abstract": "随着大语言模型日益成为日常交互的中介，开放式回复中细微的性别偏见带来了日益增长的社会风险。现有的探测方法存在两个关键局限：一是依赖于固定格式的任务（如代词消解或职业联想），而对齐微调后的模型可以轻松应对这些任务；二是仅比较原始的群体层面量表分数，忽略了每个维度的方差，从而掩盖了哪些偏见维度能够可靠地区分性别群体。我们提出了GRAP（性别量表感知探测）框架，该框架使用轻量级的逻辑回归探针，从跨越10个量表维度评分的回复中识别最具区分性的偏见维度，并以任务无关的方式应用于开放式指令遵循。",
+    "tldr": "提出了GRAP框架，利用轻量级逻辑回归探针从10个量表维度中自动识别最具区分性的性别偏见维度，以任务无关的方式分析大语言模型开放式回复中的性别偏见。",
+    "en_tdlr": "GRAP introduces a lightweight logistic probe that identifies the most discriminative gender bias dimensions from 10 rubric-scored dimensions, enabling task-agnostic gender bias analysis in LLMs' open-ended responses."
+}

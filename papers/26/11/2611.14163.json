@@ -1,0 +1,12 @@
+{
+    "title": "Nonadaptive One-Sided Testing of Binary Rank",
+    "abstract": "arXiv:2611.14163v1 Announce Type: cross  Abstract: The binary rank of a binary matrix is the minimum number of disjoint all-one rectangles that partition its one-entries. We study entry-query testing of binary rank at most $d$, with one-sided error and nonadaptive queries. We give a tester using $\\tilde O(d^4/\\epsilon^2)$ queries, independent of the matrix dimensions and a general lower bound of $\\tilde \\Omega(d^{3/2}/\\epsilon)$.",
+    "link": "https://arxiv.org/abs/2611.14163",
+    "context": "Title: Nonadaptive One-Sided Testing of Binary Rank\nAbstract: arXiv:2611.14163v1 Announce Type: cross  Abstract: The binary rank of a binary matrix is the minimum number of disjoint all-one rectangles that partition its one-entries. We study entry-query testing of binary rank at most $d$, with one-sided error and nonadaptive queries. We give a tester using $\\tilde O(d^4/\\epsilon^2)$ queries, independent of the matrix dimensions and a general lower bound of $\\tilde \\Omega(d^{3/2}/\\epsilon)$.",
+    "path": "papers/26/11/2611.14163.json",
+    "total_tokens": 940,
+    "translated_title": "二进制秩的非自适应单边测试",
+    "translated_abstract": "二进制矩阵的二进制秩是指能够划分其所有1元素的不相交全1矩形的最小数量。我们研究了二进制秩至多为 $d$ 的元素查询测试问题，采用单边错误和非自适应查询。我们给出了一个使用 $\\tilde O(d^4/\\epsilon^2)$ 次查询的测试器，其查询复杂度与矩阵维度无关，并证明了一般下界为 $\\tilde\\Omega(d^{3/2}/\\epsilon)$。",
+    "tldr": "本文研究了二进制秩的单边错误非自适应测试问题，给出了与矩阵维度无关的 $\\tilde O(d^4/\\epsilon^2)$ 查询复杂度上界和 $\\tilde\\Omega(d^{3/2}/\\epsilon)$ 的一般下界。",
+    "en_tdlr": "This paper studies one-sided error nonadaptive testing of binary rank, providing a dimension-independent upper bound of $\\tilde O(d^4/\\epsilon^2)$ queries and a general lower bound of $\\tilde\\Omega(d^{3/2}/\\epsilon)$."
+}

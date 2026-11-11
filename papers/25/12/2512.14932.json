@@ -1,0 +1,12 @@
+{
+    "title": "Automatic regularization for Kronecker product MMSE filters",
+    "abstract": "arXiv:2512.14932v2 Announce Type: replace  Abstract: In this work, we propose a method to automatically find the regularization parameter for low-rank MMSE filters based on a Kronecker-product representation, using an approximate leave-one-out (ALO) cross-validation metric. We formulate the problem in a constrained form that covers both error minimization and interference suppression, and explore the link between regularization and rank selection. The proposed method is validated on system identification and antenna beamforming problems, showing significant gains over commonly used methods.",
+    "link": "https://arxiv.org/abs/2512.14932",
+    "context": "Title: Automatic regularization for Kronecker product MMSE filters\nAbstract: arXiv:2512.14932v2 Announce Type: replace  Abstract: In this work, we propose a method to automatically find the regularization parameter for low-rank MMSE filters based on a Kronecker-product representation, using an approximate leave-one-out (ALO) cross-validation metric. We formulate the problem in a constrained form that covers both error minimization and interference suppression, and explore the link between regularization and rank selection. The proposed method is validated on system identification and antenna beamforming problems, showing significant gains over commonly used methods.",
+    "path": "papers/25/12/2512.14932.json",
+    "total_tokens": 859,
+    "translated_title": "基于Kronecker乘积的MMSE滤波器自动正则化方法",
+    "translated_abstract": "在这项工作中，我们提出了一种基于Kronecker乘积表示的低秩MMSE滤波器正则化参数的自动寻找方法，该方法采用近似留一法（ALO）交叉验证度量。我们将该问题表述为一种约束形式，同时涵盖误差最小化和干扰抑制两方面，并探讨了正则化与秩选择之间的联系。所提出的方法在系统辨识和天线波束成形问题上得到了验证，与常用方法相比显示出显著的性能提升。",
+    "tldr": "本文提出一种基于近似留一交叉验证度量的方法，可自动确定基于Kronecker乘积表示的低秩MMSE滤波器的正则化参数，在系统辨识和天线波束成形任务中显著优于常用方法。",
+    "en_tdlr": "This paper proposes an automatic method to determine the regularization parameter for low-rank Kronecker-product MMSE filters using an approximate leave-one-out cross-validation metric, achieving significant gains over commonly used methods in system identification and antenna beamforming tasks."
+}

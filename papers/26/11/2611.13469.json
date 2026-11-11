@@ -1,0 +1,12 @@
+{
+    "title": "Obvious Group Manipulations and Top Trading Cycles",
+    "abstract": "arXiv:2611.13469v1 Announce Type: new  Abstract: We introduce a group version of non-obvious manipulability, which is stronger than the original definition by Troyan and Morrill (2020) and weaker than group strategy-proofness, and study its implications in Shapley-Scarf housing markets. We provide several characterizations of the Top Trading Cycles mechanism using the new condition.",
+    "link": "https://arxiv.org/abs/2611.13469",
+    "context": "Title: Obvious Group Manipulations and Top Trading Cycles\nAbstract: arXiv:2611.13469v1 Announce Type: new  Abstract: We introduce a group version of non-obvious manipulability, which is stronger than the original definition by Troyan and Morrill (2020) and weaker than group strategy-proofness, and study its implications in Shapley-Scarf housing markets. We provide several characterizations of the Top Trading Cycles mechanism using the new condition.",
+    "path": "papers/26/11/2611.13469.json",
+    "total_tokens": 912,
+    "translated_title": "显然的群体操纵与顶级交易循环",
+    "translated_abstract": "我们引入了非显然可操纵性（non-obvious manipulability）的群体版本，该条件比 Troyan 和 Morrill（2020）提出的原始定义更强，又弱于群体策略防操纵性（group strategy-proofness），并研究了它在 Shapley-Scarf 住房市场中的含义。我们利用这一新条件，对顶级交易循环（Top Trading Cycles）机制给出了若干刻画。",
+    "tldr": "本文提出了一种介于非显然可操纵性与群体策略防操纵性之间的新概念“显然的群体操纵”，并据此在 Shapley-Scarf 住房市场中为顶级交易循环（TTC）机制提供了多个新的刻画。",
+    "en_tdlr": "This paper introduces a group version of non-obvious manipulability—stronger than Troyan and Morrill's (2020) original notion yet weaker than group strategy-proofness—and uses it to provide several characterizations of the Top Trading Cycles mechanism in Shapley-Scarf housing markets."
+}

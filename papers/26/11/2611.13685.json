@@ -1,0 +1,11 @@
+{
+    "title": "Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos",
+    "abstract": "arXiv:2611.13685v1 Announce Type: cross  Abstract: In this paper, we investigate how human egocentric videos can benefit robot policy learning without action supervision. Building on a pretrained VLM, we propose Shared Prediction on Action and Representation (SPAR), an MoT architecture in which future visual state prediction can provide independent and complementary learning signals alongside action prediction. We find that representations learned from egocentric videos improve downstream performance on out-of-distribution robot tasks, with further gains as video data scales. We also study the effects of objective choices and data curation, providing insights into how to leverage action-free videos for scalable robot learning.",
+    "link": "https://arxiv.org/abs/2611.13685",
+    "context": "Title: Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos\nAbstract: arXiv:2611.13685v1 Announce Type: cross  Abstract: In this paper, we investigate how human egocentric videos can benefit robot policy learning without action supervision. Building on a pretrained VLM, we propose Shared Prediction on Action and Representation (SPAR), an MoT architecture in which future visual state prediction can provide independent and complementary learning signals alongside action prediction. We find that representations learned from egocentric videos improve downstream performance on out-of-distribution robot tasks, with further gains as video data scales. We also study the effects of objective choices and data curation, providing insights into how to leverage action-free videos for scalable robot learning.",
+    "path": "papers/26/11/2611.13685.json",
+    "total_tokens": 924,
+    "translated_title": "自我视角引导：利用无动作标注的人类第一视角视频增强机器人策略学习",
+    "translated_abstract": "本文研究了人类第一视角视频如何在没有动作监督的情况下促进机器人策略学习。基于预训练的视觉语言模型（VLM），我们提出了动作与表征共享预测（SPAR）方法，这是一种MoT（混合Transformer）架构，其中未来视觉状态预测可以与动作预测一起提供独立且互补的学习信号。我们发现，从第一视角视频中学到的表征能够提升机器人在分布外任务上的下游性能，并且随着视频数据规模的扩大，性能会进一步提升。我们还研究了训练目标选择和数据筛选的影响，为如何利用无动作标注视频实现可扩展的机器人学习提供了见解。",
+    "tldr": "本文提出SPAR架构，在预训练VLM基础上让未来视觉状态预测与动作预测共享学习，从而利用无动作标注的人类第一视角视频增强机器人策略学习，其学到的表征可提升分布外机器人任务性能并随视频数据规模扩大而持续提升。"
+}

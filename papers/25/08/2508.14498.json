@@ -1,0 +1,12 @@
+{
+    "title": "The invisible hand as an emergent property",
+    "abstract": "arXiv:2508.14498v2 Announce Type: replace  Abstract: We develop a multi-sector competitive economy where firms reallocate across sectors under myopic profit-seeking behaviour and quadratic reallocation costs. The dynamic path, formalised as a gradient flow in Wasserstein space, yields two emergent properties: (i) short-run equilibria can be seen as solutions to sequential aggregate optimisation problems; and (ii) the long-run equilibrium is globally stable and efficient. Linearizing around the common long-run equilibrium, we show that convergence can be faster or slower under a planner who accounts for reallocation costs than under decentralized adjustment.",
+    "link": "https://arxiv.org/abs/2508.14498",
+    "context": "Title: The invisible hand as an emergent property\nAbstract: arXiv:2508.14498v2 Announce Type: replace  Abstract: We develop a multi-sector competitive economy where firms reallocate across sectors under myopic profit-seeking behaviour and quadratic reallocation costs. The dynamic path, formalised as a gradient flow in Wasserstein space, yields two emergent properties: (i) short-run equilibria can be seen as solutions to sequential aggregate optimisation problems; and (ii) the long-run equilibrium is globally stable and efficient. Linearizing around the common long-run equilibrium, we show that convergence can be faster or slower under a planner who accounts for reallocation costs than under decentralized adjustment.",
+    "path": "papers/25/08/2508.14498.json",
+    "total_tokens": 914,
+    "translated_title": "作为涌现属性的“看不见的手”",
+    "translated_abstract": "我们构建了一个多部门竞争经济模型，其中企业在短视的逐利行为和二次再配置成本的作用下跨部门进行再配置。该动态路径被形式化为Wasserstein空间中的梯度流，并呈现出两个涌现性质：(i) 短期均衡可以被视为序列化总体优化问题的解；(ii) 长期均衡是全局稳定且有效的。通过在共同的长期均衡附近进行线性化，我们表明，在考虑再配置成本的中央计划者机制下，收敛速度可能比分散化调整下更快，也可能更慢。",
+    "tldr": "本文将亚当·斯密的“看不见的手”形式化为Wasserstein空间中的梯度流，证明企业在短视逐利与再配置成本下的分散化调整能够自发涌现出全局稳定且有效的长期均衡。",
+    "en_tdlr": "This paper formalizes Adam Smith's \"invisible hand\" as a gradient flow in Wasserstein space, showing that decentralized myopic profit-seeking behavior with reallocation costs gives rise to a globally stable and efficient long-run equilibrium as an emergent property."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Normalizing Flows for Classical Simulation of Quantum Circuits in Phase Space",
+    "abstract": "arXiv:2611.14006v1 Announce Type: cross  Abstract: We present a novel framework to learn a representation of quantum circuits based on the phase space formulation of many-body systems. Given that $N$-qubit states can be represented as probability distributions on a smooth $2N$-dimensional manifold, we show how unitary gates can be parameterized as normalizing flows between these distributions, opening a new avenue for quantum circuit simulation using generative models. We evaluate our method on three common families of quantum circuits, and show that its accuracy exceeds that of current state-of-the-art neural network methods for large system sizes.",
+    "link": "https://arxiv.org/abs/2611.14006",
+    "context": "Title: Normalizing Flows for Classical Simulation of Quantum Circuits in Phase Space\nAbstract: arXiv:2611.14006v1 Announce Type: cross  Abstract: We present a novel framework to learn a representation of quantum circuits based on the phase space formulation of many-body systems. Given that $N$-qubit states can be represented as probability distributions on a smooth $2N$-dimensional manifold, we show how unitary gates can be parameterized as normalizing flows between these distributions, opening a new avenue for quantum circuit simulation using generative models. We evaluate our method on three common families of quantum circuits, and show that its accuracy exceeds that of current state-of-the-art neural network methods for large system sizes.",
+    "path": "papers/26/11/2611.14006.json",
+    "total_tokens": 848,
+    "translated_title": "相空间中量子电路经典模拟的归一化流方法",
+    "translated_abstract": "我们提出了一种新颖的框架，基于多体系统的相空间表述来学习量子电路的表示。鉴于N比特量子态可以表示为光滑的2N维流形上的概率分布，我们展示了如何将酉门参数化为这些分布之间的归一化流，为使用生成模型进行量子电路模拟开辟了一条新途径。我们在三种常见的量子电路族上评估了我们的方法，结果表明在大系统规模下，其精度超过了当前最先进的神经网络方法。",
+    "tldr": "该论文提出基于多体系统相空间表述的归一化流框架，将酉门参数化为概率分布之间的流变换，实现了在大系统规模下精度超越现有最先进神经网络方法的量子电路经典模拟。"
+}

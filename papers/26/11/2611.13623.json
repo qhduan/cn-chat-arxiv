@@ -1,0 +1,12 @@
+{
+    "title": "First-order asymptotic expansions for spectral convergence of normalized graph Laplacians constructed from samples on manifolds",
+    "abstract": "arXiv:2611.13623v1 Announce Type: cross  Abstract: Under i.i.d. uniform sampling from a closed Riemannian manifold embedded in Euclidean space, we derive first-order asymptotic expansions for the eigenvalues and eigenvectors of symmetrically normalized graph Laplacians constructed via Gaussian kernels and provide concentration inequalities for the remainder terms. As a direct consequence, we establish the corresponding weak convergence results. Unlike most related works, our analysis does not impose a multiplicity-one assumption on the eigenvalues, thereby extending the applicability of the framework to general manifolds with potentially nontrivial eigenvalue multiplicities.",
+    "link": "https://arxiv.org/abs/2611.13623",
+    "context": "Title: First-order asymptotic expansions for spectral convergence of normalized graph Laplacians constructed from samples on manifolds\nAbstract: arXiv:2611.13623v1 Announce Type: cross  Abstract: Under i.i.d. uniform sampling from a closed Riemannian manifold embedded in Euclidean space, we derive first-order asymptotic expansions for the eigenvalues and eigenvectors of symmetrically normalized graph Laplacians constructed via Gaussian kernels and provide concentration inequalities for the remainder terms. As a direct consequence, we establish the corresponding weak convergence results. Unlike most related works, our analysis does not impose a multiplicity-one assumption on the eigenvalues, thereby extending the applicability of the framework to general manifolds with potentially nontrivial eigenvalue multiplicities.",
+    "path": "papers/26/11/2611.13623.json",
+    "total_tokens": 865,
+    "translated_title": "流形上采样构造的归一化图拉普拉斯算子谱收敛的一阶渐近展开",
+    "translated_abstract": "在从嵌入欧氏空间的闭黎曼流形上进行独立同分布均匀采样的条件下，我们推导了通过高斯核构造的对称归一化图拉普拉斯算子的特征值和特征向量的一阶渐近展开，并给出了余项的集中不等式。作为直接推论，我们建立了相应的弱收敛结果。与大多数相关工作不同，我们的分析不对特征值施加单重性假设，从而将该框架的适用性扩展到具有潜在非平凡特征值重数的一般流形。",
+    "tldr": "该论文在不对特征值施加单重性假设的前提下，推导了高斯核构造的对称归一化图拉普拉斯算子特征值与特征向量的一阶渐近展开及余项集中不等式，从而将谱收敛理论推广到特征值可能具有非平凡重数的一般流形。",
+    "en_tdlr": "This paper derives first-order asymptotic expansions and concentration inequalities for the eigenvalues and eigenvectors of symmetrically normalized graph Laplacians without imposing multiplicity-one assumptions, thereby extending spectral convergence results to general manifolds with potentially nontrivial eigenvalue multiplicities."
+}
