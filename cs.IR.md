@@ -8,27 +8,29 @@
 | [^4] | [SHARP: Semantic Hierarchical Agentic Reasoning for Next POI Prediction with Dynamic Memory](https://arxiv.org/abs/2611.14220) | SHARP提出了一种具有动态记忆的分层智能体框架，通过类别级语义推理引导具体的POI预测，并利用轨迹记忆库在有限LLM上下文中保存和更新历史移动知识，解决了LLM语义推理与POI预测脱节、历史知识更新以及全局转移图抹平时间特定类别转移模式三大挑战。 |
 | [^5] | [From Search to Decision: How Post-Training Shapes Information-Seeking Capabilities in Large Language Models](https://arxiv.org/abs/2611.14149) | 本文系统梳理了大语言模型的六项相互关联的信息寻求能力，综合分析了后训练方法通过学习信号、优化方式和信用分配机制培养这些能力的实证进展，并指出了检索效用预估等方面仍存在的开放挑战。 |
 | [^6] | [Ontology-Guided Knowledge Graph Construction and Robust Evidence Retrieval for Indian Knowledge Systems](https://arxiv.org/abs/2611.14050) | 本文提出了一种面向印度知识体系的本体引导知识图谱构建与检索流水线，将大模型抽取的类型化实体和关系链接到原始文本证据，并通过语义接地、有界图遍历、词法锚点、关系向量搜索与段落重排序的组合检索，在 Dhara Bench 上取得优于单向量检索的证据检索效果，多跳问题 MRR@20 达到 0.8722。 |
-| [^7] | [LUMIR: Decoupled Multimodal Representation Learning from Heterogeneous Data for Next-POI Recommendation](https://arxiv.org/abs/2611.14004) | 提出解耦多模态表示学习框架LUMIR，利用大语言模型将异构多模态数据统一到共享文本空间，并通过对比学习结合交互感知融合与序列信号约束进行训练，使学习到的表示与下游推荐模型解耦，提升下一兴趣点推荐中多模态表示的通用性和可重用性。 |
-| [^8] | [Data Quality Challenges in Multimodal Tourism Recommender Systems](https://arxiv.org/abs/2611.13972) | 该论文聚焦旅游推荐场景，揭示了使用Yelp和Instagram等真实多模态数据时面临的虚假评论噪声、LLM幻觉内容、模态矛盾和人口偏差等数据质量挑战，并提出质量感知融合、受控LLM内容生成和用户群体差异化等未来改进方向。 |
-| [^9] | [Controlled Knowledge Engineering for Taxonomy Induction with Tool-Grounded LLM Agents and Runtime-Adaptive Policies](https://arxiv.org/abs/2611.13966) | 本文提出TIGA架构，将分类体系归纳形式化为显式状态与受约束动作空间上的迭代决策过程，借助可执行的分类编辑工具、记录调用与理由的记忆机制以及运行时自适应策略，克服LLM自由生成中的实体幻觉与无效层次关系，实现完整、结构有效且语义连贯的自动分类体系构建。 |
-| [^10] | [From Counterfactual Edits to Human Narratives: LLM-Driven Interpretations for Recommender System Explanations](https://arxiv.org/abs/2611.13914) | 该论文提出利用大语言模型作为中介，将推荐系统反事实解释中冗长且难以理解的用户交互历史编辑列表，总结为描述高层偏好模式的简洁自然语言解释，从而弥合生成有效反事实解释与向用户传达模型行为之间的差距。 |
-| [^11] | [Auditing LLM Pseudo-Label Distillation for Review Informativeness at E-Commerce Scale](https://arxiv.org/abs/2611.13797) | 本研究审计了电商规模下LLM伪标签蒸馏的质量，发现类别前缀虽能提升教师保真度却降低人工编辑一致性，表明教师保真度不能等同于编辑对齐，且学生模型流水线处理速度比教师快50.2倍。 |
-| [^12] | [IFRS Compliance Verification: An Open Multi-LLM Benchmark and Content-Conditioned Ensemble Classifier](https://arxiv.org/abs/2611.13595) | 本文构建了一个包含19,998个IFRS监管条款-披露配对、结合多LLM标签与8,837条人工标注的开放基准，并提出内容条件化的集成分类器框架，以克服单一模型准确率不足及简单集成中各模型系统性偏差导致性能下降的问题。 |
-| [^13] | [Exploiting Feature-invariant Scaling Laws for Efficient A/B Experimentation in Recommendation Systems](https://arxiv.org/abs/2611.13539) | 该论文发现现代推荐模型具有特征不变的缩放定律特性，并提出一种结合统计推断的方法，能仅通过小规模A/B实验预测全规模实验效果（含置信区间），从而大幅降低特征变更评估的计算成本。 |
-| [^14] | [A Technique to Model Product Information and User Reviews (MPIUR)](https://arxiv.org/abs/2611.13361) | 提出MPIUR多模态图推荐模型，将用户评论编码进异构图并对齐图文表示，在交互历史稀疏的场景下也能显著提升推荐性能（nDCG@10与Recall@10）。 |
-| [^15] | [Activation-Guided Graph Retrieval for Cognitive Memory Reconstruction in Language Model Systems](https://arxiv.org/abs/2611.13127) | 该论文提出了一种激活条件化的记忆图检索架构，通过请求与目标线索激活授权记忆图、扇出衰减控制有界遍历、实体递归发射线索，并在生成前重构类型化证据图，从而为长寿命AI系统实现认知记忆重构。 |
-| [^16] | [INTENT: Out-of-Sample, Out-of-Time, and Cold-Start Evaluation on User Event Sequences](https://arxiv.org/abs/2611.13069) | 提出了INTENT这一公开基准，根据用户、时期与目标项目是否在训练中出现，将用户事件序列上的下一动作预测模型划分到七种情形下评估，从而统一衡量其样本外、时间外与冷启动泛化能力。 |
-| [^17] | [Beyond the Document: Compiled Context and Governed Agents for Any Work Product](https://arxiv.org/abs/2611.13055) | 该论文提出便携式智能体格式（PAF）包这一新交付单元，将工作成果连同编译上下文、证据、来源与交互规则一起封装，实验证明受治理的智能体阅读器在回答相关问题上的成功率（96%）显著优于传统的指令加原始文件检索方式（86%）。 |
-| [^18] | [DocFS: File Systems as Agentic Reasoning Environments for Complex Multimodal Document Question Answering](https://arxiv.org/abs/2611.12957) | 该论文提出DocFS，将文件系统作为智能体推理环境，利用目录与文件的层级结构编码多模态文档的组织结构，并借助文件操作工具访问内容，从而提升智能体在复杂多模态文档问答中的表现。 |
-| [^19] | [IntentTwin: Deconfounding Candidate Support and the Oracle-to-Deployment Gap in Offline Web Behavior Prediction](https://arxiv.org/abs/2611.12918) | 该论文揭示了离线网页行为预测基准中仅凭候选动作是否属于训练支持集即可“作弊”答对的混杂效应，提出支持可识别率（SIR）这一度量、支持均衡候选集构建方法以及免目标双路径提议器，从而真实刻画从理想评测条件到实际部署的性能差距。 |
-| [^20] | [Combining Relevant Expert Knowledge Using Mixtures of Feedback Fuzzy Cognitive Maps](https://arxiv.org/abs/2611.05664) | 该论文将法律证据理论中的相关性定义扩展应用于神经符号系统，通过将专家的反馈模糊认知图混合为共同知识网络，并借助新的类贝叶斯定理对混合知识进行解混合，从而仅组合相关专家答案以提升系统的准确性和可扩展性。 |
-| [^21] | [Explain, Then Forget: Recommendation Unlearning under Asymmetric Access Constraint](https://arxiv.org/abs/2610.40658) | 提出了CEU（基于因果解释的遗忘）框架，在不修改模型参数的情况下，通过因果解释机制实现了服务运营商仅能通过API访问模型的MLaaS环境下的推荐遗忘学习。 |
-| [^22] | [SpectRAG: Weighted Chunk Graphs for Token-Budgeted Context Selection in Multi-Hop Retrieval-Augmented Generation](https://arxiv.org/abs/2610.36991) | SpectRAG提出了一种谱图增强检索框架，通过构建编码多种语义与结构关系的加权分块图，结合谱相关性传播与Token预算约束下的上下文选择，解决传统独立检索在多跳推理中证据冗余和不完整的问题。 |
-| [^23] | [SAM-D2Q: Aligning Multimodal Doc2Query with Search Demand and Conversion for E-commerce](https://arxiv.org/abs/2609.04961) | 提出SAM-D2Q框架，通过任务自适应多模态监督微调与多模态数据增强，在布尔检索约束下将多模态Doc2Query与电商搜索需求和转化目标对齐，有效解决查询与商品标题之间的词汇不匹配问题。 |
-| [^24] | [Controllable and Content-Based Recommendations](https://arxiv.org/abs/2607.20938) | 该论文提出了CCBR框架，通过文本瓶颈将协同过滤与直接从物品多模态内容（图像、音频、视频）推断出的文本用户画像相结合，在保持与标准潜在表示模型相当性能的同时，实现了可通过文本干预进行控制的可解释推荐。 |
-| [^25] | [DOTRAG: Retrieval-Time Reasoning Along Paths](https://arxiv.org/abs/2605.18760) | DotRAG提出了一种轻量级、无需训练的GraphRAG检索算法，通过构建知识图谱、生成全图概览并利用图可达性索引，让LLM推理在查询时缩小搜索空间并高效恢复与任务相关的关系路径。 |
-| [^26] | [Fairness-Aware Retrieval Optimization for Retrieval-Augmented Generation](https://arxiv.org/abs/2605.15790) | 该论文提出三阶段框架FARO，通过概率重排序器控制各位置的群体构成，并利用位置加权线性模型将检索形式化为相关性与输出偏差权衡的优化问题，实现top-k RAG中的公平性感知检索。 |
-| [^27] | [OmniReview: A Large-scale Benchmark and LLM-enhanced Framework for Realistic Reviewer Recommendation](https://arxiv.org/abs/2602.08896) | 该论文提出了OmniReview，通过构建包含202,756条验证审稿记录的大规模基准数据集、三层分级评估框架以及大语言模型增强方法，解决了审稿人推荐中数据稀缺、评估指标过于简化以及嵌入方法信息瓶颈与可解释性不足的问题。 |
+| [^7] | [From Show Programs to Linked Data](https://arxiv.org/abs/2611.14037) | 提出一种结合视觉-语言模型、表演艺术 Linked Art 本体扩展与知识图谱约束语义标注的工作流，将阿维尼翁戏剧节节目单转化为结构化关联数据，实现超过98%的转录准确率并显著减少大语言模型幻觉。 |
+| [^8] | [LUMIR: Decoupled Multimodal Representation Learning from Heterogeneous Data for Next-POI Recommendation](https://arxiv.org/abs/2611.14004) | 提出解耦多模态表示学习框架LUMIR，利用大语言模型将异构多模态数据统一到共享文本空间，并通过对比学习结合交互感知融合与序列信号约束进行训练，使学习到的表示与下游推荐模型解耦，提升下一兴趣点推荐中多模态表示的通用性和可重用性。 |
+| [^9] | [Data Quality Challenges in Multimodal Tourism Recommender Systems](https://arxiv.org/abs/2611.13972) | 该论文聚焦旅游推荐场景，揭示了使用Yelp和Instagram等真实多模态数据时面临的虚假评论噪声、LLM幻觉内容、模态矛盾和人口偏差等数据质量挑战，并提出质量感知融合、受控LLM内容生成和用户群体差异化等未来改进方向。 |
+| [^10] | [Controlled Knowledge Engineering for Taxonomy Induction with Tool-Grounded LLM Agents and Runtime-Adaptive Policies](https://arxiv.org/abs/2611.13966) | 本文提出TIGA架构，将分类体系归纳形式化为显式状态与受约束动作空间上的迭代决策过程，借助可执行的分类编辑工具、记录调用与理由的记忆机制以及运行时自适应策略，克服LLM自由生成中的实体幻觉与无效层次关系，实现完整、结构有效且语义连贯的自动分类体系构建。 |
+| [^11] | [From Counterfactual Edits to Human Narratives: LLM-Driven Interpretations for Recommender System Explanations](https://arxiv.org/abs/2611.13914) | 该论文提出利用大语言模型作为中介，将推荐系统反事实解释中冗长且难以理解的用户交互历史编辑列表，总结为描述高层偏好模式的简洁自然语言解释，从而弥合生成有效反事实解释与向用户传达模型行为之间的差距。 |
+| [^12] | [Auditing LLM Pseudo-Label Distillation for Review Informativeness at E-Commerce Scale](https://arxiv.org/abs/2611.13797) | 本研究审计了电商规模下LLM伪标签蒸馏的质量，发现类别前缀虽能提升教师保真度却降低人工编辑一致性，表明教师保真度不能等同于编辑对齐，且学生模型流水线处理速度比教师快50.2倍。 |
+| [^13] | [IFRS Compliance Verification: An Open Multi-LLM Benchmark and Content-Conditioned Ensemble Classifier](https://arxiv.org/abs/2611.13595) | 本文构建了一个包含19,998个IFRS监管条款-披露配对、结合多LLM标签与8,837条人工标注的开放基准，并提出内容条件化的集成分类器框架，以克服单一模型准确率不足及简单集成中各模型系统性偏差导致性能下降的问题。 |
+| [^14] | [Exploiting Feature-invariant Scaling Laws for Efficient A/B Experimentation in Recommendation Systems](https://arxiv.org/abs/2611.13539) | 该论文发现现代推荐模型具有特征不变的缩放定律特性，并提出一种结合统计推断的方法，能仅通过小规模A/B实验预测全规模实验效果（含置信区间），从而大幅降低特征变更评估的计算成本。 |
+| [^15] | [A Technique to Model Product Information and User Reviews (MPIUR)](https://arxiv.org/abs/2611.13361) | 提出MPIUR多模态图推荐模型，将用户评论编码进异构图并对齐图文表示，在交互历史稀疏的场景下也能显著提升推荐性能（nDCG@10与Recall@10）。 |
+| [^16] | [Activation-Guided Graph Retrieval for Cognitive Memory Reconstruction in Language Model Systems](https://arxiv.org/abs/2611.13127) | 该论文提出了一种激活条件化的记忆图检索架构，通过请求与目标线索激活授权记忆图、扇出衰减控制有界遍历、实体递归发射线索，并在生成前重构类型化证据图，从而为长寿命AI系统实现认知记忆重构。 |
+| [^17] | [INTENT: Out-of-Sample, Out-of-Time, and Cold-Start Evaluation on User Event Sequences](https://arxiv.org/abs/2611.13069) | 提出了INTENT这一公开基准，根据用户、时期与目标项目是否在训练中出现，将用户事件序列上的下一动作预测模型划分到七种情形下评估，从而统一衡量其样本外、时间外与冷启动泛化能力。 |
+| [^18] | [Beyond the Document: Compiled Context and Governed Agents for Any Work Product](https://arxiv.org/abs/2611.13055) | 该论文提出便携式智能体格式（PAF）包这一新交付单元，将工作成果连同编译上下文、证据、来源与交互规则一起封装，实验证明受治理的智能体阅读器在回答相关问题上的成功率（96%）显著优于传统的指令加原始文件检索方式（86%）。 |
+| [^19] | [DocFS: File Systems as Agentic Reasoning Environments for Complex Multimodal Document Question Answering](https://arxiv.org/abs/2611.12957) | 该论文提出DocFS，将文件系统作为智能体推理环境，利用目录与文件的层级结构编码多模态文档的组织结构，并借助文件操作工具访问内容，从而提升智能体在复杂多模态文档问答中的表现。 |
+| [^20] | [IntentTwin: Deconfounding Candidate Support and the Oracle-to-Deployment Gap in Offline Web Behavior Prediction](https://arxiv.org/abs/2611.12918) | 该论文揭示了离线网页行为预测基准中仅凭候选动作是否属于训练支持集即可“作弊”答对的混杂效应，提出支持可识别率（SIR）这一度量、支持均衡候选集构建方法以及免目标双路径提议器，从而真实刻画从理想评测条件到实际部署的性能差距。 |
+| [^21] | [Combining Relevant Expert Knowledge Using Mixtures of Feedback Fuzzy Cognitive Maps](https://arxiv.org/abs/2611.05664) | 该论文将法律证据理论中的相关性定义扩展应用于神经符号系统，通过将专家的反馈模糊认知图混合为共同知识网络，并借助新的类贝叶斯定理对混合知识进行解混合，从而仅组合相关专家答案以提升系统的准确性和可扩展性。 |
+| [^22] | [Explain, Then Forget: Recommendation Unlearning under Asymmetric Access Constraint](https://arxiv.org/abs/2610.40658) | 提出了CEU（基于因果解释的遗忘）框架，在不修改模型参数的情况下，通过因果解释机制实现了服务运营商仅能通过API访问模型的MLaaS环境下的推荐遗忘学习。 |
+| [^23] | [SpectRAG: Weighted Chunk Graphs for Token-Budgeted Context Selection in Multi-Hop Retrieval-Augmented Generation](https://arxiv.org/abs/2610.36991) | SpectRAG提出了一种谱图增强检索框架，通过构建编码多种语义与结构关系的加权分块图，结合谱相关性传播与Token预算约束下的上下文选择，解决传统独立检索在多跳推理中证据冗余和不完整的问题。 |
+| [^24] | [SAM-D2Q: Aligning Multimodal Doc2Query with Search Demand and Conversion for E-commerce](https://arxiv.org/abs/2609.04961) | 提出SAM-D2Q框架，通过任务自适应多模态监督微调与多模态数据增强，在布尔检索约束下将多模态Doc2Query与电商搜索需求和转化目标对齐，有效解决查询与商品标题之间的词汇不匹配问题。 |
+| [^25] | [Controllable and Content-Based Recommendations](https://arxiv.org/abs/2607.20938) | 该论文提出了CCBR框架，通过文本瓶颈将协同过滤与直接从物品多模态内容（图像、音频、视频）推断出的文本用户画像相结合，在保持与标准潜在表示模型相当性能的同时，实现了可通过文本干预进行控制的可解释推荐。 |
+| [^26] | [DOTRAG: Retrieval-Time Reasoning Along Paths](https://arxiv.org/abs/2605.18760) | DotRAG提出了一种轻量级、无需训练的GraphRAG检索算法，通过构建知识图谱、生成全图概览并利用图可达性索引，让LLM推理在查询时缩小搜索空间并高效恢复与任务相关的关系路径。 |
+| [^27] | [Fairness-Aware Retrieval Optimization for Retrieval-Augmented Generation](https://arxiv.org/abs/2605.15790) | 该论文提出三阶段框架FARO，通过概率重排序器控制各位置的群体构成，并利用位置加权线性模型将检索形式化为相关性与输出偏差权衡的优化问题，实现top-k RAG中的公平性感知检索。 |
+| [^28] | [ASPIRE: Make Spectral Graph Collaborative Filtering Great Again via Adaptive Filter Learning](https://arxiv.org/abs/2604.22549) | 本文提出ASPIRE框架，通过双层优化目标学习自适应图滤波器，克服了传统推荐目标偏差导致的“低频爆炸”问题，使谱图协同过滤达到与精心手工设计的滤波器相当的性能。 |
+| [^29] | [OmniReview: A Large-scale Benchmark and LLM-enhanced Framework for Realistic Reviewer Recommendation](https://arxiv.org/abs/2602.08896) | 该论文提出了OmniReview，通过构建包含202,756条验证审稿记录的大规模基准数据集、三层分级评估框架以及大语言模型增强方法，解决了审稿人推荐中数据稀缺、评估指标过于简化以及嵌入方法信息瓶颈与可解释性不足的问题。 |
 
 # 详细
 
@@ -116,7 +118,21 @@
 
     arXiv:2611.14050v1 Announce Type: new  Abstract: Retrieving evidence from Indian Knowledge Systems is complicated by transliteration variants, ambiguous names, and relations distributed across passages. We present an ontology-guided knowledge graph (KG) pipeline that links typed entities and relations extracted with Qwen3-32B to original textual evidence. Retrieval combines sense-aware grounding, bounded graph traversal, lexical anchors, relationship-vector search, and passage reranking. We evaluate KG alone, single-vector retrieval (SV), and KG unions with SV and Entity Notes on 320 questions from Dhara Bench, matching the per-question candidate count across internal systems under BGE and Qwen rerankers. Standalone KG has the highest Precision@5 under both rerankers and the highest MRR@20 in Counting, Composite, and Multi-hop among the evaluated internal configurations. With Qwen, KG achieves Multi-hop MRR@20 of 0.8722, compared with 0.7622 for the fully reranked KG + SV union. The KG
     
-[^7]: LUMIR：面向下一兴趣点推荐的异构数据解耦多模态表示学习
+[^7]: 从演出节目单到关联数据
+
+    From Show Programs to Linked Data
+
+    [https://arxiv.org/abs/2611.14037](https://arxiv.org/abs/2611.14037)
+
+    提出一种结合视觉-语言模型、表演艺术 Linked Art 本体扩展与知识图谱约束语义标注的工作流，将阿维尼翁戏剧节节目单转化为结构化关联数据，实现超过98%的转录准确率并显著减少大语言模型幻觉。
+
+    
+
+    许多文化遗产机构收藏有大量的演出节目单。由于数量众多而无法逐一编目，这些节目单难以获取，且大部分尚未数字化。本文提出了一种工作流程，通过结合视觉-语言模型、面向表演艺术定制的 Linked Art 本体扩展，以及多种自动语义数据标注方法，将此类文档转化为结构化、可互操作的数据。以法国国家图书馆收藏的阿维尼翁戏剧节节目单（1947年至今）为案例研究，我们展示了视觉-语言模型如何对异构文化遗产文档图像实现超过98%的文本转录准确率，以及如何通过知识图谱约束大语言模型的生成，从而显著减少语义标注中的幻觉现象。我们认为，该工作流程为大规模、可互操作的表演艺术史研究开辟了新的可能性。
+
+    arXiv:2611.14037v1 Announce Type: new  Abstract: Many heritage institutions hold extensive collections of show programs. Too numerous to be cataloged individually, they remain difficult to access and are still largely undigitized. This paper presents a workflow for transforming such documents into structured, interoperable data by combining vision-language models (VLMs), a custom extension of the Linked Art ontology for the performing arts, and different approaches for automatic semantic data annotation. Using the Festival d'Avignon programs (1947--present), preserved at the Biblioth{\`e}que nationale de France, as a case study, we demonstrate how VLMs achieve more than 98% text transcription accuracy from heterogeneous heritage document images and how constraining large language model generation through a knowledge graph significantly reduces hallucinations in semantic annotation. We argue that this workflow opens new possibilities for large-scale, interoperable performing arts histor
+    
+[^8]: LUMIR：面向下一兴趣点推荐的异构数据解耦多模态表示学习
 
     LUMIR: Decoupled Multimodal Representation Learning from Heterogeneous Data for Next-POI Recommendation
 
@@ -130,7 +146,7 @@
 
     arXiv:2611.14004v1 Announce Type: cross  Abstract: As multimodal tourism-related information collected from heterogeneous data sources has become increasingly available, learning effective representations has attracted attention for improving recommendation performance. Existing approaches often tightly couple multimodal fusion with the architecture and optimization objective of a specific downstream model, which limits the generality and reusability of the learned representations. To address these limitations, we propose LUMIR, a decoupled multimodal representation learning framework based on contrastive learning. Multimodal information collected from heterogeneous data sources is first semantically unified into a shared textual representation space using large language models (LLMs). An interaction-aware fusion mechanism is then designed to model cross-modal interactions, while sequential signals are incorporated as a structural constraint to guide representation learning. To evaluat
     
-[^8]: 多模态旅游推荐系统中的数据质量挑战
+[^9]: 多模态旅游推荐系统中的数据质量挑战
 
     Data Quality Challenges in Multimodal Tourism Recommender Systems
 
@@ -144,7 +160,7 @@
 
     arXiv:2611.13972v1 Announce Type: cross  Abstract: Modern recommender systems increasingly consider diverse data modalities to enhance model performance. However, the quality of the underlying multimodal data (e.g. data from social media platforms) has received limited attention so far. Focusing on tourism recommendation, we examine real-world challenges encountered when using datasets from Yelp and Instagram. Issues include noise from fake reviews, hallucinated content from LLMs, modality contradictions, and demographic bias. We outline future directions such as quality-aware fusion, structured and controlled LLM-based content generation to reduce hallucinations, and user group differentiation to improve the robustness and reliability of multimodal recommendation systems.
     
-[^9]: 基于工具锚定LLM智能体与运行时自适应策略的分类体系归纳受控知识工程
+[^10]: 基于工具锚定LLM智能体与运行时自适应策略的分类体系归纳受控知识工程
 
     Controlled Knowledge Engineering for Taxonomy Induction with Tool-Grounded LLM Agents and Runtime-Adaptive Policies
 
@@ -158,7 +174,7 @@
 
     arXiv:2611.13966v1 Announce Type: cross  Abstract: Taxonomies are structured knowledge representations that support semantic search, recommendation, product catalog organization, and retrieval-augmented generation. Their automated construction from a fixed set of candidate entities requires more than plausible text generation: the resulting hierarchy must be complete, structurally valid, and semantically coherent. Large Language Models (LLMs) are promising for this task, but iterative free-form generation remains vulnerable to omitted or hallucinated entities, invalid hierarchical relations, and inconsistent organizational principles. We introduce TIGA (Taxonomy Induction with Tool-Grounded Agents), a knowledge-engineering architecture that formulates taxonomy induction as an iterative decision process over an explicit state and constrained action space. TIGA combines executable taxonomy-editing tools, an memory that records tool calls, rationales, and outcomes, and a runtime-adaptive 
     
-[^10]: 从反事实编辑到人类叙事：基于大语言模型的推荐系统解释诠释
+[^11]: 从反事实编辑到人类叙事：基于大语言模型的推荐系统解释诠释
 
     From Counterfactual Edits to Human Narratives: LLM-Driven Interpretations for Recommender System Explanations
 
@@ -172,7 +188,7 @@
 
     arXiv:2611.13914v1 Announce Type: new  Abstract: Recommender systems increasingly influence what users discover and consume online, yet the decision logic behind their outputs often remains opaque. Counterfactual explanation (CFX) methods provide an effective way to show which changes to a user's interaction history would alter a recommendation. In recommendation settings, however, CFXs often require many edits, producing long, low-level lists that are hard for users to interpret. Moreover, most evaluations emphasize edit counts while largely overlooking whether the resulting CFXs are coherent and actionable for users. We argue that this gap between generating valid CFXs and communicating model behavior stems from the lack of user-centered abstraction and limited qualitative evaluation. To bridge this gap, we investigate large language models as mediators that summarize raw CFX interaction edit lists into concise natural language explanations describing higher-level preference patterns
     
-[^11]: 电商规模下针对评论信息量的LLM伪标签蒸馏审计
+[^12]: 电商规模下针对评论信息量的LLM伪标签蒸馏审计
 
     Auditing LLM Pseudo-Label Distillation for Review Informativeness at E-Commerce Scale
 
@@ -186,7 +202,7 @@
 
     arXiv:2611.13797v1 Announce Type: new  Abstract: We study hard-label distillation from Gemini 3.1 Flash-Lite to compact encoders on 5.34 million Turkish marketplace reviews. A strict new-SKU temporal test measures teacher fidelity; a separate, teacher-label-blind audit by one company annotator measures editorial agreement. An H3 category prefix slightly improves teacher fidelity on the full new-SKU test. On the 16,000-review chronological audit subset, it instead reduces agreement with both Gemini and the annotator, with a clearer paired difference for CORN than for cross entropy. Thus the context effect depends on the evaluation population, and teacher fidelity alone does not establish editorial alignment. Under the measured offline configurations, a single-L4 student pipeline processes reviews 50.2 times faster than the teacher pipeline.
     
-[^12]: 国际财务报告准则（IFRS）合规性验证：开放的多大语言模型基准与内容条件化集成分类器
+[^13]: 国际财务报告准则（IFRS）合规性验证：开放的多大语言模型基准与内容条件化集成分类器
 
     IFRS Compliance Verification: An Open Multi-LLM Benchmark and Content-Conditioned Ensemble Classifier
 
@@ -200,7 +216,7 @@
 
     arXiv:2611.13595v1 Announce Type: new  Abstract: Verifying corporate financial disclosures against the International Financial Reporting Standards (IFRS) is a core auditing task in which experts cross-reference disclosures with hundreds of fine-grained regulatory paragraphs: a laborious, costly, and error-prone process that motivates growing interest in large language models (LLMs) as compliance assistants. Yet single-model accuracy remains insufficient for high-stakes use, and naive ensembling is vulnerable to systematic per-model biases that can drag aggregate accuracy below that of the strongest individual annotator. This gap is addressed with a multi-stage framework, supported by a new benchmark of 19,998 IFRS regulation-disclosure pairs comprising 11,161 unanimous multi-LLM labels and 8,837 human annotations on items where the LLMs disagreed. The framework couples a three-stage domain-adapted sentence embedding pipeline (BERT masked language modeling on SEC EDGAR filings, unsuperv
     
-[^13]: 利用特征不变的缩放定律实现推荐系统中高效的A/B实验
+[^14]: 利用特征不变的缩放定律实现推荐系统中高效的A/B实验
 
     Exploiting Feature-invariant Scaling Laws for Efficient A/B Experimentation in Recommendation Systems
 
@@ -214,7 +230,7 @@
 
     arXiv:2611.13539v1 Announce Type: cross  Abstract: Researchers and engineers improve recommendation systems by performing A/B experiments with new model architectures, optimization methods, and data features. However, running full-scale experiments (e.g., full-model training with online data) for every feature change is prohibitively computationally intensive, while the result from a single small-scale experiment is often misleading. To address this challenge, we show that modern recommendation models exhibit feature-invariant scaling: the change of a model's performance follows a predictable scaling-law even when different feature changes are applied to the baseline model. We introduce an efficient method that exploits scaling-laws and uses statistical inference to predict (with confidence intervals) the full-scale effect of an A/B experiment in recommendation systems. This enables practitioners to efficiently filter out neutral or regressive feature changes with only small-scale expe
     
-[^14]: 一种对商品信息与用户评论建模的技术
+[^15]: 一种对商品信息与用户评论建模的技术
 
     A Technique to Model Product Information and User Reviews (MPIUR)
 
@@ -228,7 +244,7 @@
 
     arXiv:2611.13361v1 Announce Type: new  Abstract: Modern e-commerce platforms naturally provide three complementary modalities: textual item descriptions, item images, and user reviews. However, existing multimodal recommendation methods often omit reviews or do not integrate all three modalities within a unified framework. In this paper, we propose MPIUR, a multimodal graph-based recommendation model that encodes reviews in heterogeneous graphs, aligns image and text representations, and adapts collaborative--semantic alignment to item interaction density. Experiments on the Amazon Reviews 2023 Musical Instruments and Baby categories show that MPIUR achieves the best global nDCG@10 and Recall@10 among the evaluated methods on both datasets. It also obtains the best nDCG@10 and Recall@10 on sparse items, indicating that jointly exploiting reviews and multimodal item content is particularly useful when interaction histories are limited.
     
-[^15]: 面向语言模型系统中认知记忆重构的激活引导图检索
+[^16]: 面向语言模型系统中认知记忆重构的激活引导图检索
 
     Activation-Guided Graph Retrieval for Cognitive Memory Reconstruction in Language Model Systems
 
@@ -242,7 +258,7 @@
 
     arXiv:2611.13127v1 Announce Type: new  Abstract: Retrieval-augmented language model systems generally select context by query-conditioned relevance. We argue that long-lived AI systems require a second operator: activation-conditioned memory availability. We specify an architecture in which request and goal cues seed an authorized memory graph, activation and fan attenuation allocate a bounded traversal frontier, retrieved entities recursively emit cues, and a typed evidence graph is reconstructed before generation. The specification yields five architectural consequences about candidate selection, traversal control, graph regularization, evidence reconstruction, and reinforcement. We derive implementation-level cost estimates and define ablations, failure conditions, and a reproducible evaluation protocol. The central claim is narrowed or falsified if a simpler graph reranker matches full traversal on causal and temporal recovery under equal budgets. This architecture-and-analysis pre
     
-[^16]: INTENT：用户事件序列上的样本外、时间外与冷启动评估
+[^17]: INTENT：用户事件序列上的样本外、时间外与冷启动评估
 
     INTENT: Out-of-Sample, Out-of-Time, and Cold-Start Evaluation on User Event Sequences
 
@@ -256,7 +272,7 @@
 
     arXiv:2611.13069v1 Announce Type: new  Abstract: Banks now train foundation models on ordered sequences of customer events such as transactions, app sessions, and authorizations. Deployed, such a model predicts forward in time, often for customers and merchants absent from training, yet each is evaluated on private data, so no two can be compared. Public benchmarks for such sequences rarely test a period the model has not seen; recommendation studies usually hold out each user's last events instead. We present INTENT (INTEraction, Novelty, and Transfer evaluation for next-action prediction), a public benchmark that scores a model in seven cells defined by whether the user, the period, and the target item appeared in training. An audit of 59 public dataset families retains five datasets; the most common defect is the lack of a calendar timestamp that orders events. No date lies within the time span of all five datasets, so each is split at its own cutoff, chosen by one rule fixed before
     
-[^17]: 超越文档：面向任意工作成果的编译上下文与受治理智能体
+[^18]: 超越文档：面向任意工作成果的编译上下文与受治理智能体
 
     Beyond the Document: Compiled Context and Governed Agents for Any Work Product
 
@@ -270,7 +286,7 @@
 
     arXiv:2611.13055v1 Announce Type: cross  Abstract: A document preserves the visible result of professional work but often discards the research, calculations, assumptions, evidence, and authorization boundaries behind it. We study a different unit of delivery: a Portable Agent Format (PAF) package that carries a work product together with compiled context, evidence, provenance, and rules for subsequent interaction. To test whether this context remains useful beyond the process that produced it, we evaluate four new packages, created after the hosted and offline readers were fixed: an investment proposal, fund research, financial-statement analysis, and an engineering incident review. Two packages were produced by specialized agents and two through a general-purpose assistant's packaging skill. Across 400 frozen questions and 12,000 evaluated responses, a hosted governed reader succeeds on 96% of questions versus 86% with instructions plus raw-file retrieval (Holm-adjusted p < 10^-7). O
     
-[^18]: DocFS：文件系统作为复杂多模态文档问答的智能体推理环境
+[^19]: DocFS：文件系统作为复杂多模态文档问答的智能体推理环境
 
     DocFS: File Systems as Agentic Reasoning Environments for Complex Multimodal Document Question Answering
 
@@ -284,7 +300,7 @@
 
     arXiv:2611.12957v1 Announce Type: new  Abstract: VLM-based agents solve complex tasks by iteratively interacting with environments, and their effectiveness depends heavily on how the environment exposes information and provides tools for acting on it. However, constructing an effective environment for complex multimodal document question answering remains challenging: documents usually span many pages, with multimodal contents distributed across hierarchical sections and linked by cross-modal associations, while existing methods organize documents into structured representations that address only the information side of the environment and lack tools aligned with the structure, limiting agents' ability to fully exploit it. We observe that file systems naturally combine structure organization with aligned tools: directories and files encode document structure, while file operations provide rich tools to access file contents. Building on this insight, we propose DocFS, a file-system-base
     
-[^19]: IntentTwin：离线网页行为预测中候选支持去混杂与“理想评测到实际部署”的差距
+[^20]: IntentTwin：离线网页行为预测中候选支持去混杂与“理想评测到实际部署”的差距
 
     IntentTwin: Deconfounding Candidate Support and the Oracle-to-Deployment Gap in Offline Web Behavior Prediction
 
@@ -298,7 +314,7 @@
 
     arXiv:2611.12918v1 Announce Type: new  Abstract: Offline web-behavior benchmarks frequently insert the demonstrated action into a finite candidate set and then measure reranking. We show that this protocol can create a candidate-support confound: when the target is outside training support while all distractors are sampled from that support, support membership identifies the gold action without modeling behavior. We formalize this effect with support-identifiability rate (SIR), construct support-balanced candidate sets, and evaluate a target-free dual-path proposer that combines support retrieval with open-vocabulary DOM/LM proposals. On filtered OPeRA (4,282/469/992 train/dev/test steps), the original protocol has SIR 1.0000 on target-OOV rows and a support-only rule reaches 1.0000 OOV Exact@1. Support balancing reduces SIR to 0.0000; the strongest conditional reranker obtains 0.7214 overall Exact@1, 0.7988 on IV rows, and 0.5668 on OOV rows. The target-free dual-path system reaches P
     
-[^20]: 使用反馈模糊认知图混合体组合相关专家知识
+[^21]: 使用反馈模糊认知图混合体组合相关专家知识
 
     Combining Relevant Expert Knowledge Using Mixtures of Feedback Fuzzy Cognitive Maps
 
@@ -312,7 +328,7 @@
 
     arXiv:2611.05664v1 Announce Type: new  Abstract: A neuro-symbolic system should combine only relevant answers from expert agents or other knowledge sources. Using only relevant experts for a given input query becomes ever more important for accuracy and scalability as the knowledge network grows and connects ever more knowledge sources. We extend the standard definition of relevance from the legal theory of evidence: An answer is relevant if and only if it is both probative and material for the matter at hand given the knowledge available. We apply this relevancy scheme to mixing the feedback fuzzy cognitive maps (FCMs) of real or artificial experts. The expert FCM directed causal graphs mix or combine into a common knowledge network. We compare the equilibrium limit-cycle predictions or answers of the experts to the answers of the mixture FCM and then estimate the probative status of answers by their difference or variation. A new Bayes-like theorem de-mixes the knowledge mixture into
     
-[^21]: 解释，然后遗忘：非对称访问约束下的推荐遗忘学习
+[^22]: 解释，然后遗忘：非对称访问约束下的推荐遗忘学习
 
     Explain, Then Forget: Recommendation Unlearning under Asymmetric Access Constraint
 
@@ -326,7 +342,7 @@
 
     arXiv:2610.40658v1 Announce Type: new  Abstract: Recommendation unlearning aims to remove the influence of specific historical interactions that should no longer affect future recommendations, such as noisy clicks or outdated user preferences. However, performing recommendation unlearning becomes much harder in modern Machine-Learning-as-a-Service (MLaaS) architectures, where the recommendation model is remotely hosted by a model provider (MP) and accessed by service operators (SO) only through APIs. In this setting, a service operator serves end users but cannot access or modify internal model parameters. As a result, existing unlearning methods are difficult to apply because they require access to model internals for retraining, fine-tuning, or other parameter updates. To address these challenges, we propose Causal Explanation-based Unlearning (CEU), a novel unlearning framework tailored for MLaaS environments. Instead of modifying internal model weights, CEU operates through a two-s
     
-[^22]: SpectRAG：面向多跳检索增强生成中基于Token预算的上下文选择的加权分块图
+[^23]: SpectRAG：面向多跳检索增强生成中基于Token预算的上下文选择的加权分块图
 
     SpectRAG: Weighted Chunk Graphs for Token-Budgeted Context Selection in Multi-Hop Retrieval-Augmented Generation
 
@@ -340,7 +356,7 @@
 
     arXiv:2610.36991v1 Announce Type: new  Abstract: Retrieval-augmented generation (RAG) systems ground large language models (LLMs) by retrieving external evidence and conditioning generation on the retrieved context. Although dense retrieval is effective for local semantic matching, independently ranked retrieval can return redundant passages, miss cross-chunk dependencies, and provide incomplete evidence for multi-hop reasoning. We propose SpectRAG, a spectral graph-augmented retrieval framework that combines hybrid candidate seeding, weighted chunk graph construction, graph-based expansion, spectral relevance propagation, and token-budgeted context selection. Document chunks are represented by dense semantic embeddings and graph-spectral coordinates derived from a weighted chunk graph whose edges encode semantic similarity, document adjacency, section hierarchy, shared entities, citation links, and similarity between LLM-generated utility questions. At query time, SpectRAG builds a hi
     
-[^23]: SAM-D2Q：面向电商场景的多模态Doc2Query与搜索需求及转化的对齐
+[^24]: SAM-D2Q：面向电商场景的多模态Doc2Query与搜索需求及转化的对齐
 
     SAM-D2Q: Aligning Multimodal Doc2Query with Search Demand and Conversion for E-commerce
 
@@ -354,7 +370,7 @@
 
     arXiv:2609.04961v1 Announce Type: new  Abstract: E-commerce search often suffers from vocabulary mismatch between user queries and merchant-authored product titles, since short titles cannot fully cover diverse user expressions or visual product attributes. Although Doc2Query alleviates this issue by generating pseudo-queries for document expansion, traditional methods are text-only and not optimized for e-commerce business objectives. As a result, they may produce semantically plausible but commercially ineffective expansions and miss key attributes present in product images. To this end, we propose E-commerce Search-Aligned Multimodal Doc2Query (SAM-D2Q), a business-aligned multimodal document expansion framework for e-commerce search under Boolean retrieval constraints. SAM-D2Q consists of three stages: (1) task-adapted multimodal supervised fine-tuning to enhance vision-language understanding of product titles, images, and user queries; (2) multimodal data augmentation to improve p
     
-[^24]: 可控的基于内容的推荐系统
+[^25]: 可控的基于内容的推荐系统
 
     Controllable and Content-Based Recommendations
 
@@ -368,7 +384,7 @@
 
     arXiv:2607.20938v2 Announce Type: replace  Abstract: Traditional recommendation systems rely on latent (dense) representations, making them difficult to interpret and control. We propose the Controllable and Content-Based Recommendations (CCBR) framework, which builds its recommendations from textual user profile representations. CCBR plugs into collaborative filtering models and introduces controllability via text bottlenecks. We show that CCBR enables text-based and multimodal interventions, allowing users to steer the model towards the directions they prefer. Different from existing controllable recommendation systems, CCBR infers the text summaries directly from item contents (images, audio or video). Across image, audio, and video datasets, we demonstrate that the proposed framework obtains competitive model performance with standard (latent-representation) models while providing controllable model summaries via text. The model also outperforms TEARS, a recent baseline for control
     
-[^25]: DOTRAG：检索时的路径推理
+[^26]: DOTRAG：检索时的路径推理
 
     DOTRAG: Retrieval-Time Reasoning Along Paths
 
@@ -382,7 +398,7 @@
 
     arXiv:2605.18760v2 Announce Type: replace-cross  Abstract: Graph Retrieval-Augmented Generation (GraphRAG) faces significant challenges in complex relational retrieval tasks, particularly in densely connected knowledge graphs where the number of possible paths grows rapidly with reasoning depth. Existing GraphRAG retrieval algorithms either rely on rigid, predefined heuristics to identify relevant graph context or employ costly LLM-based reasoning to guide graph traversal. To address these limitations, we propose DotRAG, a lightweight, training-free GraphRAG retrieval algorithm that uses large language model (LLM) reasoning to narrow the search space and recover task-relevant relational paths. During indexing, DotRAG constructs an entity-relation knowledge graph, generates a graph-wide overview summarizing its contents, and leverages graph reachability indexing to avoid expensive online graph traversals. At query time, the LLM uses this overview to identify promising graph regions and 
     
-[^26]: 面向检索增强生成的公平性感知检索优化
+[^27]: 面向检索增强生成的公平性感知检索优化
 
     Fairness-Aware Retrieval Optimization for Retrieval-Augmented Generation
 
@@ -396,7 +412,21 @@
 
     arXiv:2605.15790v2 Announce Type: replace-cross  Abstract: Retrieval-Augmented Generation (RAG) grounds large language models (LLMs) in external knowledge, but the retrieved documents can systematically skew generated answers toward one group. This effect is difficult to analyze and control in top-k settings, where several documents at different context positions jointly shape the output. We present a three-stage framework for fairness-aware retrieval in top-k RAG. First, a probabilistic reranker sets the group composition of the retrieved context at each position, enabling controlled perturbation of retrieval bias without modifying the retriever. Second, we show that output bias is well approximated by a position-weighted linear function of position-wise retrieval bias, revealing model-specific positional sensitivities. Third, we use this model to formulate retrieval as an optimization problem that trades off relevance against predicted output bias, and propose FARO, a scalable soluti
     
-[^27]: OmniReview：面向现实审稿人推荐的大规模基准数据集与大语言模型增强框架
+[^28]: ASPIRE：通过自适应滤波器学习让谱图协同过滤重振雄风
+
+    ASPIRE: Make Spectral Graph Collaborative Filtering Great Again via Adaptive Filter Learning
+
+    [https://arxiv.org/abs/2604.22549](https://arxiv.org/abs/2604.22549)
+
+    本文提出ASPIRE框架，通过双层优化目标学习自适应图滤波器，克服了传统推荐目标偏差导致的“低频爆炸”问题，使谱图协同过滤达到与精心手工设计的滤波器相当的性能。
+
+    
+
+    图滤波器设计是谱协同过滤的核心，然而大多数现有方法依赖于手动调整的超参数，而非完全可学习的滤波器。我们证明这一挑战源于传统推荐目标中存在的偏差，该偏差引发了一种被称为“低频爆炸”的谱现象，从而从根本上阻碍了图滤波器的有效学习。为克服这一局限性，我们提出了一种基于双层优化目标的新型自适应谱图协同过滤框架（ASPIRE）。在我们的理论分析指导下，我们对滤波器学习目标进行了解耦，进而在实践中带来了卓越的推荐性能、谱自适应性以及训练稳定性。大量实验表明，我们学习到的滤波器能够匹敌精心设计的任务特定滤波器的性能。此外，ASPIRE在基于大语言模型（LLM）的协同过滤中同样有效……
+
+    arXiv:2604.22549v2 Announce Type: replace  Abstract: Graph filter design is central to spectral collaborative filtering, yet most existing methods rely on manually tuned hyperparameters rather than fully learnable filters. We show that this challenge stems from a bias in traditional recommendation objectives, which induces a spectral phenomenon termed low-frequency explosion, thereby fundamentally hindering the effective learning of graph filters. To overcome this limitation, we propose a novel adaptive spectral graph collaborative filtering framework (ASPIRE) based on a bi-level optimization objective. Guided by our theoretical analysis, we disentangle the filter learning objective, which in turn leads to excellent recommendation performance, spectral adaptivity, and training stability in practice. Extensive experiments show our learned filters match the performance of carefully engineered task-specific designs. Furthermore, ASPIRE is equally effective in LLM-powered collaborative fil
+    
+[^29]: OmniReview：面向现实审稿人推荐的大规模基准数据集与大语言模型增强框架
 
     OmniReview: A Large-scale Benchmark and LLM-enhanced Framework for Realistic Reviewer Recommendation
 
