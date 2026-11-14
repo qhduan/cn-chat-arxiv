@@ -1,0 +1,12 @@
+{
+    "title": "Fine-Tuning Language Models to Know What They Know",
+    "abstract": "arXiv:2602.02605v3 Announce Type: replace-cross  Abstract: Evaluating true metacognition in Large Language Models (LLMs) is difficult due to biases and heuristics. This paper presents a framework to measure and enhance LLM metacognition while controlling for these biases. A measurement method using the $d'_{\\rm type2}$ metric is established to isolate metacognitive ability. The Evolution Strategy for Metacognitive Alignment (ESMA) is proposed, demonstrating robust generalization across unseen datasets, languages, and newly acquired knowledge. Gradual parameter updates reveal that these improvements are driven by a sparse set of parameters, opening a potential avenue for targeted metacognitive optimization.",
+    "link": "https://arxiv.org/abs/2602.02605",
+    "context": "Title: Fine-Tuning Language Models to Know What They Know\nAbstract: arXiv:2602.02605v3 Announce Type: replace-cross  Abstract: Evaluating true metacognition in Large Language Models (LLMs) is difficult due to biases and heuristics. This paper presents a framework to measure and enhance LLM metacognition while controlling for these biases. A measurement method using the $d'_{\\rm type2}$ metric is established to isolate metacognitive ability. The Evolution Strategy for Metacognitive Alignment (ESMA) is proposed, demonstrating robust generalization across unseen datasets, languages, and newly acquired knowledge. Gradual parameter updates reveal that these improvements are driven by a sparse set of parameters, opening a potential avenue for targeted metacognitive optimization.",
+    "path": "papers/26/02/2602.02605.json",
+    "total_tokens": 986,
+    "translated_title": "微调语言模型使其知晓自身所知",
+    "translated_abstract": "arXiv:2602.02605v3 公告类型：replace-cross 摘要：由于偏差和启发式思维的存在，评估大型语言模型（LLM）真正的元认知能力十分困难。本文提出了一个在控制这些偏差的同时测量并增强LLM元认知能力的框架。该工作建立了一种使用 $d'_{\\rm type2}$ 指标的测量方法，以分离出真正的元认知能力。论文提出了元认知对齐进化策略，该方法在未见过的数据集、语言以及新获得的知识上展现出强大的泛化能力。渐进式参数更新实验揭示，这些改进是由一组稀疏的参数驱动的，为有针对性的元认知优化开辟了一条潜在的途径。",
+    "tldr": "本文提出一种控制偏差的元认知测量框架，利用 d'_type2 指标和进化策略 ESMA 对大语言模型进行微调，显著提升其元认知能力并具备跨数据集、跨语言的良好泛化性，同时发现这些提升源于一组稀疏的参数。",
+    "en_tdlr": "This paper proposes a bias-controlled framework that uses the d'_type2 metric and an Evolution Strategy for Metacognitive Alignment (ESMA) to fine-tune LLMs, significantly enhancing their metacognition with robust generalization across unseen datasets and languages, and reveals that these gains are driven by a sparse set of parameters."
+}

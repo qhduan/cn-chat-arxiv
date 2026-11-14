@@ -1,0 +1,11 @@
+{
+    "title": "Robots That Talk Too Much and Don't Listen Enough",
+    "abstract": "arXiv:2611.16473v1 Announce Type: cross  Abstract: Until recently, the biggest obstacles to natural spoken interaction with social robots were speech recognition errors and turn-taking failures. Advances in speech recognition have enabled much better spoken interaction, but turn-taking failures and other misunderstandings continue to be far too prevalent. This short paper looks back at earlier methods for improving speech recognition and turn-taking in interaction with social robots, and then looks at what can be done today, arguing that multimodal bidirectional streaming is needed to reduce the frequency of turn-taking failures.",
+    "link": "https://arxiv.org/abs/2611.16473",
+    "context": "Title: Robots That Talk Too Much and Don't Listen Enough\nAbstract: arXiv:2611.16473v1 Announce Type: cross  Abstract: Until recently, the biggest obstacles to natural spoken interaction with social robots were speech recognition errors and turn-taking failures. Advances in speech recognition have enabled much better spoken interaction, but turn-taking failures and other misunderstandings continue to be far too prevalent. This short paper looks back at earlier methods for improving speech recognition and turn-taking in interaction with social robots, and then looks at what can be done today, arguing that multimodal bidirectional streaming is needed to reduce the frequency of turn-taking failures.",
+    "path": "papers/26/11/2611.16473.json",
+    "total_tokens": 796,
+    "translated_title": "说得太多、听得不够的机器人",
+    "translated_abstract": "直到最近，与社交机器人进行自然口语交互的最大障碍是语音识别错误和话轮转换失败。语音识别技术的进步已使口语交互质量大幅提升，但话轮转换失败和其他误解仍然过于普遍。这篇短文回顾了早期改善社交机器人交互中语音识别和话轮转换的方法，进而探讨当前可以采取的措施，并论证需要采用多模态双向流式处理来降低话轮转换失败的发生频率。",
+    "tldr": "本文回顾了社交机器人语音识别与话轮转换的改进历程，指出尽管语音识别已大幅进步，话轮转换失败仍普遍存在，并提出需要多模态双向流式处理来减少此类失败。"
+}

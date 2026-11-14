@@ -1,0 +1,12 @@
+{
+    "title": "Isotropy Cliffs: The Geometric Signature of Decision-Making in Large Language Models",
+    "abstract": "arXiv:2608.00828v2 Announce Type: replace  Abstract: We investigate the geometry of decision-making in Multiple Choice Question Answering (MCQA) through the lens of isotropy. Analyzing five open-weight models across diverse datasets, we identify decision-critical transition layers characterized by a shift in isotropy, coinciding with a major representational change and the emergence of task-relevant clusters. We demonstrate that this synchronized geometric behavior is strongly correlated with downstream accuracy ($r\\approx0.84$), displaying its relevance for successful decision-making. Furthermore, we show that this transition is robust to prompt variations, suggesting that it reflects a general mechanism of model behavior.",
+    "link": "https://arxiv.org/abs/2608.00828",
+    "context": "Title: Isotropy Cliffs: The Geometric Signature of Decision-Making in Large Language Models\nAbstract: arXiv:2608.00828v2 Announce Type: replace  Abstract: We investigate the geometry of decision-making in Multiple Choice Question Answering (MCQA) through the lens of isotropy. Analyzing five open-weight models across diverse datasets, we identify decision-critical transition layers characterized by a shift in isotropy, coinciding with a major representational change and the emergence of task-relevant clusters. We demonstrate that this synchronized geometric behavior is strongly correlated with downstream accuracy ($r\\approx0.84$), displaying its relevance for successful decision-making. Furthermore, we show that this transition is robust to prompt variations, suggesting that it reflects a general mechanism of model behavior.",
+    "path": "papers/26/08/2608.00828.json",
+    "total_tokens": 1447,
+    "translated_title": "各向同性悬崖：大语言模型决策行为的几何特征",
+    "translated_abstract": "我们通过各向同性的视角研究多选题问答（MCQA）中决策行为的几何特性。通过分析五个开源权重模型在多个数据集上的表现，我们识别出了以各向同性变化为特征的决策关键过渡层，该过渡层与主要的表征变化以及任务相关聚类的出现同时发生。我们证明这种同步的几何行为与下游准确率强相关（r≈0.84），表明其与成功决策密切相关。此外，我们展示了这一过渡对提示词变化具有鲁棒性，这表明它反映了模型行为的一种普遍机制。",
+    "tldr": "该论文发现大语言模型在多选题决策中存在以各向同性突变为特征的“各向同性悬崖”过渡层，其几何行为与下游准确率强相关且对提示变化鲁棒，揭示了模型决策的一种普遍几何机制。",
+    "en_tdlr": "This paper identifies \"isotropy cliffs\"—decision-critical transition layers in LLMs characterized by isotropy shifts that strongly correlate with downstream accuracy (r≈0.84) and remain robust to prompt variations, revealing a general geometric mechanism underlying model decision-making."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Same-State Pairs Make One JEPA Proof of the Platonic Representation Hypothesis Vacuous",
+    "abstract": "arXiv:2611.16182v1 Announce Type: cross  Abstract: In a Joint-Embedding Predictive Architecture (JEPA), the JEPA proof of the Platonic Representation Hypothesis (PRH) assumes that every observation determines the world state and that a spectral gap makes minimizers unique up to rotation. Under the hard-whitening population objective, same-state positive pairs make the induced world kernel the identity: every centered whitened state function is a global minimizer, and, when $d_z-1\\ge 2k$, two minimizers can have best-rotation squared residual $2k$. The uniqueness claim is conditional; for $k",
+    "link": "https://arxiv.org/abs/2611.16182",
+    "context": "Title: Same-State Pairs Make One JEPA Proof of the Platonic Representation Hypothesis Vacuous\nAbstract: arXiv:2611.16182v1 Announce Type: cross  Abstract: In a Joint-Embedding Predictive Architecture (JEPA), the JEPA proof of the Platonic Representation Hypothesis (PRH) assumes that every observation determines the world state and that a spectral gap makes minimizers unique up to rotation. Under the hard-whitening population objective, same-state positive pairs make the induced world kernel the identity: every centered whitened state function is a global minimizer, and, when $d_z-1\\ge 2k$, two minimizers can have best-rotation squared residual $2k$. The uniqueness claim is conditional; for $k",
+    "path": "papers/26/11/2611.16182.json",
+    "total_tokens": 2176,
+    "translated_title": "同状态样本对使柏拉图表示假说的一种JEPA证明变得空洞",
+    "translated_abstract": "在联合嵌入预测架构中，JEPA对柏拉图表示假说的证明假设每个观测都能确定世界状态，并且谱间隙使得极小值点在旋转意义下唯一。本文证明，在硬白化总体目标下，同状态正样本对会使诱导出的世界核成为恒等核：每一个中心化的白化状态函数都是全局极小值点，并且当 $d_z-1\\ge 2k$ 时，两个极小值点之间的最优旋转平方残差可以达到 $2k$。该唯一性断言是有条件的；对于 $k……（摘要原文在此处截断）",
+    "tldr": "本文证明，在JEPA的硬白化总体目标下，同状态正样本对会使诱导的世界核退化为恒等核，导致所有中心化白化状态函数都是全局极小值点，从而使JEPA对柏拉图表示假说证明中的极小值唯一性断言变得空洞失效。",
+    "en_tdlr": "Under JEPA's hard-whitening population objective, same-state positive pairs make the induced world kernel the identity, so every centered whitened state function is a global minimizer, rendering the uniqueness claim in one JEPA proof of the Platonic Representation Hypothesis vacuous."
+}

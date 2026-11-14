@@ -1,0 +1,12 @@
+{
+    "title": "Rational Alignments of Superintelligences via Debates",
+    "abstract": "arXiv:2611.16455v1 Announce Type: new  Abstract: Artificial superintelligences (ASI) is artificial intelligences with greater capability. However, as human principal has to use it, we have to ensure that the agent will perform in the interest of the human. We investigate the framework of ASI-assisted question answering where ASI agents know the correct answer but the human does not. We provide some example of mechanism for rational alignment, where the agent utility is unchanged, but the interaction between the agent and the human principal is controlled to be in a certain fashion. We show specifically that a debate framework where the agents can further reason and behave in a subgame perfect equilibrium manner will lead to a more predictable result, and in some case will be favorable.",
+    "link": "https://arxiv.org/abs/2611.16455",
+    "context": "Title: Rational Alignments of Superintelligences via Debates\nAbstract: arXiv:2611.16455v1 Announce Type: new  Abstract: Artificial superintelligences (ASI) is artificial intelligences with greater capability. However, as human principal has to use it, we have to ensure that the agent will perform in the interest of the human. We investigate the framework of ASI-assisted question answering where ASI agents know the correct answer but the human does not. We provide some example of mechanism for rational alignment, where the agent utility is unchanged, but the interaction between the agent and the human principal is controlled to be in a certain fashion. We show specifically that a debate framework where the agents can further reason and behave in a subgame perfect equilibrium manner will lead to a more predictable result, and in some case will be favorable.",
+    "path": "papers/26/11/2611.16455.json",
+    "total_tokens": 976,
+    "translated_title": "通过辩论实现超级智能的理性对齐",
+    "translated_abstract": "人工超级智能（ASI）是具有更强能力的人工智能。然而，由于人类委托人必须使用它，我们必须确保智能体能够以人类的利益为出发点行事。我们研究了ASI辅助问答的框架，其中ASI智能体知道正确答案而人类不知道。我们提供了几个理性对齐机制的示例，其中智能体的效用保持不变，但智能体与人类委托人之间的交互被控制为某种特定方式。我们特别表明，在一个辩论框架中，智能体可以进行进一步推理并以子博弈完美均衡的方式行动，这将带来更可预测的结果，并且在某些情况下是有利的。",
+    "tldr": "该论文提出了基于辩论机制实现超级智能理性对齐的框架，证明当智能体进行深入推理并按子博弈完美均衡方式行动时，能够产生更可预测且在某些情况下更有利于人类的结果。",
+    "en_tdlr": "This paper proposes a debate-based framework for rational alignment of superintelligences, demonstrating that agents reasoning further and acting in subgame perfect equilibrium within debates yield more predictable and sometimes favorable outcomes for humans."
+}
