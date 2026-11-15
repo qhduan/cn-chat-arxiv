@@ -25,8 +25,9 @@ python backfill.py              # 补全一批（默认 200 条，可用 BACKFIL
 
 也可以直接运行 GitHub Action：
 
-- `Backfill incomplete papers`（手动触发，可指定本次条数）— `.github/workflows/backfill.yml`
-- 每天 04:17 UTC 自动跑一次小批量，直到补完为止
+- `Backfill incomplete papers`（**只能手动触发**，可指定本次条数）— `.github/workflows/backfill.yml`
+
+这个 Action 不会定时运行，需要补全时手动到 Actions 页面点 `Run workflow`。
 
 订阅地址如：
 

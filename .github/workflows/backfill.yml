@@ -1,7 +1,7 @@
 name: Backfill incomplete papers
 
 # 补全 papers/ 里缺 translated_title / translated_abstract / tldr 的历史记录。
-# 手动触发，可以指定本次处理多少条；每天也会自动跑一次小批量，直到补完为止。
+# 只能手动触发（workflow_dispatch），不会定时运行；可以指定本次处理多少条。
 on:
   workflow_dispatch:
     inputs:
@@ -14,9 +14,6 @@ on:
         type: boolean
         required: false
         default: false
-  schedule:
-    # 每天 04:17 UTC，避开主抓取任务的整点
-    - cron: '17 4 * * *'
 concurrency:
   group: backfill-papers
   cancel-in-progress: false
