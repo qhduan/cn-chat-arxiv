@@ -3,15 +3,20 @@ on:
   schedule:
     - cron: '0 3,9,15,21 * * *'
   workflow_dispatch:
+concurrency:
+  group: fetch-arxiv
+  cancel-in-progress: false
 jobs:
   build:
     runs-on: ubuntu-latest
+    # 正常情况下 1~15 分钟；上游卡住时不要让 job 挂到 GitHub 的 6 小时上限
+    timeout-minutes: 60
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v5
       with:
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
         fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
-    - uses: actions/setup-python@v5
+    - uses: actions/setup-python@v6
       with:
         python-version: '3.11'
     - name: install requirements
@@ -28,12 +33,21 @@ jobs:
       run: |
         git add .
     - name: Commit files
+      id: commit
       run: |
-        git config --local user.email "mail@qhduan.com"
-        git config --local user.name "qhduan"
-        git commit -m "Add changes" -a
+        # 上游为空或内容没变化时不提交，否则 git commit 会以 1 退出把 job 标记为失败
+        if git diff --cached --quiet; then
+          echo "no changes, skip commit"
+          echo "changed=false" >> "$GITHUB_OUTPUT"
+        else
+          git config --local user.email "mail@qhduan.com"
+          git config --local user.name "qhduan"
+          git commit -m "Add changes"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+        fi
     - name: Push changes
-      uses: ad-m/github-push-action@master
+      if: steps.commit.outputs.changed == 'true'
+      uses: ad-m/github-push-action@v1.3.0
       with:
         github_token: ${{ secrets.DEPENDABOT_TOKEN }}
         branch: ${{ github.ref }}

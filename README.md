@@ -6,6 +6,10 @@
 
 项目会基于GitHub Action自动更新（如果不出问题的话）
 
+> 上游 arXiv 的 RSS 偶尔会返回空的 channel（例如停止 announcement、周末、或者 CDN 缓存尚未构建）。
+> 脚本在拿到空 feed 时会重试，仍为空则跳过本次更新，**不会清空已有的 md/xml**。
+> `latest_updated.txt` 只在内容真的变化时才刷新，所以它停在某一天通常意味着 arXiv 没有新论文。
+
 订阅地址如：
 
 https://github.com/qhduan/cn-chat-arxiv/raw/master/cs.AI.xml

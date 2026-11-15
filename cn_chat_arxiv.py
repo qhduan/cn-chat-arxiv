@@ -5,18 +5,59 @@ import json
 import datetime
 import os
 import re
+import sys
+import time
 import traceback
 import xml.etree.ElementTree as ET
 from copy import deepcopy
 from concurrent.futures import TimeoutError
 
 import feedparser
+import requests
 from bs4 import BeautifulSoup
 from tqdm.auto import tqdm
 from pebble import concurrent, ProcessPool
 from llm import call_chat
 
 output_dir = 'papers'
+
+# arxiv 的 RSS 偶尔会返回空的 channel（例如停止 announcement、CDN 缓存尚未构建、
+# 或者请求被限流）。这时绝对不能拿空结果去覆盖已有的 md/xml，否则会把线上内容清空。
+FEED_URLS = (
+    'https://rss.arxiv.org/rss/{channel}',
+    'https://export.arxiv.org/rss/{channel}',
+)
+FEED_ATTEMPTS = int(os.environ.get('FEED_ATTEMPTS', '3'))
+FEED_RETRY_WAIT = int(os.environ.get('FEED_RETRY_WAIT', '15'))
+
+
+def fetch_feed(arxiv_channel):
+    """下载并解析 RSS，返回条目列表。
+
+    空 feed 或解析失败时换一个地址重试，仍未拿到内容则返回 None，表示
+    “上游没数据”。调用方必须把它和“上游有数据但都命中缓存”区分开。
+    """
+    for attempt in range(1, FEED_ATTEMPTS + 1):
+        url = FEED_URLS[(attempt - 1) % len(FEED_URLS)].format(channel=arxiv_channel)
+        try:
+            # 自己发请求：feedparser 直连不走 requests，超时不可控，
+            # 上游卡住时会让 job 一直挂到 GitHub 的 6 小时后超时。
+            resp = requests.get(url, timeout=60, headers={'Cache-Control': 'no-cache'})
+            resp.raise_for_status()
+            feed = feedparser.parse(resp.content)
+            if feed.entries:
+                return feed.entries
+            print(f'{arxiv_channel}: 第 {attempt} 次请求得到 0 条 '
+                  f'({url}, status={resp.status_code}, '
+                  f'size={len(resp.content)}, version={feed.get("version")!r}, '
+                  f'feed_updated={feed.feed.get("updated")!r}, '
+                  f'skipdays={feed.feed.get("skipdays")!r})')
+        except Exception as error:
+            print(f'{arxiv_channel}: 第 {attempt} 次请求失败 ({url}): {error!r}')
+        if attempt < FEED_ATTEMPTS:
+            time.sleep(FEED_RETRY_WAIT)
+    return None
+
 
 def try_load(answer):
     if '\\' in answer:
@@ -32,6 +73,22 @@ def clean_title(x):
     x = re.sub(r'\s*\(arXiv.+', '', x)
     x = x.replace('\n', ' ')
     return x
+
+
+def write_if_changed(path, content):
+    """内容没变就不动文件，避免产生无意义的 diff 和提交。"""
+    try:
+        with open(path, 'r', encoding='utf-8') as fp:
+            if fp.read() == content:
+                return False
+    except FileNotFoundError:
+        pass
+    path_dir = os.path.dirname(path)
+    if path_dir:
+        os.makedirs(path_dir, exist_ok=True)
+    with open(path, 'w', encoding='utf-8') as fp:
+        fp.write(content)
+    return True
 
 
 def make_markdown(rets):
@@ -128,22 +185,29 @@ def make_rss(rets, arxiv_channel='cs.AI'):
 {a}
 </p>"""
 
-    # Save the XML file
-    tree = ET.ElementTree(rss)
-    tree.write(f"{arxiv_channel}.xml")
+    # 保持和原来 tree.write() 一致的 us-ascii 转义格式，避免无意义的 diff
+    return ET.tostring(rss, encoding='us-ascii').decode('ascii')
 
 
 def chat_arxiv(arxiv_channel='cs.AI'):
     """
     Download the arxiv feed and use ChatGPT to do summary
+
+    返回 'changed'（有内容写入）、'unchanged'（上游有数据但没有变化）
+    或 'empty'（上游没数据，本次完全跳过，不会覆盖任何已有文件）。
     """
     print('download feed', arxiv_channel)
-    # Parse the arXiv.org RSS feed
-    feed = feedparser.parse(f'https://export.arxiv.org/rss/{arxiv_channel}')
-    print(f'we found {len(feed.entries)} items')
+    entries = fetch_feed(arxiv_channel)
+    if entries is None:
+        # 关键保护：上游空 feed 时直接跳过，绝不能用空结果覆盖已有的 md/xml，
+        # 否则 RSS 订阅者会收到空 feed，仓库历史也会被清空。
+        print(f'{arxiv_channel}: 连续 {FEED_ATTEMPTS} 次拿到空 feed，跳过本次更新')
+        return 'empty'
+    print(f'we found {len(entries)} items')
+
     to_call_chat = []
     good_rets = []
-    for item in feed.entries:
+    for item in entries:
         arxiv_id = item.link.split('/')[-1]
         path = get_path(arxiv_id)
         if os.path.exists(path):
@@ -184,30 +248,54 @@ Abstract: {description_text}'''
                 except Exception as error:
                     print(error)
 
+    if not good_rets:
+        # 有条目但一篇都没摘要成功（例如 API 全部失败）：同样保留旧文件。
+        print(f'{arxiv_channel}: 本次没有任何可用摘要，跳过写入')
+        return 'empty'
+
+    changed = False
     for ret in good_rets:
-        if path in ret:
-            path = ret['path']
-        else:
-            arxiv_id = ret['link'].split('/')[-1]
-            path = get_path(arxiv_id)
-        path_dir = os.path.dirname(path)
-        os.makedirs(path_dir, exist_ok=True)
-        with open(path, 'w') as fp:
-            json.dump(ret, fp, indent=4, ensure_ascii=False)
+        arxiv_id = ret['link'].split('/')[-1]
+        path = ret.get('path') or get_path(arxiv_id)
+        changed |= write_if_changed(path, json.dumps(ret, indent=4, ensure_ascii=False))
 
     rets = sorted(good_rets, key=lambda x: x['link'], reverse=True)
-    markdown = make_markdown(rets)
-    with open(f'{arxiv_channel}.md', 'w') as fp:
-        fp.write(markdown)
-    make_rss(rets, arxiv_channel)
-    with open('latest_updated.txt', 'w') as fp:
-        fp.write(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
+    changed |= write_if_changed(f'{arxiv_channel}.md', make_markdown(rets))
+    changed |= write_if_changed(f'{arxiv_channel}.xml', make_rss(rets, arxiv_channel))
+    return 'changed' if changed else 'unchanged'
 
 
 if __name__ == '__main__':
-    cs = '''AI,CL,LG,IR,SE'''.split(',')
-    for c in cs:
-        chat_arxiv(f'cs.{c}')
-    others = '''econ,q-fin,stat.ML'''.split(',')
-    for c in others:
-        chat_arxiv(c)
+    channels = '''cs.AI,cs.CL,cs.LG,cs.IR,cs.SE,econ,q-fin,stat.ML'''.split(',')
+    changed = []
+    unchanged = []
+    empty = []
+    errors = []
+    for c in channels:
+        try:
+            status = chat_arxiv(c)
+        except Exception:
+            # 单个频道异常不影响其它频道，最后统一让 CI 失败以便发现问题
+            traceback.print_exc()
+            print(f'{c}: 运行异常')
+            errors.append(c)
+            continue
+        {'changed': changed, 'unchanged': unchanged, 'empty': empty}[status].append(c)
+
+    print(f'完成：{len(changed)} 个频道有变化（{", ".join(changed) or "无"}），'
+          f'{len(unchanged)} 个频道无变化（{", ".join(unchanged) or "无"}），'
+          f'{len(empty)} 个频道上游为空（{", ".join(empty) or "无"}），'
+          f'{len(errors)} 个频道异常（{", ".join(errors) or "无"}）')
+
+    if changed:
+        # 只有内容真的变了才刷新时间戳。上游停更期间它会停在最后一次更新的时刻，
+        # 一眼就能看出是 arXiv 没更新而不是脚本挂了，也避免每 6 小时提交一个空改动。
+        with open('latest_updated.txt', 'w') as fp:
+            fp.write(datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
+    elif len(empty) == len(channels):
+        # 所有频道都拿不到上游数据：arXiv 停更或 CDN 异常。打印 annotation 方便在
+        # Actions 页面上看到，但不让 CI 变红，避免上游停更期间一直报警。
+        print('::warning::所有频道均未拿到 arXiv 数据（上游为空），本次未更新任何文件')
+
+    if errors:
+        sys.exit(1)
