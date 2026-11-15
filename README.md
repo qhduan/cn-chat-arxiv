@@ -10,6 +10,24 @@
 > 脚本在拿到空 feed 时会重试，仍为空则跳过本次更新，**不会清空已有的 md/xml**。
 > `latest_updated.txt` 只在内容真的变化时才刷新，所以它停在某一天通常意味着 arXiv 没有新论文。
 
+## 补全残缺的摘要字段
+
+`papers/` 里保存每篇论文的 JSON 缓存。历史上 LLM 偶尔少输出一行，会留下缺
+`translated_title` / `translated_abstract` / `tldr` 的记录，这些记录渲染不进 md/xml。
+
+现在抓取流程会**先把论文元数据落盘，再调用 LLM**：即使摘要失败，论文信息也已经保存，
+之后只需补字段，不用重新抓取。
+
+```
+python backfill.py --dry-run    # 统计还缺多少条、缺什么字段
+python backfill.py              # 补全一批（默认 200 条，可用 BACKFILL_LIMIT 调整）
+```
+
+也可以直接运行 GitHub Action：
+
+- `Backfill incomplete papers`（手动触发，可指定本次条数）— `.github/workflows/backfill.yml`
+- 每天 04:17 UTC 自动跑一次小批量，直到补完为止
+
 订阅地址如：
 
 https://github.com/qhduan/cn-chat-arxiv/raw/master/cs.AI.xml

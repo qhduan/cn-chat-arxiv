@@ -30,6 +30,18 @@ FEED_URLS = (
 FEED_ATTEMPTS = int(os.environ.get('FEED_ATTEMPTS', '3'))
 FEED_RETRY_WAIT = int(os.environ.get('FEED_RETRY_WAIT', '15'))
 
+# 渲染 md/xml 需要的字段。历史上 LLM 偶尔少输出一行，脚本仍然把结果写盘，
+# 于是留下了一批永远渲染不出来的“残件”。这些记录由 backfill.py 补全。
+REQUIRED_FIELDS = ('translated_title', 'translated_abstract', 'tldr')
+
+
+def missing_fields(record):
+    return [k for k in REQUIRED_FIELDS if not record.get(k)]
+
+
+def is_complete(record):
+    return not missing_fields(record)
+
 
 def fetch_feed(arxiv_channel):
     """下载并解析 RSS，返回条目列表。
@@ -212,7 +224,12 @@ def chat_arxiv(arxiv_channel='cs.AI'):
         path = get_path(arxiv_id)
         if os.path.exists(path):
             ret = json.load(open(path, 'r'))
-            good_rets.append(ret)
+            if is_complete(ret):
+                ret.pop('pending', None)
+                good_rets.append(ret)
+                continue
+            # 历史残件：元数据都在，只缺 LLM 字段，排队补全
+            print(f'{arxiv_id}: 缓存缺 {missing_fields(ret)}，重新摘要')
         else:
             soup = BeautifulSoup(item.description, 'html.parser')
             description_text = soup.get_text().strip()[:1000]
@@ -226,7 +243,15 @@ Abstract: {description_text}'''
                 'context': context,
                 'path': path,
             }
-            to_call_chat.append(ret)
+        to_call_chat.append(ret)
+
+    # 先把元数据落盘，再调用 LLM：即使这次摘要全部失败，论文信息也已经保存，
+    # 之后可以只靠 backfill.py 补字段，不用重新抓 feed。
+    for ret in to_call_chat:
+        if is_complete(ret):
+            continue
+        pending = {**ret, 'pending': missing_fields(ret)}
+        write_if_changed(ret['path'], json.dumps(pending, indent=4, ensure_ascii=False))
 
     print(f'{len(to_call_chat)} paper need to chat')
     if len(to_call_chat) > 0:
@@ -238,11 +263,15 @@ Abstract: {description_text}'''
             for ret, f in tqdm(zip(to_call_chat, futures), total=len(futures)):
                 try:
                     result = f.result()  # blocks until results are ready
-                    if 'tldr' in result:
-                        good_rets.append({
-                            **ret,
-                            **result
-                        })
+                    merged = {k: v for k, v in {**ret, **result}.items() if k != 'pending'}
+                    if is_complete(merged):
+                        good_rets.append(merged)
+                    else:
+                        # 缺字段的结果不写进 md/xml（渲染不出来），但已拿到的字段
+                        # 要存下来，backfill 之后只补剩下的部分。
+                        print(f'{ret.get("link")}: 摘要缺 {missing_fields(merged)}，稍后补全')
+                        merged['pending'] = missing_fields(merged)
+                        write_if_changed(ret['path'], json.dumps(merged, indent=4, ensure_ascii=False))
                 except TimeoutError as error:
                     continue
                 except Exception as error:

@@ -1,0 +1,70 @@
+name: Backfill incomplete papers
+
+# 补全 papers/ 里缺 translated_title / translated_abstract / tldr 的历史记录。
+# 手动触发，可以指定本次处理多少条；每天也会自动跑一次小批量，直到补完为止。
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: '本次最多补全多少条'
+        required: false
+        default: '200'
+      dry_run:
+        description: '只统计缺失字段，不调用 LLM'
+        type: boolean
+        required: false
+        default: false
+  schedule:
+    # 每天 04:17 UTC，避开主抓取任务的整点
+    - cron: '17 4 * * *'
+concurrency:
+  group: backfill-papers
+  cancel-in-progress: false
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+    - uses: actions/checkout@v5
+      with:
+        persist-credentials: false
+        fetch-depth: 0
+    - uses: actions/setup-python@v6
+      with:
+        python-version: '3.11'
+    - name: install requirements
+      run: |
+        pip install -r requirements.txt
+    - name: report
+      run: |
+        python backfill.py --dry-run
+    - name: backfill
+      if: ${{ !inputs.dry_run }}
+      env:
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        OPENAI_API_BASE: ${{ secrets.OPENAI_API_BASE }}
+        OPENAI_API_MODEL: ${{ secrets.OPENAI_API_MODEL }}
+        BACKFILL_LIMIT: ${{ inputs.limit || '200' }}
+      run: |
+        python backfill.py
+    - name: Create local changes
+      run: |
+        git add .
+    - name: Commit files
+      id: commit
+      run: |
+        if git diff --cached --quiet; then
+          echo "no changes, skip commit"
+          echo "changed=false" >> "$GITHUB_OUTPUT"
+        else
+          git config --local user.email "mail@qhduan.com"
+          git config --local user.name "qhduan"
+          git commit -m "Backfill missing summary fields"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+        fi
+    - name: Push changes
+      if: steps.commit.outputs.changed == 'true'
+      uses: ad-m/github-push-action@v1.3.0
+      with:
+        github_token: ${{ secrets.DEPENDABOT_TOKEN }}
+        branch: ${{ github.ref }}

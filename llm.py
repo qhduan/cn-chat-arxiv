@@ -23,20 +23,39 @@ def short(x):
 
 if AZURE_BASE is not None:
     API_TYPE = 'azure'
-    print('api_type:', 'azure')
-    print('api_base:', short(AZURE_BASE))
-    print('api_key:', short(AZURE_API_KEY))
 elif API_KEY is not None:
     API_TYPE = 'openai'
     if API_BASE is None:
         API_BASE = 'https://api.openai.com'
-    print('api_type:', 'openai')
-    print('api_base:', short(API_BASE))
-    print('api_key:', short(API_KEY))
-    print('model:', short(MODEL))
 else:
-    print('Please set OPENAI_API_KEY or OPENAI_AZURE_API_KEY and OPENAI_AZURE_BASE')
-    exit(1)
+    API_TYPE = None
+
+
+_CONFIG_SHOWN = False
+
+
+def check_config():
+    """校验凭据；缺少时退出。
+
+    不在 import 时直接退出，这样只读脚本（例如 backfill.py --dry-run）
+    不配 key 也能跑。
+    """
+    global _CONFIG_SHOWN
+    if API_TYPE is None:
+        print('Please set OPENAI_API_KEY or OPENAI_AZURE_API_KEY and OPENAI_AZURE_BASE')
+        raise SystemExit(1)
+    if _CONFIG_SHOWN:
+        return
+    _CONFIG_SHOWN = True
+    if API_TYPE == 'azure':
+        print('api_type:', 'azure')
+        print('api_base:', short(AZURE_BASE))
+        print('api_key:', short(AZURE_API_KEY))
+    else:
+        print('api_type:', 'openai')
+        print('api_base:', short(API_BASE))
+        print('api_key:', short(API_KEY))
+        print('model:', short(MODEL))
 
 
 session = requests.Session()
@@ -74,6 +93,7 @@ def chat_completions_url(base):
 
 
 def call_chat(context):
+    check_config()
     final_ret = {}
     ret = None
     try:
