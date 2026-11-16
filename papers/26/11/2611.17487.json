@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.17487",
     "context": "Title: Identifying Latent Neural Dynamics with Recognition-Parametrised Gaussian Process Dynamical Systems\nAbstract: arXiv:2611.17487v1 Announce Type: new  Abstract: Neural circuits are densely interconnected systems, and many neural computations are thought to be mediated by the dynamical evolution of activity within these recurrent networks, a hypothesis often referred to as \"computation through dynamics\". Under this view, understanding computation within real neural populations depends on building models of the dynamical rules governing the temporal evolution of recorded high-dimensional neural activity. Most commonly, such models depend on explicit generative parameterisations of (i) the (nonlinear) intrinsic dynamical flow field and stochasticity, (ii) the (nonlinear) mapping from dynamical state to neuronal activity, and (iii) the variability of individual neural responses given that dynamical state. Misspecification of any of these components can bias estimates of dynamics and latent trajectories. In this paper, we circumvent generation-related issues by introducing the Recognition-Parametrise",
     "path": "papers/26/11/2611.17487.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1374,
+    "translated_title": "使用识别参数化高斯过程动力系统识别潜在神经动力学",
+    "translated_abstract": "神经回路是高度互联的系统，许多神经计算被认为是通过这些循环网络内活动的动力学演化来介导的，这一假设通常被称为“通过动力学进行计算”。在这种观点下，理解真实神经群体中的计算依赖于建立模型来刻画控制所记录的高维神经活动时间演化的动力学规则。最常见的是，此类模型依赖于以下组件的显式生成式参数化：(i)（非线性的）内在动力学流场及其随机性，(ii)（非线性的）从动力学状态到神经元活动的映射，以及(iii)在给定动力学状态条件下个体神经反应的变异性。这些组件中任何一个的错误设定都可能使动力学和潜在轨迹的估计产生偏差。在本文中，我们通过引入识别参数化的高斯过程动力系统来规避与生成式建模相关的问题。",
+    "tldr": "该论文提出识别参数化高斯过程动力系统（rPGDS），通过直接参数化识别分布而非显式生成式建模各组件，规避了生成模型错误设定带来的估计偏差，从而更准确地从高维神经活动中识别潜在神经动力学。",
+    "en_tdlr": "This paper introduces Recognition-Parametrised Gaussian Process Dynamical Systems (rPGDS), which circumvent bias caused by generative model misspecification by directly parametrising the recognition distribution, enabling more accurate identification of latent neural dynamics from high-dimensional neural activity."
 }

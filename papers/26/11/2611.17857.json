@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.17857",
     "context": "Title: Fuse-All MoE Inference Kernel with Load Balancing on TPUs\nAbstract: arXiv:2611.17857v1 Announce Type: new  Abstract: Mixture-of-Experts (MoE) architectures activate only a subset of experts for each token, allowing large language models (LLMs) to scale parameter capacity without a proportional increase in computation per token. However, intermediate data movement and uneven expert loads limit the efficiency of MoE inference on TPUs. To address these bottlenecks, we introduce Fuse-All MoE, a TPU kernel design that jointly optimizes expert computation, output communication, and load balancing. The kernel fuses token collection, expert projections, gated activation, and output writes, retaining expert computation intermediates on chip. Fixed token-slot destinations allow scheduling and expert placement to change while preserving routing semantics. In prefill-decode (PD) disaggregated serving, Fuse-All MoE balances EP16 prefill workloads through scheduling and expert redistribution, while symmetric EP8TP2 shares active expert computation between the two Te",
     "path": "papers/26/11/2611.17857.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1332,
+    "translated_title": "TPU上具备负载均衡的Fuse-All MoE推理内核",
+    "translated_abstract": "混合专家（MoE）架构对每个token仅激活一部分专家，使大语言模型（LLM）能够在不按比例增加每token计算量的情况下扩展参数容量。然而，中间数据移动和专家负载不均限制了TPU上MoE推理的效率。为解决这些瓶颈，我们提出了Fuse-All MoE，一种联合优化专家计算、输出通信和负载均衡的TPU内核设计。该内核将token收集、专家投影、门控激活和输出写入融合在一起，将专家计算的中间结果保留在芯片上。固定的token-槽位目的地允许调度和专家布局发生变化，同时保持路由语义不变。在prefill-decode（PD）分离式服务中，Fuse-All MoE通过调度和专家重新分配来平衡EP16 prefill工作负载，而对称的EP8TP2配置则在两个T…（原文摘要在此处截断）之间共享活跃专家计算。",
+    "tldr": "提出Fuse-All MoE，一种在TPU上通过融合token收集、专家计算与输出写入并实现负载均衡，从而联合优化MoE推理效率的内核设计。",
+    "en_tdlr": "We introduce Fuse-All MoE, a TPU kernel that fuses token collection, expert computation, and output writes with load balancing to jointly optimize MoE inference efficiency."
 }

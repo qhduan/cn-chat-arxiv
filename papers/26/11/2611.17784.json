@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.17784",
     "context": "Title: Direction or Magnitude? Learning Scalars over Task-Calibrated Directions\nAbstract: arXiv:2611.17784v1 Announce Type: new  Abstract: Parameter-efficient fine-tuning (PEFT) aims to preserve adaptation quality while reducing training costs. We propose SCALAR, which achieves performance comparable to LoRA with substantially fewer trainable parameters, lower peak training memory, and higher throughput. SCALAR constructs a fixed input basis from task activations and assigns a random output dictionary to each input direction. Fine-tuning learns only layer-specific scalar coefficients, reducing gradient and optimizer-state storage. Grouped computation aggregates output atoms before applying the adapter to token activations, while dictionary sharing across compatible layers reduces fixed-basis storage. Experiments on commonsense reasoning, mathematical reasoning, code generation, and knowledge evaluation after instruction tuning demonstrate effective adaptation at small trainable budgets. On commonsense reasoning, SCALAR achieves accuracy comparable to LoRA with about 4% of i",
     "path": "papers/26/11/2611.17784.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1123,
+    "translated_title": "方向还是幅度？在任务校准方向上学习标量系数",
+    "translated_abstract": "参数高效微调（PEFT）旨在降低训练成本的同时保持适配质量。我们提出 SCALAR，它以显著更少的可训练参数、更低的峰值训练内存和更高的吞吐量，实现了与 LoRA 相当的性能。SCALAR 从任务激活中构建固定的输入基，并为每个输入方向分配一个随机输出字典。微调过程仅学习各层特定的标量系数，从而减少了梯度和优化器状态的存储开销。分组计算在将适配器应用于 token 激活之前先聚合输出原子，而跨兼容层的字典共享则降低了固定基的存储成本。在常识推理、数学推理、代码生成以及指令微调后的知识评估等实验中，该方法在小可训练参数预算下展现了有效的适配能力。在常识推理任务上，SCALAR 仅用约 4% 的可训练参数即可达到与 LoRA 相当的准确率。",
+    "tldr": "SCALAR 是一种新型参数高效微调方法，它从任务激活构建固定输入基并只学习各层标量系数，以约 4% 于 LoRA 的可训练参数达到相当性能，同时降低训练内存并提升吞吐量。",
+    "en_tdlr": "SCALAR is a parameter-efficient fine-tuning method that builds a fixed input basis from task activations and learns only layer-specific scalar coefficients, achieving LoRA-comparable performance with about 4% of the trainable parameters while reducing memory and improving throughput."
 }

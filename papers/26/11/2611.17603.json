@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.17603",
     "context": "Title: Offline KL-Regularized Reinforcement Learning with Stochastic Transitions\nAbstract: arXiv:2611.17603v1 Announce Type: new  Abstract: KL-regularized reinforcement learning is the objective behind RL fine-tuning of language models, and its data are often collected by the reference policy itself. However, beyond bandits and deterministic transitions, little is known about how much offline data it needs. In this work, we study finite discounted Markov decision processes with unknown stochastic transitions, $K$ state-action pairs and effective horizon $H$. For data that cover the regularized optimum with concentrability $C\\geq 4$, every estimator needs $\\Omega(KCH^3/(\\epsilon\\max\\{\\epsilon,\\beta\\}))$ samples on some instances when $\\epsilon$ is small, where $\\beta$ is the temperature. Under a fixed design, pessimistic soft value iteration with a variance-aware penalty attains this rate with high probability, up to logarithmic factors, when $\\beta\\geq 1.4H$. When the data come from the reference policy itself, we show that it covers the optimum up to a power law whose expon",
     "path": "papers/26/11/2611.17603.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1295,
+    "translated_title": "具有随机状态转移的离线KL正则化强化学习",
+    "translated_abstract": "KL正则化强化学习是语言模型强化学习微调背后的目标函数，其数据通常由参考策略自身收集。然而，除了多臂老虎机和确定性转移的情形之外，人们对其所需的离线数据量知之甚少。在这项工作中，我们研究了具有未知随机转移的有限折扣马尔可夫决策过程，包含K个状态-动作对和有效视界H。对于以集中度C≥4覆盖正则化最优策略的数据，当ε较小时，在某些实例上任何估计器都需要Ω(KCH³/(ε·max{ε,β}))个样本，其中β为温度参数。在固定设计下，当β≥1.4H时，带有方差感知惩罚的悲观软值迭代算法能以高概率达到该速率（至多相差对数因子）。当数据来自参考策略本身时，我们证明其覆盖最优解至多相差一个幂律，其指数……",
+    "tldr": "本文针对具有随机转移的离线KL正则化强化学习建立了样本复杂度下界Ω(KCH³/(ε·max{ε,β}))，并证明带有方差感知惩罚的悲观软值迭代算法在温度参数足够大时可达到该理论最优速率。",
+    "en_tdlr": "This paper establishes a sample complexity lower bound of Ω(KCH³/(ε·max{ε,β})) for offline KL-regularized RL with stochastic transitions, and proves that pessimistic soft value iteration with a variance-aware penalty achieves this optimal rate when the temperature parameter is sufficiently large."
 }

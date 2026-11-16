@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.17500",
     "context": "Title: Adversarially Batched Online Learning\nAbstract: arXiv:2611.17500v1 Announce Type: new  Abstract: We introduce adversarially batched online learning, where the learner may update its decision rule only at a restricted set of time steps. Equivalently, the time horizon is partitioned into batches, within which the learner must use a fixed policy. We study this model for four canonical problems: stochastic bandits, online convex optimization, prediction with expert advice, and adversarial bandits. For stochastic bandits, we identify a universal complexity measure based on relative batch growth and establish both gap-dependent and gap-independent regret bounds. We show that the multiplicative penalty relative to the standard gap-dependent complexity can grow superlinearly in batch hardness. For the remaining three, we show that the optimal regret is tightly characterized by the 2-norm of the batch-length sequence. The upper bound is achieved by a batch-oblivious learner who does not know the batch structure, via a generic adaptive doubli",
     "path": "papers/26/11/2611.17500.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1128,
+    "translated_title": "对抗性分批在线学习",
+    "translated_abstract": "我们提出了对抗性分批在线学习模型，其中学习者只能在受限的时间步集合上更新其决策规则。等价地说，整个时间范围被划分为若干批次，在批次内部学习者必须使用固定策略。我们针对四个经典问题研究了该模型：随机老虎机、在线凸优化、专家建议预测以及对抗性老虎机。对于随机老虎机，我们基于相对批次增长识别出一个通用的复杂度度量，并建立了依赖间隙和不依赖间隙的遗憾界。我们证明了相对于标准依赖间隙复杂度的乘性惩罚会随批次难度呈超线性增长。对于其余三个问题，我们证明了最优遗憾由批次长度序列的2-范数紧密刻画。该上界由一个不了解批次结构的批次无关学习者通过通用的自适应加倍机制实现。",
+    "tldr": "该论文提出对抗性分批在线学习模型，刻画了批次限制下四个经典在线学习问题的最优遗憾界——随机老虎机由基于相对批次增长的通用复杂度度量刻画，其余三个问题的最优遗憾则由批次长度序列的2-范数紧密刻画。",
+    "en_tdlr": "This paper introduces adversarially batched online learning, tightly characterizing optimal regret for four canonical problems: stochastic bandits via a universal complexity measure based on relative batch growth, and online convex optimization, expert advice prediction, and adversarial bandits via the 2-norm of the batch-length sequence."
 }

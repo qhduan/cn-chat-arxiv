@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.17872",
     "context": "Title: Protection-Oriented Assessment of Machine Learning-Based Fault Detection in Power Systems\nAbstract: arXiv:2611.17872v1 Announce Type: new  Abstract: Machine learning (ML)-based fault detectors are increasingly proposed for power system protection, yet aggregate metrics can obscure the consequences of false and missed trips. We present a protection-oriented assessment of three ML detectors and a sequence-current reference on PROTECT-90, comprising 9,022 simulated fault episodes on a 90 kV double-circuit line. The assessment combines five window conditions, causal window-end labelling, episode-grouped cross-validation, and operating-point selection under a fixed security budget. It reports security, dependability, detection timing, decision margins, and episode-level nuisance assertions. Gradient-boosted trees, a convolutional neural network, and logistic regression achieve AUC-ROC values above 0.999, yet at a security budget of $10^{-3}$ their developed-fault missed-trip rates range from 0.007% to 1.99%. Post-clearing false-trip rates of approximately 0.12-0.16% per window coexist wit",
     "path": "papers/26/11/2611.17872.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1481,
+    "translated_title": "电力系统中基于机器学习的故障检测的面向保护评估",
+    "translated_abstract": "基于机器学习（ML）的故障检测器正越来越多地被提出用于电力系统保护，然而聚合评估指标可能会掩盖误动与拒动所带来的后果。我们在PROTECT-90数据集上对三种ML检测器和一个序电流参考方法进行了面向保护的评估，该数据集包含90 kV双回线路上的9,022个模拟故障场景。该评估结合了五种窗口条件、因果性窗口末端标记、按故障场景分组的交叉验证，以及在固定安全预算下的运行点选择。评估内容涵盖安全性、可靠性、检测时序、决策裕度以及场景级的误动断言。梯度提升树、卷积神经网络和逻辑回归均实现了超过0.999的AUC-ROC值，然而在10⁻³的安全预算下，其发展性故障的拒动率介于0.007%至1.99%之间。故障清除后每窗口约0.12–0.16%的误动率与……（摘要原文在此处截断）",
+    "tldr": "该论文提出了面向保护的机器学习故障检测评估框架，在PROTECT-90数据集上揭示尽管AUC-ROC超过0.999，但在固定安全预算下拒动率仍可高达1.99%，说明聚合指标会掩盖保护关键的误动与拒动风险。",
+    "en_tdlr": "This paper presents a protection-oriented assessment of ML-based fault detectors on the PROTECT-90 dataset, revealing that despite AUC-ROC values above 0.999, missed-trip rates reach up to 1.99% under a fixed security budget, showing that aggregate metrics obscure protection-critical false and missed trip risks."
 }

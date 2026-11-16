@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.17772",
     "context": "Title: Antidistillation is Cheap: Lightweight Distillation-Resistance via Stylistic Corruption\nAbstract: arXiv:2611.17772v1 Announce Type: new  Abstract: Knowledge distillation (KD) is a highly effective paradigm for transferring capabilities from large language models (LLMs) to smaller, more specialized student models. In commercial deployment where frontier models are restricted behind black-box APIs, sequence-level distillation remains a potent vector for competitors to clone proprietary capabilities at a fraction of the development cost. Existing defenses mostly rely on surrogate models to manipulate next-token sampling, which increases computational overhead and real-time inference latency. In this work, we propose a lightweight defense that dynamically injects style-steering vectors into the teacher model's activations upon malicious queries. This framework offers exceptional flexibility, allowing hosts to customize target defensive styles and dynamically blend them to maximize stylistic variance. Crucially, this inference-time intervention preserves semantic utility and fluency dur",
     "path": "papers/26/11/2611.17772.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1256,
+    "translated_title": "抗蒸馏成本极低：通过风格性破坏实现轻量级蒸馏抵抗",
+    "translated_abstract": "知识蒸馏（KD）是一种将大型语言模型（LLM）的能力迁移到更小、更专业化学生模型的高效范式。在商业部署场景中，前沿模型被限制在黑盒API之后，序列级蒸馏仍然是竞争对手以极低开发成本克隆专有能力的重要手段。现有的防御方法大多依赖代理模型来操纵下一个词的采样，这会增加计算开销和实时推理延迟。在本工作中，我们提出了一种轻量级防御方法，在检测到恶意查询时，动态地向教师模型的激活中注入风格引导向量。该框架具有卓越的灵活性，允许模型服务方定制目标防御风格并动态混合它们，以最大化风格差异。至关重要的是，这种推理时的干预保持了语义效用和流畅性……（原文摘要在此处被截断）",
+    "tldr": "该论文提出一种轻量级抗蒸馏防御方法，通过在检测到恶意查询时向教师模型激活中动态注入可定制的风格引导向量，以极低的计算开销破坏序列级蒸馏攻击，同时不影响正常输出的语义质量和流畅性。",
+    "en_tdlr": "This paper proposes a lightweight anti-distillation defense that dynamically injects customizable style-steering vectors into the teacher model's activations upon malicious queries, disrupting sequence-level distillation attacks at minimal computational cost while preserving semantic utility and fluency."
 }

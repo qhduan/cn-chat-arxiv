@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.17398",
     "context": "Title: Alignment with Reflect-Reasoning: Learning How To Follow Principles\nAbstract: arXiv:2611.17398v1 Announce Type: new  Abstract: The appropriate governing norms and principles for the alignment of Large Language Models (LLMs) often depend on cultural context and deployment application. However, most alignment techniques focus on training models to conform to human preferences or constitutional principles specified at training time and subsequently fixed. In practice, many deployers rely on system prompting to implement contextual norms and guardrails at inference time. Prior work has shown that post-generation reflective reasoning with critique and revision can improve conformance compared to simple system prompting, but such methods are limited to the reasoning abilities inherent in the trained model. We introduce Reflect-Reasoning, a training method that teaches models how to reason about alignment to principles, rather than simply which principles to follow. Across five models, Reflect-Reasoning consistently outperforms both system prompting and explicit prompt",
     "path": "papers/26/11/2611.17398.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1043,
+    "translated_title": "基于反思推理的对齐：学习如何遵循原则",
+    "translated_abstract": "大语言模型（LLM）对齐的适当规范和原则通常取决于文化背景和部署应用。然而，大多数对齐技术侧重于训练模型遵循在训练时指定并随后固定的人类偏好或宪法原则。在实践中，许多部署者依靠系统提示词在推理时实现情境化的规范和防护栏。先前的研究表明，与简单的系统提示相比，带有批评和修订的生成后反思推理可以提高一致性，但此类方法受限于训练模型本身固有的推理能力。我们提出了Reflect-Reasoning，这是一种训练方法，它教模型如何推理对齐原则，而不是简单地教模型应该遵循哪些原则。在五个模型上，Reflect-Reasoning始终优于系统提示和显式提示方法。",
+    "tldr": "本文提出反思推理（Reflect-Reasoning）训练方法，教模型学会如何推理对齐原则而非仅遵循固定原则，在五个模型上始终优于系统提示等现有方法。",
+    "en_tdlr": "Reflect-Reasoning is a training method that teaches models how to reason about alignment principles rather than which principles to follow, consistently outperforming system prompting and explicit prompting across five models."
 }

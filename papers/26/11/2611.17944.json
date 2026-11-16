@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.17944",
     "context": "Title: Differentially Private Federated Class-Incremental Learning for EEG Mental State Classification\nAbstract: arXiv:2611.17944v1 Announce Type: new  Abstract: Federated learning (FL) under differential privacy (DP) is typically evaluated on large client cohorts, where subsampling and cross-client averaging amplify privacy and smooth injected noise. Personal biosignal applications such as wearable EEG instead involve small federations of a handful of subjects, a regime whose interaction with formal client-level DP is largely uncharacterized. We study differentially private federated class-incremental learning in this small-cohort regime, combining a public EEG dataset with a custom four-channel MUSE 2 recording set into a K=5-client federation, and give a masked per-class training protocol that avoids degenerate gradients and missing negative supervision under class-incremental streaming. We propose FedEEG, combining Synaptic-Intelligence consolidation with a lagged adaptive FedProx term, and show it reduces catastrophic forgetting relative to FedAvg, FedProx, and a federated Learning-without-F",
     "path": "papers/26/11/2611.17944.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1143,
+    "translated_title": "面向脑电图心理状态分类的差分隐私联邦类增量学习",
+    "translated_abstract": "差分隐私（DP）下的联邦学习（FL）通常在大型客户端群体上进行评估，在这种场景下，子采样和跨客户端平均会放大隐私保护效果并平滑注入的噪声。而诸如可穿戴脑电图（EEG）等个人生物信号应用则涉及由少数受试者组成的小型联邦，这种小群体机制与正式的客户端级差分隐私之间的相互作用在很大程度上尚未被研究。我们研究了这种小群体机制下的差分隐私联邦类增量学习，将公开的脑电图数据集与定制的四通道MUSE 2录音数据集结合，构建了一个K=5客户端的联邦，并提出了一种掩蔽的逐类训练协议，以避免类增量流式学习中出现梯度退化和负样本监督缺失的问题。我们提出了FedEEG方法，将突触智能（Synaptic-Intelligence）巩固机制与滞后的自适应FedProx项相结合，并证明相对于FedAvg、FedProx和联邦Learning-without-Forgetting（摘要在此处截断）",
+    "tldr": "该论文提出了FedEEG方法，通过结合突触智能巩固机制与滞后自适应FedProx项，在小群体（5个客户端）差分隐私联邦类增量学习场景下有效缓解脑电图心理状态分类中的灾难性遗忘问题。",
+    "en_tdlr": "This paper proposes FedEEG, which combines Synaptic Intelligence consolidation with a lagged adaptive FedProx term to mitigate catastrophic forgetting in differentially private federated class-incremental learning for EEG mental state classification in small-cohort federations."
 }
