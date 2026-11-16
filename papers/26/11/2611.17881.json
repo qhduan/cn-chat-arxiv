@@ -1,0 +1,12 @@
+{
+    "title": "Photogrammetric 3D Model-Based Animal Behavior Classification",
+    "abstract": "arXiv:2611.17881v1 Announce Type: cross  Abstract: Video-based behavior estimation is often implemented end-to-end from image sequences. We advocate a two-stage alternative: reconstruct 3D body and object geometry before classifying behavior. This makes ambiguities of the ill-posed 2D-to-3D inverse problem explicit and potentially correctable. We demonstrate the strategy with simulated interacting mice and extend it to real video.",
+    "link": "https://arxiv.org/abs/2611.17881",
+    "context": "Title: Photogrammetric 3D Model-Based Animal Behavior Classification\nAbstract: arXiv:2611.17881v1 Announce Type: cross  Abstract: Video-based behavior estimation is often implemented end-to-end from image sequences. We advocate a two-stage alternative: reconstruct 3D body and object geometry before classifying behavior. This makes ambiguities of the ill-posed 2D-to-3D inverse problem explicit and potentially correctable. We demonstrate the strategy with simulated interacting mice and extend it to real video.",
+    "path": "papers/26/11/2611.17881.json",
+    "total_tokens": 898,
+    "translated_title": "基于摄影测量三维模型的动物行为分类",
+    "translated_abstract": "基于视频的行为估计通常直接从图像序列端到端实现。我们提倡一种两阶段的替代方案：在分类行为之前，先重建三维身体和物体的几何结构。这使得病态的二维到三维逆问题的模糊性显式化，并有可能得到纠正。我们通过模拟的相互作用小鼠演示了该策略，并将其扩展到真实视频。",
+    "tldr": "本文提出一种两阶段动物行为分类方法，先通过摄影测量重建三维身体与物体几何结构再进行行为分类，从而使二维到三维逆问题的模糊性显式化且可被纠正。",
+    "en_tdlr": "This paper proposes a two-stage approach for animal behavior classification that first reconstructs 3D body and object geometry via photogrammetry before classifying behavior, making the ambiguities of the ill-posed 2D-to-3D inverse problem explicit and potentially correctable."
+}

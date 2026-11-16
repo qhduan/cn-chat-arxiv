@@ -1,0 +1,12 @@
+{
+    "title": "A$^3$: Adaptive Audio Agent Framework for Collaborative Edge Computing",
+    "abstract": "arXiv:2611.18064v1 Announce Type: new  Abstract: Embedded audio agents need a nearby edge server for speed, but a server-dependent agent returns nothing when the link fails. We present A$^3$, an adaptive audio agent framework that places whole pipeline stages on the server, keeps a complete fallback agent on devices that can host one, and hedges both paths with a link-aware deadline that decides when to give up on the server. On Jetson devices and an RTX A4500 server, A$^3$ matches the server-only agent on a healthy link, answers every request in a full outage on the AGX, and beats a percentile hedge in simulated outages.",
+    "link": "https://arxiv.org/abs/2611.18064",
+    "context": "Title: A$^3$: Adaptive Audio Agent Framework for Collaborative Edge Computing\nAbstract: arXiv:2611.18064v1 Announce Type: new  Abstract: Embedded audio agents need a nearby edge server for speed, but a server-dependent agent returns nothing when the link fails. We present A$^3$, an adaptive audio agent framework that places whole pipeline stages on the server, keeps a complete fallback agent on devices that can host one, and hedges both paths with a link-aware deadline that decides when to give up on the server. On Jetson devices and an RTX A4500 server, A$^3$ matches the server-only agent on a healthy link, answers every request in a full outage on the AGX, and beats a percentile hedge in simulated outages.",
+    "path": "papers/26/11/2611.18064.json",
+    "total_tokens": 986,
+    "translated_title": "A³：面向协同边缘计算的自适应音频智能体框架",
+    "translated_abstract": "嵌入式音频智能体需要依靠附近的边缘服务器来获得快速响应，但依赖服务器的智能体在链路失效时将无法返回任何结果。我们提出了A³，这是一个自适应音频智能体框架，它将整个流水线阶段部署在服务器上，在具备承载能力的设备上保留完整的后备智能体，并通过链路感知的截止时间机制对两条路径进行对冲，以决定何时放弃使用服务器。在Jetson设备和RTX A4500服务器上的实验表明，A³在链路健康时与纯服务器智能体的表现相当，在AGX设备完全断网的情况下能够响应每一个请求，并且在模拟断网场景中优于百分位对冲策略。",
+    "tldr": "A³框架通过在服务器部署完整流水线、在设备端保留后备智能体，并利用链路感知截止时间动态对冲，实现了链路健康时媲美纯服务器方案的性能，同时保证完全断网时仍能可靠响应。",
+    "en_tdlr": "A³ is an adaptive audio agent framework that hedges server-hosted pipeline stages with a complete on-device fallback agent using a link-aware deadline, matching server-only performance on healthy links while guaranteeing responses during full outages."
+}

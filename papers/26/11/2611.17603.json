@@ -1,0 +1,12 @@
+{
+    "title": "Offline KL-Regularized Reinforcement Learning with Stochastic Transitions",
+    "abstract": "arXiv:2611.17603v1 Announce Type: new  Abstract: KL-regularized reinforcement learning is the objective behind RL fine-tuning of language models, and its data are often collected by the reference policy itself. However, beyond bandits and deterministic transitions, little is known about how much offline data it needs. In this work, we study finite discounted Markov decision processes with unknown stochastic transitions, $K$ state-action pairs and effective horizon $H$. For data that cover the regularized optimum with concentrability $C\\geq 4$, every estimator needs $\\Omega(KCH^3/(\\epsilon\\max\\{\\epsilon,\\beta\\}))$ samples on some instances when $\\epsilon$ is small, where $\\beta$ is the temperature. Under a fixed design, pessimistic soft value iteration with a variance-aware penalty attains this rate with high probability, up to logarithmic factors, when $\\beta\\geq 1.4H$. When the data come from the reference policy itself, we show that it covers the optimum up to a power law whose expon",
+    "link": "https://arxiv.org/abs/2611.17603",
+    "context": "Title: Offline KL-Regularized Reinforcement Learning with Stochastic Transitions\nAbstract: arXiv:2611.17603v1 Announce Type: new  Abstract: KL-regularized reinforcement learning is the objective behind RL fine-tuning of language models, and its data are often collected by the reference policy itself. However, beyond bandits and deterministic transitions, little is known about how much offline data it needs. In this work, we study finite discounted Markov decision processes with unknown stochastic transitions, $K$ state-action pairs and effective horizon $H$. For data that cover the regularized optimum with concentrability $C\\geq 4$, every estimator needs $\\Omega(KCH^3/(\\epsilon\\max\\{\\epsilon,\\beta\\}))$ samples on some instances when $\\epsilon$ is small, where $\\beta$ is the temperature. Under a fixed design, pessimistic soft value iteration with a variance-aware penalty attains this rate with high probability, up to logarithmic factors, when $\\beta\\geq 1.4H$. When the data come from the reference policy itself, we show that it covers the optimum up to a power law whose expon",
+    "path": "papers/26/11/2611.17603.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

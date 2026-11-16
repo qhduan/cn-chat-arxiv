@@ -1,0 +1,12 @@
+{
+    "title": "Efficient and Practical Clustering of Variables in Causal Graphs",
+    "abstract": "arXiv:2611.17971v1 Announce Type: cross  Abstract: Clustering variables in a graph may improve visual clarity and simplify causal inference. Harnessing the full potential of clustering requires an automated method to detect useful clusters in a graph. We introduce a novel class of clusters called conduits, and present a sound, complete and efficient algorithm for detecting all conduits in the graph. In addition to algorithmic detectability, conduits appear naturally in causal graphs stemming from real-world applications, enabling substantial size reduction. Furthermore, the structure of conduits enables the application of known identifiability results regarding clustering. We demonstrate these properties in a simulation study with real-world graphs.",
+    "link": "https://arxiv.org/abs/2611.17971",
+    "context": "Title: Efficient and Practical Clustering of Variables in Causal Graphs\nAbstract: arXiv:2611.17971v1 Announce Type: cross  Abstract: Clustering variables in a graph may improve visual clarity and simplify causal inference. Harnessing the full potential of clustering requires an automated method to detect useful clusters in a graph. We introduce a novel class of clusters called conduits, and present a sound, complete and efficient algorithm for detecting all conduits in the graph. In addition to algorithmic detectability, conduits appear naturally in causal graphs stemming from real-world applications, enabling substantial size reduction. Furthermore, the structure of conduits enables the application of known identifiability results regarding clustering. We demonstrate these properties in a simulation study with real-world graphs.",
+    "path": "papers/26/11/2611.17971.json",
+    "total_tokens": 983,
+    "translated_title": "因果图中变量的高效实用聚类",
+    "translated_abstract": "对图中的变量进行聚类可以提高视觉清晰度并简化因果推断。要充分发挥聚类的潜力，需要一种自动化方法来检测图中有效的聚类。我们引入了一类称为“导管”的新型聚类，并提出了一种可靠、完备且高效的算法来检测图中的所有导管。除了算法上的可检测性之外，导管在源自现实世界应用的因果图中也自然出现，从而能够大幅缩减图的规模。此外，导管的结构使得关于聚类的已知可识别性结果得以应用。我们通过基于真实世界图的模拟研究验证了这些特性。",
+    "tldr": "本文提出了一类称为“导管”的新型聚类，并给出检测因果图中所有导管的可靠、完备且高效算法，该类聚类在真实世界因果图中自然出现，可大幅缩减图规模并支持已知的可识别性结果。",
+    "en_tdlr": "This paper introduces a novel class of clusters called \"conduits\" and presents a sound, complete, and efficient algorithm for detecting all conduits in causal graphs, which naturally occur in real-world graphs, enabling substantial graph size reduction and supporting known identifiability results."
+}

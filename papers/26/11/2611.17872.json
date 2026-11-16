@@ -1,0 +1,12 @@
+{
+    "title": "Protection-Oriented Assessment of Machine Learning-Based Fault Detection in Power Systems",
+    "abstract": "arXiv:2611.17872v1 Announce Type: new  Abstract: Machine learning (ML)-based fault detectors are increasingly proposed for power system protection, yet aggregate metrics can obscure the consequences of false and missed trips. We present a protection-oriented assessment of three ML detectors and a sequence-current reference on PROTECT-90, comprising 9,022 simulated fault episodes on a 90 kV double-circuit line. The assessment combines five window conditions, causal window-end labelling, episode-grouped cross-validation, and operating-point selection under a fixed security budget. It reports security, dependability, detection timing, decision margins, and episode-level nuisance assertions. Gradient-boosted trees, a convolutional neural network, and logistic regression achieve AUC-ROC values above 0.999, yet at a security budget of $10^{-3}$ their developed-fault missed-trip rates range from 0.007% to 1.99%. Post-clearing false-trip rates of approximately 0.12-0.16% per window coexist wit",
+    "link": "https://arxiv.org/abs/2611.17872",
+    "context": "Title: Protection-Oriented Assessment of Machine Learning-Based Fault Detection in Power Systems\nAbstract: arXiv:2611.17872v1 Announce Type: new  Abstract: Machine learning (ML)-based fault detectors are increasingly proposed for power system protection, yet aggregate metrics can obscure the consequences of false and missed trips. We present a protection-oriented assessment of three ML detectors and a sequence-current reference on PROTECT-90, comprising 9,022 simulated fault episodes on a 90 kV double-circuit line. The assessment combines five window conditions, causal window-end labelling, episode-grouped cross-validation, and operating-point selection under a fixed security budget. It reports security, dependability, detection timing, decision margins, and episode-level nuisance assertions. Gradient-boosted trees, a convolutional neural network, and logistic regression achieve AUC-ROC values above 0.999, yet at a security budget of $10^{-3}$ their developed-fault missed-trip rates range from 0.007% to 1.99%. Post-clearing false-trip rates of approximately 0.12-0.16% per window coexist wit",
+    "path": "papers/26/11/2611.17872.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

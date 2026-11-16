@@ -1,0 +1,12 @@
+{
+    "title": "The Polyak-{\\L}ojasiewicz Paper: A 10-Year Retrospective",
+    "abstract": "arXiv:2611.17745v1 Announce Type: cross  Abstract: In 2016, we wrote a paper introducing the phrase \"Polyak-Lojasiewicz (PL) condition\" for an old idea, unsure of how readers would react. The paper ultimately had a larger impact than we expected, and we are surprised and honoured to receive the 2026 PKDD ECML Test of Time Award. With 10 years of hindsight, this note offers an informal and candid retrospective on the PL condition. We take a look back at the origins of the paper, give an AI-assisted refined version of the main theorem, review criticisms of the work, and discuss a variety of related ideas and extensions.",
+    "link": "https://arxiv.org/abs/2611.17745",
+    "context": "Title: The Polyak-{\\L}ojasiewicz Paper: A 10-Year Retrospective\nAbstract: arXiv:2611.17745v1 Announce Type: cross  Abstract: In 2016, we wrote a paper introducing the phrase \"Polyak-Lojasiewicz (PL) condition\" for an old idea, unsure of how readers would react. The paper ultimately had a larger impact than we expected, and we are surprised and honoured to receive the 2026 PKDD ECML Test of Time Award. With 10 years of hindsight, this note offers an informal and candid retrospective on the PL condition. We take a look back at the origins of the paper, give an AI-assisted refined version of the main theorem, review criticisms of the work, and discuss a variety of related ideas and extensions.",
+    "path": "papers/26/11/2611.17745.json",
+    "total_tokens": 1015,
+    "translated_title": "Polyak-Łojasiewicz 论文：十年回顾",
+    "translated_abstract": "2016年，我们撰写了一篇论文，为一个古老的想法引入了“Polyak-Łojasiewicz (PL) 条件”这一术语，当时并不确定读者会有何反应。这篇论文最终产生了超出我们预期的影响，我们感到惊讶并十分荣幸能获得2026年PKDD ECML时间检验奖。凭借10年后的后见之明，本文对PL条件进行了一次非正式且坦率的回顾。我们回顾了这篇论文的起源，给出了借助AI辅助精炼的主定理版本，审视了针对该工作的批评，并讨论了各种相关的想法与扩展。",
+    "tldr": "本文是对引入Polyak-Łojasiewicz (PL)条件术语的论文的十年回顾，作者回顾了论文的起源、给出了AI辅助精炼的主定理版本，并讨论了对该工作的批评及相关扩展。",
+    "en_tdlr": "This note offers a candid 10-year retrospective on the paper that coined the term \"Polyak-Łojasiewicz (PL) condition,\" revisiting its origins, presenting an AI-assisted refined version of the main theorem, reviewing criticisms, and discussing related extensions."
+}

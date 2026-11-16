@@ -1,0 +1,12 @@
+{
+    "title": "Huge If True: Learning from the Size of the Surprise",
+    "abstract": "arXiv:2611.15747v2 Announce Type: replace  Abstract: Responses to earnings surprises depend on an unknown multiplier mapping earnings to value. Investors, however, learn about the news and the multiplier from the same number. Large surprises may indicate small multipliers and tiny surprises large ones. We model how greater uncertainty about the multiplier attenuates responses on average but makes them steeper near zero surprises. In an incentivized experiment, we find that greater processing constraints lower average sensitivity but raise it near zero. We confirm this with real-world earnings announcements: stocks with higher valuation uncertainty, our proxy for multiplier uncertainty, respond less on average but more steeply near zero.",
+    "link": "https://arxiv.org/abs/2611.15747",
+    "context": "Title: Huge If True: Learning from the Size of the Surprise\nAbstract: arXiv:2611.15747v2 Announce Type: replace  Abstract: Responses to earnings surprises depend on an unknown multiplier mapping earnings to value. Investors, however, learn about the news and the multiplier from the same number. Large surprises may indicate small multipliers and tiny surprises large ones. We model how greater uncertainty about the multiplier attenuates responses on average but makes them steeper near zero surprises. In an incentivized experiment, we find that greater processing constraints lower average sensitivity but raise it near zero. We confirm this with real-world earnings announcements: stocks with higher valuation uncertainty, our proxy for multiplier uncertainty, respond less on average but more steeply near zero.",
+    "path": "papers/26/11/2611.15747.json",
+    "total_tokens": 1519,
+    "translated_title": "若属实则影响巨大：从意外的大小中学习",
+    "translated_abstract": "对盈余意外的反应取决于一个未知的乘数，该乘数将盈余映射为价值。然而，投资者需要从同一个数字中同时学习消息本身和乘数：较大的意外可能意味着较小的乘数，而微小的意外则可能意味着较大的乘数。我们通过模型刻画了乘数不确定性越高会如何在平均上削弱反应，但在意外接近零时使反应变得更加陡峭。在一个有激励机制的实验中，我们发现更大的信息处理约束降低了平均敏感度，但在意外接近零时提高了敏感度。我们进一步用真实世界的盈余公告数据证实了这一结论：估值不确定性较高（作为乘数不确定性的代理指标）的股票平均反应较弱，但在意外接近零时反应更加陡峭。",
+    "tldr": "该论文提出投资者从同一盈余数字中同时学习消息与估值乘数，并通过模型、实验和真实盈余公告数据证明：乘数不确定性越高，市场对盈余意外的平均反应越弱，但在意外接近零时反应越陡峭。",
+    "en_tdlr": "Investors learn both the news and the valuation multiplier from the same earnings number; greater multiplier uncertainty thus attenuates average responses to earnings surprises but steepens them near zero, a prediction confirmed in incentivized experiments and real-world earnings announcements."
+}

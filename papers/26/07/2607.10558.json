@@ -1,0 +1,12 @@
+{
+    "title": "Local Asymptotic Power of Honest Confidence Intervals",
+    "abstract": "arXiv:2607.10558v3 Announce Type: replace  Abstract: Honest or bias-aware confidence intervals, conservative against untestable bias, are now standard in DiD, IV, RD, and factor models. This paper characterises the local power of their tests, which has three regimes set by the bias bound's rate relative to the sampling rate. A bound vanishing faster than the standard error costs nothing, one of the same order costs a bounded amount, and a dominating bound, typical at the parametric rate, leaves zero local power. This loss is intrinsic to honesty, and the standard bias-aware interval is rate-optimal. The paper recommends reporting the power ``dead zone'' half-width alongside bias-aware intervals.",
+    "link": "https://arxiv.org/abs/2607.10558",
+    "context": "Title: Local Asymptotic Power of Honest Confidence Intervals\nAbstract: arXiv:2607.10558v3 Announce Type: replace  Abstract: Honest or bias-aware confidence intervals, conservative against untestable bias, are now standard in DiD, IV, RD, and factor models. This paper characterises the local power of their tests, which has three regimes set by the bias bound's rate relative to the sampling rate. A bound vanishing faster than the standard error costs nothing, one of the same order costs a bounded amount, and a dominating bound, typical at the parametric rate, leaves zero local power. This loss is intrinsic to honesty, and the standard bias-aware interval is rate-optimal. The paper recommends reporting the power ``dead zone'' half-width alongside bias-aware intervals.",
+    "path": "papers/26/07/2607.10558.json",
+    "total_tokens": 1208,
+    "translated_title": "诚实置信区间的局部渐近功效",
+    "translated_abstract": "诚实置信区间或偏差感知置信区间——针对不可检验的偏差而保持保守——如今已成为双重差分（DiD）、工具变量（IV）、断点回归（RD）和因子模型中的标准方法。本文刻画了此类检验的局部功效，该功效呈现出由偏差界相对于抽样误差收敛速率所决定的三种情形：若偏差界比标准误消失得更快，则不损失任何功效；若二者同阶，则损失有界；若偏差界占优（在参数收敛速率下通常如此），则局部功效为零。这种功效损失是诚实性（honesty）的内在代价，且标准的偏差感知置信区间在速率意义上是最优的。本文建议在报告偏差感知置信区间的同时，一并报告功效“死区”的半宽。",
+    "tldr": "本文刻画了诚实（偏差感知）置信区间检验的局部功效随偏差界与标准误相对收敛速率变化的三种情形，证明该功效损失是诚实性的内在代价、标准偏差感知区间已达速率最优，并建议同时报告功效“死区”半宽。",
+    "en_tdlr": "This paper characterizes the local power of honest (bias-aware) confidence intervals, showing three regimes determined by the bias bound's rate relative to the standard error, proving that this power loss is intrinsic to honesty and the standard bias-aware interval is rate-optimal, and recommending reporting the \"dead zone\" half-width alongside such intervals."
+}

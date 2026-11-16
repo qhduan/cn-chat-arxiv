@@ -1,0 +1,12 @@
+{
+    "title": "RL$^{\\mathrm{RT}}$: On-Device Reinforcement Learning Runtime",
+    "abstract": "arXiv:2611.18035v1 Announce Type: cross  Abstract: On-device reinforcement learning runs a periodic actor and a learner on one embedded GPU shared with other workloads. Because the learner produces the actor's weights, existing designs stall the actor or let its policy drift. We present RL$^{\\mathrm{RT}}$, an on-device runtime that makes this coupling a tunable parameter: a refresh bound limits actor releases between refreshes, and a GPU permit with slack-aware admission prioritises the actor and fills spare time with training atop any base scheduler. Under the real refresh cost on two Jetson boards, RL$^{\\mathrm{RT}}$ keeps a 16.8 M-parameter policy's deadline misses below 1%, against 85 to 100% without it.",
+    "link": "https://arxiv.org/abs/2611.18035",
+    "context": "Title: RL$^{\\mathrm{RT}}$: On-Device Reinforcement Learning Runtime\nAbstract: arXiv:2611.18035v1 Announce Type: cross  Abstract: On-device reinforcement learning runs a periodic actor and a learner on one embedded GPU shared with other workloads. Because the learner produces the actor's weights, existing designs stall the actor or let its policy drift. We present RL$^{\\mathrm{RT}}$, an on-device runtime that makes this coupling a tunable parameter: a refresh bound limits actor releases between refreshes, and a GPU permit with slack-aware admission prioritises the actor and fills spare time with training atop any base scheduler. Under the real refresh cost on two Jetson boards, RL$^{\\mathrm{RT}}$ keeps a 16.8 M-parameter policy's deadline misses below 1%, against 85 to 100% without it.",
+    "path": "papers/26/11/2611.18035.json",
+    "total_tokens": 1271,
+    "translated_title": "RL$^{\\mathrm{RT}}$：端侧强化学习运行时",
+    "translated_abstract": "端侧强化学习在与其它工作负载共享的单个嵌入式GPU上运行周期性执行器和学习器。由于学习器会生成执行器的权重，现有设计要么阻塞执行器，要么导致其策略发生漂移。我们提出了RL$^{\\mathrm{RT}}$，一个端侧运行时系统，它将这种耦合转化为一个可调参数：刷新界限限制刷新之间执行器的发布次数，而具有松弛感知准入机制的GPU许可则对执行器进行优先调度，并在任意基础调度器之上利用空闲时间进行训练。在两块Jetson开发板上考虑真实的刷新开销的实验中，RL$^{\\mathrm{RT}}$将一个16.8M参数策略的截止期限错过率控制在1%以下，而没有使用它时该比率高达85%至100%。",
+    "tldr": "RL$^{\\mathrm{RT}}$通过将执行器与学习器的耦合变为可调参数（刷新界限与松弛感知的GPU许可），在共享嵌入式GPU上实现了高效的端侧强化学习，将16.8M参数策略的截止期限错过率从85%-100%降至1%以下。",
+    "en_tdlr": "RL$^{\\mathrm{RT}}$ turns actor-learner coupling into a tunable parameter via refresh bounds and slack-aware GPU permits, keeping deadline misses of a 16.8M-parameter policy below 1% (versus 85-100%) for on-device reinforcement learning on shared embedded GPUs."
+}

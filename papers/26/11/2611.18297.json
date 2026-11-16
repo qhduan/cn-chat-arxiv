@@ -1,0 +1,12 @@
+{
+    "title": "When evaluation becomes intervention in clinical AI",
+    "abstract": "arXiv:2611.18297v1 Announce Type: new  Abstract: AI judges, models that grade another system's output against a rubric, extend clinical review to the scale at which clinical AI writes. When teams use judge assessments to select a prompt or train a model, the judge becomes part of the intervention. Selection can then favor errors the judge overlooks. We describe what a judge's report must contain and the independent clinical test each judge-driven change needs.",
+    "link": "https://arxiv.org/abs/2611.18297",
+    "context": "Title: When evaluation becomes intervention in clinical AI\nAbstract: arXiv:2611.18297v1 Announce Type: new  Abstract: AI judges, models that grade another system's output against a rubric, extend clinical review to the scale at which clinical AI writes. When teams use judge assessments to select a prompt or train a model, the judge becomes part of the intervention. Selection can then favor errors the judge overlooks. We describe what a judge's report must contain and the independent clinical test each judge-driven change needs.",
+    "path": "papers/26/11/2611.18297.json",
+    "total_tokens": 778,
+    "translated_title": "当评估在临床AI中变成干预",
+    "translated_abstract": "AI评判者（AI judges）是一种依据评分标准对另一个系统的输出进行打分的模型，它将临床审查的规模扩展到了临床AI书写内容的规模。当团队使用评判者的评估结果来选择提示词或训练模型时，评判者本身就成为了干预的一部分。这种选择过程可能会偏向评判者所忽视的错误。我们描述了评判者的报告必须包含哪些内容，以及每一项由评判者驱动的变更所需的独立临床测试。",
+    "tldr": "临床AI中的AI评判者在被用于选择提示词或训练模型时会本身成为干预的一部分，并可能偏向其忽视的错误，因此评判者报告必须包含特定内容，且每项由评判者驱动的变更都需要独立的临床测试。",
+    "en_tdlr": "When AI judges in clinical AI are used to select prompts or train models, they become part of the intervention and can favor errors they overlook, so judge reports must contain specified contents and each judge-driven change requires independent clinical testing."
+}
