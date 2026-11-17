@@ -1358,6 +1358,26 @@ https://arxiv.org/abs/2611.18566
 &lt;/p&gt;
 &lt;p&gt;
 arXiv:2611.18566v1 Announce Type: new  Abstract: Empirical research on software architecture maintenance and evolution is hindered by the scarcity of large-scale, validated, and richly annotated model datasets. Existing benchmarks are limited in scale, provide only model-level annotations, or lack alignment with reference architectures, thereby restricting reproducible studies of architectural reuse, conformance, and AI-driven analysis. To address this gap, we present A3D, a curated dataset of 1,115 Architecture Analysis and Design Language (AADL) models mined from public GitHub repositories and validated with the OSATE tool. The dataset spans 7 generic domains and 52 specific-problem clusters, and provides two annotation layers: (i) domain- and problem-level labels, which capture different model aggregation criteria, and (ii) component-level mappings to three reference architectures, which have been externally validated through a user study. Models are released in AADL and JSON format
+&lt;/p&gt;</description></item><item><title>&#35813;&#35770;&#25991;&#25552;&#20986;&#36890;&#36807;&#25991;&#21270;&#20998;&#26512;&#26041;&#27861;&#25214;&#20986;&#24320;&#21457;&#22242;&#38431;&#20013;&#23548;&#33268;&#28431;&#27934;&#20135;&#29983;&#30340;&#29305;&#23450;&#25991;&#21270;&#20215;&#20540;&#35266;&#24182;&#21152;&#20197;&#20462;&#27491;&#65292;&#20197;&#26399;&#22312;&#31215;&#32047;&#36275;&#22815;&#26696;&#20363;&#21518;&#20026;&#25972;&#20010;&#24320;&#21457;&#31038;&#21306;&#24635;&#32467;&#20986;&#21487;&#22797;&#29992;&#30340;&#23433;&#20840;&#24320;&#21457;&#35268;&#24459;&#12290;</title><link>https://arxiv.org/abs/2611.18565</link><description>&lt;p&gt;
+&#36890;&#36807;&#25991;&#21270;&#20998;&#26512;&#23454;&#29616;&#26356;&#23433;&#20840;&#30340;&#36719;&#20214;&#24320;&#21457;&#65306;Log4Shell &#28431;&#27934;&#26159;&#22914;&#20309;&#21457;&#29983;&#30340;&#65311;
+&lt;/p&gt;
+&lt;p&gt;
+More Secure Software Development via Cultural Analysis: How could Log4Shell happen?
+&lt;/p&gt;
+&lt;p&gt;
+https://arxiv.org/abs/2611.18565
+&lt;/p&gt;
+&lt;p&gt;
+&#35813;&#35770;&#25991;&#25552;&#20986;&#36890;&#36807;&#25991;&#21270;&#20998;&#26512;&#26041;&#27861;&#25214;&#20986;&#24320;&#21457;&#22242;&#38431;&#20013;&#23548;&#33268;&#28431;&#27934;&#20135;&#29983;&#30340;&#29305;&#23450;&#25991;&#21270;&#20215;&#20540;&#35266;&#24182;&#21152;&#20197;&#20462;&#27491;&#65292;&#20197;&#26399;&#22312;&#31215;&#32047;&#36275;&#22815;&#26696;&#20363;&#21518;&#20026;&#25972;&#20010;&#24320;&#21457;&#31038;&#21306;&#24635;&#32467;&#20986;&#21487;&#22797;&#29992;&#30340;&#23433;&#20840;&#24320;&#21457;&#35268;&#24459;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+&#36991;&#20813;&#28431;&#27934;&#26041;&#38754;&#30340;&#36827;&#23637;&#29978;&#24494;&#12290;&#25991;&#21270;&#20998;&#26512;&#25110;&#35768;&#33021;&#25552;&#20379;&#24110;&#21161;&#65306;&#38024;&#23545;&#32473;&#23450;&#30340;&#22242;&#38431;&#65292;&#25214;&#20986;&#23548;&#33268;&#36807;&#21435;&#28431;&#27934;&#30340;&#29305;&#23450;&#25991;&#21270;&#20215;&#20540;&#35266;&#65292;&#28982;&#21518;&#22312;&#26410;&#26469;&#30340;&#24320;&#21457;&#20013;&#30456;&#24212;&#22320;&#35843;&#25972;&#36825;&#20123;&#20215;&#20540;&#35266;&#12290;&#22312;&#31215;&#32047;&#20102;&#36275;&#22815;&#22810;&#30340;&#27492;&#31867;&#30740;&#31350;&#20043;&#21518;&#65292;&#24456;&#21487;&#33021;&#20250;&#28044;&#29616;&#20986;&#23545;&#25972;&#20010;&#24320;&#21457;&#31038;&#21306;&#37117;&#36866;&#29992;&#30340;&#35268;&#24459;&#27169;&#24335;&#12290;
+&lt;/p&gt;
+&lt;p&gt;
+arXiv:2611.18565v1 Announce Type: new  Abstract: There is little progress avoiding vulnerabilities. Cultural analysis may help: For a given team, find the specific cultural values that led to a past vulnerability, then modify the values accordingly for the future. After enough such studies, patterns will likely emerge that are useful for the development community at large.
 &lt;/p&gt;</description></item><item><title>ProofCoder&#20174;&#32534;&#30721;&#26234;&#33021;&#20307;&#35270;&#35282;&#20986;&#21457;&#65292;&#35753;&#27169;&#22411;&#22312;&#25972;&#20010;&#35777;&#26126;&#25628;&#32034;&#36807;&#31243;&#20013;&#25345;&#32493;&#25512;&#29702;&#65292;&#24182;&#26681;&#25454;&#35777;&#26126;&#21161;&#25163;&#30340;&#21453;&#39304;&#33258;&#20027;&#20915;&#23450;&#20449;&#24687;&#25910;&#38598;&#12289;&#35777;&#26126;&#29366;&#24577;&#26816;&#26597;&#12289;&#29255;&#27573;&#20462;&#25913;&#21644;&#22238;&#28335;&#65292;&#31361;&#30772;&#20102;&#20256;&#32479;LLM&#26041;&#27861;&#20725;&#21270;&#31574;&#30053;&#29983;&#25104;&#24490;&#29615;&#30340;&#38480;&#21046;&#65292;&#23454;&#29616;&#20102;&#38754;&#21521;Rocq&#30340;&#33258;&#21160;&#21270;&#35777;&#26126;&#21512;&#25104;&#12290;</title><link>https://arxiv.org/abs/2611.14106</link><description>&lt;p&gt;
 ProofCoder&#65306;&#38754;&#21521;&#33258;&#21160;&#21270;&#36719;&#20214;&#39564;&#35777;&#30340;&#36830;&#32493;&#25512;&#29702;
 &lt;/p&gt;

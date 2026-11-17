@@ -70,46 +70,47 @@
 | [^66] | [Use of Peer Code Review to Identify Potential Security Vulnerabilities in Open Source Software: A Systematic Literature Review](https://arxiv.org/abs/2611.18568) | 本系统性文献综述发现，同行代码评审能有效检测开源软件中局部且知名的漏洞（如缓冲区溢出、竞态条件和XSS），但常常遗漏微妙、复杂且依赖上下文的安全问题。 |
 | [^67] | [Software Engineering Practice in the Virtual Reality/Augmented Reality Software Life Cycle: A Systematic Survey](https://arxiv.org/abs/2611.18567) | 该论文首次从软件工程视角对VR/AR软件生命周期相关研究进行系统性综述，填补了该领域缺乏全面总结的空白。 |
 | [^68] | [Mining Architectural Models in the Wild: A Curated Dataset of AADL Models](https://arxiv.org/abs/2611.18566) | 该论文提出了A3D数据集——一个从GitHub挖掘、经OSATE验证、覆盖7个领域和52个问题集群、并具有领域/问题标签与参考架构组件映射双标注层的1,115个AADL模型精选数据集，填补了软件架构实证研究中大规模标注数据集的空白。 |
-| [^69] | [ProofCoder: Continuous Reasoning for Automated Software Verification](https://arxiv.org/abs/2611.14106) | ProofCoder从编码智能体视角出发，让模型在整个证明搜索过程中持续推理，并根据证明助手的反馈自主决定信息收集、证明状态检查、片段修改和回溯，突破了传统LLM方法僵化策略生成循环的限制，实现了面向Rocq的自动化证明合成。 |
-| [^70] | [Unprompted coordination through shared memory in LLM agents: a locked two-implementation replication and extension](https://arxiv.org/abs/2611.12412) | 本研究通过双重独立实现的复现与扩展首次证实：即使提示中完全没有提及其他智能体、共享或协作的存在，LLM智能体也能仅凭共享内存状态自发产生协调行为。 |
-| [^71] | [Safe by Accident: Crash-Testing LLM-Written Code](https://arxiv.org/abs/2611.10585) | 该论文通过对 9,100 个 LLM 生成的后端代码进行崩溃测试发现，54% 在 sqlite3 默认事务模式下能通过崩溃测试的数据库代码，在自动提交模式下会留下半更新状态，证明现有“单次运行、单一环境”的代码评估把通过归功于环境而非代码本身的安全性。 |
-| [^72] | [What extraction cannot slim, and whether function injection can: a pre-registered study of 580 Java repositories](https://arxiv.org/abs/2611.10545) | 该预注册研究对580个Java代码库中超过300万个方法进行扫描，发现22.9%的长方法无法通过单出口提取重构来精简，并验证OfficeFloor框架的函数注入技术能够拆分这类提取重构无法处理的长方法。 |
-| [^73] | [BOXBOX: Recursive Harness Self-Improvement for Long-Running Performance Optimization](https://arxiv.org/abs/2611.09218) | BOXBOX让智能体能够在长期运行的任务中递归地自我改进自己的执行框架（通过智能体触发的框架修订与内核管理的热重载机制），并在PerfRace基准上以匹配的测试预算下比冻结框架、离线框架演化和框架扩展方法取得更高的加速比和效率。 |
-| [^74] | [Rethinking Access Control for AI Agents: Recent Advances and Open Challenges](https://arxiv.org/abs/2611.06764) | 本文系统综述了AI智能体访问控制在策略规范、身份委托、动作执行和信息流控制四大领域的最新进展，并重新思考了授权机制的四个核心方面，指出了未来亟待解决的开放性挑战。 |
-| [^75] | [IssueLighter: An Issue Type-Aware LLM Agent for Issue Report Validity Assessment](https://arxiv.org/abs/2611.02721) | 该论文提出IssueLighter，一种感知问题类型的LLM智能体，通过全面理解各类问题的无效原因来评估开源项目问题报告的有效性，并提供有充分依据的理由，从而减轻维护者的负担。 |
-| [^76] | [What reviewers call a Long Method is a length: A pre-registered test of coupling divergence as a god-unit signal, and what it settled instead](https://arxiv.org/abs/2611.01636) | 预注册测试表明，用耦合散度加权复杂度无法区分上帝单元与复杂算法；该研究真正证实的是，MLCQ审阅者所称的“长方法”仅仅是一个绝对行数长度（26行及以上的阈值在确认集上达到MCC 0.777）。 |
-| [^77] | [Software Change Request in AI-Synthesized Software Evolution](https://arxiv.org/abs/2611.00294) | 本综述系统梳理了利用规则、传统机器学习、主题建模及深度学习方法从应用商店用户评论中自动提取软件变更请求的研究现状，并指出不同研究在数据集、标注规范和评估指标上缺乏一致性，导致结果难以比较。 |
-| [^78] | [Yesterday's Code, Today's Dependencies: How Dependency Selection Shapes PHP Migration Benchmarks](https://arxiv.org/abs/2610.41263) | 该论文发现，在PHP迁移基准测试中，采用发布日期依赖选择策略相比现代选择策略可将PHP 7.4测试通过率提高7.1个百分点，表明依赖版本的选择方式会显著影响迁移基准测试的结果。 |
-| [^79] | [Skeleton Coding: Program Structure as a Specification for Agents](https://arxiv.org/abs/2610.38214) | 论文提出“骨架编码”概念，指出智能体在行为规约选定程序之前会先确定程序结构，而测试等规约是否充分取决于该结构本身，因此开发者应将程序结构（数据类型、模块与函数的分解）作为一种规约提供给智能体。 |
-| [^80] | [Who Verifies the Tools? How Warped Formatters Mislead Agents and Their Verifiers](https://arxiv.org/abs/2610.32110) | 论文通过生产RAG系统的真实案例与对照实验发现，工具输出格式化器遗漏关键信息会误导智能体和验证器，而仅需在输出中补全这些缺失细节，就能显著减少智能体的无依据声称。 |
-| [^81] | [QuSema: Detecting Silent Bugs in Quantum Libraries via Quantum-knowledge-enhanced Agents](https://arxiv.org/abs/2610.10258) | QuSema提出了一种自主测试智能体，将量子语义与文档约束作为源代码级语义预言机，能够在缺乏基于执行的预言机的情况下检测量子库中从有效输入产生无效输出的静默缺陷。 |
-| [^82] | [Finding Blind Spots in AppWorld and WorkArena Task Verifiers](https://arxiv.org/abs/2610.09142) | 该论文通过基于源码信息的变异测试审计了AppWorld和WorkArena的已发布任务验证器，揭示其存在盲点——即使智能体产生了错误效果（如重复写入创建多余记录或遗留非默认持久化值），验证器仍会判定任务成功。 |
-| [^83] | [KernelZero: Co-Evolving Proposer and Coder for Continuously Improved GPU Kernel Generation](https://arxiv.org/abs/2609.33074) | KernelZero提出一个共同演化框架，通过提议者与编码器的协同进化、前沿驱动的模块生成机制以及正确性感知的CA-GRPO强化学习方法，持续提升GPU内核自动生成的正确性与性能。 |
-| [^84] | [When Tool Calls Succeed but Workflows Fail: Anomalies at the Agent-Tool Boundary](https://arxiv.org/abs/2609.15397) | 该论文提出了一个将外部世界事件与运行时观察相分离的效果历史模型，并系统梳理出八种在智能体-工具边界处反复出现的外部效果异常，以解决工具调用成功但工作流整体失败的不一致问题。 |
-| [^85] | [Claude Code Complete User Handbook](https://arxiv.org/abs/2608.26742) | 本书提出，在Claude Code代理环境中，安全高效运行的关键在于定义明确的可观察完成条件，并通过指令、权限、沙箱和系统隔离四层控制栈来管理系统性风险。 |
-| [^86] | [SPECMINE: A Large-Scale Corpus of Spec-Driven Development Artifacts](https://arxiv.org/abs/2608.25202) | 我们提出了SPECMINE，这是首个大规模语料库，通过两次普查系统地捕捉了GitHub上规范驱动开发工件，为研究规范如何转化为代码提供了基础数据。 |
-| [^87] | [eIRWR: Enhanced Iterative Random Walk with Restart for Scalable Root Cause Analysis in Microservices](https://arxiv.org/abs/2608.08073) | 本文发现基本IRWR的“弹性阻尼”等价于调整重启概率的个性化PageRank，并提出eIRWR，通过幂律锐化将重启质量集中于最可疑节点，实现微服务系统中更准确且可扩展的根因分析。 |
-| [^88] | [LangChoiceBench: Measuring and Explaining Programming-Language Choice in LLMs](https://arxiv.org/abs/2608.06041) | 提出了LangChoiceBench基准，系统测量25个大语言模型在28个项目中的编程语言选择行为，发现模型普遍过度偏好Python且多为未经深思熟虑的自动选择，较小的开放权重模型偏好更强、语言多样性更低。 |
-| [^89] | [Change2Task: From Repository Changes to Executable Coding Agent Tasks and Environments](https://arxiv.org/abs/2607.28591) | Change2Task 提出了一个基于仓库历史的系统，能够将已合并的拉取请求自动转换为健康现代代码版本上经过验证的可执行编码智能体任务与环境，为编码智能体的训练、基准测试和持续评估提供可扩展的数据供给。 |
-| [^90] | [Code-Anchored Review Feedback Improves Correctness and Lowers Hosted Editing Cost on Large R Files](https://arxiv.org/abs/2607.12713) | 研究表明，将代码评审反馈以“代码锚定”格式（每条评论锚定并引用其涉及的代码）而非整体列表形式提供给大模型，可使大型R文件编辑的输出令牌最多减少50.5%、托管成本最多降低46.3%，并显著提升编辑的正确性。 |
-| [^91] | [Flex: A Foundational Proof-Producing Horn Solver](https://arxiv.org/abs/2607.12226) | Flex是一个基于Lean元编程实现的可产生内核验证证明的约束Horn子句（CHC）求解器，它将谓词合成与证明构造相结合，使规范可直接使用原生定义，并允许用户在自动化失败时补全证明。 |
-| [^92] | [Mining Workflow Graphs for Black-Box Boundary Testing of Conversational LLM Agents](https://arxiv.org/abs/2607.06873) | 提出了AgentEval黑盒测试框架，通过与智能体交互挖掘其对话工作流图，并在各节点重放对话路径后施加扰动，从而系统性发现并测试身份验证、确认步骤等工作流边界处的故障。 |
-| [^93] | [AutoCedar: An Agentic Framework for Verifier-Guided Access Control Policy Synthesis](https://arxiv.org/abs/2607.03656) | AutoCedar 提出了一种验证器引导的智能体框架，通过将访问控制需求分解为可审查、可机械验证的“意图原子”，并利用验证器对照经人工审查的目标迭代修复策略，确保从自然语言合成的 Cedar 访问控制策略真正符合用户意图。 |
-| [^94] | [Is Agentic AI Ready for Real-World Hardware Engineering? A Deep Dive with Phoenix-bench](https://arxiv.org/abs/2605.15226) | 该论文提出了Phoenix-bench——首个同时要求仓库导航、层次感知定位、EDA可执行验证和维护式补丁的硬件工程智能体基准，包含511个经核实的Verilator实例，并系统评估了商业与开源智能体在真实硬件工程任务上的能力。 |
-| [^95] | [ORACLE-SWE: Quantifying the Contribution of Critical Information Signals on SWE Agents](https://arxiv.org/abs/2604.07789) | 该论文提出ORACLE-SWE，首次系统量化了复现测试、回归测试、编辑位置、执行上下文和API用法等关键中间信息信号对软件工程代理任务成功的贡献，并测量了代理发现的信号与理想神谕信号之间尚存的改进空间。 |
-| [^96] | [QiMeng-PRepair: Precise Code Repair via Edit-Aware Reward Optimization](https://arxiv.org/abs/2604.05963) | 该论文提出PRepair框架，通过Self-Breaking缺陷程序生成和基于编辑感知奖励的EA-GRPO训练，抑制大语言模型代码修复中的过度编辑问题，实现最大化复用正确代码、仅修复缺陷部分的精确修复，修复精确度最高提升31.4%。 |
-| [^97] | [Automated Code Efficiency Optimization via Agent Skill Mining](https://arxiv.org/abs/2603.27850) | 本文提出EffiSkill两阶段框架，将慢代码到快代码的常见转换挖掘并沉淀为记录意图、适用性、流程、效果与风险的“算子技能”卡片库，使LLM无需执行反馈即可诊断程序、检索技能并生成多个候选优化方案，从而自动提升代码效率。 |
-| [^98] | [RepoLaunch: Automating Build and Management of Code Repositories across Languages and Platforms](https://arxiv.org/abs/2603.05026) | RepoLaunch是一个跨多种编程语言和操作系统的智能体框架，能够自动解决依赖、编译源代码并提取测试结果，构建成功率达78%（超越仅支持Python/Linux的先前系统18%），并支撑了仅需任务设计阶段人工输入的全自动SWE数据集创建流水线。 |
-| [^99] | [Clawdrain: Exploiting Tool-Calling Chains for Stealthy Token Exhaustion in OpenClaw Agents](https://arxiv.org/abs/2603.00902) | Clawdrain是一种木马化的OpenClaw技能，它通过分段验证过程（SVP）利用工具调用链制造高成本的多轮调用，在保持最终任务输出合法的同时隐蔽地耗尽LLM智能体的令牌资源，实现2-16倍的令牌放大。 |
-| [^100] | [Will It Survive? Deciphering the Fate of AI Agent-Authored Code in Open Source](https://arxiv.org/abs/2601.16809) | 本研究通过对215个开源仓库中约65万行代码的生存分析发现，AI智能体编写的代码并不比人类代码更快被修改，甚至在同等条件下存活时间更长，从而有力反驳了“智能体代码是一次性的”这一担忧。 |
-| [^101] | [VeruSAGE-Bench: A Benchmark Suite for Rust System Verification](https://arxiv.org/abs/2512.18436) | 该论文构建了首个面向真实系统级形式化验证的基准测试套件VeruSAGE-Bench，包含从八个经Verus验证的开源Rust系统中提取的849个证明任务，其形式化规约规模平均是以往基准的20倍以上，并用它系统评估了六个大语言模型的软件系统证明能力。 |
-| [^102] | [Comparative Evaluation of Embedding Representations for Financial News Sentiment Analysis](https://arxiv.org/abs/2512.13749) | 本研究在仅有349条金融新闻标题的小数据集上，比较评估了Word2Vec、GloVe和句子变换器嵌入结合梯度提升的情感分类效果，发现预训练嵌入在数据不足时收益递减，且小验证集易导致模型选择中的过拟合。 |
-| [^103] | [A Survey of Bugs in AI-Generated Code](https://arxiv.org/abs/2512.05239) | 本文通过系统性文献综述，首次全面梳理了AI生成代码中缺陷的类型、模式、分布及其与特定AI编程系统的关联和相应的修复策略，揭示了缺陷在AI生成代码中的普遍性。 |
-| [^104] | [Beyond Synthetic Benchmarks: Evaluating LLM Performance on Real-World Class-Level Code Generation](https://arxiv.org/abs/2510.26130) | 该论文提出了基于真实开源仓库构建的RealClassEval基准，用于评估大语言模型在类级别代码生成上的真实能力，揭示了此前被合成基准所掩盖的模型根本性局限。 |
-| [^105] | [The EmpathiSEr: Development and Validation of Software Engineering Oriented Empathy Scales](https://arxiv.org/abs/2510.12546) | 该研究开发并验证了首个专门面向软件工程情境的共情测量量表EmpathiSEr，填补了软件工程领域缺乏有效共情测量工具的空白。 |
-| [^106] | [Oops!... I did it again. Analysing and Handling Conclusion (In-)Stability in Socio-Technical Software Engineering](https://arxiv.org/abs/2510.06844) | 本研究通过用四个独立挖掘工具正式复现三项已发表的社会技术软件分析研究，揭示了不同工具流水线在数据、结果与结论上的不稳定性，并为研究者和从业者提供了应对此类效度威胁的可操作建议。 |
-| [^107] | [UniSage: A Unified and Diagnosis-Driven Sampling Framework for Microservice Systems](https://arxiv.org/abs/2509.26336) | UniSage是一个面向微服务系统的统一且诊断驱动的采样框架，它通过将轻量级分析集成到采样流水线中指导数据保留决策，并统一处理追踪与日志的采样，从而避免“先采样后分析”范式丢失关键诊断证据、以及追踪与日志上下文关联被破坏的问题。 |
-| [^108] | [OpenClassGen: A Large-Scale Corpus of Real-World Python Classes for LLM Research](https://arxiv.org/abs/2504.15564) | OpenClassGen是一个从约3,000个开源项目中提取的包含32万余个真实Python类的大规模语料库，每个类均配有自包含的骨架和27项静态代码指标，为类级别代码生成的训练与评估提供了迄今最大规模的资源。 |
+| [^69] | [More Secure Software Development via Cultural Analysis: How could Log4Shell happen?](https://arxiv.org/abs/2611.18565) | 该论文提出通过文化分析方法找出开发团队中导致漏洞产生的特定文化价值观并加以修正，以期在积累足够案例后为整个开发社区总结出可复用的安全开发规律。 |
+| [^70] | [ProofCoder: Continuous Reasoning for Automated Software Verification](https://arxiv.org/abs/2611.14106) | ProofCoder从编码智能体视角出发，让模型在整个证明搜索过程中持续推理，并根据证明助手的反馈自主决定信息收集、证明状态检查、片段修改和回溯，突破了传统LLM方法僵化策略生成循环的限制，实现了面向Rocq的自动化证明合成。 |
+| [^71] | [Unprompted coordination through shared memory in LLM agents: a locked two-implementation replication and extension](https://arxiv.org/abs/2611.12412) | 本研究通过双重独立实现的复现与扩展首次证实：即使提示中完全没有提及其他智能体、共享或协作的存在，LLM智能体也能仅凭共享内存状态自发产生协调行为。 |
+| [^72] | [Safe by Accident: Crash-Testing LLM-Written Code](https://arxiv.org/abs/2611.10585) | 该论文通过对 9,100 个 LLM 生成的后端代码进行崩溃测试发现，54% 在 sqlite3 默认事务模式下能通过崩溃测试的数据库代码，在自动提交模式下会留下半更新状态，证明现有“单次运行、单一环境”的代码评估把通过归功于环境而非代码本身的安全性。 |
+| [^73] | [What extraction cannot slim, and whether function injection can: a pre-registered study of 580 Java repositories](https://arxiv.org/abs/2611.10545) | 该预注册研究对580个Java代码库中超过300万个方法进行扫描，发现22.9%的长方法无法通过单出口提取重构来精简，并验证OfficeFloor框架的函数注入技术能够拆分这类提取重构无法处理的长方法。 |
+| [^74] | [BOXBOX: Recursive Harness Self-Improvement for Long-Running Performance Optimization](https://arxiv.org/abs/2611.09218) | BOXBOX让智能体能够在长期运行的任务中递归地自我改进自己的执行框架（通过智能体触发的框架修订与内核管理的热重载机制），并在PerfRace基准上以匹配的测试预算下比冻结框架、离线框架演化和框架扩展方法取得更高的加速比和效率。 |
+| [^75] | [Rethinking Access Control for AI Agents: Recent Advances and Open Challenges](https://arxiv.org/abs/2611.06764) | 本文系统综述了AI智能体访问控制在策略规范、身份委托、动作执行和信息流控制四大领域的最新进展，并重新思考了授权机制的四个核心方面，指出了未来亟待解决的开放性挑战。 |
+| [^76] | [IssueLighter: An Issue Type-Aware LLM Agent for Issue Report Validity Assessment](https://arxiv.org/abs/2611.02721) | 该论文提出IssueLighter，一种感知问题类型的LLM智能体，通过全面理解各类问题的无效原因来评估开源项目问题报告的有效性，并提供有充分依据的理由，从而减轻维护者的负担。 |
+| [^77] | [What reviewers call a Long Method is a length: A pre-registered test of coupling divergence as a god-unit signal, and what it settled instead](https://arxiv.org/abs/2611.01636) | 预注册测试表明，用耦合散度加权复杂度无法区分上帝单元与复杂算法；该研究真正证实的是，MLCQ审阅者所称的“长方法”仅仅是一个绝对行数长度（26行及以上的阈值在确认集上达到MCC 0.777）。 |
+| [^78] | [Software Change Request in AI-Synthesized Software Evolution](https://arxiv.org/abs/2611.00294) | 本综述系统梳理了利用规则、传统机器学习、主题建模及深度学习方法从应用商店用户评论中自动提取软件变更请求的研究现状，并指出不同研究在数据集、标注规范和评估指标上缺乏一致性，导致结果难以比较。 |
+| [^79] | [Yesterday's Code, Today's Dependencies: How Dependency Selection Shapes PHP Migration Benchmarks](https://arxiv.org/abs/2610.41263) | 该论文发现，在PHP迁移基准测试中，采用发布日期依赖选择策略相比现代选择策略可将PHP 7.4测试通过率提高7.1个百分点，表明依赖版本的选择方式会显著影响迁移基准测试的结果。 |
+| [^80] | [Skeleton Coding: Program Structure as a Specification for Agents](https://arxiv.org/abs/2610.38214) | 论文提出“骨架编码”概念，指出智能体在行为规约选定程序之前会先确定程序结构，而测试等规约是否充分取决于该结构本身，因此开发者应将程序结构（数据类型、模块与函数的分解）作为一种规约提供给智能体。 |
+| [^81] | [Who Verifies the Tools? How Warped Formatters Mislead Agents and Their Verifiers](https://arxiv.org/abs/2610.32110) | 论文通过生产RAG系统的真实案例与对照实验发现，工具输出格式化器遗漏关键信息会误导智能体和验证器，而仅需在输出中补全这些缺失细节，就能显著减少智能体的无依据声称。 |
+| [^82] | [QuSema: Detecting Silent Bugs in Quantum Libraries via Quantum-knowledge-enhanced Agents](https://arxiv.org/abs/2610.10258) | QuSema提出了一种自主测试智能体，将量子语义与文档约束作为源代码级语义预言机，能够在缺乏基于执行的预言机的情况下检测量子库中从有效输入产生无效输出的静默缺陷。 |
+| [^83] | [Finding Blind Spots in AppWorld and WorkArena Task Verifiers](https://arxiv.org/abs/2610.09142) | 该论文通过基于源码信息的变异测试审计了AppWorld和WorkArena的已发布任务验证器，揭示其存在盲点——即使智能体产生了错误效果（如重复写入创建多余记录或遗留非默认持久化值），验证器仍会判定任务成功。 |
+| [^84] | [KernelZero: Co-Evolving Proposer and Coder for Continuously Improved GPU Kernel Generation](https://arxiv.org/abs/2609.33074) | KernelZero提出一个共同演化框架，通过提议者与编码器的协同进化、前沿驱动的模块生成机制以及正确性感知的CA-GRPO强化学习方法，持续提升GPU内核自动生成的正确性与性能。 |
+| [^85] | [When Tool Calls Succeed but Workflows Fail: Anomalies at the Agent-Tool Boundary](https://arxiv.org/abs/2609.15397) | 该论文提出了一个将外部世界事件与运行时观察相分离的效果历史模型，并系统梳理出八种在智能体-工具边界处反复出现的外部效果异常，以解决工具调用成功但工作流整体失败的不一致问题。 |
+| [^86] | [Claude Code Complete User Handbook](https://arxiv.org/abs/2608.26742) | 本书提出，在Claude Code代理环境中，安全高效运行的关键在于定义明确的可观察完成条件，并通过指令、权限、沙箱和系统隔离四层控制栈来管理系统性风险。 |
+| [^87] | [SPECMINE: A Large-Scale Corpus of Spec-Driven Development Artifacts](https://arxiv.org/abs/2608.25202) | 我们提出了SPECMINE，这是首个大规模语料库，通过两次普查系统地捕捉了GitHub上规范驱动开发工件，为研究规范如何转化为代码提供了基础数据。 |
+| [^88] | [eIRWR: Enhanced Iterative Random Walk with Restart for Scalable Root Cause Analysis in Microservices](https://arxiv.org/abs/2608.08073) | 本文发现基本IRWR的“弹性阻尼”等价于调整重启概率的个性化PageRank，并提出eIRWR，通过幂律锐化将重启质量集中于最可疑节点，实现微服务系统中更准确且可扩展的根因分析。 |
+| [^89] | [LangChoiceBench: Measuring and Explaining Programming-Language Choice in LLMs](https://arxiv.org/abs/2608.06041) | 提出了LangChoiceBench基准，系统测量25个大语言模型在28个项目中的编程语言选择行为，发现模型普遍过度偏好Python且多为未经深思熟虑的自动选择，较小的开放权重模型偏好更强、语言多样性更低。 |
+| [^90] | [Change2Task: From Repository Changes to Executable Coding Agent Tasks and Environments](https://arxiv.org/abs/2607.28591) | Change2Task 提出了一个基于仓库历史的系统，能够将已合并的拉取请求自动转换为健康现代代码版本上经过验证的可执行编码智能体任务与环境，为编码智能体的训练、基准测试和持续评估提供可扩展的数据供给。 |
+| [^91] | [Code-Anchored Review Feedback Improves Correctness and Lowers Hosted Editing Cost on Large R Files](https://arxiv.org/abs/2607.12713) | 研究表明，将代码评审反馈以“代码锚定”格式（每条评论锚定并引用其涉及的代码）而非整体列表形式提供给大模型，可使大型R文件编辑的输出令牌最多减少50.5%、托管成本最多降低46.3%，并显著提升编辑的正确性。 |
+| [^92] | [Flex: A Foundational Proof-Producing Horn Solver](https://arxiv.org/abs/2607.12226) | Flex是一个基于Lean元编程实现的可产生内核验证证明的约束Horn子句（CHC）求解器，它将谓词合成与证明构造相结合，使规范可直接使用原生定义，并允许用户在自动化失败时补全证明。 |
+| [^93] | [Mining Workflow Graphs for Black-Box Boundary Testing of Conversational LLM Agents](https://arxiv.org/abs/2607.06873) | 提出了AgentEval黑盒测试框架，通过与智能体交互挖掘其对话工作流图，并在各节点重放对话路径后施加扰动，从而系统性发现并测试身份验证、确认步骤等工作流边界处的故障。 |
+| [^94] | [AutoCedar: An Agentic Framework for Verifier-Guided Access Control Policy Synthesis](https://arxiv.org/abs/2607.03656) | AutoCedar 提出了一种验证器引导的智能体框架，通过将访问控制需求分解为可审查、可机械验证的“意图原子”，并利用验证器对照经人工审查的目标迭代修复策略，确保从自然语言合成的 Cedar 访问控制策略真正符合用户意图。 |
+| [^95] | [Is Agentic AI Ready for Real-World Hardware Engineering? A Deep Dive with Phoenix-bench](https://arxiv.org/abs/2605.15226) | 该论文提出了Phoenix-bench——首个同时要求仓库导航、层次感知定位、EDA可执行验证和维护式补丁的硬件工程智能体基准，包含511个经核实的Verilator实例，并系统评估了商业与开源智能体在真实硬件工程任务上的能力。 |
+| [^96] | [ORACLE-SWE: Quantifying the Contribution of Critical Information Signals on SWE Agents](https://arxiv.org/abs/2604.07789) | 该论文提出ORACLE-SWE，首次系统量化了复现测试、回归测试、编辑位置、执行上下文和API用法等关键中间信息信号对软件工程代理任务成功的贡献，并测量了代理发现的信号与理想神谕信号之间尚存的改进空间。 |
+| [^97] | [QiMeng-PRepair: Precise Code Repair via Edit-Aware Reward Optimization](https://arxiv.org/abs/2604.05963) | 该论文提出PRepair框架，通过Self-Breaking缺陷程序生成和基于编辑感知奖励的EA-GRPO训练，抑制大语言模型代码修复中的过度编辑问题，实现最大化复用正确代码、仅修复缺陷部分的精确修复，修复精确度最高提升31.4%。 |
+| [^98] | [Automated Code Efficiency Optimization via Agent Skill Mining](https://arxiv.org/abs/2603.27850) | 本文提出EffiSkill两阶段框架，将慢代码到快代码的常见转换挖掘并沉淀为记录意图、适用性、流程、效果与风险的“算子技能”卡片库，使LLM无需执行反馈即可诊断程序、检索技能并生成多个候选优化方案，从而自动提升代码效率。 |
+| [^99] | [RepoLaunch: Automating Build and Management of Code Repositories across Languages and Platforms](https://arxiv.org/abs/2603.05026) | RepoLaunch是一个跨多种编程语言和操作系统的智能体框架，能够自动解决依赖、编译源代码并提取测试结果，构建成功率达78%（超越仅支持Python/Linux的先前系统18%），并支撑了仅需任务设计阶段人工输入的全自动SWE数据集创建流水线。 |
+| [^100] | [Clawdrain: Exploiting Tool-Calling Chains for Stealthy Token Exhaustion in OpenClaw Agents](https://arxiv.org/abs/2603.00902) | Clawdrain是一种木马化的OpenClaw技能，它通过分段验证过程（SVP）利用工具调用链制造高成本的多轮调用，在保持最终任务输出合法的同时隐蔽地耗尽LLM智能体的令牌资源，实现2-16倍的令牌放大。 |
+| [^101] | [Will It Survive? Deciphering the Fate of AI Agent-Authored Code in Open Source](https://arxiv.org/abs/2601.16809) | 本研究通过对215个开源仓库中约65万行代码的生存分析发现，AI智能体编写的代码并不比人类代码更快被修改，甚至在同等条件下存活时间更长，从而有力反驳了“智能体代码是一次性的”这一担忧。 |
+| [^102] | [VeruSAGE-Bench: A Benchmark Suite for Rust System Verification](https://arxiv.org/abs/2512.18436) | 该论文构建了首个面向真实系统级形式化验证的基准测试套件VeruSAGE-Bench，包含从八个经Verus验证的开源Rust系统中提取的849个证明任务，其形式化规约规模平均是以往基准的20倍以上，并用它系统评估了六个大语言模型的软件系统证明能力。 |
+| [^103] | [Comparative Evaluation of Embedding Representations for Financial News Sentiment Analysis](https://arxiv.org/abs/2512.13749) | 本研究在仅有349条金融新闻标题的小数据集上，比较评估了Word2Vec、GloVe和句子变换器嵌入结合梯度提升的情感分类效果，发现预训练嵌入在数据不足时收益递减，且小验证集易导致模型选择中的过拟合。 |
+| [^104] | [A Survey of Bugs in AI-Generated Code](https://arxiv.org/abs/2512.05239) | 本文通过系统性文献综述，首次全面梳理了AI生成代码中缺陷的类型、模式、分布及其与特定AI编程系统的关联和相应的修复策略，揭示了缺陷在AI生成代码中的普遍性。 |
+| [^105] | [Beyond Synthetic Benchmarks: Evaluating LLM Performance on Real-World Class-Level Code Generation](https://arxiv.org/abs/2510.26130) | 该论文提出了基于真实开源仓库构建的RealClassEval基准，用于评估大语言模型在类级别代码生成上的真实能力，揭示了此前被合成基准所掩盖的模型根本性局限。 |
+| [^106] | [The EmpathiSEr: Development and Validation of Software Engineering Oriented Empathy Scales](https://arxiv.org/abs/2510.12546) | 该研究开发并验证了首个专门面向软件工程情境的共情测量量表EmpathiSEr，填补了软件工程领域缺乏有效共情测量工具的空白。 |
+| [^107] | [Oops!... I did it again. Analysing and Handling Conclusion (In-)Stability in Socio-Technical Software Engineering](https://arxiv.org/abs/2510.06844) | 本研究通过用四个独立挖掘工具正式复现三项已发表的社会技术软件分析研究，揭示了不同工具流水线在数据、结果与结论上的不稳定性，并为研究者和从业者提供了应对此类效度威胁的可操作建议。 |
+| [^108] | [UniSage: A Unified and Diagnosis-Driven Sampling Framework for Microservice Systems](https://arxiv.org/abs/2509.26336) | UniSage是一个面向微服务系统的统一且诊断驱动的采样框架，它通过将轻量级分析集成到采样流水线中指导数据保留决策，并统一处理追踪与日志的采样，从而避免“先采样后分析”范式丢失关键诊断证据、以及追踪与日志上下文关联被破坏的问题。 |
+| [^109] | [OpenClassGen: A Large-Scale Corpus of Real-World Python Classes for LLM Research](https://arxiv.org/abs/2504.15564) | OpenClassGen是一个从约3,000个开源项目中提取的包含32万余个真实Python类的大规模语料库，每个类均配有自包含的骨架和27项静态代码指标，为类级别代码生成的训练与评估提供了迄今最大规模的资源。 |
 
 # 详细
 
@@ -1065,7 +1066,21 @@
 
     arXiv:2611.18566v1 Announce Type: new  Abstract: Empirical research on software architecture maintenance and evolution is hindered by the scarcity of large-scale, validated, and richly annotated model datasets. Existing benchmarks are limited in scale, provide only model-level annotations, or lack alignment with reference architectures, thereby restricting reproducible studies of architectural reuse, conformance, and AI-driven analysis. To address this gap, we present A3D, a curated dataset of 1,115 Architecture Analysis and Design Language (AADL) models mined from public GitHub repositories and validated with the OSATE tool. The dataset spans 7 generic domains and 52 specific-problem clusters, and provides two annotation layers: (i) domain- and problem-level labels, which capture different model aggregation criteria, and (ii) component-level mappings to three reference architectures, which have been externally validated through a user study. Models are released in AADL and JSON format
     
-[^69]: ProofCoder：面向自动化软件验证的连续推理
+[^69]: 通过文化分析实现更安全的软件开发：Log4Shell 漏洞是如何发生的？
+
+    More Secure Software Development via Cultural Analysis: How could Log4Shell happen?
+
+    [https://arxiv.org/abs/2611.18565](https://arxiv.org/abs/2611.18565)
+
+    该论文提出通过文化分析方法找出开发团队中导致漏洞产生的特定文化价值观并加以修正，以期在积累足够案例后为整个开发社区总结出可复用的安全开发规律。
+
+    
+
+    避免漏洞方面的进展甚微。文化分析或许能提供帮助：针对给定的团队，找出导致过去漏洞的特定文化价值观，然后在未来的开发中相应地调整这些价值观。在积累了足够多的此类研究之后，很可能会涌现出对整个开发社区都适用的规律模式。
+
+    arXiv:2611.18565v1 Announce Type: new  Abstract: There is little progress avoiding vulnerabilities. Cultural analysis may help: For a given team, find the specific cultural values that led to a past vulnerability, then modify the values accordingly for the future. After enough such studies, patterns will likely emerge that are useful for the development community at large.
+    
+[^70]: ProofCoder：面向自动化软件验证的连续推理
 
     ProofCoder: Continuous Reasoning for Automated Software Verification
 
@@ -1079,7 +1094,7 @@
 
     arXiv:2611.14106v1 Announce Type: cross  Abstract: Formal verification using proof assistants provides strong correctness guarantees for software, but constructing proofs remains labor-intensive and requires significant expertise. Recent approaches based on large language models (LLMs) have shown promise in automating proof synthesis. However, these approaches typically constrain the model to a rigid tactic-generation loop, in which the surrounding system controls premise retrieval, proof-state management, and backtracking. We introduce ProofCoder, an agentic proof-synthesis system for Rocq that approaches theorem proving from a coding-agent perspective. Rather than generating tactics within a fixed loop, ProofCoder reasons continuously throughout proof search and uses proof-assistant feedback to decide when to gather additional information, inspect proof states, revise previously generated proof fragments, or backtrack to an earlier point in the proof. This allows it to iteratively co
     
-[^70]: LLM智能体通过共享内存实现的无提示协调：一项加锁双重实现的复现与扩展研究
+[^71]: LLM智能体通过共享内存实现的无提示协调：一项加锁双重实现的复现与扩展研究
 
     Unprompted coordination through shared memory in LLM agents: a locked two-implementation replication and extension
 
@@ -1093,7 +1108,7 @@
 
     arXiv:2611.12412v2 Announce Type: replace-cross  Abstract: Coordination between large language-model agents has become a central question for AI safety and software engineering, as such agents are deployed in groups that share infrastructure. Existing research typically tells the agents that partners exist or asks them to coordinate. Whether coordination arises through shared state alone, with nothing disclosing that anyone else is present, is the key question for deployments that share caches and memory between agents, yet it has rarely been examined, and to our knowledge not with independent replication; this study does both. Four agents each received a short arithmetic task and a key-value store presented to each as its own scratch space; two held complementary halves of one computation, and no prompt mentioned other agents, sharing or collaboration. For reliability, the environment was rebuilt independently from a written protocol, and both implementations ran under hashed locks on
     
-[^71]: 偶然的安全：对大语言模型生成代码的崩溃测试
+[^72]: 偶然的安全：对大语言模型生成代码的崩溃测试
 
     Safe by Accident: Crash-Testing LLM-Written Code
 
@@ -1107,7 +1122,7 @@
 
     arXiv:2611.10585v2 Announce Type: replace  Abstract: Evaluations of LLM-written code run it once, in one environment, and credit the code with whatever passes. We show that this credit can belong to the environment. We crashed LLM-written backend code just before each database, file and email call, re-ran it as an operator would, and judged the result under two transaction modes of Python's sqlite3: the default, in which the library quietly opens a transaction, and autocommit, in which it does not. Across 9,100 solutions from ten models on 24 backend tasks, more than half (54%) of the database code that survives every crash in the default mode is left half-updated in autocommit mode. This holds for every model, and it hides in ordinary code, including with conn: blocks that look like transactions but open none. Telling the model that its connection is in autocommit mode does not change what the local code models write, while the API models' unsafe share falls by 30 points. Asking for c
     
-[^72]: 提取重构无法精简什么，函数注入能否做到：一项针对580个Java代码库的预注册研究
+[^73]: 提取重构无法精简什么，函数注入能否做到：一项针对580个Java代码库的预注册研究
 
     What extraction cannot slim, and whether function injection can: a pre-registered study of 580 Java repositories
 
@@ -1121,7 +1136,7 @@
 
     arXiv:2611.10545v2 Announce Type: replace  Abstract: A method of 26 code lines or more reads as a Long Method, and Extract Method is the usual fix. Some long methods have no single-exit fix: a return cannot leave an extracted piece, a piece hands back one value, and some methods are knotted so that every cut is blocked. Function injection, as the OfficeFloor framework does it, cuts differently: each piece becomes a function the framework injects and sequences, an early return ends a function, and a function hands on several values. The framework's author pre-registered a test of whether it takes apart what extraction cannot. A stratified random sample of 580 open-source Java repositories, each pinned before AI coding assistants were in general use, was scanned by released tools whose cost models were fixed before the sample was drawn: 3,026,902 methods, 168,466 of them long. Single-exit extraction cannot slim 22.9% of the long methods. The registered hypothesis, that at least a quarter
     
-[^73]: BOXBOX：面向长期运行性能优化的递归式智能体框架自我改进
+[^74]: BOXBOX：面向长期运行性能优化的递归式智能体框架自我改进
 
     BOXBOX: Recursive Harness Self-Improvement for Long-Running Performance Optimization
 
@@ -1135,7 +1150,7 @@
 
     arXiv:2611.09218v1 Announce Type: new  Abstract: Automated harness optimization improves agents by learning from trajectories and task feedback. Existing offline methods use reference answers to optimize harnesses for reuse on held-out tasks. However, many real-world tasks are open-ended, while long runs expose new difficulties that offline-optimized harnesses may not address. To study harness optimization in these settings, we introduce PerfRace, a benchmark for long-running performance optimization of software projects, and investigate whether agents can use task-specific experience to recursively improve their harnesses during an ongoing task. To this end, we introduce BOXBOX, which enables agent-triggered harness revision and kernel-managed hot reloading while preserving execution context. We evaluate BOXBOX on PerfRace under matched test-time budgets, comparing it with Frozen Harness, offline Harness Evolution, and Harness Scaling. BOXBOX achieves higher speedup with more efficien
     
-[^74]: 重新思考AI智能体的访问控制：最新进展与开放挑战
+[^75]: 重新思考AI智能体的访问控制：最新进展与开放挑战
 
     Rethinking Access Control for AI Agents: Recent Advances and Open Challenges
 
@@ -1149,7 +1164,7 @@
 
     arXiv:2611.06764v1 Announce Type: new  Abstract: Large language model agents access data, invoke tools, and act on users' behalf. Keeping these actions within authorized bounds is challenging because agents choose their own execution paths while permissions and operating conditions may change. This paper surveys recent advances in agent access control across four areas: policy specification and derivation, identity and delegation, action and resource enforcement, and information flow control. We compare their control objects, enforcement boundaries, and assumptions to examine what individual mechanisms achieve and how they can work together. Building on this analysis, we rethink four aspects of authorization: plan selection shapes permission requirements; contextual information can inform decisions without itself granting authority; restrictions must retain their meaning across system interfaces; and authorization must be reassessed as workflows evolve. These insights motivate open cha
     
-[^75]: IssueLighter：一种感知问题类型的LLM智能体，用于问题报告有效性评估
+[^76]: IssueLighter：一种感知问题类型的LLM智能体，用于问题报告有效性评估
 
     IssueLighter: An Issue Type-Aware LLM Agent for Issue Report Validity Assessment
 
@@ -1163,7 +1178,7 @@
 
     arXiv:2611.02721v2 Announce Type: replace-cross  Abstract: Invalid issue reports are prevalent in open source software (OSS) projects, imposing substantial burdens on maintainers who already face a high risk of burnout. Prior research has primarily focused on identifying invalid reports for specific issue categories (e.g., bug and wontfix), leaving the broader landscape of OSS issue types largely unexplored and limiting the generalizability of existing approaches. Moreover, existing methods provide little support for explaining or validating their predictions, reducing their practical usefulness for maintainers. With the rise of LLM-based agents, it remains unclear whether a comprehensive understanding of the causes of invalidity across all issue types can improve validity assessment performance while producing well-grounded rationales. To this end, we first manually annotated the validity status of 520 issue reports from three OSS projects, i.e., pandas, scikit-learn, and mypy, result
     
-[^76]: 审阅者所称的长方法只是一种长度：一项将耦合散度作为上帝单元信号的预注册测试，以及它最终实际证实的内容
+[^77]: 审阅者所称的长方法只是一种长度：一项将耦合散度作为上帝单元信号的预注册测试，以及它最终实际证实的内容
 
     What reviewers call a Long Method is a length: A pre-registered test of coupling divergence as a god-unit signal, and what it settled instead
 
@@ -1177,7 +1192,7 @@
 
     arXiv:2611.01636v2 Announce Type: replace  Abstract: A companion study found that a complexity outlier rule shows where complexity concentrates but cannot tell a god unit from a complex algorithm. This paper pre-registered a test of one way to tell them apart: weight a unit's complexity by its coupling divergence, the data it hands on minus the data it receives, so that a leaf is set aside. Coupling was measured by resolving every call in 520 MLCQ repositories, 500 fresh Java repositories and 73 Qualitas Corpus systems. The claim fails: the primary, the pooled MCC of the weighted form minus complexity alone against MLCQ's human Blob, is -0.041 [-0.130, +0.054], no difference resolved and underpowered, and the resolved readings go against it. What the data settle is at method level. What MLCQ's reviewers call a Long Method is an absolute length: a constant of 26 lines or more, chosen on the explore half, reaches MCC 0.777 on the confirm half, +0.080 [+0.016, +0.145] over the best per-re
     
-[^77]: 人工智能合成软件演化中的软件变更请求
+[^78]: 人工智能合成软件演化中的软件变更请求
 
     Software Change Request in AI-Synthesized Software Evolution
 
@@ -1191,7 +1206,7 @@
 
     arXiv:2611.00294v2 Announce Type: replace  Abstract: Mobile app stores are a rich source of user feedback containing many change requests, bug reports, improvement suggestions, etc., relevant to the post-deployment modification of software. However, it is challenging to manually translate this free format data to actionable change requests (SCRs). This review presents studies that have applied rule-based techniques, traditional ML approaches, topic modelling, hybrid approaches, and a few deep learning approaches. The data sets used range from small annotated sets to millions of reviews. However, there is inconsistency in the names, availability, annotation guidelines and sampling methods used across different studies. Many studies use Bag-of-Words and TF-IDF, while Na\"ive Bayes, Support Vector Machines, Decision Trees and Random Forest are frequently applied. Precision, Recall and F1-scores are commonly used for evaluation; however, results and experiments are not easily comparable. S
     
-[^78]: 昨天的代码，今天的依赖：依赖选择如何塑造PHP迁移基准测试
+[^79]: 昨天的代码，今天的依赖：依赖选择如何塑造PHP迁移基准测试
 
     Yesterday's Code, Today's Dependencies: How Dependency Selection Shapes PHP Migration Benchmarks
 
@@ -1205,7 +1220,7 @@
 
     arXiv:2610.41263v1 Announce Type: new  Abstract: Migration benchmarks need projects whose tests pass before migration begins. Yet an old project can behave differently without any change to its code. Reinstalling it today may introduce newer libraries, changing both its initial test results and the failures observed during migration.   We investigate this effect in PHP 7.4-to-8.3 migration. Using unchanged project source and saved package records, we compare two dependency policies. Modern selection allows all versions in the snapshot, while release-date selection allows only versions published by the project's release date. With Composer 2 fixed, release-date selection improves the PHP 7.4 pass rate by 7.1 pp across 3,660 releases. A separate comparison against committed locks shows that it also recovers recorded dependency versions more closely than modern selection.   The choice matters after migration as well. Among projects that pass on PHP 7.4 under both policies, PHP 8.3 test ou
     
-[^79]: 骨架编码：将程序结构作为智能体的规约
+[^80]: 骨架编码：将程序结构作为智能体的规约
 
     Skeleton Coding: Program Structure as a Specification for Agents
 
@@ -1219,7 +1234,7 @@
 
     arXiv:2610.38214v1 Announce Type: cross  Abstract: Coding agents are typically provided end-to-end behavioral specifications that the code they produce should satisfy, such as tests and input--output examples. How many such specifications must a developer provide, and which ones, for the agent to produce the developer's intended program? We argue that this cannot be determined a priori, for it depends on the structure of the implementation, which is left to the agent to decide. An agent first commits to a structure---a decomposition into data types, modules, and functions---which fixes a class of candidate programs; behavioral specifications then select a program within that class. A set of tests that suffices for one structure may leave another badly underdetermined, requiring different edge cases or exponentially more examples. Since the structure is chosen by the agent, developers cannot ensure their specification is complete without reverse-engineering it from thousands of lines of
     
-[^80]: 谁来验证工具？失真的格式化输出如何误导智能体及其验证器
+[^81]: 谁来验证工具？失真的格式化输出如何误导智能体及其验证器
 
     Who Verifies the Tools? How Warped Formatters Mislead Agents and Their Verifiers
 
@@ -1233,7 +1248,7 @@
 
     arXiv:2610.32110v1 Announce Type: new  Abstract: Agents and verifiers often rely on the text a tool prints, and that text can misrepresent what the tool actually did, even when the tool's computation is correct. We saw this happen in a production RAG research system used by the Pilsudski Institute in New York, where tool output formatters misled an agent into giving wrong or incomplete information to users. Each tool did its job correctly, but its output omitted search limits, result caps, or identifier namespaces. We also recreated an unlabeled estimate caught in code review before release. We studied whether these formatters misled agents and verifiers and how much the repaired wording helps. We fed tool results to agents using two formatter versions: one with the key omissions and one with all missing details clearly stated. That difference alone changed what the agents claimed and what the verifiers accepted. Unsupported agent claims dropped substantially for three of the four fail
     
-[^81]: QuSema：利用量子知识增强智能体检测量子库中的静默缺陷
+[^82]: QuSema：利用量子知识增强智能体检测量子库中的静默缺陷
 
     QuSema: Detecting Silent Bugs in Quantum Libraries via Quantum-knowledge-enhanced Agents
 
@@ -1247,7 +1262,7 @@
 
     arXiv:2610.10258v1 Announce Type: new  Abstract: Quantum libraries are now critical infrastructure for quantum algorithm development, yet their correctness remains difficult to test. Existing testing techniques mainly rely on failure-based or comparison-based oracles, exposing bugs only when executions fail, violate runtime checks, or disagree with another implementation. Their applicability is limited when suitable execution-based oracles are unavailable, leaving some silent bugs undetected. Such missed bugs can produce incorrect results that propagate into experimental conclusions, simulation studies, and algorithmic designs. Here we present QuSema, an autonomous testing agent for finding silent bugs in quantum libraries. QuSema uses constraints from quantum semantics and documentation as a source-level semantic oracle to assess whether implementation logic can produce invalid outputs from valid inputs. It operates through an agentic loop that repeatedly inspects library API document
     
-[^82]: 发现AppWorld与WorkArena任务验证器中的盲点
+[^83]: 发现AppWorld与WorkArena任务验证器中的盲点
 
     Finding Blind Spots in AppWorld and WorkArena Task Verifiers
 
@@ -1261,7 +1276,7 @@
 
     arXiv:2610.09142v1 Announce Type: cross  Abstract: Execution-based task verifiers decide whether an agent succeeded. We audit shipped AppWorld and WorkArena verifiers with source-informed mutation tests. The main audit never modifies a shipped checker.   In AppWorld, duplicating a non-idempotent write creates an extra record while preserving every checked field value. The verifier accepts all three task variants from two of five eligible generators: 6/15 constructed effects. A cardinality patch applied to checker copies after the census makes all six cells fail while preserving valid controls.   In WorkArena, we prospectively rerun 23 extra-field candidates selected for earlier checker-PASS outcomes. Independent Table API readback confirms nondefault persisted values in 21, while all 23 receive PASS. Two requested strings are aliases of stored defaults. The 21 confirmed wrong effects span three form templates. These selected cases confirm wrong effects under the audit's protocol; they 
     
-[^83]: KernelZero：共同演化的提议者与编码器，实现持续改进的GPU内核生成
+[^84]: KernelZero：共同演化的提议者与编码器，实现持续改进的GPU内核生成
 
     KernelZero: Co-Evolving Proposer and Coder for Continuously Improved GPU Kernel Generation
 
@@ -1275,7 +1290,7 @@
 
     arXiv:2609.33074v2 Announce Type: replace  Abstract: High-performance GPU kernels are essential to modern machine learning systems, yet automatically generating kernels that are both correct and efficient remains challenging. Existing LLM-based approaches face two major limitations: the scarcity of high-quality training data aligned with the model's current capabilities, and the inherent trade-off between kernel correctness and performance. To address these challenges, we propose KernelZero, a co-evolution framework that continuously improves GPU kernel generation through two specialized models: a Proposer that generates Torch modules from API sets and a Coder that translates them into CUDA or Triton kernels. KernelZero uses a frontier-driven module generation mechanism to continuously produce capability-aligned training modules based on the Coder's current weaknesses. It further introduces Correctness-Aware Group Relative Policy Optimization (CA-GRPO), which optimizes performance only
     
-[^84]: 当工具调用成功但工作流失败时：智能体-工具边界的异常
+[^85]: 当工具调用成功但工作流失败时：智能体-工具边界的异常
 
     When Tool Calls Succeed but Workflows Fail: Anomalies at the Agent-Tool Boundary
 
@@ -1289,7 +1304,7 @@
 
     arXiv:2609.15397v1 Announce Type: new  Abstract: AI agents increasingly execute long-running workflows that externalize effects through independently supplied tools. Under retries, speculative execution, concurrency, and partial failures, the resulting external state may be inconsistent with the workflow's intended resolution: required effects may be missing or duplicated, aborted effects may survive, and committed effects may depend on provisional state that is later withdrawn. Advanced transaction models address related failures, but assume that lower-level operations expose the semantics they depend on: whether an effect occurred, whether it can be compensated, staged, or safely reordered. Shared agent-tool interfaces usually do not.   We contribute an effect-history model that separates events in the external world from the runtime's observations of them, and a catalog of eight recurring external-effect anomalies. From the catalog we derive the boundary capabilities required to exc
     
-[^85]: Claude Code 完整用户手册
+[^86]: Claude Code 完整用户手册
 
     Claude Code Complete User Handbook
 
@@ -1303,7 +1318,7 @@
 
     arXiv:2608.26742v1 Announce Type: cross  Abstract: Claude Code is an agentic work environment: a language model operating in a loop with filesystem access, shell execution, browser control, scheduled and cloud execution, external tool connections through the Model Context Protocol, and multi-agent orchestration. Its capability envelope now exceeds what one practitioner can supervise by attention alone, and its failure modes are systemic rather than local: an unreviewed hook, an over-scoped connector, a stale completion condition, an autonomous routine inheriting every credential on an account. This book is a task-oriented reference for operating that system safely and productively, written for practitioners accountable for the result. It advances four propositions. First, capability without a defined and observable completion condition is not productivity. Second, instruction, permission enforcement, sandboxing and operating-system isolation are four distinct layers of a control stack,
     
-[^86]: SPECMINE：一个大规模的规范驱动开发工件语料库
+[^87]: SPECMINE：一个大规模的规范驱动开发工件语料库
 
     SPECMINE: A Large-Scale Corpus of Spec-Driven Development Artifacts
 
@@ -1317,7 +1332,7 @@
 
     arXiv:2608.25202v1 Announce Type: new  Abstract: Spec-Driven Development (SDD) is a fast-emerging practice in which a structured natural-language specification, written by a developer, or (more often) drafted by an AI tool and then curated by the developer, drives an AI coding agent's implementation. A wave of tooling (GitHub Spec Kit [3], OpenSpec [4], AWS Kiro [5], and dozens of others) has appeared since 2025, yet the artifacts these tools produce have never been studied at scale. We present SPECMINE, a corpus that captures SDD in public GitHub repositories through two censuses: a broad census of spec.md/specs.md files covering most tools (470,795 files across 73,030 repositories, attributed to 17 named tools), and a Kiro census of its distinct requirements/design/tasks layout (98,574 files across 12,910 repositories). Each spec is enriched with full repository metadata, complete commit history, and parsed document structure. How a spec becomes code is itself an open question, so fo
     
-[^87]: eIRWR：用于微服务可扩展根因分析的增强型带重启迭代随机游走
+[^88]: eIRWR：用于微服务可扩展根因分析的增强型带重启迭代随机游走
 
     eIRWR: Enhanced Iterative Random Walk with Restart for Scalable Root Cause Analysis in Microservices
 
@@ -1331,7 +1346,7 @@
 
     arXiv:2608.08073v2 Announce Type: replace-cross  Abstract: Root cause analysis (RCA) in microservice systems must find the faulty service behind symptoms that spread across hundreds or thousands of dependent services. Graph-based random walk methods propagate anomaly evidence over the service dependency graph. However, existing anomaly-restart walks restart from the raw anomaly vector, which is often dominated by strongly anomalous downstream victims rather than the less anomalous source. Through a controlled ablation of a basic anomaly-restart walk, the Iterative Random Walk with Restart (IRWR), we show that its ``resilience damping'' is equivalent to a higher restart probability in Personalized PageRank (PPR). Basic IRWR is therefore no stronger than a restart-tuned PPR, which we adopt as a fairer baseline. We then present Enhanced IRWR (eIRWR), which goes beyond restart tuning. It (a)~concentrates restart mass on the most suspicious nodes through power-law sharpening and (b)~adds se
     
-[^88]: LangChoiceBench：测量与解释大语言模型中的编程语言选择
+[^89]: LangChoiceBench：测量与解释大语言模型中的编程语言选择
 
     LangChoiceBench: Measuring and Explaining Programming-Language Choice in LLMs
 
@@ -1345,7 +1360,7 @@
 
     arXiv:2608.06041v2 Announce Type: replace-cross  Abstract: Large language models (LLMs) have been shown to exhibit strong Python preferences when generating project-level code, but there is currently no systematic way to measure this behaviour across new models. To bridge this gap, we introduce LangChoiceBench, a project-level code-generation benchmark for measuring Python preference, recommendation-implementation consistency, and language diversity. LangChoiceBench covers 28 projects across seven software areas where Python is often a poor default. We evaluate 25 diverse LLMs and find that Python remains heavily over-selected, recommendation-implementation consistency is low, and smaller open-weight models generally show stronger Python preference and lower language diversity. We further analyse 9,826 reasoning traces and find that most Python choices are automatic or driven primarily by ease, rather than explicit consideration of project requirements. In a smaller but important set o
     
-[^89]: Change2Task：从仓库变更到可执行的编码智能体任务与环境
+[^90]: Change2Task：从仓库变更到可执行的编码智能体任务与环境
 
     Change2Task: From Repository Changes to Executable Coding Agent Tasks and Environments
 
@@ -1359,7 +1374,7 @@
 
     arXiv:2607.28591v2 Announce Type: replace-cross  Abstract: Scaling coding agents requires a continuing supply of executable data for training, benchmarking, and continuous evaluation. Each task must couple a realistic software state with a specification, development tools, and reliable verification. To expand this supply, we present Change2Task, a system grounded in repository history that converts merged pull requests (PRs) into verified tasks on healthy modern revisions of the same repository. It aligns historical evidence with evolved code, reconstructs task states through Patch Reversal, Code Mapping, or Agent Reconstruction, and validates the lifecycle from a healthy base to a task state and a restored state. By deriving multiple tasks grounded in developer evidence from maintained environments, Change2Task provides executable data for coding agent training and evaluation while reducing repeated environment setup, storage, and task construction effort. We evaluate five coding agen
     
-[^90]: 代码锚定的评审反馈提高正确性并降低大型R文件的托管编辑成本
+[^91]: 代码锚定的评审反馈提高正确性并降低大型R文件的托管编辑成本
 
     Code-Anchored Review Feedback Improves Correctness and Lowers Hosted Editing Cost on Large R Files
 
@@ -1373,7 +1388,7 @@
 
     arXiv:2607.12713v2 Announce Type: replace-cross  Abstract: Tokens drive the cost and latency of generative AI (GAI) code editing, and correctness decides whether an edit is useful. We study how the format of a reviewer's feedback, a human-AI collaboration (HAIC) channel, impacts both. In a paired experiment on 36 synthetic base-R tasks with seven models, the same requested changes were delivered as a holistic list (control) or as the export of FileMark (treatment). That code-review extension anchors each comment to the code it concerns and quotes it. For the typical task, total tokens changed by -4.2% to +14.7% across models, while output tokens fell by 14.7% (Claude Opus) and 50.5\% (Claude Sonnet). Since an output token costs five times as much as an input token, the hosted cost of an edit on files over 100 lines fell by 20.0% (Opus) and 46.3% (Sonnet). The treatment raised the correct-run share of four of five local models by 24% to 46%. A decomposition experiment places these gains
     
-[^91]: Flex：一个基础性的、可产生证明的Horn求解器
+[^92]: Flex：一个基础性的、可产生证明的Horn求解器
 
     Flex: A Foundational Proof-Producing Horn Solver
 
@@ -1387,7 +1402,7 @@
 
     arXiv:2607.12226v2 Announce Type: replace-cross  Abstract: Constrained Horn Clauses (CHCs) are a versatile intermediate representation for program verification, but leading CHC solvers rely on SMT-based reasoning over supported background theories. Specifications involving user-defined recursive functions or bespoke operators can require additional semantic encodings and reasoning beyond these theories. We observe that CHCs are existentially quantified propositions in a foundational logic, and so can be proved within an interactive theorem prover, where specifications can use native definitions, and users can complete proofs when automation stalls. However, in a foundational setting, every Horn variable solution must be justified by a kernel-checked proof. We present Flex, a proof-producing CHC solver implemented as a Lean metaprogram, that combines predicate synthesis with proof construction. Flex comprises a suite of tactics: Zap, which synthesizes strongest predicates for acyclic Ho
     
-[^92]: 挖掘工作流图用于对话式LLM智能体的黑盒边界测试
+[^93]: 挖掘工作流图用于对话式LLM智能体的黑盒边界测试
 
     Mining Workflow Graphs for Black-Box Boundary Testing of Conversational LLM Agents
 
@@ -1401,7 +1416,7 @@
 
     arXiv:2607.06873v2 Announce Type: replace  Abstract: Failures of conversational LLM agents can have real-world consequences, for example when an agent completes a transaction without the user's confirmation. An important class of such failures occurs at workflow boundaries, such as identity checks and confirmation steps, which a test can reach only after several turns of conversation. We present AgentEval, a black-box testing framework that discovers and tests these boundaries. AgentEval interacts with an agent to mine a conversational workflow graph, a model of its behavior whose nodes are the agent's activities and whose edges are the user actions observed between them. It generates tests at each node of this graph, replaying the conversational path to that node before applying a perturbation. AgentEval then runs each test, and a separate LLM judge decides whether it passes or fails using only the conversation turns. We benchmark AgentEval against a privileged, white-box auditor with
     
-[^93]: AutoCedar：一个验证器引导的访问控制策略合成智能体框架
+[^94]: AutoCedar：一个验证器引导的访问控制策略合成智能体框架
 
     AutoCedar: An Agentic Framework for Verifier-Guided Access Control Policy Synthesis
 
@@ -1415,7 +1430,7 @@
 
     arXiv:2607.03656v2 Announce Type: replace-cross  Abstract: Large Language Models are increasingly used to turn natural-language requirements into code. In access control, that shortcut is dangerous: a generated policy can compile and read correctly while granting access that no one approved. The difficulty is not only writing policy code. It is fixing what the requirements mean before code is written, and then checking that the final policy actually satisfies that intent. We present AutoCedar, a verifier-guided system that first turns natural-language access-control requirements into a reviewed, checkable target, and then synthesizes Cedar policies against that target. AutoCedar decomposes schema and policy authoring into small intent atoms: reviewable claims about vocabulary and behavior. Once those atoms pass mechanical validation and human intent review, the model proposes a candidate policy, the verifier checks it against the approved target, and each failure is turned into a repai
     
-[^94]: 智能体AI是否已为真实世界的硬件工程做好准备？基于Phoenix-bench的深入探究
+[^95]: 智能体AI是否已为真实世界的硬件工程做好准备？基于Phoenix-bench的深入探究
 
     Is Agentic AI Ready for Real-World Hardware Engineering? A Deep Dive with Phoenix-bench
 
@@ -1429,7 +1444,7 @@
 
     arXiv:2605.15226v2 Announce Type: replace-cross  Abstract: We ask whether agentic AI systems built for software engineering transfer to realistic hardware engineering. Existing hardware LLM benchmarks isolate sub-tasks but none jointly requires repository navigation, hierarchy-aware localization, Electronic Design Automation (EDA) executable verification, and maintenance-style patching. We introduce \textbf{Phoenix-bench}, a synchronized corpus of 511 verified Verilator instances from 114 GitHub repositories, each shipped with the developer patch, design-flow labels, fail-to-pass and pass-to-pass testbenches, and a Docker-pinned EDA environment so resolved-rate differences reflect agent behavior rather than toolchain availability. Using Phoenix-bench we run a uniform evaluation of four commercial agents and eight open-source agentic structures across four LLM backbones, plus two diagnostic interventions (file-level oracle localization and one round of testbench-log feedback). Three fin
     
-[^95]: ORACLE-SWE：量化关键信息信号对软件工程代理的贡献
+[^96]: ORACLE-SWE：量化关键信息信号对软件工程代理的贡献
 
     ORACLE-SWE: Quantifying the Contribution of Critical Information Signals on SWE Agents
 
@@ -1443,7 +1458,7 @@
 
     arXiv:2604.07789v3 Announce Type: replace-cross  Abstract: Recent advances in Language Model (LM) agents have increasingly focused on repository-level software engineering (SWE) tasks, leading to various agentic workflows, training methods and failure analysis. Interestingly, rather than directly generating or evaluating edit patches, these approaches first examine and improve intermediate information signals collected during agent exploration, including Reproduction Test, Regression Test, Edit Location, Execution Context, and API Usage. Although different studies examine different subsets of these signals, no work has systematically compared their relative effectiveness in improving final task success or measured the remaining space for improvement in each signal. To address this gap, this work quantifies the contributions of both oracle and agent-extracted signals to final task success and measures the gap between current agent-found signals and their oracle counterparts. We hope our
     
-[^96]: QiMeng-PRepair：基于编辑感知奖励优化的精确代码修复
+[^97]: QiMeng-PRepair：基于编辑感知奖励优化的精确代码修复
 
     QiMeng-PRepair: Precise Code Repair via Edit-Aware Reward Optimization
 
@@ -1457,7 +1472,7 @@
 
     arXiv:2604.05963v2 Announce Type: replace-cross  Abstract: Large Language Models (LLMs) achieve strong program repair performance but often suffer from over-editing, where excessive modifications overwrite correct code and hinder bug localization. We systematically quantify its impact and introduce precise repair task, which maximizes reuse of correct code while fixing only buggy parts. Building on this insight, we propose PRepair, a framework that mitigates over-editing and improves repair accuracy. PRepair has two components: Self-Breaking, which generates diverse buggy programs via controlled bug injection and min-max sampling, and Self-Repairing, which trains models with Edit-Aware Group Relative Policy Optimization (EA-GRPO) using an edit-aware reward to encourage minimal yet correct edits. Experiments show that PRepair improves repair precision by up to 31.4% under $\mathrm{fix}_1@1$, a metric that jointly considers repair correctness and extent, and significantly increases decod
     
-[^97]: 基于智能体技能挖掘的代码效率自动优化
+[^98]: 基于智能体技能挖掘的代码效率自动优化
 
     Automated Code Efficiency Optimization via Agent Skill Mining
 
@@ -1471,7 +1486,7 @@
 
     arXiv:2603.27850v2 Announce Type: replace-cross  Abstract: Code efficiency is a fundamental aspect of software quality, yet how to use large language models (LLMs) to optimize correct programs remains challenging. Prior approaches rely on one-shot rewriting, retrieved exemplars or instructions, fine-tuning, or candidate search. In this paper, we present EffiSkill, a two-stage framework that models recurring slow-to-fast transformations as Operator Skills: persistent cards that record a transformation's intent, applicability, procedure, expected effect, and risks. Stage I distills frozen, language-specific skill libraries from slow/fast program pairs. Stage II diagnoses a new program, retrieves relevant skills, composes alternative plans, and generates up to eight candidates. These steps finish without candidate-execution feedback; public tests then filter and rank candidates, and held-out private tests determine reported correctness and speedup. Across 623 EffiBench-X tasks per languag
     
-[^98]: RepoLaunch：跨语言与平台的代码仓库构建与管理自动化
+[^99]: RepoLaunch：跨语言与平台的代码仓库构建与管理自动化
 
     RepoLaunch: Automating Build and Management of Code Repositories across Languages and Platforms
 
@@ -1485,7 +1500,7 @@
 
     arXiv:2603.05026v4 Announce Type: replace-cross  Abstract: Language model (LM) agents have driven substantial progress in automated software engineering (SWE), yet building and testing software repositories at scale remains a largely manual and labor-intensive bottleneck. In this work, we introduce RepoLaunch, a novel agentic framework that automatically resolves dependencies, compiles source code, and extracts test results across diverse programming languages and operating systems. RepoLaunch achieves a 78% build success rate, outperforming the Python/Linux-only prior system by 18%. To demonstrate its application, we further present a fully automated pipeline for SWE dataset creation driven by RepoLaunch, which only requires human input at the task-design stage. RepoLaunch is open-sourced, and its automated task-generation pipeline has been adopted by several recent works on agentic benchmarking and training.
     
-[^99]: Clawdrain：利用工具调用链对OpenClaw智能体实施隐蔽的令牌耗尽攻击
+[^100]: Clawdrain：利用工具调用链对OpenClaw智能体实施隐蔽的令牌耗尽攻击
 
     Clawdrain: Exploiting Tool-Calling Chains for Stealthy Token Exhaustion in OpenClaw Agents
 
@@ -1499,7 +1514,7 @@
 
     arXiv:2603.00902v3 Announce Type: replace-cross  Abstract: Tool-calling LLM agents rely on third-party skills to extend their capabilities, but this openness exposes a supply-chain attack surface in which malicious skill instructions can manipulate agent execution across multiple turns. In this work, we present Clawdrain, a Trojanized OpenClaw skill that induces resource exhaustion through a Segmented Verification Process (SVP). SVP combines stateful progression, repair-driven repetition, and termination to create costly tool-calling chains while preserving a legitimate final payload. We evaluate Clawdrain in a production-like OpenClaw deployment with real API billing across Gemini 2.5 Pro, DeepSeek V4 Flash, and Claude Sonnet 4.6. Clawdrain achieves 2-16 times token amplification with plain SVP, while the three models exhibit distinct behaviors, including autoregressive compliance, proactive scripting, and extended trial-and-error reasoning. Our findings reveal that agent resource exh
     
-[^100]: 它会存活吗？解读开源项目中AI智能体编写代码的命运
+[^101]: 它会存活吗？解读开源项目中AI智能体编写代码的命运
 
     Will It Survive? Deciphering the Fate of AI Agent-Authored Code in Open Source
 
@@ -1513,7 +1528,7 @@
 
     arXiv:2601.16809v2 Announce Type: replace-cross  Abstract: AI coding agents such as GitHub Copilot, OpenAI Codex and Devin now open pull requests (PRs) that are merged into open-source projects. Industry reports suggest that AI-assisted code is revised or reverted soon after it is written, which raises the concern that agent code is "disposable". However, little is known about what happens to agent code after it is merged. Knowing how long this code survives, and why it is changed, can help maintainers decide how much review it needs. We performed a survival analysis of the 648,959 lines that 2,794 merged PRs added outside vendored and generated paths in 215 open-source repositories from the AIDev dataset, comparing agent-attributed and human code within the same repositories. Agent-attributed code is not modified sooner than human code. When each PR is weighted equally, agent-attributed lines are modified later (HR = 0.83, 95% CI [0.75, 0.93]). This difference comes from the supervise
     
-[^101]: VeruSAGE-Bench：一个用于Rust系统验证的基准测试套件
+[^102]: VeruSAGE-Bench：一个用于Rust系统验证的基准测试套件
 
     VeruSAGE-Bench: A Benchmark Suite for Rust System Verification
 
@@ -1527,7 +1542,7 @@
 
     arXiv:2512.18436v3 Announce Type: replace-cross  Abstract: Large language models (LLMs) have shown impressive capability to understand and develop code. However, their capability to rigorously reason about and formally prove the correctness of software systems remains in question. Current benchmarks for formal proof generation focus on isolated tasks, typically algorithmic-style problems utilizing basic data structures. We curate a new benchmark suite for system-level proof generation, VeruSAGE-Bench, which consists of 849 proof tasks extracted from eight open-source Verus-verified Rust systems, covering operating systems, storage systems, memory allocators, and more. These tasks are much more complicated than those in previous benchmarks, containing on average more than 20x the formal specification (in Lines of Code) and requiring a much broader array of verification techniques. We evaluate six LLMs on VeruSAGE-Bench (o4-mini, GPT-5, Sonnet 4, Sonnet 4.5, Opus 4.5, Qwen3.5), and demon
     
-[^102]: 金融新闻情感分析中嵌入表示的比较评估
+[^103]: 金融新闻情感分析中嵌入表示的比较评估
 
     Comparative Evaluation of Embedding Representations for Financial News Sentiment Analysis
 
@@ -1541,7 +1556,7 @@
 
     arXiv:2512.13749v3 Announce Type: replace-cross  Abstract: Financial sentiment analysis enhances market understanding. However, standard Natural Language Processing (NLP) approaches encounter significant challenges when applied to small datasets. This study presents a comparative evaluation of embedding-based techniques for financial news sentiment classification in resource-constrained environments. Word2Vec, GloVe, and sentence transformer representations are evaluated in combination with gradient boosting on a manually labeled dataset of 349 financial news headlines. Experimental results identify a substantial gap between validation and test performance. Despite strong validation metrics, models underperform relative to trivial baselines. The analysis indicates that pretrained embeddings yield diminishing returns below a critical data sufficiency threshold. Small validation sets contribute to overfitting during model selection. Practical application is illustrated through weekly sen
     
-[^103]: AI生成代码中的缺陷综述
+[^104]: AI生成代码中的缺陷综述
 
     A Survey of Bugs in AI-Generated Code
 
@@ -1555,7 +1570,7 @@
 
     arXiv:2512.05239v2 Announce Type: replace-cross  Abstract: AI coding systems are increasingly used to help developers write code at scale, improving software development efficiency and boosting productivity. While these models and agents have shown strong performance, concerns persist regarding the quality of the AI-generated code. Although prior work has reported a range of quality issues associated with AI-generated code, these findings remain scattered and lack a systematic synthesis. A comprehensive review is lacking that demonstrates the bug types, patterns, distribution, their correlation with specific AI coding systems, and the remediation strategies proposed to address them. To fill this gap, we conduct a systematic literature review of existing studies on AI-generated code to develop a comprehensive understanding of bugs in the generated code and provide a foundation for future improvements in AI-assisted coding. Our results show that bugs are widespread in AI-generated code, 
     
-[^104]: 超越合成基准：评估大语言模型在真实世界类级别代码生成上的性能
+[^105]: 超越合成基准：评估大语言模型在真实世界类级别代码生成上的性能
 
     Beyond Synthetic Benchmarks: Evaluating LLM Performance on Real-World Class-Level Code Generation
 
@@ -1569,7 +1584,7 @@
 
     arXiv:2510.26130v3 Announce Type: replace-cross  Abstract: Large language models (LLMs) have advanced rapidly from well-studied function-level code generation to emerging repository-level approaches, yet this progression reveals a critical gap: class-level code generation, which is the fundamental building block connecting individual functions to complete repositories, remains systematically underexplored. Understanding class-level capabilities is a prerequisite to repository-level success, as current approaches cannot distinguish whether failures stem from basic implementation deficiencies or sophisticated context management issues.   We introduce RealClassEval, a benchmark derived from real-world open-source repositories, comprising 400 classes divided into seen and unseen partitions based on model training cutoffs. Our systematic evaluation across seven state-of-the-art LLMs reveals fundamental limitations masked by synthetic benchmarks: while LLMs achieve 84 to 89% correctness on s
     
-[^105]: EmpathiSEr（共情者）：面向软件工程的共情量表的开发与验证
+[^106]: EmpathiSEr（共情者）：面向软件工程的共情量表的开发与验证
 
     The EmpathiSEr: Development and Validation of Software Engineering Oriented Empathy Scales
 
@@ -1583,7 +1598,7 @@
 
     arXiv:2510.12546v2 Announce Type: replace  Abstract: Empathy plays a critical role in software engineering (SE), for instance in situations where developers interpret non-technical users' frustration with system usability or where product owners account for the technical constraints experienced by engineers during implementation. Such interactions shape collaboration, communication, and user-centred design outcomes. Although SE research has increasingly recognised empathy as a key human aspect, there remains no validated instrument specifically designed to measure it within the unique socio-technical contexts of SE. Existing generic empathy scales, while well-established in psychology and healthcare, often rely on language, scenarios, and assumptions that are not meaningful or interpretable for software practitioners. These scales fail to account for the diverse, role-specific, and domain-bound expressions of empathy in SE, such as understanding a non-technical user's frustrations or a
     
-[^106]: 糟糕！……我又重蹈覆辙了：分析并处理社会技术软件工程中结论的（不）稳定性
+[^107]: 糟糕！……我又重蹈覆辙了：分析并处理社会技术软件工程中结论的（不）稳定性
 
     Oops!... I did it again. Analysing and Handling Conclusion (In-)Stability in Socio-Technical Software Engineering
 
@@ -1597,7 +1612,7 @@
 
     arXiv:2510.06844v3 Announce Type: replace  Abstract: Context: Mining software repositories is a popular means to gain insights into a software project's evolution, monitor project health, support decisions and derive best practices. Tools supporting the mining process are commonly applied by researchers and practitioners, but their limitations and agreement are often not well understood.   Objective: This study investigates some threats to validity in complex tool pipelines for evolutionary socio-technical software analyses. We evaluate the tools' agreement in terms of data, study outcomes and conclusions for the same research questions to derive actionable advice for researchers and practitioners.   Method: We conduct a lightweight literature review to select \emph{three} studies on collaboration and coordination, software maintenance and software quality from high-ranked venues, which we formally replicate with \emph{four} independent, systematically selected mining tools to quantita
     
-[^107]: UniSage：面向微服务系统的统一且诊断驱动的采样框架
+[^108]: UniSage：面向微服务系统的统一且诊断驱动的采样框架
 
     UniSage: A Unified and Diagnosis-Driven Sampling Framework for Microservice Systems
 
@@ -1611,7 +1626,7 @@
 
     arXiv:2509.26336v3 Announce Type: replace  Abstract: Traces and logs are essential observability signals for diagnosing microservice failures, but their massive volume makes full retention prohibitively expensive. Sampling is therefore widely used to reduce storage and analysis overhead. However, existing sampling frameworks suffer from two key limitations. First, they typically follow a sample-before-analysis paradigm, where data is discarded before its diagnostic value is known, risking the loss of critical evidence for downstream analysis. Second, they mainly focus on trace sampling, while logs are either compressed or filtered independently, which can break the contextual linkage between anomalous traces and their explanatory log messages.   To address these limitations, we propose UniSage, a unified and diagnosis-driven sampling framework for microservice systems. UniSage is unified in two senses: it integrates lightweight analysis into the sampling pipeline to guide retention dec
     
-[^108]: OpenClassGen：面向大语言模型研究的大规模真实世界Python类语料库
+[^109]: OpenClassGen：面向大语言模型研究的大规模真实世界Python类语料库
 
     OpenClassGen: A Large-Scale Corpus of Real-World Python Classes for LLM Research
 

@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.18905",
     "context": "Title: Ask Precisely, Assume Wisely: Interactive Evaluation of Ambiguity Resolution in Large Language Models\nAbstract: arXiv:2611.18905v1 Announce Type: new  Abstract: Ambiguity is a core challenge in human--AI interaction, where models must decide when to make assumptions and when to seek clarification. Existing approaches to ambiguity evaluation largely focus on coverage over multiple interpretations using static metrics, offering limited insight into how efficiently a model converges toward a single user-intended interpretation through interaction. We introduce a preference-grounded simulated user framework for controlled, multi-turn evaluation of ambiguity resolution, grounding simulator responses strictly in user disambiguation preferences to avoid hallucination and over-disclosure. Alongside this, we define three observable dissatisfaction signals --- incorrect assumptions, repeating clarifications, and irrelevant clarifications --- that characterize interaction quality beyond task accuracy. Our analysis reveals a clear trade-off: models that frequently seek clarification tend to over-clarify and",
     "path": "papers/26/11/2611.18905.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1236,
+    "translated_title": "精准提问，明智假设：大语言模型歧义消解能力的交互式评估",
+    "translated_abstract": "歧义是人机交互中的核心挑战，模型必须决定何时做出假设、何时寻求澄清。现有的歧义评估方法主要侧重于使用静态指标来覆盖多种可能的解释，对于模型如何通过交互高效地收敛到单一用户意图解释的洞察十分有限。我们提出了一个基于偏好的模拟用户框架，用于对歧义消解进行受控的多轮评估，该框架将模拟器的回应严格建立在用户消歧偏好之上，以避免幻觉和过度披露信息。同时，我们定义了三种可观察的不满意信号——错误假设、重复澄清和不相关澄清——用以刻画任务准确性之外的交互质量。我们的分析揭示了一个明显的权衡：频繁寻求澄清的模型倾向于过度澄清……（原文摘要在此处截断）",
+    "tldr": "该论文提出了一个基于用户消歧偏好的模拟用户框架，并定义了错误假设、重复澄清和不相关澄清三种不满意信号，实现了对大语言模型歧义消解能力的受控多轮交互式评估，并揭示了模型在寻求澄清与过度澄清之间的权衡。",
+    "en_tdlr": "This paper introduces a preference-grounded simulated user framework and three observable dissatisfaction signals for controlled multi-turn interactive evaluation of ambiguity resolution in LLMs, revealing a trade-off between seeking clarification and over-clarifying."
 }

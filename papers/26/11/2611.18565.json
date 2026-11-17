@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.18565",
     "context": "Title: More Secure Software Development via Cultural Analysis: How could Log4Shell happen?\nAbstract: arXiv:2611.18565v1 Announce Type: new  Abstract: There is little progress avoiding vulnerabilities. Cultural analysis may help: For a given team, find the specific cultural values that led to a past vulnerability, then modify the values accordingly for the future. After enough such studies, patterns will likely emerge that are useful for the development community at large.",
     "path": "papers/26/11/2611.18565.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 689,
+    "translated_title": "通过文化分析实现更安全的软件开发：Log4Shell 漏洞是如何发生的？",
+    "translated_abstract": "避免漏洞方面的进展甚微。文化分析或许能提供帮助：针对给定的团队，找出导致过去漏洞的特定文化价值观，然后在未来的开发中相应地调整这些价值观。在积累了足够多的此类研究之后，很可能会涌现出对整个开发社区都适用的规律模式。",
+    "tldr": "该论文提出通过文化分析方法找出开发团队中导致漏洞产生的特定文化价值观并加以修正，以期在积累足够案例后为整个开发社区总结出可复用的安全开发规律。",
+    "en_tdlr": "The paper proposes using cultural analysis to identify and modify the specific cultural values within development teams that led to past vulnerabilities, aiming to derive generalizable patterns for the broader development community after enough such studies."
 }

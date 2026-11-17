@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.19165",
     "context": "Title: From Sensors to Silicon: Causal Cross-Layer Self-Healing Edge AI for Secure and Energy-Adaptive IoT Systems\nAbstract: arXiv:2611.19165v1 Announce Type: new  Abstract: The migration of artificial intelligence from centralized cloud infrastructure to resource-constrained Internet-of-Things (IoT) devices reduces communication latency and improves data locality, but it also tightly couples sensing quality, inference behavior, microarchitectural activity, hardware reliability, security, and energy management within the same physical node. Existing edge-intelligence solutions predominantly address these dimensions in isolation, making it difficult to determine whether an observed degradation originates from sensor malfunction, data-distribution shift, malicious execution, hardware faults, or resource and thermal stress. This paper presents a causal cross-layer self-healing Edge-AI framework that continuously observes synchronized telemetry spanning sensor health, inference uncertainty, processor hardware-performance counters, accelerator and memory activity, power and thermal state, and communication condit",
     "path": "papers/26/11/2611.19165.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1178,
+    "translated_title": "从传感器到硅片：面向安全与能量自适应物联网系统的因果跨层自愈边缘人工智能",
+    "translated_abstract": "人工智能从集中式云基础设施向资源受限的物联网设备的迁移，降低了通信延迟并改善了数据局部性，但同时也将感知质量、推理行为、微架构活动、硬件可靠性、安全性和能耗管理紧密耦合在同一物理节点之中。现有的边缘智能解决方案大多孤立地处理这些维度，导致难以判断所观察到的系统退化究竟源自传感器故障、数据分布偏移、恶意执行、硬件故障，还是资源与热应力所致。本文提出了一种因果跨层自愈的边缘人工智能框架，该框架持续观测同步的遥测数据，涵盖传感器健康状况、推理不确定性、处理器硬件性能计数器、加速器与内存活动、功耗与热状态以及通信状况等信息。",
+    "tldr": "本文提出一种因果跨层自愈边缘AI框架，通过持续监测从传感器健康到硬件性能计数器、功耗热状态等多层同步遥测数据，实现对物联网系统中性能退化根源（传感器故障、分布偏移、恶意执行、硬件故障或资源热应力）的因果诊断与自适应恢复。",
+    "en_tdlr": "This paper presents a causal cross-layer self-healing Edge-AI framework that continuously observes synchronized telemetry across sensor health, inference uncertainty, hardware performance counters, power/thermal state, and communication conditions, enabling root-cause diagnosis of degradations (sensor faults, distribution shift, malicious execution, hardware faults, or resource/thermal stress) and adaptive recovery for secure, energy-adaptive IoT systems."
 }
