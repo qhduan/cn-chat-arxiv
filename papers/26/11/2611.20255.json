@@ -1,0 +1,12 @@
+{
+    "title": "Deep Sequence Model for Genome Wide Discovery of Coding and Regulatory Element Signatures",
+    "abstract": "arXiv:2611.20255v1 Announce Type: new  Abstract: Interpreting deep neural networks for genomic sequence classification remains challenging despite strong predictive performance. We develop a lightweight CNN with post-training gradient-based analysis to identify which sequence positions drive coding versus intergenomic classification. Applied to the standardized demo_coding_vs_intergenomic_seqs dataset, our model achieves 91.87% validation accuracy while revealing interpretable patterns: nine hot spots with consistently high importance, clear class-specific separation at positions 20-100 (coding) and 150-190 (intergenomic), and a strong mean-variance correlation (r = 0.530) indicating robust discriminative features. Gradient-based importance analysis shows that the model implicitly learns biologically meaningful sequence distinctions without explicit annotations. This work demonstrates that neural network interpretability and accuracy can coexist, providing a framework for understanding",
+    "link": "https://arxiv.org/abs/2611.20255",
+    "context": "Title: Deep Sequence Model for Genome Wide Discovery of Coding and Regulatory Element Signatures\nAbstract: arXiv:2611.20255v1 Announce Type: new  Abstract: Interpreting deep neural networks for genomic sequence classification remains challenging despite strong predictive performance. We develop a lightweight CNN with post-training gradient-based analysis to identify which sequence positions drive coding versus intergenomic classification. Applied to the standardized demo_coding_vs_intergenomic_seqs dataset, our model achieves 91.87% validation accuracy while revealing interpretable patterns: nine hot spots with consistently high importance, clear class-specific separation at positions 20-100 (coding) and 150-190 (intergenomic), and a strong mean-variance correlation (r = 0.530) indicating robust discriminative features. Gradient-based importance analysis shows that the model implicitly learns biologically meaningful sequence distinctions without explicit annotations. This work demonstrates that neural network interpretability and accuracy can coexist, providing a framework for understanding",
+    "path": "papers/26/11/2611.20255.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

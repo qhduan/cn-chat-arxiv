@@ -1,0 +1,12 @@
+{
+    "title": "Stochastic Modelling of High-frequency (HF) Crypto Limit Order Book (LOB) with General Compound Marked Hawkes Process",
+    "abstract": "arXiv:2611.20839v1 Announce Type: new  Abstract: The paper is devoted to the stochastic modelling of high-frequency crypto Limit Order Book (LOB) with general compound marked Hawkes process (GCMHP). We consider marked Hawkes process in a general form. LLN and FCLTs with stochastic and constant centralization are stated. Numerical example for high-frequency LOB dataset for BTC (bitcoin) based on sources from HF crypto LOB data is presented as well. The novelty of the paper lies in the new LLN and FCLTs for the GCMHP, and in the new application associated with high-frequency (HF) crypto LOB.",
+    "link": "https://arxiv.org/abs/2611.20839",
+    "context": "Title: Stochastic Modelling of High-frequency (HF) Crypto Limit Order Book (LOB) with General Compound Marked Hawkes Process\nAbstract: arXiv:2611.20839v1 Announce Type: new  Abstract: The paper is devoted to the stochastic modelling of high-frequency crypto Limit Order Book (LOB) with general compound marked Hawkes process (GCMHP). We consider marked Hawkes process in a general form. LLN and FCLTs with stochastic and constant centralization are stated. Numerical example for high-frequency LOB dataset for BTC (bitcoin) based on sources from HF crypto LOB data is presented as well. The novelty of the paper lies in the new LLN and FCLTs for the GCMHP, and in the new application associated with high-frequency (HF) crypto LOB.",
+    "path": "papers/26/11/2611.20839.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

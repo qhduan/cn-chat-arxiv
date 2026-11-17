@@ -1,0 +1,12 @@
+{
+    "title": "UniGraph: A Unified Graph-based Index for Dynamic Hybrid Dense-Sparse Vector Retrieval",
+    "abstract": "arXiv:2611.20758v1 Announce Type: new  Abstract: Hybrid dense-sparse vector retrieval combines semantic signals from dense representations with lexical signals from sparse representations, typically ranking items by a query-dependent weighted sum of dense and sparse vector distances. Existing systems commonly search separate dense and sparse vector indexes and rerank the union of their candidates, incurring two retrieval passes and potentially discarding items that rank highly only after the semantic and lexical signals are combined. Constructing a graph-based index directly under a hybrid distance can mitigate this premature candidate loss. However, because varying the hybrid weight alters the underlying neighborhood relationships, a single static graph built at a fixed weight cannot accommodate dynamic query-specific weights. Therefore, we propose a Unified Hybrid Graph (UniGraph), which merges neighbor sets computed at multiple hybrid weights into a single bounded-degree graph index",
+    "link": "https://arxiv.org/abs/2611.20758",
+    "context": "Title: UniGraph: A Unified Graph-based Index for Dynamic Hybrid Dense-Sparse Vector Retrieval\nAbstract: arXiv:2611.20758v1 Announce Type: new  Abstract: Hybrid dense-sparse vector retrieval combines semantic signals from dense representations with lexical signals from sparse representations, typically ranking items by a query-dependent weighted sum of dense and sparse vector distances. Existing systems commonly search separate dense and sparse vector indexes and rerank the union of their candidates, incurring two retrieval passes and potentially discarding items that rank highly only after the semantic and lexical signals are combined. Constructing a graph-based index directly under a hybrid distance can mitigate this premature candidate loss. However, because varying the hybrid weight alters the underlying neighborhood relationships, a single static graph built at a fixed weight cannot accommodate dynamic query-specific weights. Therefore, we propose a Unified Hybrid Graph (UniGraph), which merges neighbor sets computed at multiple hybrid weights into a single bounded-degree graph index",
+    "path": "papers/26/11/2611.20758.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "ECOD: Experience-Calibrated On-Policy Distillation for Multi-Turn Agents",
+    "abstract": "arXiv:2611.18656v1 Announce Type: new  Abstract: Sparse and delayed rewards make reinforcement learning challenging for long-horizon language agents. On-policy distillation (OPD) complements environmental rewards with dense teacher feedback on student-generated contexts. Standard OPD can misalign supervision with relative teacher competence, student trajectory outcomes, and the temporal structure of task execution. Recent variants adjust guidance through divergence-based weighting and temporal schedules, while joint calibration from task-completion experience remains underexplored. We introduce Experience-Calibrated On-Policy Distillation (ECOD), which allocates teacher supervision at the task, trajectory, and turn levels. ECOD compares teacher and student success-rate posteriors under matched task conditions, restricts direct supervision to failed student trajectories, and derives a temporal prior from successful teacher lengths. The resulting weight applies to teacher losses or teach",
+    "link": "https://arxiv.org/abs/2611.18656",
+    "context": "Title: ECOD: Experience-Calibrated On-Policy Distillation for Multi-Turn Agents\nAbstract: arXiv:2611.18656v1 Announce Type: new  Abstract: Sparse and delayed rewards make reinforcement learning challenging for long-horizon language agents. On-policy distillation (OPD) complements environmental rewards with dense teacher feedback on student-generated contexts. Standard OPD can misalign supervision with relative teacher competence, student trajectory outcomes, and the temporal structure of task execution. Recent variants adjust guidance through divergence-based weighting and temporal schedules, while joint calibration from task-completion experience remains underexplored. We introduce Experience-Calibrated On-Policy Distillation (ECOD), which allocates teacher supervision at the task, trajectory, and turn levels. ECOD compares teacher and student success-rate posteriors under matched task conditions, restricts direct supervision to failed student trajectories, and derives a temporal prior from successful teacher lengths. The resulting weight applies to teacher losses or teach",
+    "path": "papers/26/11/2611.18656.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

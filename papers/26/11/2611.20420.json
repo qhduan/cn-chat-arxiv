@@ -1,0 +1,12 @@
+{
+    "title": "Decorrelation Before Variable Selection: Left and Right Transforms and Their Trade-Off",
+    "abstract": "arXiv:2611.20420v1 Announce Type: cross  Abstract: Decorrelation has two forms. A left transform keeps coefficients and changes noise; a right transform keeps noise and changes coefficients. Cholesky whitening alone keeps noise variables inactive when true ones come first; decorrelation preserving coefficients and noise loses information.",
+    "link": "https://arxiv.org/abs/2611.20420",
+    "context": "Title: Decorrelation Before Variable Selection: Left and Right Transforms and Their Trade-Off\nAbstract: arXiv:2611.20420v1 Announce Type: cross  Abstract: Decorrelation has two forms. A left transform keeps coefficients and changes noise; a right transform keeps noise and changes coefficients. Cholesky whitening alone keeps noise variables inactive when true ones come first; decorrelation preserving coefficients and noise loses information.",
+    "path": "papers/26/11/2611.20420.json",
+    "total_tokens": 769,
+    "translated_title": "变量选择前的去相关：左变换与右变换及其权衡",
+    "translated_abstract": "去相关存在两种形式。左变换保持系数不变而改变噪声；右变换保持噪声不变而改变系数。当真实变量排在前面时，仅使用Cholesky白化即可使噪声变量保持不活跃；而同时保留系数与噪声的去相关则会损失信息。",
+    "tldr": "该论文揭示了变量选择前去相关的左变换（保持系数、改变噪声）与右变换（保持噪声、改变系数）之间的权衡，指出当真实变量排前时Cholesky白化能保持噪声变量不活跃，而同时保留系数与噪声的去相关则会损失信息。",
+    "en_tdlr": "This paper reveals the trade-off between left transforms (preserving coefficients while changing noise) and right transforms (preserving noise while changing coefficients) in decorrelation before variable selection, showing that Cholesky whitening alone keeps noise variables inactive when true variables come first, while decorrelation preserving both coefficients and noise loses information."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Exploring the Potential of Spiking Neural Networks in UWB NLOS Identification",
+    "abstract": "arXiv:2512.23975v2 Announce Type: replace-cross  Abstract: Ultrawideband (UWB) nonline-of-sight (NLOS) identification is critical for accurate localization, yet prevailing deep learning solutions impose computational demands incompatible with low-cost edge devices. This letter explores the potential of spiking neural networks (SNNs) for this task and develops a fully unsupervised SNN solution. Against supervised deep learning baselines, our approach achieves comparable accuracy (~82%) with only 4.7K synaptic operations (SOPs) per inference, representing a three-order-of-magnitude improvement in efficiency. These results establish that SNNs can serve as a viable neuromorphic alternative for edge UWB applications.",
+    "link": "https://arxiv.org/abs/2512.23975",
+    "context": "Title: Exploring the Potential of Spiking Neural Networks in UWB NLOS Identification\nAbstract: arXiv:2512.23975v2 Announce Type: replace-cross  Abstract: Ultrawideband (UWB) nonline-of-sight (NLOS) identification is critical for accurate localization, yet prevailing deep learning solutions impose computational demands incompatible with low-cost edge devices. This letter explores the potential of spiking neural networks (SNNs) for this task and develops a fully unsupervised SNN solution. Against supervised deep learning baselines, our approach achieves comparable accuracy (~82%) with only 4.7K synaptic operations (SOPs) per inference, representing a three-order-of-magnitude improvement in efficiency. These results establish that SNNs can serve as a viable neuromorphic alternative for edge UWB applications.",
+    "path": "papers/25/12/2512.23975.json",
+    "total_tokens": 993,
+    "translated_title": "探索脉冲神经网络在超宽带非视距识别中的潜力",
+    "translated_abstract": "超宽带（UWB）非视距（NLOS）识别对于实现精确定位至关重要，然而现有的深度学习解决方案所需的计算开销与低成本边缘设备难以兼容。本信探索了脉冲神经网络（SNN）在这一任务中的潜力，并开发了一种完全无监督的SNN解决方案。与有监督深度学习基线相比，我们的方法在达到相当精度（约82%）的同时，每次推理仅需4.7K次突触操作（SOPs），效率提升了三个数量级。这些结果表明，SNN可以作为一种可行的神经形态替代方案，适用于边缘侧的UWB应用。",
+    "tldr": "本文提出了一种完全无监督的脉冲神经网络用于UWB非视距识别，在每次推理仅需4.7K次突触操作的情况下实现了约82%的识别精度，效率较有监督深度学习基线提升了三个数量级。",
+    "en_tdlr": "This paper proposes a fully unsupervised spiking neural network for UWB NLOS identification, achieving comparable accuracy (~82%) with only 4.7K synaptic operations per inference, representing a three-order-of-magnitude efficiency improvement over supervised deep learning baselines."
+}

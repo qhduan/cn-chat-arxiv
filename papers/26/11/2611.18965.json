@@ -1,0 +1,12 @@
+{
+    "title": "Contextual Non-Convex Bandit Optimization with Two-Point Feedback",
+    "abstract": "arXiv:2611.18965v1 Announce Type: new  Abstract: We study a non-stochastic contextual bandit problem with Lipschitz losses. At every round, the learner observes the context then picks two actions, observes the difference between their losses, and incurs their mean. The aim is to minimize the regret against a generic non-parametric comparator class of policies mapping contexts to actions; for example, Lipschitz policies and H\\\"older-smooth policies. We show how relying on a hierarchical discretization technique allows us to improve upon the regret rates achievable under one-point feedback, and even recover the full-information rate in some cases; notably, for sufficiently smooth policy classes or low-dimensional instances. Additionally, for Lipschitz policies, we present an algorithm whose per-round computational complexity is only logarithmic in the time horizon.",
+    "link": "https://arxiv.org/abs/2611.18965",
+    "context": "Title: Contextual Non-Convex Bandit Optimization with Two-Point Feedback\nAbstract: arXiv:2611.18965v1 Announce Type: new  Abstract: We study a non-stochastic contextual bandit problem with Lipschitz losses. At every round, the learner observes the context then picks two actions, observes the difference between their losses, and incurs their mean. The aim is to minimize the regret against a generic non-parametric comparator class of policies mapping contexts to actions; for example, Lipschitz policies and H\\\"older-smooth policies. We show how relying on a hierarchical discretization technique allows us to improve upon the regret rates achievable under one-point feedback, and even recover the full-information rate in some cases; notably, for sufficiently smooth policy classes or low-dimensional instances. Additionally, for Lipschitz policies, we present an algorithm whose per-round computational complexity is only logarithmic in the time horizon.",
+    "path": "papers/26/11/2611.18965.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

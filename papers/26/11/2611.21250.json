@@ -1,0 +1,12 @@
+{
+    "title": "Stream of Belief: Eliciting Collective Intelligence through Latent Belief Dynamics",
+    "abstract": "arXiv:2611.21250v1 Announce Type: new  Abstract: In this work, we view multi-agent reasoning as a process of seeking a collective equilibrium of implicit belief dynamics and introduce Stream of Belief (SoB), where agents maintain continuous latent beliefs and iteratively refine them through communication and reflection. Our method seeks a collective belief state of a multi-agent system where further communication induces no meaningful information propagation. Through extensive experiments, we demonstrate the generalization of SoB across tasks and model families. More Broadly, our results suggest a new perspective on scaling multi-agent reasoning from belief dynamics.",
+    "link": "https://arxiv.org/abs/2611.21250",
+    "context": "Title: Stream of Belief: Eliciting Collective Intelligence through Latent Belief Dynamics\nAbstract: arXiv:2611.21250v1 Announce Type: new  Abstract: In this work, we view multi-agent reasoning as a process of seeking a collective equilibrium of implicit belief dynamics and introduce Stream of Belief (SoB), where agents maintain continuous latent beliefs and iteratively refine them through communication and reflection. Our method seeks a collective belief state of a multi-agent system where further communication induces no meaningful information propagation. Through extensive experiments, we demonstrate the generalization of SoB across tasks and model families. More Broadly, our results suggest a new perspective on scaling multi-agent reasoning from belief dynamics.",
+    "path": "papers/26/11/2611.21250.json",
+    "total_tokens": 924,
+    "translated_title": "信念流：通过潜在信念动态激发集体智能",
+    "translated_abstract": "在这项工作中，我们将多智能体推理视为寻求隐式信念动态集体均衡的过程，并提出了信念流方法，其中各智能体保持连续的潜在信念，并通过通信与反思对其进行迭代优化。我们的方法旨在寻求多智能体系统的集体信念状态，即在此状态下进一步的通信不再引发有意义的信息传播。通过大量实验，我们证明了SoB在多种任务和不同模型家族上的泛化能力。更广泛地说，我们的结果为从信念动态视角扩展多智能体推理提供了新的思路。",
+    "tldr": "提出了信念流框架，将多智能体推理建模为潜在信念动态寻求集体均衡的过程，智能体通过通信与反思迭代优化自身信念直至信息不再有效传播，并在多种任务和模型家族上展现出良好的泛化能力。",
+    "en_tdlr": "Proposes Stream of Belief (SoB), a framework that models multi-agent reasoning as seeking a collective equilibrium of latent belief dynamics, where agents iteratively refine their beliefs through communication and reflection until no meaningful information propagates, demonstrating generalization across tasks and model families."
+}

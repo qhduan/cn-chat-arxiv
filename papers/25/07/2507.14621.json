@@ -1,0 +1,12 @@
+{
+    "title": "Testing Clustered Equal Predictive Ability with Unknown Clusters",
+    "abstract": "arXiv:2507.14621v4 Announce Type: replace  Abstract: We develop tests of clustered equal predictive ability (C-EPA) in panels where the clusters are unknown and estimated by Panel Kmeans. Since the hypotheses depend on data-driven clusters, we adopt a selective conditional inference framework. We show that the square root of a Wald statistic for the equality of two estimated cluster centers is asymptotically a truncated $\\chi$ variable, conditionally on the selected clusters and their number, with multiple random initializations, and that the truncation set is a finite union of intervals that can be computed exactly. Unlike existing methods of selective inference for Kmeans, this holds under serial and cross-sectional dependence and heteroskedasticity. For the C-EPA hypothesis, we combine the pairwise $p$-values with a test of overall EPA. In Monte Carlo experiments, the proposed tests control size where naive tests severely over-reject. An application to exchange rate forecasting with",
+    "link": "https://arxiv.org/abs/2507.14621",
+    "context": "Title: Testing Clustered Equal Predictive Ability with Unknown Clusters\nAbstract: arXiv:2507.14621v4 Announce Type: replace  Abstract: We develop tests of clustered equal predictive ability (C-EPA) in panels where the clusters are unknown and estimated by Panel Kmeans. Since the hypotheses depend on data-driven clusters, we adopt a selective conditional inference framework. We show that the square root of a Wald statistic for the equality of two estimated cluster centers is asymptotically a truncated $\\chi$ variable, conditionally on the selected clusters and their number, with multiple random initializations, and that the truncation set is a finite union of intervals that can be computed exactly. Unlike existing methods of selective inference for Kmeans, this holds under serial and cross-sectional dependence and heteroskedasticity. For the C-EPA hypothesis, we combine the pairwise $p$-values with a test of overall EPA. In Monte Carlo experiments, the proposed tests control size where naive tests severely over-reject. An application to exchange rate forecasting with",
+    "path": "papers/25/07/2507.14621.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Embeddings vs. Grep: Rethinking the Dense Advantage in Code Search",
+    "abstract": "arXiv:2611.20455v1 Announce Type: new  Abstract: Code-search benchmarks show dense encoders well ahead of BM25, yet coding agents do well with \\texttt{grep}. What does this dense advantage measure? Existing benchmarks cannot tell: they use curated queries, old code and a handicapped BM25. To find out, we build Repo-Premium, a realistic repository-level code-search benchmark. It ranks files in real repositories, with curated and raw queries in Python, JavaScript, TypeScript, Go, Rust and Java, pull requests from 2022 to 2026, and a preregistered test pool over $91$ repositories. Our experiments trace the advantage to two sources: evaluation choices that favor dense retrieval, such as splitting files into chunks for BM25 and counting edited tests as relevant, and queries that lack the code's rare identifiers. Expanding the query with LLM-written identifiers (generate-then-grep) helps BM25 far more than dense retrieval, letting it match dense retrieval in every Python pool, even on pull r",
+    "link": "https://arxiv.org/abs/2611.20455",
+    "context": "Title: Embeddings vs. Grep: Rethinking the Dense Advantage in Code Search\nAbstract: arXiv:2611.20455v1 Announce Type: new  Abstract: Code-search benchmarks show dense encoders well ahead of BM25, yet coding agents do well with \\texttt{grep}. What does this dense advantage measure? Existing benchmarks cannot tell: they use curated queries, old code and a handicapped BM25. To find out, we build Repo-Premium, a realistic repository-level code-search benchmark. It ranks files in real repositories, with curated and raw queries in Python, JavaScript, TypeScript, Go, Rust and Java, pull requests from 2022 to 2026, and a preregistered test pool over $91$ repositories. Our experiments trace the advantage to two sources: evaluation choices that favor dense retrieval, such as splitting files into chunks for BM25 and counting edited tests as relevant, and queries that lack the code's rare identifiers. Expanding the query with LLM-written identifiers (generate-then-grep) helps BM25 far more than dense retrieval, letting it match dense retrieval in every Python pool, even on pull r",
+    "path": "papers/26/11/2611.20455.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

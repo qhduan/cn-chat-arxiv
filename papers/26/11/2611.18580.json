@@ -1,0 +1,12 @@
+{
+    "title": "Model-Driven Approaches for DevOps: A Systematic Literature Review",
+    "abstract": "arXiv:2611.18580v1 Announce Type: new  Abstract: DevOps integrates tools and methodologies aimed at optimizing software development, building, deployment, and monitoring by automating and reducing the development lifecycle and improving software quality. However, despite its many advantages, it presents notable challenges, particularly in terms of usability and migration. On the other hand, model-driven engineering (MDE) offers a way to abstract from specific technologies and implementation details, which can be leveraged to improve these aspects, as happens in software development.   In this paper, we present the first systematic literature review aiming to understand the current MDE approaches for supporting DevOps development. We focus on categorizing the works based on computing domains, the phases of the DevOps process to which they contribute, and the reengineering steps they propose.   Our findings highlight a dominant focus on cloud computing, while some studies propose domain-",
+    "link": "https://arxiv.org/abs/2611.18580",
+    "context": "Title: Model-Driven Approaches for DevOps: A Systematic Literature Review\nAbstract: arXiv:2611.18580v1 Announce Type: new  Abstract: DevOps integrates tools and methodologies aimed at optimizing software development, building, deployment, and monitoring by automating and reducing the development lifecycle and improving software quality. However, despite its many advantages, it presents notable challenges, particularly in terms of usability and migration. On the other hand, model-driven engineering (MDE) offers a way to abstract from specific technologies and implementation details, which can be leveraged to improve these aspects, as happens in software development.   In this paper, we present the first systematic literature review aiming to understand the current MDE approaches for supporting DevOps development. We focus on categorizing the works based on computing domains, the phases of the DevOps process to which they contribute, and the reengineering steps they propose.   Our findings highlight a dominant focus on cloud computing, while some studies propose domain-",
+    "path": "papers/26/11/2611.18580.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

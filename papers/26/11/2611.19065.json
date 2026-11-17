@@ -1,0 +1,12 @@
+{
+    "title": "A Fast Algorithm for the Familywise Loss",
+    "abstract": "arXiv:2611.19065v1 Announce Type: new  Abstract: The familywise (FW) loss for multiclass classification, introduced by Duchi, Ruan, and Khosravi, achieves universal equivalence to the 0-1 loss, and thus has stronger theoretical properties than cross entropy (CE). Prior work, however, left open whether FW is as computationally efficient as CE. First, on the theoretical side, we prove that the FW gradient can be computed in $O(K)$ time, where $K$ is the number of classes. Second, on the practical side, we develop optimized kernels for computing the forward and backward passes of FW which outperform CE in terms of speed on both CPU and GPU.",
+    "link": "https://arxiv.org/abs/2611.19065",
+    "context": "Title: A Fast Algorithm for the Familywise Loss\nAbstract: arXiv:2611.19065v1 Announce Type: new  Abstract: The familywise (FW) loss for multiclass classification, introduced by Duchi, Ruan, and Khosravi, achieves universal equivalence to the 0-1 loss, and thus has stronger theoretical properties than cross entropy (CE). Prior work, however, left open whether FW is as computationally efficient as CE. First, on the theoretical side, we prove that the FW gradient can be computed in $O(K)$ time, where $K$ is the number of classes. Second, on the practical side, we develop optimized kernels for computing the forward and backward passes of FW which outperform CE in terms of speed on both CPU and GPU.",
+    "path": "papers/26/11/2611.19065.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

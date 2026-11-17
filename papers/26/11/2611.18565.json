@@ -1,0 +1,12 @@
+{
+    "title": "More Secure Software Development via Cultural Analysis: How could Log4Shell happen?",
+    "abstract": "arXiv:2611.18565v1 Announce Type: new  Abstract: There is little progress avoiding vulnerabilities. Cultural analysis may help: For a given team, find the specific cultural values that led to a past vulnerability, then modify the values accordingly for the future. After enough such studies, patterns will likely emerge that are useful for the development community at large.",
+    "link": "https://arxiv.org/abs/2611.18565",
+    "context": "Title: More Secure Software Development via Cultural Analysis: How could Log4Shell happen?\nAbstract: arXiv:2611.18565v1 Announce Type: new  Abstract: There is little progress avoiding vulnerabilities. Cultural analysis may help: For a given team, find the specific cultural values that led to a past vulnerability, then modify the values accordingly for the future. After enough such studies, patterns will likely emerge that are useful for the development community at large.",
+    "path": "papers/26/11/2611.18565.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

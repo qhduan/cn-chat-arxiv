@@ -1,0 +1,12 @@
+{
+    "title": "The effect of policy cancellation on the risk of an insurance portfolio",
+    "abstract": "arXiv:2611.18660v1 Announce Type: new  Abstract: For an insurance portfolio modelled by a large number of i.i.d. losses, the average loss converges to its expected value by the law of large numbers, reflecting the diversification effect of pooling risks. Policy cancellations reduce the portfolio size and thereby weaken this effect. We quantify the resulting increase in risk by applying risk measures to the average loss before and after the cancellation of policies. For a portfolio of size $n$, we show that the impact of cancelling a single contract is of order $n^{-3/2}$, while the cancellation of a fixed proportion of contracts has an effect of order $n^{-1/2}$. We further extend the proportional cancellation regime to heterogeneous portfolios with different cancellation rates and risk characteristics across segments. These asymptotic results provide a quantitative basis for assessing surrender fees and cancellation costs from the insurer's perspective. We complement the theoretical a",
+    "link": "https://arxiv.org/abs/2611.18660",
+    "context": "Title: The effect of policy cancellation on the risk of an insurance portfolio\nAbstract: arXiv:2611.18660v1 Announce Type: new  Abstract: For an insurance portfolio modelled by a large number of i.i.d. losses, the average loss converges to its expected value by the law of large numbers, reflecting the diversification effect of pooling risks. Policy cancellations reduce the portfolio size and thereby weaken this effect. We quantify the resulting increase in risk by applying risk measures to the average loss before and after the cancellation of policies. For a portfolio of size $n$, we show that the impact of cancelling a single contract is of order $n^{-3/2}$, while the cancellation of a fixed proportion of contracts has an effect of order $n^{-1/2}$. We further extend the proportional cancellation regime to heterogeneous portfolios with different cancellation rates and risk characteristics across segments. These asymptotic results provide a quantitative basis for assessing surrender fees and cancellation costs from the insurer's perspective. We complement the theoretical a",
+    "path": "papers/26/11/2611.18660.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

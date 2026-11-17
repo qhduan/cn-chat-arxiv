@@ -1,0 +1,12 @@
+{
+    "title": "Can a Vision-Language Model Tune Clustering In Context?",
+    "abstract": "arXiv:2611.18768v1 Announce Type: new  Abstract: Clustering is a widely used unsupervised learning method, but selecting an appropriate algorithm and set of hyperparameters for a specific dataset can require many possible configurations and evaluations. In this work, we investigate whether a Vision-Language Model can instead visually evaluate clustering results and use those decisions to then tune an explicit clustering algorithm. We study this through three progressive experiments using Qwen3.5-27B and five controlled synthetic clustering scenarios. First, we test whether the VLM can distinguish the best clustering result from a pair of plots. Second, we test whether it can assign numerical scores to those plots where a higher score represents a better result. Finally, we use these judgments within an agentic loop in which the VLM scores a k-means clustering and proposes updated hyperparameters that may result in better clustering. Our exploratory results show that the VLM performs we",
+    "link": "https://arxiv.org/abs/2611.18768",
+    "context": "Title: Can a Vision-Language Model Tune Clustering In Context?\nAbstract: arXiv:2611.18768v1 Announce Type: new  Abstract: Clustering is a widely used unsupervised learning method, but selecting an appropriate algorithm and set of hyperparameters for a specific dataset can require many possible configurations and evaluations. In this work, we investigate whether a Vision-Language Model can instead visually evaluate clustering results and use those decisions to then tune an explicit clustering algorithm. We study this through three progressive experiments using Qwen3.5-27B and five controlled synthetic clustering scenarios. First, we test whether the VLM can distinguish the best clustering result from a pair of plots. Second, we test whether it can assign numerical scores to those plots where a higher score represents a better result. Finally, we use these judgments within an agentic loop in which the VLM scores a k-means clustering and proposes updated hyperparameters that may result in better clustering. Our exploratory results show that the VLM performs we",
+    "path": "papers/26/11/2611.18768.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

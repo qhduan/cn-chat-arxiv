@@ -1,0 +1,12 @@
+{
+    "title": "EVIDENT: Evaluating Evidence Grounding in GUI Agents",
+    "abstract": "arXiv:2611.20488v1 Announce Type: new  Abstract: GUI agents are increasingly evaluated by whether they complete web tasks, but surface success can hide a critical failure: the final answer may not be supported by evidence observed during navigation. We introduce EVIDENT, an evidence-driven benchmark for evaluating whether GUI agents ground their decisions in observable web evidence. EVIDENT contains 220 real-world English and Korean tasks spanning semantic grounding, contextual inference, and visual grounding, each paired with human-curated evidence metadata specifying what must be verified. We further separate surface task completion from evidence-grounded success using three metrics: TSR, ESR, and GSR, which respectively measure outcome success, required evidence observation, and claim-level evidence support. Experiments on commercial and open-source GUI agents reveal substantial gaps between surface success and evidence-grounded success, especially in contextual and visual tasks. Th",
+    "link": "https://arxiv.org/abs/2611.20488",
+    "context": "Title: EVIDENT: Evaluating Evidence Grounding in GUI Agents\nAbstract: arXiv:2611.20488v1 Announce Type: new  Abstract: GUI agents are increasingly evaluated by whether they complete web tasks, but surface success can hide a critical failure: the final answer may not be supported by evidence observed during navigation. We introduce EVIDENT, an evidence-driven benchmark for evaluating whether GUI agents ground their decisions in observable web evidence. EVIDENT contains 220 real-world English and Korean tasks spanning semantic grounding, contextual inference, and visual grounding, each paired with human-curated evidence metadata specifying what must be verified. We further separate surface task completion from evidence-grounded success using three metrics: TSR, ESR, and GSR, which respectively measure outcome success, required evidence observation, and claim-level evidence support. Experiments on commercial and open-source GUI agents reveal substantial gaps between surface success and evidence-grounded success, especially in contextual and visual tasks. Th",
+    "path": "papers/26/11/2611.20488.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

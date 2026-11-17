@@ -1,0 +1,11 @@
+{
+    "title": "A Convergent Linear Regression Method for Forward-Backward Stochastic Differential Equations with Jumps",
+    "abstract": "arXiv:1805.12105v5 Announce Type: replace  Abstract: In this paper, we introduce a large class of convergent numerical methods, based on (linear) basis function regression technique, to approximate the solution to a forward-backward stochastic differential equation with jumps (FBSDEJ hereafter). Numerical experiment shows good applicability of the proposed method.",
+    "link": "https://arxiv.org/abs/1805.12105",
+    "context": "Title: A Convergent Linear Regression Method for Forward-Backward Stochastic Differential Equations with Jumps\nAbstract: arXiv:1805.12105v5 Announce Type: replace  Abstract: In this paper, we introduce a large class of convergent numerical methods, based on (linear) basis function regression technique, to approximate the solution to a forward-backward stochastic differential equation with jumps (FBSDEJ hereafter). Numerical experiment shows good applicability of the proposed method.",
+    "path": "papers/18/05/1805.12105.json",
+    "total_tokens": 787,
+    "translated_title": "带跳的正向-倒向随机微分方程的收敛线性回归方法",
+    "translated_abstract": "在本文中，我们基于（线性）基函数回归技术，提出了一大类收敛的数值方法，用于近似求解带跳的正向-倒向随机微分方程（以下简称FBSDEJ）。数值实验表明所提出的方法具有良好的适用性。",
+    "tldr": "本文提出了一类基于线性基函数回归技术的收敛数值方法来近似求解带跳的正向-倒向随机微分方程（FBSDEJ），并通过数值实验验证了该方法具有良好的适用性。"
+}

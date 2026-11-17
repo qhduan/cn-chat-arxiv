@@ -1,0 +1,12 @@
+{
+    "title": "Pricing Expertise with Information Spillovers",
+    "abstract": "arXiv:2405.11142v2 Announce Type: replace  Abstract: Why do experts charge value-based fees for some services and flat fees for others? For example, an analyst charges the same fee for a stock report whether the client invests a thousand dollars or a million, while an investment bank charges a higher fee for a fairness opinion on a large merger than on a small one. We consider the problem of an expert who sells expertise to a client whose private type determines his project and how much he has at stake. Because project states are correlated, cheaper expertise about a related project can substitute for expertise about his own. We develop a Markov model of information spillovers and provide an explicit characterization of the optimal menu. With perfect spillovers, as with a stock report, a common flat fee for full information is optimal. With sufficiently weak spillovers, as with a fairness opinion, each client receives full information at a value-based fee equal to his willingness to pa",
+    "link": "https://arxiv.org/abs/2405.11142",
+    "context": "Title: Pricing Expertise with Information Spillovers\nAbstract: arXiv:2405.11142v2 Announce Type: replace  Abstract: Why do experts charge value-based fees for some services and flat fees for others? For example, an analyst charges the same fee for a stock report whether the client invests a thousand dollars or a million, while an investment bank charges a higher fee for a fairness opinion on a large merger than on a small one. We consider the problem of an expert who sells expertise to a client whose private type determines his project and how much he has at stake. Because project states are correlated, cheaper expertise about a related project can substitute for expertise about his own. We develop a Markov model of information spillovers and provide an explicit characterization of the optimal menu. With perfect spillovers, as with a stock report, a common flat fee for full information is optimal. With sufficiently weak spillovers, as with a fairness opinion, each client receives full information at a value-based fee equal to his willingness to pa",
+    "path": "papers/24/05/2405.11142.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Comparing Two-Sample IV Estimators under Weak Instruments",
+    "abstract": "arXiv:2611.19690v1 Announce Type: new  Abstract: We compare three estimators in a two-sample summary-data instrumental variables (IV) model: inverse-variance weighting (IVW), debiased inverse-variance weighting (dIVW), and the profile score (PS) estimator. The framework assumes independent samples and instrument-specific summary estimates, with two-sample Mendelian randomisation as a leading application. We compare existing fixed- and many-weak-instrument results and the sufficient conditions for the three estimators. Under the variance scaling used in the profile-score literature, the principal collective-strength conditions for PS and dIVW are equivalent, although their additional restrictions on instrument concentration and growth differ. We then compare their asymptotic variance formulae for fixed and diverging numbers of instruments. For fixed $L$, IVW and dIVW have the same first-order asymptotic variance. Under a common variance-ratio condition, the PS variance formula exceeds t",
+    "link": "https://arxiv.org/abs/2611.19690",
+    "context": "Title: Comparing Two-Sample IV Estimators under Weak Instruments\nAbstract: arXiv:2611.19690v1 Announce Type: new  Abstract: We compare three estimators in a two-sample summary-data instrumental variables (IV) model: inverse-variance weighting (IVW), debiased inverse-variance weighting (dIVW), and the profile score (PS) estimator. The framework assumes independent samples and instrument-specific summary estimates, with two-sample Mendelian randomisation as a leading application. We compare existing fixed- and many-weak-instrument results and the sufficient conditions for the three estimators. Under the variance scaling used in the profile-score literature, the principal collective-strength conditions for PS and dIVW are equivalent, although their additional restrictions on instrument concentration and growth differ. We then compare their asymptotic variance formulae for fixed and diverging numbers of instruments. For fixed $L$, IVW and dIVW have the same first-order asymptotic variance. Under a common variance-ratio condition, the PS variance formula exceeds t",
+    "path": "papers/26/11/2611.19690.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

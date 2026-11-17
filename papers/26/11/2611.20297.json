@@ -1,0 +1,12 @@
+{
+    "title": "Reliable Mining of Heterogeneous AI Coding-Agent Data: Context-Aware Prediction and Resource-Aware Ranking",
+    "abstract": "arXiv:2611.20297v1 Announce Type: new  Abstract: Operational records from AI coding agents differ across agents, repositories, tasks, and workflows. We study 71,677 pull requests (PRs) from six agents and show that pooling these records can reverse descriptive and predictive conclusions. PRs carrying a co-authorship trailer have a 55.6% merge rate, compared with 77.5% without the trailer, but removing the dominant agent flips this -21.8 percentage-point gap to +23.7 points. We treat this Simpson-type reversal as a data-veracity problem and represent source, environment, and workflow context in a feature cascade. Gradient-boosting merge-prediction AUC increases from 0.774 to 0.832; the advantage persists under temporal evaluation (0.801) and unseen repositories (0.807). The co-authorship coefficient changes from -1.09 to +1.44 after conditioning, whereas repository-clustered AIPW intervals show no stable adjusted trailer association. A strict PR-creation-time model reaches 0.741 AUC in ",
+    "link": "https://arxiv.org/abs/2611.20297",
+    "context": "Title: Reliable Mining of Heterogeneous AI Coding-Agent Data: Context-Aware Prediction and Resource-Aware Ranking\nAbstract: arXiv:2611.20297v1 Announce Type: new  Abstract: Operational records from AI coding agents differ across agents, repositories, tasks, and workflows. We study 71,677 pull requests (PRs) from six agents and show that pooling these records can reverse descriptive and predictive conclusions. PRs carrying a co-authorship trailer have a 55.6% merge rate, compared with 77.5% without the trailer, but removing the dominant agent flips this -21.8 percentage-point gap to +23.7 points. We treat this Simpson-type reversal as a data-veracity problem and represent source, environment, and workflow context in a feature cascade. Gradient-boosting merge-prediction AUC increases from 0.774 to 0.832; the advantage persists under temporal evaluation (0.801) and unseen repositories (0.807). The co-authorship coefficient changes from -1.09 to +1.44 after conditioning, whereas repository-clustered AIPW intervals show no stable adjusted trailer association. A strict PR-creation-time model reaches 0.741 AUC in ",
+    "path": "papers/26/11/2611.20297.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

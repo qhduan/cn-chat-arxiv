@@ -1,0 +1,12 @@
+{
+    "title": "A choice-based axiomatization of Nash equilibrium",
+    "abstract": "arXiv:2512.03930v2 Announce Type: replace  Abstract: An axiomatization of Nash equilibrium is provided for games of complete information in normal form. The Nash equilibrium correspondence is shown to be the unique solution concept that satisfies four simple and intuitive axioms. Two axioms reflect a mild form of individual rationality: one states that any profile of dominant strategies in a game must be a solution, whereas the other says that any solution to a game should not depend on strictly dominated strategies. The remaining two axioms are adaptations to non-cooperative games of standard choice-theoretic axioms about contraction and expansion consistency.",
+    "link": "https://arxiv.org/abs/2512.03930",
+    "context": "Title: A choice-based axiomatization of Nash equilibrium\nAbstract: arXiv:2512.03930v2 Announce Type: replace  Abstract: An axiomatization of Nash equilibrium is provided for games of complete information in normal form. The Nash equilibrium correspondence is shown to be the unique solution concept that satisfies four simple and intuitive axioms. Two axioms reflect a mild form of individual rationality: one states that any profile of dominant strategies in a game must be a solution, whereas the other says that any solution to a game should not depend on strictly dominated strategies. The remaining two axioms are adaptations to non-cooperative games of standard choice-theoretic axioms about contraction and expansion consistency.",
+    "path": "papers/25/12/2512.03930.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

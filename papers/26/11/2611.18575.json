@@ -1,0 +1,12 @@
+{
+    "title": "A Survey of Image-to-Code Generation for Software Engineering",
+    "abstract": "arXiv:2611.18575v1 Announce Type: new  Abstract: A large fraction of software intent is expressed visually before it is implemented. A designer hands a screenshot or a Figma mockup to a front-end engineer, an architect sketches a UML diagram or a flowchart, and a bug report ships with a picture of what went wrong. Turning such visual artifacts directly into executable software has therefore become an active problem at the intersection of computer vision and software engineering. The present survey organizes the literature on image-to-code generation for software engineering, defined as the family of methods whose input contains a visual modality and whose output is software an engineer would otherwise write by hand. We deliberately scope the survey to software-engineering code, namely user-interface and front-end code, code recovered from software diagrams such as UML and flowcharts, program repair and test code driven by visual signals, and general software-code targets, and we exclud",
+    "link": "https://arxiv.org/abs/2611.18575",
+    "context": "Title: A Survey of Image-to-Code Generation for Software Engineering\nAbstract: arXiv:2611.18575v1 Announce Type: new  Abstract: A large fraction of software intent is expressed visually before it is implemented. A designer hands a screenshot or a Figma mockup to a front-end engineer, an architect sketches a UML diagram or a flowchart, and a bug report ships with a picture of what went wrong. Turning such visual artifacts directly into executable software has therefore become an active problem at the intersection of computer vision and software engineering. The present survey organizes the literature on image-to-code generation for software engineering, defined as the family of methods whose input contains a visual modality and whose output is software an engineer would otherwise write by hand. We deliberately scope the survey to software-engineering code, namely user-interface and front-end code, code recovered from software diagrams such as UML and flowcharts, program repair and test code driven by visual signals, and general software-code targets, and we exclud",
+    "path": "papers/26/11/2611.18575.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

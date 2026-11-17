@@ -1,0 +1,12 @@
+{
+    "title": "Aggregating Rankings of Coalitions to Rank Individuals",
+    "abstract": "arXiv:2611.19021v1 Announce Type: new  Abstract: We develop an ordinal framework for aggregating a profile of rankings of coalitional performances to determine the ranking of individuals. From university ratings to the assessment of team-sports players, we often evaluate individuals based on their coalitional performances. Although such evaluation has been addressed by cooperative game theory, it is only recently that its ordinal counterpart, social ranking theory (Moretti, 2015), has emerged. As most of the literature considers a single coalitional ranking (which corresponds to a real-valued characteristic function), we extend the model to allow a profile of coalitional rankings (which corresponds to a multidimensional characteristic function). We tackle the aggregation problem by introducing three families of inter-profile axioms, each representing how the rankings should interact or contribute to the output. After revealing fundamental impossibilities concerning the reconciliation o",
+    "link": "https://arxiv.org/abs/2611.19021",
+    "context": "Title: Aggregating Rankings of Coalitions to Rank Individuals\nAbstract: arXiv:2611.19021v1 Announce Type: new  Abstract: We develop an ordinal framework for aggregating a profile of rankings of coalitional performances to determine the ranking of individuals. From university ratings to the assessment of team-sports players, we often evaluate individuals based on their coalitional performances. Although such evaluation has been addressed by cooperative game theory, it is only recently that its ordinal counterpart, social ranking theory (Moretti, 2015), has emerged. As most of the literature considers a single coalitional ranking (which corresponds to a real-valued characteristic function), we extend the model to allow a profile of coalitional rankings (which corresponds to a multidimensional characteristic function). We tackle the aggregation problem by introducing three families of inter-profile axioms, each representing how the rankings should interact or contribute to the output. After revealing fundamental impossibilities concerning the reconciliation o",
+    "path": "papers/26/11/2611.19021.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

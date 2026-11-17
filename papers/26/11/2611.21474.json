@@ -1,0 +1,12 @@
+{
+    "title": "Sharp High-Dimensional Gaussian Approximations over Rectangles without Covariance Restrictions",
+    "abstract": "arXiv:2611.21474v1 Announce Type: new  Abstract: We study how well a sum of $n$ independent random vectors with $p$ coordinates can be approximated by a Gaussian vector with the same mean and covariance. We measure the error over rectangles, so the bounds apply to maxima and simultaneous confidence regions. The coordinates may be arbitrarily dependent, even exactly linearly dependent, and the bounds do not deteriorate as the covariance matrix becomes singular. After standardizing the coordinate variances, bounded or sub-exponential coordinates give the $n^{-1/2}$ sample-size rate up to logarithmic factors, with the size or tail bounds held fixed. The main upper bounds retain the Gaussian expected maximum, improving the rates when the coordinates are strongly dependent. Fourth-moment refinements give further improvements when large observations contribute little to individual coordinate variances. If we instead impose a fixed moment bound of order $q>4$ on the largest absolute coordinat",
+    "link": "https://arxiv.org/abs/2611.21474",
+    "context": "Title: Sharp High-Dimensional Gaussian Approximations over Rectangles without Covariance Restrictions\nAbstract: arXiv:2611.21474v1 Announce Type: new  Abstract: We study how well a sum of $n$ independent random vectors with $p$ coordinates can be approximated by a Gaussian vector with the same mean and covariance. We measure the error over rectangles, so the bounds apply to maxima and simultaneous confidence regions. The coordinates may be arbitrarily dependent, even exactly linearly dependent, and the bounds do not deteriorate as the covariance matrix becomes singular. After standardizing the coordinate variances, bounded or sub-exponential coordinates give the $n^{-1/2}$ sample-size rate up to logarithmic factors, with the size or tail bounds held fixed. The main upper bounds retain the Gaussian expected maximum, improving the rates when the coordinates are strongly dependent. Fourth-moment refinements give further improvements when large observations contribute little to individual coordinate variances. If we instead impose a fixed moment bound of order $q>4$ on the largest absolute coordinat",
+    "path": "papers/26/11/2611.21474.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

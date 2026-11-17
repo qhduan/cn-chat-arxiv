@@ -1,0 +1,12 @@
+{
+    "title": "Minimax Estimation of Discrete Distributions under Hockey-stick Divergence",
+    "abstract": "arXiv:2611.19702v1 Announce Type: cross  Abstract: We initiate the study of estimating a discrete distribution with respect to the hockey-stick divergence from independent samples. We provide non-asymptotic upper and lower bounds on the minimax expected loss in terms of the alphabet size, the number of samples, and the divergence parameter. The upper bounds are achieved by add-constant estimators, while the lower bound is derived via a Bayes risk argument. Both upper bounds and lower bounds reveal a transition between polynomial and exponential regimes as the parameters of the problem vary.",
+    "link": "https://arxiv.org/abs/2611.19702",
+    "context": "Title: Minimax Estimation of Discrete Distributions under Hockey-stick Divergence\nAbstract: arXiv:2611.19702v1 Announce Type: cross  Abstract: We initiate the study of estimating a discrete distribution with respect to the hockey-stick divergence from independent samples. We provide non-asymptotic upper and lower bounds on the minimax expected loss in terms of the alphabet size, the number of samples, and the divergence parameter. The upper bounds are achieved by add-constant estimators, while the lower bound is derived via a Bayes risk argument. Both upper bounds and lower bounds reveal a transition between polynomial and exponential regimes as the parameters of the problem vary.",
+    "path": "papers/26/11/2611.19702.json",
+    "total_tokens": 965,
+    "translated_title": "曲棍球棒散度下离散分布的极小极大估计",
+    "translated_abstract": "我们开创了基于独立样本、以曲棍球棒散度为损失度量来估计离散分布的研究。我们给出了极小极大期望损失的非渐近上界和下界，这些界以字母表大小、样本数量和散度参数表示。上界通过加常数估计器实现，下界则通过贝叶斯风险论证推导得出。上界和下界均揭示了随着问题参数的变化，损失在多项式量级与指数量级之间的相变现象。",
+    "tldr": "本文首次研究了基于曲棍球棒散度的离散分布估计问题，给出了以字母表大小、样本数和散度参数表示的极小极大期望损失的非渐近上下界，并揭示了多项式与指数两种量级机制之间的相变现象。",
+    "en_tdlr": "This paper initiates the study of estimating discrete distributions under hockey-stick divergence, providing non-asymptotic minimax upper and lower bounds in terms of alphabet size, sample size, and divergence parameter, and revealing a transition between polynomial and exponential regimes."
+}

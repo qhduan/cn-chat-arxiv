@@ -1,0 +1,12 @@
+{
+    "title": "Policy Optimization With Multiple Verifiers via Pareto Rankings",
+    "abstract": "arXiv:2611.19064v1 Announce Type: new  Abstract: Reinforcement learning with verifiable rewards (RLVR) has become an important approach to improving the reasoning capabilities of large language models. In tasks such as code generation and instruction following, multiple verifiers evaluate whether a response satisfies different requirements. Their outcomes provide detailed feedback about partial success, yet this feedback is commonly aggregated into a scalar reward for policy optimization. Rewarding only complete success discards distinctions among partial solutions, while counts and weighted sums impose comparisons between responses that satisfy different subsets of requirements. We introduce Partial-Order Likelihood Policy Optimization (POLPO), which learns from the comparisons established by verification without first constructing an aggregate reward. Pareto dominance identifies responses that satisfy additional requirements without losing any already satisfied, while leaving respons",
+    "link": "https://arxiv.org/abs/2611.19064",
+    "context": "Title: Policy Optimization With Multiple Verifiers via Pareto Rankings\nAbstract: arXiv:2611.19064v1 Announce Type: new  Abstract: Reinforcement learning with verifiable rewards (RLVR) has become an important approach to improving the reasoning capabilities of large language models. In tasks such as code generation and instruction following, multiple verifiers evaluate whether a response satisfies different requirements. Their outcomes provide detailed feedback about partial success, yet this feedback is commonly aggregated into a scalar reward for policy optimization. Rewarding only complete success discards distinctions among partial solutions, while counts and weighted sums impose comparisons between responses that satisfy different subsets of requirements. We introduce Partial-Order Likelihood Policy Optimization (POLPO), which learns from the comparisons established by verification without first constructing an aggregate reward. Pareto dominance identifies responses that satisfy additional requirements without losing any already satisfied, while leaving respons",
+    "path": "papers/26/11/2611.19064.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

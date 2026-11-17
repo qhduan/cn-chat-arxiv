@@ -1,0 +1,12 @@
+{
+    "title": "The Logic Chain Breaking Point: A Controlled-Variable Benchmark for Reasoning Degradation in Open-Weight Language Models",
+    "abstract": "arXiv:2611.20447v1 Announce Type: new  Abstract: We introduce The Logic Chain Breaking Point, a controlled-variable benchmark for deductive reasoning in open-weight language models. It spans three phases: (i) pure modus-ponens chain scaling, (ii) distractor resilience with a fixed core chain, and (iii) contradiction detection under primacy versus recency placement. Independent variables follow a powers-of-two sequence $v \\in \\{1,2,4,8,16,32,64,128\\}$, with ground truth known by construction. We evaluate sixteen open-weight models across instruction-tuned and reasoning-tuned panels, including a small-model suite and a larger local-model extension. All models are evaluated with greedy decoding under model-appropriate context and output budgets, while context- and length-limited trials are quarantined from the valid accuracy denominator. Our results reveal a sharply non-monotonic difficulty surface: pure deductive chains up to $L=128$ remain near saturation for most models, and distractor",
+    "link": "https://arxiv.org/abs/2611.20447",
+    "context": "Title: The Logic Chain Breaking Point: A Controlled-Variable Benchmark for Reasoning Degradation in Open-Weight Language Models\nAbstract: arXiv:2611.20447v1 Announce Type: new  Abstract: We introduce The Logic Chain Breaking Point, a controlled-variable benchmark for deductive reasoning in open-weight language models. It spans three phases: (i) pure modus-ponens chain scaling, (ii) distractor resilience with a fixed core chain, and (iii) contradiction detection under primacy versus recency placement. Independent variables follow a powers-of-two sequence $v \\in \\{1,2,4,8,16,32,64,128\\}$, with ground truth known by construction. We evaluate sixteen open-weight models across instruction-tuned and reasoning-tuned panels, including a small-model suite and a larger local-model extension. All models are evaluated with greedy decoding under model-appropriate context and output budgets, while context- and length-limited trials are quarantined from the valid accuracy denominator. Our results reveal a sharply non-monotonic difficulty surface: pure deductive chains up to $L=128$ remain near saturation for most models, and distractor",
+    "path": "papers/26/11/2611.20447.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Adapted Wasserstein Distance for Credit Risk: Rating Information and Model-Transfer Hedging",
+    "abstract": "arXiv:2611.18677v1 Announce Type: new  Abstract: Two credit models can quote the same bond prices today and still disagree on how information about the issuer unfolds over time. We quantify this disagreement by means of the adapted Wasserstein distance, an optimal transport distance between laws of processes consistent with the flow of information associated with them. For defaultable bond price processes, the squared distance is the smallest probability by which the two default indicators must disagree. This yields closed-form distances for rating reviews and a dynamic programming principle for multi-period rating migration. For a single review, the distance can be estimated from observed posterior survival probabilities at the parametric rate without losing calibration. For intensity models, we obtain an explicit formula for the adapted distance between bond prices that controls the error of bootstrap hedges along a quoted term structure, determine its sharp range over hazard schedul",
+    "link": "https://arxiv.org/abs/2611.18677",
+    "context": "Title: Adapted Wasserstein Distance for Credit Risk: Rating Information and Model-Transfer Hedging\nAbstract: arXiv:2611.18677v1 Announce Type: new  Abstract: Two credit models can quote the same bond prices today and still disagree on how information about the issuer unfolds over time. We quantify this disagreement by means of the adapted Wasserstein distance, an optimal transport distance between laws of processes consistent with the flow of information associated with them. For defaultable bond price processes, the squared distance is the smallest probability by which the two default indicators must disagree. This yields closed-form distances for rating reviews and a dynamic programming principle for multi-period rating migration. For a single review, the distance can be estimated from observed posterior survival probabilities at the parametric rate without losing calibration. For intensity models, we obtain an explicit formula for the adapted distance between bond prices that controls the error of bootstrap hedges along a quoted term structure, determine its sharp range over hazard schedul",
+    "path": "papers/26/11/2611.18677.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

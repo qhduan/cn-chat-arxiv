@@ -1,0 +1,12 @@
+{
+    "title": "Real-World End-to-End Product Entity Resolution",
+    "abstract": "arXiv:2611.19418v1 Announce Type: new  Abstract: Product Entity Resolution (PER) in e-commerce is challenging due to unstructured text, formatting inconsistencies, promotional noise, and fine-grained product differences. We present an end-to-end evaluation of four zero-shot PER pipelines---Lexical Cascade, Semantic Cascade, Hybrid Fusion Cascade, and Generative-Lexical Cascade---across established benchmarks and introduce two real-world datasets characterized by cross-lingual noise and dense brand collisions. We evaluate lexical and dense blocking with cross-encoder, tensor-search, and Large Language Model verification, considering accuracy, runtime, and memory consumption.",
+    "link": "https://arxiv.org/abs/2611.19418",
+    "context": "Title: Real-World End-to-End Product Entity Resolution\nAbstract: arXiv:2611.19418v1 Announce Type: new  Abstract: Product Entity Resolution (PER) in e-commerce is challenging due to unstructured text, formatting inconsistencies, promotional noise, and fine-grained product differences. We present an end-to-end evaluation of four zero-shot PER pipelines---Lexical Cascade, Semantic Cascade, Hybrid Fusion Cascade, and Generative-Lexical Cascade---across established benchmarks and introduce two real-world datasets characterized by cross-lingual noise and dense brand collisions. We evaluate lexical and dense blocking with cross-encoder, tensor-search, and Large Language Model verification, considering accuracy, runtime, and memory consumption.",
+    "path": "papers/26/11/2611.19418.json",
+    "total_tokens": 874,
+    "translated_title": "真实世界端到端产品实体消解",
+    "translated_abstract": "电子商务中的产品实体消解由于非结构化文本、格式不一致、促销噪音以及细粒度的产品差异而极具挑战性。我们对四种零样本PER流水线——词汇级联、语义级联、混合融合级联和生成式-词汇级联——在既有基准上进行了端到端评估，并引入了两个以跨语言噪音和密集品牌冲突为特征的真实世界数据集。我们评估了词汇分块与稠密分块结合交叉编码器、张量搜索和大语言模型验证的效果，同时综合考虑了准确性、运行时间和内存消耗。",
+    "tldr": "该论文对四种零样本产品实体消解流水线进行了端到端评估，并引入了两个具有跨语言噪音和密集品牌冲突特征的真实世界数据集。",
+    "en_tdlr": "This paper presents an end-to-end evaluation of four zero-shot Product Entity Resolution pipelines and introduces two real-world datasets characterized by cross-lingual noise and dense brand collisions."
+}

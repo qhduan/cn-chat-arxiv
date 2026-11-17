@@ -1,0 +1,12 @@
+{
+    "title": "CURATOR: Scalable Fine-grained Evidence Selection for Retrieval-Augmented Generation using Decision Models",
+    "abstract": "arXiv:2611.16366v2 Announce Type: replace  Abstract: Retrieval-augmented generation (RAG) provides entire retrieved passages to the LLM, even though only a handful of spans within them contain the evidence pertaining to the question. While precise selection of these spans can improve context utilization, identifying them in isolation is challenging. A span may appear irrelevant by itself, and deciding whether to retain it may require examining other retrieved information. One can evaluate each span's candidacy with the full retrieved context, but this is computationally inefficient as the same text must be processed repeatedly. Pretrained decision model can be used to efficiently evaluate multiple spans simultaneously, allowing each decision to consider the surrounding spans as well. However, our experiments show that their ability to identify relevant evidence deteriorates as the number of simultaneous decisions increases.   To address this, we introduce CURATOR, a fine-tuned decision",
+    "link": "https://arxiv.org/abs/2611.16366",
+    "context": "Title: CURATOR: Scalable Fine-grained Evidence Selection for Retrieval-Augmented Generation using Decision Models\nAbstract: arXiv:2611.16366v2 Announce Type: replace  Abstract: Retrieval-augmented generation (RAG) provides entire retrieved passages to the LLM, even though only a handful of spans within them contain the evidence pertaining to the question. While precise selection of these spans can improve context utilization, identifying them in isolation is challenging. A span may appear irrelevant by itself, and deciding whether to retain it may require examining other retrieved information. One can evaluate each span's candidacy with the full retrieved context, but this is computationally inefficient as the same text must be processed repeatedly. Pretrained decision model can be used to efficiently evaluate multiple spans simultaneously, allowing each decision to consider the surrounding spans as well. However, our experiments show that their ability to identify relevant evidence deteriorates as the number of simultaneous decisions increases.   To address this, we introduce CURATOR, a fine-tuned decision",
+    "path": "papers/26/11/2611.16366.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

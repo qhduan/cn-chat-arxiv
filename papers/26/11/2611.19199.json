@@ -1,0 +1,12 @@
+{
+    "title": "What Moves a LoCoMo Score? Memory Context, Answer Prompts and Judges",
+    "abstract": "arXiv:2611.19199v1 Announce Type: new  Abstract: LoCoMo is a widely reported benchmark for long-term conversational memory, but published scores mix memory quality with choices of answer prompt, judge and baseline layout that are rarely reported together. We measure how much these choices move a score, and evaluate Becos, a team memory system for coding agents, as a black box under all of them: ten conversations (1,540 questions), two answer models (gpt-4o-mini, gpt-4.1-mini), two answer prompts and three LLM judges, against a whole-conversation baseline rerun under identical conditions. Changing only the judge moves a score by up to 7.2 points and changing only the answer prompt by up to 9.3. A blind human check of 150 answers finds the judges reliable when they agree, and the primary judge's errors on disputed answers working against Becos rather than for it. Becos answers from a context with 90% fewer characters than the whole conversation. Its configuration was developed on LoCoMo ",
+    "link": "https://arxiv.org/abs/2611.19199",
+    "context": "Title: What Moves a LoCoMo Score? Memory Context, Answer Prompts and Judges\nAbstract: arXiv:2611.19199v1 Announce Type: new  Abstract: LoCoMo is a widely reported benchmark for long-term conversational memory, but published scores mix memory quality with choices of answer prompt, judge and baseline layout that are rarely reported together. We measure how much these choices move a score, and evaluate Becos, a team memory system for coding agents, as a black box under all of them: ten conversations (1,540 questions), two answer models (gpt-4o-mini, gpt-4.1-mini), two answer prompts and three LLM judges, against a whole-conversation baseline rerun under identical conditions. Changing only the judge moves a score by up to 7.2 points and changing only the answer prompt by up to 9.3. A blind human check of 150 answers finds the judges reliable when they agree, and the primary judge's errors on disputed answers working against Becos rather than for it. Becos answers from a context with 90% fewer characters than the whole conversation. Its configuration was developed on LoCoMo ",
+    "path": "papers/26/11/2611.19199.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

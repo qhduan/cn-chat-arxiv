@@ -1,0 +1,12 @@
+{
+    "title": "European derivatives pricing via constrained Gaussian process regressions",
+    "abstract": "arXiv:2611.20746v1 Announce Type: new  Abstract: This article develops a Gaussian process method for pricing European derivatives when the underlyings, and the risk factors driving them, follow a multivariate jump-diffusion. A Gaussian process prior on the pricing function is conditioned on the Feynman-Kac partial integro-differential equation at a set of collocation points. The price is returned as a closed-form and differentiable function, allowing the Greeks to be obtained without simulation or finite differences. The jump terms are handled iteratively: the price is computed as the limit of a sequence of boundary value problems. Our main theoretical contribution is a convergence result for this iteration: using Weissinger's fixed-point theorem in the supremum norm, we show that it converges from any starting point, and provide a worst-case number of iterations for a given precision. The method is illustrated with derivatives of two underlyings under the Heston model with Kou double-",
+    "link": "https://arxiv.org/abs/2611.20746",
+    "context": "Title: European derivatives pricing via constrained Gaussian process regressions\nAbstract: arXiv:2611.20746v1 Announce Type: new  Abstract: This article develops a Gaussian process method for pricing European derivatives when the underlyings, and the risk factors driving them, follow a multivariate jump-diffusion. A Gaussian process prior on the pricing function is conditioned on the Feynman-Kac partial integro-differential equation at a set of collocation points. The price is returned as a closed-form and differentiable function, allowing the Greeks to be obtained without simulation or finite differences. The jump terms are handled iteratively: the price is computed as the limit of a sequence of boundary value problems. Our main theoretical contribution is a convergence result for this iteration: using Weissinger's fixed-point theorem in the supremum norm, we show that it converges from any starting point, and provide a worst-case number of iterations for a given precision. The method is illustrated with derivatives of two underlyings under the Heston model with Kou double-",
+    "path": "papers/26/11/2611.20746.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

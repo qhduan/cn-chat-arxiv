@@ -1,0 +1,12 @@
+{
+    "title": "Clustering-Based Artificial Tree Ensembles for Random Forest Approximation",
+    "abstract": "arXiv:2611.18803v1 Announce Type: new  Abstract: Random Forests (RFs) offer strong prediction performance but are difficult to interpret. Most representative trees (MRTs) and artificial representative trees (ARTs) provide surrogate explanations, but a single tree may miss patterns within a forest. We investigate benefits and limitations of clustering-based representative tree ensembles for RF surrogate modeling and assess the contribution of similarity-based clustering relative to random tree partitions. Using linear and nonlinear simulations and regression benchmarks, we evaluate fidelity, prediction accuracy, complexity, and prediction stability against equally sized ensembles of top-ranked MRTs and randomly selected trees. Increasing ensemble size generally improves fidelity, accuracy, and prediction stability. ART ensembles show higher fidelity in simulations and often greater prediction stability for small ensembles. Compared with random tree partitions, similarity-based clusterin",
+    "link": "https://arxiv.org/abs/2611.18803",
+    "context": "Title: Clustering-Based Artificial Tree Ensembles for Random Forest Approximation\nAbstract: arXiv:2611.18803v1 Announce Type: new  Abstract: Random Forests (RFs) offer strong prediction performance but are difficult to interpret. Most representative trees (MRTs) and artificial representative trees (ARTs) provide surrogate explanations, but a single tree may miss patterns within a forest. We investigate benefits and limitations of clustering-based representative tree ensembles for RF surrogate modeling and assess the contribution of similarity-based clustering relative to random tree partitions. Using linear and nonlinear simulations and regression benchmarks, we evaluate fidelity, prediction accuracy, complexity, and prediction stability against equally sized ensembles of top-ranked MRTs and randomly selected trees. Increasing ensemble size generally improves fidelity, accuracy, and prediction stability. ART ensembles show higher fidelity in simulations and often greater prediction stability for small ensembles. Compared with random tree partitions, similarity-based clusterin",
+    "path": "papers/26/11/2611.18803.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

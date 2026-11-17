@@ -1,0 +1,12 @@
+{
+    "title": "How Much Do Foundation Models Add to Gradient Boosting on Financial Event Sequences?",
+    "abstract": "arXiv:2611.18914v1 Announce Type: new  Abstract: Foundation models pretrained on raw transaction sequences are proposed for credit, fraud and churn modeling, with reported gains over gradient boosting, but the data and baselines behind these gains are rarely public. We measure how much the pretraining and adaptation recipes of these models add to a baseline of point-in-time window aggregates and LightGBM, and we propose TBS (Temporal Boosting-Sequence ensemble), which averages the ranks of a boosting model enriched with label-free event-transition features and of a pretrained sequence network fine-tuned jointly with the aggregates. On a synthetic credit-card dataset, the public MBD-mini banking dataset and two proprietary datasets of trade credit and B2B churn, we compare 27 methods at three label budgets with five seeds and paired bootstrap intervals, using sequence models of about 0.4 million parameters pretrained per dataset. Frozen self-supervised embeddings rarely improve the base",
+    "link": "https://arxiv.org/abs/2611.18914",
+    "context": "Title: How Much Do Foundation Models Add to Gradient Boosting on Financial Event Sequences?\nAbstract: arXiv:2611.18914v1 Announce Type: new  Abstract: Foundation models pretrained on raw transaction sequences are proposed for credit, fraud and churn modeling, with reported gains over gradient boosting, but the data and baselines behind these gains are rarely public. We measure how much the pretraining and adaptation recipes of these models add to a baseline of point-in-time window aggregates and LightGBM, and we propose TBS (Temporal Boosting-Sequence ensemble), which averages the ranks of a boosting model enriched with label-free event-transition features and of a pretrained sequence network fine-tuned jointly with the aggregates. On a synthetic credit-card dataset, the public MBD-mini banking dataset and two proprietary datasets of trade credit and B2B churn, we compare 27 methods at three label budgets with five seeds and paired bootstrap intervals, using sequence models of about 0.4 million parameters pretrained per dataset. Frozen self-supervised embeddings rarely improve the base",
+    "path": "papers/26/11/2611.18914.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

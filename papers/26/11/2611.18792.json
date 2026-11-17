@@ -1,0 +1,12 @@
+{
+    "title": "Hybrid Compression for Memory-Efficient Matrix-Vector Multiplication",
+    "abstract": "arXiv:2611.18792v1 Announce Type: new  Abstract: Iterative machine-learning algorithms repeatedly access large real-valued matrices through matrix-vector products, and their performance is limited by memory bandwidth rather than arithmetic throughput. Lossless compression schemes that support computation directly over the compressed data reduce both the data moved and the memory footprint of these workloads. The mm-RePair framework [11] follows this approach by applying the RePair grammar compressor to the Compressed Sparse Row/Value (CSRV) representation of a matrix and performing matrix-vector multiplications directly on the compressed data. Its effectiveness, however, degrades on matrices that are dense or contain many distinct values. In this paper we present a hybrid strategy for the mm-RePair framework that combines grammar and entropy compression. The CSRV sequence is partitioned into a grammar-compressible component, formed by the entries that mm-RePair can compress effectively",
+    "link": "https://arxiv.org/abs/2611.18792",
+    "context": "Title: Hybrid Compression for Memory-Efficient Matrix-Vector Multiplication\nAbstract: arXiv:2611.18792v1 Announce Type: new  Abstract: Iterative machine-learning algorithms repeatedly access large real-valued matrices through matrix-vector products, and their performance is limited by memory bandwidth rather than arithmetic throughput. Lossless compression schemes that support computation directly over the compressed data reduce both the data moved and the memory footprint of these workloads. The mm-RePair framework [11] follows this approach by applying the RePair grammar compressor to the Compressed Sparse Row/Value (CSRV) representation of a matrix and performing matrix-vector multiplications directly on the compressed data. Its effectiveness, however, degrades on matrices that are dense or contain many distinct values. In this paper we present a hybrid strategy for the mm-RePair framework that combines grammar and entropy compression. The CSRV sequence is partitioned into a grammar-compressible component, formed by the entries that mm-RePair can compress effectively",
+    "path": "papers/26/11/2611.18792.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Unit-Level Conformal Inference for Panel Counterfactuals",
+    "abstract": "arXiv:2611.19209v1 Announce Type: new  Abstract: We develop conformal inference for panel counterfactual estimators using the exchangeability of prediction errors across units rather than over time. Existing conformal methods for panels with few treated units rely on temporal properties of treated-unit residuals, which are vulnerable to strong temporal heterogeneity such as nonstationarity. We instead hold out each control unit, hide its relevant outcomes, and predict them using the same rule applied to the treated unit. Target-date estimators, including difference-in-differences and synthetic control, use controls' pre-treatment and target-date outcomes to construct the counterfactual, allowing both full conformal confidence sets and Jackknife+ intervals. Full-path estimators, including factor-model imputation and matrix completion, also use controls' outcomes at other post-treatment dates; for these, we use the Jackknife+. Both procedures yield finite-sample, period-wise confidence s",
+    "link": "https://arxiv.org/abs/2611.19209",
+    "context": "Title: Unit-Level Conformal Inference for Panel Counterfactuals\nAbstract: arXiv:2611.19209v1 Announce Type: new  Abstract: We develop conformal inference for panel counterfactual estimators using the exchangeability of prediction errors across units rather than over time. Existing conformal methods for panels with few treated units rely on temporal properties of treated-unit residuals, which are vulnerable to strong temporal heterogeneity such as nonstationarity. We instead hold out each control unit, hide its relevant outcomes, and predict them using the same rule applied to the treated unit. Target-date estimators, including difference-in-differences and synthetic control, use controls' pre-treatment and target-date outcomes to construct the counterfactual, allowing both full conformal confidence sets and Jackknife+ intervals. Full-path estimators, including factor-model imputation and matrix completion, also use controls' outcomes at other post-treatment dates; for these, we use the Jackknife+. Both procedures yield finite-sample, period-wise confidence s",
+    "path": "papers/26/11/2611.19209.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

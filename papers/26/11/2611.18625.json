@@ -1,0 +1,12 @@
+{
+    "title": "Ensemble Bounds for Pairwise Dissimilar Decomposition of Deterministic Datasets",
+    "abstract": "arXiv:2611.18625v1 Announce Type: cross  Abstract: In this paper, we study reduced similarity decompositions of \\emph{deterministic} datasets using redundancy graphs and obtain \\emph{ensemble} bounds for the minimum size of such constrained decomposition. We consider batch decompositions that reduce similarity \\emph{across} batches and use the Lov\\'asz local lemma to obtain bounds for the minimum size of a decomposition with a given pairwise dissimilarity. We then consider unique batch decomposition with a given relaxation parameter and obtain upper and lower ensemble bounds for the minimum size. Throughout, we use Binomial random graphs to obtain the desired ensemble bounds, by conditioning on the number of similar \\emph{pairs} of data points.",
+    "link": "https://arxiv.org/abs/2611.18625",
+    "context": "Title: Ensemble Bounds for Pairwise Dissimilar Decomposition of Deterministic Datasets\nAbstract: arXiv:2611.18625v1 Announce Type: cross  Abstract: In this paper, we study reduced similarity decompositions of \\emph{deterministic} datasets using redundancy graphs and obtain \\emph{ensemble} bounds for the minimum size of such constrained decomposition. We consider batch decompositions that reduce similarity \\emph{across} batches and use the Lov\\'asz local lemma to obtain bounds for the minimum size of a decomposition with a given pairwise dissimilarity. We then consider unique batch decomposition with a given relaxation parameter and obtain upper and lower ensemble bounds for the minimum size. Throughout, we use Binomial random graphs to obtain the desired ensemble bounds, by conditioning on the number of similar \\emph{pairs} of data points.",
+    "path": "papers/26/11/2611.18625.json",
+    "total_tokens": 930,
+    "translated_title": "确定性数据集两两不相似分解的集成界限",
+    "translated_abstract": "在本文中，我们利用冗余图研究确定性数据集的降低相似性分解，并获得了此类约束分解最小规模的集成界限。我们考虑跨批次降低相似性的批次分解，并利用Lovász局部引理，得到了在给定两两不相似性条件下分解最小规模的界限。随后，我们考虑带有给定松弛参数的唯一批次分解，并得到其最小规模的上界与下界集成界限。在整个过程中，我们通过以相似数据点对的数量为条件，使用二项随机图来获得所需的集成界限。",
+    "tldr": "本文利用冗余图与二项随机图，并结合Lovász局部引理，首次为确定性数据集的两两不相似批次分解的最小规模给出了上界与下界的集成界限。",
+    "en_tdlr": "This paper derives ensemble upper and lower bounds on the minimum size of pairwise dissimilar batch decompositions of deterministic datasets, using redundancy graphs, binomial random graphs, and the Lovász local lemma."
+}

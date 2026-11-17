@@ -1,0 +1,12 @@
+{
+    "title": "Cluster-Robust Inference in Small Samples Using Bias Corrections",
+    "abstract": "arXiv:2611.19432v1 Announce Type: new  Abstract: This paper derives an exact expression for the bias of the linearized estimator of the variance for cluster-robust inference, which generalizes an earlier result derived by Bell and McCaffrey (2002). Both cases of continuous and binary treatments are discussed. Under the former it is shown that the bias of the linearized variance estimator and its jackknife variant are of order $G^{-1}$ relative to the true variance, where $G$ denotes the total number of clusters. A bias-corrected variance estimator (BCCV) is then proposed and shown to have a relative bias of order $G^{-2}$. In the case of models with binary treatments the orders of the bias of standard estimators and the proposed bias-corrected one are shown to be $\\max (G_{1}^{-1},G_{0}^{-1})$ and $\\max (G_{1}^{-2},G_{0}^{-2})$, where $G_{1}$ and $G_{0}=G-G_{1}$ are the numbers of treated and untreated clusters. Scale and degrees of freedom adjustments to the $t$-statistic computed usi",
+    "link": "https://arxiv.org/abs/2611.19432",
+    "context": "Title: Cluster-Robust Inference in Small Samples Using Bias Corrections\nAbstract: arXiv:2611.19432v1 Announce Type: new  Abstract: This paper derives an exact expression for the bias of the linearized estimator of the variance for cluster-robust inference, which generalizes an earlier result derived by Bell and McCaffrey (2002). Both cases of continuous and binary treatments are discussed. Under the former it is shown that the bias of the linearized variance estimator and its jackknife variant are of order $G^{-1}$ relative to the true variance, where $G$ denotes the total number of clusters. A bias-corrected variance estimator (BCCV) is then proposed and shown to have a relative bias of order $G^{-2}$. In the case of models with binary treatments the orders of the bias of standard estimators and the proposed bias-corrected one are shown to be $\\max (G_{1}^{-1},G_{0}^{-1})$ and $\\max (G_{1}^{-2},G_{0}^{-2})$, where $G_{1}$ and $G_{0}=G-G_{1}$ are the numbers of treated and untreated clusters. Scale and degrees of freedom adjustments to the $t$-statistic computed usi",
+    "path": "papers/26/11/2611.19432.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

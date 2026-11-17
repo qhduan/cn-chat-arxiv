@@ -1,0 +1,12 @@
+{
+    "title": "SPLICE: Structured Prompt Local Iterative Combinatorial Evolution",
+    "abstract": "arXiv:2611.18883v1 Announce Type: new  Abstract: Natural language optimization (NLO) improves an agent by having a model critique and rewrite its natural language policy parameters: system prompts, tool instructions, reasoning directives, few-shot demonstrations. These artifacts are multi-section documents in which some sections encode contracts (safety clauses, tool schemas, output formats) that must not drift, while others are legitimate optimization targets. Most iterative NLO methods treat the artifact as a single editable string, producing three recurrent failure modes: unsafe global rewrites, beam collapse onto a single lineage, and unchecked bloat, none addressed by formal guarantees. We introduce SPLICE, a unified NLO framework that poses optimization as constrained combinatorial search over an edit graph of block-structured, selectively-mutable states. We map each failure mode to a matched guarantee: (i) per-block mutability preserves contract text verbatim, with a price-of-fr",
+    "link": "https://arxiv.org/abs/2611.18883",
+    "context": "Title: SPLICE: Structured Prompt Local Iterative Combinatorial Evolution\nAbstract: arXiv:2611.18883v1 Announce Type: new  Abstract: Natural language optimization (NLO) improves an agent by having a model critique and rewrite its natural language policy parameters: system prompts, tool instructions, reasoning directives, few-shot demonstrations. These artifacts are multi-section documents in which some sections encode contracts (safety clauses, tool schemas, output formats) that must not drift, while others are legitimate optimization targets. Most iterative NLO methods treat the artifact as a single editable string, producing three recurrent failure modes: unsafe global rewrites, beam collapse onto a single lineage, and unchecked bloat, none addressed by formal guarantees. We introduce SPLICE, a unified NLO framework that poses optimization as constrained combinatorial search over an edit graph of block-structured, selectively-mutable states. We map each failure mode to a matched guarantee: (i) per-block mutability preserves contract text verbatim, with a price-of-fr",
+    "path": "papers/26/11/2611.18883.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

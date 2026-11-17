@@ -1,0 +1,12 @@
+{
+    "title": "An INAR(1) Risk Model with by-claims applied to the PFAS issue",
+    "abstract": "arXiv:2611.18704v1 Announce Type: new  Abstract: We propose there a new type of unidimensional discrete-time risk model in ruin theory involving both main claims and by-claims, where the latter ones are counted thanks to an INAR(1) process. In this way, the model embodies a contagion phenomenon, which may be used to describe the damages caused and covered by an insurance company ensuing the spreading of PFAS compounds in the environment. We present mostly asymptotic ruin probabilities, and multiple comparisons with other models derived from the aforementioned one, in particular with two models where the dependence assumptions are relaxed.",
+    "link": "https://arxiv.org/abs/2611.18704",
+    "context": "Title: An INAR(1) Risk Model with by-claims applied to the PFAS issue\nAbstract: arXiv:2611.18704v1 Announce Type: new  Abstract: We propose there a new type of unidimensional discrete-time risk model in ruin theory involving both main claims and by-claims, where the latter ones are counted thanks to an INAR(1) process. In this way, the model embodies a contagion phenomenon, which may be used to describe the damages caused and covered by an insurance company ensuing the spreading of PFAS compounds in the environment. We present mostly asymptotic ruin probabilities, and multiple comparisons with other models derived from the aforementioned one, in particular with two models where the dependence assumptions are relaxed.",
+    "path": "papers/26/11/2611.18704.json",
+    "total_tokens": 933,
+    "translated_title": "一种应用于PFAS问题的带副索赔的INAR(1)风险模型",
+    "translated_abstract": "我们提出了一种新型的一维离散时间破产理论风险模型，该模型同时涉及主索赔和副索赔，其中副索赔通过INAR(1)过程进行计数。通过这种方式，该模型体现了一种传染现象，可用于描述保险公司在PFAS化合物在环境中扩散后所引发并承保的损害。我们主要给出了渐近破产概率，并与由上述模型衍生的其他多个模型进行了多重比较，特别是与两个放松了相关性假设的模型进行了对比。",
+    "tldr": "本文提出了一种带副索赔（由INAR(1)过程计数）的新型一维离散时间风险模型，通过刻画传染现象将其应用于PFAS环境污染问题，并给出了渐近破产概率及与相关模型的比较。",
+    "en_tdlr": "This paper proposes a new one-dimensional discrete-time risk model with by-claims counted via an INAR(1) process, which captures contagion phenomena and is applied to the PFAS environmental contamination issue, providing asymptotic ruin probabilities and comparisons with related models."
+}

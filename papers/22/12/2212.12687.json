@@ -1,0 +1,12 @@
+{
+    "title": "Measuring price impact and information content of trades in a time-varying setting",
+    "abstract": "arXiv:2212.12687v3 Announce Type: replace  Abstract: We propose a non-linear observation-driven version of the Hasbrouck vector auto-regression framework for dynamically estimating trades' market impact and information content. We find that market impact displays an intraday pattern superimposed with large fluctuations. Some of them are exogenous, and, as an example, we investigate market impact dynamics around FOMC announcements. Unlike the vector autoregression results, we reveal that the information content of the trades depends on the local liquidity level and the recent history of prices and trades. Finally, we use the model to estimate the time-varying permanent impact parameter, which allows performing a dynamic transaction cost analysis.",
+    "link": "https://arxiv.org/abs/2212.12687",
+    "context": "Title: Measuring price impact and information content of trades in a time-varying setting\nAbstract: arXiv:2212.12687v3 Announce Type: replace  Abstract: We propose a non-linear observation-driven version of the Hasbrouck vector auto-regression framework for dynamically estimating trades' market impact and information content. We find that market impact displays an intraday pattern superimposed with large fluctuations. Some of them are exogenous, and, as an example, we investigate market impact dynamics around FOMC announcements. Unlike the vector autoregression results, we reveal that the information content of the trades depends on the local liquidity level and the recent history of prices and trades. Finally, we use the model to estimate the time-varying permanent impact parameter, which allows performing a dynamic transaction cost analysis.",
+    "path": "papers/22/12/2212.12687.json",
+    "total_tokens": 927,
+    "translated_title": "时变环境下交易价格冲击与信息含量的测量",
+    "translated_abstract": "我们提出了Hasbrouck向量自回归框架的一个非线性观测驱动版本，用于动态估计交易的市场冲击和信息含量。我们发现市场冲击呈现出日内模式，并叠加着大幅波动。其中一些波动是外生的，作为示例，我们研究了FOMC公告前后的市场冲击动态。与向量自回归的结果不同，我们揭示了交易的信息含量取决于局部流动性水平以及价格和交易的近期历史。最后，我们利用该模型估计了时变的永久冲击参数，从而可以进行动态交易成本分析。",
+    "tldr": "本文提出了Hasbrouck向量自回归框架的非线性观测驱动版本，用于动态估计交易的市场冲击和信息含量，并揭示交易信息含量取决于局部流动性水平及近期价格与交易历史。",
+    "en_tdlr": "This paper proposes a non-linear observation-driven version of the Hasbrouck VAR framework to dynamically estimate trades' market impact and information content, revealing that the information content of trades depends on local liquidity levels and the recent history of prices and trades."
+}

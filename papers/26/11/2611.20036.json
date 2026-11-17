@@ -1,0 +1,12 @@
+{
+    "title": "Machine Learning for Near Real-Time Identification of Wildfire Burned Areas",
+    "abstract": "arXiv:2611.20036v1 Announce Type: new  Abstract: In this article, we present a near real-time method that estimates burned probability anywhere in the world using satellite images. Our approach takes advantage of the state-of-the-art pix2pix model to translate a preprocessed index calculated from Landsat 8/9 images into an approximate of USGS Burn Probability indicating per pixel burn probability. Since this is a machine learning-based approach, it can be automated with a minimum amount of human intervention with significantly less time delays and geographic restrictions compared to other contemporary methods. We include results from our experiments and compare our approximation with the USGS Burn Probability using RMSE score.",
+    "link": "https://arxiv.org/abs/2611.20036",
+    "context": "Title: Machine Learning for Near Real-Time Identification of Wildfire Burned Areas\nAbstract: arXiv:2611.20036v1 Announce Type: new  Abstract: In this article, we present a near real-time method that estimates burned probability anywhere in the world using satellite images. Our approach takes advantage of the state-of-the-art pix2pix model to translate a preprocessed index calculated from Landsat 8/9 images into an approximate of USGS Burn Probability indicating per pixel burn probability. Since this is a machine learning-based approach, it can be automated with a minimum amount of human intervention with significantly less time delays and geographic restrictions compared to other contemporary methods. We include results from our experiments and compare our approximation with the USGS Burn Probability using RMSE score.",
+    "path": "papers/26/11/2611.20036.json",
+    "total_tokens": 906,
+    "translated_title": "基于机器学习的野火烧毁区域近实时识别",
+    "translated_abstract": "在本文中，我们提出了一种近实时方法，可以利用卫星图像估计世界任何地方的烧毁概率。我们的方法利用最先进的pix2pix模型，将从Landsat 8/9图像计算得出的预处理指标转换为USGS烧毁概率的近似值，指示每个像元的烧毁概率。由于这是一种基于机器学习的方法，与其他现有方法相比，它可以在最少人工干预的情况下实现自动化，时间延迟显著减少，地理限制也更少。我们展示了实验结果，并使用RMSE分数将我们的近似值与USGS烧毁概率进行了比较。",
+    "tldr": "该论文提出一种基于pix2pix模型的机器学习方法，利用Landsat 8/9卫星图像近实时估计全球任意地区的野火烧毁概率，具有自动化程度高、延迟低、不受地理限制的优势。",
+    "en_tdlr": "This paper proposes a machine learning method based on the pix2pix model that uses Landsat 8/9 satellite imagery to estimate wildfire burn probability anywhere in the world in near real-time, offering high automation, low latency, and freedom from geographic restrictions."
+}

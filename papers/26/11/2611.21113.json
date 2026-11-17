@@ -1,0 +1,12 @@
+{
+    "title": "Intransigence or compromise: concatenated opinion dynamics with voting feedback",
+    "abstract": "arXiv:2611.21113v1 Announce Type: cross  Abstract: In this paper, we study opinion evolution in a sequence of Friedkin-Johnsen (FJ) models, concatenated so that the final opinions of each model serve as the initial opinions of the next. Each FJ model is followed by a vote, and each agent becomes partially or fully stubborn in the next model, depending on how close its opinion is to the voting result. With the state-dependent switching of stubbornness, the dynamics are not guaranteed to be contractive. We show that, over any fixed strongly connected network, the opinions always converge. A sufficient condition on the initial opinions is proposed, under which consensus is reached exponentially fast. For the complete graph, we further show that, if the agents' stubbornness levels do not differ too much, an agent that is partially stubborn in one FJ model can never become fully stubborn in a subsequent one: once it has started compromising, it keeps doing so.",
+    "link": "https://arxiv.org/abs/2611.21113",
+    "context": "Title: Intransigence or compromise: concatenated opinion dynamics with voting feedback\nAbstract: arXiv:2611.21113v1 Announce Type: cross  Abstract: In this paper, we study opinion evolution in a sequence of Friedkin-Johnsen (FJ) models, concatenated so that the final opinions of each model serve as the initial opinions of the next. Each FJ model is followed by a vote, and each agent becomes partially or fully stubborn in the next model, depending on how close its opinion is to the voting result. With the state-dependent switching of stubbornness, the dynamics are not guaranteed to be contractive. We show that, over any fixed strongly connected network, the opinions always converge. A sufficient condition on the initial opinions is proposed, under which consensus is reached exponentially fast. For the complete graph, we further show that, if the agents' stubbornness levels do not differ too much, an agent that is partially stubborn in one FJ model can never become fully stubborn in a subsequent one: once it has started compromising, it keeps doing so.",
+    "path": "papers/26/11/2611.21113.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

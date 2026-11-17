@@ -1,0 +1,12 @@
+{
+    "title": "Retrieval-Augmented Generation for Clinical Decision Support in Gait Analysis: A Proof-of-Concept",
+    "abstract": "arXiv:2611.18603v1 Announce Type: new  Abstract: Large language models (LLMs) demonstrate significant potential for clinical decision support but lack specialized biomechanical knowledge required for accurate gait analysis interpretation. We developed and evaluated a Retrieval-Augmented Generation (RAG) framework to enhance LLM-generated clinical explanations for ankle fracture rehabilitation using ground reaction force data. Using the GaitRec dataset (503 subjects: 211 healthy, 292 ankle fracture patients), we implemented a five-stage pipeline integrating: (1) machine learning classification (91.3\\% accuracy); (2) Layer-wise Relevance Propagation for explainable feature identification; (3) RAG knowledge base from peer-reviewed biomechanics literature; (4) GPT-5 explanation generation with and without retrieval augmentation; and (5) double-blind evaluation by experienced physical therapists across five clinical criteria. RAG augmentation produced statistically significant improvements ",
+    "link": "https://arxiv.org/abs/2611.18603",
+    "context": "Title: Retrieval-Augmented Generation for Clinical Decision Support in Gait Analysis: A Proof-of-Concept\nAbstract: arXiv:2611.18603v1 Announce Type: new  Abstract: Large language models (LLMs) demonstrate significant potential for clinical decision support but lack specialized biomechanical knowledge required for accurate gait analysis interpretation. We developed and evaluated a Retrieval-Augmented Generation (RAG) framework to enhance LLM-generated clinical explanations for ankle fracture rehabilitation using ground reaction force data. Using the GaitRec dataset (503 subjects: 211 healthy, 292 ankle fracture patients), we implemented a five-stage pipeline integrating: (1) machine learning classification (91.3\\% accuracy); (2) Layer-wise Relevance Propagation for explainable feature identification; (3) RAG knowledge base from peer-reviewed biomechanics literature; (4) GPT-5 explanation generation with and without retrieval augmentation; and (5) double-blind evaluation by experienced physical therapists across five clinical criteria. RAG augmentation produced statistically significant improvements ",
+    "path": "papers/26/11/2611.18603.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

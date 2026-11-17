@@ -1,0 +1,12 @@
+{
+    "title": "KernelArmor: End-to-End Agentic System for Establishing Memory and Thread Safety for CUDA",
+    "abstract": "arXiv:2611.18754v1 Announce Type: cross  Abstract: Optimized CUDA kernels can pass testing while retaining subtle memory and concurrency bugs. We present KernelArmor, an agentic framework that combines LLM-generated annotations with an extended SMT verifier to establish memory and thread safety under explicit contracts. KernelArmor can reason about kernels with advanced CUDA features, such as tensor cores, packed accesses, warp synchronization, asynchronous copies, and library calls, returning source-level diagnostics to guide verification and repair. Across 740 instances containing 1,370 production-grade CUDA kernels, it reports potential bugs in 78.6% of instances and establishes safety for 11.4%, outperforming the evaluated state-of-the-art tools in detection coverage, identifying 100% of cuCatch memory-safety bugs and all in-scope cuHadron races. Integrated into an agentic optimization loop, KernelArmor produces verified kernels in all 77 trajectories while retaining 99% of the unc",
+    "link": "https://arxiv.org/abs/2611.18754",
+    "context": "Title: KernelArmor: End-to-End Agentic System for Establishing Memory and Thread Safety for CUDA\nAbstract: arXiv:2611.18754v1 Announce Type: cross  Abstract: Optimized CUDA kernels can pass testing while retaining subtle memory and concurrency bugs. We present KernelArmor, an agentic framework that combines LLM-generated annotations with an extended SMT verifier to establish memory and thread safety under explicit contracts. KernelArmor can reason about kernels with advanced CUDA features, such as tensor cores, packed accesses, warp synchronization, asynchronous copies, and library calls, returning source-level diagnostics to guide verification and repair. Across 740 instances containing 1,370 production-grade CUDA kernels, it reports potential bugs in 78.6% of instances and establishes safety for 11.4%, outperforming the evaluated state-of-the-art tools in detection coverage, identifying 100% of cuCatch memory-safety bugs and all in-scope cuHadron races. Integrated into an agentic optimization loop, KernelArmor produces verified kernels in all 77 trajectories while retaining 99% of the unc",
+    "path": "papers/26/11/2611.18754.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

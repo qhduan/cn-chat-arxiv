@@ -1,0 +1,12 @@
+{
+    "title": "When Does Confidence Reveal Problem Difficulty?",
+    "abstract": "arXiv:2611.19173v1 Announce Type: new  Abstract: While confidence signals are commonly evaluated for their ability to predict a model's own correctness, their relationship with problem difficulty remains less understood. In this work, we investigate a wide range of confidence-related signals and whether they can serve as indicators of problem difficulty across various task domains. We find that perturbation inconsistency, semantic entropy, and solution length exhibit strong associations with population difficulty than token-level uncertainty. Notably, these relationships persist even when restricting the analysis to problems correctly answered by the focal model, suggesting that such signals capture information about difficulty beyond their ability to predict the model's own correctness. We further explore applications of these signals, illustrating the potential and limitations of using confidence-related signals to guide inference-time decisions. Our findings highlight the utility of",
+    "link": "https://arxiv.org/abs/2611.19173",
+    "context": "Title: When Does Confidence Reveal Problem Difficulty?\nAbstract: arXiv:2611.19173v1 Announce Type: new  Abstract: While confidence signals are commonly evaluated for their ability to predict a model's own correctness, their relationship with problem difficulty remains less understood. In this work, we investigate a wide range of confidence-related signals and whether they can serve as indicators of problem difficulty across various task domains. We find that perturbation inconsistency, semantic entropy, and solution length exhibit strong associations with population difficulty than token-level uncertainty. Notably, these relationships persist even when restricting the analysis to problems correctly answered by the focal model, suggesting that such signals capture information about difficulty beyond their ability to predict the model's own correctness. We further explore applications of these signals, illustrating the potential and limitations of using confidence-related signals to guide inference-time decisions. Our findings highlight the utility of",
+    "path": "papers/26/11/2611.19173.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

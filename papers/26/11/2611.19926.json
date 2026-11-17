@@ -1,0 +1,12 @@
+{
+    "title": "A Demonstration System for Faithful Temporal Question Answering",
+    "abstract": "arXiv:2611.19926v1 Announce Type: new  Abstract: Temporal question answering (TQA) aims to answer questions that involve temporal constraints or require temporal information. We propose Faith, a novel TQA approach that operates over heterogeneous sources and ensures explainable answers by presenting traceable and faithful evidence. In Faith, we design a new recursive answering mechanism transforming implicit temporal constraints into explicit conditions. Additionally, we visualize the system functionality to track how the answers are computed and the supporting evidence is derived. The code and video of the demonstration system are publicly available.",
+    "link": "https://arxiv.org/abs/2611.19926",
+    "context": "Title: A Demonstration System for Faithful Temporal Question Answering\nAbstract: arXiv:2611.19926v1 Announce Type: new  Abstract: Temporal question answering (TQA) aims to answer questions that involve temporal constraints or require temporal information. We propose Faith, a novel TQA approach that operates over heterogeneous sources and ensures explainable answers by presenting traceable and faithful evidence. In Faith, we design a new recursive answering mechanism transforming implicit temporal constraints into explicit conditions. Additionally, we visualize the system functionality to track how the answers are computed and the supporting evidence is derived. The code and video of the demonstration system are publicly available.",
+    "path": "papers/26/11/2611.19926.json",
+    "total_tokens": 864,
+    "translated_title": "忠实时序问答演示系统",
+    "translated_abstract": "时序问答旨在回答涉及时序约束或需要时序信息的问题。我们提出了Faith，一种新颖的时序问答方法，它能够在异构数据源上运行，并通过呈现可追溯且忠实的证据来确保答案的可解释性。在Faith中，我们设计了一种新的递归回答机制，将隐式的时序约束转化为显式的条件。此外，我们对系统功能进行了可视化，以追踪答案是如何计算的以及支持证据是如何得出的。该演示系统的代码和视频已公开可用。",
+    "tldr": "该论文提出了Faith，一种新颖的时序问答方法，通过递归回答机制将隐式时序约束转化为显式条件，并借助可追溯的忠实证据与可视化功能确保答案的可解释性。",
+    "en_tdlr": "This paper proposes Faith, a novel temporal question answering approach that transforms implicit temporal constraints into explicit conditions via a recursive answering mechanism, ensuring explainable answers with traceable and faithful evidence."
+}

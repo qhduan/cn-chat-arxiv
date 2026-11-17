@@ -1,0 +1,12 @@
+{
+    "title": "Optimal Capital Injections in a Microlending Group under External Shocks",
+    "abstract": "arXiv:2611.19028v1 Announce Type: cross  Abstract: Motivated by static models of group default in microlending, we study a dynamic problem in which the members of a lending group are exposed to external shocks, such as droughts or floods, and the manager of a common emergency fund decides at each shock how much capital to inject into the members who were hit. Shocks arrive at random times, the set of members that a shock hits may depend on which members the previous shock hit, and the losses may spill over to members who were not hit directly. Between shocks, the members' wealth follows a linear stochastic differential equation in which members support each other, and the fund grows with interest and member contributions up to a cap. The cost balances the members' shortfall below a poverty line, a welfare measure that contains a standard poverty measure as a special case, against the administrative cost of the injections and the benefit of keeping money in the fund. We formulate the pr",
+    "link": "https://arxiv.org/abs/2611.19028",
+    "context": "Title: Optimal Capital Injections in a Microlending Group under External Shocks\nAbstract: arXiv:2611.19028v1 Announce Type: cross  Abstract: Motivated by static models of group default in microlending, we study a dynamic problem in which the members of a lending group are exposed to external shocks, such as droughts or floods, and the manager of a common emergency fund decides at each shock how much capital to inject into the members who were hit. Shocks arrive at random times, the set of members that a shock hits may depend on which members the previous shock hit, and the losses may spill over to members who were not hit directly. Between shocks, the members' wealth follows a linear stochastic differential equation in which members support each other, and the fund grows with interest and member contributions up to a cap. The cost balances the members' shortfall below a poverty line, a welfare measure that contains a standard poverty measure as a special case, against the administrative cost of the injections and the benefit of keeping money in the fund. We formulate the pr",
+    "path": "papers/26/11/2611.19028.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

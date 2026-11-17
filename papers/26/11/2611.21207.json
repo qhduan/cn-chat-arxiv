@@ -1,0 +1,12 @@
+{
+    "title": "Who Is the Regression About? Auditing AI-Labeled Treatments When Effects Differ",
+    "abstract": "arXiv:2611.21207v1 Announce Type: cross  Abstract: Researchers increasingly regress outcomes on treatments labeled by large language models. When effects differ, OLS averages the effect on the treated (ATT) and on the untreated (ATU), weighting the smaller group more. A label's bias then has two parts: classical attenuation from misclassification, and a selective term when its errors are correlated with the outcome. In LinkedIn postings, the model misses better-paid remote jobs: a precision check passes, yet the remote pay gap is understated by nearly 40 percent, a bias that more data cannot remove. A stratified, blind audit of both labeled groups corrects it and recovers both effects.",
+    "link": "https://arxiv.org/abs/2611.21207",
+    "context": "Title: Who Is the Regression About? Auditing AI-Labeled Treatments When Effects Differ\nAbstract: arXiv:2611.21207v1 Announce Type: cross  Abstract: Researchers increasingly regress outcomes on treatments labeled by large language models. When effects differ, OLS averages the effect on the treated (ATT) and on the untreated (ATU), weighting the smaller group more. A label's bias then has two parts: classical attenuation from misclassification, and a selective term when its errors are correlated with the outcome. In LinkedIn postings, the model misses better-paid remote jobs: a precision check passes, yet the remote pay gap is understated by nearly 40 percent, a bias that more data cannot remove. A stratified, blind audit of both labeled groups corrects it and recovers both effects.",
+    "path": "papers/26/11/2611.21207.json",
+    "total_tokens": 1135,
+    "translated_title": "回归究竟关于谁？当效应存在差异时审计AI标注的处理变量",
+    "translated_abstract": "研究者越来越多地将结果变量对由大语言模型标注的处理变量进行回归。当效应存在异质性时，普通最小二乘法（OLS）会将处理组的效应（ATT）与未处理组的效应（ATU）加以平均，并对较小的群体赋予更大的权重。此时标签的偏差包含两部分：一是源于误分类的经典衰减偏差，二是当标签错误与结果变量相关时产生的选择性偏差。在LinkedIn职位发布数据中，模型遗漏了薪酬较高的远程工作：精确度检验虽然通过，但远程工作的薪酬差距却被低估了近40%，而这一偏差无法通过增加数据量来消除。对两个标注组进行分层的盲审即可纠正该偏差，并同时恢复两种效应。",
+    "tldr": "当大语言模型标注的处理变量存在效应异质性时，OLS估计偏差由衰减偏差和选择性偏差两部分构成，且无法通过增加数据消除，作者提出对标注组进行分层盲审来同时纠正偏差并恢复ATT与ATU。",
+    "en_tdlr": "When AI-labeled treatments have heterogeneous effects, OLS estimates suffer from both attenuation and selective labeling bias, and the authors propose a stratified, blind audit of both labeled groups that corrects the bias and recovers both ATT and ATU."
+}

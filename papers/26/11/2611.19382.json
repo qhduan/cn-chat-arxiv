@@ -1,0 +1,12 @@
+{
+    "title": "Generalization Bounds for Neural Networks with Sparse Connectivity",
+    "abstract": "arXiv:2611.19382v1 Announce Type: cross  Abstract: Empirical evidence suggests that large neural networks rarely make effective use of all available parameters, with learned solutions exhibiting pronounced sparsity. Despite this ubiquity, existing generalization theory only partially explains how such sparsity influences statistical performance. In this paper, we derive non-asymptotic generalization gap bounds for deep neural networks whose layer-wise weight matrices are restricted by $\\ell_p$ quasi-norm ($0",
+    "link": "https://arxiv.org/abs/2611.19382",
+    "context": "Title: Generalization Bounds for Neural Networks with Sparse Connectivity\nAbstract: arXiv:2611.19382v1 Announce Type: cross  Abstract: Empirical evidence suggests that large neural networks rarely make effective use of all available parameters, with learned solutions exhibiting pronounced sparsity. Despite this ubiquity, existing generalization theory only partially explains how such sparsity influences statistical performance. In this paper, we derive non-asymptotic generalization gap bounds for deep neural networks whose layer-wise weight matrices are restricted by $\\ell_p$ quasi-norm ($0",
+    "path": "papers/26/11/2611.19382.json",
+    "total_tokens": 946,
+    "translated_title": "稀疏连接神经网络的泛化边界",
+    "translated_abstract": "实证证据表明，大型神经网络很少有效利用其全部可用参数，学习到的解往往呈现出显著的稀疏性。尽管这种现象普遍存在，现有的泛化理论仅能部分解释这种稀疏性如何影响统计性能。在本文中，我们为层间权重矩阵受 $\\ell_p$ 拟范数约束的深度神经网络推导了非渐近泛化间隙边界。",
+    "tldr": "本文针对层间权重矩阵受ℓ_p拟范数约束的稀疏连接深度神经网络，推导出了非渐近泛化间隙上界，从理论上解释了稀疏性如何影响神经网络的统计性能。",
+    "en_tdlr": "This paper derives non-asymptotic generalization gap bounds for deep neural networks with sparse connectivity constrained by ℓ_p quasi-norms, theoretically explaining how sparsity influences their statistical performance."
+}

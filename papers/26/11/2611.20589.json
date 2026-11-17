@@ -1,0 +1,12 @@
+{
+    "title": "Beyond Marginal Risk: ESG and Multidimensional Fragility in Equity Markets",
+    "abstract": "arXiv:2611.20589v1 Announce Type: new  Abstract: Do ESG characteristics provide financial resilience beyond conventional risk, and is that inference stable to the financial state and ESG score being measured? We study a point-in-time panel of nonfinancial S&P 500 constituents from January 2019 through November 2025. Once ex ante return, volatility, and liquidity exposures are modeled explicitly, the broad downside-resilience pattern attenuates and none of the three primary marginal ESG $\\times$ Down tests survives Holm adjustment under either conventional or wild-cluster-bootstrap inference. A post-primary exact decomposition then shows that the negative Return+RVOL coefficient is almost entirely allocated to observations that also breach the CHL trading-cost tail, while the mutually exclusive Return+RVOL-only component is essentially zero. Finally, a paired standardized comparison on an identical sample shows that MSCI's downstream Industry Adjusted Score and upstream Weighted Average",
+    "link": "https://arxiv.org/abs/2611.20589",
+    "context": "Title: Beyond Marginal Risk: ESG and Multidimensional Fragility in Equity Markets\nAbstract: arXiv:2611.20589v1 Announce Type: new  Abstract: Do ESG characteristics provide financial resilience beyond conventional risk, and is that inference stable to the financial state and ESG score being measured? We study a point-in-time panel of nonfinancial S&P 500 constituents from January 2019 through November 2025. Once ex ante return, volatility, and liquidity exposures are modeled explicitly, the broad downside-resilience pattern attenuates and none of the three primary marginal ESG $\\times$ Down tests survives Holm adjustment under either conventional or wild-cluster-bootstrap inference. A post-primary exact decomposition then shows that the negative Return+RVOL coefficient is almost entirely allocated to observations that also breach the CHL trading-cost tail, while the mutually exclusive Return+RVOL-only component is essentially zero. Finally, a paired standardized comparison on an identical sample shows that MSCI's downstream Industry Adjusted Score and upstream Weighted Average",
+    "path": "papers/26/11/2611.20589.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

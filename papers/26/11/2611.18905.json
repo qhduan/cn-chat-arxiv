@@ -1,0 +1,12 @@
+{
+    "title": "Ask Precisely, Assume Wisely: Interactive Evaluation of Ambiguity Resolution in Large Language Models",
+    "abstract": "arXiv:2611.18905v1 Announce Type: new  Abstract: Ambiguity is a core challenge in human--AI interaction, where models must decide when to make assumptions and when to seek clarification. Existing approaches to ambiguity evaluation largely focus on coverage over multiple interpretations using static metrics, offering limited insight into how efficiently a model converges toward a single user-intended interpretation through interaction. We introduce a preference-grounded simulated user framework for controlled, multi-turn evaluation of ambiguity resolution, grounding simulator responses strictly in user disambiguation preferences to avoid hallucination and over-disclosure. Alongside this, we define three observable dissatisfaction signals --- incorrect assumptions, repeating clarifications, and irrelevant clarifications --- that characterize interaction quality beyond task accuracy. Our analysis reveals a clear trade-off: models that frequently seek clarification tend to over-clarify and",
+    "link": "https://arxiv.org/abs/2611.18905",
+    "context": "Title: Ask Precisely, Assume Wisely: Interactive Evaluation of Ambiguity Resolution in Large Language Models\nAbstract: arXiv:2611.18905v1 Announce Type: new  Abstract: Ambiguity is a core challenge in human--AI interaction, where models must decide when to make assumptions and when to seek clarification. Existing approaches to ambiguity evaluation largely focus on coverage over multiple interpretations using static metrics, offering limited insight into how efficiently a model converges toward a single user-intended interpretation through interaction. We introduce a preference-grounded simulated user framework for controlled, multi-turn evaluation of ambiguity resolution, grounding simulator responses strictly in user disambiguation preferences to avoid hallucination and over-disclosure. Alongside this, we define three observable dissatisfaction signals --- incorrect assumptions, repeating clarifications, and irrelevant clarifications --- that characterize interaction quality beyond task accuracy. Our analysis reveals a clear trade-off: models that frequently seek clarification tend to over-clarify and",
+    "path": "papers/26/11/2611.18905.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

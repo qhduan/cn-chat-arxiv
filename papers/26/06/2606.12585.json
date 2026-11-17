@@ -1,0 +1,12 @@
+{
+    "title": "Revisiting the ABCs of Working with AI: Evidence from Radiologists",
+    "abstract": "arXiv:2606.12585v2 Announce Type: replace  Abstract: I examine the relationship between the benefits of working with AI and two baseline traits - ability and belief calibration - among all 227 radiologists available in Collab-CXR, a dataset from an experiment where AI assistance was provided during X-ray diagnosis. When analyzed jointly, both lower unassisted accuracy and smaller miscalibration, measured by the absolute gap between average confidence and accuracy, are associated with greater improvements in accuracy with AI. In addition, the association between unassisted accuracy and improvement with AI becomes more negative and statistically significant when controlling for calibration.",
+    "link": "https://arxiv.org/abs/2606.12585",
+    "context": "Title: Revisiting the ABCs of Working with AI: Evidence from Radiologists\nAbstract: arXiv:2606.12585v2 Announce Type: replace  Abstract: I examine the relationship between the benefits of working with AI and two baseline traits - ability and belief calibration - among all 227 radiologists available in Collab-CXR, a dataset from an experiment where AI assistance was provided during X-ray diagnosis. When analyzed jointly, both lower unassisted accuracy and smaller miscalibration, measured by the absolute gap between average confidence and accuracy, are associated with greater improvements in accuracy with AI. In addition, the association between unassisted accuracy and improvement with AI becomes more negative and statistically significant when controlling for calibration.",
+    "path": "papers/26/06/2606.12585.json",
+    "total_tokens": 905,
+    "translated_title": "重新审视与AI协作的基础要素：来自放射科医师的证据",
+    "translated_abstract": "我研究了与AI协作的收益与两种基线特征——能力和信念校准——之间的关系，研究对象是Collab-CXR数据集中的全部227名放射科医师，该数据集来自一项在X光诊断过程中提供AI辅助的实验。当进行联合分析时，较低的无辅助准确率和较小的校准偏差（以平均置信度与准确率之间的绝对差距来衡量）都与使用AI后准确率的更大提升相关。此外，在控制校准因素后，无辅助准确率与AI带来的提升之间的关系变得更加显著为负且具有统计学显著性。",
+    "tldr": "本文基于227名放射科医师的X光诊断实验数据，发现基线准确率较低且信念校准较好（置信度与实际准确率差距较小）的医师在与AI协作时获得更大的准确率提升。",
+    "en_tdlr": "Using data from 227 radiologists in X-ray diagnosis experiments, this paper finds that lower unassisted accuracy and better belief calibration are both associated with greater accuracy improvements when working with AI assistance."
+}

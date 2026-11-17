@@ -1,0 +1,12 @@
+{
+    "title": "From Sensors to Silicon: Causal Cross-Layer Self-Healing Edge AI for Secure and Energy-Adaptive IoT Systems",
+    "abstract": "arXiv:2611.19165v1 Announce Type: new  Abstract: The migration of artificial intelligence from centralized cloud infrastructure to resource-constrained Internet-of-Things (IoT) devices reduces communication latency and improves data locality, but it also tightly couples sensing quality, inference behavior, microarchitectural activity, hardware reliability, security, and energy management within the same physical node. Existing edge-intelligence solutions predominantly address these dimensions in isolation, making it difficult to determine whether an observed degradation originates from sensor malfunction, data-distribution shift, malicious execution, hardware faults, or resource and thermal stress. This paper presents a causal cross-layer self-healing Edge-AI framework that continuously observes synchronized telemetry spanning sensor health, inference uncertainty, processor hardware-performance counters, accelerator and memory activity, power and thermal state, and communication condit",
+    "link": "https://arxiv.org/abs/2611.19165",
+    "context": "Title: From Sensors to Silicon: Causal Cross-Layer Self-Healing Edge AI for Secure and Energy-Adaptive IoT Systems\nAbstract: arXiv:2611.19165v1 Announce Type: new  Abstract: The migration of artificial intelligence from centralized cloud infrastructure to resource-constrained Internet-of-Things (IoT) devices reduces communication latency and improves data locality, but it also tightly couples sensing quality, inference behavior, microarchitectural activity, hardware reliability, security, and energy management within the same physical node. Existing edge-intelligence solutions predominantly address these dimensions in isolation, making it difficult to determine whether an observed degradation originates from sensor malfunction, data-distribution shift, malicious execution, hardware faults, or resource and thermal stress. This paper presents a causal cross-layer self-healing Edge-AI framework that continuously observes synchronized telemetry spanning sensor health, inference uncertainty, processor hardware-performance counters, accelerator and memory activity, power and thermal state, and communication condit",
+    "path": "papers/26/11/2611.19165.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

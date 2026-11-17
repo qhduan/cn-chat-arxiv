@@ -1,0 +1,12 @@
+{
+    "title": "Texture Image Classification Using DWT AlexNet Feature Fusion and Deep Neural Networks",
+    "abstract": "arXiv:2608.28524v2 Announce Type: replace-cross  Abstract: Texture image classification plays a significant role in computer vision applications, including industrial inspection, medical image analysis, remote sensing, and object recognition. Handcrafted features can capture local texture characteristics but may have limited capability to represent complex visual patterns. In contrast, deep learning models automatically learn discriminative representations but may not fully exploit the multiscale spatial-frequency information inherent in texture images. This paper proposes a hybrid feature fusion framework, termed DWT_AlexNet_DNN, which combines Discrete Wavelet Transform (DWT) features with deep features extracted using AlexNet for texture image classification.",
+    "link": "https://arxiv.org/abs/2608.28524",
+    "context": "Title: Texture Image Classification Using DWT AlexNet Feature Fusion and Deep Neural Networks\nAbstract: arXiv:2608.28524v2 Announce Type: replace-cross  Abstract: Texture image classification plays a significant role in computer vision applications, including industrial inspection, medical image analysis, remote sensing, and object recognition. Handcrafted features can capture local texture characteristics but may have limited capability to represent complex visual patterns. In contrast, deep learning models automatically learn discriminative representations but may not fully exploit the multiscale spatial-frequency information inherent in texture images. This paper proposes a hybrid feature fusion framework, termed DWT_AlexNet_DNN, which combines Discrete Wavelet Transform (DWT) features with deep features extracted using AlexNet for texture image classification.",
+    "path": "papers/26/08/2608.28524.json",
+    "total_tokens": 917,
+    "translated_title": "基于DWT与AlexNet特征融合及深度神经网络的纹理图像分类",
+    "translated_abstract": "纹理图像分类在计算机视觉应用中发挥着重要作用，包括工业检测、医学图像分析、遥感以及目标识别。手工特征能够捕捉局部纹理特征，但在表示复杂视觉模式方面能力有限。相比之下，深度学习模型可以自动学习判别性表示，但可能无法充分利用纹理图像中固有的多尺度空间-频率信息。本文提出了一种混合特征融合框架，称为DWT_AlexNet_DNN，该方法将离散小波变换（DWT）特征与使用AlexNet提取的深度特征相结合，用于纹理图像分类。",
+    "tldr": "本文提出DWT_AlexNet_DNN混合特征融合框架，将离散小波变换（DWT）特征与AlexNet深度特征相结合，以提升纹理图像分类的性能。",
+    "en_tdlr": "This paper proposes a hybrid feature fusion framework, DWT_AlexNet_DNN, which combines Discrete Wavelet Transform (DWT) features with deep features extracted by AlexNet for improved texture image classification."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Recursive Entropic Variational Inference for Nonlinear State-Space Models",
+    "abstract": "arXiv:2511.15409v3 Announce Type: replace  Abstract: We present a class of algorithms for state estimation in nonlinear, non-Gaussian state-space models. Our approach is based on a variational Lagrangian formulation that casts Bayesian inference as a sequence of entropic trust-region updates subject to dynamic consistency constraints. This framework gives rise to a family of forward-backward algorithms whose structure is determined by the chosen factorization of the variational posterior. By focusing on Gauss--Markov approximations, we derive recursive schemes with favorable computational complexity. For general nonlinear, non-Gaussian models, we close the recursions using generalized statistical linear regression and Fourier--Hermite moment matching.",
+    "link": "https://arxiv.org/abs/2511.15409",
+    "context": "Title: Recursive Entropic Variational Inference for Nonlinear State-Space Models\nAbstract: arXiv:2511.15409v3 Announce Type: replace  Abstract: We present a class of algorithms for state estimation in nonlinear, non-Gaussian state-space models. Our approach is based on a variational Lagrangian formulation that casts Bayesian inference as a sequence of entropic trust-region updates subject to dynamic consistency constraints. This framework gives rise to a family of forward-backward algorithms whose structure is determined by the chosen factorization of the variational posterior. By focusing on Gauss--Markov approximations, we derive recursive schemes with favorable computational complexity. For general nonlinear, non-Gaussian models, we close the recursions using generalized statistical linear regression and Fourier--Hermite moment matching.",
+    "path": "papers/25/11/2511.15409.json",
+    "total_tokens": 990,
+    "translated_title": "面向非线性状态空间模型的递归熵变分推断",
+    "translated_abstract": "我们提出了一类用于非线性、非高斯状态空间模型状态估计的算法。我们的方法基于一种变分拉格朗日形式化框架，将贝叶斯推断转化为一系列受动态一致性约束的熵信任域更新。该框架衍生出一族前向-后向算法，其结构由所选择的变分后验分解方式决定。通过聚焦于高斯-马尔可夫近似，我们推导出了具有良好计算复杂度的递归算法。对于一般的非线性、非高斯模型，我们利用广义统计线性回归和傅里叶-厄米特矩匹配来闭合这些递归。",
+    "tldr": "该论文提出了一种基于熵信任域更新的变分拉格朗日框架，通过前向-后向递归算法并结合广义统计线性回归和傅里叶-厄米特矩匹配，实现了非线性非高斯状态空间模型的高效递归状态估计。",
+    "en_tdlr": "This paper proposes an entropic variational Lagrangian framework that yields recursive forward-backward algorithms, closing the recursions via generalized statistical linear regression and Fourier-Hermite moment matching for efficient state estimation in nonlinear, non-Gaussian state-space models."
+}

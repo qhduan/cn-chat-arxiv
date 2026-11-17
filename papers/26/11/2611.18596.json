@@ -1,0 +1,12 @@
+{
+    "title": "Between the Lines: Multi-turn Contextual Investment Advice Detection",
+    "abstract": "arXiv:2611.18596v1 Announce Type: new  Abstract: As large language models (LLMs) increasingly power financial conversational assistants, detecting investment advice in natural language has become a critical regulatory and safety challenge. Unlike explicit single-turn recommendations, investment advice often emerges implicitly and progressively over multi-turn conversations, shaped by user intent, delivery style, and contextual buildup. We introduce the first comprehensive framework for detecting both sequential and contextual investment advice in dialogue settings. Central to our approach is a modular, top-down synthetic data generation pipeline that systematically spans a taxonomy of advisory trajectories using an axis-bucket-descriptor schema. We simulate both benign and high-risk conversations across diverse user personas, financial instruments, and risk tiers, and evaluate detection capabilities using LLM-as-a-Judge with entropy-based uncertainty diagnostics. Our results show that ",
+    "link": "https://arxiv.org/abs/2611.18596",
+    "context": "Title: Between the Lines: Multi-turn Contextual Investment Advice Detection\nAbstract: arXiv:2611.18596v1 Announce Type: new  Abstract: As large language models (LLMs) increasingly power financial conversational assistants, detecting investment advice in natural language has become a critical regulatory and safety challenge. Unlike explicit single-turn recommendations, investment advice often emerges implicitly and progressively over multi-turn conversations, shaped by user intent, delivery style, and contextual buildup. We introduce the first comprehensive framework for detecting both sequential and contextual investment advice in dialogue settings. Central to our approach is a modular, top-down synthetic data generation pipeline that systematically spans a taxonomy of advisory trajectories using an axis-bucket-descriptor schema. We simulate both benign and high-risk conversations across diverse user personas, financial instruments, and risk tiers, and evaluate detection capabilities using LLM-as-a-Judge with entropy-based uncertainty diagnostics. Our results show that ",
+    "path": "papers/26/11/2611.18596.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

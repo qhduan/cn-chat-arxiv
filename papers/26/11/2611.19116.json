@@ -1,0 +1,12 @@
+{
+    "title": "A Hybrid State Space-Attention Architecture for Forecasting the Trajectories of Battery Degradation",
+    "abstract": "arXiv:2611.19116v1 Announce Type: new  Abstract: Early-life battery degradation trajectory forecasting aims to predict a battery cell's full state-of-health (SOH) trajectory from its initial charge-discharge cycles, potentially reducing cell qualification and evaluation time from months to days. Despite recent advances, accurate forecasting remains challenging for emerging battery chemistries, data-scarce domains, and cells exhibiting degradation behaviors beyond those observed during training. Existing state-of-the-art approaches increasingly rely on model scaling, large language model-derived aging-condition embeddings, and extensive fold-specific hyperparameter tuning, raising concerns about computational efficiency, reproducibility, and generalization. This work introduces DecayFormer, a compact hybrid state-space and attention architecture designed for early-life degradation trajectory forecasting. DecayFormer combines cycle-level selective recurrence, using a single scalar state ",
+    "link": "https://arxiv.org/abs/2611.19116",
+    "context": "Title: A Hybrid State Space-Attention Architecture for Forecasting the Trajectories of Battery Degradation\nAbstract: arXiv:2611.19116v1 Announce Type: new  Abstract: Early-life battery degradation trajectory forecasting aims to predict a battery cell's full state-of-health (SOH) trajectory from its initial charge-discharge cycles, potentially reducing cell qualification and evaluation time from months to days. Despite recent advances, accurate forecasting remains challenging for emerging battery chemistries, data-scarce domains, and cells exhibiting degradation behaviors beyond those observed during training. Existing state-of-the-art approaches increasingly rely on model scaling, large language model-derived aging-condition embeddings, and extensive fold-specific hyperparameter tuning, raising concerns about computational efficiency, reproducibility, and generalization. This work introduces DecayFormer, a compact hybrid state-space and attention architecture designed for early-life degradation trajectory forecasting. DecayFormer combines cycle-level selective recurrence, using a single scalar state ",
+    "path": "papers/26/11/2611.19116.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

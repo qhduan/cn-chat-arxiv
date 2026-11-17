@@ -1,0 +1,12 @@
+{
+    "title": "Maximum Scores and Treatment Feedback in Regression Discontinuity Designs",
+    "abstract": "arXiv:2611.20322v1 Announce Type: cross  Abstract: Hospitals use repeated risk scores to decide when to send an alert. Some evaluations summarize these scores by their maximum and use the maximum as the running variable in a regression discontinuity (RD) design. The maximum shows correctly whether a patient was ever alerted. However, it can include scores recorded after an earlier alert has already changed care. In this paper, we study what the maximum-score RD estimates when an earlier intervention changes a later score. We use a two-assessment model and derive a formula that splits the RD contrast into the causal effect and a composition term. When feedback moves scores in one direction, the composition term equals the relative jump in the density of the maximum at the cutoff times a prognostic contrast. Therefore, an exactly continuous density means no bias, and the population density jump bounds the bias. Valid inference on the jump turns this into a confidence bound under a stated",
+    "link": "https://arxiv.org/abs/2611.20322",
+    "context": "Title: Maximum Scores and Treatment Feedback in Regression Discontinuity Designs\nAbstract: arXiv:2611.20322v1 Announce Type: cross  Abstract: Hospitals use repeated risk scores to decide when to send an alert. Some evaluations summarize these scores by their maximum and use the maximum as the running variable in a regression discontinuity (RD) design. The maximum shows correctly whether a patient was ever alerted. However, it can include scores recorded after an earlier alert has already changed care. In this paper, we study what the maximum-score RD estimates when an earlier intervention changes a later score. We use a two-assessment model and derive a formula that splits the RD contrast into the causal effect and a composition term. When feedback moves scores in one direction, the composition term equals the relative jump in the density of the maximum at the cutoff times a prognostic contrast. Therefore, an exactly continuous density means no bias, and the population density jump bounds the bias. Valid inference on the jump turns this into a confidence bound under a stated",
+    "path": "papers/26/11/2611.20322.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

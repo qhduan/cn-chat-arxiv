@@ -1,0 +1,12 @@
+{
+    "title": "Formally Verified Certification of Unsolvability of Temporal Planning Problems",
+    "abstract": "arXiv:2510.10189v3 Announce Type: replace-cross  Abstract: We present an approach to unsolvability certification of temporal planning. Our approach is based on encoding the planning problem into a network of timed automata, and then using an efficient model checker on the network followed by a certificate checker to certify the output of the model checker. Our approach prioritises trustworthiness of the certification: we formally verify our implementation of the encoding to timed automata using the theorem prover Isabelle/HOL and we use an existing certificate checker (also formally verified in Isabelle/HOL) to certify the model checking result.",
+    "link": "https://arxiv.org/abs/2510.10189",
+    "context": "Title: Formally Verified Certification of Unsolvability of Temporal Planning Problems\nAbstract: arXiv:2510.10189v3 Announce Type: replace-cross  Abstract: We present an approach to unsolvability certification of temporal planning. Our approach is based on encoding the planning problem into a network of timed automata, and then using an efficient model checker on the network followed by a certificate checker to certify the output of the model checker. Our approach prioritises trustworthiness of the certification: we formally verify our implementation of the encoding to timed automata using the theorem prover Isabelle/HOL and we use an existing certificate checker (also formally verified in Isabelle/HOL) to certify the model checking result.",
+    "path": "papers/25/10/2510.10189.json",
+    "total_tokens": 891,
+    "translated_title": "时间规划问题不可解性的形式化验证证明",
+    "translated_abstract": "我们提出了一种针对时间规划不可解性证明的方法。我们的方法基于将规划问题编码为时间自动机网络，然后使用高效的模型检测器对该网络进行分析，随后通过证书检查器来验证模型检测器的输出。我们的方法优先考虑证明的可信度：我们使用定理证明器Isabelle/HOL对编码到时间自动机的实现进行了形式化验证，并使用现有的证书检查器（同样在Isabelle/HOL中进行了形式化验证）来验证模型检测结果。",
+    "tldr": "该论文提出了一种可信的时间规划问题不可解性证明方法，通过将规划问题编码为时间自动机网络并使用模型检测器分析，其编码实现和证书检查均经过Isabelle/HOL定理证明器的形式化验证以确保高度可信。",
+    "en_tdlr": "This paper presents a trustworthy unsolvability certification approach for temporal planning by encoding problems into timed automata networks with model checking, where both the encoding and certificate checking are formally verified in Isabelle/HOL."
+}

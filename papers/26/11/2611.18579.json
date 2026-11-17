@@ -1,0 +1,12 @@
+{
+    "title": "Uncertainty in Cyber-Physical Systems: A Literature Survey",
+    "abstract": "arXiv:2611.18579v1 Announce Type: new  Abstract: Cyber-Physical Systems (CPSs) operate in dynamic, dependable environments where sensing, communication, decision-making, control, and assurance are affected by uncertainty. This paper characterizes CPS uncertainty through a literature survey comprising 186 primary studies. We (i) characterize uncertainty types, (ii) identify uncertainty sources, (iii) relate uncertainty to life-cycle phases in which they occur, and (iv) overview the possible uncertain mitigation strategies. The findings show that uncertainty is most often conceptualized as an assurance issue. Safety and specification uncertainty is the most prevalent category, followed by environmental and model/epistemic uncertainty. Domain mapping reveals broad cross-domain engagement, while safety-critical sectors such as autonomous systems, energy systems, and robotics CPSs display domain-specific uncertainty patterns. The life-cycle analysis indicates that uncertainty is not limited",
+    "link": "https://arxiv.org/abs/2611.18579",
+    "context": "Title: Uncertainty in Cyber-Physical Systems: A Literature Survey\nAbstract: arXiv:2611.18579v1 Announce Type: new  Abstract: Cyber-Physical Systems (CPSs) operate in dynamic, dependable environments where sensing, communication, decision-making, control, and assurance are affected by uncertainty. This paper characterizes CPS uncertainty through a literature survey comprising 186 primary studies. We (i) characterize uncertainty types, (ii) identify uncertainty sources, (iii) relate uncertainty to life-cycle phases in which they occur, and (iv) overview the possible uncertain mitigation strategies. The findings show that uncertainty is most often conceptualized as an assurance issue. Safety and specification uncertainty is the most prevalent category, followed by environmental and model/epistemic uncertainty. Domain mapping reveals broad cross-domain engagement, while safety-critical sectors such as autonomous systems, energy systems, and robotics CPSs display domain-specific uncertainty patterns. The life-cycle analysis indicates that uncertainty is not limited",
+    "path": "papers/26/11/2611.18579.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

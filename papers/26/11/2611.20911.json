@@ -1,0 +1,12 @@
+{
+    "title": "A Second Order Transport Scheme for Dynamic Portfolio Subspaces under a Varying Risk Metric",
+    "abstract": "arXiv:2611.20911v1 Announce Type: new  Abstract: We analyze the transport of portfolio exposures between moving subspaces under a varying positive definite risk metric. The reference evolution is the induced connection obtained from the ambient connection of minimum norm in fixed asset coordinates. An explicit expansion of risk weighted Procrustes identifies a leading local error that couples metric deformation with covariant motion normal to the subspace. A rank two construction with an exact continuous solution shows that this term can reduce global accuracy to first order even when the metric commutes with its derivative. Geometric mean alignment and a symmetric Procrustes construction cancel the term and yield reversible updates with second order global accuracy. We establish uniform error bounds on nonuniform partitions, characterize the cases in which the Procrustes defect vanishes, and distinguish discretization error from errors in estimated geometry. We also characterize the c",
+    "link": "https://arxiv.org/abs/2611.20911",
+    "context": "Title: A Second Order Transport Scheme for Dynamic Portfolio Subspaces under a Varying Risk Metric\nAbstract: arXiv:2611.20911v1 Announce Type: new  Abstract: We analyze the transport of portfolio exposures between moving subspaces under a varying positive definite risk metric. The reference evolution is the induced connection obtained from the ambient connection of minimum norm in fixed asset coordinates. An explicit expansion of risk weighted Procrustes identifies a leading local error that couples metric deformation with covariant motion normal to the subspace. A rank two construction with an exact continuous solution shows that this term can reduce global accuracy to first order even when the metric commutes with its derivative. Geometric mean alignment and a symmetric Procrustes construction cancel the term and yield reversible updates with second order global accuracy. We establish uniform error bounds on nonuniform partitions, characterize the cases in which the Procrustes defect vanishes, and distinguish discretization error from errors in estimated geometry. We also characterize the c",
+    "path": "papers/26/11/2611.20911.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

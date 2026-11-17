@@ -1,0 +1,12 @@
+{
+    "title": "Log-optimal portfolios for market models with regime switching",
+    "abstract": "arXiv:2611.20163v1 Announce Type: new  Abstract: This paper considers market models under regime switching mechanism with $D$ states, and analyses the log-optimal portfolio. It is the portfolio, with finite expected utility, that maximizes the logarithmic utility from terminal wealth. We consider a family $\\mathbb{X}=(X^{(i)})_{i=1,...,D}$, of $D$-semimartingale models, among which our agent can switch to-and-from following a switching regime modelled by a continuous-time Markov Chain $\\alpha=(\\alpha_t)_{t\\geq 0}$ with $\\alpha_0=1$. Then we define a general switching model $\\widehat{X}$ that covers the existing cases, and study the impact of the stochasticity of the regime switching and its intrinsic risks on the optimal portfolio in many aspects. On the one hand, we single out the necessary and sufficient conditions on the pair $(\\mathbb{X},\\alpha)$, which guarantee the existence of the optimal portfolio for $\\widehat{X}$. On the other hand, we quantify the factors that fully affect a",
+    "link": "https://arxiv.org/abs/2611.20163",
+    "context": "Title: Log-optimal portfolios for market models with regime switching\nAbstract: arXiv:2611.20163v1 Announce Type: new  Abstract: This paper considers market models under regime switching mechanism with $D$ states, and analyses the log-optimal portfolio. It is the portfolio, with finite expected utility, that maximizes the logarithmic utility from terminal wealth. We consider a family $\\mathbb{X}=(X^{(i)})_{i=1,...,D}$, of $D$-semimartingale models, among which our agent can switch to-and-from following a switching regime modelled by a continuous-time Markov Chain $\\alpha=(\\alpha_t)_{t\\geq 0}$ with $\\alpha_0=1$. Then we define a general switching model $\\widehat{X}$ that covers the existing cases, and study the impact of the stochasticity of the regime switching and its intrinsic risks on the optimal portfolio in many aspects. On the one hand, we single out the necessary and sufficient conditions on the pair $(\\mathbb{X},\\alpha)$, which guarantee the existence of the optimal portfolio for $\\widehat{X}$. On the other hand, we quantify the factors that fully affect a",
+    "path": "papers/26/11/2611.20163.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

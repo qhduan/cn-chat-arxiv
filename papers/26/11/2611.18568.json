@@ -1,0 +1,12 @@
+{
+    "title": "Use of Peer Code Review to Identify Potential Security Vulnerabilities in Open Source Software: A Systematic Literature Review",
+    "abstract": "arXiv:2611.18568v1 Announce Type: new  Abstract: Context: Security vulnerabilities in OSS can have severe consequences. OSS project participants widely use peer code review to improve quality and prevent security flaws. However, despite mandatory reviews, OSS projects still contain vulnerabilities, highlighting the need to evaluate code review effectiveness for security. Objectives: This SLR synthesizes evidence on vulnerability types identified or missed, security practices, tool support, reviewer challenges, and factors that improve detection. Method: Searches of five digital libraries yielded 1,067 studies, of which 20 were included. Vulnerabilities were categorized using the Common Weakness Enumeration (CWE) framework. Results: Peer code reviews effectively detect localized, well-known vulnerabilities (e.g., buffer overruns, race conditions, crashes, XSS) but often miss subtle, complex, context-dependent issues (e.g., input validation weaknesses, access control weaknesses, resource",
+    "link": "https://arxiv.org/abs/2611.18568",
+    "context": "Title: Use of Peer Code Review to Identify Potential Security Vulnerabilities in Open Source Software: A Systematic Literature Review\nAbstract: arXiv:2611.18568v1 Announce Type: new  Abstract: Context: Security vulnerabilities in OSS can have severe consequences. OSS project participants widely use peer code review to improve quality and prevent security flaws. However, despite mandatory reviews, OSS projects still contain vulnerabilities, highlighting the need to evaluate code review effectiveness for security. Objectives: This SLR synthesizes evidence on vulnerability types identified or missed, security practices, tool support, reviewer challenges, and factors that improve detection. Method: Searches of five digital libraries yielded 1,067 studies, of which 20 were included. Vulnerabilities were categorized using the Common Weakness Enumeration (CWE) framework. Results: Peer code reviews effectively detect localized, well-known vulnerabilities (e.g., buffer overruns, race conditions, crashes, XSS) but often miss subtle, complex, context-dependent issues (e.g., input validation weaknesses, access control weaknesses, resource",
+    "path": "papers/26/11/2611.18568.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Private Information Retrieval for Large-Scale DNA-Based Data Storage",
+    "abstract": "arXiv:2606.14557v2 Announce Type: replace  Abstract: We investigate Private Information Retrieval (PIR) in the context of synthetic DNA-based data storage. While PIR is a well-studied primitive for digital databases, extending it to DNA-based databases presents unique challenges arising from biochemical query mechanisms and their complexity. We propose two approaches for adapting two-server PIR protocols to DNA-based storage, balancing privacy, efficiency, and feasibility. These approaches illustrate how information-theoretic privacy trade-offs manifest in DNA-based storage systems.",
+    "link": "https://arxiv.org/abs/2606.14557",
+    "context": "Title: Private Information Retrieval for Large-Scale DNA-Based Data Storage\nAbstract: arXiv:2606.14557v2 Announce Type: replace  Abstract: We investigate Private Information Retrieval (PIR) in the context of synthetic DNA-based data storage. While PIR is a well-studied primitive for digital databases, extending it to DNA-based databases presents unique challenges arising from biochemical query mechanisms and their complexity. We propose two approaches for adapting two-server PIR protocols to DNA-based storage, balancing privacy, efficiency, and feasibility. These approaches illustrate how information-theoretic privacy trade-offs manifest in DNA-based storage systems.",
+    "path": "papers/26/06/2606.14557.json",
+    "total_tokens": 820,
+    "translated_title": "面向大规模DNA数据存储的私有信息检索",
+    "translated_abstract": "我们研究了合成DNA数据存储背景下的私有信息检索（PIR）。虽然PIR作为数字数据库中的一种原语已被广泛研究，但将其扩展至DNA数据库时，面临着源自生化查询机制及其复杂性的独特挑战。我们提出了两种将双服务器PIR协议适配到DNA存储的方法，在隐私性、效率和可行性之间取得平衡。这些方法展示了信息论隐私权衡如何在DNA存储系统中得以体现。",
+    "tldr": "该论文提出了两种将双服务器私有信息检索协议适配到DNA数据存储的方法，在隐私、效率和可行性之间取得平衡，并揭示了信息论隐私权衡在DNA存储系统中的具体体现。",
+    "en_tdlr": "This paper proposes two approaches for adapting two-server PIR protocols to DNA-based data storage, balancing privacy, efficiency, and feasibility, and illustrates how information-theoretic privacy trade-offs manifest in DNA storage systems."
+}

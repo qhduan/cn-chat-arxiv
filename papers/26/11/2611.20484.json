@@ -1,0 +1,12 @@
+{
+    "title": "Agent-Guided Configuration Tuning for SMT Solvers",
+    "abstract": "arXiv:2611.20484v1 Announce Type: new  Abstract: SMT solvers expose many configuration choices that determine how well their existing algorithms perform on a workload. We present, to our knowledge, the first workflow that uses general-purpose LLM agents to tune SMT solver configurations. Agents read solver documentation, source code, and persistent experiment records to propose option changes, and a deterministic harness measures each proposal, validates the returned models, and selects changes separately for each competition Division. Over roughly nine weeks, our tuning campaign recorded 4,545 proposals for cvc5 across 13 Divisions and 36 logics.   We evaluate the tuned configurations on the 2026 and 2025 SMT-COMP ModelValidation benchmarks under a 24-second cutoff. On problems not used for training, they validate more problems than official cvc5 in ten of the 13 Divisions in 2026 and in eight in 2025, with geometric-mean gains of 7.8% and 6.8% across Divisions. On the complete offici",
+    "link": "https://arxiv.org/abs/2611.20484",
+    "context": "Title: Agent-Guided Configuration Tuning for SMT Solvers\nAbstract: arXiv:2611.20484v1 Announce Type: new  Abstract: SMT solvers expose many configuration choices that determine how well their existing algorithms perform on a workload. We present, to our knowledge, the first workflow that uses general-purpose LLM agents to tune SMT solver configurations. Agents read solver documentation, source code, and persistent experiment records to propose option changes, and a deterministic harness measures each proposal, validates the returned models, and selects changes separately for each competition Division. Over roughly nine weeks, our tuning campaign recorded 4,545 proposals for cvc5 across 13 Divisions and 36 logics.   We evaluate the tuned configurations on the 2026 and 2025 SMT-COMP ModelValidation benchmarks under a 24-second cutoff. On problems not used for training, they validate more problems than official cvc5 in ten of the 13 Divisions in 2026 and in eight in 2025, with geometric-mean gains of 7.8% and 6.8% across Divisions. On the complete offici",
+    "path": "papers/26/11/2611.20484.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Dealing with Logs and Zeros in Regression Models",
+    "abstract": "arXiv:2203.11820v4 Announce Type: replace  Abstract: Log regression is widely used to express effects in percentage terms, but zeros, heterogeneity and retransformation pose distinct difficulties. We unify the interpretation, identification and estimation of proportional effects through weighted individual percentage changes. We connect these parameters to pseudo-maximum likelihood estimation, characterize finite-sample differences between consistent estimators, and establish relationships with log regression. We develop a new shifted-log transformation that yields unit-invariant proportional-effect parameters and use it to construct iterated ordinary least squares (IOLS), an algorithm that estimates power-mean models through repeated OLS regressions. We prove global numerical convergence, consistency and asymptotic normality, and extend the approach to endogenous regressors. Furthermore, we develop fixed-effect cancellation and bias-correction methods that address incidental-parameter",
+    "link": "https://arxiv.org/abs/2203.11820",
+    "context": "Title: Dealing with Logs and Zeros in Regression Models\nAbstract: arXiv:2203.11820v4 Announce Type: replace  Abstract: Log regression is widely used to express effects in percentage terms, but zeros, heterogeneity and retransformation pose distinct difficulties. We unify the interpretation, identification and estimation of proportional effects through weighted individual percentage changes. We connect these parameters to pseudo-maximum likelihood estimation, characterize finite-sample differences between consistent estimators, and establish relationships with log regression. We develop a new shifted-log transformation that yields unit-invariant proportional-effect parameters and use it to construct iterated ordinary least squares (IOLS), an algorithm that estimates power-mean models through repeated OLS regressions. We prove global numerical convergence, consistency and asymptotic normality, and extend the approach to endogenous regressors. Furthermore, we develop fixed-effect cancellation and bias-correction methods that address incidental-parameter",
+    "path": "papers/22/03/2203.11820.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

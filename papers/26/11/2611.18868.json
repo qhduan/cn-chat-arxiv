@@ -1,0 +1,12 @@
+{
+    "title": "SLICES: A Benchmark and Evaluation Framework for Self-Supervised Learning on Sparse ICU Time Series",
+    "abstract": "arXiv:2611.18868v1 Announce Type: new  Abstract: Self-supervised learning (SSL) results for intensive care unit (ICU) time series are hard to compare when data processing, encoders, and adaptation vary together. We present SLICES, a benchmark and evaluation framework for comparing and extending SSL methods under a shared clinical setup. It fixes 24-hour value and observation-mask inputs, a Transformer encoder, patient-level splits, four endpoints, two adaptation protocols, and five matched seeds across MIMIC-IV, eICU-CRD, and their pooled union. Masked autoencoding (MAE), joint-embedding prediction (JEPA), and contrastive learning provide reference implementations. Among these objectives, MAE leads mean AUPRC in all nine frozen classification comparisons, also under converged probes, and in seven of nine fine-tuning comparisons. Fine-tuned MAE leads hospital mortality at full labels and scores higher than a supervised Transformer of the same architecture at every label fraction, and SS",
+    "link": "https://arxiv.org/abs/2611.18868",
+    "context": "Title: SLICES: A Benchmark and Evaluation Framework for Self-Supervised Learning on Sparse ICU Time Series\nAbstract: arXiv:2611.18868v1 Announce Type: new  Abstract: Self-supervised learning (SSL) results for intensive care unit (ICU) time series are hard to compare when data processing, encoders, and adaptation vary together. We present SLICES, a benchmark and evaluation framework for comparing and extending SSL methods under a shared clinical setup. It fixes 24-hour value and observation-mask inputs, a Transformer encoder, patient-level splits, four endpoints, two adaptation protocols, and five matched seeds across MIMIC-IV, eICU-CRD, and their pooled union. Masked autoencoding (MAE), joint-embedding prediction (JEPA), and contrastive learning provide reference implementations. Among these objectives, MAE leads mean AUPRC in all nine frozen classification comparisons, also under converged probes, and in seven of nine fine-tuning comparisons. Fine-tuned MAE leads hospital mortality at full labels and scores higher than a supervised Transformer of the same architecture at every label fraction, and SS",
+    "path": "papers/26/11/2611.18868.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

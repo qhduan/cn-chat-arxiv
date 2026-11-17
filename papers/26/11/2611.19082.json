@@ -1,0 +1,12 @@
+{
+    "title": "CONTEXT-PCa: Evaluating the role of clinical context in MRI-based AI for detecting clinically significant prostate cancer (study protocol)",
+    "abstract": "arXiv:2611.19082v1 Announce Type: new  Abstract: The objective of this study is to investigate the role of clinical variables - their breadth, source, and quality - in the development, utility, and generalisability of an AI system for bi-parametric MRI (bpMRI)-based diagnosis of clinically significant prostate cancer (csPCa). Clinical context is added to the published PI-CAI-2B image-only model, whose weights are fixed. The study cohort comprises 6,022 biparametric MRI cases from 4,540 patients at University College London Hospitals NHS Foundation Trust (2019-2024), of which 4,834 cases (3,632 patients) are held out for internal testing. Forty-three clinical variables are drawn from structured health records, clinical letters, MRI reports, and automated image measurements. The primary endpoint is the difference in the area under the receiver operating characteristic curve (AUROC) between the image-context and image-only models on the internal test set. Secondary analyses compare combin",
+    "link": "https://arxiv.org/abs/2611.19082",
+    "context": "Title: CONTEXT-PCa: Evaluating the role of clinical context in MRI-based AI for detecting clinically significant prostate cancer (study protocol)\nAbstract: arXiv:2611.19082v1 Announce Type: new  Abstract: The objective of this study is to investigate the role of clinical variables - their breadth, source, and quality - in the development, utility, and generalisability of an AI system for bi-parametric MRI (bpMRI)-based diagnosis of clinically significant prostate cancer (csPCa). Clinical context is added to the published PI-CAI-2B image-only model, whose weights are fixed. The study cohort comprises 6,022 biparametric MRI cases from 4,540 patients at University College London Hospitals NHS Foundation Trust (2019-2024), of which 4,834 cases (3,632 patients) are held out for internal testing. Forty-three clinical variables are drawn from structured health records, clinical letters, MRI reports, and automated image measurements. The primary endpoint is the difference in the area under the receiver operating characteristic curve (AUROC) between the image-context and image-only models on the internal test set. Secondary analyses compare combin",
+    "path": "papers/26/11/2611.19082.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

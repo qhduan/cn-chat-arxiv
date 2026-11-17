@@ -1,0 +1,12 @@
+{
+    "title": "Whose Side Are You On? Measuring Stance at Scale for Reddit Discourse Analysis During the Israel-Gaza War",
+    "abstract": "arXiv:2611.18594v1 Announce Type: new  Abstract: Large-scale discourse analysis often requires stance labels, yet for many high-salience political events such labels are unavailable at the comment level. We introduce and validate a comment-level stance measurement instrument that assigns Pro-Israel, Pro-Palestinian, or Undefined stance using Reddit comment text. The instrument is calibrated from a small, manually annotated gold-standard dataset and scaled through large language model-assisted labeling, achieving weighted-$F_{1}=0.88$ against held-out human annotations. To enable corpus-scale measurement, we operationalize the instrument as a lightweight classifier based on DistilBERT embeddings and an RBF SVM, which achieves weighted-$F_{1}=0.7935$ on the original gold-standard set. Applying this instrument, we measure the stance of approximately 2.7 million Reddit comments posted between 2023 and 2025 during the Israel-Gaza war. We demonstrate what this measurement enables by analyzin",
+    "link": "https://arxiv.org/abs/2611.18594",
+    "context": "Title: Whose Side Are You On? Measuring Stance at Scale for Reddit Discourse Analysis During the Israel-Gaza War\nAbstract: arXiv:2611.18594v1 Announce Type: new  Abstract: Large-scale discourse analysis often requires stance labels, yet for many high-salience political events such labels are unavailable at the comment level. We introduce and validate a comment-level stance measurement instrument that assigns Pro-Israel, Pro-Palestinian, or Undefined stance using Reddit comment text. The instrument is calibrated from a small, manually annotated gold-standard dataset and scaled through large language model-assisted labeling, achieving weighted-$F_{1}=0.88$ against held-out human annotations. To enable corpus-scale measurement, we operationalize the instrument as a lightweight classifier based on DistilBERT embeddings and an RBF SVM, which achieves weighted-$F_{1}=0.7935$ on the original gold-standard set. Applying this instrument, we measure the stance of approximately 2.7 million Reddit comments posted between 2023 and 2025 during the Israel-Gaza war. We demonstrate what this measurement enables by analyzin",
+    "path": "papers/26/11/2611.18594.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

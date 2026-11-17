@@ -1,0 +1,12 @@
+{
+    "title": "FinVerify: A Verification Framework for Financial Agents",
+    "abstract": "arXiv:2611.20423v1 Announce Type: new  Abstract: Financial agents produce numerical claims that can be wrong even when their calculations execute correctly, due to mismatched reporting periods, unsupported sources, incompatible units, or incorrect financial definitions. We introduce FinVerify, an evidence-grounded framework for verifying financial agents' numerical claims. Based on an analysis of 190 incorrect trajectories from the Agent Finance Reasoning dataset, we define five error categories--temporal integrity, source fidelity, comparability, accounting integrity, and financial-model fidelity--and operationalize them as verification protocols. An LLM structures claims and supporting evidence, while deterministic validators check financial requirements; when authoritative formulas are available, Z3 checks consistency with grounded inputs. FinVerify accepts only if all applicable checks pass, rejects proven violations, and abstains when evidence is insufficient. We evaluate the fram",
+    "link": "https://arxiv.org/abs/2611.20423",
+    "context": "Title: FinVerify: A Verification Framework for Financial Agents\nAbstract: arXiv:2611.20423v1 Announce Type: new  Abstract: Financial agents produce numerical claims that can be wrong even when their calculations execute correctly, due to mismatched reporting periods, unsupported sources, incompatible units, or incorrect financial definitions. We introduce FinVerify, an evidence-grounded framework for verifying financial agents' numerical claims. Based on an analysis of 190 incorrect trajectories from the Agent Finance Reasoning dataset, we define five error categories--temporal integrity, source fidelity, comparability, accounting integrity, and financial-model fidelity--and operationalize them as verification protocols. An LLM structures claims and supporting evidence, while deterministic validators check financial requirements; when authoritative formulas are available, Z3 checks consistency with grounded inputs. FinVerify accepts only if all applicable checks pass, rejects proven violations, and abstains when evidence is insufficient. We evaluate the fram",
+    "path": "papers/26/11/2611.20423.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

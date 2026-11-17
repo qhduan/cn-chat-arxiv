@@ -1,0 +1,12 @@
+{
+    "title": "Comments on \"Deep Fr\\'echet Regression\"",
+    "abstract": "arXiv:2611.21454v1 Announce Type: cross  Abstract: We discuss the Journal of the American Statistical Association (JASA) discussion paper \"Deep Fr\\'echet Regression\" and explore an alternative perspective based on conditional flow matching. We propose learning covariate-dependent transport directly within the response space, avoiding separate manifold learning and reverse mapping. This perspective offers a potentially more flexible framework for incorporating geometric structure and modeling full conditional distributions.",
+    "link": "https://arxiv.org/abs/2611.21454",
+    "context": "Title: Comments on \"Deep Fr\\'echet Regression\"\nAbstract: arXiv:2611.21454v1 Announce Type: cross  Abstract: We discuss the Journal of the American Statistical Association (JASA) discussion paper \"Deep Fr\\'echet Regression\" and explore an alternative perspective based on conditional flow matching. We propose learning covariate-dependent transport directly within the response space, avoiding separate manifold learning and reverse mapping. This perspective offers a potentially more flexible framework for incorporating geometric structure and modeling full conditional distributions.",
+    "path": "papers/26/11/2611.21454.json",
+    "total_tokens": 748,
+    "translated_title": "对“深度Fréchet回归”的评论",
+    "translated_abstract": "我们讨论了《美国统计学会杂志》（JASA）的讨论论文“深度Fréchet回归”，并探索了基于条件流匹配的另一种视角。我们提出直接在响应空间中学习依赖于协变量的传输映射，从而避免了单独的流形学习和逆向映射。这一视角为引入几何结构和建模完整的条件分布提供了一个潜在更为灵活的框架。",
+    "tldr": "本文针对“深度Fréchet回归”提出基于条件流匹配的替代视角，直接在响应空间中学习协变量依赖的传输映射，无需单独的流形学习与逆向映射，为建模完整条件分布提供了更灵活的框架。",
+    "en_tdlr": "This paper proposes an alternative perspective to Deep Fréchet Regression based on conditional flow matching, learning covariate-dependent transport directly in the response space without separate manifold learning and reverse mapping, offering a more flexible framework for modeling full conditional distributions."
+}

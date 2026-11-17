@@ -1,0 +1,12 @@
+{
+    "title": "A Backdoor Trigger Is Legible in Fine-Tune Weights",
+    "abstract": "arXiv:2611.19304v1 Announce Type: new  Abstract: A backdoored language model behaves normally until a trigger phrase appears in its input. Every published method for recovering such a trigger runs the model. We show the trigger is legible in the weights alone: a static statistic reads a fine-tuned checkpoint with no forward pass of the suspect, no data, no labelled population of poisoned models and no prior knowledge that a backdoor exists, and names one of the tokens of the trigger phrase as the single highest-ranked candidate in the vocabulary.",
+    "link": "https://arxiv.org/abs/2611.19304",
+    "context": "Title: A Backdoor Trigger Is Legible in Fine-Tune Weights\nAbstract: arXiv:2611.19304v1 Announce Type: new  Abstract: A backdoored language model behaves normally until a trigger phrase appears in its input. Every published method for recovering such a trigger runs the model. We show the trigger is legible in the weights alone: a static statistic reads a fine-tuned checkpoint with no forward pass of the suspect, no data, no labelled population of poisoned models and no prior knowledge that a backdoor exists, and names one of the tokens of the trigger phrase as the single highest-ranked candidate in the vocabulary.",
+    "path": "papers/26/11/2611.19304.json",
+    "total_tokens": 872,
+    "translated_title": "后门触发器在微调权重中是可读的",
+    "translated_abstract": "被植入后门的语言模型在输入中出现触发短语之前表现正常。所有已发表的用于恢复此类触发器的方法都需要运行模型。我们证明触发器仅凭权重即可被读出：一个静态统计量可以直接分析微调后的模型检查点，无需对可疑模型进行任何前向传播、无需数据、无需带标签的中毒模型集合，也无需预先知道后门的存在，就能将触发短语中的某个词元识别为词表中的唯一最高排名候选。",
+    "tldr": "本文提出一种静态统计方法，仅通过分析微调权重即可直接读出语言模型的后门触发词，无需运行模型、无需数据、也无需预先知晓后门的存在。",
+    "en_tdlr": "This paper shows that a backdoor trigger can be read directly from fine-tuned weights alone using a static statistic, without any forward passes, data, or prior knowledge that a backdoor exists."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "CAE-Bench: Benchmarking AI Agents for Reusable CAE Solver Development",
+    "abstract": "arXiv:2611.21273v1 Announce Type: new  Abstract: We developed CAE-Bench, a benchmark to evaluate AI agents on Computer-Aided Engineering (CAE) solver development. A CAE solver is more than a PDE solver; it must be able to generalize across various inputs, such as different boundary conditions, geometries, and material properties. CAE-Bench evaluates the generalizability of AI-developed CAE solvers by providing the same task, such as a heat transfer problem, multiple cases, with each case specifying an input. The AI agent develops a solver for a fixed task using only a few public cases, and the resulting solver is then tested on held-out cases, i.e., cases it has never seen before. We evaluate 12 models across a range of reasoning settings on 80 computational tasks. Our experiments show that even if a solver developed by an AI agent performs well on the public cases, it may even get 0 score on held-out cases. For tasks such as fluid dynamics problems, even the solver developed by GPT-6 ",
+    "link": "https://arxiv.org/abs/2611.21273",
+    "context": "Title: CAE-Bench: Benchmarking AI Agents for Reusable CAE Solver Development\nAbstract: arXiv:2611.21273v1 Announce Type: new  Abstract: We developed CAE-Bench, a benchmark to evaluate AI agents on Computer-Aided Engineering (CAE) solver development. A CAE solver is more than a PDE solver; it must be able to generalize across various inputs, such as different boundary conditions, geometries, and material properties. CAE-Bench evaluates the generalizability of AI-developed CAE solvers by providing the same task, such as a heat transfer problem, multiple cases, with each case specifying an input. The AI agent develops a solver for a fixed task using only a few public cases, and the resulting solver is then tested on held-out cases, i.e., cases it has never seen before. We evaluate 12 models across a range of reasoning settings on 80 computational tasks. Our experiments show that even if a solver developed by an AI agent performs well on the public cases, it may even get 0 score on held-out cases. For tasks such as fluid dynamics problems, even the solver developed by GPT-6 ",
+    "path": "papers/26/11/2611.21273.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}
