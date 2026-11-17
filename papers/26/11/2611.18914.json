@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.18914",
     "context": "Title: How Much Do Foundation Models Add to Gradient Boosting on Financial Event Sequences?\nAbstract: arXiv:2611.18914v1 Announce Type: new  Abstract: Foundation models pretrained on raw transaction sequences are proposed for credit, fraud and churn modeling, with reported gains over gradient boosting, but the data and baselines behind these gains are rarely public. We measure how much the pretraining and adaptation recipes of these models add to a baseline of point-in-time window aggregates and LightGBM, and we propose TBS (Temporal Boosting-Sequence ensemble), which averages the ranks of a boosting model enriched with label-free event-transition features and of a pretrained sequence network fine-tuned jointly with the aggregates. On a synthetic credit-card dataset, the public MBD-mini banking dataset and two proprietary datasets of trade credit and B2B churn, we compare 27 methods at three label budgets with five seeds and paired bootstrap intervals, using sequence models of about 0.4 million parameters pretrained per dataset. Frozen self-supervised embeddings rarely improve the base",
     "path": "papers/26/11/2611.18914.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1469,
+    "translated_title": "基础模型在金融事件序列上能为梯度提升带来多少增益？",
+    "translated_abstract": "在原始交易序列上预训练的基础模型被提出用于信用、欺诈和客户流失建模，据称其性能优于梯度提升，但这些增益背后的数据和基线很少公开。我们衡量了这些模型的预训练与适配方案相对于基于时点窗口聚合特征和LightGBM的基线究竟能带来多少提升，并提出了TBS（时序提升-序列集成，Temporal Boosting-Sequence ensemble），该方法对一个用无标签事件转移特征增强的提升模型与一个和聚合特征联合微调的预训练序列网络的排名进行平均。在一个合成的信用卡数据集、公开的MBD-mini银行数据集以及两个关于贸易信用和B2B客户流失的专有数据集上，我们在三种标签预算下使用五个随机种子和配对自助置信区间比较了27种方法，所使用的序列模型约为40万参数，并针对每个数据集分别预训练。冻结的自监督嵌入很少能改进基线（摘要在此处截断）",
+    "tldr": "该论文提出TBS（时序提升-序列集成）方法，并在多个金融数据集上大规模对比27种方法，发现预训练基础模型相对于基于窗口聚合特征的LightGBM基线增益有限。",
+    "en_tdlr": "The paper proposes the TBS ensemble and, through large-scale comparisons of 27 methods across multiple financial datasets, finds that pretrained foundation models offer limited gains over a LightGBM baseline built on window-aggregate features."
 }

@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.20423",
     "context": "Title: FinVerify: A Verification Framework for Financial Agents\nAbstract: arXiv:2611.20423v1 Announce Type: new  Abstract: Financial agents produce numerical claims that can be wrong even when their calculations execute correctly, due to mismatched reporting periods, unsupported sources, incompatible units, or incorrect financial definitions. We introduce FinVerify, an evidence-grounded framework for verifying financial agents' numerical claims. Based on an analysis of 190 incorrect trajectories from the Agent Finance Reasoning dataset, we define five error categories--temporal integrity, source fidelity, comparability, accounting integrity, and financial-model fidelity--and operationalize them as verification protocols. An LLM structures claims and supporting evidence, while deterministic validators check financial requirements; when authoritative formulas are available, Z3 checks consistency with grounded inputs. FinVerify accepts only if all applicable checks pass, rejects proven violations, and abstains when evidence is insufficient. We evaluate the fram",
     "path": "papers/26/11/2611.20423.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1389,
+    "translated_title": "FinVerify：面向金融智能体的验证框架",
+    "translated_abstract": "金融智能体产生的数值结论即使计算过程执行正确也可能出错，原因包括报告期间不匹配、来源缺乏依据、单位不兼容或金融定义错误。我们提出了 FinVerify，一个基于证据的框架，用于验证金融智能体的数值结论。基于对 Agent Finance Reasoning 数据集中 190 条错误轨迹的分析，我们定义了五类错误——时间完整性、来源忠实性、可比性、会计完整性和金融模型忠实性——并将其操作化为验证协议。大语言模型对结论和支持证据进行结构化处理，同时由确定性验证器检查金融要求；当存在权威公式时，使用 Z3 检查结论与有据可依的输入之间的一致性。只有当所有适用的检查全部通过时，FinVerify 才会接受结论；对已证实的违规予以拒绝；当证据不足时则选择弃权。我们对该框架进行了评估（摘要原文在此处被截断）。",
+    "tldr": "FinVerify 提出了一个基于证据的金融智能体数值结论验证框架，通过对 190 条错误轨迹分析归纳出的五类验证协议（时间完整性、来源忠实性、可比性、会计完整性和金融模型忠实性），结合 LLM 证据结构化、确定性验证器与 Z3 一致性检查，实现仅在全部检查通过时接受、违规时拒绝、证据不足时弃权的严格验证机制。",
+    "en_tdlr": "FinVerify is an evidence-grounded framework that verifies financial agents' numerical claims through five error-category verification protocols derived from analyzing 190 incorrect trajectories, combining LLM-based evidence structuring with deterministic validators and Z3 consistency checks, accepting only when all checks pass, rejecting proven violations, and abstaining when evidence is insufficient."
 }

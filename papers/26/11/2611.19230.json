@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.19230",
     "context": "Title: CompoundingKernel: Self-Improving from Zero to First\nAbstract: arXiv:2611.19230v1 Announce Type: new  Abstract: We present CompoundingKernel, a self-improving agent system that writes GPU kernels by search. As of 2026-11-11, its generated kernels rank #1 on the public L1, L2 and Quantization boards of SOL-ExecBench (NVIDIA B200). They have held #1 on L1 since 2026-10-27, albeit a short loss on 2026-11-07. All 235 problems have a site-verified correct kernel; on the 209 public-board problems they are 4.40x faster than the benchmark's reference baseline. The search starts from zero: agents get each problem's PyTorch definition but no reference kernels or official scores. A per-problem archive outside the model holds every correct kernel and its lineage. An LLM controller reads it, picks a parent or a new design, and gives each parallel child agent one direction. Checks outside the model decide correctness. At equal wall time, it beat a coded UCB style tree on 35 of 38 problems by making 2.4x as many correct attempts. Over a thousand agents ran at on",
     "path": "papers/26/11/2611.19230.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1530,
+    "translated_title": "CompoundingKernel：从零开始自我改进直至登顶第一",
+    "translated_abstract": "我们提出了CompoundingKernel，一个通过搜索方式编写GPU内核的自我改进智能体系统。截至2026年11月11日，其生成的内核在SOL-ExecBench（NVIDIA B200）的公开L1、L2和量化榜单上排名第一。自2026年10月27日以来，它们一直保持L1榜单第一的位置（尽管在2026年11月7日曾短暂失位）。全部235个问题都有经网站验证的正确内核；在209个公开榜单问题上，其内核比基准测试的参考基线快4.40倍。该搜索从零开始：智能体只获得每个问题的PyTorch定义，没有任何参考内核或官方分数。模型外部的问题级存档保存着每个正确内核及其演化谱系。一个LLM控制器读取该存档，选择某个父代或全新设计，并为每个并行运行的子智能体分配一个方向。正确性由模型外部的检查来判定。在相同的挂钟时间下，该方法通过做出2.4倍的正确尝试次数，在38个问题中的35个上击败了编码实现的UCB风格树搜索。超过一千个智能体在……上运行（原文此处截断）",
+    "tldr": "CompoundingKernel是一个从零开始的自我改进智能体系统，通过模型外的内核存档与LLM控制器驱动的并行搜索来编写GPU内核，在SOL-ExecBench的L1、L2和量化榜单上排名第一，性能达参考基线的4.40倍。",
+    "en_tdlr": "CompoundingKernel is a self-improving agent system that searches from zero to write GPU kernels using an out-of-model kernel archive and LLM controller, ranking #1 on SOL-ExecBench's L1, L2 and Quantization boards with kernels 4.40x faster than the reference baseline."
 }

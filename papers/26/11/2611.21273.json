@@ -4,9 +4,8 @@
     "link": "https://arxiv.org/abs/2611.21273",
     "context": "Title: CAE-Bench: Benchmarking AI Agents for Reusable CAE Solver Development\nAbstract: arXiv:2611.21273v1 Announce Type: new  Abstract: We developed CAE-Bench, a benchmark to evaluate AI agents on Computer-Aided Engineering (CAE) solver development. A CAE solver is more than a PDE solver; it must be able to generalize across various inputs, such as different boundary conditions, geometries, and material properties. CAE-Bench evaluates the generalizability of AI-developed CAE solvers by providing the same task, such as a heat transfer problem, multiple cases, with each case specifying an input. The AI agent develops a solver for a fixed task using only a few public cases, and the resulting solver is then tested on held-out cases, i.e., cases it has never seen before. We evaluate 12 models across a range of reasoning settings on 80 computational tasks. Our experiments show that even if a solver developed by an AI agent performs well on the public cases, it may even get 0 score on held-out cases. For tasks such as fluid dynamics problems, even the solver developed by GPT-6 ",
     "path": "papers/26/11/2611.21273.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1417,
+    "translated_title": "CAE-Bench：面向可复用CAE求解器开发的AI智能体基准测试",
+    "translated_abstract": "我们开发了CAE-Bench，这是一个用于评估AI智能体在计算机辅助工程（CAE）求解器开发方面能力的基准测试。CAE求解器不仅仅是偏微分方程（PDE）求解器；它必须能够在各种输入之间进行泛化，例如不同的边界条件、几何形状和材料属性。CAE-Bench通过为同一任务（如传热问题）提供多个案例（每个案例指定一个输入）来评估AI开发的CAE求解器的泛化能力。AI智能体仅使用少数公开案例为固定任务开发求解器，然后将所得的求解器在保留案例（即它从未见过的案例）上进行测试。我们在80个计算任务上、跨多种推理设置评估了12个模型。实验表明，即使AI智能体开发的求解器在公开案例上表现良好，它在保留案例上甚至可能得到0分。对于流体动力学等任务，即使是GPT-6开发的求解器……（原文在此处截断）",
+    "tldr": "提出CAE-Bench基准，通过“公开案例开发、保留案例测试”的方式评估AI智能体所开发CAE求解器的泛化能力，发现即使求解器在公开案例上表现良好，在未见过的案例上也可能得0分。"
 }

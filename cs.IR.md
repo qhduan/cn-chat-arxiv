@@ -8,59 +8,63 @@
 | [^4] | [Adaptive-Elbow Graph Traversal for Schema Retrieval in Text-to-SQL](https://arxiv.org/abs/2611.20979) | 本文提出AEGT（ElbowHop），一种基于属性图的表检索方法，用自适应肘部截断取代固定top-k预算，并通过图遍历捕捉外键关联表，从而同时解决嵌入式模式检索中预算固定次优与忽略连接所需表两大缺陷。 |
 | [^5] | [Living Context Graphs: Continual Semantic Learning for Enterprise Data Reasoning](https://arxiv.org/abs/2611.20976) | 本文提出活跃上下文图，这是一种无需复制或转换数据仓库即可让企业现有数据直接服务于AI的持续学习语义层，它通过从数据中引导语义、构建概念图索引业务上下文、基于验证结果持久化或撤回语义知识，显著提升text-to-SQL等数据推理能力。 |
 | [^6] | [Evidence Diet: When Graph Evidence Helps LLMs Rank Competing Candidates](https://arxiv.org/abs/2611.20837) | 本研究揭示了LLM排序器利用图结构协同证据的机制，发现用户级证据交换和无关文本注入会显著损害排序性能，而在度匹配条件下向历史中添加候选级图记录可使Amazon Books和MovieTV数据集上的NDCG@5分别提升2.28分和2.54分。 |
-| [^7] | [CARE: Contrastive-Anchored Residual Encoding with Listwise Reconstruction for Retrieval-Oriented Semantic IDs](https://arxiv.org/abs/2611.20721) | 论文提出CARE-SID与CARE-LR两种面向检索的语义ID分词器，通过查询-文档对比对齐、锚定残差量化和列表式重建，确保量化后的语义ID仍能支持查询对相关文档的有效召回。 |
-| [^8] | [When the Bill Falls: Reusing the Old Index Defers,Never Avoids, Re-encoding in Complete Embedding-Model Migration](https://arxiv.org/abs/2611.20702) | 该论文通过大规模实验证明，复用旧索引只能推迟而非真正避免嵌入模型迁移中的重新编码工作，并提出了适配器应以旧模型为基准进行评估、窗口重排序成本可仅凭旧索引预先估算等实用结论。 |
-| [^9] | [MAGE: Meta-path Adaptive Graph Evidence for Transferable Multimodal Graph Learning](https://arxiv.org/abs/2611.20449) | 提出MAGE框架，通过元路径自适应图证据提示，解决了可迁移多模态图学习中的自适应跨模态邻域融合与特定目标证据选择两大关键挑战，使模型能够泛化到未见过的图域。 |
-| [^10] | [Overview of the Plagiarism Detection Task at PAN 2026](https://arxiv.org/abs/2611.20443) | PAN 2026生成式剽窃检测任务利用四种大语言模型创建了两个模拟恶意低成本生成并逃避检测的合成剽窃数据集，六个团队的26份参赛提交显著超越了三个基线方法。 |
-| [^11] | [What Unlinked Aggregates Still Prove: Ranker Comparisons from Exact and Differentially Private Item Counts](https://arxiv.org/abs/2611.20388) | 本文提出一种在隐私保护下评估推荐系统的新方法：仅利用商品级购买计数（精确或差分隐私发布），通过界定所有与计数一致的购买分配下的性能差异区间来判断哪个排序器更优，且差分隐私下的置信度保证可覆盖同批次所有比较。 |
-| [^12] | [Straight to the Product: What Online Retailers Miss When Shoppers Ask AI First](https://arxiv.org/abs/2611.20378) | 本文首次将用户的AI助手对话与其在二十家大型在线零售商的实际浏览行为关联，发现助手提及的产品会使用户在一天内到访该产品页的概率提升约百倍（从0.02升至2.07每百次回答），但89%的访问并未通过助手链接到达、多经网页搜索实现，说明零售商追踪不到也错失了这类由AI引导而来的流量。 |
-| [^13] | [How did data sharing evolve in the decade since the FAIR Principles?](https://arxiv.org/abs/2611.20319) | 该研究对2011至2025年间680余万篇生物医学开放获取论文进行了大规模纵向分析，发现明确数据可用性声明的采用率从约2%升至68%，揭示了FAIR原则发布十年间数据共享实践的显著演进。 |
-| [^14] | [EchoSpec: Training Search Agents to Weigh Evidence Above Echoes](https://arxiv.org/abs/2611.20034) | 该论文发现强化学习训练的搜索智能体会把被大量转载改写的虚假“回声”论断误当作独立证据、丧失弃权能力，并定位出失败根源在于证据获取阶段，主张训练智能体优先采信一手证据而非回声。 |
-| [^15] | [Take a Step Back: A Dual-Granularity Raw Feature Empowered Intermediate Fusion Graph Convolutional Network for Multimodal Recommendation](https://arxiv.org/abs/2611.19974) | 提出DIGCN，通过“退一步”利用双粒度原始特征赋能的中间融合图卷积网络，同时解决多模态推荐中低质量表示学习和模态过度对齐压缩两大问题。 |
-| [^16] | [DetouR: Plugging Association Routes into Search Agents for Multi-hop Question Answering](https://arxiv.org/abs/2611.19967) | DetouR 提出一种即插即用插件，通过复用已检索页面自带的超链接进行“链接重路由”，在不增加任何搜索或 LLM 调用的情况下引导搜索智能体沿关联路径找到问题未直接提及的关键证据，从而提升多跳问答性能。 |
-| [^17] | [A Demonstration System for Faithful Temporal Question Answering](https://arxiv.org/abs/2611.19926) | 该论文提出了Faith，一种新颖的时序问答方法，通过递归回答机制将隐式时序约束转化为显式条件，并借助可追溯的忠实证据与可视化功能确保答案的可解释性。 |
-| [^18] | [Attribute or Abstain: Evaluating Evidence-Grounded Retrieval on the Low-Resource African Business Web](https://arxiv.org/abs/2611.19900) | 该论文提出AfriBizClaims基准，首次系统评估检索增强系统在证据稀缺的非洲低资源商业网络上的证据归因与拒答能力，发现简单的BM25和标准RAG基线在归因上表现出色（98%论断有据可依）并能正确拒答虚构公司查询。 |
-| [^19] | [NoLBERT-Calls: Reading Earnings Calls Without Hindsight](https://arxiv.org/abs/2611.19849) | 该论文提出NoLBERT-Calls-2023，通过仅使用2023年底之前的知识并利用财报电话会议自身的问答对进行自监督适配，消除了语言模型财务度量中的后见之明偏差，在254,575个问题上以78.0%的准确率正确匹配管理层回答。 |
-| [^20] | [Reflection Is Not Always Worth It: Budgeted Reflection Allocation for Recommendation Agents](https://arxiv.org/abs/2611.19847) | BRAVE通过预算化分配推荐智能体训练时的LLM反思，在保持全目录排序与推理重排序效果的同时减少不必要的反思计算以提升效率，并通过部署时审计防范对偏好稀疏或小众用户个性化削弱的潜在风险。 |
-| [^21] | [Exact Sparse Assignment with Costly Target Embeddings: Fixed-Realization Certificates and an Empirical Audit](https://arxiv.org/abs/2611.19770) | 该论文提出了一种针对单位范数嵌入的最优性证书方法，能够在选择性获取高成本目标嵌入的过程中证明当前稀疏分配已精确最优，并明确界定了在网络特征不满足批次不变性时证书所保证的最优性范围。 |
-| [^22] | [StaleBench: Isolating Stale Retrieval in Agent Memory, and Pricing the Fix](https://arxiv.org/abs/2611.19752) | StaleBench基准在892个真实更新事实上隔离了智能体内存中的“过期检索”失败问题，揭示现有检索指标可能对内存策略做出完全相反的排序，并提出新指标Contamination@5来正确评估和定价修复方案。 |
-| [^23] | [Keep it Simple! A Multiple-Choice Task can Benefit Generative Recommendation](https://arxiv.org/abs/2611.19320) | 该论文提出只需在生成式推荐的学习目标中加入一个简单的多项选择题辅助任务，即可显式引入负样本和与BPR理念一致的相对排序信号，从而在不依赖复杂架构和大量调参的情况下有效提升推荐效果。 |
-| [^24] | [Revisiting What Makes a Good Context Subset: A Sparse Latent Basis Perspective](https://arxiv.org/abs/2611.19220) | 该论文将少样本示例选择形式化为以查询表示为目标的稀疏重建问题，提出匹配追踪式的残差解释搜索（RES）方法，实验表明其在多数模型-数据集组合上优于MMR，说明示例的集体互补性比成对相异性更重要。 |
-| [^25] | [LABEL: Literature Asymmetry between Efficacy and Limits in Drug Knowledge and Language Models](https://arxiv.org/abs/2611.19166) | 该论文量化了医学文献中药物适应症（疗效）的记载频率约为禁忌症（安全限制）两倍的不对称现象，并将其命名为LABEL，同时发现语言模型也镜像了这一文献差距。 |
-| [^26] | [CLEAR: Legible and Steerable Recommendation via Grounded Natural-Language Interests](https://arxiv.org/abs/2611.19110) | CLEAR是Meta部署的端到端推荐系统，其核心创新是通过可编辑的自然语言兴趣层让推荐偏好清晰可读、可由用户引导，每个推断出的兴趣都以用户历史事件为行为依据，并作为统一的服务地址同时驱动词汇检索、行为检索、嵌入检索以及排序、归因和曝光控制。 |
-| [^27] | [Knowledge-Guided Local-to-Global Anomaly Learning for Longitudinal Medication Trajectories](https://arxiv.org/abs/2611.19106) | 该论文提出一种知识引导的局部到全局（L2G）异常学习框架，通过在用药事件、治疗疗程和就诊片段三个粒度上构建代理监督，并利用Top-α聚合将就诊级异常检测与账户级分类联合优化，从而有效识别纵向用药轨迹中的可疑偏差。 |
-| [^28] | [TokenFormer V2: Breaking the Resolution-Complexity Dilemma in Unified Recommendation](https://arxiv.org/abs/2611.19074) | TokenFormer V2 通过局部-全局分解范式将表征分辨率与交互密度解耦，在严格的服务预算下既保留了长行为历史的细粒度证据，又实现了高效的结构化交互计算，从而破解推荐系统中的分辨率-复杂度困境。 |
-| [^29] | [LMEG-Doc: Layout-Grounded Multi-View Evidence Graphs for Multimodal Long-Document Retrieval](https://arxiv.org/abs/2611.18901) | 提出LMEG-Doc框架，通过构建基于版面的多视角证据图并引入跨页关系精炼机制，捕捉多模态长文档中跨页面、跨模态互补证据之间的关系，从而提升多模态长文档检索的效果。 |
-| [^30] | [Label-Free Detection of Structural Bias in LLM-Based Recommender Systems via Randomized Paraphrasing: The Case of Verbosity](https://arxiv.org/abs/2611.18878) | 提出一种基于随机改写的无标签统计检验框架，无需相关性标签即可检测LLM推荐系统中由文本表面属性（如冗长性）引起的结构性偏差。 |
-| [^31] | [Brain AI Scientist: An Evidence-Based Multi-Agent System for Translational Neuroimaging in Precision Psychiatry](https://arxiv.org/abs/2611.18634) | 该论文提出Brain AI Scientist——一个基于循证医学的多智能体自主系统，通过整合患者fMRI数据与科学文献的检索验证，构建可追溯的证据链，为精准精神病学生成个体化生物标志物和治疗指导。 |
-| [^32] | [Intrinsic Attention as Navigator: A Non-Generative Retrieval Method for Multi-Hop Queries](https://arxiv.org/abs/2611.18617) | 提出了一种无需训练的非生成式检索方法IN-Retriever，通过利用嵌入模型的内在注意力迭代提取桥接线索、剥离已发现线索并重排序候选文档，无需生成中间推理文本即可将检索精确导向多跳查询的下一跳证据。 |
-| [^33] | [Automating literature screening and knowledge synthesis with large language models](https://arxiv.org/abs/2611.18588) | 该研究开发了一个由大语言模型驱动的统一自动化框架，可完成文献筛选、结构化信息提取与知识综合，在材料科学任务中平衡准确率超过0.90，并将筛选1万条记录的时间从约83个人工小时缩短至4分钟。 |
-| [^34] | [Vision-Grounded Semantic Learning and Alignment for Scalable Multilingual Text-Based Person Retrieval](https://arxiv.org/abs/2611.15328) | 该论文提出了首个大规模多语言行人预训练数据集MultiPedes（包含四种语言的1000万图文对），并引入视觉锚定的语义学习与对齐方法，解决了多语言文本行人检索中缺乏预训练数据和英语中心偏差的问题。 |
-| [^35] | [Generative Search and Recommendation at Shopify](https://arxiv.org/abs/2611.08804) | Shopify 提出 SID-LLM，将搜索与推荐统一建模为生成语义 ID 的任务，通过目录与行为数据联合预训练、强化学习、专家蒸馏以及多 token 预测结合轻量级排序器，实现了高质量、低延迟的检索与推荐。 |
-| [^36] | [Do Search-Augmented Recommenders Use the Latest Search Episode?](https://arxiv.org/abs/2611.06044) | 提出FocalSwap审计框架，通过在固定目标与候选集的条件下替换最新搜索或全部搜索输入，检验搜索增强推荐系统对最新搜索会话的实际依赖程度，发现其估计收益随对照方式的选择而变化。 |
-| [^37] | [REGER: Modeling inter-item Relations with Semantic IDs for Generative Recommendation](https://arxiv.org/abs/2610.37584) | 提出REGER统一框架，通过生成式语义检索预训练使GR模型继承物品间语义相似性，并将物品间关系显式融入语义预训练、历史编码和SID生成的全过程。 |
-| [^38] | [Twenty Days Later: A Pre-Registered Test of History-Based Forecasts of Brand Mentions in Gemini Answers](https://arxiv.org/abs/2610.19608) | 该论文通过预注册的重复实验证明，基于历史数据对Gemini回答中品牌提及率的预测在约20天后依然准确（Brier得分0.0281，接近8小时短期预测水平且优于品牌历史基线），表明大语言模型的品牌提及计数具有足够的时间稳定性，可供实际决策使用。 |
-| [^39] | [SearchJev: A Calibrated System-1 Model for Search Agents](https://arxiv.org/abs/2610.05107) | SearchJev提出一个无需自回归生成的校准化System-1模型，将搜索代理的短决策与System-2推理分离，并通过软标签学习（SLCD）从不确定监督中提升决策置信度的可靠性。 |
-| [^40] | [BioSync: Transformer-Based Cross-Modal Fusion for a Multimodal Physiological Digital Biomarker](https://arxiv.org/abs/2609.04504) | BioSync提出了一种基于Transformer多头自注意力的跨模态融合框架，将可穿戴设备采集的心脏、神经、行为和语音数据整合为符合BEST框架的连续型复合数字生物标志物——BioSync指数（BSI），在认知衰退检测的合成队列上达到0.928的AUC。 |
-| [^41] | [ViSAR: Training-Free Adaptive-$k$ Retrieval for Visual Document Question Answering](https://arxiv.org/abs/2609.02486) | 提出了一种无需训练的自适应k值检索方法ViSAR，通过在嵌入空间中构建查询条件的页面级相似度矩阵来动态确定检索页面数量，在保持或提升答案准确性的同时将RAG延迟降低高达58.7%。 |
-| [^42] | [Hi-Q: Hierarchical Evidence-guided Query Refinement for Multi-Hop Question Answering](https://arxiv.org/abs/2608.30468) | Hi-Q提出了一种以证据为条件的分层查询细化框架，通过在每个查询节点上利用解析算子判断证据是否支持当前查询单元，动态构建查询树，从而解决多跳问答中问题表达粒度与语料证据可检索粒度不匹配的核心瓶颈。 |
-| [^43] | [CogRec: Structure-Cognitive Fast-and-Slow Reasoning for Generative Recommendation](https://arxiv.org/abs/2607.24402) | 提出CogRec框架，通过SID Routing的匹配、横向跳跃和探索操作将中间推理过程锚定在SID层次拓扑结构上，实现了生成式推荐中基于结构的快慢显式推理。 |
-| [^44] | [UniFormer: Efficient and Unified Model-Centric Scaling for Industrial Recommendation](https://arxiv.org/abs/2606.27058) | UniFormer通过将建模空间分解为特征和任务空间，并引入语义化令牌方案，实现了高效统一的工业推荐模型扩展，突破了传统组件独立扩展的局限。 |
-| [^45] | [Cited Web Sources in LLM Answers about Brands: A Multilingual Audit](https://arxiv.org/abs/2606.25787) | 该研究对涵盖128个品牌、13种语言和12个市场的167,551条大语言模型回答中的引用网址进行了多语言审计，揭示了引用来源的高度集中性（少数域名占80%的引用且维基百科占据主导地位），并论证了标准化、分类规则和明确分母在引用审计中的必要性。 |
-| [^46] | [Private Information Retrieval for Large-Scale DNA-Based Data Storage](https://arxiv.org/abs/2606.14557) | 该论文提出了两种将双服务器私有信息检索协议适配到DNA数据存储的方法，在隐私、效率和可行性之间取得平衡，并揭示了信息论隐私权衡在DNA存储系统中的具体体现。 |
-| [^47] | [EHR-RAGp: Prototype-Guided Retrieval of Longitudinal Electronic Health Records for Clinical Prediction Models](https://arxiv.org/abs/2605.12335) | 提出EHR-RAGp框架，利用原型引导的检索模块动态评估并整合多种临床事件类型中最相关的患者历史信息，从而提升临床预测模型的性能。 |
-| [^48] | [DeGenTWeb: A First Look at MGT-dominant Websites](https://arxiv.org/abs/2605.00087) | 提出了 DeGenTWeb 框架，通过将机器生成文本检测器适配到网页并聚合网站级检测结果，首次系统识别出以机器生成内容为主的网站，发现 Common Crawl 存档网站中 20.9% 和 Bing 搜索结果链接网站中 13.6% 属于机器生成文本主导型。 |
-| [^49] | [GAAMA: Graph Augmented Associative Memory for Agents](https://arxiv.org/abs/2603.27910) | 该论文提出GAAMA，一种围绕主题组织对话的图增强联想记忆框架，通过情节、原子事实、主题概念与高阶反思四类节点及五种结构边避免巨型枢纽问题，并结合最近邻搜索与个性化PageRank提升AI智能体长期记忆的检索效果。 |
-| [^50] | [GateSID: One Gate to Balance Semantic and Collaborative Signals across the Item Lifecycle](https://arxiv.org/abs/2603.22916) | GateSID通过一个共享门控机制，根据物品的成熟度（从冷启动到热门）动态调节语义与协同信号的融合方式，并通过GFSA、GRCA和GRSR三种门控驱动机制，解决了现有语义ID方法融合方式僵化、与物品无关的问题。 |
-| [^51] | [Beyond Text: Text-Image Fusion for Scalable Two-Tower Retrieval](https://arxiv.org/abs/2603.04836) | 该论文提出一种带双线性交互网络的模态专家混合融合架构，在2000万查询-商品对上训练，实现了电商双塔检索的文本-图像融合，使nDCG@1在期望度和相关性上分别提升4.86%和2.36%。 |
-| [^52] | [Unified Ranking Across Retrieval Channels: A Large-Scale E-Commerce Approach](https://arxiv.org/abs/2602.23530) | 该论文将电商大规模搜索中多通道检索结果的融合问题重新表述为通道感知的学习排序任务，提出了一种基于漏斗加权分级相关性标签（结合点击、加购与购买）训练的统一排序模型，以在严格延迟约束下更好地优化转化率等业务指标。 |
-| [^53] | [Self-EvolveRec: Self-Evolving Recommender Systems with LLM-based Directional Feedback](https://arxiv.org/abs/2602.12612) | 提出了Self-EvolveRec框架，通过用户模拟器的定性批评与模型诊断工具的定量验证构建方向性反馈回路，并引入诊断工具与模型协同演化策略，使推荐系统能够实现自我演化改进。 |
-| [^54] | [MSN: A Memory-based Sparse Activation Scaling Framework for Large-scale Industrial Recommendation](https://arxiv.org/abs/2602.07526) | MSN提出了一种基于记忆的稀疏激活扩展框架，通过记忆门控机制从大型参数化记忆库中动态检索个性化表示并融入下游特征交互模块，以低计算开销实现大规模工业推荐模型的细粒度个性化扩展。 |
-| [^55] | [Why Steering Works: Toward a Unified View of Language Model Parameter Dynamics](https://arxiv.org/abs/2602.02343) | 该论文提出统一框架，将权重微调、LoRA适配和激活干预等LLM控制方法统一视为控制信号诱导的动态权重更新，并揭示了偏好与效用之间一致的权衡关系。 |
-| [^56] | [Fidelity Before Structure: Verbatim Chunks Beat Lossy Artifact Extraction in Long-Conversation LLM Memory](https://arxiv.org/abs/2601.00821) | 在长对话LLM记忆系统中，直接存储逐字对话片段的检索准确率显著优于LLM提取的结构化信息，性能差距的根源是有损蒸馏而非结构本身。 |
-| [^57] | [From Evidence to Judgment: Trace-Augmented Reasoning under Conflicting Evidence](https://arxiv.org/abs/2512.16795) | 该论文提出在RAG面临冲突证据时，通过微调模型在回答前生成结构化思考轨迹（逐篇评判文档、推断冲突模式）来增强推理，并发布了相关数据集、基准及CATS评估框架，证明该方法显著提升了模型在有依据地回答或拒绝之间的决策能力。 |
-| [^58] | [jXBW: A Compressed Index Enabling Structure-Aware JSONL Retrieval for Structured RAG](https://arxiv.org/abs/2508.12536) | jXBW通过合并树等创新设计，实现了对JSONL语料库的高效压缩子结构搜索，从而替代传统逐查询结构重建，显著提升结构化RAG的检索性能。 |
-| [^59] | [Revela: Dense Retriever Learning via Language Modeling](https://arxiv.org/abs/2506.16552) | 提出Revela框架，将检索类比为词元块之间的依赖关系学习，通过语言建模式的自监督目标训练密集检索器，从而摆脱对昂贵标注查询-文档对的依赖。 |
+| [^7] | [UniGraph: A Unified Graph-based Index for Dynamic Hybrid Dense-Sparse Vector Retrieval](https://arxiv.org/abs/2611.20758) | 提出UniGraph统一混合图索引，将多个混合权重下计算得到的邻居集合合并为单一有界度图索引，以支持动态的查询特定权重混合稠密-稀疏向量检索，避免候选项目过早丢失并减少检索次数。 |
+| [^8] | [CARE: Contrastive-Anchored Residual Encoding with Listwise Reconstruction for Retrieval-Oriented Semantic IDs](https://arxiv.org/abs/2611.20721) | 论文提出CARE-SID与CARE-LR两种面向检索的语义ID分词器，通过查询-文档对比对齐、锚定残差量化和列表式重建，确保量化后的语义ID仍能支持查询对相关文档的有效召回。 |
+| [^9] | [When the Bill Falls: Reusing the Old Index Defers,Never Avoids, Re-encoding in Complete Embedding-Model Migration](https://arxiv.org/abs/2611.20702) | 该论文通过大规模实验证明，复用旧索引只能推迟而非真正避免嵌入模型迁移中的重新编码工作，并提出了适配器应以旧模型为基准进行评估、窗口重排序成本可仅凭旧索引预先估算等实用结论。 |
+| [^10] | [MAGE: Meta-path Adaptive Graph Evidence for Transferable Multimodal Graph Learning](https://arxiv.org/abs/2611.20449) | 提出MAGE框架，通过元路径自适应图证据提示，解决了可迁移多模态图学习中的自适应跨模态邻域融合与特定目标证据选择两大关键挑战，使模型能够泛化到未见过的图域。 |
+| [^11] | [IntentFlow: An Intent-Driven Real-Time Multimodal Search System with Image-Text Queries at Xiaohongshu](https://arxiv.org/abs/2611.20448) | IntentFlow是小红书部署的意图驱动实时多模态搜索系统，通过层次化意图分类体系和意图特定的相关性标准，在百亿级索引上实现了图文查询场景下候选检索与重排序的一致性对齐。 |
+| [^12] | [Overview of the Plagiarism Detection Task at PAN 2026](https://arxiv.org/abs/2611.20443) | PAN 2026生成式剽窃检测任务利用四种大语言模型创建了两个模拟恶意低成本生成并逃避检测的合成剽窃数据集，六个团队的26份参赛提交显著超越了三个基线方法。 |
+| [^13] | [What Unlinked Aggregates Still Prove: Ranker Comparisons from Exact and Differentially Private Item Counts](https://arxiv.org/abs/2611.20388) | 本文提出一种在隐私保护下评估推荐系统的新方法：仅利用商品级购买计数（精确或差分隐私发布），通过界定所有与计数一致的购买分配下的性能差异区间来判断哪个排序器更优，且差分隐私下的置信度保证可覆盖同批次所有比较。 |
+| [^14] | [Straight to the Product: What Online Retailers Miss When Shoppers Ask AI First](https://arxiv.org/abs/2611.20378) | 本文首次将用户的AI助手对话与其在二十家大型在线零售商的实际浏览行为关联，发现助手提及的产品会使用户在一天内到访该产品页的概率提升约百倍（从0.02升至2.07每百次回答），但89%的访问并未通过助手链接到达、多经网页搜索实现，说明零售商追踪不到也错失了这类由AI引导而来的流量。 |
+| [^15] | [How did data sharing evolve in the decade since the FAIR Principles?](https://arxiv.org/abs/2611.20319) | 该研究对2011至2025年间680余万篇生物医学开放获取论文进行了大规模纵向分析，发现明确数据可用性声明的采用率从约2%升至68%，揭示了FAIR原则发布十年间数据共享实践的显著演进。 |
+| [^16] | [EchoSpec: Training Search Agents to Weigh Evidence Above Echoes](https://arxiv.org/abs/2611.20034) | 该论文发现强化学习训练的搜索智能体会把被大量转载改写的虚假“回声”论断误当作独立证据、丧失弃权能力，并定位出失败根源在于证据获取阶段，主张训练智能体优先采信一手证据而非回声。 |
+| [^17] | [Take a Step Back: A Dual-Granularity Raw Feature Empowered Intermediate Fusion Graph Convolutional Network for Multimodal Recommendation](https://arxiv.org/abs/2611.19974) | 提出DIGCN，通过“退一步”利用双粒度原始特征赋能的中间融合图卷积网络，同时解决多模态推荐中低质量表示学习和模态过度对齐压缩两大问题。 |
+| [^18] | [DetouR: Plugging Association Routes into Search Agents for Multi-hop Question Answering](https://arxiv.org/abs/2611.19967) | DetouR 提出一种即插即用插件，通过复用已检索页面自带的超链接进行“链接重路由”，在不增加任何搜索或 LLM 调用的情况下引导搜索智能体沿关联路径找到问题未直接提及的关键证据，从而提升多跳问答性能。 |
+| [^19] | [A Demonstration System for Faithful Temporal Question Answering](https://arxiv.org/abs/2611.19926) | 该论文提出了Faith，一种新颖的时序问答方法，通过递归回答机制将隐式时序约束转化为显式条件，并借助可追溯的忠实证据与可视化功能确保答案的可解释性。 |
+| [^20] | [Attribute or Abstain: Evaluating Evidence-Grounded Retrieval on the Low-Resource African Business Web](https://arxiv.org/abs/2611.19900) | 该论文提出AfriBizClaims基准，首次系统评估检索增强系统在证据稀缺的非洲低资源商业网络上的证据归因与拒答能力，发现简单的BM25和标准RAG基线在归因上表现出色（98%论断有据可依）并能正确拒答虚构公司查询。 |
+| [^21] | [NoLBERT-Calls: Reading Earnings Calls Without Hindsight](https://arxiv.org/abs/2611.19849) | 该论文提出NoLBERT-Calls-2023，通过仅使用2023年底之前的知识并利用财报电话会议自身的问答对进行自监督适配，消除了语言模型财务度量中的后见之明偏差，在254,575个问题上以78.0%的准确率正确匹配管理层回答。 |
+| [^22] | [Reflection Is Not Always Worth It: Budgeted Reflection Allocation for Recommendation Agents](https://arxiv.org/abs/2611.19847) | BRAVE通过预算化分配推荐智能体训练时的LLM反思，在保持全目录排序与推理重排序效果的同时减少不必要的反思计算以提升效率，并通过部署时审计防范对偏好稀疏或小众用户个性化削弱的潜在风险。 |
+| [^23] | [Exact Sparse Assignment with Costly Target Embeddings: Fixed-Realization Certificates and an Empirical Audit](https://arxiv.org/abs/2611.19770) | 该论文提出了一种针对单位范数嵌入的最优性证书方法，能够在选择性获取高成本目标嵌入的过程中证明当前稀疏分配已精确最优，并明确界定了在网络特征不满足批次不变性时证书所保证的最优性范围。 |
+| [^24] | [StaleBench: Isolating Stale Retrieval in Agent Memory, and Pricing the Fix](https://arxiv.org/abs/2611.19752) | StaleBench基准在892个真实更新事实上隔离了智能体内存中的“过期检索”失败问题，揭示现有检索指标可能对内存策略做出完全相反的排序，并提出新指标Contamination@5来正确评估和定价修复方案。 |
+| [^25] | [User First Intelligence: Three Measurements of Search and AI-Answer Analytics (SEO and GEO/AEO), and a Knowledge-Graph Framework for Query Discovery Beyond Search Volume](https://arxiv.org/abs/2611.19655) | 该论文通过三项实测揭示了商业SEO/GEO分析工具在流量估计上的巨大分歧（可达27倍以上）及其与真实用户表达需求的错位，并提出一个基于知识图谱的框架，利用评论等用户表达数据超越传统搜索量指标来发现查询需求。 |
+| [^26] | [Keep it Simple! A Multiple-Choice Task can Benefit Generative Recommendation](https://arxiv.org/abs/2611.19320) | 该论文提出只需在生成式推荐的学习目标中加入一个简单的多项选择题辅助任务，即可显式引入负样本和与BPR理念一致的相对排序信号，从而在不依赖复杂架构和大量调参的情况下有效提升推荐效果。 |
+| [^27] | [Revisiting What Makes a Good Context Subset: A Sparse Latent Basis Perspective](https://arxiv.org/abs/2611.19220) | 该论文将少样本示例选择形式化为以查询表示为目标的稀疏重建问题，提出匹配追踪式的残差解释搜索（RES）方法，实验表明其在多数模型-数据集组合上优于MMR，说明示例的集体互补性比成对相异性更重要。 |
+| [^28] | [LABEL: Literature Asymmetry between Efficacy and Limits in Drug Knowledge and Language Models](https://arxiv.org/abs/2611.19166) | 该论文量化了医学文献中药物适应症（疗效）的记载频率约为禁忌症（安全限制）两倍的不对称现象，并将其命名为LABEL，同时发现语言模型也镜像了这一文献差距。 |
+| [^29] | [CLEAR: Legible and Steerable Recommendation via Grounded Natural-Language Interests](https://arxiv.org/abs/2611.19110) | CLEAR是Meta部署的端到端推荐系统，其核心创新是通过可编辑的自然语言兴趣层让推荐偏好清晰可读、可由用户引导，每个推断出的兴趣都以用户历史事件为行为依据，并作为统一的服务地址同时驱动词汇检索、行为检索、嵌入检索以及排序、归因和曝光控制。 |
+| [^30] | [Knowledge-Guided Local-to-Global Anomaly Learning for Longitudinal Medication Trajectories](https://arxiv.org/abs/2611.19106) | 该论文提出一种知识引导的局部到全局（L2G）异常学习框架，通过在用药事件、治疗疗程和就诊片段三个粒度上构建代理监督，并利用Top-α聚合将就诊级异常检测与账户级分类联合优化，从而有效识别纵向用药轨迹中的可疑偏差。 |
+| [^31] | [TokenFormer V2: Breaking the Resolution-Complexity Dilemma in Unified Recommendation](https://arxiv.org/abs/2611.19074) | TokenFormer V2 通过局部-全局分解范式将表征分辨率与交互密度解耦，在严格的服务预算下既保留了长行为历史的细粒度证据，又实现了高效的结构化交互计算，从而破解推荐系统中的分辨率-复杂度困境。 |
+| [^32] | [LMEG-Doc: Layout-Grounded Multi-View Evidence Graphs for Multimodal Long-Document Retrieval](https://arxiv.org/abs/2611.18901) | 提出LMEG-Doc框架，通过构建基于版面的多视角证据图并引入跨页关系精炼机制，捕捉多模态长文档中跨页面、跨模态互补证据之间的关系，从而提升多模态长文档检索的效果。 |
+| [^33] | [Label-Free Detection of Structural Bias in LLM-Based Recommender Systems via Randomized Paraphrasing: The Case of Verbosity](https://arxiv.org/abs/2611.18878) | 提出一种基于随机改写的无标签统计检验框架，无需相关性标签即可检测LLM推荐系统中由文本表面属性（如冗长性）引起的结构性偏差。 |
+| [^34] | [Brain AI Scientist: An Evidence-Based Multi-Agent System for Translational Neuroimaging in Precision Psychiatry](https://arxiv.org/abs/2611.18634) | 该论文提出Brain AI Scientist——一个基于循证医学的多智能体自主系统，通过整合患者fMRI数据与科学文献的检索验证，构建可追溯的证据链，为精准精神病学生成个体化生物标志物和治疗指导。 |
+| [^35] | [Intrinsic Attention as Navigator: A Non-Generative Retrieval Method for Multi-Hop Queries](https://arxiv.org/abs/2611.18617) | 提出了一种无需训练的非生成式检索方法IN-Retriever，通过利用嵌入模型的内在注意力迭代提取桥接线索、剥离已发现线索并重排序候选文档，无需生成中间推理文本即可将检索精确导向多跳查询的下一跳证据。 |
+| [^36] | [Automating literature screening and knowledge synthesis with large language models](https://arxiv.org/abs/2611.18588) | 该研究开发了一个由大语言模型驱动的统一自动化框架，可完成文献筛选、结构化信息提取与知识综合，在材料科学任务中平衡准确率超过0.90，并将筛选1万条记录的时间从约83个人工小时缩短至4分钟。 |
+| [^37] | [CURATOR: Scalable Fine-grained Evidence Selection for Retrieval-Augmented Generation using Decision Models](https://arxiv.org/abs/2611.16366) | 提出了CURATOR，一种经过微调的决策模型，能够在同时评估多个候选片段的情况下实现可扩展的细粒度证据选择，从而提升检索增强生成中的上下文利用效率。 |
+| [^38] | [Vision-Grounded Semantic Learning and Alignment for Scalable Multilingual Text-Based Person Retrieval](https://arxiv.org/abs/2611.15328) | 该论文提出了首个大规模多语言行人预训练数据集MultiPedes（包含四种语言的1000万图文对），并引入视觉锚定的语义学习与对齐方法，解决了多语言文本行人检索中缺乏预训练数据和英语中心偏差的问题。 |
+| [^39] | [Generative Search and Recommendation at Shopify](https://arxiv.org/abs/2611.08804) | Shopify 提出 SID-LLM，将搜索与推荐统一建模为生成语义 ID 的任务，通过目录与行为数据联合预训练、强化学习、专家蒸馏以及多 token 预测结合轻量级排序器，实现了高质量、低延迟的检索与推荐。 |
+| [^40] | [Do Search-Augmented Recommenders Use the Latest Search Episode?](https://arxiv.org/abs/2611.06044) | 提出FocalSwap审计框架，通过在固定目标与候选集的条件下替换最新搜索或全部搜索输入，检验搜索增强推荐系统对最新搜索会话的实际依赖程度，发现其估计收益随对照方式的选择而变化。 |
+| [^41] | [REGER: Modeling inter-item Relations with Semantic IDs for Generative Recommendation](https://arxiv.org/abs/2610.37584) | 提出REGER统一框架，通过生成式语义检索预训练使GR模型继承物品间语义相似性，并将物品间关系显式融入语义预训练、历史编码和SID生成的全过程。 |
+| [^42] | [Twenty Days Later: A Pre-Registered Test of History-Based Forecasts of Brand Mentions in Gemini Answers](https://arxiv.org/abs/2610.19608) | 该论文通过预注册的重复实验证明，基于历史数据对Gemini回答中品牌提及率的预测在约20天后依然准确（Brier得分0.0281，接近8小时短期预测水平且优于品牌历史基线），表明大语言模型的品牌提及计数具有足够的时间稳定性，可供实际决策使用。 |
+| [^43] | [SearchJev: A Calibrated System-1 Model for Search Agents](https://arxiv.org/abs/2610.05107) | SearchJev提出一个无需自回归生成的校准化System-1模型，将搜索代理的短决策与System-2推理分离，并通过软标签学习（SLCD）从不确定监督中提升决策置信度的可靠性。 |
+| [^44] | [BioSync: Transformer-Based Cross-Modal Fusion for a Multimodal Physiological Digital Biomarker](https://arxiv.org/abs/2609.04504) | BioSync提出了一种基于Transformer多头自注意力的跨模态融合框架，将可穿戴设备采集的心脏、神经、行为和语音数据整合为符合BEST框架的连续型复合数字生物标志物——BioSync指数（BSI），在认知衰退检测的合成队列上达到0.928的AUC。 |
+| [^45] | [ViSAR: Training-Free Adaptive-$k$ Retrieval for Visual Document Question Answering](https://arxiv.org/abs/2609.02486) | 提出了一种无需训练的自适应k值检索方法ViSAR，通过在嵌入空间中构建查询条件的页面级相似度矩阵来动态确定检索页面数量，在保持或提升答案准确性的同时将RAG延迟降低高达58.7%。 |
+| [^46] | [Hi-Q: Hierarchical Evidence-guided Query Refinement for Multi-Hop Question Answering](https://arxiv.org/abs/2608.30468) | Hi-Q提出了一种以证据为条件的分层查询细化框架，通过在每个查询节点上利用解析算子判断证据是否支持当前查询单元，动态构建查询树，从而解决多跳问答中问题表达粒度与语料证据可检索粒度不匹配的核心瓶颈。 |
+| [^47] | [CogRec: Structure-Cognitive Fast-and-Slow Reasoning for Generative Recommendation](https://arxiv.org/abs/2607.24402) | 提出CogRec框架，通过SID Routing的匹配、横向跳跃和探索操作将中间推理过程锚定在SID层次拓扑结构上，实现了生成式推荐中基于结构的快慢显式推理。 |
+| [^48] | [UniFormer: Efficient and Unified Model-Centric Scaling for Industrial Recommendation](https://arxiv.org/abs/2606.27058) | UniFormer通过将建模空间分解为特征和任务空间，并引入语义化令牌方案，实现了高效统一的工业推荐模型扩展，突破了传统组件独立扩展的局限。 |
+| [^49] | [Cited Web Sources in LLM Answers about Brands: A Multilingual Audit](https://arxiv.org/abs/2606.25787) | 该研究对涵盖128个品牌、13种语言和12个市场的167,551条大语言模型回答中的引用网址进行了多语言审计，揭示了引用来源的高度集中性（少数域名占80%的引用且维基百科占据主导地位），并论证了标准化、分类规则和明确分母在引用审计中的必要性。 |
+| [^50] | [Private Information Retrieval for Large-Scale DNA-Based Data Storage](https://arxiv.org/abs/2606.14557) | 该论文提出了两种将双服务器私有信息检索协议适配到DNA数据存储的方法，在隐私、效率和可行性之间取得平衡，并揭示了信息论隐私权衡在DNA存储系统中的具体体现。 |
+| [^51] | [EHR-RAGp: Prototype-Guided Retrieval of Longitudinal Electronic Health Records for Clinical Prediction Models](https://arxiv.org/abs/2605.12335) | 提出EHR-RAGp框架，利用原型引导的检索模块动态评估并整合多种临床事件类型中最相关的患者历史信息，从而提升临床预测模型的性能。 |
+| [^52] | [DeGenTWeb: A First Look at MGT-dominant Websites](https://arxiv.org/abs/2605.00087) | 提出了 DeGenTWeb 框架，通过将机器生成文本检测器适配到网页并聚合网站级检测结果，首次系统识别出以机器生成内容为主的网站，发现 Common Crawl 存档网站中 20.9% 和 Bing 搜索结果链接网站中 13.6% 属于机器生成文本主导型。 |
+| [^53] | [GAAMA: Graph Augmented Associative Memory for Agents](https://arxiv.org/abs/2603.27910) | 该论文提出GAAMA，一种围绕主题组织对话的图增强联想记忆框架，通过情节、原子事实、主题概念与高阶反思四类节点及五种结构边避免巨型枢纽问题，并结合最近邻搜索与个性化PageRank提升AI智能体长期记忆的检索效果。 |
+| [^54] | [GateSID: One Gate to Balance Semantic and Collaborative Signals across the Item Lifecycle](https://arxiv.org/abs/2603.22916) | GateSID通过一个共享门控机制，根据物品的成熟度（从冷启动到热门）动态调节语义与协同信号的融合方式，并通过GFSA、GRCA和GRSR三种门控驱动机制，解决了现有语义ID方法融合方式僵化、与物品无关的问题。 |
+| [^55] | [Beyond Text: Text-Image Fusion for Scalable Two-Tower Retrieval](https://arxiv.org/abs/2603.04836) | 该论文提出一种带双线性交互网络的模态专家混合融合架构，在2000万查询-商品对上训练，实现了电商双塔检索的文本-图像融合，使nDCG@1在期望度和相关性上分别提升4.86%和2.36%。 |
+| [^56] | [Unified Ranking Across Retrieval Channels: A Large-Scale E-Commerce Approach](https://arxiv.org/abs/2602.23530) | 该论文将电商大规模搜索中多通道检索结果的融合问题重新表述为通道感知的学习排序任务，提出了一种基于漏斗加权分级相关性标签（结合点击、加购与购买）训练的统一排序模型，以在严格延迟约束下更好地优化转化率等业务指标。 |
+| [^57] | [Self-EvolveRec: Self-Evolving Recommender Systems with LLM-based Directional Feedback](https://arxiv.org/abs/2602.12612) | 提出了Self-EvolveRec框架，通过用户模拟器的定性批评与模型诊断工具的定量验证构建方向性反馈回路，并引入诊断工具与模型协同演化策略，使推荐系统能够实现自我演化改进。 |
+| [^58] | [MSN: A Memory-based Sparse Activation Scaling Framework for Large-scale Industrial Recommendation](https://arxiv.org/abs/2602.07526) | MSN提出了一种基于记忆的稀疏激活扩展框架，通过记忆门控机制从大型参数化记忆库中动态检索个性化表示并融入下游特征交互模块，以低计算开销实现大规模工业推荐模型的细粒度个性化扩展。 |
+| [^59] | [Why Steering Works: Toward a Unified View of Language Model Parameter Dynamics](https://arxiv.org/abs/2602.02343) | 该论文提出统一框架，将权重微调、LoRA适配和激活干预等LLM控制方法统一视为控制信号诱导的动态权重更新，并揭示了偏好与效用之间一致的权衡关系。 |
+| [^60] | [Fidelity Before Structure: Verbatim Chunks Beat Lossy Artifact Extraction in Long-Conversation LLM Memory](https://arxiv.org/abs/2601.00821) | 在长对话LLM记忆系统中，直接存储逐字对话片段的检索准确率显著优于LLM提取的结构化信息，性能差距的根源是有损蒸馏而非结构本身。 |
+| [^61] | [From Evidence to Judgment: Trace-Augmented Reasoning under Conflicting Evidence](https://arxiv.org/abs/2512.16795) | 该论文提出在RAG面临冲突证据时，通过微调模型在回答前生成结构化思考轨迹（逐篇评判文档、推断冲突模式）来增强推理，并发布了相关数据集、基准及CATS评估框架，证明该方法显著提升了模型在有依据地回答或拒绝之间的决策能力。 |
+| [^62] | [jXBW: A Compressed Index Enabling Structure-Aware JSONL Retrieval for Structured RAG](https://arxiv.org/abs/2508.12536) | jXBW通过合并树等创新设计，实现了对JSONL语料库的高效压缩子结构搜索，从而替代传统逐查询结构重建，显著提升结构化RAG的检索性能。 |
+| [^63] | [Revela: Dense Retriever Learning via Language Modeling](https://arxiv.org/abs/2506.16552) | 提出Revela框架，将检索类比为词元块之间的依赖关系学习，通过语言建模式的自监督目标训练密集检索器，从而摆脱对昂贵标注查询-文档对的依赖。 |
 
 # 详细
 
@@ -148,7 +152,21 @@
 
     arXiv:2611.20837v1 Announce Type: cross  Abstract: When several candidates have graph support, does it matter which candidate receives which supporter and path counts? We study how LLM rankers use collaborative evidence on Amazon Books and MovieTV. Swapping user-level evidence degrades ranking, while matched item substitutions have little effect. On fixed clean-trained checkpoints, unrelated catalog text lowers Hit@1 from 44.77% to 38.70%, with 99.9% of rankings still valid. Across all three paired seeds, the NDCG@5 difference between count and path prompts was larger after count training than after path training. Degree matching preserves target paths while giving more rivals support. Across the full degree-matched development pools, adding candidate-level graph records to history improves NDCG@5 by 2.28 points on Books and 2.54 on MovieTV. When the target and a rival both have support, path- and count-trained rankers benefit from retaining counts. On these development queries, adding
     
-[^7]: CARE：面向检索语义ID的对比锚定残差编码与列表式重建
+[^7]: UniGraph：一种用于动态混合稠密-稀疏向量检索的统一图索引
+
+    UniGraph: A Unified Graph-based Index for Dynamic Hybrid Dense-Sparse Vector Retrieval
+
+    [https://arxiv.org/abs/2611.20758](https://arxiv.org/abs/2611.20758)
+
+    提出UniGraph统一混合图索引，将多个混合权重下计算得到的邻居集合合并为单一有界度图索引，以支持动态的查询特定权重混合稠密-稀疏向量检索，避免候选项目过早丢失并减少检索次数。
+
+    
+
+    混合稠密-稀疏向量检索将稠密表示中的语义信号与稀疏表示中的词法信号相结合，通常通过依赖于查询的稠密与稀疏向量距离加权求和来对项目进行排序。现有系统通常分别搜索独立的稠密和稀疏向量索引，然后对其候选结果的并集进行重排序，这不仅需要进行两次检索过程，还可能丢弃那些只有在语义和词法信号结合后才排名靠前的项目。直接在混合距离下构建基于图的索引可以缓解这种候选项目过早丢失的问题。然而，由于改变混合权重会改变底层的邻域关系，以固定权重构建的单一静态图无法适应动态的查询特定权重。因此，我们提出了统一混合图，它将在多个混合权重下计算得到的邻居集合合并为单一的有界度图索引。
+
+    arXiv:2611.20758v1 Announce Type: new  Abstract: Hybrid dense-sparse vector retrieval combines semantic signals from dense representations with lexical signals from sparse representations, typically ranking items by a query-dependent weighted sum of dense and sparse vector distances. Existing systems commonly search separate dense and sparse vector indexes and rerank the union of their candidates, incurring two retrieval passes and potentially discarding items that rank highly only after the semantic and lexical signals are combined. Constructing a graph-based index directly under a hybrid distance can mitigate this premature candidate loss. However, because varying the hybrid weight alters the underlying neighborhood relationships, a single static graph built at a fixed weight cannot accommodate dynamic query-specific weights. Therefore, we propose a Unified Hybrid Graph (UniGraph), which merges neighbor sets computed at multiple hybrid weights into a single bounded-degree graph index
+    
+[^8]: CARE：面向检索语义ID的对比锚定残差编码与列表式重建
 
     CARE: Contrastive-Anchored Residual Encoding with Listwise Reconstruction for Retrieval-Oriented Semantic IDs
 
@@ -162,7 +180,7 @@
 
     arXiv:2611.20721v1 Announce Type: new  Abstract: Generative retrieval replaces nearest-neighbor search with the generation of a document's semantic ID (SID), so the SID tokenizer bounds what the retriever can recall. Common SID constructions (residual k-means, RQ-VAE, finite scalar quantization, capacity balancing) optimize criteria defined on document embeddings alone and do not control whether a query can still find its relevant documents after quantization. We propose two retrieval-oriented SID tokenizers. CARE-SID (Contrastive-Anchored Residual Encoding for Semantic IDs) quantizes in a retrieval-aligned space: a zero-initialized residual alignment network is trained with a query-document contrastive loss before quantization, an anchor loss and a reconstruction target fixed to the original embedding prevent drift and collapse, and reference-vector rating residual quantization assigns the codes. CARE-LR (CARE with Listwise Reconstruction) then distills, for each training query, the s
     
-[^8]: 当账单落下时：在完整的嵌入模型迁移中，复用旧索引只会推迟而无法避免重新编码
+[^9]: 当账单落下时：在完整的嵌入模型迁移中，复用旧索引只会推迟而无法避免重新编码
 
     When the Bill Falls: Reusing the Old Index Defers,Never Avoids, Re-encoding in Complete Embedding-Model Migration
 
@@ -176,7 +194,7 @@
 
     arXiv:2611.20702v1 Announce Type: cross  Abstract: Upgrading the embedding model behind a vector index requires re-encoding the corpus. Recent work reuses the old index through adapters or window re-ranking. Across sixteen model pairs on passage and code corpora, plus eleven on Natural Questions (NQ), we find three results. First, reuse never avoids re-encoding: if migration must complete, every strategy eventually encodes every document; reuse only changes when that work is paid and the quality served meanwhile. Second, adapters should be compared with the old model, not only the new one. Of five adapter variants, only same-family LLM bridges beat the old model, and only by a negligible margin. Third, window re-ranking cost can be priced from the old index alone; pre-registered replays on all 8,841,823 passages confirmed the prediction on all three tested pairs. Workload skew also matters: across 36 further pre-registered Zipf replays, the planned family matched on 32. These findings 
     
-[^9]: MAGE：面向可迁移多模态图学习的元路径自适应图证据
+[^10]: MAGE：面向可迁移多模态图学习的元路径自适应图证据
 
     MAGE: Meta-path Adaptive Graph Evidence for Transferable Multimodal Graph Learning
 
@@ -190,7 +208,21 @@
 
     arXiv:2611.20449v1 Announce Type: new  Abstract: Multimodal graphs integrate textual and visual attributes with relational structures, providing a rich representation of complex real-world data. To enable the broad applicability and reuse of graph models, it is crucial for models trained on source graphs to generalize to unseen graph domains. However, this is challenging because cross-modal interactions among neighbors and the neighboring information needed for prediction can vary across target nodes and graph domains. This gives rise to two key challenges: adaptive cross-modal neighborhood fusion, which captures and integrates cross-modal interactions among neighbors to accommodate variations across nodes and domains; and target-specific evidence selection, which identifies the neighboring textual and visual information needed for each target node to support LLM-based prediction. In light of these challenges, we propose MAGE (Meta-path Adaptive Graph Evidence Prompting), a framework f
     
-[^10]: PAN 2026剽窃检测任务概述
+[^11]: IntentFlow：小红书中基于意图驱动的图文查询实时多模态搜索系统
+
+    IntentFlow: An Intent-Driven Real-Time Multimodal Search System with Image-Text Queries at Xiaohongshu
+
+    [https://arxiv.org/abs/2611.20448](https://arxiv.org/abs/2611.20448)
+
+    IntentFlow是小红书部署的意图驱动实时多模态搜索系统，通过层次化意图分类体系和意图特定的相关性标准，在百亿级索引上实现了图文查询场景下候选检索与重排序的一致性对齐。
+
+    
+
+    基于图文结合查询的多模态搜索帮助用户在用户生成内容（UGC）社区中查找笔记，同时也是多模态搜索代理的关键搜索工具。对于此类查询，查询与笔记之间的相关性取决于用户的检索意图，无法仅通过视觉或主题相似性来判定。简单地对视觉搜索结果进行重排序无法完全解决这一挑战，因为符合用户意图的笔记可能在初始候选集中就已经缺失。这促使我们进行显式的意图建模，以便在一致的相关性标准下对齐候选检索与重排序两个环节。我们提出了IntentFlow，一个部署在小红书的意图驱动实时多模态搜索系统，其索引规模达到百亿级。IntentFlow通过层次化的意图分类体系来表示检索目标，并使用针对特定意图的相关性标准来指导数据构建、表示学习和重排序。一个离线代理（agent）……（原文摘要在此处被截断）
+
+    arXiv:2611.20448v1 Announce Type: new  Abstract: Multimodal search with image-text queries helps users find notes in user-generated content (UGC) communities and serves as a key search tool for multimodal search agents. For such queries, query-note relevance depends on the user's retrieval intent and cannot be determined by visual or topical similarity alone. Simply reranking visual search results cannot fully address this challenge, as notes relevant to the user's intent may be missing from the initial candidate set. This motivates explicit intent modeling to align candidate retrieval and reranking under consistent relevance criteria. We present IntentFlow, an intent-driven real-time multimodal search system deployed at Xiaohongshu over an index on the order of ten billion entries. IntentFlow represents retrieval objectives with a hierarchical intent taxonomy and uses intent-specific relevance criteria to guide data construction, representation learning, and reranking. An offline agen
+    
+[^12]: PAN 2026剽窃检测任务概述
 
     Overview of the Plagiarism Detection Task at PAN 2026
 
@@ -204,7 +236,7 @@
 
     arXiv:2611.20443v1 Announce Type: new  Abstract: The generative plagiarism detection task at PAN 2026 aims at retrieving the original scientific sources for given automatically generated textual plagiarism. We created two novel datasets of synthetically generated plagiarism following the premise of a malicious actor trying to generate papers with minimal effort while evading detection of undisclosed re-use. We utilized four widely available LLMs: GPT-OSS 120B, Llama 3.1 8B, Qwen 3.5 27B FP8, and DeepSeek-R1 Distill Llama 8B. In this task overview paper, we outline the creation of this dataset and summarize and compare the results of all participants with three baselines. For this year's task, we received 26 submissions from six teams that significantly outperformed our baselines.
     
-[^11]: 未关联的聚合数据仍能证明什么：基于精确计数与差分隐私商品计数的排序器比较
+[^13]: 未关联的聚合数据仍能证明什么：基于精确计数与差分隐私商品计数的排序器比较
 
     What Unlinked Aggregates Still Prove: Ranker Comparisons from Exact and Differentially Private Item Counts
 
@@ -218,7 +250,7 @@
 
     arXiv:2611.20388v1 Announce Type: new  Abstract: Privacy controls can prevent an evaluator from linking purchases to the recommendations users received, while a merchant can still release complete item-level purchase counts for the evaluation cohort. We ask when these counts identify which recommender performs better. The counts constrain who could have bought each item. We bound the performance difference over all assignments consistent with the counts. A reduced transportation network handles full catalogs and can certify attainable endpoints. If the interval excludes zero, it identifies the better recommender for that cohort. With differentially private counts, one confidence guarantee applies jointly to all comparisons from the same release. In two e-commerce cohorts of about 20,000 and 100,000 users, exact counts narrowed every interval compared with bounds that ignored the counts. Most decisions involved a recommender that favors popular items. For NDCG@10, which rewards ranking 
     
-[^12]: 直达产品：当购物者先询问AI时，在线零售商错过了什么
+[^14]: 直达产品：当购物者先询问AI时，在线零售商错过了什么
 
     Straight to the Product: What Online Retailers Miss When Shoppers Ask AI First
 
@@ -232,7 +264,7 @@
 
     arXiv:2611.20378v1 Announce Type: new  Abstract: When people ask an AI assistant what to buy, what happens next at the store? We link the same people's assistant conversations to their later browsing at twenty large online retailers. People go to the product the assistant named: among shoppers who had not visited the store in the past week, visits to the named product within a day rise from 0.02 to 2.07 per 100 answers (+2.0 points [1.7, 2.4]), and on days with a product-page visit at the store, 44% show a product from their own answer, against 1.5% for a matched answer given to someone else. The result replicates in a separate five-month period. Few arrive through the assistant's link: 89% of visits carry no sign of it, and 54% follow a web search, the same share as their usual visits. When a search comes just before the first visit, it names the answer's product 28% of the time (1% in earlier weeks), as if the search box were an address bar. The chat names the product; the store logs
     
-[^13]: 自FAIR原则发布以来的十年间，数据共享是如何演变的？
+[^15]: 自FAIR原则发布以来的十年间，数据共享是如何演变的？
 
     How did data sharing evolve in the decade since the FAIR Principles?
 
@@ -246,7 +278,7 @@
 
     arXiv:2611.20319v1 Announce Type: new  Abstract: A decade after the publication of the FAIR Guiding Principles, what have we learned about data sharing, and what do data availability statements (DAS) and other materials accrued over that period tell us about how data-sharing practices, attitudes, and infrastructures evolved? Here, we present a large-scale longitudinal analysis of over 6.8 million biomedical articles from the PMC Open Access Subset, spanning 2011 to 2025. Using an automated pipeline, we extracted and classified DAS, repository links, accession numbers, and supplementary materials, assigning each article a data-sharing score and independently FAIR-assessing a subset of cited dataset URLs. We find that explicit DAS adoption rose from ~2% in 2011 to 68% in 2025, while "available on request" statements grew in parallel from near zero to over 19%. The corpus growth amplifies both patterns: articles with a DAS containing an explicit repository mention rose from 132 in 2011 to
     
-[^14]: EchoSpec：训练搜索智能体在“回声”之上权衡证据
+[^16]: EchoSpec：训练搜索智能体在“回声”之上权衡证据
 
     EchoSpec: Training Search Agents to Weigh Evidence Above Echoes
 
@@ -260,7 +292,7 @@
 
     arXiv:2611.20034v1 Announce Type: new  Abstract: Search agents trained with reinforcement learning decide what to retrieve, when to search again, and when to answer. In real corpora, one claim is copied and paraphrased across many pages while the primary source settling a question appears once. We show that reinforcement-learned search agents grant echoes the credence of independent sources and lose their ability to abstain. Across five base models from 3B to 32B and seven released RL agents on multi-hop Wikipedia questions with primary evidence intact, eight paraphrased false-claim echoes overturn 58-73% of previously correct answers, while exact-match RL drives deleted-evidence abstention below 15%. Conditioning on retrieval localizes the failure to evidence acquisition: once primary evidence enters context, agents overrule eight echoes as reliably as one, whereas echoes fill top ranks and halt search early, so larger budgets, forced search turns, or passive passage filtering alone f
     
-[^15]: 退一步思考：一种双粒度原始特征赋能的中间融合图卷积网络用于多模态推荐
+[^17]: 退一步思考：一种双粒度原始特征赋能的中间融合图卷积网络用于多模态推荐
 
     Take a Step Back: A Dual-Granularity Raw Feature Empowered Intermediate Fusion Graph Convolutional Network for Multimodal Recommendation
 
@@ -274,7 +306,7 @@
 
     arXiv:2611.19974v1 Announce Type: new  Abstract: Although multimodal recommendations have shown the ability to learn user preferences and item properties by leveraging explicit multimodal information, they remain constrained by two critical limitations: low-quality representation learning and modality fusion. For the former, existing solutions primarily focus on multi-granularity representation learning; however, we argue that training such representations is difficult due to the inherent data sparsity problem in recommendation scenarios. For the latter, existing solutions often rely on contrastive learning to align representations of different modalities to facilitate modality fusion, yet alignment-only objectives may over-compress valuable modality-specific information. To this end, we suggest \underline{``Take a Step Back"} and propose a \textbf{D}ual-granularity raw feature empowered \textbf{I}ntermediate fusion \textbf{G}raph \textbf{C}onvolutional \textbf{N}etwork (\textbf{DIGCN}
     
-[^16]: DetouR：将关联路径嵌入搜索智能体以实现多跳问答
+[^18]: DetouR：将关联路径嵌入搜索智能体以实现多跳问答
 
     DetouR: Plugging Association Routes into Search Agents for Multi-hop Question Answering
 
@@ -288,7 +320,7 @@
 
     arXiv:2611.19967v1 Announce Type: new  Abstract: Search agents answer multi-hop questions by interleaving reasoning with retrieval, deciding at each step what to search next. Existing agents follow semantic routes: they infer what is missing and phrase it as a query, reaching only what the model can name. Yet the decisive page is often one the question never names, frequently just one hyperlink away from evidence already retrieved. Following such association routes reaches more gold pages than semantic search under the same budget. Exploiting them raises two challenges: obtaining the association structure without costly offline graph construction, and keeping linked evidence in the reader's limited context, where relevance- and fusion-based selection discards it. We propose DetouR, a plug-in that reuses the links arriving with retrieved pages and adds no search or LLM call. Link Rerouting replaces near-repeat queries with routes to linked pages, chosen by a lightweight learned scorer; 
     
-[^17]: 忠实时序问答演示系统
+[^19]: 忠实时序问答演示系统
 
     A Demonstration System for Faithful Temporal Question Answering
 
@@ -302,7 +334,7 @@
 
     arXiv:2611.19926v1 Announce Type: new  Abstract: Temporal question answering (TQA) aims to answer questions that involve temporal constraints or require temporal information. We propose Faith, a novel TQA approach that operates over heterogeneous sources and ensures explainable answers by presenting traceable and faithful evidence. In Faith, we design a new recursive answering mechanism transforming implicit temporal constraints into explicit conditions. Additionally, we visualize the system functionality to track how the answers are computed and the supporting evidence is derived. The code and video of the demonstration system are publicly available.
     
-[^18]: 归因或拒答：在低资源非洲商业网络上评估有证据支撑的检索
+[^20]: 归因或拒答：在低资源非洲商业网络上评估有证据支撑的检索
 
     Attribute or Abstain: Evaluating Evidence-Grounded Retrieval on the Low-Resource African Business Web
 
@@ -316,7 +348,7 @@
 
     arXiv:2611.19900v1 Announce Type: new  Abstract: Retrieval-augmented systems that research companies are judged by how much they find, yet in markets where public evidence is sparse, a confident answer without support costs more than no answer. We introduce AfriBizClaims, a benchmark of 150 company-research queries across six African markets in English, French and Portuguese, including queries about fictitious companies that a correct system must decline. Each claim a system makes is judged against the page it cites by an AI judge, checked against a second AI judge from another model family and against two human annotators, and abstentions are scored against answerability labels. We compare BM25 over a pooled corpus, standard web retrieval-augmented generation, and a multi-step agent pipeline (Konexium V1), all using the same language model. The two simple baselines are well attributed: 98% of their judged claims are supported by the page they cite, and they decline every field of ever
     
-[^19]: NoLBERT-Calls：无后见之明地解读财报电话会议
+[^21]: NoLBERT-Calls：无后见之明地解读财报电话会议
 
     NoLBERT-Calls: Reading Earnings Calls Without Hindsight
 
@@ -330,7 +362,7 @@
 
     arXiv:2611.19849v1 Announce Type: new  Abstract: Language models are now a standard tool for measuring what managers say on earnings calls, but the encoders behind these measures were usually pretrained on text from the same years a backtest covers. Holding out a test period does not remove that hindsight, because it sits in the features. We adapt NoLBERT, an encoder pretrained only on text published between 1976 and 1995, to earnings calls without letting it read anything dated after 31 December 2023. The calls supply the training signal themselves: every analyst question is followed by management's answer, and the model learns to pick that answer out from the other answers of the same call. We test on every US call from January 2025 to October 2026 (20,323 calls, 254,575 questions) and make every modeling choice on calls from 2024. The adapted model, NoLBERT-Calls-2023, ranks the true answer first for 78.0% of questions (95% interval 77.8-78.2; chance 8.0%), against 26.3% before adap
     
-[^20]: 反思并非总是值得的：面向推荐智能体的预算化反思分配
+[^22]: 反思并非总是值得的：面向推荐智能体的预算化反思分配
 
     Reflection Is Not Always Worth It: Budgeted Reflection Allocation for Recommendation Agents
 
@@ -344,7 +376,7 @@
 
     arXiv:2611.19847v1 Announce Type: new  Abstract: This work aims to make recommendation agents more efficient by reducing unnecessary LLM reflection while preserving full-catalog ranking and inference reranking. Since BRAVE changes only how training-time reflection is allocated, it does not introduce new user data requirements or additional LLM exposure beyond the base agent protocol. The main potential risk is that a poorly calibrated allocator may assign less reflection to users whose preferences are sparse, niche, or under-represented, which could weaken personalization for those users or indirectly affect item exposure.   This risk can be mitigated through deployment-time auditing and conservative allocation design. In practice, reflection budgets should be evaluated not only by aggregate Recall or NDCG, but also across user-history lengths, item popularity groups, and application-relevant cohorts when such analysis is permitted. The allocator should rely on task-side ranking eviden
     
-[^21]: 具有高成本目标嵌入的精确稀疏分配：固定实现证书与实证审计
+[^23]: 具有高成本目标嵌入的精确稀疏分配：固定实现证书与实证审计
 
     Exact Sparse Assignment with Costly Target Embeddings: Fixed-Realization Certificates and an Empirical Audit
 
@@ -358,7 +390,7 @@
 
     arXiv:2611.19770v1 Announce Type: new  Abstract: Embedding-based one-to-one association is common in vision and data integration: detections are associated with tracks and records are linked across databases. Such pipelines often solve a sparse optional assignment whose edge scores add a cheap term to an inner product of neural embeddings. When target embeddings are costly, one can acquire them selectively and stop once a certificate proves that the current assignment is optimal. We give such a certificate for unit-norm embeddings. It bounds the unknown part of every reassignment by a support function and maximizes the resulting robust gains with a second sparse assignment; a shared owner-centred bound dominates any fixed-centre triangle bound. We make precise what is certified when network features are not batch-invariant: the realized values of the acquired rows and every unit-ball completion of the rest, not a second forward pass in a different batch. Auditing against a separately b
     
-[^22]: StaleBench：隔离智能体内存中的过期检索问题，并为修复方案定价
+[^24]: StaleBench：隔离智能体内存中的过期检索问题，并为修复方案定价
 
     StaleBench: Isolating Stale Retrieval in Agent Memory, and Pricing the Fix
 
@@ -372,7 +404,21 @@
 
     arXiv:2611.19752v1 Announce Type: cross  Abstract: An agent that stores facts over time eventually stores several versions of the same fact. Asked a value-agnostic question - "which team does X play for now?" - a similarity retriever cannot prefer the current version, because every version matches the entity the query names. StaleBench isolates this stale-retrieval failure on 892 real updating facts, with currency labels from the source (Wikidata validity years via TempLAMA), never from a retrieval score. Our central result is that retrieval metrics can rank memory policies backwards: a retention policy and its retain-everything control return the identical statement at rank 1 for every test query, yet differ by 29.5 and 65.6 points in reader accuracy on two readers when no date is shown. Contamination@5, the metric we add, ranks them correctly where current@1 and current@5 do not. Withdrawing the lexical anchor that statements carry costs deployed keying mechanisms tens of points of f
     
-[^23]: 保持简单！一项多项选择题任务可以有益于生成式推荐
+[^25]: 用户优先智能：搜索与AI答案分析（SEO与GEO/AEO）的三项测量，以及一个超越搜索量的查询发现知识图谱框架
+
+    User First Intelligence: Three Measurements of Search and AI-Answer Analytics (SEO and GEO/AEO), and a Knowledge-Graph Framework for Query Discovery Beyond Search Volume
+
+    [https://arxiv.org/abs/2611.19655](https://arxiv.org/abs/2611.19655)
+
+    该论文通过三项实测揭示了商业SEO/GEO分析工具在流量估计上的巨大分歧（可达27倍以上）及其与真实用户表达需求的错位，并提出一个基于知识图谱的框架，利用评论等用户表达数据超越传统搜索量指标来发现查询需求。
+
+    
+
+    人们不仅在搜索框中，还在许多其他地方表达他们想知道的内容，而搜索与AI答案优化（SEO与GEO/AEO）所依赖的工具只能通过以计数形式报告的模型看到这部分需求的一部分。本文报告了对这类工具的三项测量以及一个框架。在一家大型美国电信提供商网站的区号板块上，两个商业分析平台对估计月访问量的差异达7.5倍至27.1倍（全球范围为8.6倍至29.9倍）；在该域名的十二个板块中，这一比率介于0.20倍至7.24倍之间，与板块年龄没有可检测的关系，而两个平台在66对板块比较中有60对就哪个板块更大达成了一致。在与42,994个节点的关键词分类体系相关联的378家电信商店的37,193条评论中，评论需求与搜索量在分支层面存在不同程度的吻合（Spearman相关系数0.47至0.75；事后分析达0.91），但在主题层面几乎不吻合（0.18）；在链接方面，两名盲测的AI标注员判定约三分之二为正确；在372个区号上……
+
+    arXiv:2611.19655v1 Announce Type: new  Abstract: People say what they want to know in many places besides a search box, and the tools that search and AI-answer optimization (SEO and GEO/AEO) rely on see only part of that demand, through models reported as counts. This paper reports three measurements of such instruments and a framework. On the area-code section of a large US telecom provider's site, two commercial analytics platforms differed on estimated monthly visits by 7.5x to 27.1x (8.6x to 29.9x worldwide); across twelve sections of the domain the ratio ran from 0.20x to 7.24x with no detectable relation to section age, while they agreed on which section is larger in 60 of 66 pairs. On 37,193 reviews of 378 telecom stores linked to a 42,994-node keyword taxonomy, review demand and search volume agreed on branches to a varying degree (Spearman 0.47 to 0.75; 0.91 post hoc) and barely on topics (0.18), on links two blind AI annotators judged two-thirds correct; on the 372 area codes
+    
+[^26]: 保持简单！一项多项选择题任务可以有益于生成式推荐
 
     Keep it Simple! A Multiple-Choice Task can Benefit Generative Recommendation
 
@@ -386,7 +432,7 @@
 
     arXiv:2611.19320v1 Announce Type: new  Abstract: Sequential recommendation has recently witnessed growing interest in generative retrieval. One of the most popular approaches is to autoregressively generate the semantic identifiers (SIDs) of items as recommendations. Existing efforts mainly rely on semantic alignment, sophisticated architectural designs, and extensive hyperparameter tuning. However, the conventional learning framework for generative models could have foundational limitations. Specifically, most generative models directly predict target items without explicitly learning negative compositions and relative ranking signals. This is not well aligned with the philosophy of Bayesian personalized ranking (BPR), which emphasizes the importance of relative rankings between positive and negative samples.   In this paper, we show that adding a simple multiple-choice auxiliary task into the learning objective can effectively address this issue. With minimal adaptation, we introduce
     
-[^24]: 重新审视什么构成良好的上下文子集：稀疏潜在基的视角
+[^27]: 重新审视什么构成良好的上下文子集：稀疏潜在基的视角
 
     Revisiting What Makes a Good Context Subset: A Sparse Latent Basis Perspective
 
@@ -400,7 +446,7 @@
 
     arXiv:2611.19220v1 Announce Type: cross  Abstract: Selecting context subsets is increasingly important in modern LLM inference, yet what makes a subset effective remains unclear. We study this question in the controlled setting of few-shot demonstration selection. We examine a hypothesis that demonstrations should collectively provide task-relevant information needed by a target query. Assuming that the query representation provides a useful proxy for these requirements, we formulate selection as sparse reconstruction and instantiate it with Residual Explanation Search (RES), a Matching-Pursuit-style diagnostic procedure. Across seven benchmarks and eight open-weight LLMs, no retrieval objective is universally best. RES outperforms MMR in 34 of 56 model--dataset pairs, with its clearest advantage on sentiment tasks, suggesting that query-conditioned collective reconstruction may capture useful complementarity that pairwise dissimilarity misses. Relevance-based retrieval remains strong 
     
-[^25]: LABEL：药物知识与语言模型中疗效与限制之间的文献不对称性
+[^28]: LABEL：药物知识与语言模型中疗效与限制之间的文献不对称性
 
     LABEL: Literature Asymmetry between Efficacy and Limits in Drug Knowledge and Language Models
 
@@ -414,7 +460,7 @@
 
     arXiv:2611.19166v1 Announce Type: new  Abstract: Every medication comes with two types of medical facts: indications, which describe what conditions the drug treats (benefits), and contraindications, which describe who must avoid it to prevent serious harm (safety limits). Although contraindications are critical for patient safety and FDA regulations require listing them as rigorously as indications, we find that contraindications are far less documented than indications in general prose. In this paper, we measure how often these texts contain both facts across 574 drugs from PrimeKG by comparing a drug's indications against its own contraindications. Across Wikipedia articles and PubMed abstracts, we find that reference prose names a drug's benefits about twice as often as its safety limits (within-drug odds ratio 2.19). We call this documentation gap LABEL (Literature Asymmetry between Efficacy and Limits). Language models mirror this gap. As we scale Qwen2.5 from 0.5B to 14B, accura
     
-[^26]: CLEAR：基于有据可依的自然语言兴趣实现清晰可读且可引导的推荐
+[^29]: CLEAR：基于有据可依的自然语言兴趣实现清晰可读且可引导的推荐
 
     CLEAR: Legible and Steerable Recommendation via Grounded Natural-Language Interests
 
@@ -428,7 +474,7 @@
 
     arXiv:2611.19110v1 Announce Type: new  Abstract: Modern recommenders keep learned preferences in representations people cannot inspect or change. We present CLEAR (Controllable and Legible End-to-end Architecture for Recommendation), an end-to-end system deployed at Meta and built around an editable natural-language interest layer. CLEAR makes a ranked subset of inferred interests readable and stores accepted additions and suppressions as authoritative preference state. Behavioral grounding maps each inferred interest back to supporting events in the user's own history. The resulting interest object is also a serving address: its label and profile-conditioned rewrites drive lexical retrieval, its supporting events seed behavioral retrieval, its projection queries an embedding index, and its stable identity supports ranking, attribution, and exposure control. A fresh user declaration may precede behavioral support, so it enters through the same serving identity and initially draws candi
     
-[^27]: 知识引导的纵向用药轨迹局部到全局异常学习
+[^30]: 知识引导的纵向用药轨迹局部到全局异常学习
 
     Knowledge-Guided Local-to-Global Anomaly Learning for Longitudinal Medication Trajectories
 
@@ -442,7 +488,7 @@
 
     arXiv:2611.19106v1 Announce Type: new  Abstract: Detecting suspicious deviations in longitudinal medication trajectories requires distinguishing knowledge-consistent treatment variations from anomalous changes and linking local deviations to account-level decisions. We propose a knowledge-guided local-to-global (L2G) anomaly learning framework that addresses both challenges. It constructs proxy supervision at three granularities: medication occurrences, treatment episodes, and contiguous visit segments. Knowledge-consistent medication and episode replacements provide plausible negatives, while cross-category and cross-account perturbations provide suspicious proxies. A medication-multiset encoder and causal visit-sequence encoder feed a shared scoring head that produces visit-level anomaly logits. Top-\(\alpha\) aggregation derives account-level scores from these logits, while account-level classification and class-balanced visit-localization objectives jointly optimize the same visit-
     
-[^28]: TokenFormer V2：破解统一推荐中的分辨率-复杂度困境
+[^31]: TokenFormer V2：破解统一推荐中的分辨率-复杂度困境
 
     TokenFormer V2: Breaking the Resolution-Complexity Dilemma in Unified Recommendation
 
@@ -456,7 +502,7 @@
 
     arXiv:2611.19074v1 Announce Type: cross  Abstract: Industrial recommendation faces a resolution--complexity dilemma: dense interactions make detailed modeling of long behavior histories expensive, while compact history summaries restrict the evidence available to prediction. A unified backbone must preserve rich behavioral details within strict serving budgets. We introduce \textbf{TokenFormer V2}, a unified architecture that explicitly decouples \emph{representation resolution} from \emph{interaction density}. Its group-wise token layout jointly encodes behavior segments with non-sequential context, expands interaction ranges via hierarchical group merging, and coordinates distributed groups through \emph{NS Fusion} and \emph{Global Sync} modules. Through this \emph{local--global decomposition} paradigm, computation is concentrated on structured interactions while preserving fine-grained evidence, ensuring that every encoded event remains directly accessible to the \emph{Full-Resoluti
     
-[^29]: LMEG-Doc：面向多模态长文档检索的基于版面的多视角证据图
+[^32]: LMEG-Doc：面向多模态长文档检索的基于版面的多视角证据图
 
     LMEG-Doc: Layout-Grounded Multi-View Evidence Graphs for Multimodal Long-Document Retrieval
 
@@ -470,7 +516,7 @@
 
     arXiv:2611.18901v1 Announce Type: new  Abstract: Retrieving relevant evidence from multimodal long documents remains challenging, as supporting information is often distributed across different pages and modalities. Existing retrieval methods primarily rank document elements by their individual similarity to a question, often overlooking relationships among complementary evidence. Consequently, relevant figures and tables may receive low retrieval scores even when they contain essential information. To address this limitation, we introduce LMEG-Doc, a layout-grounded multi-view evidence graph framework for multimodal long-document retrieval. We first construct an evidence graph that captures structural and contextual relationships among document elements, and introduce Cross-Page Relation Refinement (CRR) to discover additional connections across distant pages through VLM-based verification. Building on this graph, we combine multimodal retrieval signals with graph-guided relevance pro
     
-[^30]: 通过随机改写实现LLM推荐系统中结构性偏差的无标签检测：以冗长性为例
+[^33]: 通过随机改写实现LLM推荐系统中结构性偏差的无标签检测：以冗长性为例
 
     Label-Free Detection of Structural Bias in LLM-Based Recommender Systems via Randomized Paraphrasing: The Case of Verbosity
 
@@ -484,7 +530,7 @@
 
     arXiv:2611.18878v1 Announce Type: cross  Abstract: Large language models (LLMs) are increasingly deployed as recommenders in e-commerce and conversational shopping systems, where they select a product from a set of retrieved candidates described in natural language. Their decisions should depend on relevance to the user query, but may also be influenced by surface-level properties of the descriptions, such as their length. Detecting such structural biases is difficult because relevance labels are rarely available. We propose a label-free framework to audit LLM-based recommender systems for structural bias. Candidate descriptions are rewritten by randomly assigned paraphrasing models and presented in random order. We prove that, if the recommender's choice is invariant to these rewritings, every paraphraser is selected with equal probability, yielding a statistical test that requires no relevance labels. A four-step statistical pipeline tests this property and quantifies the contributio
     
-[^31]: 脑AI科学家：一个基于证据的多智能体系统，用于精准精神病学中的转化神经影像学
+[^34]: 脑AI科学家：一个基于证据的多智能体系统，用于精准精神病学中的转化神经影像学
 
     Brain AI Scientist: An Evidence-Based Multi-Agent System for Translational Neuroimaging in Precision Psychiatry
 
@@ -498,7 +544,7 @@
 
     arXiv:2611.18634v1 Announce Type: cross  Abstract: Resting-state functional magnetic resonance imaging (rs-fMRI) has revealed widespread brain-network alterations in psychiatric disorders, yet translating these findings into individualized clinical decision support remains challenging. Here we introduce Brain AI Scientist, an autonomous multi-agent framework that integrates patient-specific fMRI, clinical information, and scientific evidence through retrieval, verification, and prioritization. Guided by Research Domain Criteria and evidence-based medicine, it builds traceable chains linking phenotypes, anatomical abnormalities, biomarkers, mechanisms, interventions, and validation strategies. In a representative autism case, Brain AI Scientist generated 37 anatomical hypotheses, retained 26 after literature verification, and derived 65 evidence-supported biomarkers from 90 unique publications to generate patient-specific treatment and validation guidance. Across 17 autism spectrum diso
     
-[^32]: 内在注意力作为导航器：一种面向多跳查询的非生成式检索方法
+[^35]: 内在注意力作为导航器：一种面向多跳查询的非生成式检索方法
 
     Intrinsic Attention as Navigator: A Non-Generative Retrieval Method for Multi-Hop Queries
 
@@ -512,7 +558,7 @@
 
     arXiv:2611.18617v1 Announce Type: new  Abstract: For multi-hop queries in retrieval-augmented generation (RAG), it is crucial to accurately obtain evidence pieces. In this study, we propose a training-free method for multi-hop query retrieval, named Intrinsic Navigating-based Non-Generative Retrieval (IN-Retriever). Instead of generating intermediate reasoning text, the method extracts the bridging clue from the internal attention of the embedding model based on the current context and retrieved candidate documents. During iterative clue extraction and document retrieval, IN-Retriever strips away revealed clues from the embedded query vector and then reranks candidate documents in a targeted manner, thereby steering retrieval toward hidden next-hop evidence. In the experiments, we confirm the feasibility and effectiveness of using intrinsic attention signals to guide external multi-hop retrieval. Experimental results show that our method precisely collects sufficient documents to suppo
     
-[^33]: 利用大语言模型实现文献筛选与知识综合的自动化
+[^36]: 利用大语言模型实现文献筛选与知识综合的自动化
 
     Automating literature screening and knowledge synthesis with large language models
 
@@ -526,7 +572,21 @@
 
     arXiv:2611.18588v1 Announce Type: new  Abstract: Scientific literature is expanding rapidly, yet much of its knowledge remains difficult to organize and reuse due to the substantial workload needed to navigate large, heterogeneous literature corpora. Here, we develop a generalizable large language model (LLM)-powered framework that automates literature screening, structured information extraction, and knowledge synthesis within a unified workflow. We benchmarked 11 state-of-the-art proprietary and open-weight LLMs across three materials science screening tasks differing in scope, corpus size, and class imbalance. Seven LLMs achieved balanced accuracies above 0.90 across all tasks, with the best-performing LLM reaching 0.96--0.98, demonstrating the potential of LLMs to accurately screen large, highly imbalanced scientific corpora. The framework also substantially reduces manual effort, screening 10,000 records within four minutes compared with approximately 83 person-hours for manual sc
     
-[^34]: 面向可扩展多语言文本行人检索的视觉锚定语义学习与对齐
+[^37]: CURATOR：基于决策模型实现面向检索增强生成的可扩展细粒度证据选择
+
+    CURATOR: Scalable Fine-grained Evidence Selection for Retrieval-Augmented Generation using Decision Models
+
+    [https://arxiv.org/abs/2611.16366](https://arxiv.org/abs/2611.16366)
+
+    提出了CURATOR，一种经过微调的决策模型，能够在同时评估多个候选片段的情况下实现可扩展的细粒度证据选择，从而提升检索增强生成中的上下文利用效率。
+
+    
+
+    检索增强生成（RAG）将完整的检索段落提供给大语言模型（LLM），尽管其中只有少数文本片段包含与问题相关的证据。虽然精确选择这些片段可以提升上下文利用率，但孤立地识别它们非常困难：一个片段本身可能看似无关，而是否保留它的判断可能需要参考其他检索到的信息。虽然在完整的检索上下文中评估每个片段的候选资格是可行的，但这种方式在计算上效率低下，因为相同的文本需要被反复处理。预训练的决策模型可以用来高效地同时评估多个片段，使每个决策都能考虑到周围的片段。然而，我们的实验表明，随着同时决策数量的增加，这类模型识别相关证据的能力会逐渐下降。为了解决这一问题，我们提出了CURATOR，一个经过微调的决策模型。
+
+    arXiv:2611.16366v2 Announce Type: replace  Abstract: Retrieval-augmented generation (RAG) provides entire retrieved passages to the LLM, even though only a handful of spans within them contain the evidence pertaining to the question. While precise selection of these spans can improve context utilization, identifying them in isolation is challenging. A span may appear irrelevant by itself, and deciding whether to retain it may require examining other retrieved information. One can evaluate each span's candidacy with the full retrieved context, but this is computationally inefficient as the same text must be processed repeatedly. Pretrained decision model can be used to efficiently evaluate multiple spans simultaneously, allowing each decision to consider the surrounding spans as well. However, our experiments show that their ability to identify relevant evidence deteriorates as the number of simultaneous decisions increases.   To address this, we introduce CURATOR, a fine-tuned decision
+    
+[^38]: 面向可扩展多语言文本行人检索的视觉锚定语义学习与对齐
 
     Vision-Grounded Semantic Learning and Alignment for Scalable Multilingual Text-Based Person Retrieval
 
@@ -540,7 +600,7 @@
 
     arXiv:2611.15328v2 Announce Type: replace-cross  Abstract: Multilingual Text-Based Person Retrieval (TBPR) aims to retrieve individuals with texts in multiple languages. Despite its practical importance, it has been overlooked by existing research, which mainly focuses on English-only retrieval. The only prior attempt at multilingual TBPR suffers from (1) the absence of a large-scale, multilingual pretraining dataset and (2) a suboptimal model architecture for multilingual text encoding and cross-modal alignment, which employs a shared encoder that overlooks linguistic heterogeneity and relies on English as a pivot for cross-modal alignment, introducing English-centric bias. For this, we contribute MultiPedes, the first large-scale, pedestrian-centric multilingual pretraining dataset. It contains 10 million image-text pairs across four languages, constructed by a multilingual quality-aware data construction pipeline. We also propose ViSeLA (Vision-grounded Semantic Learning and Alignme
     
-[^35]: Shopify 的生成式搜索与推荐
+[^39]: Shopify 的生成式搜索与推荐
 
     Generative Search and Recommendation at Shopify
 
@@ -554,7 +614,7 @@
 
     arXiv:2611.08804v1 Announce Type: new  Abstract: Search and recommendation at Shopify require retrieving relevant products from a changing catalog of billions of products under strict latency constraints. We present SID-LLM, which casts both tasks as generating semantic IDs: short sequences of content-derived tokens representing products. We jointly pre-train SID-LLM on catalog and behavioral data, giving search and recommendation a shared representation and training objective. We show that reinforcement learning further improves judged search relevance. Furthermore, distillation from task-specific experts improves recommendation quality over joint supervised fine-tuning without a statistically detected loss in search quality. Finally, for efficient serving, we pair multi-token prediction with a lightweight ranker, improving retrieval quality over our autoregressive baseline while reducing latency. We evaluate SID-LLM both as a standalone retriever and as a component of Shopify's produ
     
-[^36]: 搜索增强推荐系统是否使用了最新的搜索会话？
+[^40]: 搜索增强推荐系统是否使用了最新的搜索会话？
 
     Do Search-Augmented Recommenders Use the Latest Search Episode?
 
@@ -568,7 +628,7 @@
 
     arXiv:2611.06044v1 Announce Type: cross  Abstract: Search-augmented recommenders can use the latest search episode and earlier searches. We introduce FocalSwap to test how these inputs contribute to the next recommendation. For each recommendation, it changes the latest search slot or all search inputs while holding the target, candidates, pre-search history, and scorer fixed. It compares neutral masks with matched observed-search replacements, recording rank changes, RR gains relative to each control, and preference for the true focal search. A planted signal and GenSAR's current-query task confirm that the audit detects known input dependence. We evaluate behavioral and lexical evidence on KuaiSAR and Qilin, and recommendation checkpoints trained using the released SESRec and UniSAR implementations.   Across three independently trained UniSAR checkpoints, the estimated all-source benefit depends on the control. On the same 66,139 rows, replacing all search inputs with a neutral ID yi
     
-[^37]: REGER：基于语义ID建模物品间关系的生成式推荐
+[^41]: REGER：基于语义ID建模物品间关系的生成式推荐
 
     REGER: Modeling inter-item Relations with Semantic IDs for Generative Recommendation
 
@@ -582,7 +642,7 @@
 
     arXiv:2610.37584v1 Announce Type: cross  Abstract: Personalized recommendation depends on learning semantic and collaborative relations among items from online content and user interactions. Generative recommendation (GR) offers a promising paradigm by autoregressively generating discrete semantic IDs (SIDs) of items. However, randomly initialized SID token embeddings and GR models trained from scratch do not directly inherit the semantic relations inherent in items, while inter-item collaborative relations are learned largely implicitly through token-level attention and next-token supervision. To address this limitation, we propose REGER, a unified framework that explicitly incorporates inter-item relations into semantic pretraining, history encoding, and SID generation. We pretrain the GR model through generative semantic retrieval, enabling it to inherit inter-item semantic similarity by learning to generate semantic neighbors' SIDs. We combine global attention with local attention 
     
-[^38]: 二十天后：对Gemini回答中基于历史的品牌提及预测的预注册检验
+[^42]: 二十天后：对Gemini回答中基于历史的品牌提及预测的预注册检验
 
     Twenty Days Later: A Pre-Registered Test of History-Based Forecasts of Brand Mentions in Gemini Answers
 
@@ -596,7 +656,7 @@
 
     arXiv:2610.19608v1 Announce Type: cross  Abstract: Counts of which brands a large language model names are useful only if they hold long enough to act on. We test this with a pre-registered replication. The same 162 requests (54 questions in English, Estonian and Finnish about three software categories, four of twelve candidate brands per question, three repeats) were sent to gemini-3.1-pro-preview in three waves within about ten hours on 22 and 23 September 2026, and again on 13 October 2026, 20.3 days after the third wave, with identical request bodies. The plan and its decision rule were frozen, hashed and registered on OSF before the first call. The outcome is a lexical mention label per answer and brand, 648 per wave. The primary forecast, each brand-and-question cell's mention rate over the nine earlier answers, scored Brier 0.0281 and log loss 0.126, against Brier 0.0259 for the six-answer forecast of the 8-hour wave and a registered ceiling of 0.0559. It beat brand history (0.1
     
-[^39]: SearchJev：面向搜索代理的校准化System-1模型
+[^43]: SearchJev：面向搜索代理的校准化System-1模型
 
     SearchJev: A Calibrated System-1 Model for Search Agents
 
@@ -610,7 +670,7 @@
 
     arXiv:2610.05107v2 Announce Type: replace-cross  Abstract: Search agents repeatedly make short decisions about relevance, evidence sufficiency, and search actions. Using generative language models for these decisions introduces latency and unreliable confidence. We present SearchJev, a calibrated System-1 model that separates search decisions from System-2 reasoning and generation. Given a search state and a decision schema, SearchJev scores legal options without autoregressive output generation. We propose Soft-Label Learning for Calibrated Decisions (SLCD) to learn decision probabilities from uncertain supervision and improve the reliability of decision confidence. In a dual-system search agent, SearchJev handles short decisions and delegates uncertain judgments to System 2, which retains planning, query generation, and answer composition. We also introduce SearchDecision-Bench, a benchmark unifying six types of search decisions for training and evaluation. On SearchDecision-Bench, S
     
-[^40]: BioSync：基于Transformer的跨模态融合方法，用于多模态生理数字生物标志物
+[^44]: BioSync：基于Transformer的跨模态融合方法，用于多模态生理数字生物标志物
 
     BioSync: Transformer-Based Cross-Modal Fusion for a Multimodal Physiological Digital Biomarker
 
@@ -624,7 +684,7 @@
 
     arXiv:2609.04504v1 Announce Type: new  Abstract: Cardiac, neural, behavioral, and speech measurements from wearable and mobile devices provide partial, noise-sensitive views of physiological state. BioSync combines these measurements into the \textbf{BioSync Index (BSI)}, a continuous composite digital biomarker defined under the BEST framework. The model applies multi-head self-attention to modality tokens and adds a linear branch whose hypothesis class includes standard feature concatenation. This architecture is motivated by latent-variable measurement theory and by the possibility that joint observations contain information unavailable from individual modalities. We evaluated BioSync on two literature-informed synthetic cohorts: a four-modality cognitive-decline cohort using HRV, EEG, actigraphy, and speech, and a metabolic-autonomic cohort structured around the public AI-READI wearable schema. In the cognitive cohort, BioSync and concatenation obtained AUCs of 0.928 and 0.926, res
     
-[^41]: ViSAR：面向视觉文档问答的无需训练的自适应k值检索方法
+[^45]: ViSAR：面向视觉文档问答的无需训练的自适应k值检索方法
 
     ViSAR: Training-Free Adaptive-$k$ Retrieval for Visual Document Question Answering
 
@@ -638,7 +698,7 @@
 
     arXiv:2609.02486v1 Announce Type: cross  Abstract: Document Visual Question Answering (DocVQA) often leverages Retrieval-Augmented Generation (RAG), where late-interaction encoders are commonly used to identify document pages relevant to a user query, before answer generation by a Large Vision-Language Model (LVLM). Existing approaches typically retrieve a fixed top-$k$ number of pages regardless of query complexity, which increases LVLM latency and may degrade answer accuracy. We introduce ViSAR (Visual Semantic Activation Retrieval), a training-free adaptive-$k$ retrieval method for late-interaction visual document retrieval. ViSAR operates directly in the embedding space to construct a query-conditioned page-level similarity matrix that highlights query-relevant semantics and dynamically determines the number of pages to retrieve. Across multiple encoders and LVLMs, ViSAR retrieves compact, query-adapted page sets that reduce RAG latency by up to 58.7\%, while maintaining or improvi
     
-[^42]: Hi-Q：面向多跳问答的分层证据引导查询细化
+[^46]: Hi-Q：面向多跳问答的分层证据引导查询细化
 
     Hi-Q: Hierarchical Evidence-guided Query Refinement for Multi-Hop Question Answering
 
@@ -652,7 +712,7 @@
 
     arXiv:2608.30468v1 Announce Type: new  Abstract: A central bottleneck in multi-hop Question Answering (QA) is that the granularity at which a question is expressed often differs from the granularity at which corpus evidence is retrievable. Existing methods address this mismatch by imposing fixed graph structures over the corpus, by iteratively reformulating the query, or by executing a generated program over it, but these strategies do not explicitly decide when a query unit is already supported by evidence and when it should be refined. We formulate this bottleneck as retrievable granularity discovery and introduce Hi-Q, an evidence-conditioned framework for hierarchical query refinement. At each query node, a resolution operator tests whether retrieved evidence supports the current query unit; resolved nodes terminate, while unresolved nodes are expanded by a dependency-preserving binary operator and checked by a semantic coverage verifier. Hi-Q therefore grows a query tree whose top
     
-[^43]: CogRec：面向生成式推荐的结构认知快慢推理框架
+[^47]: CogRec：面向生成式推荐的结构认知快慢推理框架
 
     CogRec: Structure-Cognitive Fast-and-Slow Reasoning for Generative Recommendation
 
@@ -666,7 +726,7 @@
 
     arXiv:2607.24402v2 Announce Type: replace  Abstract: Generative recommendation reformulates next-item prediction as identifier sequence generation, yet existing methods mainly treat the generated identifiers as target sequences to be memorized, leaving their hierarchical and relational structure underused for explicit reasoning. We propose CogRec, a structure-cognitive fast-and-slow reasoning framework that grounds intermediate reasoning in the same SID topology used for target generation. CogRec augments the vertical SID hierarchy with intra-layer semantic graphs and introduces SID Routing to represent recommendation reasoning through layer-wise Match, LateralJump, and Explore operations. These operations provide a structural interpretation of fast localization and slow navigation. A supervised multi-stage pipeline aligns newly introduced SID tokens, establishes direct generation, and trains natural-language and SID Routing branches from a shared checkpoint. Experiments on three Amazo
     
-[^44]: UniFormer：面向工业推荐的高效统一模型中心化扩展方法
+[^48]: UniFormer：面向工业推荐的高效统一模型中心化扩展方法
 
     UniFormer: Efficient and Unified Model-Centric Scaling for Industrial Recommendation
 
@@ -680,7 +740,7 @@
 
     arXiv:2606.27058v1 Announce Type: new  Abstract: Recently, substantial progress has been made in industrial recommendation through component-centric model scaling, where individual components such as behavior modeling, feature interaction, or task modeling are independently scaled to improve model capacity. Although recent methods such as HyFormer and OneTrans further explore cross-module co-scaling by jointly modeling behavior and interaction, their designs are still confined to the feature space and lack a unified model-centric scaling framework over the overall modeling space. In this paper, we propose UniFormer, an efficient and unified model-centric scaling framework for industrial recommender systems. To improve efficiency, UniFormer decomposes the overall modeling space into feature and task spaces, which are modeled by stacked Feature-space Interaction Modules and Task-space Interaction Modules, respectively. Moreover, UniFormer introduces semantic-based tokenization scheme to 
     
-[^45]: 大语言模型品牌相关回答中引用的网络来源：一项多语言审计
+[^49]: 大语言模型品牌相关回答中引用的网络来源：一项多语言审计
 
     Cited Web Sources in LLM Answers about Brands: A Multilingual Audit
 
@@ -694,7 +754,7 @@
 
     arXiv:2606.25787v2 Announce Type: replace-cross  Abstract: Displayed citations make part of generative search observable, but they do not reveal its complete retrieval process. This audit covers three archived datasets containing 167,551 URL-bearing citation entries across 128 brands, 13 languages and 12 home markets. In the principal Nordic-Baltic component, 3,863 of 21,033 registrable domains account for 80% of 131,514 citations. Wikipedia leads in 11 of 12 query languages. A recovered, separate brand-associated website classification retains 131,512 entries: 108,410 (82.4%) fall outside its brand-associated category and 23,102 (17.6%) inside. This classification does not establish legal ownership. In the full 57-brand Polish aggregate, four recruitment hosts receive 637 citations against 297 for Polish Wikipedia. The results show why normalization, classification rules and denominators belong in citation audits. They describe displayed links without estimating causal effects on bran
     
-[^46]: 面向大规模DNA数据存储的私有信息检索
+[^50]: 面向大规模DNA数据存储的私有信息检索
 
     Private Information Retrieval for Large-Scale DNA-Based Data Storage
 
@@ -708,7 +768,7 @@
 
     arXiv:2606.14557v2 Announce Type: replace  Abstract: We investigate Private Information Retrieval (PIR) in the context of synthetic DNA-based data storage. While PIR is a well-studied primitive for digital databases, extending it to DNA-based databases presents unique challenges arising from biochemical query mechanisms and their complexity. We propose two approaches for adapting two-server PIR protocols to DNA-based storage, balancing privacy, efficiency, and feasibility. These approaches illustrate how information-theoretic privacy trade-offs manifest in DNA-based storage systems.
     
-[^47]: EHR-RAGp：面向临床预测模型的纵向电子健康记录原型引导检索
+[^51]: EHR-RAGp：面向临床预测模型的纵向电子健康记录原型引导检索
 
     EHR-RAGp: Prototype-Guided Retrieval of Longitudinal Electronic Health Records for Clinical Prediction Models
 
@@ -722,7 +782,7 @@
 
     arXiv:2605.12335v3 Announce Type: replace-cross  Abstract: Electronic Health Records (EHR) contain rich longitudinal patient information and are widely used in predictive modeling applications. However, effectively leveraging historical data remains challenging due to long trajectories, heterogeneous events, temporal irregularity, and the varying relevance of past clinical context. Existing approaches often rely on fixed windows or uniform aggregation, which can obscure clinically important signals. In this work, we introduce EHR-RAGp, a retrieval-based framework that dynamically integrates the most relevant patient history consisting of diverse clinical event types. We propose a prototype-guided retrieval module that acts as an alignment mechanism and estimates the relevance of retrieved historical chunks with respect to a given prediction task, guiding the model towards the most informative context. Across multiple clinical prediction tasks and two benchmark datasets, EHR-RAGp consis
     
-[^48]: DeGenTWeb：首次审视以机器生成文本为主的网站
+[^52]: DeGenTWeb：首次审视以机器生成文本为主的网站
 
     DeGenTWeb: A First Look at MGT-dominant Websites
 
@@ -736,7 +796,7 @@
 
     arXiv:2605.00087v2 Announce Type: replace-cross  Abstract: Many news reports have claimed that machine-generated text (MGT) from large language models (LLMs) is taking over the web. However, these claims are typically not based on a representative sample of the web, and the methodology underlying them is often opaque. Consequently, we lack an understanding of the true prevalence and characteristics of MGT on the web.   We describe DeGenTWeb, which systematically identifies MGT-dominant websites: sites whose informational prose content is mostly MGT, with little human input. We show how to adapt detectors of MGT for use on web pages, and how to aggregate detection results from multiple pages on a site for accurate site-level categorization. DeGenTWeb mislabels only 0.12% of human-authored sites as MGT-dominant. We find that 20.9% of the sites archived by Common Crawl between January and July 2026 and 13.6% of the sites linked from Bing's search results in 2025 are MGT-dominant. These fi
     
-[^49]: GAAMA：面向智能体的图增强联想记忆
+[^53]: GAAMA：面向智能体的图增强联想记忆
 
     GAAMA: Graph Augmented Associative Memory for Agents
 
@@ -750,7 +810,7 @@
 
     arXiv:2603.27910v3 Announce Type: replace  Abstract: AI agents that talk with users across many sessions need long-term memory to stay coherent and personalized. Existing approaches use either flat retrieval-augmented generation (RAG) that ignores how memories connect, or entity-centric knowledge graphs. Entity-centric graphs split each message into separate triples, which loses its context, and in conversations the speakers become hubs linked to almost every message, so propagation through them tells retrieval little. We present GAAMA, a graph-augmented associative memory that organizes conversations around topics. It keeps verbatim episodes, uses an LLM to distill them into atomic facts and topic concepts, and then synthesizes higher-order reflections. These four node types are linked by five kinds of structural edges, and topic concepts supply the cross-cutting paths, so mega-hubs do not form. Retrieval blends nearest-neighbor similarity search with Personalized PageRank whose trans
     
-[^50]: GateSID：用一个门控平衡物品生命周期中的语义信号与协同信号
+[^54]: GateSID：用一个门控平衡物品生命周期中的语义信号与协同信号
 
     GateSID: One Gate to Balance Semantic and Collaborative Signals across the Item Lifecycle
 
@@ -764,7 +824,7 @@
 
     arXiv:2603.22916v3 Announce Type: replace  Abstract: In recommender systems, collaborative signals work well for popular items but are nearly absent for cold-start ones. Semantic content helps new items, yet over-reliance on it blurs the behavioral distinctions of popular items. Existing Semantic ID (SID) based methods handle this trade-off only partially, because their fusion of the two signals is rigid and item-agnostic. We present GateSID, a ranking framework that takes SID from an upstream tokenizer and adapts how each SID is used to the item's maturity through a single shared gate. The gate drives three mechanisms. Gating-Fused Shared Attention (GFSA) fuses the attention distributions of the two modalities rather than their representations. Gate-Regulated Contrastive Alignment (GRCA) strengthens semantic-behavioral alignment for items with weak collaborative evidence and relaxes it when collaborative structure is reliable. Gate-Regulated Semantic Resolution (GRSR) uses coarse shar
     
-[^51]: 超越文本：面向可扩展双塔检索的文本-图像融合
+[^55]: 超越文本：面向可扩展双塔检索的文本-图像融合
 
     Beyond Text: Text-Image Fusion for Scalable Two-Tower Retrieval
 
@@ -778,7 +838,7 @@
 
     arXiv:2603.04836v3 Announce Type: replace  Abstract: E-commerce customers make purchase decisions by jointly considering product text and visual information, yet most industrial retrieval systems rely almost exclusively on textual signals. Deployed at scale on CPU-based nearest-neighbor infrastructure, these systems leave substantial visual evidence untapped. In this work, we study unified text-image fusion for two-tower retrieval models at a large-scale e-commerce platform, training on 20M query-item pairs. We demonstrate that domain-specific fine-tuning and modality-specific query alignment between user queries and both product text and image modalities are crucial for effective multimodal retrieval. Building on these insights, we propose a mixture-of-modality-experts fusion architecture with a bilinear interaction network to capture cross-modal complementary information. Our model achieves up to 4.86% improvement in nDCG@1 for desirability and 2.36% for relevance over a strong text-
     
-[^52]: 统一跨检索通道的排序：一种大规模电商方法
+[^56]: 统一跨检索通道的排序：一种大规模电商方法
 
     Unified Ranking Across Retrieval Channels: A Large-Scale E-Commerce Approach
 
@@ -792,7 +852,7 @@
 
     arXiv:2602.23530v4 Announce Type: replace  Abstract: Large-scale e-commerce search and recommendation systems rely on multiple specialized retrieval channels to surface diverse products, each optimized for a distinct objective. A key challenge is merging candidates from these heterogeneous channels into a single ranked list under strict latency constraints while optimizing business KPIs such as user conversion. Static rank-fusion methods such as Reciprocal Rank Fusion (RRF) and Weighted Interleaving use the same fusion behavior across queries, limiting their ability to adapt to context or model interactions among channel signals. We reformulate multi-channel fusion as a channel-aware learning-to-rank problem and propose a unified ranking model trained on a scalar, funnel-weighted graded-relevance label that combines clicks, add-to-carts, and purchases. The model incorporates channel-specific scores together with recent aggregate query-item behavior to capture near-term population deman
     
-[^53]: Self-EvolveRec：基于大语言模型方向性反馈的自演化推荐系统
+[^57]: Self-EvolveRec：基于大语言模型方向性反馈的自演化推荐系统
 
     Self-EvolveRec: Self-Evolving Recommender Systems with LLM-based Directional Feedback
 
@@ -806,7 +866,7 @@
 
     arXiv:2602.12612v3 Announce Type: replace-cross  Abstract: Traditional methods for automating recommender system design, such as Neural Architecture Search (NAS), are often constrained by a fixed search space defined by human priors, limiting innovation to pre-defined operators. While recent LLM-driven code evolution frameworks shift fixed search space target to open-ended program spaces, they primarily rely on scalar metrics (e.g., NDCG, Hit Ratio) that fail to provide qualitative insights into model failures or directional guidance for improvement. To address this, we propose Self-EvolveRec, a novel framework that establishes a directional feedback loop by integrating a User Simulator for qualitative critiques and a Model Diagnosis Tool for quantitative internal verification. Furthermore, we introduce a Diagnosis Tool - Model Co-Evolution strategy to ensure that evaluation criteria dynamically adapt as the recommendation architecture evolves. Extensive experiments demonstrate that Se
     
-[^54]: MSN：一种面向大规模工业推荐的基于记忆的稀疏激活扩展框架
+[^58]: MSN：一种面向大规模工业推荐的基于记忆的稀疏激活扩展框架
 
     MSN: A Memory-based Sparse Activation Scaling Framework for Large-scale Industrial Recommendation
 
@@ -820,7 +880,7 @@
 
     arXiv:2602.07526v2 Announce Type: replace  Abstract: Scaling deep learning recommendation models is an effective way to improve model expressiveness. Existing approaches often incur substantial computational overhead, making them difficult to deploy in large-scale industrial systems under strict latency constraints. Recent sparse activation scaling methods, such as Sparse Mixture-of-Experts, reduce computation by activating only a subset of parameters, but still suffer from high memory access costs and limited personalization capacity due to the large size and small number of experts. To address these challenges, we propose MSN, a memory-based sparse activation scaling framework for recommendation models. MSN dynamically retrieves personalized representations from a large parameterized memory and integrates them into downstream feature interaction modules via a memory gating mechanism, enabling fine-grained personalization with low computational overhead. To enable further expansion of
     
-[^55]: 为什么引导有效：迈向语言模型参数动力学的统一视角
+[^59]: 为什么引导有效：迈向语言模型参数动力学的统一视角
 
     Why Steering Works: Toward a Unified View of Language Model Parameter Dynamics
 
@@ -834,7 +894,7 @@
 
     arXiv:2602.02343v4 Announce Type: replace-cross  Abstract: Methods for controlling large language models (LLMs), including local weight fine-tuning, LoRA-based adaptation, and activation-based interventions, are often studied in isolation, obscuring their connections and making comparison difficult. In this work, we present a unified view that frames these interventions as dynamic weight updates induced by a control signal, placing them within a single conceptual framework. Building on this view, we propose a unified preference-utility analysis that separates control effects into preference, defined as the tendency toward a target concept, and utility, defined as coherent and task-valid generation, and measures both on a shared log-odds scale using polarity-paired contrastive examples. Across methods, we observe a consistent trade-off between preference and utility: stronger control increases preference while predictably reducing utility. We further explain this behavior through an act
     
-[^56]: 保真优先于结构：在长对话LLM记忆中，逐字片段优于有损的制品提取
+[^60]: 保真优先于结构：在长对话LLM记忆中，逐字片段优于有损的制品提取
 
     Fidelity Before Structure: Verbatim Chunks Beat Lossy Artifact Extraction in Long-Conversation LLM Memory
 
@@ -848,7 +908,7 @@
 
     arXiv:2601.00821v5 Announce Type: replace  Abstract: A growing class of conversational-memory systems compresses dialogue history into structured artifacts (extracted facts, decisions, or events). The premise is that distilled structure retrieves better than raw text. We test this premise with a controlled ablation. Within one fixed retrieval--rerank--reasoning pipeline, we swap only the stored representation (LLM-extracted typed artifacts versus verbatim conversation chunks) and hold the model, retriever, reranker, and judge constant. Verbatim chunks win by 15.9 points on LoCoMo (43.9% vs. 28.0%) and by 22.0 points on LongMemEval-S (67.4% vs. 45.4%). A semantic graph does not recover the gap, and six confound controls reproduce the effect. The mechanism is lossy distillation rather than structure per se. Accuracy tracks how much source text survives in the store, and the extracted-artifact pipeline does not beat naive RAG in overall accuracy (chunks do abstain worse; see Limitations).
     
-[^57]: 从证据到判断：冲突证据下的轨迹增强推理
+[^61]: 从证据到判断：冲突证据下的轨迹增强推理
 
     From Evidence to Judgment: Trace-Augmented Reasoning under Conflicting Evidence
 
@@ -862,7 +922,7 @@
 
     arXiv:2512.16795v2 Announce Type: replace-cross  Abstract: Retrieved documents often disagree, contain outdated information, or fail to support any answer, and retrieval-augmented generation (RAG) systems have no reliable way to decide which documents to trust. We treat this as a reasoning problem and test it separately from answer generation. We release 943 training and validation examples and a disjoint 736-example benchmark, and fine-tune four language models to write a structured think trace before answering: the model judges each document, infers the conflict pattern, and writes a grounded answer or a justified refusal. Our evaluation framework, CATS (Conflict-Aware Trust Score), scores grounded refusal, behavioural adherence, factual grounding, and single-truth recall; a human study validates factual grounding and single-truth recall (kappa=0.78 and 0.79). The think trace improves the answer/refuse decision: under all three prompts, untuned models score at most 0.429 Refusal F1 (
     
-[^58]: jXBW：一种支持结构化RAG中结构感知JSONL检索的压缩索引
+[^62]: jXBW：一种支持结构化RAG中结构感知JSONL检索的压缩索引
 
     jXBW: A Compressed Index Enabling Structure-Aware JSONL Retrieval for Structured RAG
 
@@ -876,7 +936,7 @@
 
     arXiv:2508.12536v4 Announce Type: replace-cross  Abstract: Providing \textit{structured} information to large language models (LLMs) improves multi-step reasoning and factual grounding, and recent retrieval-augmented generation (RAG) systems therefore reconstruct structure from retrieved text on every query. When the corpus is \emph{already} structured --- as in JSON Lines (JSONL), a popular format for LLM prompts, chemical compounds, and geospatial records --- this per-query rebuilding can be replaced by direct \emph{structural retrieval}. The core primitive is \textit{substructure search}: finding all JSON objects in a collection that contain a given query pattern. Existing approaches index each document separately, so both index space and query time grow with the total collection size; XML-based engines add conversion overhead and semantic mismatches. We propose \textbf{jXBW}, a compressed index for fast substructure search over JSONL, combining three innovations: (i) a merged tree 
     
-[^59]: Revela：通过语言建模进行密集检索器学习
+[^63]: Revela：通过语言建模进行密集检索器学习
 
     Revela: Dense Retriever Learning via Language Modeling
 

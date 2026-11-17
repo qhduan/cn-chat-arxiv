@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.18965",
     "context": "Title: Contextual Non-Convex Bandit Optimization with Two-Point Feedback\nAbstract: arXiv:2611.18965v1 Announce Type: new  Abstract: We study a non-stochastic contextual bandit problem with Lipschitz losses. At every round, the learner observes the context then picks two actions, observes the difference between their losses, and incurs their mean. The aim is to minimize the regret against a generic non-parametric comparator class of policies mapping contexts to actions; for example, Lipschitz policies and H\\\"older-smooth policies. We show how relying on a hierarchical discretization technique allows us to improve upon the regret rates achievable under one-point feedback, and even recover the full-information rate in some cases; notably, for sufficiently smooth policy classes or low-dimensional instances. Additionally, for Lipschitz policies, we present an algorithm whose per-round computational complexity is only logarithmic in the time horizon.",
     "path": "papers/26/11/2611.18965.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1186,
+    "translated_title": "基于两点反馈的上下文非凸老虎机优化",
+    "translated_abstract": "我们研究了一类具有Lipschitz损失的非随机上下文老虎机问题。在每一轮中，学习器先观察上下文，然后选择两个动作，观察这两个动作损失之间的差值，并承受两者的平均损失。目标是在与一个将上下文映射为动作的一般性非参数策略类（例如Lipschitz策略和Hölder光滑策略）进行比较时，最小化遗憾值。我们展示了如何通过分层离散化技术，改进单点反馈下可实现的遗憾率，甚至在某些情况下——特别是对于充分光滑的策略类或低维实例——能够达到全信息反馈下的遗憾率。此外，针对Lipschitz策略，我们提出了一种每轮计算复杂度仅关于时间范围呈对数级的算法。",
+    "tldr": "本文通过两点反馈与分层离散化技术改进了上下文非凸老虎机的遗憾率，在光滑策略类或低维情形下可达到全信息反馈的水平，并为Lipschitz策略类提供了每轮计算复杂度仅为对数级的算法。",
+    "en_tdlr": "This paper uses two-point feedback and hierarchical discretization to improve regret rates for non-stochastic contextual non-convex bandits, matching full-information rates for sufficiently smooth policy classes or low-dimensional settings, and provides an algorithm with only logarithmic per-round computational complexity for Lipschitz policies."
 }

@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.20049",
     "context": "Title: The Frontier Must Grow - Self-proposed, interpreter-labelled training roughly doubles a 4B model's accuracy on a fresh exam as its verified frontier grows\nAbstract: arXiv:2611.20049v1 Announce Type: new  Abstract: A model can learn from problems it poses itself when an executable oracle supplies the answers. Qwen3-4B proposed Lua 5.1 programs; those it predicted wrong at least once in four samples joined a pool labelled by the interpreter, each round adding twice as many programs as the last (300, 900, 2100 in total), and each round trained a fresh adapter from the base on the pool. On the original exam the procedure met its registered criterion, an item-level test of each adapter against its predecessor. On a 2340-item exam drawn afterwards, accuracy rose from 8.3% to 16.7%; that follow-up's registered criteria were not met because round 1 gained nothing, while rounds 2 and 3 added 5.0 and 2.9 points on average, both intervals above zero. One fit on the same amount of base-proposed frontier data reached 14.6%, so the rounds' 2.1-point advantage is inconclusive. Three earlier registered series met no per-lineage criterion, and the same loop showed",
     "path": "papers/26/11/2611.20049.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1657,
+    "translated_title": "前沿必须增长——随着验证前沿的扩大，自我提出、由解释器标注的训练使一个4B模型在新考试上的准确率大约翻倍",
+    "translated_abstract": "当一个可执行的“神谕”提供答案时，模型可以从自己提出的问题中学习。Qwen3-4B 提出 Lua 5.1 程序；那些在四次采样中至少预测错一次的程序会进入一个由解释器标注的题池，每一轮新增的程序数量是上一轮的两倍（总计 300、900、2100 个），并且每一轮都在该题池上从基础模型训练出一个新的适配器。在原始考试上，该流程达到了其预注册的标准，即对每个适配器与其前代进行的逐题检验。在随后抽取的包含 2340 题的考试上，准确率从 8.3% 提升到 16.7%；不过该后续实验的预注册标准并未达成，因为第 1 轮没有带来任何提升，而第 2 轮和第 3 轮平均分别带来 5.0 和 2.9 个百分点的增益，两者的置信区间均高于零。使用相同数量的、由基础模型提出的前沿数据进行单次拟合达到了 14.6%，因此多轮训练带来的 2.1 个百分点优势尚无定论。此前三次预注册的实验系列均未达到逐谱系的标准，且相同的循环显示出……（摘要在此处截断）",
+    "tldr": "该论文提出一种自我提升训练循环：让 Qwen3-4B 自己生成 Lua 程序、由解释器标注答案并逐轮扩大题池来训练新适配器，随着验证前沿的增长，使模型在全新考试上的准确率从 8.3% 提升到 16.7%，约翻倍。",
+    "en_tdlr": "The paper presents a self-improvement training loop in which Qwen3-4B proposes its own Lua programs labelled by an interpreter in exponentially growing rounds, roughly doubling its accuracy on a fresh exam from 8.3% to 16.7% as its verified frontier expands."
 }

@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.20746",
     "context": "Title: European derivatives pricing via constrained Gaussian process regressions\nAbstract: arXiv:2611.20746v1 Announce Type: new  Abstract: This article develops a Gaussian process method for pricing European derivatives when the underlyings, and the risk factors driving them, follow a multivariate jump-diffusion. A Gaussian process prior on the pricing function is conditioned on the Feynman-Kac partial integro-differential equation at a set of collocation points. The price is returned as a closed-form and differentiable function, allowing the Greeks to be obtained without simulation or finite differences. The jump terms are handled iteratively: the price is computed as the limit of a sequence of boundary value problems. Our main theoretical contribution is a convergence result for this iteration: using Weissinger's fixed-point theorem in the supremum norm, we show that it converges from any starting point, and provide a worst-case number of iterations for a given precision. The method is illustrated with derivatives of two underlyings under the Heston model with Kou double-",
     "path": "papers/26/11/2611.20746.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1226,
+    "translated_title": "基于约束高斯过程回归的欧式衍生品定价",
+    "translated_abstract": "本文提出了一种用于欧式衍生品定价的高斯过程方法，适用于标的资产及其驱动风险因子服从多元跳跃扩散过程的情况。该方法在一组配点上，以Feynman-Kac偏积分微分方程为条件约束定价函数上的高斯过程先验。定价结果以闭式可微函数的形式返回，使得希腊字母（敏感度指标）无需模拟或有限差分即可获得。跳跃项通过迭代方式处理：价格被计算为一系列边值问题的极限。我们的主要理论贡献是给出了该迭代的收敛性结果：利用上确界范数下的Weissinger不动点定理，我们证明了该迭代从任意初始点出发均收敛，并针对给定精度提供了最坏情况下的迭代次数上界。该方法通过在带Kou双指数跳跃的Heston模型下两个标的资产的衍生品定价进行了演示。",
+    "tldr": "本文提出一种基于约束高斯过程回归的欧式衍生品定价方法，通过Feynman-Kac方程约束获得闭式可微定价函数，并利用Weissinger不动点定理证明了处理跳跃项迭代算法从任意初始点出发的全局收敛性。",
+    "en_tdlr": "This paper proposes a constrained Gaussian process regression method for pricing European derivatives under multivariate jump-diffusion models, yielding closed-form differentiable pricing functions and proving global convergence of the iterative jump-handling scheme from any starting point via Weissinger's fixed-point theorem."
 }

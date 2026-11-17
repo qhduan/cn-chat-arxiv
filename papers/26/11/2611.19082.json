@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.19082",
     "context": "Title: CONTEXT-PCa: Evaluating the role of clinical context in MRI-based AI for detecting clinically significant prostate cancer (study protocol)\nAbstract: arXiv:2611.19082v1 Announce Type: new  Abstract: The objective of this study is to investigate the role of clinical variables - their breadth, source, and quality - in the development, utility, and generalisability of an AI system for bi-parametric MRI (bpMRI)-based diagnosis of clinically significant prostate cancer (csPCa). Clinical context is added to the published PI-CAI-2B image-only model, whose weights are fixed. The study cohort comprises 6,022 biparametric MRI cases from 4,540 patients at University College London Hospitals NHS Foundation Trust (2019-2024), of which 4,834 cases (3,632 patients) are held out for internal testing. Forty-three clinical variables are drawn from structured health records, clinical letters, MRI reports, and automated image measurements. The primary endpoint is the difference in the area under the receiver operating characteristic curve (AUROC) between the image-context and image-only models on the internal test set. Secondary analyses compare combin",
     "path": "papers/26/11/2611.19082.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1356,
+    "translated_title": "CONTEXT-PCa：评估临床背景信息在基于MRI的临床显著性前列腺癌检测AI中的作用（研究方案）",
+    "translated_abstract": "本研究旨在探讨临床变量——其广度、来源和质量——在基于双参数MRI（bpMRI）诊断临床显著性前列腺癌（csPCa）的AI系统的开发、实用性和泛化能力中所扮演的角色。研究在已发表的PI-CAI-2B纯影像模型基础上加入临床背景信息，且该模型的权重保持固定。研究队列包含伦敦大学学院医院NHS基金会信托（2019-2024年）4,540名患者的6,022例双参数MRI病例，其中4,834例（3,632名患者）被留出用于内部测试。共从结构化健康记录、临床信函、MRI报告和自动化影像测量中提取43个临床变量。主要终点是影像加临床背景模型与纯影像模型在内部测试集上受试者工作特征曲线下面积（AUROC）的差异。次要分析比较组合（摘要在此处截断）。",
+    "tldr": "该研究方案通过在权重固定的PI-CAI-2B纯影像模型上加入来自健康记录、临床信函、MRI报告和自动化影像测量的43个临床变量，系统评估临床背景信息的广度、来源和质量对基于bpMRI检测临床显著性前列腺癌的AI系统性能与泛化能力的影响。",
+    "en_tdlr": "This study protocol systematically evaluates the role of clinical context—its breadth, source, and quality—by augmenting the fixed-weight PI-CAI-2B image-only model with 43 clinical variables drawn from multiple sources, to assess their impact on the performance and generalisability of AI for detecting clinically significant prostate cancer in bpMRI."
 }

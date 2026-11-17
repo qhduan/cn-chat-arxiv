@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.21519",
     "context": "Title: Embedding Cosine Measures Text Length Before It Measures Homogenization\nAbstract: arXiv:2611.21519v1 Announce Type: new  Abstract: Mean pairwise cosine similarity between transformer embeddings is a standard measure of whether online discourse is converging under generative AI. When the embeddings are mean-pooled outputs of an encoder never trained for sentence similarity, this measure mostly tracks text length. In 6.06 million Reddit comments, an uncentered DeBERTa-v3 measure had suggested that only conservative discourse broke toward homogeneity after late 2022. Truncating the same comments from 10 to 150 words raises their mean cosine by eight times the reported break. A placebo that swaps every comment for a random one of equal length reproduces 81% of the asymmetry, and a fixed-content simulation reproduces 78%. The leading principal direction carries 99.9% of raw DeBERTa homogeneity, and once length is handled the asymmetry disappears under every encoder. On 575,000 Stack Exchange answers the measure reports a post-ChatGPT homogenization of technical sites tha",
     "path": "papers/26/11/2611.21519.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1616,
+    "translated_title": "嵌入余弦相似度在度量同质化之前，首先度量的是文本长度",
+    "translated_abstract": "Transformer嵌入之间的平均成对余弦相似度是衡量在线言论在生成式AI影响下是否趋于同质化的标准指标。当嵌入来自一个从未针对句子相似性训练的编码器的均值池化输出时，该指标主要反映的是文本长度。在606万条Reddit评论中，未经中心化的DeBERTa-v3指标曾表明，只有保守派言论在2022年底之后出现了同质化趋势。将相同的评论从10个词截断到150个词，其平均余弦相似度的提升幅度是所报告断裂效应的八倍。一种将每条评论替换为等长随机评论的安慰剂检验重现了81%的不对称性，而固定内容的模拟则重现了78%。第一主成分方向承载了99.9%的原始DeBERTa同质性，一旦对长度加以控制，这种不对称性在所有编码器下都会消失。在57.5万条Stack Exchange回答上，该指标报告了技术网站在ChatGPT出现后的同质化现象……（原文摘要在此处截断）",
+    "tldr": "该研究揭示嵌入余弦相似度主要度量的是文本长度而非话语同质化，此前关于2022年后保守派言论同质化的发现是文本长度差异造成的假象，控制长度后该效应完全消失。",
+    "en_tdlr": "This study reveals that embedding cosine similarity primarily measures text length rather than discourse homogenization, showing that the previously reported post-2022 conservative discourse homogenization was an artifact of text length differences that disappears once length is controlled for."
 }

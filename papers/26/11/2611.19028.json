@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.19028",
     "context": "Title: Optimal Capital Injections in a Microlending Group under External Shocks\nAbstract: arXiv:2611.19028v1 Announce Type: cross  Abstract: Motivated by static models of group default in microlending, we study a dynamic problem in which the members of a lending group are exposed to external shocks, such as droughts or floods, and the manager of a common emergency fund decides at each shock how much capital to inject into the members who were hit. Shocks arrive at random times, the set of members that a shock hits may depend on which members the previous shock hit, and the losses may spill over to members who were not hit directly. Between shocks, the members' wealth follows a linear stochastic differential equation in which members support each other, and the fund grows with interest and member contributions up to a cap. The cost balances the members' shortfall below a poverty line, a welfare measure that contains a standard poverty measure as a special case, against the administrative cost of the injections and the benefit of keeping money in the fund. We formulate the pr",
     "path": "papers/26/11/2611.19028.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1237,
+    "translated_title": "外部冲击下微型贷款小组中的最优资本注入",
+    "translated_abstract": "受微贷中团体违约静态模型的启发，我们研究了一个动态问题：借贷小组的成员面临外部冲击（如干旱或洪水），公共应急基金的管理者在每次冲击发生时决定向受灾成员注入多少资本。冲击在随机时刻到达，一次冲击所波及的成员集合可能取决于前一次冲击所影响的成员，且损失可能溢出到未被直接冲击的成员。在冲击之间，成员的财富遵循一个线性随机微分方程，其中成员之间相互支持，基金通过利息和成员缴款增长直至上限。成本在成员低于贫困线的缺口（一种福利度量，标准贫困度量是其特例）与注资的行政成本以及资金留存于基金中的收益之间进行权衡。我们据此建立了该问题的（摘要在此处截断）",
+    "tldr": "该论文将微贷小组违约的静态模型拓展为动态随机控制框架，研究应急基金管理者在随机外部冲击下如何最优地向受灾成员注入资本，以在贫困救助福利、注资行政成本与基金留存收益之间实现最优权衡。",
+    "en_tdlr": "This paper extends static models of group default in microlending to a dynamic stochastic control framework, determining the optimal capital injections by an emergency fund manager into members hit by random external shocks, balancing poverty-alleviation welfare against injection costs and fund retention benefits."
 }

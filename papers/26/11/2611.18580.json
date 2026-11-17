@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.18580",
     "context": "Title: Model-Driven Approaches for DevOps: A Systematic Literature Review\nAbstract: arXiv:2611.18580v1 Announce Type: new  Abstract: DevOps integrates tools and methodologies aimed at optimizing software development, building, deployment, and monitoring by automating and reducing the development lifecycle and improving software quality. However, despite its many advantages, it presents notable challenges, particularly in terms of usability and migration. On the other hand, model-driven engineering (MDE) offers a way to abstract from specific technologies and implementation details, which can be leveraged to improve these aspects, as happens in software development.   In this paper, we present the first systematic literature review aiming to understand the current MDE approaches for supporting DevOps development. We focus on categorizing the works based on computing domains, the phases of the DevOps process to which they contribute, and the reengineering steps they propose.   Our findings highlight a dominant focus on cloud computing, while some studies propose domain-",
     "path": "papers/26/11/2611.18580.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1074,
+    "translated_title": "面向DevOps的模型驱动方法：一项系统性文献综述",
+    "translated_abstract": "DevOps整合了旨在优化软件开发、构建、部署和监控的工具与方法，通过自动化并缩短开发生命周期来提升软件质量。然而，尽管DevOps具有诸多优势，它也带来了显著的挑战，尤其是在可用性和迁移方面。另一方面，模型驱动工程（MDE）提供了一种从特定技术和实现细节中进行抽象的方法，正如其在软件开发中的作用一样，这种方法可以被用来改善上述问题。本文提出了首个系统性文献综述，旨在理解当前支持DevOps开发的MDE方法。我们侧重于根据计算领域、这些工作所贡献的DevOps流程阶段以及它们所提出的再工程步骤，对相关工作进行分类。我们的研究结果突出了对云计算的主导性关注，同时一些研究提出了面向特定领域的……（原文摘要在此处不完整）",
+    "tldr": "本文是首个关于利用模型驱动工程（MDE）方法支持DevOps开发的系统性文献综述，通过对相关研究按计算领域、DevOps流程阶段和再工程步骤进行分类，发现当前研究主要聚焦于云计算领域。",
+    "en_tdlr": "This paper presents the first systematic literature review of model-driven engineering (MDE) approaches for supporting DevOps development, categorizing existing works by computing domains, DevOps process phases, and reengineering steps, and revealing a dominant focus on cloud computing."
 }

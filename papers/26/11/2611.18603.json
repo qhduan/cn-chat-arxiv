@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.18603",
     "context": "Title: Retrieval-Augmented Generation for Clinical Decision Support in Gait Analysis: A Proof-of-Concept\nAbstract: arXiv:2611.18603v1 Announce Type: new  Abstract: Large language models (LLMs) demonstrate significant potential for clinical decision support but lack specialized biomechanical knowledge required for accurate gait analysis interpretation. We developed and evaluated a Retrieval-Augmented Generation (RAG) framework to enhance LLM-generated clinical explanations for ankle fracture rehabilitation using ground reaction force data. Using the GaitRec dataset (503 subjects: 211 healthy, 292 ankle fracture patients), we implemented a five-stage pipeline integrating: (1) machine learning classification (91.3\\% accuracy); (2) Layer-wise Relevance Propagation for explainable feature identification; (3) RAG knowledge base from peer-reviewed biomechanics literature; (4) GPT-5 explanation generation with and without retrieval augmentation; and (5) double-blind evaluation by experienced physical therapists across five clinical criteria. RAG augmentation produced statistically significant improvements ",
     "path": "papers/26/11/2611.18603.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1296,
+    "translated_title": "用于步态分析临床决策支持的检索增强生成：一项概念验证研究",
+    "translated_abstract": "arXiv:2611.18603v1 公告类型：新 摘要：大语言模型（LLMs）在临床决策支持方面展现出巨大潜力，但缺乏准确解读步态分析所需的专业生物力学知识。我们开发并评估了一个检索增强生成（RAG）框架，利用地面反作用力数据来增强大语言模型为踝关节骨折康复生成的临床解释。使用GaitRec数据集（503名受试者：211名健康人和292名踝关节骨折患者），我们实现了一个五阶段流水线，包括：(1) 机器学习分类（准确率91.3%）；(2) 用于可解释特征识别的逐层相关性传播（Layer-wise Relevance Propagation）；(3) 基于同行评审生物力学文献构建的RAG知识库；(4) 分别在有检索增强和无检索增强条件下使用GPT-5生成解释；(5) 由经验丰富的物理治疗师根据五项临床标准进行双盲评估。RAG增强产生了具有统计学显著性的改进。",
+    "tldr": "该研究提出了一个结合机器学习分类、可解释性分析和生物力学文献知识库的检索增强生成（RAG）框架，显著提升了大语言模型在踝关节骨折康复步态分析临床解释中的专业性与准确性。",
+    "en_tdlr": "This study proposes a Retrieval-Augmented Generation (RAG) framework that integrates machine learning classification, explainable AI, and a biomechanics literature knowledge base to significantly enhance the quality and clinical accuracy of LLM-generated gait analysis explanations for ankle fracture rehabilitation."
 }

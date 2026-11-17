@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.18803",
     "context": "Title: Clustering-Based Artificial Tree Ensembles for Random Forest Approximation\nAbstract: arXiv:2611.18803v1 Announce Type: new  Abstract: Random Forests (RFs) offer strong prediction performance but are difficult to interpret. Most representative trees (MRTs) and artificial representative trees (ARTs) provide surrogate explanations, but a single tree may miss patterns within a forest. We investigate benefits and limitations of clustering-based representative tree ensembles for RF surrogate modeling and assess the contribution of similarity-based clustering relative to random tree partitions. Using linear and nonlinear simulations and regression benchmarks, we evaluate fidelity, prediction accuracy, complexity, and prediction stability against equally sized ensembles of top-ranked MRTs and randomly selected trees. Increasing ensemble size generally improves fidelity, accuracy, and prediction stability. ART ensembles show higher fidelity in simulations and often greater prediction stability for small ensembles. Compared with random tree partitions, similarity-based clusterin",
     "path": "papers/26/11/2611.18803.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1094,
+    "translated_title": "基于聚类的合成树集成方法用于随机森林近似",
+    "translated_abstract": "随机森林（RFs）具有强大的预测性能，但难以解释。最具代表性树（MRTs）和人工代表树（ARTs）可提供代理解释，但单个树可能无法捕捉森林内部的模式。我们研究了基于聚类的代表树集成在随机森林代理建模中的优势与局限，并评估了基于相似性的聚类相对于随机树划分的贡献。通过线性和非线性仿真实验以及回归基准测试，我们将保真度、预测精度、复杂度和预测稳定性与同等规模的顶级MRT集成和随机选择的树集成进行对比评估。结果表明，增大集成规模通常能提升保真度、预测精度和预测稳定性。ART集成在仿真实验中表现出更高的保真度，且在小型集成场景下往往具有更强的预测稳定性。与随机树划分相比，基于相似性的聚类…",
+    "tldr": "该论文提出基于相似性聚类的人工代表树（ART）集成作为随机森林的代理解释模型，证明了其相比单个代表树和随机树划分具有更高的保真度和预测稳定性。",
+    "en_tdlr": "This paper proposes clustering-based artificial representative tree (ART) ensembles as surrogate models for random forests, demonstrating higher fidelity and prediction stability compared to single representative trees and random tree partitions."
 }

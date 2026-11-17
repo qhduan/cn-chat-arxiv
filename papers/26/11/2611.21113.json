@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.21113",
     "context": "Title: Intransigence or compromise: concatenated opinion dynamics with voting feedback\nAbstract: arXiv:2611.21113v1 Announce Type: cross  Abstract: In this paper, we study opinion evolution in a sequence of Friedkin-Johnsen (FJ) models, concatenated so that the final opinions of each model serve as the initial opinions of the next. Each FJ model is followed by a vote, and each agent becomes partially or fully stubborn in the next model, depending on how close its opinion is to the voting result. With the state-dependent switching of stubbornness, the dynamics are not guaranteed to be contractive. We show that, over any fixed strongly connected network, the opinions always converge. A sufficient condition on the initial opinions is proposed, under which consensus is reached exponentially fast. For the complete graph, we further show that, if the agents' stubbornness levels do not differ too much, an agent that is partially stubborn in one FJ model can never become fully stubborn in a subsequent one: once it has started compromising, it keeps doing so.",
     "path": "papers/26/11/2611.21113.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1326,
+    "translated_title": "不妥协还是妥协：带投票反馈的级联意见动力学",
+    "translated_abstract": "本文研究一系列Friedkin-Johnsen（FJ）模型中的意见演化问题，这些模型级联连接，使得每个模型的最终意见作为下一个模型的初始意见。每个FJ模型之后进行一次投票，每个智能体在下一个模型中会变得部分顽固或完全顽固，这取决于其意见与投票结果的接近程度。由于顽固性依赖于状态的切换，系统动态不保证具有收缩性。我们证明，在任何固定的强连通网络上，意见总是收敛的。我们提出了关于初始意见的一个充分条件，在该条件下系统能以指数速度达成共识。对于完全图，我们进一步证明：如果各智能体的顽固程度差异不大，那么在某个FJ模型中部分顽固的智能体在后续模型中绝不会变得完全顽固——一旦开始妥协，它就会一直妥协下去。",
+    "tldr": "本文研究了带投票反馈的级联Friedkin-Johnsen意见动力学模型，证明了在强连通网络上意见必然收敛、给出了指数速度达成共识的初始条件，并揭示了完全图中“一旦开始妥协便持续妥协”的智能体行为规律。",
+    "en_tdlr": "This paper studies concatenated Friedkin-Johnsen opinion dynamics with voting feedback, proving that opinions always converge over any strongly connected network, giving a sufficient condition for exponentially fast consensus, and showing that on complete graphs, once an agent starts compromising, it never becomes fully stubborn again."
 }

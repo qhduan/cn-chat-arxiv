@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.20322",
     "context": "Title: Maximum Scores and Treatment Feedback in Regression Discontinuity Designs\nAbstract: arXiv:2611.20322v1 Announce Type: cross  Abstract: Hospitals use repeated risk scores to decide when to send an alert. Some evaluations summarize these scores by their maximum and use the maximum as the running variable in a regression discontinuity (RD) design. The maximum shows correctly whether a patient was ever alerted. However, it can include scores recorded after an earlier alert has already changed care. In this paper, we study what the maximum-score RD estimates when an earlier intervention changes a later score. We use a two-assessment model and derive a formula that splits the RD contrast into the causal effect and a composition term. When feedback moves scores in one direction, the composition term equals the relative jump in the density of the maximum at the cutoff times a prognostic contrast. Therefore, an exactly continuous density means no bias, and the population density jump bounds the bias. Valid inference on the jump turns this into a confidence bound under a stated",
     "path": "papers/26/11/2611.20322.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1223,
+    "translated_title": "断点回归设计中的最大得分与治疗反馈",
+    "translated_abstract": "医院使用重复的风险评分来决定何时发送警报。一些评估方法通过最大值来汇总这些评分，并将该最大值用作断点回归（RD）设计中的运行变量。最大值能够正确反映患者是否曾经收到过警报。然而，它可能包含在先前的警报已经改变了医疗护理之后才记录的评分。本文研究了当先前的干预会改变后续评分时，基于最大得分的断点回归究竟估计的是什么。我们采用两次评估模型，推导出一个公式，将断点回归对比量分解为因果效应和一个构成项。当反馈使评分朝单一方向移动时，构成项等于最大值密度在断点处的相对跳跃乘以一个预后对比。因此，密度完全连续意味着不存在偏差，而总体密度的跳跃幅度则为偏差设定了上界。对密度跳跃的有效推断可以将其转化为给定条件下的置信界。",
+    "tldr": "本文推导出将基于最大得分的断点回归估计量分解为因果效应与构成项的公式，证明了当最大值密度在断点处连续时治疗反馈不产生偏差，且偏差上界由密度跳跃幅度决定。",
+    "en_tdlr": "This paper derives a decomposition of the maximum-score RD estimator into a causal effect and a composition term, showing that treatment feedback causes no bias when the density of the maximum is continuous at the cutoff, and that the bias is bounded by the density jump."
 }

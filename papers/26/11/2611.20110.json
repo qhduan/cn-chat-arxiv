@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.20110",
     "context": "Title: Who Observes Whom: Network Rationalizability and Its Complexity\nAbstract: arXiv:2611.20110v1 Announce Type: cross  Abstract: Nash equilibrium and rationalizability sit at opposite informational extremes: the former presumes that each player knows all opponents' strategies, the latter that players reason from common knowledge of rationality alone. When visibility is partial and asymmetric, we study the solution concepts induced by a directed \\emph{observation network} $G$ in which an edge $i\\to j$ means that $i$ observes $j$'s strategy. A set of profiles is \\emph{self-sustaining} if every profile in it can be justified, for every player, by conjectures from the same set that agree with everything the player observes. We consider \\emph{point} conjectures (single profiles) and \\emph{belief} conjectures (distributions over profiles). Both range from Nash equilibrium on the complete network to point- and correlated rationalizability on the empty network, and shrink monotonically as links are added.   Network topology governs both behavior and complexity. A predic",
     "path": "papers/26/11/2611.20110.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1597,
+    "translated_title": "谁观察谁：网络可理性化及其复杂性",
+    "translated_abstract": "纳什均衡与可理性化处于信息条件的两个极端：前者假定每个参与人知道所有对手的策略，后者则假定参与人仅凭理性的共同知识进行推理。当可见性是部分且不对称时，我们研究由一个有向观察网络 $G$ 所诱导的解概念，其中边 $i\\to j$ 表示 $i$ 观察到 $j$ 的策略。如果一个策略组合集合中的每一个组合，对每个参与人而言，都能由来自同一集合且与该参与人所观察到的一切相符的猜想所辩护，则称该集合是“自维持的”。我们考虑点猜想（单一策略组合）与信念猜想（策略组合上的分布）。两者在完全网络上对应纳什均衡，在空网络上对应点可理性化和相关可理性化，并随着边的增加而单调收缩。网络拓扑同时支配着预测行为与复杂性。",
+    "tldr": "本文提出基于有向观察网络的“自维持”解概念，将纳什均衡与可理性化这两个信息极端统一起来，并刻画了网络拓扑如何同时决定预测结果与计算复杂性。",
+    "en_tdlr": "This paper introduces self-sustaining solution concepts on directed observation networks that unify Nash equilibrium and rationalizability as opposite informational extremes, characterizing how network topology governs both predictions and computational complexity."
 }

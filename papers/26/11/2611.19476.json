@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.19476",
     "context": "Title: Team Stability: Theory and Evidence\nAbstract: arXiv:2611.19476v1 Announce Type: new  Abstract: Teams emerge organically when individuals decide on their own their activities and collaborators. I develop and test a theory in which teams form with consent, interactions reflect team composition, and payoffs feature externalities and several forms of congestion. Stability constraints concern group interactions and require each team member to be willing to remain rather than withdraw or pursue a project alone. Empirical analysis of research collaborations among economists at the Federal Reserve Board suggests that: (i.) these constraints help explain observed teams beyond the payoffs to collaboration; (ii.) estimated violations point to large teams of entrants that appear to be assigned; (iii.) a compensatory mechanism mitigates the effects of variation in policy workload, which appears to affect team composition more than total research output; and (iv.) shifting workload toward experienced economists increases entrants' research outp",
     "path": "papers/26/11/2611.19476.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1088,
+    "translated_title": "团队稳定性：理论与证据",
+    "translated_abstract": "当个人自主决定其活动和合作对象时，团队会自发形成。本文提出并检验了一个理论，在该理论中，团队的形成需要各方同意，互动反映团队构成，且收益具有外部性和多种形式的拥挤效应。稳定性约束涉及群体互动，要求每个团队成员都愿意留在团队中，而不是退出或独自开展项目。对美联储理事会经济学家之间研究合作关系的实证分析表明： 这些稳定性约束有助于解释所观察到的团队构成，其解释力超越了合作收益本身； 估计出的约束违背现象指向了一些似乎是被指派而非自发形成的大型新入职者团队； 一种补偿性机制缓解了政策工作量变化的影响，而政策工作量对团队构成的影响似乎大于对总研究产出的影响； 将工作量向经验丰富的经济学家转移，会提高新入职者的研究产出。",
+    "tldr": "本文提出了一个基于同意、外部性与拥挤效应的团队稳定性理论，并通过对美联储经济学家研究合作数据的实证分析证明，稳定性约束能够解释实际观察到的团队构成，揭示出新入职者被指派进入大型团队的现象以及工作量分配对研究产出的补偿性影响。",
+    "en_tdlr": "This paper develops and empirically tests a theory of team stability involving consent, externalities, and congestion, showing that stability constraints explain observed research collaborations among Federal Reserve economists, including apparently assigned large teams of entrants and compensatory effects of workload allocation on research output."
 }

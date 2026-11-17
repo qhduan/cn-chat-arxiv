@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.19173",
     "context": "Title: When Does Confidence Reveal Problem Difficulty?\nAbstract: arXiv:2611.19173v1 Announce Type: new  Abstract: While confidence signals are commonly evaluated for their ability to predict a model's own correctness, their relationship with problem difficulty remains less understood. In this work, we investigate a wide range of confidence-related signals and whether they can serve as indicators of problem difficulty across various task domains. We find that perturbation inconsistency, semantic entropy, and solution length exhibit strong associations with population difficulty than token-level uncertainty. Notably, these relationships persist even when restricting the analysis to problems correctly answered by the focal model, suggesting that such signals capture information about difficulty beyond their ability to predict the model's own correctness. We further explore applications of these signals, illustrating the potential and limitations of using confidence-related signals to guide inference-time decisions. Our findings highlight the utility of",
     "path": "papers/26/11/2611.19173.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 967,
+    "translated_title": "置信度何时能揭示问题难度？",
+    "translated_abstract": "虽然置信度信号通常被评估用于预测模型自身的正确性，但它们与问题难度之间的关系仍然知之甚少。在这项工作中，我们研究了多种与置信度相关的信号，以及它们在不同任务领域中是否可以作为问题难度的指标。我们发现，扰动不一致性、语义熵和解题长度比token级别的不确定性表现出与总体难度更强的关联。值得注意的是，即使将分析限制在被目标模型正确回答的问题上，这些关系依然存在，这表明此类信号所捕获的难度信息超越了其预测模型自身正确性的能力。我们进一步探索了这些信号的应用，展示了使用置信度相关信号来指导推理时决策的潜力与局限性。我们的发现凸显了（原文在此处截断）",
+    "tldr": "该研究发现扰动不一致性、语义熵和解题长度等置信度相关信号与问题难度强相关，且这种关联即使在被模型正确回答的问题上依然存在，揭示了这些信号可用于指导推理时决策的潜力与局限。",
+    "en_tdlr": "This study finds that confidence-related signals such as perturbation inconsistency, semantic entropy, and solution length are strongly associated with problem difficulty—even persisting on problems the model answers correctly—revealing both the potential and limitations of using these signals to guide inference-time decisions."
 }

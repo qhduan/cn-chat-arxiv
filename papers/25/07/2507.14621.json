@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2507.14621",
     "context": "Title: Testing Clustered Equal Predictive Ability with Unknown Clusters\nAbstract: arXiv:2507.14621v4 Announce Type: replace  Abstract: We develop tests of clustered equal predictive ability (C-EPA) in panels where the clusters are unknown and estimated by Panel Kmeans. Since the hypotheses depend on data-driven clusters, we adopt a selective conditional inference framework. We show that the square root of a Wald statistic for the equality of two estimated cluster centers is asymptotically a truncated $\\chi$ variable, conditionally on the selected clusters and their number, with multiple random initializations, and that the truncation set is a finite union of intervals that can be computed exactly. Unlike existing methods of selective inference for Kmeans, this holds under serial and cross-sectional dependence and heteroskedasticity. For the C-EPA hypothesis, we combine the pairwise $p$-values with a test of overall EPA. In Monte Carlo experiments, the proposed tests control size where naive tests severely over-reject. An application to exchange rate forecasting with",
     "path": "papers/25/07/2507.14621.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1282,
+    "translated_title": "具有未知聚类簇的聚类等预测能力检验",
+    "translated_abstract": "我们在聚类簇未知并通过Panel Kmeans估计的面板数据中，开发了聚类等预测能力（C-EPA）检验。由于假设依赖于数据驱动的聚类簇，我们采用了选择性条件推断框架。我们证明，在给定所选聚类簇及其数量（包括多次随机初始化）的条件下，用于检验两个估计聚类中心相等性的Wald统计量的平方根渐近服从截断χ分布，且该截断集是一个可以精确计算的有限区间并集。与现有的针对Kmeans的选择性推断方法不同，该结论在序列相关、截面相关和异方差性下依然成立。对于C-EPA假设，我们将成对的p值与总体EPA检验相结合。在蒙特卡洛实验中，所提出的检验能够有效控制检验水平，而朴素检验则严重过度拒绝原假设。在汇率预测的应用中……",
+    "tldr": "本文提出了一种在聚类簇未知的情况下检验面板数据聚类等预测能力（C-EPA）的新方法，通过选择性条件推断框架证明Wald统计量的平方根渐近服从截断χ分布，且在序列相关、截面相关和异方差条件下依然有效，弥补了现有Kmeans选择性推断方法的局限。",
+    "en_tdlr": "This paper develops selective conditional inference tests for clustered equal predictive ability (C-EPA) with unknown Panel Kmeans clusters, proving that the square root of the Wald statistic for cluster center equality is asymptotically a truncated χ variable with exactly computable truncation sets, valid under serial and cross-sectional dependence and heteroskedasticity."
 }

@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.18655",
     "context": "Title: Beveridge: Open Weight System One Decision Models with Calibrated Probabilities\nAbstract: arXiv:2611.18655v1 Announce Type: new  Abstract: Many production systems need a model to make a narrow decision about a document (route a ticket, check a limit, refuse a request, pick the next step of a browser agent) rather than to write text about it. We present Beveridge, a family of open weight System One decision models that take a document and up to 15 typed questions (yes/no, choice among described options, or a level on an ordered scale) and return, in one forward pass without generating text, an answer with a calibrated probability for every option. Beveridge-Large-C (398M parameters) adds a 3.5M parameter decision network to ModernBERT-large: typed number and date features in the input, exact facts from a rule engine, question-to-document evidence attention, a three-step recursive core with learned halting and an exact yes/no path. Beveridge-Pro-C adapts Gemma 4 26B-A4B with LoRA to score option letters, and Beveridge-Pro-C-Web extends it to the next step of a browser agent. ",
     "path": "papers/26/11/2611.18655.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1656,
+    "translated_title": "Beveridge：具备校准概率的开放权重“系统一”决策模型",
+    "translated_abstract": "许多生产系统需要模型对文档做出具体、狭窄的决策（如路由工单、检查限额、拒绝请求、选择浏览器智能体的下一步操作），而不是就文档撰写文本。我们提出了Beveridge——一个开放权重的“系统一”决策模型家族，它接收一个文档和最多15个结构化问题（是/否判断、在若干描述选项中选择、或在有序量表上给出等级），并在单次前向传播中无需生成任何文本，即为每个选项返回带校准概率的答案。Beveridge-Large-C（3.98亿参数）在ModernBERT-large之上增加了一个350万参数的决策网络：包括输入端的类型化数字与日期特征、来自规则引擎的精确事实、问题到文档的证据注意力机制、以及具有学习式停机机制和精确是/否通路的三步递归核心。Beveridge-Pro-C通过LoRA对Gemma 4 26B-A4B进行适配以对选项字母评分，Beveridge-Pro-C-Web则将其扩展至浏览器智能体的下一步决策。",
+    "tldr": "Beveridge是一系列开放权重的“系统一”决策模型，能在单次前向传播中无需生成文本即对文档做出狭窄决策，并为每个选项输出校准概率。",
+    "en_tdlr": "Beveridge is a family of open-weight System One decision models that make narrow document decisions in a single forward pass without generating text, returning calibrated probabilities for every option."
 }

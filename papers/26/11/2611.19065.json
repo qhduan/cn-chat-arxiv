@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.19065",
     "context": "Title: A Fast Algorithm for the Familywise Loss\nAbstract: arXiv:2611.19065v1 Announce Type: new  Abstract: The familywise (FW) loss for multiclass classification, introduced by Duchi, Ruan, and Khosravi, achieves universal equivalence to the 0-1 loss, and thus has stronger theoretical properties than cross entropy (CE). Prior work, however, left open whether FW is as computationally efficient as CE. First, on the theoretical side, we prove that the FW gradient can be computed in $O(K)$ time, where $K$ is the number of classes. Second, on the practical side, we develop optimized kernels for computing the forward and backward passes of FW which outperform CE in terms of speed on both CPU and GPU.",
     "path": "papers/26/11/2611.19065.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1091,
+    "translated_title": "族损失的一种快速算法",
+    "translated_abstract": "由Duchi、Ruan和Khosravi提出的用于多分类的族损失（FW）实现了与0-1损失的普遍等价性，因而比交叉熵（CE）具有更强的理论性质。然而，先前的工作遗留了一个未决问题：FW在计算效率上是否与CE相当。首先，在理论方面，我们证明了FW梯度可以在O(K)时间内计算完成，其中K为类别数量。其次，在实践方面，我们开发了用于计算FW前向和反向传播的优化内核，其在CPU和GPU上的速度均超过了CE。",
+    "tldr": "本文从理论上证明族损失（FW）的梯度可在O(K)时间内计算，并通过开发优化的前向和反向传播内核，使FW在CPU和GPU上的计算速度均超过交叉熵（CE）。",
+    "en_tdlr": "This paper proves that the familywise (FW) loss gradient can be computed in O(K) time and develops optimized forward and backward pass kernels that make FW faster than cross entropy (CE) on both CPU and GPU."
 }

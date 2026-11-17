@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2405.11142",
     "context": "Title: Pricing Expertise with Information Spillovers\nAbstract: arXiv:2405.11142v2 Announce Type: replace  Abstract: Why do experts charge value-based fees for some services and flat fees for others? For example, an analyst charges the same fee for a stock report whether the client invests a thousand dollars or a million, while an investment bank charges a higher fee for a fairness opinion on a large merger than on a small one. We consider the problem of an expert who sells expertise to a client whose private type determines his project and how much he has at stake. Because project states are correlated, cheaper expertise about a related project can substitute for expertise about his own. We develop a Markov model of information spillovers and provide an explicit characterization of the optimal menu. With perfect spillovers, as with a stock report, a common flat fee for full information is optimal. With sufficiently weak spillovers, as with a fairness opinion, each client receives full information at a value-based fee equal to his willingness to pa",
     "path": "papers/24/05/2405.11142.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1251,
+    "translated_title": "利用信息溢出为专业知识定价",
+    "translated_abstract": "为什么专家对某些服务收取基于价值的费用，而对另一些服务收取固定费用？例如，分析师对股票报告收取相同的费用，无论客户投资一千美元还是一百万美元；而投资银行对大型并购出具公允意见所收取的费用高于小型并购。我们研究了一个专家向客户出售专业知识的问题，客户的私人类型决定了其所处的项目以及他在其中押注的利害大小。由于项目状态之间存在相关性，关于相关项目的更廉价的专业知识可以替代关于其自身项目的专业知识。我们构建了一个信息溢出的马尔可夫模型，并对最优定价菜单给出了显式刻画。在完全溢出的情形下（如股票报告），对完全信息收取统一的固定费用是最优的；而在溢出足够弱的情形下（如公允意见），每个客户都以等于其支付意愿的基于价值的费用获得完全信息。",
+    "tldr": "该论文构建了信息溢出的马尔可夫模型，解释了专家为何对某些服务（如股票报告）收取统一固定费用、而对另一些服务（如公允意见）收取基于价值的费用，并显式刻画了最优定价菜单。",
+    "en_tdlr": "The paper develops a Markov model of information spillovers to explain why experts charge flat fees for some services (e.g., stock reports) but value-based fees for others (e.g., fairness opinions), explicitly characterizing the optimal pricing menu."
 }

@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.20297",
     "context": "Title: Reliable Mining of Heterogeneous AI Coding-Agent Data: Context-Aware Prediction and Resource-Aware Ranking\nAbstract: arXiv:2611.20297v1 Announce Type: new  Abstract: Operational records from AI coding agents differ across agents, repositories, tasks, and workflows. We study 71,677 pull requests (PRs) from six agents and show that pooling these records can reverse descriptive and predictive conclusions. PRs carrying a co-authorship trailer have a 55.6% merge rate, compared with 77.5% without the trailer, but removing the dominant agent flips this -21.8 percentage-point gap to +23.7 points. We treat this Simpson-type reversal as a data-veracity problem and represent source, environment, and workflow context in a feature cascade. Gradient-boosting merge-prediction AUC increases from 0.774 to 0.832; the advantage persists under temporal evaluation (0.801) and unseen repositories (0.807). The co-authorship coefficient changes from -1.09 to +1.44 after conditioning, whereas repository-clustered AIPW intervals show no stable adjusted trailer association. A strict PR-creation-time model reaches 0.741 AUC in ",
     "path": "papers/26/11/2611.20297.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1462,
+    "translated_title": "异构AI编程代理数据的可靠挖掘：上下文感知预测与资源感知排序",
+    "translated_abstract": "AI编程代理的运行记录在代理、代码仓库、任务和工作流之间存在差异。我们研究了来自六个代理的71,677个拉取请求（PR），结果表明将这些记录简单汇集可能会颠覆描述性和预测性的结论。带有共同作者标记的PR合并率为55.6%，而没有该标记的PR合并率为77.5%，但剔除占主导地位的代理后，这一-21.8个百分点的差距反转为+23.7个百分点。我们将这种辛普森悖论式的反转视为数据真实性问题，并在特征级联中表示来源、环境和工作流上下文。梯度提升合并预测的AUC从0.774提升至0.832；该优势在时间评估（0.801）和未见过的仓库（0.807）下依然保持。条件化后共同作者系数从-1.09变为+1.44，而仓库聚类的AIPW区间显示调整后不存在稳定的标记关联。一个严格的PR创建时间模型达到0.741的AUC……",
+    "tldr": "该论文发现简单汇集异构的AI编程代理运行数据会引发辛普森悖论式的结论反转，提出用上下文感知的特征级联方法将来源、环境与工作流上下文纳入建模，从而解决数据真实性问题并将PR合并预测AUC从0.774提升至0.832。",
+    "en_tdlr": "This paper shows that naively pooling heterogeneous AI coding-agent records triggers Simpson-type reversals in conclusions, and proposes a context-aware feature cascade incorporating source, environment, and workflow context to address data veracity, improving PR merge prediction AUC from 0.774 to 0.832."
 }

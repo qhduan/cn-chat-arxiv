@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.19021",
     "context": "Title: Aggregating Rankings of Coalitions to Rank Individuals\nAbstract: arXiv:2611.19021v1 Announce Type: new  Abstract: We develop an ordinal framework for aggregating a profile of rankings of coalitional performances to determine the ranking of individuals. From university ratings to the assessment of team-sports players, we often evaluate individuals based on their coalitional performances. Although such evaluation has been addressed by cooperative game theory, it is only recently that its ordinal counterpart, social ranking theory (Moretti, 2015), has emerged. As most of the literature considers a single coalitional ranking (which corresponds to a real-valued characteristic function), we extend the model to allow a profile of coalitional rankings (which corresponds to a multidimensional characteristic function). We tackle the aggregation problem by introducing three families of inter-profile axioms, each representing how the rankings should interact or contribute to the output. After revealing fundamental impossibilities concerning the reconciliation o",
     "path": "papers/26/11/2611.19021.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1490,
+    "translated_title": "聚合联盟排名以对个体进行排序",
+    "translated_abstract": "我们开发了一个序数框架，用于聚合联盟表现排名的组合以确定个体的排名。从大学评级到团体运动运动员的评估，我们经常基于个体的联盟表现来评价个体。虽然此类评估已由合作博弈论处理，但其序数对应物——社会排名理论（Moretti, 2015）——直到最近才出现。由于大多数文献仅考虑单一的联盟排名（对应于实值特征函数），我们将模型扩展为允许联盟排名的组合（对应于多维特征函数）。我们通过引入三族跨组合公理来处理聚合问题，每一族公理代表这些排名应如何相互作用或对输出结果做出贡献。在揭示了关于调和（这些公理）的根本不可能性之后……（摘要原文在此处被截断）",
+    "tldr": "该论文提出了一个将多个联盟排名组合聚合为个体排名的序数框架，把社会排名理论从单一联盟排名扩展到多维特征函数的情形，并通过三族跨组合公理刻画聚合规则，同时揭示了相关的根本不可能性结果。",
+    "en_tdlr": "This paper develops an ordinal framework for aggregating a profile of coalition rankings into a ranking of individuals, extending social ranking theory to multidimensional characteristic functions through three families of inter-profile axioms while revealing fundamental impossibility results."
 }

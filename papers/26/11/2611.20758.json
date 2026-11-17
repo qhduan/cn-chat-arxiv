@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.20758",
     "context": "Title: UniGraph: A Unified Graph-based Index for Dynamic Hybrid Dense-Sparse Vector Retrieval\nAbstract: arXiv:2611.20758v1 Announce Type: new  Abstract: Hybrid dense-sparse vector retrieval combines semantic signals from dense representations with lexical signals from sparse representations, typically ranking items by a query-dependent weighted sum of dense and sparse vector distances. Existing systems commonly search separate dense and sparse vector indexes and rerank the union of their candidates, incurring two retrieval passes and potentially discarding items that rank highly only after the semantic and lexical signals are combined. Constructing a graph-based index directly under a hybrid distance can mitigate this premature candidate loss. However, because varying the hybrid weight alters the underlying neighborhood relationships, a single static graph built at a fixed weight cannot accommodate dynamic query-specific weights. Therefore, we propose a Unified Hybrid Graph (UniGraph), which merges neighbor sets computed at multiple hybrid weights into a single bounded-degree graph index",
     "path": "papers/26/11/2611.20758.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1128,
+    "translated_title": "UniGraph：一种用于动态混合稠密-稀疏向量检索的统一图索引",
+    "translated_abstract": "混合稠密-稀疏向量检索将稠密表示中的语义信号与稀疏表示中的词法信号相结合，通常通过依赖于查询的稠密与稀疏向量距离加权求和来对项目进行排序。现有系统通常分别搜索独立的稠密和稀疏向量索引，然后对其候选结果的并集进行重排序，这不仅需要进行两次检索过程，还可能丢弃那些只有在语义和词法信号结合后才排名靠前的项目。直接在混合距离下构建基于图的索引可以缓解这种候选项目过早丢失的问题。然而，由于改变混合权重会改变底层的邻域关系，以固定权重构建的单一静态图无法适应动态的查询特定权重。因此，我们提出了统一混合图，它将在多个混合权重下计算得到的邻居集合合并为单一的有界度图索引。",
+    "tldr": "提出UniGraph统一混合图索引，将多个混合权重下计算得到的邻居集合合并为单一有界度图索引，以支持动态的查询特定权重混合稠密-稀疏向量检索，避免候选项目过早丢失并减少检索次数。",
+    "en_tdlr": "UniGraph is proposed as a unified hybrid graph index that merges neighbor sets computed at multiple hybrid weights into a single bounded-degree graph, enabling dynamic query-specific hybrid dense-sparse vector retrieval while avoiding premature candidate loss and reducing retrieval passes."
 }

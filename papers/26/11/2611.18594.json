@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.18594",
     "context": "Title: Whose Side Are You On? Measuring Stance at Scale for Reddit Discourse Analysis During the Israel-Gaza War\nAbstract: arXiv:2611.18594v1 Announce Type: new  Abstract: Large-scale discourse analysis often requires stance labels, yet for many high-salience political events such labels are unavailable at the comment level. We introduce and validate a comment-level stance measurement instrument that assigns Pro-Israel, Pro-Palestinian, or Undefined stance using Reddit comment text. The instrument is calibrated from a small, manually annotated gold-standard dataset and scaled through large language model-assisted labeling, achieving weighted-$F_{1}=0.88$ against held-out human annotations. To enable corpus-scale measurement, we operationalize the instrument as a lightweight classifier based on DistilBERT embeddings and an RBF SVM, which achieves weighted-$F_{1}=0.7935$ on the original gold-standard set. Applying this instrument, we measure the stance of approximately 2.7 million Reddit comments posted between 2023 and 2025 during the Israel-Gaza war. We demonstrate what this measurement enables by analyzin",
     "path": "papers/26/11/2611.18594.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1422,
+    "translated_title": "你站在哪一边？大规模立场测量用于以色列-加沙战争期间的Reddit话语分析",
+    "translated_abstract": "大规模话语分析通常需要立场标签，然而对于许多高关注度的政治事件，此类标签在评论层面往往不可得。我们提出并验证了一种评论级立场测量工具，基于Reddit评论文本将立场划分为“支持以色列”、“支持巴勒斯坦”或“未定义”。该工具通过一个小型人工标注的黄金标准数据集进行校准，并借助大语言模型辅助标注实现规模化，在留出的人工标注集上达到加权F1=0.88。为实现语料库规模的测量，我们将该工具实现为基于DistilBERT嵌入和RBF支持向量机（SVM）的轻量级分类器，在原始黄金标准集上达到加权F1=0.7935。应用该工具，我们测量了2023年至2025年以色列-加沙战争期间发布的约270万条Reddit评论的立场，并通过分析展示了这一测量所能够支持的研究（摘要原文在此处截断）。",
+    "tldr": "该论文提出并验证了一种评论级立场测量工具，通过人工标注校准并借助大语言模型辅助标注实现规模化，进一步转化为轻量级的DistilBERT+RBF SVM分类器，从而实现了对以色列-加沙战争期间约270万条Reddit评论（支持以色列/支持巴勒斯坦/未定义立场）的大规模测量。",
+    "en_tdlr": "This paper introduces and validates a comment-level stance measurement instrument (Pro-Israel, Pro-Palestinian, or Undefined), calibrated on a manually annotated gold-standard set and scaled via LLM-assisted labeling, operationalized as a lightweight DistilBERT + RBF SVM classifier to measure stance across approximately 2.7 million Reddit comments during the Israel-Gaza war."
 }

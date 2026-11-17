@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.20589",
     "context": "Title: Beyond Marginal Risk: ESG and Multidimensional Fragility in Equity Markets\nAbstract: arXiv:2611.20589v1 Announce Type: new  Abstract: Do ESG characteristics provide financial resilience beyond conventional risk, and is that inference stable to the financial state and ESG score being measured? We study a point-in-time panel of nonfinancial S&P 500 constituents from January 2019 through November 2025. Once ex ante return, volatility, and liquidity exposures are modeled explicitly, the broad downside-resilience pattern attenuates and none of the three primary marginal ESG $\\times$ Down tests survives Holm adjustment under either conventional or wild-cluster-bootstrap inference. A post-primary exact decomposition then shows that the negative Return+RVOL coefficient is almost entirely allocated to observations that also breach the CHL trading-cost tail, while the mutually exclusive Return+RVOL-only component is essentially zero. Finally, a paired standardized comparison on an identical sample shows that MSCI's downstream Industry Adjusted Score and upstream Weighted Average",
     "path": "papers/26/11/2611.20589.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1220,
+    "translated_title": "超越边际风险：ESG与股票市场中的多维脆弱性",
+    "translated_abstract": "ESG特征是否在传统风险之外提供了财务韧性？这一推断对于财务状态的度量方式和ESG评分的测量方式是否稳健？我们研究了2019年1月至2025年11月期间标普500非金融成分股的时点面板数据。一旦对事前收益、波动率和流动性敞口进行显性建模，广泛的下行韧性模式便显著减弱，且在常规推断或野聚类自助法推断下，三个主要的边际ESG×Down检验均无法通过Holm多重检验校正。随后进行的事后精确分解表明，负的Return+RVOL系数几乎完全归于那些同时触及CHL交易成本尾部的观测值，而与之互斥的仅Return+RVOL分量则基本为零。最后，在相同样本上进行的配对标准化比较显示，MSCI的下游行业调整评分与上游加权平均……",
+    "tldr": "该研究发现，在对事前收益、波动率和流动性等传统风险敞口进行显性控制后，ESG的下行韧性效应基本消失，其表观韧性几乎完全由交易成本尾部风险等混杂因素驱动，且结论对ESG评分的度量方式高度敏感。",
+    "en_tdlr": "The study finds that ESG's apparent downside resilience in equity markets largely dissipates once ex ante return, volatility, and liquidity exposures are explicitly modeled, with the residual effect driven almost entirely by trading-cost tail breaches and sensitive to how ESG scores are measured."
 }

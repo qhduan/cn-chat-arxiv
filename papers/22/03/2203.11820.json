@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2203.11820",
     "context": "Title: Dealing with Logs and Zeros in Regression Models\nAbstract: arXiv:2203.11820v4 Announce Type: replace  Abstract: Log regression is widely used to express effects in percentage terms, but zeros, heterogeneity and retransformation pose distinct difficulties. We unify the interpretation, identification and estimation of proportional effects through weighted individual percentage changes. We connect these parameters to pseudo-maximum likelihood estimation, characterize finite-sample differences between consistent estimators, and establish relationships with log regression. We develop a new shifted-log transformation that yields unit-invariant proportional-effect parameters and use it to construct iterated ordinary least squares (IOLS), an algorithm that estimates power-mean models through repeated OLS regressions. We prove global numerical convergence, consistency and asymptotic normality, and extend the approach to endogenous regressors. Furthermore, we develop fixed-effect cancellation and bias-correction methods that address incidental-parameter",
     "path": "papers/22/03/2203.11820.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1219,
+    "translated_title": "回归模型中对数与零值的处理",
+    "translated_abstract": "对数回归被广泛用于以百分比形式表达效应，但零值、异质性和重新变换带来了特殊的困难。我们通过加权个体百分比变化统一了比例效应的解释、识别与估计。我们将这些参数与伪极大似然估计相联系，刻画了一致估计量之间的有限样本差异，并建立了与对数回归之间的关系。我们开发了一种新的平移对数变换，该变换可产生单位不变的比例效应参数，并利用它构建了迭代普通最小二乘法（IOLS），这是一种通过重复OLS回归来估计幂平均模型的算法。我们证明了该方法的全局数值收敛性、一致性和渐近正态性，并将该方法扩展至内生解释变量的情形。此外，我们还开发了固定效应消除和偏差修正方法，以解决伴随参数问题。",
+    "tldr": "该论文提出了一种新的平移对数变换和迭代普通最小二乘法（IOLS）算法，统一了对数回归中比例效应的解释、识别与估计，有效解决了回归模型中零值、异质性和重新变换等难题。",
+    "en_tdlr": "This paper proposes a novel shifted-log transformation and an iterated ordinary least squares (IOLS) algorithm to unify the interpretation, identification, and estimation of proportional effects in log regression, addressing zeros, heterogeneity, and retransformation issues."
 }

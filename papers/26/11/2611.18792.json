@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.18792",
     "context": "Title: Hybrid Compression for Memory-Efficient Matrix-Vector Multiplication\nAbstract: arXiv:2611.18792v1 Announce Type: new  Abstract: Iterative machine-learning algorithms repeatedly access large real-valued matrices through matrix-vector products, and their performance is limited by memory bandwidth rather than arithmetic throughput. Lossless compression schemes that support computation directly over the compressed data reduce both the data moved and the memory footprint of these workloads. The mm-RePair framework [11] follows this approach by applying the RePair grammar compressor to the Compressed Sparse Row/Value (CSRV) representation of a matrix and performing matrix-vector multiplications directly on the compressed data. Its effectiveness, however, degrades on matrices that are dense or contain many distinct values. In this paper we present a hybrid strategy for the mm-RePair framework that combines grammar and entropy compression. The CSRV sequence is partitioned into a grammar-compressible component, formed by the entries that mm-RePair can compress effectively",
     "path": "papers/26/11/2611.18792.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1083,
+    "translated_title": "面向内存高效矩阵-向量乘法的混合压缩方法",
+    "translated_abstract": "迭代式机器学习算法需要通过矩阵-向量乘法反复访问大型实值矩阵，其性能瓶颈在于内存带宽而非算术吞吐量。支持直接在压缩数据上进行计算的无损压缩方案能够同时减少这类工作负载的数据传输量与内存占用。mm-RePair 框架正是遵循这一思路，将 RePair 语法压缩器应用于矩阵的压缩稀疏行/值（CSRV）表示，并直接在压缩数据上执行矩阵-向量乘法。然而，该方法在稠密矩阵或包含大量不同取值的矩阵上效果会显著下降。本文为 mm-RePair 框架提出了一种结合语法压缩与熵压缩的混合策略。CSRV 序列被划分为一个可语法压缩的部分（由 mm-RePair 能够有效压缩的元素构成）……",
+    "tldr": "本文提出了一种将语法压缩与熵压缩相结合的混合压缩策略，弥补了 mm-RePair 框架在稠密矩阵或取值多样矩阵上压缩效果不佳的缺陷，从而实现更省内存的矩阵-向量乘法计算。",
+    "en_tdlr": "This paper proposes a hybrid compression strategy that combines grammar and entropy compression to address mm-RePair's degraded effectiveness on dense matrices or matrices with many distinct values, enabling more memory-efficient matrix-vector multiplication."
 }

@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.19209",
     "context": "Title: Unit-Level Conformal Inference for Panel Counterfactuals\nAbstract: arXiv:2611.19209v1 Announce Type: new  Abstract: We develop conformal inference for panel counterfactual estimators using the exchangeability of prediction errors across units rather than over time. Existing conformal methods for panels with few treated units rely on temporal properties of treated-unit residuals, which are vulnerable to strong temporal heterogeneity such as nonstationarity. We instead hold out each control unit, hide its relevant outcomes, and predict them using the same rule applied to the treated unit. Target-date estimators, including difference-in-differences and synthetic control, use controls' pre-treatment and target-date outcomes to construct the counterfactual, allowing both full conformal confidence sets and Jackknife+ intervals. Full-path estimators, including factor-model imputation and matrix completion, also use controls' outcomes at other post-treatment dates; for these, we use the Jackknife+. Both procedures yield finite-sample, period-wise confidence s",
     "path": "papers/26/11/2611.19209.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1221,
+    "translated_title": "面板反事实的单元级保形推断",
+    "translated_abstract": "我们为面板反事实估计量开发了保形推断方法，其关键在于利用预测误差在单元之间（而非时间上）的可交换性。现有的针对处理单元较少的面板数据的保形方法依赖于处理单元残差的时间性质，这使其容易受到强时间异质性（如非平稳性）的影响。我们转而采用另一种思路：留出每个控制单元，隐藏其相关结果，并使用与处理单元相同的规则来预测这些结果。目标日期估计量（包括双重差分法和合成控制法）使用控制单元的处理前结果和目标日期结果来构建反事实，因此可以同时构造完全保形置信集和Jackknife+区间。全路径估计量（包括因子模型填补和矩阵补全）还会使用控制单元在其他处理后日期的结果；针对这类方法，我们采用Jackknife+方法。这两种程序都能给出有限样本、逐时期的置信区间。",
+    "tldr": "本文提出了一种基于单元间预测误差可交换性的面板反事实保形推断新方法，通过留出控制单元并用与处理单元相同的规则预测其结果，克服了传统方法依赖时间平稳性的局限，实现了对强时间异质性稳健的有限样本逐期置信区间。",
+    "en_tdlr": "This paper develops conformal inference for panel counterfactual estimators based on the exchangeability of prediction errors across units rather than over time, holding out control units to construct finite-sample, period-wise confidence intervals that are robust to strong temporal heterogeneity such as nonstationarity."
 }

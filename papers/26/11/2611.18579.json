@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.18579",
     "context": "Title: Uncertainty in Cyber-Physical Systems: A Literature Survey\nAbstract: arXiv:2611.18579v1 Announce Type: new  Abstract: Cyber-Physical Systems (CPSs) operate in dynamic, dependable environments where sensing, communication, decision-making, control, and assurance are affected by uncertainty. This paper characterizes CPS uncertainty through a literature survey comprising 186 primary studies. We (i) characterize uncertainty types, (ii) identify uncertainty sources, (iii) relate uncertainty to life-cycle phases in which they occur, and (iv) overview the possible uncertain mitigation strategies. The findings show that uncertainty is most often conceptualized as an assurance issue. Safety and specification uncertainty is the most prevalent category, followed by environmental and model/epistemic uncertainty. Domain mapping reveals broad cross-domain engagement, while safety-critical sectors such as autonomous systems, energy systems, and robotics CPSs display domain-specific uncertainty patterns. The life-cycle analysis indicates that uncertainty is not limited",
     "path": "papers/26/11/2611.18579.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1169,
+    "translated_title": "信息物理系统中的不确定性：文献综述",
+    "translated_abstract": "信息物理系统（CPS）运行于动态且需保障可靠性的环境中，其感知、通信、决策、控制和保障等环节均受到不确定性的影响。本文通过一项涵盖186篇原始研究的文献综述来刻画信息物理系统中的不确定性。我们（i）刻画不确定性的类型，（ii）识别不确定性的来源，（iii）将不确定性与它们出现的生命周期阶段相关联，（iv）概述了可能的不确定性缓解策略。研究结果表明，不确定性最常被概念化为一个保障问题，其中安全与规约不确定性是最普遍的类别，其次是环境不确定性和模型/认知不确定性。领域映射显示跨领域参与广泛，而自动驾驶系统、能源系统和机器人等信息物理系统等安全关键领域则呈现出特定领域的不确定性模式。生命周期分析表明，不确定性并不仅限于（原文在此处截断）……",
+    "tldr": "该论文通过对186篇原始研究的文献综述，系统刻画了信息物理系统中不确定性的类型、来源、生命周期阶段及缓解策略，发现不确定性最常被视作保障问题，其中安全与规约不确定性最为普遍。",
+    "en_tdlr": "This paper systematically characterizes uncertainty in Cyber-Physical Systems through a literature survey of 186 primary studies, classifying uncertainty types, sources, life-cycle phases, and mitigation strategies, and finding that uncertainty is most often conceptualized as an assurance issue, with safety and specification uncertainty being the most prevalent category."
 }

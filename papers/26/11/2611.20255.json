@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.20255",
     "context": "Title: Deep Sequence Model for Genome Wide Discovery of Coding and Regulatory Element Signatures\nAbstract: arXiv:2611.20255v1 Announce Type: new  Abstract: Interpreting deep neural networks for genomic sequence classification remains challenging despite strong predictive performance. We develop a lightweight CNN with post-training gradient-based analysis to identify which sequence positions drive coding versus intergenomic classification. Applied to the standardized demo_coding_vs_intergenomic_seqs dataset, our model achieves 91.87% validation accuracy while revealing interpretable patterns: nine hot spots with consistently high importance, clear class-specific separation at positions 20-100 (coding) and 150-190 (intergenomic), and a strong mean-variance correlation (r = 0.530) indicating robust discriminative features. Gradient-based importance analysis shows that the model implicitly learns biologically meaningful sequence distinctions without explicit annotations. This work demonstrates that neural network interpretability and accuracy can coexist, providing a framework for understanding",
     "path": "papers/26/11/2611.20255.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1207,
+    "translated_title": "用于全基因组编码与调控元件特征发现的深度序列模型",
+    "translated_abstract": "尽管深度神经网络在基因组序列分类中表现出强大的预测性能，但对其内部机制的解释仍然具有挑战性。我们开发了一个轻量级卷积神经网络（CNN），并结合训练后基于梯度的分析，以识别驱动编码序列与基因组间序列分类的关键序列位置。将该模型应用于标准化的 demo_coding_vs_intergenomic_seqs 数据集，我们的模型达到了 91.87% 的验证准确率，同时揭示了可解释的模式：九个持续具有高重要性的热点区域，在位置 20-100（编码序列）和 150-190（基因组间序列）处存在明显的类别特异性分离，以及较强的均值-方差相关性（r = 0.530），表明存在稳健的判别特征。基于梯度的重要性分析表明，该模型在无需显式标注的情况下隐式学习到了具有生物学意义的序列差异。这项工作证明神经网络的可解释性与准确性可以共存，为理解深度学习模型在基因组序列分析中的决策过程提供了一个框架。",
+    "tldr": "该论文开发了一种轻量级CNN结合训练后梯度分析方法，在编码与基因组间序列分类任务中达到91.87%的准确率，同时揭示出九个高重要性热点等可解释的生物学特征模式，证明了神经网络的可解释性与预测准确性可以兼得。",
+    "en_tdlr": "A lightweight CNN with post-training gradient-based interpretability analysis achieves 91.87% accuracy on coding vs. intergenomic sequence classification while revealing biologically meaningful patterns, demonstrating that neural network interpretability and accuracy can coexist."
 }

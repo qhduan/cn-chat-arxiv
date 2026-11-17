@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.19417",
     "context": "Title: Are Revealed Preferences All You Need for AI Alignment?\nAbstract: arXiv:2611.19417v1 Announce Type: new  Abstract: AI agents learn what principals want from what principals choose. We offer a criterion for when a principal's decisions, at every belief an AI might hold, are all the AI needs. For acting, they are. Cautious actions, such as deferring to a person, typically divide the principal's actions into blocks, and for choosing costless evidence, decisions are enough exactly when the same evidence is best in every block. Otherwise, the AI acts as its principal would yet can gather the wrong evidence, and greater capability can turn that error into incorrect actions. Choices between two mistakes reveal what decisions miss.",
     "path": "papers/26/11/2611.19417.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1249,
+    "translated_title": "显示性偏好是AI对齐所需的全部吗？",
+    "translated_abstract": "AI智能体通过委托人的选择来学习委托人的所想。我们提出了一个判据，用于判断在AI可能持有的每一种信念下，委托人的决策是否就是AI所需的全部。就行动而言，确实如此。谨慎的行动（例如向人请示）通常会将委托人的行动划分为若干区块；而对于选择无成本的证据，当且仅当同一证据在每一个区块中都是最优时，决策才是充分的。否则，AI会像其委托人那样行动，却可能收集到错误的证据，而更强的能力会把这种错误转化为错误的行动。在两个错误之间做出的选择揭示了决策所遗漏的内容。",
+    "tldr": "本文提出一个判据表明：委托人的显示性偏好（决策）足以指导AI的行动，但对于证据收集可能并不充分——AI可能收集错误的证据，且能力越强越容易将此类错误放大为错误的行动。",
+    "en_tdlr": "This paper proposes a criterion showing that a principal's revealed preferences suffice for guiding AI actions, but not necessarily for evidence gathering—AI may collect wrong evidence, and greater capability can amplify such errors into incorrect actions."
 }

@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.16366",
     "context": "Title: CURATOR: Scalable Fine-grained Evidence Selection for Retrieval-Augmented Generation using Decision Models\nAbstract: arXiv:2611.16366v2 Announce Type: replace  Abstract: Retrieval-augmented generation (RAG) provides entire retrieved passages to the LLM, even though only a handful of spans within them contain the evidence pertaining to the question. While precise selection of these spans can improve context utilization, identifying them in isolation is challenging. A span may appear irrelevant by itself, and deciding whether to retain it may require examining other retrieved information. One can evaluate each span's candidacy with the full retrieved context, but this is computationally inefficient as the same text must be processed repeatedly. Pretrained decision model can be used to efficiently evaluate multiple spans simultaneously, allowing each decision to consider the surrounding spans as well. However, our experiments show that their ability to identify relevant evidence deteriorates as the number of simultaneous decisions increases.   To address this, we introduce CURATOR, a fine-tuned decision",
     "path": "papers/26/11/2611.16366.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1233,
+    "translated_title": "CURATOR：基于决策模型实现面向检索增强生成的可扩展细粒度证据选择",
+    "translated_abstract": "检索增强生成（RAG）将完整的检索段落提供给大语言模型（LLM），尽管其中只有少数文本片段包含与问题相关的证据。虽然精确选择这些片段可以提升上下文利用率，但孤立地识别它们非常困难：一个片段本身可能看似无关，而是否保留它的判断可能需要参考其他检索到的信息。虽然在完整的检索上下文中评估每个片段的候选资格是可行的，但这种方式在计算上效率低下，因为相同的文本需要被反复处理。预训练的决策模型可以用来高效地同时评估多个片段，使每个决策都能考虑到周围的片段。然而，我们的实验表明，随着同时决策数量的增加，这类模型识别相关证据的能力会逐渐下降。为了解决这一问题，我们提出了CURATOR，一个经过微调的决策模型。",
+    "tldr": "提出了CURATOR，一种经过微调的决策模型，能够在同时评估多个候选片段的情况下实现可扩展的细粒度证据选择，从而提升检索增强生成中的上下文利用效率。",
+    "en_tdlr": "We propose CURATOR, a fine-tuned decision model that enables scalable fine-grained evidence selection for retrieval-augmented generation by efficiently evaluating multiple candidate spans simultaneously."
 }

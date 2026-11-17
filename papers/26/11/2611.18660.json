@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.18660",
     "context": "Title: The effect of policy cancellation on the risk of an insurance portfolio\nAbstract: arXiv:2611.18660v1 Announce Type: new  Abstract: For an insurance portfolio modelled by a large number of i.i.d. losses, the average loss converges to its expected value by the law of large numbers, reflecting the diversification effect of pooling risks. Policy cancellations reduce the portfolio size and thereby weaken this effect. We quantify the resulting increase in risk by applying risk measures to the average loss before and after the cancellation of policies. For a portfolio of size $n$, we show that the impact of cancelling a single contract is of order $n^{-3/2}$, while the cancellation of a fixed proportion of contracts has an effect of order $n^{-1/2}$. We further extend the proportional cancellation regime to heterogeneous portfolios with different cancellation rates and risk characteristics across segments. These asymptotic results provide a quantitative basis for assessing surrender fees and cancellation costs from the insurer's perspective. We complement the theoretical a",
     "path": "papers/26/11/2611.18660.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1323,
+    "translated_title": "保单退保对保险组合风险的影响",
+    "translated_abstract": "对于由大量独立同分布损失建模的保险组合，平均损失依据大数定律收敛于其期望值，这体现了汇集风险所带来的分散化效应。保单退保会减小组合规模，从而削弱这一效应。我们通过对退保前后的平均损失应用风险度量，量化了由此导致的风险增加。对于规模为 $n$ 的组合，我们证明退掉单个合同的影响为 $n^{-3/2}$ 阶，而退掉固定比例的合同则产生 $n^{-1/2}$ 阶的效应。我们进一步将按比例退保的情形扩展到各部分具有不同退保率和风险特征的异质组合。这些渐近结果为从保险公司角度评估退保费用和退保成本提供了量化基础。我们对理论结果进行了补充（原文摘要在此处截断）。",
+    "tldr": "本文利用风险度量量化了保单退保对保险组合风险的渐近影响，证明退掉单个合同的影响为 $n^{-3/2}$ 阶、退掉固定比例合同的影响为 $n^{-1/2}$ 阶，并将结果扩展至异质组合，为保险公司评估退保费用和退保成本提供了量化依据。",
+    "en_tdlr": "This paper quantifies the asymptotic impact of policy cancellations on insurance portfolio risk using risk measures, showing that cancelling a single contract has an order $n^{-3/2}$ impact while cancelling a fixed proportion of contracts has an order $n^{-1/2}$ effect, and extends these results to heterogeneous portfolios, providing a quantitative basis for assessing surrender fees and cancellation costs."
 }

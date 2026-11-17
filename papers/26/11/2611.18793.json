@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.18793",
     "context": "Title: Multimodal Fusion: A Review of Breast Cancer Advanced and Traditional Modalities\nAbstract: arXiv:2611.18793v1 Announce Type: new  Abstract: Purpose: Multimodal medical imaging fusion (MMIF) is an increasingly important approach to breast cancer detection (BCD), as different imaging modalities rely on different physical principles and provide complementary information. No single modality can capture all the structural, functional, and biological information needed for accurate diagnosis and characterization. Methods: This review examines more than 15 imaging modalities used in breast cancer detection, including conventional techniques such as mammography, ultrasound, and magnetic resonance imaging (MRI), as well as emerging approaches such as thermal imaging, photoacoustic imaging, microwave imaging, and multimodal microscopy. Results: Mammography, ultrasound, and MRI remain among the most widely used modalities, providing complementary structural and functional information. Recent AI advances have enabled fusion at the data, feature, and decision levels, with applications in",
     "path": "papers/26/11/2611.18793.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1033,
+    "translated_title": "多模态融合：乳腺癌先进与传统成像模态综述",
+    "translated_abstract": "目的：多模态医学影像融合（MMIF）正成为乳腺癌检测（BCD）中日益重要的方法，因为不同的成像模态基于不同的物理原理，能够提供互补信息。没有任何单一模态可以捕获准确诊断与病变表征所需的全部结构、功能和生物学信息。方法：本综述考察了乳腺癌检测中使用的超过15种成像模态，包括乳腺X线摄影（钼靶）、超声和磁共振成像（MRI）等传统技术，以及热成像、光声成像、微波成像和多模态显微成像等新兴方法。结果：乳腺X线摄影、超声和MRI仍然是最广泛使用的模态，可提供互补的结构与功能信息。近期的AI进展使得在数据层、特征层和决策层的融合成为可能，其应用包括（原文摘要至此中断）。",
+    "tldr": "本综述系统梳理了乳腺癌检测中的15种以上传统与新兴成像模态，并总结了AI在数据、特征和决策三个层面实现多模态影像融合的最新进展。",
+    "en_tdlr": "This review surveys over 15 traditional and emerging imaging modalities for breast cancer detection—from mammography, ultrasound, and MRI to thermal, photoacoustic, and microwave imaging—and highlights recent AI-driven multimodal fusion at the data, feature, and decision levels."
 }

@@ -4,9 +4,8 @@
     "link": "https://arxiv.org/abs/2611.18883",
     "context": "Title: SPLICE: Structured Prompt Local Iterative Combinatorial Evolution\nAbstract: arXiv:2611.18883v1 Announce Type: new  Abstract: Natural language optimization (NLO) improves an agent by having a model critique and rewrite its natural language policy parameters: system prompts, tool instructions, reasoning directives, few-shot demonstrations. These artifacts are multi-section documents in which some sections encode contracts (safety clauses, tool schemas, output formats) that must not drift, while others are legitimate optimization targets. Most iterative NLO methods treat the artifact as a single editable string, producing three recurrent failure modes: unsafe global rewrites, beam collapse onto a single lineage, and unchecked bloat, none addressed by formal guarantees. We introduce SPLICE, a unified NLO framework that poses optimization as constrained combinatorial search over an edit graph of block-structured, selectively-mutable states. We map each failure mode to a matched guarantee: (i) per-block mutability preserves contract text verbatim, with a price-of-fr",
     "path": "papers/26/11/2611.18883.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1582,
+    "translated_title": "SPLICE：结构化提示局部迭代组合进化",
+    "translated_abstract": "自然语言优化（NLO）通过让模型批判并重写其自然语言策略参数来改进智能体，这些参数包括系统提示、工具指令、推理指令和少样本示例。这些工件是多章节文档，其中一些章节编码了不得漂移的契约（如安全条款、工具模式、输出格式），而另一些章节则是合法的优化目标。大多数迭代式NLO方法将该工件视为单个可编辑字符串，从而产生三种反复出现的失败模式：不安全的全局重写、束坍缩到单一谱系、以及不受控制的膨胀，且这些都没有形式化保证来解决。我们提出SPLICE，一个统一的NLO框架，它将优化表述为在块结构的、选择性可变状态的编辑图上进行的约束组合搜索。我们将每种失败模式映射到相应的保证：(i) 逐块可变性逐字保留契约文本……",
+    "tldr": "SPLICE是一个统一的自然语言优化框架，它将提示优化表述为块结构、选择性可变状态编辑图上的约束组合搜索，通过逐块可变性逐字保护契约文本，解决了不安全全局重写、束坍缩和提示膨胀这三大失败模式。"
 }

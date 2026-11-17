@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.19116",
     "context": "Title: A Hybrid State Space-Attention Architecture for Forecasting the Trajectories of Battery Degradation\nAbstract: arXiv:2611.19116v1 Announce Type: new  Abstract: Early-life battery degradation trajectory forecasting aims to predict a battery cell's full state-of-health (SOH) trajectory from its initial charge-discharge cycles, potentially reducing cell qualification and evaluation time from months to days. Despite recent advances, accurate forecasting remains challenging for emerging battery chemistries, data-scarce domains, and cells exhibiting degradation behaviors beyond those observed during training. Existing state-of-the-art approaches increasingly rely on model scaling, large language model-derived aging-condition embeddings, and extensive fold-specific hyperparameter tuning, raising concerns about computational efficiency, reproducibility, and generalization. This work introduces DecayFormer, a compact hybrid state-space and attention architecture designed for early-life degradation trajectory forecasting. DecayFormer combines cycle-level selective recurrence, using a single scalar state ",
     "path": "papers/26/11/2611.19116.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1185,
+    "translated_title": "一种用于预测电池退化轨迹的混合状态空间-注意力架构",
+    "translated_abstract": "早期电池退化轨迹预测旨在从电池的初始充放电循环中预测其完整的健康状态（SOH）轨迹，有望将电池的合格性鉴定与评估时间从数月缩短至数天。尽管近期已取得诸多进展，但对于新兴电池化学体系、数据稀缺领域，以及表现出超出训练期间所观察到的退化行为的电池而言，精确预测仍然具有挑战性。现有的最先进方法越来越依赖于模型规模扩展、基于大语言模型的老化条件嵌入以及大量针对特定数据划分的超参数调优，这引发了人们对计算效率、可重复性和泛化能力的担忧。这项工作提出了DecayFormer，一种专为早期退化轨迹预测设计的紧凑型混合状态空间与注意力架构。DecayFormer结合了循环级别的选择性递归，使用单个标量状态……",
+    "tldr": "提出DecayFormer——一种紧凑的混合状态空间与注意力架构，仅凭电池初期充放电循环即可预测其完整健康状态退化轨迹，无需依赖大规模模型、大语言模型嵌入或复杂的超参数调优。",
+    "en_tdlr": "This paper introduces DecayFormer, a compact hybrid state-space and attention architecture that forecasts a battery's full degradation trajectory from its early-life cycles without relying on model scaling or extensive hyperparameter tuning."
 }

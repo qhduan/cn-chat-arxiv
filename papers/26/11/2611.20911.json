@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.20911",
     "context": "Title: A Second Order Transport Scheme for Dynamic Portfolio Subspaces under a Varying Risk Metric\nAbstract: arXiv:2611.20911v1 Announce Type: new  Abstract: We analyze the transport of portfolio exposures between moving subspaces under a varying positive definite risk metric. The reference evolution is the induced connection obtained from the ambient connection of minimum norm in fixed asset coordinates. An explicit expansion of risk weighted Procrustes identifies a leading local error that couples metric deformation with covariant motion normal to the subspace. A rank two construction with an exact continuous solution shows that this term can reduce global accuracy to first order even when the metric commutes with its derivative. Geometric mean alignment and a symmetric Procrustes construction cancel the term and yield reversible updates with second order global accuracy. We establish uniform error bounds on nonuniform partitions, characterize the cases in which the Procrustes defect vanishes, and distinguish discretization error from errors in estimated geometry. We also characterize the c",
     "path": "papers/26/11/2611.20911.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1238,
+    "translated_title": "变动风险度量下动态投资组合子空间的二阶输运格式",
+    "translated_abstract": "我们分析了在变化的正定风险度量下，投资组合风险暴露在移动子空间之间的输运问题。参考演化是由固定资产坐标下最小范数的环境联络所诱导的联络。风险加权Procrustes问题的显式展开确定了一个主要局部误差项，该误差项将度量变形与垂直于子空间的协变运动耦合起来。一个具有精确连续解的秩二构造表明，即使度量与其导数可交换，这一项也可能将全局精度降低到一阶。几何均值对齐和对称Procrustes构造消除了这一项，从而产生具有二阶全局精度的可逆更新。我们在非均匀剖分上建立了统一的误差界，刻画了Procrustes缺陷消失的情形，并区分了离散化误差与估计几何中的误差。我们还刻画了……",
+    "tldr": "该论文提出了一种在变化风险度量下动态投资组合子空间的二阶输运格式，通过几何均值对齐与对称Procrustes构造消除耦合度量变形与法向协变运动的局部误差项，实现了具有二阶全局精度的可逆更新，并给出了非均匀剖分上的统一误差界。",
+    "en_tdlr": "This paper proposes a second-order transport scheme for dynamic portfolio subspaces under a varying risk metric, where geometric mean alignment and a symmetric Procrustes construction cancel the leading local error coupling metric deformation with normal covariant motion, yielding reversible updates with second-order global accuracy along with uniform error bounds on nonuniform partitions."
 }

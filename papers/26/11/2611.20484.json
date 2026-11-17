@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.20484",
     "context": "Title: Agent-Guided Configuration Tuning for SMT Solvers\nAbstract: arXiv:2611.20484v1 Announce Type: new  Abstract: SMT solvers expose many configuration choices that determine how well their existing algorithms perform on a workload. We present, to our knowledge, the first workflow that uses general-purpose LLM agents to tune SMT solver configurations. Agents read solver documentation, source code, and persistent experiment records to propose option changes, and a deterministic harness measures each proposal, validates the returned models, and selects changes separately for each competition Division. Over roughly nine weeks, our tuning campaign recorded 4,545 proposals for cvc5 across 13 Divisions and 36 logics.   We evaluate the tuned configurations on the 2026 and 2025 SMT-COMP ModelValidation benchmarks under a 24-second cutoff. On problems not used for training, they validate more problems than official cvc5 in ten of the 13 Divisions in 2026 and in eight in 2025, with geometric-mean gains of 7.8% and 6.8% across Divisions. On the complete offici",
     "path": "papers/26/11/2611.20484.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1470,
+    "translated_title": "基于智能体引导的SMT求解器配置调优",
+    "translated_abstract": "SMT求解器提供了许多配置选项，这些选项决定了其现有算法在给定工作负载上的表现。据我们所知，本文提出了首个使用通用大语言模型（LLM）智能体来调优SMT求解器配置的工作流程。智能体通过阅读求解器文档、源代码和持久化的实验记录来提出配置修改建议，而一个确定性测试框架则对每个提案进行测量、验证其返回的模型，并为每个竞赛组别分别选择配置变更。在大约九周的时间里，我们的调优活动为cvc5在13个组别和36种逻辑上共记录了4,545个提案。我们在24秒超时限制下，基于2026年和2025年SMT-COMP模型验证基准测试评估了调优后的配置。在未用于训练的问题上，调优后的配置在2026年13个组别中的10个以及2025年的8个组别中，验证的问题数量均超过了官方cvc5，跨组别的几何平均性能提升分别为7.8%和6.8%。",
+    "tldr": "本文首次提出使用通用LLM智能体自动调优SMT求解器配置的工作流程，智能体通过阅读文档、源代码和实验记录提出配置修改建议，经过约九周的调优使cvc5在多数竞赛组别的模型验证任务上取得7-8%的几何平均性能提升。",
+    "en_tdlr": "This paper presents the first workflow using general-purpose LLM agents to tune SMT solver configurations, where agents propose option changes by reading documentation, source code, and experiment records, achieving geometric-mean gains of around 7-8% in model validation across most competition divisions on cvc5."
 }

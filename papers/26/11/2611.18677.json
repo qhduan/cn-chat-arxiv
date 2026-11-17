@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.18677",
     "context": "Title: Adapted Wasserstein Distance for Credit Risk: Rating Information and Model-Transfer Hedging\nAbstract: arXiv:2611.18677v1 Announce Type: new  Abstract: Two credit models can quote the same bond prices today and still disagree on how information about the issuer unfolds over time. We quantify this disagreement by means of the adapted Wasserstein distance, an optimal transport distance between laws of processes consistent with the flow of information associated with them. For defaultable bond price processes, the squared distance is the smallest probability by which the two default indicators must disagree. This yields closed-form distances for rating reviews and a dynamic programming principle for multi-period rating migration. For a single review, the distance can be estimated from observed posterior survival probabilities at the parametric rate without losing calibration. For intensity models, we obtain an explicit formula for the adapted distance between bond prices that controls the error of bootstrap hedges along a quoted term structure, determine its sharp range over hazard schedul",
     "path": "papers/26/11/2611.18677.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1249,
+    "translated_title": "面向信用风险的适应Wasserstein距离：评级信息与模型迁移对冲",
+    "translated_abstract": "两个信用模型可以在今天对债券给出相同的报价，却对发行人信息如何随时间展开持有不同看法。我们利用适应Wasserstein距离来量化这种分歧，这是一种与信息流相容的过程规律之间的最优传输距离。对于可违约债券价格过程，该距离的平方是两个违约示性变量必须不一致的最小概率。由此我们得到了评级复评情形下的闭式距离，以及多期评级迁移的动态规划原理。对于单次复评，该距离可以在不损失校准的前提下，以参数速率从观测到的后验生存概率中被估计出来。对于强度模型，我们得到了债券价格之间适应距离的显式公式，该公式控制了沿报价期限结构进行自举对冲的误差，并确定了其在风险率时间表上的尖锐取值范围。",
+    "tldr": "本文提出用适应Wasserstein距离量化信用模型之间的信息流分歧，证明其对可违约债券价格过程等于两模型违约示性变量必须不一致的最小概率，并由此给出评级复评的闭式距离、多期评级迁移的动态规划原理，以及控制自举对冲误差的显式公式。",
+    "en_tdlr": "This paper employs the adapted Wasserstein distance to quantify informational disagreement between credit models, proving that for defaultable bond price processes it equals the minimal probability of default-indicator mismatch, and deriving closed-form distances for rating reviews, a dynamic programming principle for multi-period rating migration, and explicit formulas that control bootstrap hedging errors."
 }

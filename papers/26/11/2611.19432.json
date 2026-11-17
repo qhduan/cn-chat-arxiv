@@ -4,9 +4,8 @@
     "link": "https://arxiv.org/abs/2611.19432",
     "context": "Title: Cluster-Robust Inference in Small Samples Using Bias Corrections\nAbstract: arXiv:2611.19432v1 Announce Type: new  Abstract: This paper derives an exact expression for the bias of the linearized estimator of the variance for cluster-robust inference, which generalizes an earlier result derived by Bell and McCaffrey (2002). Both cases of continuous and binary treatments are discussed. Under the former it is shown that the bias of the linearized variance estimator and its jackknife variant are of order $G^{-1}$ relative to the true variance, where $G$ denotes the total number of clusters. A bias-corrected variance estimator (BCCV) is then proposed and shown to have a relative bias of order $G^{-2}$. In the case of models with binary treatments the orders of the bias of standard estimators and the proposed bias-corrected one are shown to be $\\max (G_{1}^{-1},G_{0}^{-1})$ and $\\max (G_{1}^{-2},G_{0}^{-2})$, where $G_{1}$ and $G_{0}=G-G_{1}$ are the numbers of treated and untreated clusters. Scale and degrees of freedom adjustments to the $t$-statistic computed usi",
     "path": "papers/26/11/2611.19432.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1391,
+    "translated_title": "使用偏差校正的小样本聚类稳健推断",
+    "translated_abstract": "本文推导了聚类稳健推断中方差线性化估计量偏差的精确表达式，该结果推广了Bell和McCaffrey（2002）早先的结论。文章讨论了连续处理与二元处理两种情形。在连续处理情形下，证明了线性化方差估计量及其刀切变体的偏差相对于真实方差为 $G^{-1}$ 阶，其中 $G$ 表示聚类总数；随后提出了一种偏差校正方差估计量（BCCV），并证明其相对偏差降为 $G^{-2}$ 阶。在含二元处理的模型情形下，标准估计量与所提出的偏差校正估计量的偏差阶分别为 $\\max(G_1^{-1}, G_0^{-1})$ 和 $\\max(G_1^{-2}, G_0^{-2})$，其中 $G_1$ 与 $G_0 = G - G_1$ 分别为处理组聚类与未处理组聚类的数量。（摘要原文在关于 $t$ 统计量的尺度与自由度调整处被截断）",
+    "tldr": "本文推导出聚类稳健方差估计量偏差的精确表达式，并提出一种相对偏差仅为 $G^{-2}$ 阶的偏差校正方差估计量（BCCV），显著改进了小样本聚类稳健推断的准确性。"
 }

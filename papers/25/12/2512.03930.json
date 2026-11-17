@@ -4,9 +4,8 @@
     "link": "https://arxiv.org/abs/2512.03930",
     "context": "Title: A choice-based axiomatization of Nash equilibrium\nAbstract: arXiv:2512.03930v2 Announce Type: replace  Abstract: An axiomatization of Nash equilibrium is provided for games of complete information in normal form. The Nash equilibrium correspondence is shown to be the unique solution concept that satisfies four simple and intuitive axioms. Two axioms reflect a mild form of individual rationality: one states that any profile of dominant strategies in a game must be a solution, whereas the other says that any solution to a game should not depend on strictly dominated strategies. The remaining two axioms are adaptations to non-cooperative games of standard choice-theoretic axioms about contraction and expansion consistency.",
     "path": "papers/25/12/2512.03930.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 851,
+    "translated_title": "纳什均衡的基于选择论的公理化",
+    "translated_abstract": "本文为完全信息的标准型博弈提供了纳什均衡的公理化刻画。研究证明，纳什均衡对应是唯一满足四个简单且直观公理的解概念。其中两个公理反映了一种温和形式的个体理性：一个公理规定博弈中任何占优策略组合都必须是解，另一个公理则要求博弈的任何解都不应依赖于严格劣势策略。其余两个公理是将关于收缩一致性与扩张一致性的标准选择论公理适配到非合作博弈中的结果。",
+    "tldr": "本文证明了纳什均衡对应是唯一同时满足占优策略组合必为解、解不依赖严格劣势策略、收缩一致性和扩张一致性这四个公理的解概念。"
 }

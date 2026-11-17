@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.21474",
     "context": "Title: Sharp High-Dimensional Gaussian Approximations over Rectangles without Covariance Restrictions\nAbstract: arXiv:2611.21474v1 Announce Type: new  Abstract: We study how well a sum of $n$ independent random vectors with $p$ coordinates can be approximated by a Gaussian vector with the same mean and covariance. We measure the error over rectangles, so the bounds apply to maxima and simultaneous confidence regions. The coordinates may be arbitrarily dependent, even exactly linearly dependent, and the bounds do not deteriorate as the covariance matrix becomes singular. After standardizing the coordinate variances, bounded or sub-exponential coordinates give the $n^{-1/2}$ sample-size rate up to logarithmic factors, with the size or tail bounds held fixed. The main upper bounds retain the Gaussian expected maximum, improving the rates when the coordinates are strongly dependent. Fourth-moment refinements give further improvements when large observations contribute little to individual coordinate variances. If we instead impose a fixed moment bound of order $q>4$ on the largest absolute coordinat",
     "path": "papers/26/11/2611.21474.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1343,
+    "translated_title": "无协方差约束下矩形集合上的精确高维高斯近似",
+    "translated_abstract": "我们研究具有 $p$ 个坐标的 $n$ 个独立随机向量之和能在多大程度上被一个具有相同均值和协方差的高斯向量所近似。我们在矩形集合上度量误差，因此所得界限适用于最大值和同时置信区域。各坐标之间可以是任意相依的，甚至是完全线性相关的，且当协方差矩阵趋于奇异时，这些界限不会退化。在将坐标方差标准化之后，对于有界或亚指数型的坐标，在保持尺寸或尾部界限固定的条件下，可以达到至多相差对数因子的 $n^{-1/2}$ 样本量速率。主要上界保留了高斯期望最大值这一项，当坐标高度相关时可以进一步改进速率。当较大的观测值对各单个坐标方差的贡献很小时，基于四阶矩的精细化可以带来进一步的改进。如果我们改为对最大绝对坐标施加阶数为 $q>4$ 的固定矩界……",
+    "tldr": "该论文在不对协方差矩阵施加任何限制（允许坐标任意相依甚至线性相关、协方差奇异）的条件下，建立了随机向量和在矩形集合上误差为 $n^{-1/2}$ 量级的尖锐高斯近似界，且上界保留高斯期望最大值从而在强相依情形下获得更优速率。",
+    "en_tdlr": "This paper establishes sharp Gaussian approximation bounds over rectangles for sums of independent random vectors without any covariance restrictions—even allowing arbitrarily or exactly linearly dependent coordinates and singular covariance matrices—achieving the $n^{-1/2}$ rate up to logarithmic factors while retaining the Gaussian expected maximum for improved rates under strong dependence."
 }

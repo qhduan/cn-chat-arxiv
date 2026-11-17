@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.20447",
     "context": "Title: The Logic Chain Breaking Point: A Controlled-Variable Benchmark for Reasoning Degradation in Open-Weight Language Models\nAbstract: arXiv:2611.20447v1 Announce Type: new  Abstract: We introduce The Logic Chain Breaking Point, a controlled-variable benchmark for deductive reasoning in open-weight language models. It spans three phases: (i) pure modus-ponens chain scaling, (ii) distractor resilience with a fixed core chain, and (iii) contradiction detection under primacy versus recency placement. Independent variables follow a powers-of-two sequence $v \\in \\{1,2,4,8,16,32,64,128\\}$, with ground truth known by construction. We evaluate sixteen open-weight models across instruction-tuned and reasoning-tuned panels, including a small-model suite and a larger local-model extension. All models are evaluated with greedy decoding under model-appropriate context and output budgets, while context- and length-limited trials are quarantined from the valid accuracy denominator. Our results reveal a sharply non-monotonic difficulty surface: pure deductive chains up to $L=128$ remain near saturation for most models, and distractor",
     "path": "papers/26/11/2611.20447.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1359,
+    "translated_title": "逻辑链断裂点：面向开放权重语言模型推理退化的控制变量基准测试",
+    "translated_abstract": "我们提出了“逻辑链断裂点”，这是一个针对开放权重语言模型演绎推理能力的控制变量基准测试。该基准涵盖三个阶段：（i）纯肯定前件式推理链的规模扩展，（ii）固定核心链下的干扰项抗性测试，以及（iii）首因位置与近因位置下的矛盾检测。自变量遵循2的幂次序列 v ∈ {1,2,4,8,16,32,64,128}，且真值通过构造方式预先确定。我们评估了十六个开放权重模型，覆盖指令微调组和推理微调组，包括一个小模型套件以及一个更大的本地模型扩展。所有模型均在与其适配的上下文和输出预算下采用贪心解码进行评估，同时将因上下文和长度受限而失败的试验从有效准确率的分母中隔离出去。我们的结果揭示了一个急剧非单调的难度曲面：对大多数模型而言，纯演绎链即使达到 L=128 仍接近饱和，而干扰项……（原文摘要在此处截断）",
+    "tldr": "该论文提出了“逻辑链断裂点”基准，通过控制变量的方法系统评估开放权重语言模型在多步演绎推理链扩展、干扰项抗性和矛盾检测中的推理退化现象，发现难度呈现急剧的非单调变化。",
+    "en_tdlr": "This paper introduces \"The Logic Chain Breaking Point,\" a controlled-variable benchmark that systematically evaluates reasoning degradation in open-weight language models across modus-ponens chain scaling, distractor resilience, and contradiction detection, revealing a sharply non-monotonic difficulty surface."
 }

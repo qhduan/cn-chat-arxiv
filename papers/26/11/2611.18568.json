@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.18568",
     "context": "Title: Use of Peer Code Review to Identify Potential Security Vulnerabilities in Open Source Software: A Systematic Literature Review\nAbstract: arXiv:2611.18568v1 Announce Type: new  Abstract: Context: Security vulnerabilities in OSS can have severe consequences. OSS project participants widely use peer code review to improve quality and prevent security flaws. However, despite mandatory reviews, OSS projects still contain vulnerabilities, highlighting the need to evaluate code review effectiveness for security. Objectives: This SLR synthesizes evidence on vulnerability types identified or missed, security practices, tool support, reviewer challenges, and factors that improve detection. Method: Searches of five digital libraries yielded 1,067 studies, of which 20 were included. Vulnerabilities were categorized using the Common Weakness Enumeration (CWE) framework. Results: Peer code reviews effectively detect localized, well-known vulnerabilities (e.g., buffer overruns, race conditions, crashes, XSS) but often miss subtle, complex, context-dependent issues (e.g., input validation weaknesses, access control weaknesses, resource",
     "path": "papers/26/11/2611.18568.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1140,
+    "translated_title": "使用同行代码评审识别开源软件中的潜在安全漏洞：一项系统性文献综述",
+    "translated_abstract": "背景：开源软件（OSS）中的安全漏洞可能造成严重后果。OSS项目参与者广泛使用同行代码评审来提高质量并防止安全缺陷。然而，尽管存在强制性评审，OSS项目仍然包含漏洞，这凸显了评估代码评审在安全方面有效性的必要性。目标：本系统性文献综述（SLR）综合了关于已被识别或被遗漏的漏洞类型、安全实践、工具支持、评审者面临的挑战以及能够提高漏洞检测能力的因素等方面的证据。方法：对五个数字文献库的检索共获得1,067项研究，其中20项被纳入分析。漏洞采用通用缺陷列举（CWE）框架进行分类。结果：同行代码评审能够有效检测局部的、众所周知的漏洞（例如缓冲区溢出、竞态条件、崩溃、跨站脚本攻击XSS），但经常遗漏微妙的、复杂的、依赖上下文的问题（例如输入验证缺陷、访问控制缺陷、资源……）。",
+    "tldr": "本系统性文献综述发现，同行代码评审能有效检测开源软件中局部且知名的漏洞（如缓冲区溢出、竞态条件和XSS），但常常遗漏微妙、复杂且依赖上下文的安全问题。",
+    "en_tdlr": "This systematic literature review finds that peer code review effectively detects localized, well-known vulnerabilities in open source software (e.g., buffer overruns, race conditions, XSS) but often misses subtle, complex, and context-dependent security issues."
 }

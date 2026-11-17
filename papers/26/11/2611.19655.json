@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.19655",
     "context": "Title: User First Intelligence: Three Measurements of Search and AI-Answer Analytics (SEO and GEO/AEO), and a Knowledge-Graph Framework for Query Discovery Beyond Search Volume\nAbstract: arXiv:2611.19655v1 Announce Type: new  Abstract: People say what they want to know in many places besides a search box, and the tools that search and AI-answer optimization (SEO and GEO/AEO) rely on see only part of that demand, through models reported as counts. This paper reports three measurements of such instruments and a framework. On the area-code section of a large US telecom provider's site, two commercial analytics platforms differed on estimated monthly visits by 7.5x to 27.1x (8.6x to 29.9x worldwide); across twelve sections of the domain the ratio ran from 0.20x to 7.24x with no detectable relation to section age, while they agreed on which section is larger in 60 of 66 pairs. On 37,193 reviews of 378 telecom stores linked to a 42,994-node keyword taxonomy, review demand and search volume agreed on branches to a varying degree (Spearman 0.47 to 0.75; 0.91 post hoc) and barely on topics (0.18), on links two blind AI annotators judged two-thirds correct; on the 372 area codes",
     "path": "papers/26/11/2611.19655.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1888,
+    "translated_title": "用户优先智能：搜索与AI答案分析（SEO与GEO/AEO）的三项测量，以及一个超越搜索量的查询发现知识图谱框架",
+    "translated_abstract": "人们不仅在搜索框中，还在许多其他地方表达他们想知道的内容，而搜索与AI答案优化（SEO与GEO/AEO）所依赖的工具只能通过以计数形式报告的模型看到这部分需求的一部分。本文报告了对这类工具的三项测量以及一个框架。在一家大型美国电信提供商网站的区号板块上，两个商业分析平台对估计月访问量的差异达7.5倍至27.1倍（全球范围为8.6倍至29.9倍）；在该域名的十二个板块中，这一比率介于0.20倍至7.24倍之间，与板块年龄没有可检测的关系，而两个平台在66对板块比较中有60对就哪个板块更大达成了一致。在与42,994个节点的关键词分类体系相关联的378家电信商店的37,193条评论中，评论需求与搜索量在分支层面存在不同程度的吻合（Spearman相关系数0.47至0.75；事后分析达0.91），但在主题层面几乎不吻合（0.18）；在链接方面，两名盲测的AI标注员判定约三分之二为正确；在372个区号上……",
+    "tldr": "该论文通过三项实测揭示了商业SEO/GEO分析工具在流量估计上的巨大分歧（可达27倍以上）及其与真实用户表达需求的错位，并提出一个基于知识图谱的框架，利用评论等用户表达数据超越传统搜索量指标来发现查询需求。",
+    "en_tdlr": "This paper presents three empirical measurements revealing large discrepancies (up to 27x) among commercial SEO/GEO analytics tools and their misalignment with genuine user demand, and proposes a knowledge-graph framework that discovers query demand beyond search volume by leveraging user expressions such as reviews."
 }

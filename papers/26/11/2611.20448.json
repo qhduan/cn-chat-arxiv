@@ -4,9 +4,8 @@
     "link": "https://arxiv.org/abs/2611.20448",
     "context": "Title: IntentFlow: An Intent-Driven Real-Time Multimodal Search System with Image-Text Queries at Xiaohongshu\nAbstract: arXiv:2611.20448v1 Announce Type: new  Abstract: Multimodal search with image-text queries helps users find notes in user-generated content (UGC) communities and serves as a key search tool for multimodal search agents. For such queries, query-note relevance depends on the user's retrieval intent and cannot be determined by visual or topical similarity alone. Simply reranking visual search results cannot fully address this challenge, as notes relevant to the user's intent may be missing from the initial candidate set. This motivates explicit intent modeling to align candidate retrieval and reranking under consistent relevance criteria. We present IntentFlow, an intent-driven real-time multimodal search system deployed at Xiaohongshu over an index on the order of ten billion entries. IntentFlow represents retrieval objectives with a hierarchical intent taxonomy and uses intent-specific relevance criteria to guide data construction, representation learning, and reranking. An offline agen",
     "path": "papers/26/11/2611.20448.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1319,
+    "translated_title": "IntentFlow：小红书中基于意图驱动的图文查询实时多模态搜索系统",
+    "translated_abstract": "基于图文结合查询的多模态搜索帮助用户在用户生成内容（UGC）社区中查找笔记，同时也是多模态搜索代理的关键搜索工具。对于此类查询，查询与笔记之间的相关性取决于用户的检索意图，无法仅通过视觉或主题相似性来判定。简单地对视觉搜索结果进行重排序无法完全解决这一挑战，因为符合用户意图的笔记可能在初始候选集中就已经缺失。这促使我们进行显式的意图建模，以便在一致的相关性标准下对齐候选检索与重排序两个环节。我们提出了IntentFlow，一个部署在小红书的意图驱动实时多模态搜索系统，其索引规模达到百亿级。IntentFlow通过层次化的意图分类体系来表示检索目标，并使用针对特定意图的相关性标准来指导数据构建、表示学习和重排序。一个离线代理（agent）……（原文摘要在此处被截断）",
+    "tldr": "IntentFlow是小红书部署的意图驱动实时多模态搜索系统，通过层次化意图分类体系和意图特定的相关性标准，在百亿级索引上实现了图文查询场景下候选检索与重排序的一致性对齐。"
 }

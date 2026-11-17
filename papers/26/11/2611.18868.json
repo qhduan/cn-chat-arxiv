@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.18868",
     "context": "Title: SLICES: A Benchmark and Evaluation Framework for Self-Supervised Learning on Sparse ICU Time Series\nAbstract: arXiv:2611.18868v1 Announce Type: new  Abstract: Self-supervised learning (SSL) results for intensive care unit (ICU) time series are hard to compare when data processing, encoders, and adaptation vary together. We present SLICES, a benchmark and evaluation framework for comparing and extending SSL methods under a shared clinical setup. It fixes 24-hour value and observation-mask inputs, a Transformer encoder, patient-level splits, four endpoints, two adaptation protocols, and five matched seeds across MIMIC-IV, eICU-CRD, and their pooled union. Masked autoencoding (MAE), joint-embedding prediction (JEPA), and contrastive learning provide reference implementations. Among these objectives, MAE leads mean AUPRC in all nine frozen classification comparisons, also under converged probes, and in seven of nine fine-tuning comparisons. Fine-tuned MAE leads hospital mortality at full labels and scores higher than a supervised Transformer of the same architecture at every label fraction, and SS",
     "path": "papers/26/11/2611.18868.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1413,
+    "translated_title": "SLICES：面向稀疏ICU时间序列自监督学习的基准与评估框架",
+    "translated_abstract": "当数据处理、编码器和适配方式同时变化时，重症监护病房（ICU）时间序列的自监督学习（SSL）结果很难相互比较。我们提出了SLICES，一个在统一临床设置下用于比较和扩展SSL方法的基准与评估框架。该框架固定了24小时数值与观测掩码输入、Transformer编码器、患者级别的数据划分、四个临床终点、两种适配协议以及五个匹配的随机种子，覆盖MIMIC-IV、eICU-CRD及其合并数据集。框架提供了掩码自编码（MAE）、联合嵌入预测（JEPA）和对比学习三种参考实现。在这些训练目标中，MAE在全部九个冻结分类比较中（包括收敛探针条件下）均取得最高的平均AUPRC，并在九个微调比较中的七个中领先。微调后的MAE在全标签情况下在院内死亡率预测上表现最佳，并且在每一个标签比例下的得分均高于同架构的监督式Transformer，而且SS...",
+    "tldr": "该论文提出SLICES基准框架，通过统一固定数据处理流程、编码器架构和评估协议，首次实现了对稀疏ICU时间序列自监督学习方法的公平比较，并发现掩码自编码（MAE）在绝大多数评估设置中优于JEPA和对比学习。",
+    "en_tdlr": "SLICES introduces a unified benchmark and evaluation framework that enables fair comparison of self-supervised learning methods on sparse ICU time series by fixing data processing, encoders, and evaluation protocols, revealing that masked autoencoding (MAE) outperforms JEPA and contrastive learning across most settings."
 }

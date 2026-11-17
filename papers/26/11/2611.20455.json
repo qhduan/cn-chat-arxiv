@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.20455",
     "context": "Title: Embeddings vs. Grep: Rethinking the Dense Advantage in Code Search\nAbstract: arXiv:2611.20455v1 Announce Type: new  Abstract: Code-search benchmarks show dense encoders well ahead of BM25, yet coding agents do well with \\texttt{grep}. What does this dense advantage measure? Existing benchmarks cannot tell: they use curated queries, old code and a handicapped BM25. To find out, we build Repo-Premium, a realistic repository-level code-search benchmark. It ranks files in real repositories, with curated and raw queries in Python, JavaScript, TypeScript, Go, Rust and Java, pull requests from 2022 to 2026, and a preregistered test pool over $91$ repositories. Our experiments trace the advantage to two sources: evaluation choices that favor dense retrieval, such as splitting files into chunks for BM25 and counting edited tests as relevant, and queries that lack the code's rare identifiers. Expanding the query with LLM-written identifiers (generate-then-grep) helps BM25 far more than dense retrieval, letting it match dense retrieval in every Python pool, even on pull r",
     "path": "papers/26/11/2611.20455.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1522,
+    "translated_title": "嵌入模型 vs. Grep：重新思考代码搜索中的稠密检索优势",
+    "translated_abstract": "代码搜索基准测试显示稠密编码器远远领先于BM25，然而编程智能体使用grep却表现良好。这种稠密优势究竟衡量了什么？现有基准测试无法回答这一问题：它们使用人工筛选的查询、过时的代码以及被削弱的BM25。为了弄清真相，我们构建了Repo-Premium，一个贴近现实的仓库级代码搜索基准。该基准对真实仓库中的文件进行排序，涵盖Python、JavaScript、TypeScript、Go、Rust和Java的人工筛选查询与原始查询，包含2022年至2026年的拉取请求，以及一个在91个仓库上预注册的测试池。我们的实验将这种优势追溯到两个来源：一是偏向稠密检索的评估选择，例如为BM25将文件切分成块、把已编辑的测试计为相关文档；二是查询中缺少代码里罕见标识符的情况。使用LLM生成的标识符扩展查询（generate-then-grep，即先生成再grep）对BM25的帮助远大于对稠密检索的帮助，使BM25在每个Python测试池中都能与稠密检索持平，即使在拉取请求场景中也是如此。",
+    "tldr": "该论文构建了贴近真实的仓库级代码搜索基准Repo-Premium，发现稠密检索相对BM25的优势主要源于偏向性的评估设置和查询缺乏罕见标识符，而通过LLM生成标识符扩展查询（generate-then-grep），BM25即可追平稠密检索的性能。",
+    "en_tdlr": "This paper introduces Repo-Premium, a realistic repository-level code-search benchmark, and shows that dense retrieval's advantage over BM25 largely stems from biased evaluation choices and queries lacking rare identifiers—with LLM-generated identifier expansion (generate-then-grep), BM25 can match dense retrieval."
 }

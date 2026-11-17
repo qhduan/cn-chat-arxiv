@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.18596",
     "context": "Title: Between the Lines: Multi-turn Contextual Investment Advice Detection\nAbstract: arXiv:2611.18596v1 Announce Type: new  Abstract: As large language models (LLMs) increasingly power financial conversational assistants, detecting investment advice in natural language has become a critical regulatory and safety challenge. Unlike explicit single-turn recommendations, investment advice often emerges implicitly and progressively over multi-turn conversations, shaped by user intent, delivery style, and contextual buildup. We introduce the first comprehensive framework for detecting both sequential and contextual investment advice in dialogue settings. Central to our approach is a modular, top-down synthetic data generation pipeline that systematically spans a taxonomy of advisory trajectories using an axis-bucket-descriptor schema. We simulate both benign and high-risk conversations across diverse user personas, financial instruments, and risk tiers, and evaluate detection capabilities using LLM-as-a-Judge with entropy-based uncertainty diagnostics. Our results show that ",
     "path": "papers/26/11/2611.18596.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1216,
+    "translated_title": "《字里行间：多轮对话中上下文相关的投资建议检测》",
+    "translated_abstract": "随着大型语言模型（LLM）日益成为金融对话助手的核心驱动力，检测自然语言中的投资建议已成为一项关键的监管与安全挑战。与显式的单轮推荐不同，投资建议往往在多轮对话中隐式且渐进地形成，并受用户意图、表达方式和上下文铺垫的影响。我们提出了首个用于检测对话场景中序列性与上下文相关投资建议的综合框架。该方法的核心是一个模块化、自顶向下的合成数据生成管线，通过“轴—桶—描述符”（axis-bucket-descriptor）模式系统地覆盖咨询轨迹的分类体系。我们在多样化的用户画像、金融工具和风险层级上模拟了良性对话与高风险对话，并采用“LLM作为评判者”结合基于熵的不确定性诊断来评估检测能力。我们的结果表明……",
+    "tldr": "本文提出了首个面向多轮对话的投资建议检测综合框架，通过模块化自顶向下的合成数据生成管线构建咨询轨迹分类体系，并利用LLM评判结合基于熵的不确定性诊断，实现对隐式、渐进式投资建议的检测与评估。",
+    "en_tdlr": "This paper introduces the first comprehensive framework for detecting implicit, contextual investment advice in multi-turn dialogues, built on a modular top-down synthetic data generation pipeline and evaluated with LLM-as-a-Judge alongside entropy-based uncertainty diagnostics."
 }

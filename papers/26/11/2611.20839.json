@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.20839",
     "context": "Title: Stochastic Modelling of High-frequency (HF) Crypto Limit Order Book (LOB) with General Compound Marked Hawkes Process\nAbstract: arXiv:2611.20839v1 Announce Type: new  Abstract: The paper is devoted to the stochastic modelling of high-frequency crypto Limit Order Book (LOB) with general compound marked Hawkes process (GCMHP). We consider marked Hawkes process in a general form. LLN and FCLTs with stochastic and constant centralization are stated. Numerical example for high-frequency LOB dataset for BTC (bitcoin) based on sources from HF crypto LOB data is presented as well. The novelty of the paper lies in the new LLN and FCLTs for the GCMHP, and in the new application associated with high-frequency (HF) crypto LOB.",
     "path": "papers/26/11/2611.20839.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 784,
+    "translated_title": "基于一般复合标记霍克斯过程的加密货币高频限价订单簿随机建模",
+    "translated_abstract": "本文致力于使用一般复合标记霍克斯过程（GCMHP）对加密货币高频限价订单簿（LOB）进行随机建模。我们考虑了一般形式的标记霍克斯过程，并陈述了具有随机中心化和常数中心化的大数定律（LLN）与泛函中心极限定理（FCLT）。此外，本文还基于高频加密LOB数据源，给出了BTC（比特币）高频LOB数据集的数值实例。本文的新颖之处在于为GCMHP建立了新的LLN和FCLT，以及在高频加密LOB方面的新应用。",
+    "tldr": "本文为一般复合标记霍克斯过程建立了新的大数定律和泛函中心极限定理，并将其创新性地应用于加密货币高频限价订单簿的随机建模。",
+    "en_tdlr": "This paper establishes new LLNs and FCLTs for the general compound marked Hawkes process and innovatively applies them to the stochastic modelling of high-frequency crypto limit order books."
 }

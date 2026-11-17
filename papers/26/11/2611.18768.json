@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.18768",
     "context": "Title: Can a Vision-Language Model Tune Clustering In Context?\nAbstract: arXiv:2611.18768v1 Announce Type: new  Abstract: Clustering is a widely used unsupervised learning method, but selecting an appropriate algorithm and set of hyperparameters for a specific dataset can require many possible configurations and evaluations. In this work, we investigate whether a Vision-Language Model can instead visually evaluate clustering results and use those decisions to then tune an explicit clustering algorithm. We study this through three progressive experiments using Qwen3.5-27B and five controlled synthetic clustering scenarios. First, we test whether the VLM can distinguish the best clustering result from a pair of plots. Second, we test whether it can assign numerical scores to those plots where a higher score represents a better result. Finally, we use these judgments within an agentic loop in which the VLM scores a k-means clustering and proposes updated hyperparameters that may result in better clustering. Our exploratory results show that the VLM performs we",
     "path": "papers/26/11/2611.18768.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 953,
+    "translated_title": "视觉语言模型能否在上下文中调整聚类？",
+    "translated_abstract": "聚类是一种广泛使用的无监督学习方法，但为特定数据集选择合适的算法和超参数配置往往需要进行大量可能的配置尝试与评估。在这项工作中，我们研究了视觉语言模型（VLM）能否以视觉方式评估聚类结果，并利用这些判断来调整显式的聚类算法。我们通过使用Qwen3.5-27B模型和五个受控合成聚类场景，开展了三个渐进式实验来研究这一问题。首先，我们测试VLM能否从一对聚类图像中区分出最佳结果。其次，我们测试它能否为这些图像赋予数值评分，其中更高的分数代表更好的结果。最后，我们将这些判断应用于一个智能体循环（agentic loop）中，由VLM对k-means聚类结果进行评分并提出可能改善聚类效果的更新超参数。我们的探索性结果表明，VLM的表现良好……",
+    "tldr": "本文探索了视觉语言模型能否通过视觉评估聚类图像并在智能体循环中迭代提出超参数更新，从而自动调整k-means聚类算法。",
+    "en_tdlr": "This work explores whether a Vision-Language Model can visually evaluate clustering results and iteratively tune k-means hyperparameters within an agentic loop."
 }

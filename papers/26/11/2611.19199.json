@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.19199",
     "context": "Title: What Moves a LoCoMo Score? Memory Context, Answer Prompts and Judges\nAbstract: arXiv:2611.19199v1 Announce Type: new  Abstract: LoCoMo is a widely reported benchmark for long-term conversational memory, but published scores mix memory quality with choices of answer prompt, judge and baseline layout that are rarely reported together. We measure how much these choices move a score, and evaluate Becos, a team memory system for coding agents, as a black box under all of them: ten conversations (1,540 questions), two answer models (gpt-4o-mini, gpt-4.1-mini), two answer prompts and three LLM judges, against a whole-conversation baseline rerun under identical conditions. Changing only the judge moves a score by up to 7.2 points and changing only the answer prompt by up to 9.3. A blind human check of 150 answers finds the judges reliable when they agree, and the primary judge's errors on disputed answers working against Becos rather than for it. Becos answers from a context with 90% fewer characters than the whole conversation. Its configuration was developed on LoCoMo ",
     "path": "papers/26/11/2611.19199.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1450,
+    "translated_title": "什么左右了LoCoMo分数？记忆上下文、答案提示词与评判模型",
+    "translated_abstract": "LoCoMo是一个被广泛报道的长期对话记忆基准测试，但已发表的分数将记忆质量与答案提示词、评判模型和基线设置的选择混杂在一起，而这些选择很少被一并报告。我们测量了这些选择能在多大程度上改变分数，并将Becos（一个面向编程智能体的团队记忆系统）作为黑盒，在所有这些设置下进行评估：十段对话（1,540个问题）、两个答案模型（gpt-4o-mini、gpt-4.1-mini）、两种答案提示词和三个LLM评判模型，并在相同条件下重新运行整个对话基线进行对比。仅更换评判模型就能使分数波动高达7.2分，仅更换答案提示词就能使分数波动高达9.3分。对150个答案进行的盲测人工检查表明，当评判模型意见一致时它们是可靠的，而主评判模型在有争议答案上的错误反而是对Becos不利而非有利。Becos进行回答所使用的上下文字符数比整个对话少90%。其配置是在LoCoMo上开发的。",
+    "tldr": "该论文量化了LoCoMo基准分数受评判模型（最高7.2分）和答案提示词（最高9.3分）选择的影响程度，并证明Becos团队记忆系统在仅使用比完整对话少90%字符的上下文情况下即可表现出色。",
+    "en_tdlr": "This paper quantifies how judge choice (up to 7.2 points) and answer prompt choice (up to 9.3 points) move LoCoMo benchmark scores, and shows that the Becos team memory system performs well using a context with 90% fewer characters than the full conversation."
 }

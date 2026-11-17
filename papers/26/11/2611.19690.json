@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.19690",
     "context": "Title: Comparing Two-Sample IV Estimators under Weak Instruments\nAbstract: arXiv:2611.19690v1 Announce Type: new  Abstract: We compare three estimators in a two-sample summary-data instrumental variables (IV) model: inverse-variance weighting (IVW), debiased inverse-variance weighting (dIVW), and the profile score (PS) estimator. The framework assumes independent samples and instrument-specific summary estimates, with two-sample Mendelian randomisation as a leading application. We compare existing fixed- and many-weak-instrument results and the sufficient conditions for the three estimators. Under the variance scaling used in the profile-score literature, the principal collective-strength conditions for PS and dIVW are equivalent, although their additional restrictions on instrument concentration and growth differ. We then compare their asymptotic variance formulae for fixed and diverging numbers of instruments. For fixed $L$, IVW and dIVW have the same first-order asymptotic variance. Under a common variance-ratio condition, the PS variance formula exceeds t",
     "path": "papers/26/11/2611.19690.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1319,
+    "translated_title": "弱工具变量下两样本IV估计量的比较",
+    "translated_abstract": "在两样本汇总数据工具变量（IV）模型中，我们比较了三种估计量：逆方差加权（IVW）、去偏逆方差加权（dIVW）和轮廓得分（PS）估计量。该框架假设样本相互独立且具有特定工具变量的汇总估计值，其主要应用为两样本孟德尔随机化。我们比较了现有的固定工具变量和众多弱工具变量下的结果，以及三种估计量的充分条件。在轮廓得分文献中所使用的方差缩放下，PS与dIVW的主要集体强度条件是等价的，尽管二者在工具变量集中度和增长方面的附加限制有所不同。随后，我们比较了它们在固定数量和发散数量工具变量下的渐近方差公式。对于固定的工具变量数量L，IVW与dIVW具有相同的一阶渐近方差。在共同的方差比条件下，PS的方差公式超过……（原文摘要到此截断）",
+    "tldr": "本文系统比较了两样本汇总数据工具变量模型中IVW、dIVW和PS三种估计量在弱工具变量条件下的充分条件与渐近方差，证明固定工具变量数量下IVW与dIVW具有相同的一阶渐近方差，且PS与dIVW的主要集体强度条件等价。",
+    "en_tdlr": "This paper systematically compares the sufficient conditions and asymptotic variances of IVW, dIVW, and PS estimators in two-sample summary-data IV models under weak instruments, showing that IVW and dIVW share the same first-order asymptotic variance for a fixed number of instruments, and that the principal collective-strength conditions for PS and dIVW are equivalent."
 }

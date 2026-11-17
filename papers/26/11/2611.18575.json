@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.18575",
     "context": "Title: A Survey of Image-to-Code Generation for Software Engineering\nAbstract: arXiv:2611.18575v1 Announce Type: new  Abstract: A large fraction of software intent is expressed visually before it is implemented. A designer hands a screenshot or a Figma mockup to a front-end engineer, an architect sketches a UML diagram or a flowchart, and a bug report ships with a picture of what went wrong. Turning such visual artifacts directly into executable software has therefore become an active problem at the intersection of computer vision and software engineering. The present survey organizes the literature on image-to-code generation for software engineering, defined as the family of methods whose input contains a visual modality and whose output is software an engineer would otherwise write by hand. We deliberately scope the survey to software-engineering code, namely user-interface and front-end code, code recovered from software diagrams such as UML and flowcharts, program repair and test code driven by visual signals, and general software-code targets, and we exclud",
     "path": "papers/26/11/2611.18575.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1189,
+    "translated_title": "软件工程中图像到代码生成技术综述",
+    "translated_abstract": "在软件实现之前，很大一部分软件意图是以视觉形式表达的：设计师将截图或 Figma 原型图交给前端工程师，架构师绘制 UML 图或流程图，而错误报告中通常会附上问题发生时的图片。因此，将这些视觉产物直接转化为可执行的软件，已成为计算机视觉与软件工程交叉领域中一个活跃的研究问题。本综述系统梳理了软件工程中图像到代码生成（image-to-code generation）的相关文献，该领域被定义为一类输入包含视觉模态、输出为工程师原本需要手工编写的软件的方法。本综述有意将范围限定于软件工程代码，即用户界面与前端代码、从 UML 和流程图等软件图表中恢复的代码、由视觉信号驱动的程序修复与测试代码，以及一般性软件代码目标，并排除（摘要在此处截断）",
+    "tldr": "本文是一篇综述，系统梳理了软件工程中图像到代码生成的研究文献，涵盖从界面截图、UML 图和流程图等视觉输入生成前端代码、程序修复与测试代码等方向的方法。",
+    "en_tdlr": "This survey systematically organizes the literature on image-to-code generation for software engineering, covering methods that transform visual inputs such as UI screenshots, UML diagrams, and flowcharts into front-end code, program repairs, and test code."
 }

@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.20488",
     "context": "Title: EVIDENT: Evaluating Evidence Grounding in GUI Agents\nAbstract: arXiv:2611.20488v1 Announce Type: new  Abstract: GUI agents are increasingly evaluated by whether they complete web tasks, but surface success can hide a critical failure: the final answer may not be supported by evidence observed during navigation. We introduce EVIDENT, an evidence-driven benchmark for evaluating whether GUI agents ground their decisions in observable web evidence. EVIDENT contains 220 real-world English and Korean tasks spanning semantic grounding, contextual inference, and visual grounding, each paired with human-curated evidence metadata specifying what must be verified. We further separate surface task completion from evidence-grounded success using three metrics: TSR, ESR, and GSR, which respectively measure outcome success, required evidence observation, and claim-level evidence support. Experiments on commercial and open-source GUI agents reveal substantial gaps between surface success and evidence-grounded success, especially in contextual and visual tasks. Th",
     "path": "papers/26/11/2611.20488.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 993,
+    "translated_title": "EVIDENT：评估GUI智能体的证据依据性",
+    "translated_abstract": "GUI智能体越来越多地通过其是否完成网络任务来评估，但表面上的成功可能掩盖一个关键的失败：最终答案可能缺乏导航过程中观察到的证据支持。我们提出了EVIDENT，一个以证据为驱动的基准，用于评估GUI智能体是否将其决策建立在可观察的网络证据之上。EVIDENT包含220个真实世界的英文和韩文任务，涵盖语义依据、上下文推断和视觉依据三类，每个任务都配有人工整理的证据元数据，明确指明需要验证的内容。我们进一步使用三个指标将表面任务完成与有证据依据的成功区分开来：TSR、ESR和GSR，分别衡量结果层面的成功、所需证据的观察情况以及声明层面的证据支持。在商业和开源GUI智能体上的实验揭示了表面成功与证据依据成功之间的巨大差距，尤其是在上下文推断和视觉类任务中。",
+    "tldr": "提出EVIDENT基准，通过220个真实英韩任务及TSR、ESR、GSR三个指标，揭示GUI智能体的表面任务成功与基于可观察证据的成功之间存在显著差距。",
+    "en_tdlr": "EVIDENT, an evidence-driven benchmark with 220 real-world English and Korean tasks and three metrics (TSR, ESR, GSR), reveals substantial gaps between surface task completion and evidence-grounded success in GUI agents."
 }

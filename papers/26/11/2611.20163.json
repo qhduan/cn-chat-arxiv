@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.20163",
     "context": "Title: Log-optimal portfolios for market models with regime switching\nAbstract: arXiv:2611.20163v1 Announce Type: new  Abstract: This paper considers market models under regime switching mechanism with $D$ states, and analyses the log-optimal portfolio. It is the portfolio, with finite expected utility, that maximizes the logarithmic utility from terminal wealth. We consider a family $\\mathbb{X}=(X^{(i)})_{i=1,...,D}$, of $D$-semimartingale models, among which our agent can switch to-and-from following a switching regime modelled by a continuous-time Markov Chain $\\alpha=(\\alpha_t)_{t\\geq 0}$ with $\\alpha_0=1$. Then we define a general switching model $\\widehat{X}$ that covers the existing cases, and study the impact of the stochasticity of the regime switching and its intrinsic risks on the optimal portfolio in many aspects. On the one hand, we single out the necessary and sufficient conditions on the pair $(\\mathbb{X},\\alpha)$, which guarantee the existence of the optimal portfolio for $\\widehat{X}$. On the other hand, we quantify the factors that fully affect a",
     "path": "papers/26/11/2611.20163.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1312,
+    "translated_title": "具有机制转换的市场模型的对数最优投资组合",
+    "translated_abstract": "本文考虑在具有 $D$ 个状态的机制转换机制下的市场模型，并分析对数最优投资组合。该投资组合是在期望效用有限的条件下，最大化终端财富对数效用的投资组合。我们考虑一族 $D$-半鞅模型 $\\mathbb{X}=(X^{(i)})_{i=1,...,D}$，投资者可以在这些模型之间根据由连续时间马尔可夫链 $\\alpha=(\\alpha_t)_{t\\geq 0}$（$\\alpha_0=1$）建模的转换机制进行来回切换。随后我们定义了一个涵盖现有情形的一般转换模型 $\\widehat{X}$，并从多个方面研究机制转换的随机性及其内在风险对最优投资组合的影响。一方面，我们给出了关于 $(\\mathbb{X},\\alpha)$ 的充要条件，以保证 $\\widehat{X}$ 的最优投资组合的存在性；另一方面，我们量化了完全影响……",
+    "tldr": "本文针对具有 $D$ 个状态的机制转换市场模型定义了一般转换模型，给出了对数最优投资组合存在的充要条件，并量化了机制转换的随机性及其内在风险对最优投资组合的影响。",
+    "en_tdlr": "This paper defines a general regime-switching model for D-state market models, establishes necessary and sufficient conditions for the existence of log-optimal portfolios, and quantifies the impact of regime-switching stochasticity and its intrinsic risks on the optimal portfolio."
 }

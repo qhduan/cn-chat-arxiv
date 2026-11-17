@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.21326",
     "context": "Title: Neural Marked Point Processes for Health Insurance Claims\nAbstract: arXiv:2611.21326v1 Announce Type: new  Abstract: Health insurance claims exhibit temporal dependence, as previous claims may provide information about the timing, type and amount of subsequent claims. Such dependencies are difficult to capture with traditional actuarial models based on aggregated claim counts. We investigate a neural marked point process in which a causal Transformer represents individual claim histories and determines type-specific conditional intensities, allowing for self-excitation and interactions between claim types. The framework also incorporates conditional severity distributions, reporting delays and stochastic medical-cost inflation. We develop a likelihood-based calibration procedure that accounts for incomplete claim reporting and evaluate the model using both simulated and empirical data. A simulation study with 10,000 insurance contracts examines the recovery of known claim dynamics, while an application to MEPS-derived medical-event data assesses predic",
     "path": "papers/26/11/2611.21326.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1471,
+    "translated_title": "用于健康保险理赔的神经标记点过程",
+    "translated_abstract": "健康保险理赔呈现出时间依赖性，因为先前的理赔可能为后续理赔的时间、类型和金额提供信息。这类依赖关系难以用基于汇总理赔次数的传统精算模型来捕捉。我们研究了一种神经标记点过程，其中因果Transformer表示个体理赔历史并确定类型特定的条件强度，从而能够刻画自激发效应以及理赔类型之间的相互作用。该框架还纳入了条件严重程度分布、报告延迟以及随机医疗费用通胀。我们开发了一种基于似然的校准程序，用以处理不完整的理赔报告，并使用模拟数据和实证数据对模型进行评估。一项包含10,000份保险合同的模拟研究检验了模型对已知理赔动态的恢复能力，而将模型应用于源自MEPS的医疗事件数据则评估了其预测性能。",
+    "tldr": "该论文提出了一种基于因果Transformer的神经标记点过程模型，通过类型特定的条件强度刻画健康保险理赔的自激发效应与类型间交互，同时纳入条件严重度分布、报告延迟和随机医疗费用通胀，并开发了考虑不完整理赔报告的基于似然的校准方法。",
+    "en_tdlr": "This paper proposes a neural marked point process with a causal Transformer that captures self-excitation and cross-type interactions in health insurance claims, incorporating conditional severity distributions, reporting delays, and stochastic medical-cost inflation, along with a likelihood-based calibration procedure that accounts for incomplete claim reporting."
 }
