@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.22116",
     "context": "Title: Reserve Systems in Dynamic Settings: Account Design and Inherited Rights\nAbstract: arXiv:2611.22116v1 Announce Type: new  Abstract: Research on reserve systems mainly considers static settings, formulating and studying choice rules for a given allocation problem. Dynamic settings are different in that the problem is not given. Over time, more positions become available, and each time the institution must build the current problem from its past. We distinguish the ledger, which stores information about earlier allocations, the account, which transforms these data into the current problem, and the choice rule, which selects an outcome for that problem. The same choice rule can implement very different policies under different accounts. If each new batch is assigned while holding earlier recipients and their categories fixed, then as batches shrink, over-and-above, the most generous reserve policy we study, can select nearly the same recipients as minimum guarantee, the most conservative one. Cumulative implementation uses a different account, which reconsiders the cate",
     "path": "papers/26/11/2611.22116.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1103,
+    "translated_title": "动态环境下的保留制度：账户设计与继承权利",
+    "translated_abstract": "关于保留制度的研究主要考虑静态环境，即为给定的分配问题制定和研究选择规则。动态环境的不同之处在于问题本身并非给定的。随着时间的推移，越来越多的职位变得可用，机构每次都必须根据其过去来构建当前的问题。我们区分了三个概念：账本，用于存储早期分配的信息；账户，将这些数据转换为当前的问题；以及选择规则，为该问题选择一个结果。同一个选择规则在不同的账户设计下可以实施截然不同的政策。如果在分配每个新批次时保持之前的接受者及其类别不变，那么随着批次的缩小，我们所研究的最宽松的保留政策——“超额之上”——可以选出与最保守的政策——“最低保障”——几乎相同的接受者。而累积实施则采用一种不同的账户，它会重新考虑类别……（摘要在此处截断）",
+    "tldr": "该论文将动态环境下的保留制度分解为账本、账户和选择规则三个组成部分，揭示了账户设计如何通过继承权利使同一选择规则实现不同政策，并证明当每批次规模较小时，最宽松的“超额之上”政策与最保守的“最低保障”政策几乎能选出相同的接受者。",
+    "en_tdlr": "This paper decomposes dynamic reserve systems into a ledger, an account, and a choice rule, showing that account design and inherited rights allow the same choice rule to implement very different policies, and that when batches are small the most generous \"over-and-above\" policy can select nearly the same recipients as the most conservative \"minimum guarantee\" policy."
 }

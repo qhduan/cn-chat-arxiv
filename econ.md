@@ -15,22 +15,23 @@
 | [^11] | [Estimation and Model Selection in Factor Models with Long Memory](https://arxiv.org/abs/2611.22289) | 该论文为共同因子具有异质未知长记忆参数的近似因子模型建立了主成分估计的渐近理论，证明样本协方差矩阵的特征值按记忆性渐近排序，且 Bai-Ng 信息准则仍能一致地确定因子总数。 |
 | [^12] | [Settling the Time and Structural Complexity of Bertrand Networks](https://arxiv.org/abs/2611.22216) | 本文解决了Bertrand网络领域的长期开放问题，证明了一般图上计算常数误差近似纳什均衡是PPAD完全的（即使在最大度为五的稀疏二部图上），并在受限情形下给出了高效多项式时间近似方案（EPTAS）。 |
 | [^13] | [An axiomatic foundation for optimized certainty equivalents](https://arxiv.org/abs/2611.22119) | 本文提出“公平硬币补偿”新公理，结合强风险厌恶与归一化首次从经济公理角度刻画了优化确定性等价（OCEs），并通过附加公理进一步分别刻画了标准OCEs、预期短缺、熵风险测度及均值-方差准则。 |
-| [^14] | [Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents](https://arxiv.org/abs/2611.22033) | 在三个购物基准测试中，增加LLM购物代理的推理努力并不能显著提升其选购产品的正确性，却会显著提高其报告的置信度——也就是说，模型“想得更多”只是变得更自信，而不是变得更正确。 |
-| [^15] | [Optimal Network Design under Node Failures](https://arxiv.org/abs/2611.21856) | 该论文刻画了节点独立失效情形下福利最优网络的结构：存在一个链路成本区间使最优网络严格介于星形网络与完全网络之间，且在区间低端最优网络恰好是从完全网络中移除一个匹配所得的网络，并为完全多部网络给出了动态规划精确算法。 |
-| [^16] | [Who sees the sea? Sea-view potential by fa\c{c}ade and floor from cadastral LoD1 models on the Costa del Sol](https://arxiv.org/abs/2611.21672) | 该论文提出了一种基于开放地籍LoD1数据的快速海景潜力评估方法，可按建筑立面与楼层量化每栋住宅的海景可见度，并在西班牙太阳海岸15.8万余栋建筑上以不到一小时的双核运算验证了其高效性，结果与LiDAR追踪和房源照片高度一致。 |
-| [^17] | [RAW: Refusal Aversion in the Wild, A Causal Measurement Method for Deployed LLMs](https://arxiv.org/abs/2611.21641) | 本文提出RAW方法，利用大语言模型在相同提示下有时拒答有时不拒答的随机性作为自然实验，首次对已部署模型的拒答进行因果测量，发现一次拒答会使约一半被测模型的用户后续再参与率下降3至17个百分点。 |
-| [^18] | [One-Sided Randomization in Two-Sided Platform Experiments: Which Side Should be Randomized?](https://arxiv.org/abs/2611.16406) | 双边平台实验中选择随机化短侧（供给或需求中较小的一侧）在减少偏差和降低方差两个维度上通常都优于随机化长侧，因此并不存在传统认为的偏差-方差权衡。 |
-| [^19] | [Convex Order and Moment Persuasion](https://arxiv.org/abs/2609.13696) | 本文在多维设定下完整刻画了凸序（保均值收缩）关系及其极值点，引入了每个状态只能映射到其自身不可约分量内后验均值的“集中”结构，并将这些结果应用于矩说服问题。 |
-| [^20] | [Optimal Uniform Pricing for Multi-Interval Dispatch without Make-Whole Uplifts](https://arxiv.org/abs/2609.00541) | 本文提出一种最优统一定价规则，能够在无需市场外全额补偿的情况下消除LMP低于发电机报价的问题，同时最小化需求侧支付、保留阻塞费用并确保收入充足。 |
-| [^21] | [AI Adoption in S&P 500 Firms](https://arxiv.org/abs/2607.08920) | 该论文基于SEC 10-K年报开发了一种能够区分“深度AI采纳”与“AI炒作”的新颖度量方法，发现2025年标普500企业中11%已将AI深度整合进业务流程、另有10%在生产与服务交付中使用AI，采纳率自2016年以来已增长超过四倍。 |
-| [^22] | [Tax Salience: How Requiring Transparency Affects the Price of Equality](https://arxiv.org/abs/2605.30081) | 该论文定义并刻画了税收领域中的“道德效率前沿”，分析透明度在平等、效率与诚实之间的三方权衡，并发现税收显著性的成本最稳健地落在平等上——更高的显著性总是降低平等，而对效率的影响则不明确。 |
-| [^23] | [Difference-in-differences for mediation analysis using double machine learning](https://arxiv.org/abs/2602.23877) | 本文提出了一个结合双重差分与中介分析的双重机器学习框架，用于估计多值离散或连续处理变量对结果的直接效应、经由中介的间接效应及联合效应。 |
-| [^24] | [The Economics of AI Foundation Models: Openness, Competition, and Governance](https://arxiv.org/abs/2510.15200) | 该论文构建两期博弈模型，揭示基础模型在位者的最优开放度随学习效应增强先降后升，并警示强制完全开放的监管可能适得其反，反而损害下游适配效率。 |
-| [^25] | [Simple Communication](https://arxiv.org/abs/2509.09621) | 本文在偏好一致的多维廉价磋商模型中证明：任何均衡评分必须是线性评分或其粗化，均衡收益低于可承诺评分时的水平，并对正态分布状态刻画了均衡线性评分的特征。 |
-| [^26] | [Just After Minimum Wage Hikes: Short-Run Labor-Demand Response and Reallocation](https://arxiv.org/abs/2505.04555) | 本文利用日本即时劳动力市场数据发现，最低工资上调后净就业份额立即小幅下降约1%，原有雇主削减低于新工资下限的岗位，而新进入的雇主则在略高于新标准处发布岗位，表明市场主要通过岗位再配置进行调整。 |
-| [^27] | [Irrational Random Utility Models](https://arxiv.org/abs/2403.10208) | 理性决策者群体的选择可以被足够不相关的偏好的非理性决策者群体所代表，即非理性RUM。几乎所有的RUMs可以通过一部分决策者是非理性的群体来表示，并且在特定条件下他们的非理性行为是不受限制的。 |
-| [^28] | [High-Dimensional Tail Index Regression: with An Application to Text Analyses of Viral Posts in Social Media](https://arxiv.org/abs/2403.01318) | 提出了高维尾指数回归方法，利用正则化估计和去偏方法进行推断，支持理论的仿真研究，并在社交媒体病毒帖子文本分析中应用。 |
-| [^29] | [Multiply Robust Causal Mediation Analysis with Continuous Treatments](https://arxiv.org/abs/2105.09254) | 本文提出了一种适用于连续治疗环境的多重稳健因果中介分析估计器，采用了核平滑方法，并具有多重稳健性和渐近正态性。 |
+| [^14] | [Reserve Systems in Dynamic Settings: Account Design and Inherited Rights](https://arxiv.org/abs/2611.22116) | 该论文将动态环境下的保留制度分解为账本、账户和选择规则三个组成部分，揭示了账户设计如何通过继承权利使同一选择规则实现不同政策，并证明当每批次规模较小时，最宽松的“超额之上”政策与最保守的“最低保障”政策几乎能选出相同的接受者。 |
+| [^15] | [Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents](https://arxiv.org/abs/2611.22033) | 在三个购物基准测试中，增加LLM购物代理的推理努力并不能显著提升其选购产品的正确性，却会显著提高其报告的置信度——也就是说，模型“想得更多”只是变得更自信，而不是变得更正确。 |
+| [^16] | [Optimal Network Design under Node Failures](https://arxiv.org/abs/2611.21856) | 该论文刻画了节点独立失效情形下福利最优网络的结构：存在一个链路成本区间使最优网络严格介于星形网络与完全网络之间，且在区间低端最优网络恰好是从完全网络中移除一个匹配所得的网络，并为完全多部网络给出了动态规划精确算法。 |
+| [^17] | [Who sees the sea? Sea-view potential by fa\c{c}ade and floor from cadastral LoD1 models on the Costa del Sol](https://arxiv.org/abs/2611.21672) | 该论文提出了一种基于开放地籍LoD1数据的快速海景潜力评估方法，可按建筑立面与楼层量化每栋住宅的海景可见度，并在西班牙太阳海岸15.8万余栋建筑上以不到一小时的双核运算验证了其高效性，结果与LiDAR追踪和房源照片高度一致。 |
+| [^18] | [RAW: Refusal Aversion in the Wild, A Causal Measurement Method for Deployed LLMs](https://arxiv.org/abs/2611.21641) | 本文提出RAW方法，利用大语言模型在相同提示下有时拒答有时不拒答的随机性作为自然实验，首次对已部署模型的拒答进行因果测量，发现一次拒答会使约一半被测模型的用户后续再参与率下降3至17个百分点。 |
+| [^19] | [One-Sided Randomization in Two-Sided Platform Experiments: Which Side Should be Randomized?](https://arxiv.org/abs/2611.16406) | 双边平台实验中选择随机化短侧（供给或需求中较小的一侧）在减少偏差和降低方差两个维度上通常都优于随机化长侧，因此并不存在传统认为的偏差-方差权衡。 |
+| [^20] | [Convex Order and Moment Persuasion](https://arxiv.org/abs/2609.13696) | 本文在多维设定下完整刻画了凸序（保均值收缩）关系及其极值点，引入了每个状态只能映射到其自身不可约分量内后验均值的“集中”结构，并将这些结果应用于矩说服问题。 |
+| [^21] | [Optimal Uniform Pricing for Multi-Interval Dispatch without Make-Whole Uplifts](https://arxiv.org/abs/2609.00541) | 本文提出一种最优统一定价规则，能够在无需市场外全额补偿的情况下消除LMP低于发电机报价的问题，同时最小化需求侧支付、保留阻塞费用并确保收入充足。 |
+| [^22] | [AI Adoption in S&P 500 Firms](https://arxiv.org/abs/2607.08920) | 该论文基于SEC 10-K年报开发了一种能够区分“深度AI采纳”与“AI炒作”的新颖度量方法，发现2025年标普500企业中11%已将AI深度整合进业务流程、另有10%在生产与服务交付中使用AI，采纳率自2016年以来已增长超过四倍。 |
+| [^23] | [Tax Salience: How Requiring Transparency Affects the Price of Equality](https://arxiv.org/abs/2605.30081) | 该论文定义并刻画了税收领域中的“道德效率前沿”，分析透明度在平等、效率与诚实之间的三方权衡，并发现税收显著性的成本最稳健地落在平等上——更高的显著性总是降低平等，而对效率的影响则不明确。 |
+| [^24] | [Difference-in-differences for mediation analysis using double machine learning](https://arxiv.org/abs/2602.23877) | 本文提出了一个结合双重差分与中介分析的双重机器学习框架，用于估计多值离散或连续处理变量对结果的直接效应、经由中介的间接效应及联合效应。 |
+| [^25] | [The Economics of AI Foundation Models: Openness, Competition, and Governance](https://arxiv.org/abs/2510.15200) | 该论文构建两期博弈模型，揭示基础模型在位者的最优开放度随学习效应增强先降后升，并警示强制完全开放的监管可能适得其反，反而损害下游适配效率。 |
+| [^26] | [Simple Communication](https://arxiv.org/abs/2509.09621) | 本文在偏好一致的多维廉价磋商模型中证明：任何均衡评分必须是线性评分或其粗化，均衡收益低于可承诺评分时的水平，并对正态分布状态刻画了均衡线性评分的特征。 |
+| [^27] | [Just After Minimum Wage Hikes: Short-Run Labor-Demand Response and Reallocation](https://arxiv.org/abs/2505.04555) | 本文利用日本即时劳动力市场数据发现，最低工资上调后净就业份额立即小幅下降约1%，原有雇主削减低于新工资下限的岗位，而新进入的雇主则在略高于新标准处发布岗位，表明市场主要通过岗位再配置进行调整。 |
+| [^28] | [Irrational Random Utility Models](https://arxiv.org/abs/2403.10208) | 理性决策者群体的选择可以被足够不相关的偏好的非理性决策者群体所代表，即非理性RUM。几乎所有的RUMs可以通过一部分决策者是非理性的群体来表示，并且在特定条件下他们的非理性行为是不受限制的。 |
+| [^29] | [High-Dimensional Tail Index Regression: with An Application to Text Analyses of Viral Posts in Social Media](https://arxiv.org/abs/2403.01318) | 提出了高维尾指数回归方法，利用正则化估计和去偏方法进行推断，支持理论的仿真研究，并在社交媒体病毒帖子文本分析中应用。 |
+| [^30] | [Multiply Robust Causal Mediation Analysis with Continuous Treatments](https://arxiv.org/abs/2105.09254) | 本文提出了一种适用于连续治疗环境的多重稳健因果中介分析估计器，采用了核平滑方法，并具有多重稳健性和渐近正态性。 |
 
 # 详细
 
@@ -216,7 +217,21 @@
 
     arXiv:2611.22119v1 Announce Type: cross  Abstract: Optimized Certainty Equivalents (OCEs) are an important class of risk measures for optimization and risk management that includes the Mean--Variance criterion, Expected Shortfall, the Entropic Risk Measure, and expectation. Despite their importance, economic axioms have not characterized OCEs. We propose a new axiom called Fair-Coin Compensation, which characterizes OCEs together with Strong Risk Aversion and Normalization. We interpret Fair-Coin Compensation through the fair assignment of two losses by a coin toss: transfers between two participants can remove the additional risk created by the random assignment. Adding further axioms yields sharper characterizations. Monotonicity yields standard OCEs; Positive Homogeneity, together with Prudence, yields Expected Shortfall; and Fair-Coin Independence yields the Entropic Risk Measure. We also axiomatize the Mean--Variance criterion using our novel axiom of Equal-Mean Randomization, whi
     
-[^14]: 更努力思考并不能带来更好的选择：推理努力提升了LLM购物代理的置信度，而非正确性
+[^14]: 动态环境下的保留制度：账户设计与继承权利
+
+    Reserve Systems in Dynamic Settings: Account Design and Inherited Rights
+
+    [https://arxiv.org/abs/2611.22116](https://arxiv.org/abs/2611.22116)
+
+    该论文将动态环境下的保留制度分解为账本、账户和选择规则三个组成部分，揭示了账户设计如何通过继承权利使同一选择规则实现不同政策，并证明当每批次规模较小时，最宽松的“超额之上”政策与最保守的“最低保障”政策几乎能选出相同的接受者。
+
+    
+
+    关于保留制度的研究主要考虑静态环境，即为给定的分配问题制定和研究选择规则。动态环境的不同之处在于问题本身并非给定的。随着时间的推移，越来越多的职位变得可用，机构每次都必须根据其过去来构建当前的问题。我们区分了三个概念：账本，用于存储早期分配的信息；账户，将这些数据转换为当前的问题；以及选择规则，为该问题选择一个结果。同一个选择规则在不同的账户设计下可以实施截然不同的政策。如果在分配每个新批次时保持之前的接受者及其类别不变，那么随着批次的缩小，我们所研究的最宽松的保留政策——“超额之上”——可以选出与最保守的政策——“最低保障”——几乎相同的接受者。而累积实施则采用一种不同的账户，它会重新考虑类别……（摘要在此处截断）
+
+    arXiv:2611.22116v1 Announce Type: new  Abstract: Research on reserve systems mainly considers static settings, formulating and studying choice rules for a given allocation problem. Dynamic settings are different in that the problem is not given. Over time, more positions become available, and each time the institution must build the current problem from its past. We distinguish the ledger, which stores information about earlier allocations, the account, which transforms these data into the current problem, and the choice rule, which selects an outcome for that problem. The same choice rule can implement very different policies under different accounts. If each new batch is assigned while holding earlier recipients and their categories fixed, then as batches shrink, over-and-above, the most generous reserve policy we study, can select nearly the same recipients as minimum guarantee, the most conservative one. Cumulative implementation uses a different account, which reconsiders the cate
+    
+[^15]: 更努力思考并不能带来更好的选择：推理努力提升了LLM购物代理的置信度，而非正确性
 
     Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents
 
@@ -230,7 +245,7 @@
 
     arXiv:2611.22033v1 Announce Type: new  Abstract: Large language models (LLMs) are increasingly deployed as autonomous shopping agents that process multimodal product listings (consisting of visual and text data) and recommend purchases on behalf of consumers. Naturally, one might assume that models with more thinking power would make higher-quality purchasing decisions. To test this belief, we ask two questions about such agents: does asking a model to think harder make it choose better products, and does the confidence it reports tell us the likelihood it may be wrong? We benchmark ten frontier models on three product-choice benchmarks built from WebShop, Amazon's SQID and Wayfair's WANDS platforms to see if LLMs with more thinking power actually make better-quality product purchase decisions. Across all three benchmarks, we found that increasing the thinking effort does not increase decision quality in a statistically meaningful way. The same change in thinking effort raises stated c
     
-[^15]: 节点失效下的最优网络设计
+[^16]: 节点失效下的最优网络设计
 
     Optimal Network Design under Node Failures
 
@@ -244,7 +259,7 @@
 
     arXiv:2611.21856v1 Announce Type: new  Abstract: Networks are frequently constructed before it is determined which nodes will persist. We address the design problem in scenarios where nodes fail independently, links are costly and must be established in advance, and the benefits to surviving nodes diminish with distance. Examples include supplier, interbank, and infrastructure networks. Among all possible networks, the complete, star, and empty configurations are each welfare-optimal within specific ranges of link costs. However, with four or more nodes, failures introduce a range of costs in which every optimal network contains more links than the star but fewer than the complete network. At the lower end of this range, we show that the optimal networks are exactly those obtained by removing a matching from the complete network. We develop an exact algorithm for complete multipartite networks. It finds an optimal network by dynamic programming in a number of operations that grows with
     
-[^16]: 谁能看到海？基于地籍LoD1模型按立面与楼层评估太阳海岸的海景潜力
+[^17]: 谁能看到海？基于地籍LoD1模型按立面与楼层评估太阳海岸的海景潜力
 
     Who sees the sea? Sea-view potential by fa\c{c}ade and floor from cadastral LoD1 models on the Costa del Sol
 
@@ -258,7 +273,7 @@
 
     arXiv:2611.21672v1 Announce Type: new  Abstract: Views are among the most valued and least measured attributes of a home. We present an open-data method that estimates the sea-view potential of every free fa\c{c}ade of every residential building at three floors (ground, middle and top; other floors take the nearest of them), from cadastral footprints with floor counts and a national terrain model. Run for 158,060 buildings of 21 municipalities on Spain's Costa del Sol in under an hour on two cores, it finds that 52 % of buildings see some sea from their top floor and 36 % have an open view (20{\deg} or more). Traced over a LiDAR surface in a pilot, scores agree with the model's inside cadastral footprints (96.7 % of viewpoints in the same class at 20{\deg}), but structures the cadastre does not record lower the sea seen from the top floor by 6.1--9.0{\deg} on average. Against the photographs of 93 homes for sale, labelled blind by AI models of two developers with ties decided by the au
     
-[^17]: RAW：现实场景中的拒答回避——一种针对已部署大语言模型的因果测量方法
+[^18]: RAW：现实场景中的拒答回避——一种针对已部署大语言模型的因果测量方法
 
     RAW: Refusal Aversion in the Wild, A Causal Measurement Method for Deployed LLMs
 
@@ -272,7 +287,7 @@
 
     arXiv:2611.21641v1 Announce Type: cross  Abstract: Deployed LLMs field hundreds of millions of conversations a day and refuse a non-trivial fraction of user requests, yet the user-side cost of refusal, whether users disengage and by how much, is unmeasured on any production model: a blind spot for the consumer-facing platforms built on them. A/B-testing refusal is ethically and operationally constrained on frontier-lab products and unavailable to third-party platforms deploying these models through a fixed API. We introduce RAW, a method that uses LLM stochasticity as a natural experiment: at near-identical prompts in any existing log, the same model sometimes refuses and sometimes does not, and that variation identifies the causal user-side effect of refusal. Applying the method to 15 deployed LLMs in LMSYS-Chat-1M and WildChat, with user-clustered inference, we find that for about half of the models we can measure precisely, a refusal costs 3 to 17 pp of subsequent re-engagement; the
     
-[^18]: 双边平台实验中的单边随机化：应该对哪一侧进行随机化？
+[^19]: 双边平台实验中的单边随机化：应该对哪一侧进行随机化？
 
     One-Sided Randomization in Two-Sided Platform Experiments: Which Side Should be Randomized?
 
@@ -286,7 +301,7 @@
 
     arXiv:2611.16406v2 Announce Type: replace-cross  Abstract: Two-sided marketplace platforms often use randomized experiments to evaluate new features, raising the question of whether to randomize customers or listings. Randomizing the smaller (\emph{short}) side can reduce interference bias due to weaker competition, while randomizing the larger (\emph{long}) side provides a larger nominal sample, potentially reducing variance. On the surface, these competing considerations suggest a bias-variance trade-off in choosing which side to randomize. We investigate this trade-off in a two-sided marketplace with first-come, first-served (FCFS) booking and heterogeneous customer preferences, studying the bias and variance of difference-in-means estimators of the global average treatment effect.   Our findings suggest that rather than a bias-variance tradeoff, in fact short-side randomization is generally preferable on {\em both} dimensions. We prove these results in an asymptotic regime where ma
     
-[^19]: 凸序与矩说服
+[^20]: 凸序与矩说服
 
     Convex Order and Moment Persuasion
 
@@ -300,7 +315,7 @@
 
     arXiv:2609.13696v1 Announce Type: new  Abstract: If a probability measure is a mean-preserving contraction of another, the two measures are said to be in convex order. This paper provides a complete characterization of mean-preserving contractions and their extreme points in the multidimensional setting, extending the results of Kleiner, Moldovanu, Strack, and Whitmeyer (2024) to incorporate fully revealing regions and lower-dimensional pooling regions. A central feature of our characterization is a "concentration " structure: each state can be mapped only to posterior means lying within its own irreducible component. We apply these results to the moment persuasion problem.
     
-[^20]: 无需市场外全额补偿的多区间调度最优统一定价
+[^21]: 无需市场外全额补偿的多区间调度最优统一定价
 
     Optimal Uniform Pricing for Multi-Interval Dispatch without Make-Whole Uplifts
 
@@ -314,7 +329,7 @@
 
     arXiv:2609.00541v1 Announce Type: cross  Abstract: In a network with ramp-limited generators and inaccurate net-demand forecasts, practical rolling-window dispatch can drive locational marginal prices (LMPs) below generators' bid-in offers. In such cases, out-of-market (OOM) settlements are used to compensate generators and maintain dispatch-following incentives, but OOM can have negative consequences, including nontransparent real-time price signals, discriminatory compensation, and incentives for untruthful bidding. This paper presents an optimal uniform pricing rule that minimizes demand payments, eliminates OOM make-whole payments, preserves LMP-based congestion charges, and ensures revenue adequacy. We derive the proposed pricing rule in closed form and relate it to existing pricing schemes. Numerical comparisons demonstrate favorable generator profits and reduced price volatility. However, higher generator profits are accompanied by increased demand payments, reflecting the in-ma
     
-[^21]: 标普500企业的AI采纳研究
+[^22]: 标普500企业的AI采纳研究
 
     AI Adoption in S&P 500 Firms
 
@@ -328,7 +343,7 @@
 
     arXiv:2607.08920v2 Announce Type: replace  Abstract: The adoption of artificial intelligence (AI) by large enterprises is an important potential source of aggregate productivity improvement and labor market impact. We study AI adoption of S&P 500 firms over the period 2016 to 2025, estimating adoption at the enterprise level. While generative AI tools are useful for personal and professional applications, our focus is on the deep integration of AI in the business processes of large enterprises which are bellwethers for firm adoption more broadly. We develop a novel measure to assess deep AI adoption (and distinguish it from AI hype) that is based on SEC 10-K filings, where laws and regulations ``prohibit companies from making materially false or misleading statements." In 2025, 11% of S&P 500 enterprises had AI deeply integrated into their business processes, and a further 10% were using AI in the production of goods and delivery of services. AI adoption has more than quadrupled from 5
     
-[^22]: 税收显著性：要求透明度如何影响平等的代价
+[^23]: 税收显著性：要求透明度如何影响平等的代价
 
     Tax Salience: How Requiring Transparency Affects the Price of Equality
 
@@ -342,7 +357,7 @@
 
     arXiv:2605.30081v2 Announce Type: replace  Abstract: Less-salient taxes can ease the classic trade-off between equality and efficiency by making people respond less to taxation. But deliberately obscuring taxes may be viewed as dishonest. This creates a three-way trade-off between equality, efficiency, and honesty. We analyze this trade-off in a simple setting with a linear income tax. We define and characterize the morally efficient frontier, trading off utilitarian welfare against honesty or transparency. Complete honesty is Pareto inefficient but not morally inefficient. More generally, increasing honesty reduces utilitarian welfare. When utilitarian welfare is decomposed into equality and efficiency, the cost of honesty falls most robustly on equality: Higher salience always reduces equality, while the effect on efficiency is ambiguous. This asymmetry arises because salience increases the price of equality, which is the efficiency cost of a marginal increase in equality. Our approa
     
-[^23]: 基于双重机器学习的中介分析双重差分方法
+[^24]: 基于双重机器学习的中介分析双重差分方法
 
     Difference-in-differences for mediation analysis using double machine learning
 
@@ -356,7 +371,7 @@
 
     arXiv:2602.23877v2 Announce Type: replace  Abstract: We propose a difference-in-differences (DiD) framework with mediation for possibly multivalued discrete or continuous treatments and mediators, aimed at identifying the direct effect of the treatment on the outcome (net of effects operating through the mediator), the indirect effect via the mediator, and the joint effects of treatment and mediator, consistent with the framework of dynamic treatment effects. Identification relies on a conditional parallel trends assumption imposed on the mean potential outcome across treatment and mediator states, or (depending on the causal parameter) additionally on the mean potential outcomes and potential mediator distributions across treatment states. We propose ATET estimators for repeated cross sections and panel data within the double/debiased machine learning framework, which allows for data-driven control of covariates, and we establish their asymptotic normality under standard regularity co
     
-[^24]: AI基础模型经济学：开放性、竞争与治理
+[^25]: AI基础模型经济学：开放性、竞争与治理
 
     The Economics of AI Foundation Models: Openness, Competition, and Governance
 
@@ -370,7 +385,7 @@
 
     arXiv:2510.15200v2 Announce Type: replace-cross  Abstract: Foundation model developers choose how open to make their models. Greater openness lowers downstream adaptation costs but can also make competing models easier to use. In a two-period model, an incumbent chooses its license fee and openness, a deployer adapts the model for users, and an entrant offers a competing model. Usage builds model-specific experience that lowers the deployer's future adaptation cost, creating a data flywheel that favors continued use of the incumbent. We identify conditions under which optimal openness falls and then rises as learning strengthens. The incumbent moves from full openness and a high fee to restricting openness for retention, then to a low fee that builds enough usage and experience to retain the deployer despite greater openness. A full-openness mandate can induce the incumbent to abandon this low-fee strategy. The higher fee can reduce first-period adaptation despite greater openness. An 
     
-[^25]: 简单沟通
+[^26]: 简单沟通
 
     Simple Communication
 
@@ -384,7 +399,7 @@
 
     arXiv:2509.09621v5 Announce Type: replace  Abstract: We study simple communication in a multidimensional cheap talk model with aligned preferences. An expert communicates with a decision-maker using a score, i.e., an aggregator of a multidimensional state into a one-dimensional message. Even though the expert and the decision-maker share the same payoffs, equilibrium payoffs are lower than those achievable under commitment to a score. Under quadratic-loss utility, any equilibrium score must be linear in the state or a coarsening of a linear score. Finally, for normally distributed states, we characterize the equilibrium linear scores and show they include the ex-ante best and worst linear scores.
     
-[^26]: 最低工资上调之后：短期劳动需求响应与再配置
+[^27]: 最低工资上调之后：短期劳动需求响应与再配置
 
     Just After Minimum Wage Hikes: Short-Run Labor-Demand Response and Reallocation
 
@@ -398,7 +413,7 @@
 
     arXiv:2505.04555v4 Announce Type: replace  Abstract: How labor markets adjust immediately after minimum wage hikes remains an open, policy-relevant question. This paper studies short-run minimum-wage effects in Japan's spot labor market using Timee data and a wage-bin difference-in-differences design. We find a normalized net employment-share change of $-0.010$, with similar estimates for vacancies and total working hours. Weekly and daily estimates show that these effects emerge immediately after implementation and then stabilize. Effects are more negative where the minimum-wage bite is higher and in restaurant work. Net share effects are negative for midnight shifts and postings offering transportation reimbursement. Gender-targeted and beginner-targeted postings show no significant net change. Decomposing vacancies by employers' posting histories, we find that incumbent employers cut postings below the new floor while employers that did not post before the revision post just above i
     
-[^27]: 非理性随机效用模型
+[^28]: 非理性随机效用模型
 
     Irrational Random Utility Models
 
@@ -412,7 +427,7 @@
 
     arXiv:2403.10208v1 Announce Type: new  Abstract: We show that the set of aggregate choices of a population of rational decision-makers - random utility models (RUMs) - can be represented by a population of irrational ones if, and only if, their preferences are sufficiently uncorrelated. We call this representation: Irrational RUM. We then show that almost all RUMs can be represented by a population in which at least some decision-makers are irrational and that under specific conditions their irrational behavior is unconstrained.
     
-[^28]: 高维尾指数回归：以社交媒体病毒帖子文本分析为例
+[^29]: 高维尾指数回归：以社交媒体病毒帖子文本分析为例
 
     High-Dimensional Tail Index Regression: with An Application to Text Analyses of Viral Posts in Social Media
 
@@ -426,7 +441,7 @@
 
     arXiv:2403.01318v1 Announce Type: cross  Abstract: Motivated by the empirical power law of the distributions of credits (e.g., the number of "likes") of viral posts in social media, we introduce the high-dimensional tail index regression and methods of estimation and inference for its parameters. We propose a regularized estimator, establish its consistency, and derive its convergence rate. To conduct inference, we propose to debias the regularized estimate, and establish the asymptotic normality of the debiased estimator. Simulation studies support our theory. These methods are applied to text analyses of viral posts in X (formerly Twitter) concerning LGBTQ+.
     
-[^29]: 在连续治疗下的多重稳健因果中介分析
+[^30]: 在连续治疗下的多重稳健因果中介分析
 
     Multiply Robust Causal Mediation Analysis with Continuous Treatments
 
