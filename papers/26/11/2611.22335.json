@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.22335",
     "context": "Title: Comparing Implicit and Explicit Language Attitudes toward the Dutch multiethnolect Straattaal in Humans and Large Language Models\nAbstract: arXiv:2611.22335v1 Announce Type: new  Abstract: While language attitudes have been extensively studied in humans, the extent to which large language models (LLMs) encode similar associations between language varieties and social attributes remains unclear. Contemporary sociolinguistic research distinguishes between explicit attitudes, which stem from deliberative processing, and implicit attitudes, which arise from automatic processing. This study investigates whether LLMs exhibit human-like implicit and explicit language attitudes toward the Dutch multiethnolect Straattaal, particularly its association with migrant communities. We use closely matched designs to assess attitudes in humans and LLMs. For humans, we use an Implicit Association Test (IAT) and an explicit rating task. For LLMs, we use the LLM Word Association Test (LLM WAT) and the same explicit rating task. Human participants strongly associate Straattaal with individuals with a migration background at both implicit and e",
     "path": "papers/26/11/2611.22335.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1116,
+    "translated_title": "比较人类与大语言模型对荷兰多民族社会方言Straattaal的内隐与外显语言态度",
+    "translated_abstract": "尽管语言态度在人类中已被广泛研究，但大语言模型（LLMs）在多大程度上编码了语言变体与社会属性之间类似的关联仍不清楚。当代社会语言学研究区分了源于深思熟虑加工的外显态度与源于自动加工的内隐态度。本研究调查大语言模型是否对荷兰多民族社会方言Straattaal表现出类似人类的内隐和外显语言态度，尤其是该方言与移民群体之间的关联。我们采用紧密匹配的设计来评估人类与大语言模型的态度：对于人类，我们使用内隐联想测验（IAT）和外显评分任务；对于大语言模型，我们使用大语言模型词汇联想测验（LLM WAT）和相同的外显评分任务。人类参与者在内隐和外显两个层面都将Straattaal与具有移民背景的个体强烈关联……",
+    "tldr": "本研究首次通过紧密匹配的实验设计，系统比较了人类与大语言模型对荷兰多民族方言Straattaal的内隐与外显语言态度，揭示了LLMs是否像人类一样将该方言与移民背景群体相关联。",
+    "en_tdlr": "This study uses closely matched experimental designs to systematically compare implicit and explicit language attitudes toward the Dutch multiethnolect Straattaal in humans and large language models, revealing whether LLMs encode human-like associations between this variety and migrant communities."
 }

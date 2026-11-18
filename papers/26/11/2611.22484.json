@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.22484",
     "context": "Title: Moral Inversion: Expressive Payoffs and the Reliability of Consensus\nAbstract: arXiv:2611.22484v1 Announce Type: new  Abstract: Moral inversion is a public consensus on an account that falsely reverses responsibility for a harm. We study how expressive payoffs affect its emergence in a sequential social-learning model. A larger payoff makes an account more attractive to endorse, but also makes each endorsement of that account weaker evidence in its favor. We show that under a single-peakedness condition on private beliefs a larger payoff both increases the probability of an incorrect consensus on the favored account and reduces its reliability. Without this condition, both comparisons can reverse, and the informativeness of the public record can strictly improve in the Blackwell order. Finally, we show that a sufficiently large increase in the expressive payoff nevertheless restores the benchmark comparative statics.",
     "path": "papers/26/11/2611.22484.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 926,
+    "translated_title": "道德倒置：表达性收益与共识的可靠性",
+    "translated_abstract": "道德倒置是指公众对某种说法达成共识，而该说法错误地颠倒了某一伤害的责任归属。我们研究表达性收益如何在序贯社会学习模型中影响其产生。更大的收益使某种说法更有吸引力去认同，但也使每一次对该说法的认同成为支持它的更弱证据。我们证明，在私人信念满足单峰性条件下，更大的收益既提高了对受偏好说法形成错误共识的概率，又降低了该共识的可靠性。若不满足这一条件，两种比较都可能逆转，且公共记录的信息量可在Blackwell序下严格改善。最后，我们表明，表达性收益的充分大的提升仍能恢复基准的比较静态结论。",
+    "tldr": "本文证明在序贯社会学习中，表达性收益的增大会同时提高错误道德倒置共识的概率并降低其可靠性（在信念单峰条件下），但条件不满足时结论可能逆转，且收益足够大时又会恢复基准结果。",
+    "en_tdlr": "This paper shows that larger expressive payoffs in sequential social learning simultaneously increase the probability of an incorrect consensus on a morally inverted account and reduce its reliability under single-peaked beliefs, though these comparisons can reverse without that condition and sufficiently large payoffs restore the benchmark comparative statics."
 }

@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.21617",
     "context": "Title: A Chain-of-Thought Prompt Engineering Framework for Automated Technical Specification Generation in Enterprise Integration: A Real-World Case Study\nAbstract: arXiv:2611.21617v1 Announce Type: new  Abstract: Technical Specification Documents (TSDs) translate functional requirements into implementable designs and are mandatory artifacts in governed Enterprise Application Integration (EAI) programs, yet their production remains a manual, expertise-intensive bottleneck. Large Language Models (LLMs) have been studied extensively for code generation, but long-form, template-governed engineering documents remain comparatively unexplored. This paper reports an industrial case study, conducted during a migration of more than 250 enterprise integrations to Microsoft Azure Integration Services at a large Australian wholesale distributor, that introduces a chain-of-thought prompt-engineering framework for automated TSD generation using GitHub Copilot. The framework combines a two-phase generation architecture that grounds the model in the functional specification, organizational standards, and the approved template; a six-stage prompting pipeline with ",
     "path": "papers/26/11/2611.21617.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1148,
+    "translated_title": "面向企业集成中技术规范自动生成的思维链提示工程框架：一项真实案例研究",
+    "translated_abstract": "技术规范文档将功能需求转化为可实施的设计，是受治理的企业应用集成（EAI）项目中的必备产物，但其制作过程仍然是一个手动的、依赖专业知识的瓶颈。大语言模型（LLM）在代码生成方面已被广泛研究，但长篇的、受模板约束的工程文档生成仍相对缺乏探索。本文报告了一项工业案例研究，该研究是在澳大利亚某大型批发分销商将250多个企业集成迁移至Microsoft Azure集成服务的过程中开展的，提出了一个使用GitHub Copilot自动生成技术规范文档的思维链提示工程框架。该框架结合了两阶段生成架构，将模型锚定于功能规范、组织标准和已批准的模板；并采用一个包含六个阶段的提示流水线……",
+    "tldr": "该论文提出了一种基于思维链的提示工程框架，通过两阶段生成架构与六阶段提示流水线相结合，利用GitHub Copilot在企业集成项目中自动生成技术规范文档，并在将250多个企业集成迁移至Azure的真实工业场景中验证了其有效性。",
+    "en_tdlr": "This paper introduces a chain-of-thought prompt engineering framework that combines a two-phase generation architecture with a six-stage prompting pipeline to automate technical specification document generation using GitHub Copilot, validated in a real-world industrial case study of migrating over 250 enterprise integrations to Azure."
 }

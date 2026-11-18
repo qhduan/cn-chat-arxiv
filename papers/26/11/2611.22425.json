@@ -4,9 +4,8 @@
     "link": "https://arxiv.org/abs/2611.22425",
     "context": "Title: LMMR: Learned Multigranular Memory Retrieval for Small Language Model Agents\nAbstract: arXiv:2611.22425v1 Announce Type: new  Abstract: Small language model agents have limited space to read the memory needed for multi-hop questions. Relevant facts are often scattered across records whose surrounding text consumes much of that space. We propose LMMR, a learned multigranular memory retrieval method that selects both the next source and how much of it to read. LMMR links paragraphs and sentence fragments to their original sources and pairs views that supply the same missing support during training. Relevant distractors and repeated information provide contrasting examples. At inference, the reranker scores what each candidate adds to an anchor passage, and a selector chooses the evidence within a token budget. On 22,398 official validation questions from HotpotQA, 2WikiMultihopQA, and MuSiQue, a frozen 2B answer model reaches 61.47, 43.26, and 30.58 F1 under a 400-token budget. The gains over query expansion are 3.06, 2.14, and 4.55 points, while memory input decreases by ",
     "path": "papers/26/11/2611.22425.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1340,
+    "translated_title": "LMMR：面向小型语言模型智能体的可学习多粒度记忆检索",
+    "translated_abstract": "小型语言模型智能体在读取多跳问题所需记忆时空间有限，而相关事实往往分散在多条记录中，这些记录的周边文本会占用大量空间。我们提出LMMR，一种可学习的多粒度记忆检索方法，它能够同时选择下一个来源以及读取该来源的多少内容。LMMR将段落和句子片段链接到其原始来源，并在训练期间将提供相同缺失支持的不同视图进行配对，相关的干扰项和重复信息则作为对比样本。在推理时，重排序器对每个候选内容为锚点段落带来的增量进行评分，选择器则在token预算内挑选证据。在来自HotpotQA、2WikiMultihopQA和MuSiQue的22,398个官方验证问题上，一个冻结的2B答案模型在400 token预算下分别取得61.47、43.26和30.58的F1分数，相比查询扩展方法分别提升3.06、2.14和4.55分，同时记忆输入有所减少（原文在此处截断）。",
+    "tldr": "LMMR提出一种可学习的多粒度记忆检索方法，能同时决定下一步读取哪个记忆来源及读取其多少内容，使小型语言模型智能体在严格token预算下更高效地完成多跳问答任务。"
 }

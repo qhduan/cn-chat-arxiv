@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.22216",
     "context": "Title: Settling the Time and Structural Complexity of Bertrand Networks\nAbstract: arXiv:2611.22216v1 Announce Type: cross  Abstract: In the seminal Bertrand network game introduced by Babaioff et al. (2013), each seller posts a single price to captive buyers and to the markets it shares with neighboring sellers, where sellers cannot price discriminate across the markets. Although the existence of equilibria and polynomial-time algorithms to compute them in trees (Babaioff et al. (2013)) have been known, it has been a major open problem whether there exist efficient algorithms to compute them for general graphs.   In this paper, we resolve this open question negatively by proving that computing any constant-error approximate Nash equilibrium in a Bertrand network is $\\PPAD$-complete. This hardness holds even on sparse bipartite graphs of maximum degree five with constant integer market weights. Complementing our hardness result, we design an efficient polynomial-time approximation scheme (EPTAS) when both the maximum degree and the number of sellers with captive buye",
     "path": "papers/26/11/2611.22216.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1525,
+    "translated_title": "确定Bertrand网络的时间与结构复杂性",
+    "translated_abstract": "在Babaioff等人（2013）开创性提出的Bertrand网络博弈中，每个卖家向其专属（captive）买家以及与相邻卖家共享的市场发布单一价格，且卖家无法跨市场进行价格歧视。尽管均衡的存在性以及树上计算均衡的多项式时间算法早已被证明，但针对一般图是否存在高效算法一直是一个重要的开放问题。本文通过证明在Bertrand网络中计算任意常数误差的近似纳什均衡是PPAD完全的，从而否定地解决了这一开放问题。该困难性结果即使在最大度为五、市场权重为常数整数的稀疏二部图上依然成立。作为对困难性结果的补充，当最大度与拥有专属买家的卖家数量均受限时，我们设计了一种高效的多项式时间近似方案（EPTAS）。",
+    "tldr": "本文解决了Bertrand网络领域的长期开放问题，证明了一般图上计算常数误差近似纳什均衡是PPAD完全的（即使在最大度为五的稀疏二部图上），并在受限情形下给出了高效多项式时间近似方案（EPTAS）。",
+    "en_tdlr": "This paper settles a long-standing open problem by proving that computing constant-error approximate Nash equilibria in Bertrand networks is PPAD-complete even on sparse bipartite graphs of maximum degree five, while complementing this hardness with an efficient polynomial-time approximation scheme (EPTAS) for bounded instances."
 }

@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.21616",
     "context": "Title: Revision-Consistent Code Context for Agents That Edit Their Environment\nAbstract: arXiv:2611.21616v1 Announce Type: new  Abstract: Editing agents query repositories while simultaneously changing them. Source content, symbols, graph relations, and retrieval state may be maintained by different stores and refreshed at different times. During an update, a successful query can therefore combine facts that never belonged to the same repository state. We call this condition mixed-revision code context.   This paper proposes an Agent-visible complete-revision publication contract for composite code-intelligence queries. Before a query-visible publication point, a service must wait, report unavailability, or serve a complete old revision; after that point, it serves the complete new revision. The contract requires a shared version identity and publication boundary across every view returned in one response.   We instantiate the method in Codetrip, whose brief operation joins source, symbol, and graph facts. In a controlled comparison on frozen Gin v1.12.0, live-source compo",
     "path": "papers/26/11/2611.21616.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1314,
+    "translated_title": "面向编辑自身环境的代理的版本一致代码上下文",
+    "translated_abstract": "编辑型代理在查询代码库的同时也在修改代码库。源代码内容、符号、图关系和检索状态可能由不同的存储系统维护，并在不同的时间点刷新。因此，在更新过程中，一次成功的查询可能会组合那些从未属于同一代码库状态的事实。我们将这种情况称为“混合修订代码上下文”。本文针对复合式代码智能查询提出了一种代理可见的完整修订发布契约。在查询可见的发布点之前，服务必须等待、报告不可用，或提供完整的旧修订版本；在该发布点之后，则提供完整的新修订版本。该契约要求在同一次响应中返回的每个视图都共享相同的版本标识和发布边界。我们在Codetrip中实例化了该方法，其简要操作将源代码、符号和图信息联接在一起。在冻结的Gin v1.12.0上的受控比较中，实时源组件……",
+    "tldr": "本文提出了一种代理可见的完整修订发布契约，用于解决编辑型代理在同时查询和修改代码库时出现的“混合修订代码上下文”问题，确保单次查询返回的所有视图（源代码、符号、图关系）都来自同一代码库版本。",
+    "en_tdlr": "This paper proposes an agent-visible complete-revision publication contract that solves the \"mixed-revision code context\" problem for agents that query and edit repositories simultaneously, ensuring all views returned in a single query come from the same repository state."
 }

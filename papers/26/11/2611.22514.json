@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.22514",
     "context": "Title: MM-ReportBench: A Comprehensive Benchmark for Multimodal Report Generation from Tables\nAbstract: arXiv:2611.22514v1 Announce Type: new  Abstract: The ability to generate multimodal reports integrating fluent narratives with faithful visualizations from tabular data, has become a cornerstone capability for modern vision-language models in practical domains such as finance, healthcare, and policy making. However, existing benchmarks are limited by single-modality focus, simplistic metrics, novelty evaluation, and visualization quality. We address these limitations with MM-ReportBench, a multimodal report evaluation benchmark covering 386 tasks across 185 real-world tables. Each task is paired with an expert-curated reference report featuring standardized chapter structures and verifiable key insight points, constructed through a hybrid pipeline of multimodal reports generation based on Monte Carlo Tree Search and rigorous human quality control. For robust evaluation, we design a dual-judge evaluation framework: Text Judge Model assesses textual quality along structural completeness,",
     "path": "papers/26/11/2611.22514.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1006,
+    "translated_title": "MM-ReportBench：一个面向表格多模态报告生成的综合性基准",
+    "translated_abstract": "从表格数据生成融合流畅叙述与忠实可视化的多模态报告，已成为现代视觉-语言模型在金融、医疗和政策制定等实际应用领域中的关键能力。然而，现有基准受限于单模态关注、过于简单的评估指标、新颖性评估不足以及可视化质量考量欠缺等问题。我们通过提出 MM-ReportBench 来解决这些局限，这是一个多模态报告评估基准，涵盖来自 185 个真实世界表格的 386 个任务。每个任务均配有一份由专家精心策划的参考报告，该报告具有标准化的章节结构和可验证的关键洞察点，并通过基于蒙特卡洛树搜索的多模态报告生成与严格人工质量控制的混合流水线构建而成。为实现稳健评估，我们设计了一个双裁判评估框架：文本裁判模型从结构完整性等方面评估文本质量……",
+    "tldr": "提出了 MM-ReportBench——一个涵盖 386 个任务与 185 个真实表格的多模态报告生成评估基准，通过专家策划的参考报告与双裁判评估框架，全面评估模型融合文本叙述与可视化生成的综合能力。",
+    "en_tdlr": "MM-ReportBench is a comprehensive benchmark with 386 tasks over 185 real-world tables for evaluating multimodal report generation from tabular data, featuring expert-curated reference reports and a dual-judge evaluation framework."
 }

@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.22827",
     "context": "Title: Compact and Decodable Electrocardiogram Text for Large Language Models\nAbstract: arXiv:2611.22827v1 Announce Type: new  Abstract: When a twelve-lead electrocardiogram is written as text for a large language model, the number of tokens has to be balanced against the information lost through compression. This paper presents a deterministic encoding that writes eight independent leads as amplitude letters and exact time gaps and recovers the remaining four limb leads algebraically. The key points are selected with a cardiac-cycle-dependent tolerance, the amplitudes are parameterized by a 26-letter logarithmic codebook learned from a training set, and a 10-step tolerance schedule keeps all records within a fixed token budget. The encoding was applied to 21,388 records from the public PTB-XL database and evaluated using an exact decode-and-re-encode round trip, waveform reconstruction error, and a paired comparison of convolutional classifiers trained with 5 different seeds on signals from the original and decoded databases. All records were contained in 4,080 tokens (a",
     "path": "papers/26/11/2611.22827.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1272,
+    "translated_title": "面向大语言模型的紧凑且可解码的心电图文本",
+    "translated_abstract": "当将十二导联心电图以文本形式呈现给大语言模型时，必须在标记数量与压缩导致的信息损失之间取得平衡。本文提出了一种确定性编码方法，将八个独立导联以幅值字母和精确时间间隔的形式写出，并通过代数方法恢复其余四个肢体导联。关键点采用依赖于心动周期的容差进行选取，幅值通过从训练集学习得到的26字母对数码本进行参数化，而一个10步容差调度方案确保所有记录都控制在固定的标记预算之内。该编码方法应用于公开的PTB-XL数据库中的21,388条记录，并通过精确的解码-再编码往返测试、波形重建误差，以及对分别基于原始信号和解码后信号训练的卷积分类器（5个不同随机种子）进行的配对比较加以评估。所有记录均被控制在4,080个标记以内。",
+    "tldr": "本文提出一种确定性、可精确解码的心电图文本编码方法，利用26字母对数码本、心动周期相关容差和代数导联恢复，将PTB-XL数据库中全部记录压缩至4080个标记以内且信息损失极小。",
+    "en_tdlr": "This paper proposes a deterministic, fully decodable text encoding for twelve-lead ECGs that combines a 26-letter logarithmic codebook, cardiac-cycle-dependent tolerances, and algebraic limb-lead recovery to fit all PTB-XL records within 4,080 tokens with minimal information loss."
 }

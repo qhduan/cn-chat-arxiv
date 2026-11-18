@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2509.09621",
     "context": "Title: Simple Communication\nAbstract: arXiv:2509.09621v5 Announce Type: replace  Abstract: We study simple communication in a multidimensional cheap talk model with aligned preferences. An expert communicates with a decision-maker using a score, i.e., an aggregator of a multidimensional state into a one-dimensional message. Even though the expert and the decision-maker share the same payoffs, equilibrium payoffs are lower than those achievable under commitment to a score. Under quadratic-loss utility, any equilibrium score must be linear in the state or a coarsening of a linear score. Finally, for normally distributed states, we characterize the equilibrium linear scores and show they include the ex-ante best and worst linear scores.",
     "path": "papers/25/09/2509.09621.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 911,
+    "translated_title": "简单沟通",
+    "translated_abstract": "我们研究具有一致偏好的多维廉价磋商模型中的简单沟通。专家使用一个“评分”与决策者进行沟通，即一个将多维状态聚合为一维信息的聚合器。尽管专家与决策者拥有相同的收益，均衡收益仍低于通过承诺某一评分所能实现的收益。在二次损失效用下，任何均衡评分都必须是状态的线性函数，或是线性评分的粗化。最后，对于正态分布的状态，我们刻画了均衡线性评分，并证明其中包含了事前最优与最差的线性评分。",
+    "tldr": "本文在偏好一致的多维廉价磋商模型中证明：任何均衡评分必须是线性评分或其粗化，均衡收益低于可承诺评分时的水平，并对正态分布状态刻画了均衡线性评分的特征。",
+    "en_tdlr": "This paper proves that in a multidimensional cheap talk model with aligned preferences, any equilibrium score must be linear in the state or a coarsening thereof, equilibrium payoffs fall short of those achievable under commitment, and it characterizes equilibrium linear scores for normally distributed states."
 }

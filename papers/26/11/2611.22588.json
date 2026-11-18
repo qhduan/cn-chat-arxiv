@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.22588",
     "context": "Title: ReBoT-MiCS: Reliability-Aware Bounding Time for Enhancing Timing Behavior of Embedded Mixed-Criticality Systems\nAbstract: arXiv:2611.22588v1 Announce Type: cross  Abstract: In Mixed-Criticality (MC) systems, considering multiple Worst-Case Execution Times (WCETs) for the same task, corresponding to different system operation modes, presents a fundamental challenge in MC system design. Identifying suitable WCETs for lower (LO) criticality system operational modes is inherently difficult. Tight low WCET values may trigger frequent mode switches that degrade Quality-of-Service (QoS) by dropping/degrading the lower-criticality tasks and reducing their functionality. However, more conservative values reduce resource efficiency. Moreover, low WCET selection affects exposure assumptions under the adopted transient-fault model, which is used in reliability-aware scheduling analysis. Although some studies have considered low WCET determination to make a reasonable trade-off between processor utilization, mode switching probability and QoS, reliability constraints are typically addressed separately through fault-to",
     "path": "papers/26/11/2611.22588.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1308,
+    "translated_title": "ReBoT-MiCS：面向嵌入式混合关键性系统时序行为增强的可靠性感知约束时间",
+    "translated_abstract": "arXiv:2611.22588v1 公告类型：cross 摘要：在混合关键性系统中，为同一任务考虑多个最坏情况执行时间（WCET），对应于不同的系统运行模式，是MC系统设计中的一个根本性挑战。为较低关键性系统运行模式确定合适的WCET本质上是困难的。过于紧凑的低WCET值可能触发频繁的模式切换，通过丢弃或降级低关键性任务并削减其功能来降低服务质量（QoS）；然而，更保守的取值则会降低资源效率。此外，低WCET的选择会影响所采用的瞬态故障模型下的暴露假设，而该模型被用于可靠性感知的调度分析。尽管已有一些研究考虑了低WCET的确定，以便在处理器利用率、模式切换概率和QoS之间进行合理权衡，但可靠性约束通常通过故障到（后文截断）……",
+    "tldr": "该论文提出ReBoT-MiCS方法，通过可靠性感知的低关键性WCET约束时间确定机制，在联合权衡QoS、模式切换与可靠性约束的前提下，增强嵌入式混合关键性系统的时序行为。",
+    "en_tdlr": "This paper proposes ReBoT-MiCS, a reliability-aware bounding time approach for determining low-criticality WCETs that enhances the timing behavior of embedded mixed-criticality systems by jointly balancing QoS, mode switching, and reliability constraints."
 }

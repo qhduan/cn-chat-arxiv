@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.22613",
     "context": "Title: Python Code Generation for Isabelle/HOL\nAbstract: arXiv:2611.22613v1 Announce Type: cross  Abstract: The Isabelle theorem prover provides an environment for formalising mathematics and reasoning about programs. To make verified implementations practically usable, its code generator translates functions expressed in the executable fragment of its logic into conventional programming languages. Its targets have traditionally been functional languages (Standard ML, OCaml, Haskell, and Scala), recently joined by Go. Python, which is becoming the dominant language of scientific computing, data science, and education, has remained out of reach. In this work, we close this gap with a Python backend for Isabelle's code generator. This generator enables verified algorithms to be used in Python applications, or to serve as verified references against which established Python libraries can be differentially tested, without leaving the Python ecosystem. We validate the backend on regression suites covering large parts of the HOL library and by tes",
     "path": "papers/26/11/2611.22613.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1181,
+    "translated_title": "Isabelle/HOL 的 Python 代码生成",
+    "translated_abstract": "Isabelle 定理证明器为数学形式化和程序推理提供了环境。为了使经过验证的实现具有实际可用性，其代码生成器将逻辑中可执行片段表达的函数翻译成常规编程语言。其目标语言传统上是函数式语言（Standard ML、OCaml、Haskell 和 Scala），最近新增了 Go。而 Python 作为在科学计算、数据科学和教育领域日益占据主导地位的语言，却一直未被支持。在本工作中，我们通过为 Isabelle 的代码生成器开发一个 Python 后端来填补这一空白。该生成器使经过验证的算法能够在 Python 应用中使用，或作为经过验证的参考实现，用于对现有 Python 库进行差分测试，而无需离开 Python 生态系统。我们通过覆盖 HOL 库大部分内容的回归测试套件进行测试，对该后端进行了验证。（摘要在此处截断）",
+    "tldr": "本文为 Isabelle 代码生成器开发了 Python 后端，使经过形式化验证的算法可以直接在 Python 生态中使用，或作为参考实现对现有 Python 库进行差分测试。",
+    "en_tdlr": "This work develops a Python backend for Isabelle's code generator, enabling formally verified algorithms to be used directly in the Python ecosystem or to serve as verified references for differential testing of existing Python libraries."
 }

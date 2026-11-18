@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.22045",
     "context": "Title: Beyond Acuity Accuracy: A Multidimensional Framework for Evaluating Patient-Facing Emergency Triage AI Tools\nAbstract: arXiv:2611.22045v1 Announce Type: new  Abstract: Patient-facing AI triage tools may support care-seeking and emergency department prioritization, but require evaluation beyond acuity accuracy alone. We developed SAFE-Triage, a framework integrating human review, automated metrics, LLM-as-judge evaluation, and simulation testing across clinical performance, patient interaction, and clinician-facing summary quality. We applied SAFE-Triage to 40 MIMIC-IV-derived emergency vignettes and a 10,030-case acuity analysis comparing prompted LLM triage (PLT) with rule-augmented prompted LLM triage (rPLT). PLT achieved higher emergency severity index (ESI) accuracy (57.5% vs 42.8%, $P < 0.001$), lower undertriage (13.1% vs 29.8%, $P < 0.001$), and higher clinician ratings across all domains. rPLT produced shorter and more stable outputs with higher automated readability scores. SAFE-Triage identified trade-offs between acuity accuracy, undertriage risk, communication quality, readability, and summ",
     "path": "papers/26/11/2611.22045.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1555,
+    "translated_title": "超越急性程度准确性：评估面向患者的急诊分诊AI工具的多维框架",
+    "translated_abstract": "面向患者的AI分诊工具可以支持就医决策和急诊科优先级排序，但需要在急性程度准确性之外进行更全面的评估。我们开发了SAFE-Triage框架，该框架整合了人工审查、自动化指标、LLM作为评审（LLM-as-judge）的评估以及模拟测试，涵盖临床表现、患者交互和面向临床医生的摘要质量三个维度。我们将SAFE-Triage应用于40个源自MIMIC-IV的急诊病例情景，以及一项包含10,030个病例的急性程度分析，比较了提示式LLM分诊（PLT）与规则增强的提示式LLM分诊（rPLT）。PLT实现了更高的急诊严重程度指数（ESI）准确性（57.5% vs 42.8%，P < 0.001）、更低的分诊不足率（13.1% vs 29.8%，P < 0.001），并且在所有领域都获得了更高的临床医生评分。rPLT则产生了更短且更稳定的输出，并具有更高的自动化可读性评分。SAFE-Triage识别出了急性程度准确性、分诊不足风险、沟通质量、可读性和摘要质量之间的权衡。",
+    "tldr": "本文提出了SAFE-Triage多维评估框架，整合人工审查、自动化指标、LLM评审和模拟测试来全面评估面向患者的急诊分诊AI工具，发现提示式LLM分诊在准确性和分诊不足率上优于规则增强版本，但两者在沟通质量、可读性与摘要质量之间存在权衡。",
+    "en_tdlr": "This paper introduces SAFE-Triage, a multidimensional evaluation framework integrating human review, automated metrics, LLM-as-judge, and simulation testing for patient-facing emergency triage AI tools, showing that prompted LLM triage outperforms its rule-augmented variant in accuracy and undertriage, while revealing trade-offs among communication quality, readability, and summary quality."
 }

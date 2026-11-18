@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.23203",
     "context": "Title: Identifying and Repairing Energy Smells with Agent Skills\nAbstract: arXiv:2611.23203v1 Announce Type: new  Abstract: Energy smells are inefficient implementations that waste energy. Once code reaches production, these smells become costlier and riskier to fix, so energy efficiency checks should shift left, i.e., move earlier in the development lifecycle, to where code is written. Existing energy smell tools rely on fixed static rules and do not measure energy savings, whereas LLM-based optimizers mostly target execution time and rarely ground their changes in concrete smell definitions. To address both limitations, we present DR. GREENS, an agent skill that detects and repairs energy smells in Python code within the developer's coding environment. The skill grounds the coding agent in our taxonomy of 12 energy smells and 65 root causes, augmented with repair guidance drawn from 230 measured cases. The skill also encapsulates a static analyzer and an independent verifier to confirm behavior preservation and energy saving for each attempted repair. We ev",
     "path": "papers/26/11/2611.23203.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1561,
+    "translated_title": "利用智能体技能识别与修复能耗坏味道",
+    "translated_abstract": "能耗坏味道是指浪费能源的低效代码实现。一旦代码进入生产环境，修复这些坏味道的成本更高、风险更大，因此能效检查应当“左移”，即提前到开发生命周期中编写代码的阶段。现有的能耗坏味道工具依赖于固定的静态规则，且不测量节能效果；而基于大语言模型的优化器大多以执行时间为目标，很少将其修改建立在具体的坏味道定义之上。为解决这两方面的局限，我们提出了 DR. GREENS，一种在开发者编码环境中检测并修复 Python 代码能耗坏味道的智能体技能。该技能以我们提出的包含 12 种能耗坏味道和 65 种根因的分类体系为基础，并辅以来自 230 个实测案例的修复指南。该技能还封装了一个静态分析器和一个独立验证器，用以确认每次尝试的修复既保持了原有行为又实现了节能。我们评估了……（摘要原文在此处截断）",
+    "tldr": "本文提出 DR. GREENS 智能体技能，基于 12 种能耗坏味道与 65 种根因的分类体系及 230 个实测修复案例，在开发者编码环境中检测并修复 Python 代码的能耗坏味道，并通过静态分析器与独立验证器确保修复保持行为不变且确实节能。",
+    "en_tdlr": "DR. GREENS is an agent skill that detects and repairs energy smells in Python code within the developer's coding environment, grounded in a taxonomy of 12 energy smells and 65 root causes with repair guidance from 230 measured cases, and validated by a static analyzer and independent verifier to ensure behavior preservation and real energy savings."
 }

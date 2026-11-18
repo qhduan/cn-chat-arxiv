@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.22675",
     "context": "Title: Exact and Approximate Maximum Likelihood Estimation for Multivariate Diffusions under High-Frequency Sampling\nAbstract: arXiv:2611.22675v1 Announce Type: cross  Abstract: We establish the asymptotic theory of the exact maximum likelihood estimator (MLE) for discretely observed multivariate ergodic diffusions under high-frequency, long-span sampling, solving an open problem posed by \\citet{YCW2019} and \\citet{Li2013}. The drift may grow linearly, and the volatility is bounded away from zero and either bounded or proportional to $1+|x|$. When the sampling interval decays polynomially, the exact MLE is consistent, asymptotically normal and efficient, with rates $\\sqrt{n\\Delta_n}$ for drift and $\\sqrt n$ for diffusion parameters. Under an additional condition on ergodic averages, and when the time span $n\\Delta_n$ also grows polynomially, its moments converge as well. The proof never analyzes the exact likelihood directly: it shows that a closed-form density expansion of sufficiently high order is uniformly accurate in relative terms at every observed transition, so that the two log-likelihoods differ by $o",
     "path": "papers/26/11/2611.22675.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1443,
+    "translated_title": "高频采样下多维扩散过程的精确与近似极大似然估计",
+    "translated_abstract": "我们建立了离散观测的多维遍历扩散过程在高频、长时间跨度采样下精确极大似然估计量（MLE）的渐近理论，解决了由 \\citet{YCW2019} 和 \\citet{Li2013} 提出的一个公开问题。模型允许漂移项线性增长，波动率有下界远离零，且可以是有界的或与 $1+|x|$ 成比例。当采样间隔按多项式速度衰减时，精确极大似然估计量具有一致性、渐近正态性和有效性，其中漂移参数的收敛速率为 $\\sqrt{n\\Delta_n}$，扩散参数的收敛速率为 $\\sqrt n$。在关于遍历平均值的附加条件下，当时间跨度 $n\\Delta_n$ 也按多项式速度增长时，估计量的矩也收敛。证明过程从未直接分析精确似然函数：该方法证明了足够高阶的闭式密度展开在每一次观测到的转移处都具有相对误差一致精确性，从而使两个对数似然之差为 $o$（原文此处被截断）。",
+    "tldr": "该论文建立了高频、长时间跨度采样下离散观测多维遍历扩散过程精确极大似然估计的完整渐近理论（一致性、渐近正态性、有效性与矩收敛），解决了此前文献提出的公开问题，其核心证明思路是用高阶闭式密度展开在每个观测转移处的相对一致精确性来替代对精确似然的直接分析。",
+    "en_tdlr": "This paper establishes the full asymptotic theory (consistency, asymptotic normality, efficiency, and moment convergence) of the exact MLE for discretely observed multivariate ergodic diffusions under high-frequency, long-span sampling, solving an open problem, with the key proof idea being that a high-order closed-form density expansion is uniformly accurate in relative terms at every observed transition, avoiding direct analysis of the exact likelihood."
 }

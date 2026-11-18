@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.22935",
     "context": "Title: The Shared Word: Evaluating Language Models on Dutch Word Puzzles\nAbstract: arXiv:2611.22935v1 Announce Type: new  Abstract: Many LLM benchmarks for languages other than English are translated, multiple-choice, or difficult to score automatically. We introduce The Shared Word (TSW-NL), a Dutch benchmark built around four core principles: it is language-specific, open-vocabulary, human-curated, and deterministically scored. Each puzzle gives three clues that describe different senses or uses of the same Dutch word. The clues are individually ambiguous, requiring the solver to combine evidence across multiple clues. We construct the benchmark from Dutch Wikipedia disambiguation pages, followed by automatic filtering and extensive manual curation. The final dataset contains 222 instances, with three independent human answers per test item. The task is clearly challenging: scores in our human study range from 49.5% to 61.0% and the highest-scoring open-weight model we tested reaches only 39.3%. Many others even score below 20%. At the same time, closed-source mode",
     "path": "papers/26/11/2611.22935.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1347,
+    "translated_title": "共享之词：用荷兰语文字谜题评估语言模型",
+    "translated_abstract": "许多针对英语以外语言的大语言模型基准要么是翻译而来的，要么是选择题形式，要么难以自动评分。我们提出了 The Shared Word（TSW-NL），这是一个围绕四个核心原则构建的荷兰语基准：语言特定性、开放词汇、人工策划和确定性评分。每个谜题给出三个线索，描述同一个荷兰语单词的不同含义或用法。这些线索各自都有歧义，要求解题者综合跨多个线索的证据来作答。我们基于荷兰语维基百科的消歧义页面构建该基准，随后进行自动过滤和大量人工策划。最终数据集包含222个实例，每个测试项有三个独立的人工答案。该任务显然具有挑战性：在我们的人类研究中，得分范围为49.5%至61.0%，而我们测试的得分最高的开放权重模型仅达到39.3%，许多其他模型甚至得分低于20%。与此同时，闭源模……（摘要在此处被截断）",
+    "tldr": "该论文提出了TSW-NL——一个基于荷兰语文字谜题的、语言特定、开放词汇、人工策划且可确定性评分的新基准，人类得分仅为49.5%–61.0%，而最佳开放权重模型仅达39.3%，凸显了该任务对语言模型的高度挑战性。",
+    "en_tdlr": "This paper introduces TSW-NL, a language-specific, open-vocabulary, human-curated, and deterministically scored Dutch benchmark based on word puzzles, on which humans score 49.5%–61.0% while the best open-weight model reaches only 39.3%, highlighting the task's difficulty for language models."
 }

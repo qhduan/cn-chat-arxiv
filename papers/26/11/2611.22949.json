@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.22949",
     "context": "Title: Can Decision Models Replace LLMs in Real-World Contact Center Classification and Judging Tasks?\nAbstract: arXiv:2611.22949v1 Announce Type: new  Abstract: Contact center systems often need to make bounded decisions, such as identifying a caller's intent, retrieving the knowledge-base article that answers a query, assessing agent compliance, or judging the output of AI models used in production. Decision models return a typed answer and its probability directly, making them a promising cost-effective alternative to generative Large Language Models (LLMs) in such bounded conversational tasks. However, their effectiveness in real-world contact center applications remains unclear. In this paper, we compare nine decision models against thirteen generative LLMs in zero-shot settings across eight contact center use cases: six classification tasks and two judging tasks. Our experiments demonstrate that many decision models can match the performance of frontier LLMs on contact center classification, and API-based closed decision models achieve this at the lowest per-request cost among the API model",
     "path": "papers/26/11/2611.22949.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1358,
+    "translated_title": "决策模型能否在真实世界呼叫中心的分类与评判任务中取代大语言模型？",
+    "translated_abstract": "呼叫中心系统经常需要做出有界决策，例如识别来电者的意图、检索能回答查询的知识库文章、评估客服坐席的合规性，或对生产环境中使用的AI模型输出进行评判。决策模型直接返回带类型的答案及其概率，这使其成为此类有界会话任务中生成式大语言模型（LLM）的一种颇具前景的高性价比替代方案。然而，决策模型在真实世界呼叫中心应用中的有效性仍不清楚。本文在零样本设置下，将九个决策模型与十三个生成式LLM在八个呼叫中心用例上进行了比较，其中包括六个分类任务和两个评判任务。实验结果表明，许多决策模型在呼叫中心分类任务上的表现可以匹敌前沿LLM，而基于API的闭源决策模型更是以API模型中最低的单次请求成本实现了这一效果。",
+    "tldr": "本研究在八个真实呼叫中心分类与评判任务上系统对比了九个决策模型和十三个生成式LLM，发现许多决策模型能够匹敌前沿LLM的性能，且基于API的闭源决策模型以最低的单次请求成本实现这一效果，证明决策模型是有界会话任务中LLM的高性价比替代方案。",
+    "en_tdlr": "By benchmarking nine decision models against thirteen generative LLMs across eight real-world contact center tasks, this paper shows that decision models can match frontier LLM performance on classification tasks, with API-based closed decision models achieving this at the lowest per-request cost, making them a cost-effective alternative to LLMs in bounded conversational tasks."
 }

@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.22638",
     "context": "Title: Nested logit: model structure and normalisation\nAbstract: arXiv:2611.22638v1 Announce Type: new  Abstract: Nested logit remains a widely used model, especially in applied work. However, there remains substantial confusion surrounding the existence of different versions of the model, different normalisations for the same version, and different software implementations. This paper argues that the labels in common use, RU1 and RU2, and the name non-normalised nested logit (NNNL) itself, have contributed to the confusion. The model is written in two forms: one in which utilities are divided by the structural parameter of the nest that contains them, which is consistent with utility maximisation by construction, and one without that division, known as NNNL. The difference between these forms is not one of normalisation. Normalising at the top or at the bottom gives the same model, and NNNL is itself normalised. What distinguishes the forms is whether the division is performed. In short, normalisation changes the units, whereas division changes the",
     "path": "papers/26/11/2611.22638.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1355,
+    "translated_title": "嵌套Logit：模型结构与归一化",
+    "translated_abstract": "嵌套Logit模型至今仍被广泛使用，尤其是在应用研究工作中。然而，围绕该模型的不同版本、同一版本的不同归一化方式以及不同软件实现，仍存在相当大的混淆。本文认为，常用的标签RU1和RU2，以及“非归一化嵌套Logit”（NNNL）这一名称本身，都加剧了这种混淆。该模型可以写成两种形式：一种是将效用除以包含它们的嵌套层的结构参数，这种形式在构造上与效用最大化保持一致；另一种则是没有进行该除法运算的形式，即NNNL。这两种形式之间的区别并非归一化方式的不同：在顶层或底层进行归一化得到的都是同一个模型，而且NNNL本身也是经过归一化的。区分这两种形式的关键在于是否执行了除法运算。简而言之，归一化改变的是单位，而除法改变的是……（原文摘要在此处截断）",
+    "tldr": "本文澄清了嵌套Logit模型中RU1、RU2及NNNL等术语引起的混淆，指出两种模型形式的本质区别在于是否将效用除以所在嵌套层的结构参数，而并非归一化方式的差异。",
+    "en_tdlr": "This paper clarifies the confusion caused by the labels RU1, RU2, and NNNL in nested logit modelling, showing that the real distinction between the two model forms lies in whether utilities are divided by the structural parameter of their nest, not in the choice of normalisation."
 }

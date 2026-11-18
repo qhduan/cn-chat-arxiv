@@ -4,9 +4,8 @@
     "link": "https://arxiv.org/abs/2611.23119",
     "context": "Title: Dynamic Task Allocation with Dialogue\nAbstract: arXiv:2611.23119v1 Announce Type: new  Abstract: Effective multi-agent collaboration requires agents to adapt task allocation as goals and responsibilities evolve. Prior task-allocation frameworks often assume static goals, full observability, or rely on large language models (LLMs) without explicit, verifiable beliefs about task allocation or intent. These assumptions limit their applicability to real-world collaboration, where agents often lack full information about each other's actions, progress, or local environment. To support dynamic task allocation under partial observability, we introduce a communication-augmented Bayesian task-allocation framework. Our agent uses dialogue to reduce uncertainty about the environment and collaborators, while keeping decisions grounded in explicit probabilistic beliefs. We evaluate our framework in an Overcooked domain extended with dynamically arriving tasks under both full and partial object-space observability. Our communication agent consist",
     "path": "papers/26/11/2611.23119.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1109,
+    "translated_title": "基于对话的动态任务分配",
+    "translated_abstract": "有效的多智能体协作要求智能体随着目标和职责的演变而调整任务分配。以往的任务分配框架通常假设目标静态、完全可观测，或者依赖大语言模型（LLMs）而缺乏关于任务分配或意图的显式、可验证的信念。这些假设限制了它们在现实世界协作中的适用性，因为现实协作中智能体往往缺乏关于彼此行动、进展或局部环境的完整信息。为了支持部分可观测条件下的动态任务分配，我们提出了一种通信增强的贝叶斯任务分配框架。我们的智能体利用对话来减少对环境和协作者的不确定性，同时使决策建立在显式的概率信念基础上。我们在一个扩展了动态到达任务的Overcooked领域中，分别在完全对象空间可观测和部分可观测两种条件下对该框架进行了评估。我们的通信智能体由……（摘要在此处截断）",
+    "tldr": "本文提出了一种通信增强的贝叶斯任务分配框架，使智能体在部分可观测的多智能体协作中能够通过对话降低不确定性，并基于显式概率信念实现动态任务分配。"
 }

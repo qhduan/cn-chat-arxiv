@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.22665",
     "context": "Title: Contract-Explicit Evaluation: From Auditing Learned Readers to Scoped Certificates\nAbstract: arXiv:2611.22665v1 Announce Type: new  Abstract: Evaluation readings of document-level relation extraction (DocRE) systems depend jointly on the model and the evaluation contract: gold version, scoring function, threshold. Rankings reverse across contracts, yet no existing method determines which comparisons survive the reversal. We address this gap with contract-explicit evaluation: a preregistered five-step protocol (Declare, Measure, Scope, Certify, Hedge), operationalizing the classical concordance decomposition of Kendall's rank correlation, that scopes certifiable regions and delivers distribution-free census certificates across two ecosystems. In the DocRE audit (44 training runs of one in-house architecture family), the scoring dimension scopes to a census certificate (three flagged instances, Clopper--Pearson upper bound 0.146); the confirmatory record includes registered negatives, and the audit prices its own simplification finding---the calibration dial's entire margin is o",
     "path": "papers/26/11/2611.22665.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1329,
+    "translated_title": "显式契约评估：从审计学习型阅读器到定界证书",
+    "translated_abstract": "对文档级关系抽取（DocRE）系统进行评估的读数共同依赖于模型和评估契约：金标准版本、评分函数和阈值。排名在不同契约之间会反转，然而现有方法都无法确定哪些比较在反转后仍然成立。我们通过显式契约评估来填补这一空白：这是一个预注册的五步协议（声明、测量、定界、认证、对冲），它对Kendall秩相关系数的经典一致性分解进行操作化，在两个生态系统中定界可认证的区域并提供无分布假设的普查证书。在DocRE审计中（对同一内部架构族的44次训练运行），评分维度被定界为一个普查证书（三个被标记的实例，Clopper--Pearson上界为0.146）；验证性记录包括注册的阴性结果，且该审计为其自身的简化发现进行了定价——校准刻度盘的整个边际是o……",
+    "tldr": "本文提出“显式契约评估”方法，通过预注册的五步协议（声明、测量、定界、认证、对冲）操作化Kendall秩相关的一致性分解，从而定界在不同评估契约（金标准版本、评分函数、阈值）下仍然成立的可认证比较区域，并提供无分布假设的普查证书，应用于文档级关系抽取系统的审计。",
+    "en_tdlr": "This paper proposes contract-explicit evaluation, a preregistered five-step protocol (Declare, Measure, Scope, Certify, Hedge) that operationalizes the concordance decomposition of Kendall's rank correlation to scope certifiable comparison regions and deliver distribution-free census certificates across evaluation contracts in document-level relation extraction."
 }

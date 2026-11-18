@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2602.23877",
     "context": "Title: Difference-in-differences for mediation analysis using double machine learning\nAbstract: arXiv:2602.23877v2 Announce Type: replace  Abstract: We propose a difference-in-differences (DiD) framework with mediation for possibly multivalued discrete or continuous treatments and mediators, aimed at identifying the direct effect of the treatment on the outcome (net of effects operating through the mediator), the indirect effect via the mediator, and the joint effects of treatment and mediator, consistent with the framework of dynamic treatment effects. Identification relies on a conditional parallel trends assumption imposed on the mean potential outcome across treatment and mediator states, or (depending on the causal parameter) additionally on the mean potential outcomes and potential mediator distributions across treatment states. We propose ATET estimators for repeated cross sections and panel data within the double/debiased machine learning framework, which allows for data-driven control of covariates, and we establish their asymptotic normality under standard regularity co",
     "path": "papers/26/02/2602.23877.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1054,
+    "translated_title": "基于双重机器学习的中介分析双重差分方法",
+    "translated_abstract": "我们提出了一个包含中介效应的双重差分框架，适用于可能为多值离散或连续的处理变量和中介变量，旨在识别处理对结果的直接效应（剔除通过中介传导的效应）、经由中介的间接效应，以及处理与中介的联合效应，并与动态处理效应框架保持一致。识别依赖于施加在处理和中介状态上平均潜在结果的条件平行趋势假设，或（取决于所研究的因果参数）额外依赖于处理状态间的平均潜在结果和潜在中介分布。我们在双重/去偏机器学习框架内提出了适用于重复截面数据和面板数据的ATET估计量，该框架允许对协变量进行数据驱动的控制，并在标准正则性条件下建立了这些估计量的渐近正态性。",
+    "tldr": "本文提出了一个结合双重差分与中介分析的双重机器学习框架，用于估计多值离散或连续处理变量对结果的直接效应、经由中介的间接效应及联合效应。",
+    "en_tdlr": "A double machine learning-based difference-in-differences framework for mediation analysis that identifies direct, indirect, and joint treatment effects for multivalued discrete or continuous treatments and mediators."
 }

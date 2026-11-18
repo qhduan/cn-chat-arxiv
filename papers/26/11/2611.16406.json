@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.16406",
     "context": "Title: One-Sided Randomization in Two-Sided Platform Experiments: Which Side Should be Randomized?\nAbstract: arXiv:2611.16406v2 Announce Type: replace-cross  Abstract: Two-sided marketplace platforms often use randomized experiments to evaluate new features, raising the question of whether to randomize customers or listings. Randomizing the smaller (\\emph{short}) side can reduce interference bias due to weaker competition, while randomizing the larger (\\emph{long}) side provides a larger nominal sample, potentially reducing variance. On the surface, these competing considerations suggest a bias-variance trade-off in choosing which side to randomize. We investigate this trade-off in a two-sided marketplace with first-come, first-served (FCFS) booking and heterogeneous customer preferences, studying the bias and variance of difference-in-means estimators of the global average treatment effect.   Our findings suggest that rather than a bias-variance tradeoff, in fact short-side randomization is generally preferable on {\\em both} dimensions. We prove these results in an asymptotic regime where ma",
     "path": "papers/26/11/2611.16406.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1161,
+    "translated_title": "双边平台实验中的单边随机化：应该对哪一侧进行随机化？",
+    "translated_abstract": "双边市场平台通常使用随机化实验来评估新功能，这引发了一个问题：应该对客户还是房源（listing）进行随机化。随机化较小的一侧（短侧）可以因竞争较弱而减少干扰偏差，而随机化较大的一侧（长侧）则提供了更大的名义样本量，可能降低方差。表面上，这些相互竞争的考虑因素表明，在选择随机化哪一侧时存在偏差-方差权衡。我们在一个具有先到先得（FCFS）预订机制和异质客户偏好的双边市场中研究这种权衡，分析全局平均处理效应的均值差估计量的偏差和方差。我们的研究结果表明，这并非偏差-方差权衡，实际上短侧随机化在这两个维度上通常都更优。我们在一个渐近状态下证明了这些结果，其中……（摘要截断）",
+    "tldr": "双边平台实验中选择随机化短侧（供给或需求中较小的一侧）在减少偏差和降低方差两个维度上通常都优于随机化长侧，因此并不存在传统认为的偏差-方差权衡。",
+    "en_tdlr": "In two-sided platform experiments, randomizing the short side is generally preferable on both bias and variance dimensions, so there is no actual bias-variance trade-off when choosing which side to randomize."
 }

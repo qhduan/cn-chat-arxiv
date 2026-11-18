@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.21627",
     "context": "Title: Usage Patterns of Programming Languages and Tools: A Systematic Literature Review\nAbstract: arXiv:2611.21627v1 Announce Type: new  Abstract: Technology and the popularity of languages and tools are rapidly evolving. Thus, it is important to constantly assess the most popular languages and tools used in industry, furthering the collaboration between research and the software industry. In this study, we use a systematic literature review and investigate 37 studies published between 2015 -- 2024, which explored the programming languages, IDEs and CI tools used in industry. We observed that Java is most often listed among the most popular languages, and there are limited studies that investigate specific IDE usage. Also, Travis CI and GitHub Actions are the most common CI tools identified as being top CI tools used in industry. Overall, evidence shows that there is a lack of research focused on popular languages and tools used in industry, largely as there are many limitations with the possible methodology approaches. For example, lack of access to closed-source projects and samp",
     "path": "papers/26/11/2611.21627.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1121,
+    "translated_title": "编程语言与工具的使用模式：一项系统性文献综述",
+    "translated_abstract": "技术以及编程语言和工具的流行程度正在快速演变。因此，持续评估工业界最流行的语言和工具非常重要，这将促进学术界与软件产业之间的进一步合作。在本研究中，我们采用系统性文献综述方法，调查了2015年至2024年间发表的37项研究，这些研究探讨了工业界所使用的编程语言、IDE（集成开发环境）和CI（持续集成）工具。我们观察到，Java最常被列为最流行的编程语言，而针对特定IDE使用情况的研究则较为有限。此外，Travis CI和GitHub Actions是被认定为工业界主流CI工具中最常见的两种CI工具。总体而言，证据表明，目前缺乏针对工业界流行语言和工具的研究，这在很大程度上是由于可能的研究方法存在诸多局限，例如无法访问闭源项目以及抽样受限等。",
+    "tldr": "本系统性文献综述分析了2015-2024年间的37项研究，发现Java是工业界最流行的编程语言、Travis CI和GitHub Actions是最常用的CI工具，但针对工业界流行语言和工具（尤其是IDE使用）的研究仍然匮乏。",
+    "en_tdlr": "This systematic literature review of 37 studies published between 2015 and 2024 finds that Java is the most popular programming language in industry, Travis CI and GitHub Actions are the most common CI tools, and research on popular industry languages and tools—particularly IDE usage—remains scarce."
 }

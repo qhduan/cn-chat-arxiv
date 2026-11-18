@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.21636",
     "context": "Title: A Survey of Modeling Languages for Automotive Digital Twins\nAbstract: arXiv:2611.21636v1 Announce Type: new  Abstract: The demand for digital twins and suitable modeling techniques in the automotive industry is increasing rapidly. Yet, there is no common understanding of digital twins in automotive, nor are there modeling techniques established to create automotive digital twins. Recent studies on digital twins focus on the analysis of the literature on digital twins for automotive or in general and, thus, neglect the industrial perspective of automotive practitioners. To mitigate this gap between scientific literature and the industrial perspective, we conducted a questionnaire survey among experts in the German automotive industry to identify (i) the desired purposes for and capabilities of digital twins, (ii) the modeling techniques related to engineering and operating digital twins across the phases of automotive development, and (iii) the role informal models play during automotive development. To this end, we contacted 189 members of the Software-D",
     "path": "papers/26/11/2611.21636.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1139,
+    "translated_title": "汽车数字孪生建模语言综述",
+    "translated_abstract": "汽车行业对数字孪生及合适建模技术的需求正在迅速增长。然而，汽车领域对数字孪生尚缺乏统一的理解，也没有建立起用于创建汽车数字孪生的建模技术。近期关于数字孪生的研究主要集中于对汽车领域或一般性数字孪生文献的分析，因而忽视了汽车从业者的行业视角。为了弥合科学文献与工业视角之间的差距，我们在德国汽车行业的专家中开展了一项问卷调查，以识别：（i）数字孪生所期望的用途与能力，（ii）在汽车开发各阶段中与数字孪生工程化和运行相关的建模技术，以及（iii）非正式模型在汽车开发过程中所扮演的角色。为此，我们联系了189位软件定义车辆（Software-Defined Vehicle）社区的成员……",
+    "tldr": "本文通过对德国汽车行业专家的问卷调查，识别了汽车数字孪生的期望用途与能力、汽车开发各阶段相关的建模技术以及非正式模型的作用，弥合了学术文献与工业实践之间的差距。",
+    "en_tdlr": "This paper conducts a questionnaire survey among German automotive industry experts to identify the desired purposes and capabilities of automotive digital twins, the modeling techniques involved across development phases, and the role of informal models, bridging the gap between scientific literature and industrial practice."
 }

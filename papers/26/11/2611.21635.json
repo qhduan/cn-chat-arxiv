@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.21635",
     "context": "Title: We Fixed the Scorer First, and Cluster Correction Killed Our Own Planted-Defect Result in AI Code Review\nAbstract: arXiv:2611.21635v1 Announce Type: new  Abstract: Judging an AI code-review pipeline only by how much it catches hides an axis: what it dropped. Stronger selection raises precision for free; the cost never reaches the report. We ran four arms on the same eight cases, one scorer, asking whether planted-defect detection can rise without raising the claim error rate. Three repetitions are nested in eight cases, so p is reported per contrast and twice: under an exact permutation test over cases (2^8 arrangements) the two contrasts publishable under independence (Fisher p=0.017, 0.019) move to 0.0625 and 0.109, and after Holm correction no contrast separates. This is \"not observable with this design,\" not \"no effect\": the sign test needs six discordant cases in one direction, its realized type-I rate under the null is 0.0078, and 80% power needs a per-case win probability near 0.80; closing it takes 12-25 cases, not repetitions. Within a run, a second pass never removes what the first found ",
     "path": "papers/26/11/2611.21635.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1692,
+    "translated_title": "我们先修正了评分器，随后聚类校正推翻了我们在AI代码审查中植入缺陷检测的自家结果",
+    "translated_abstract": "仅凭AI代码审查管线能捕获多少问题来评判它，会掩盖另一个维度：它漏掉了什么。更强的筛选会“免费”提升精确率，而其代价永远不会体现在报告中。我们在相同的八个案例上运行四个实验分支、使用同一个评分器，探究植入缺陷检测率能否在不提高误报率的情况下上升。三次重复嵌套于八个案例之中，因此p值按每个对比分别报告且报告两次：在基于案例的精确置换检验（2^8种排列）下，原本在独立性假设下“可发表”的两组对比（Fisher p=0.017与0.019）分别升至0.0625和0.109，而经Holm校正后没有任何对比仍具显著性。这是“在本设计下无法观测到”，而非“没有效应”：符号检验需要在同一方向上出现六个不一致案例，其在原假设下的实际I类错误率为0.0078，而要达到80%统计功效需要单案例胜率接近0.80；弥补这一差距需要12至25个案例，而非更多重复次数。在同一轮运行中，第二次检查永远不会移除第一次检查所发现的问题。",
+    "tldr": "本文的核心贡献在于：修正评分器后，通过精确置换检验与Holm多重校正证明原先看似显著的AI代码审查植入缺陷检测结果并不成立，并指出提升检测统计功效需要增加测试案例数（12-25个）而非增加重复次数。",
+    "en_tdlr": "After fixing the scorer, exact permutation tests and Holm correction nullified our own previously significant planted-defect detection result in AI code review, showing that real gains require 12-25 test cases rather than more repetitions."
 }

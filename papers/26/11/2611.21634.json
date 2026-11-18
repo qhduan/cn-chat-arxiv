@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.21634",
     "context": "Title: Trusting Trust in AI Software Engineering Agents: The Why, What, and How?\nAbstract: arXiv:2611.21634v1 Announce Type: new  Abstract: AI software engineering agents are increasingly integrated into development workflows, from autocomplete assistants to autonomous repair agents and multi-agent software development pipelines. Trust matters because these agents can produce, revise, and pass on artifacts that developers, other agents, or organisations may later rely on under uncertainty and risk. Yet trust in such systems is often treated as a single measurable property of an AI system. This is insufficient for software engineering, where trust depends on who relies on the agent, how that reliance is structured, and which properties must hold in that deployment. We propose a structural framework for reasoning about trust in AI software engineering agents. Inspired by the recursive nature of trust in software systems, we decompose trust into three analytical questions: Why trust?, identifying the trust scenario; What trust?, identifying the trust configuration; and How much",
     "path": "papers/26/11/2611.21634.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1115,
+    "translated_title": "信任AI软件工程代理中的信任：为什么、是什么以及如何？",
+    "translated_abstract": "AI软件工程代理正日益融入开发工作流中，从自动补全助手到自主修复代理，再到多代理软件开发流水线。信任之所以重要，是因为这些代理能够生成、修改并传递工件，而开发者、其他代理或组织随后可能在不确定性和风险之下依赖这些工件。然而，对此类系统的信任通常被视为AI系统的一个单一可测量属性。这对于软件工程领域而言是不够的，因为在软件工程中，信任取决于谁依赖该代理、这种依赖关系如何构建，以及在该部署中必须满足哪些属性。我们提出了一个用于推理AI软件工程代理信任问题的结构化框架。受软件系统中信任的递归性质启发，我们将信任分解为三个分析性问题：为什么信任（Why trust）？——识别信任场景；信任什么（What trust）？——识别信任配置；以及信任多少（How much）？",
+    "tldr": "该论文的核心贡献是提出了一个结构化信任分析框架，将AI软件工程代理的信任分解为“为什么信任（信任场景）、信任什么（信任配置）、信任多少”三个分析性问题，以克服将信任视为单一可测量属性的局限性。",
+    "en_tdlr": "This paper proposes a structural framework that decomposes trust in AI software engineering agents into three analytical questions—why to trust (trust scenario), what to trust (trust configuration), and how much—overcoming the limitation of treating trust as a single measurable property."
 }

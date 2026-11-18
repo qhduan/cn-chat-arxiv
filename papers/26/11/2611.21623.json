@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.21623",
     "context": "Title: The Software Engineering Factory: Engineering Accountability and Control in the Age of Abundant Code\nAbstract: arXiv:2611.21623v1 Announce Type: new  Abstract: AI agents can now plan, write, test, review, and revise code at a volume no human organization can inspect line by line. Final code review therefore cannot remain the primary organizational control for owning code changes.   The Software Engineering (SE) Factory moves control into the process that produces the code. The Factory protocols define how work moves, what evidence must exist before it can proceed, and who owns the result. A deterministic protocol engine, implemented in conventional code rather than prompts, enforces those protocols by controlling stage transitions, requiring evidence, and invoking gates and human escalation, where needed, before work can advance. The SE Factory preserves human authority over consequential decisions and makes accountable acceptance possible without requiring humans to supervise every agent action.   The SE Factory is not a dark factory. Humans remain in control by defining the scope and granular",
     "path": "papers/26/11/2611.21623.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1160,
+    "translated_title": "软件工程工厂：代码泛滥时代的工程问责与控制",
+    "translated_abstract": "AI 智能体现在能够以任何人类组织都无法逐行审查的规模来规划、编写、测试、审查和修改代码。因此，最终的代码审查不能再作为掌控代码变更的首要组织控制手段。软件工程工厂（SE Factory）将控制转移到产生代码的过程之中。工厂协议定义了工作如何流转、工作推进之前必须存在哪些证据，以及谁对结果负责。一个用常规代码而非提示词实现的确定性协议引擎，通过控制阶段转换、要求提供证据，并在工作推进之前在需要时调用门控和人工升级机制来执行这些协议。软件工程工厂保留了人类对重大决策的权威，使可问责的验收成为可能，而无需人类监督每一个智能体动作。软件工程工厂并非“黑暗工厂”。人类仍然通过定义范围和粒度来保持控制。",
+    "tldr": "该论文提出“软件工程工厂”框架，利用以常规代码实现的确定性协议引擎将组织控制嵌入代码生产流程之中，从而在AI智能体大规模生成代码的时代实现可问责的代码验收，同时保留人类对重大决策的最终权威。",
+    "en_tdlr": "This paper proposes the Software Engineering Factory, a framework that embeds organizational control into the code-producing process through a deterministic protocol engine implemented in conventional code, enabling accountable acceptance of AI-generated code at scale while preserving human authority over consequential decisions."
 }
