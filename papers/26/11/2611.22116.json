@@ -1,0 +1,12 @@
+{
+    "title": "Reserve Systems in Dynamic Settings: Account Design and Inherited Rights",
+    "abstract": "arXiv:2611.22116v1 Announce Type: new  Abstract: Research on reserve systems mainly considers static settings, formulating and studying choice rules for a given allocation problem. Dynamic settings are different in that the problem is not given. Over time, more positions become available, and each time the institution must build the current problem from its past. We distinguish the ledger, which stores information about earlier allocations, the account, which transforms these data into the current problem, and the choice rule, which selects an outcome for that problem. The same choice rule can implement very different policies under different accounts. If each new batch is assigned while holding earlier recipients and their categories fixed, then as batches shrink, over-and-above, the most generous reserve policy we study, can select nearly the same recipients as minimum guarantee, the most conservative one. Cumulative implementation uses a different account, which reconsiders the cate",
+    "link": "https://arxiv.org/abs/2611.22116",
+    "context": "Title: Reserve Systems in Dynamic Settings: Account Design and Inherited Rights\nAbstract: arXiv:2611.22116v1 Announce Type: new  Abstract: Research on reserve systems mainly considers static settings, formulating and studying choice rules for a given allocation problem. Dynamic settings are different in that the problem is not given. Over time, more positions become available, and each time the institution must build the current problem from its past. We distinguish the ledger, which stores information about earlier allocations, the account, which transforms these data into the current problem, and the choice rule, which selects an outcome for that problem. The same choice rule can implement very different policies under different accounts. If each new batch is assigned while holding earlier recipients and their categories fixed, then as batches shrink, over-and-above, the most generous reserve policy we study, can select nearly the same recipients as minimum guarantee, the most conservative one. Cumulative implementation uses a different account, which reconsiders the cate",
+    "path": "papers/26/11/2611.22116.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

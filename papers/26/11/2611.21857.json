@@ -1,0 +1,12 @@
+{
+    "title": "tmol: a GPU-accelerated implementation of the Rosetta energy function for machine learning",
+    "abstract": "arXiv:2611.21857v1 Announce Type: new  Abstract: Physics-inspired forcefields complement generative machine learning models, showing better generalization beyond the training distribution. However, these forcefields are typically slow to evaluate, and their derivatives are difficult to integrate into ML frameworks. We introduce tmol, a GPU-native PyTorch library implementing the state-of-the-art RosettaGenFF forcefield. tmol supports efficient batched differentiable scoring and whole-structure refinement with up to 362-fold throughput increase (batched). Used as a reward in generative protein design, tmol increases hydrogen bonds and water bridges at designed interfaces.",
+    "link": "https://arxiv.org/abs/2611.21857",
+    "context": "Title: tmol: a GPU-accelerated implementation of the Rosetta energy function for machine learning\nAbstract: arXiv:2611.21857v1 Announce Type: new  Abstract: Physics-inspired forcefields complement generative machine learning models, showing better generalization beyond the training distribution. However, these forcefields are typically slow to evaluate, and their derivatives are difficult to integrate into ML frameworks. We introduce tmol, a GPU-native PyTorch library implementing the state-of-the-art RosettaGenFF forcefield. tmol supports efficient batched differentiable scoring and whole-structure refinement with up to 362-fold throughput increase (batched). Used as a reward in generative protein design, tmol increases hydrogen bonds and water bridges at designed interfaces.",
+    "path": "papers/26/11/2611.21857.json",
+    "total_tokens": 959,
+    "translated_title": "tmol：面向机器学习的Rosetta能量函数GPU加速实现",
+    "translated_abstract": "物理启发的力场可以补充生成式机器学习模型，在训练分布之外展现出更好的泛化能力。然而，这些力场通常计算速度较慢，其导数也难以集成到机器学习框架中。我们提出了tmol，一个实现了最先进的RosettaGenFF力场的GPU原生PyTorch库。tmol支持高效的批量可微分打分和全结构优化，批量模式下吞吐量提升最高可达362倍。作为生成式蛋白质设计中的奖励函数，tmol能够增加设计界面上的氢键和水桥数量。",
+    "tldr": "tmol是一个GPU原生的PyTorch库，实现了最先进的RosettaGenFF力场，支持高效的批量可微分打分与全结构优化（吞吐量最高提升362倍），可作为奖励函数加速生成式蛋白质设计。",
+    "en_tdlr": "tmol is a GPU-native PyTorch library implementing the state-of-the-art RosettaGenFF forcefield, enabling efficient batched differentiable scoring and whole-structure refinement with up to 362-fold throughput increase, and serving as a reward to accelerate generative protein design."
+}

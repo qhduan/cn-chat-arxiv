@@ -1,0 +1,12 @@
+{
+    "title": "A Survey of Modeling Languages for Automotive Digital Twins",
+    "abstract": "arXiv:2611.21636v1 Announce Type: new  Abstract: The demand for digital twins and suitable modeling techniques in the automotive industry is increasing rapidly. Yet, there is no common understanding of digital twins in automotive, nor are there modeling techniques established to create automotive digital twins. Recent studies on digital twins focus on the analysis of the literature on digital twins for automotive or in general and, thus, neglect the industrial perspective of automotive practitioners. To mitigate this gap between scientific literature and the industrial perspective, we conducted a questionnaire survey among experts in the German automotive industry to identify (i) the desired purposes for and capabilities of digital twins, (ii) the modeling techniques related to engineering and operating digital twins across the phases of automotive development, and (iii) the role informal models play during automotive development. To this end, we contacted 189 members of the Software-D",
+    "link": "https://arxiv.org/abs/2611.21636",
+    "context": "Title: A Survey of Modeling Languages for Automotive Digital Twins\nAbstract: arXiv:2611.21636v1 Announce Type: new  Abstract: The demand for digital twins and suitable modeling techniques in the automotive industry is increasing rapidly. Yet, there is no common understanding of digital twins in automotive, nor are there modeling techniques established to create automotive digital twins. Recent studies on digital twins focus on the analysis of the literature on digital twins for automotive or in general and, thus, neglect the industrial perspective of automotive practitioners. To mitigate this gap between scientific literature and the industrial perspective, we conducted a questionnaire survey among experts in the German automotive industry to identify (i) the desired purposes for and capabilities of digital twins, (ii) the modeling techniques related to engineering and operating digital twins across the phases of automotive development, and (iii) the role informal models play during automotive development. To this end, we contacted 189 members of the Software-D",
+    "path": "papers/26/11/2611.21636.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Polarity Composition Hypothesis: Causal Evidence from Negation in NLI",
+    "abstract": "arXiv:2611.23185v1 Announce Type: new  Abstract: We investigate how language models process negation in natural language inference (NLI). We propose the \\textit{Polarity Composition Hypothesis}, a high-level causal model of this computation. Behavioral evaluations show that language-model predictions largely conform to the proposed hypothesis. Using Distributed Alignment Search, we identify causally effective subspaces aligned with the variables in the polarity-composition hypothesis. These representations transfer across negation forms and partially to a subset of MNLI. We release the dataset and code.",
+    "link": "https://arxiv.org/abs/2611.23185",
+    "context": "Title: Polarity Composition Hypothesis: Causal Evidence from Negation in NLI\nAbstract: arXiv:2611.23185v1 Announce Type: new  Abstract: We investigate how language models process negation in natural language inference (NLI). We propose the \\textit{Polarity Composition Hypothesis}, a high-level causal model of this computation. Behavioral evaluations show that language-model predictions largely conform to the proposed hypothesis. Using Distributed Alignment Search, we identify causally effective subspaces aligned with the variables in the polarity-composition hypothesis. These representations transfer across negation forms and partially to a subset of MNLI. We release the dataset and code.",
+    "path": "papers/26/11/2611.23185.json",
+    "total_tokens": 970,
+    "translated_title": "极性组合假说：来自自然语言推理中否定的因果证据",
+    "translated_abstract": "我们研究了语言模型在自然语言推理（NLI）中如何处理否定，并提出了“极性组合假说”，这是对这一计算过程的一个高层次因果模型。行为评估表明，语言模型的预测在很大程度上符合所提出的假说。通过使用分布式对齐搜索，我们识别出了与极性组合假说中的变量相一致的因果有效子空间。这些表示能够跨不同否定形式迁移，并部分迁移到MNLI的一个子集上。我们公开了数据集和代码。",
+    "tldr": "该论文提出“极性组合假说”来解释语言模型在自然语言推理中处理否定的计算机制，并通过分布式对齐搜索提供了因果证据，证明模型内部存在与假说变量对齐的因果有效子空间，且这些表示可跨否定形式迁移。",
+    "en_tdlr": "The paper proposes the Polarity Composition Hypothesis as a high-level causal model of how language models process negation in NLI, providing causal evidence via Distributed Alignment Search that identifies causally effective subspaces aligned with the hypothesis variables, which transfer across negation forms."
+}

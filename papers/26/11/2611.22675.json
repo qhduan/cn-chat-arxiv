@@ -1,0 +1,12 @@
+{
+    "title": "Exact and Approximate Maximum Likelihood Estimation for Multivariate Diffusions under High-Frequency Sampling",
+    "abstract": "arXiv:2611.22675v1 Announce Type: cross  Abstract: We establish the asymptotic theory of the exact maximum likelihood estimator (MLE) for discretely observed multivariate ergodic diffusions under high-frequency, long-span sampling, solving an open problem posed by \\citet{YCW2019} and \\citet{Li2013}. The drift may grow linearly, and the volatility is bounded away from zero and either bounded or proportional to $1+|x|$. When the sampling interval decays polynomially, the exact MLE is consistent, asymptotically normal and efficient, with rates $\\sqrt{n\\Delta_n}$ for drift and $\\sqrt n$ for diffusion parameters. Under an additional condition on ergodic averages, and when the time span $n\\Delta_n$ also grows polynomially, its moments converge as well. The proof never analyzes the exact likelihood directly: it shows that a closed-form density expansion of sufficiently high order is uniformly accurate in relative terms at every observed transition, so that the two log-likelihoods differ by $o",
+    "link": "https://arxiv.org/abs/2611.22675",
+    "context": "Title: Exact and Approximate Maximum Likelihood Estimation for Multivariate Diffusions under High-Frequency Sampling\nAbstract: arXiv:2611.22675v1 Announce Type: cross  Abstract: We establish the asymptotic theory of the exact maximum likelihood estimator (MLE) for discretely observed multivariate ergodic diffusions under high-frequency, long-span sampling, solving an open problem posed by \\citet{YCW2019} and \\citet{Li2013}. The drift may grow linearly, and the volatility is bounded away from zero and either bounded or proportional to $1+|x|$. When the sampling interval decays polynomially, the exact MLE is consistent, asymptotically normal and efficient, with rates $\\sqrt{n\\Delta_n}$ for drift and $\\sqrt n$ for diffusion parameters. Under an additional condition on ergodic averages, and when the time span $n\\Delta_n$ also grows polynomially, its moments converge as well. The proof never analyzes the exact likelihood directly: it shows that a closed-form density expansion of sufficiently high order is uniformly accurate in relative terms at every observed transition, so that the two log-likelihoods differ by $o",
+    "path": "papers/26/11/2611.22675.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

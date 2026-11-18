@@ -1,0 +1,12 @@
+{
+    "title": "Communication, Vocalisation, and Language",
+    "abstract": "arXiv:2610.16490v2 Announce Type: replace  Abstract: The contention is that the current batch of Large Language Models don't *understand* language, but they *do* it. Rather than LLMs forming some kind of ``distributed representation'' of symbols, the claim is that LLMs are capturing ``Cultural Intelligence'' and grounding symbols in what the sociologists call practices.",
+    "link": "https://arxiv.org/abs/2610.16490",
+    "context": "Title: Communication, Vocalisation, and Language\nAbstract: arXiv:2610.16490v2 Announce Type: replace  Abstract: The contention is that the current batch of Large Language Models don't *understand* language, but they *do* it. Rather than LLMs forming some kind of ``distributed representation'' of symbols, the claim is that LLMs are capturing ``Cultural Intelligence'' and grounding symbols in what the sociologists call practices.",
+    "path": "papers/26/10/2610.16490.json",
+    "total_tokens": 602,
+    "translated_title": "交流、发声与语言",
+    "translated_abstract": "本文的核心论点是，当前这一批大语言模型并不“理解”语言，但它们在“做”语言。本文认为，大语言模型并非形成某种符号的“分布式表示”，而是在捕捉“文化智能”，并将符号扎根于社会学家所称的“实践”之中。",
+    "tldr": "本文主张大语言模型并非真正“理解”语言，而是在“执行”语言，其机制是捕捉文化智能并将符号扎根于社会学意义上的实践，而非形成符号的分布式表示。",
+    "en_tdlr": "This paper argues that LLMs don't understand language but rather do it, capturing Cultural Intelligence and grounding symbols in sociological practices instead of forming distributed representations of symbols."
+}

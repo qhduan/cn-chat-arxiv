@@ -1,0 +1,12 @@
+{
+    "title": "A Chain-of-Thought Prompt Engineering Framework for Automated Technical Specification Generation in Enterprise Integration: A Real-World Case Study",
+    "abstract": "arXiv:2611.21617v1 Announce Type: new  Abstract: Technical Specification Documents (TSDs) translate functional requirements into implementable designs and are mandatory artifacts in governed Enterprise Application Integration (EAI) programs, yet their production remains a manual, expertise-intensive bottleneck. Large Language Models (LLMs) have been studied extensively for code generation, but long-form, template-governed engineering documents remain comparatively unexplored. This paper reports an industrial case study, conducted during a migration of more than 250 enterprise integrations to Microsoft Azure Integration Services at a large Australian wholesale distributor, that introduces a chain-of-thought prompt-engineering framework for automated TSD generation using GitHub Copilot. The framework combines a two-phase generation architecture that grounds the model in the functional specification, organizational standards, and the approved template; a six-stage prompting pipeline with ",
+    "link": "https://arxiv.org/abs/2611.21617",
+    "context": "Title: A Chain-of-Thought Prompt Engineering Framework for Automated Technical Specification Generation in Enterprise Integration: A Real-World Case Study\nAbstract: arXiv:2611.21617v1 Announce Type: new  Abstract: Technical Specification Documents (TSDs) translate functional requirements into implementable designs and are mandatory artifacts in governed Enterprise Application Integration (EAI) programs, yet their production remains a manual, expertise-intensive bottleneck. Large Language Models (LLMs) have been studied extensively for code generation, but long-form, template-governed engineering documents remain comparatively unexplored. This paper reports an industrial case study, conducted during a migration of more than 250 enterprise integrations to Microsoft Azure Integration Services at a large Australian wholesale distributor, that introduces a chain-of-thought prompt-engineering framework for automated TSD generation using GitHub Copilot. The framework combines a two-phase generation architecture that grounds the model in the functional specification, organizational standards, and the approved template; a six-stage prompting pipeline with ",
+    "path": "papers/26/11/2611.21617.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

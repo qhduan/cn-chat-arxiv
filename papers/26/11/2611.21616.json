@@ -1,0 +1,12 @@
+{
+    "title": "Revision-Consistent Code Context for Agents That Edit Their Environment",
+    "abstract": "arXiv:2611.21616v1 Announce Type: new  Abstract: Editing agents query repositories while simultaneously changing them. Source content, symbols, graph relations, and retrieval state may be maintained by different stores and refreshed at different times. During an update, a successful query can therefore combine facts that never belonged to the same repository state. We call this condition mixed-revision code context.   This paper proposes an Agent-visible complete-revision publication contract for composite code-intelligence queries. Before a query-visible publication point, a service must wait, report unavailability, or serve a complete old revision; after that point, it serves the complete new revision. The contract requires a shared version identity and publication boundary across every view returned in one response.   We instantiate the method in Codetrip, whose brief operation joins source, symbol, and graph facts. In a controlled comparison on frozen Gin v1.12.0, live-source compo",
+    "link": "https://arxiv.org/abs/2611.21616",
+    "context": "Title: Revision-Consistent Code Context for Agents That Edit Their Environment\nAbstract: arXiv:2611.21616v1 Announce Type: new  Abstract: Editing agents query repositories while simultaneously changing them. Source content, symbols, graph relations, and retrieval state may be maintained by different stores and refreshed at different times. During an update, a successful query can therefore combine facts that never belonged to the same repository state. We call this condition mixed-revision code context.   This paper proposes an Agent-visible complete-revision publication contract for composite code-intelligence queries. Before a query-visible publication point, a service must wait, report unavailability, or serve a complete old revision; after that point, it serves the complete new revision. The contract requires a shared version identity and publication boundary across every view returned in one response.   We instantiate the method in Codetrip, whose brief operation joins source, symbol, and graph facts. In a controlled comparison on frozen Gin v1.12.0, live-source compo",
+    "path": "papers/26/11/2611.21616.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Evaluating and Mitigating Skin Color Bias in Skin Lesion Classificatio",
+    "abstract": "arXiv:2506.11627v2 Announce Type: replace-cross  Abstract: Skin lesion classifiers may overlook performance disparity because of subtle skin tone variations by treating skin tone as a categorical attribute. This study proposes a method that represents skin tone as a continuous attribute and assigns individual weights to each sample based on its nonlinear relationship with classification performance. Evaluations on two dermatological datasets showed that fairness metrics were sensitive to skin-color categorization. The proposed method also demonstrated more stable fairness improvements than conventional categorical reweighting while generally preserving classification performance.",
+    "link": "https://arxiv.org/abs/2506.11627",
+    "context": "Title: Evaluating and Mitigating Skin Color Bias in Skin Lesion Classificatio\nAbstract: arXiv:2506.11627v2 Announce Type: replace-cross  Abstract: Skin lesion classifiers may overlook performance disparity because of subtle skin tone variations by treating skin tone as a categorical attribute. This study proposes a method that represents skin tone as a continuous attribute and assigns individual weights to each sample based on its nonlinear relationship with classification performance. Evaluations on two dermatological datasets showed that fairness metrics were sensitive to skin-color categorization. The proposed method also demonstrated more stable fairness improvements than conventional categorical reweighting while generally preserving classification performance.",
+    "path": "papers/25/06/2506.11627.json",
+    "total_tokens": 793,
+    "translated_title": "评估与缓解皮肤病变分类中的肤色偏差",
+    "translated_abstract": "皮肤病变分类器若将肤色视为类别属性，可能会忽视细微肤色变化所导致的性能差异。本研究提出一种方法，将肤色表示为连续属性，并根据肤色与分类性能之间的非线性关系为每个样本分配单独的权重。在两个皮肤病学数据集上的评估表明，公平性指标对肤色的分类方式十分敏感。所提出的方法还展现出比传统类别重加权更稳定的公平性改进，同时总体上保持了分类性能。",
+    "tldr": "提出将肤色建模为连续属性并根据其与分类性能的非线性关系为样本加权的方法，在保持分类性能的同时，比传统类别重加权实现了更稳定的公平性改进。",
+    "en_tdlr": "This study proposes representing skin tone as a continuous attribute and weighting samples based on its nonlinear relationship with classification performance, achieving more stable fairness improvements than conventional categorical reweighting while preserving classification performance."
+}

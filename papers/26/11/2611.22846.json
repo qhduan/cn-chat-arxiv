@@ -1,0 +1,12 @@
+{
+    "title": "Music Similarity Learning in Sparse Latin Scenarios",
+    "abstract": "arXiv:2611.22846v1 Announce Type: new  Abstract: In this work we propose a lightweight, interpretable approach that estimates item-item music similarity from publicly available metadata. Our hybrid regression model combines content-based filtering with the classic item-based collaborative filtering. We test generalization via a zero-shot evaluation on Latin American music, a genre for which co-occurrence data is scarce. Accurately predicting similarity for these unseen, sparse pairs shows that our approach is robust to the regional gap affecting many existing systems, without the audio signal processing or the computational budget that deep multimodal approaches would require.",
+    "link": "https://arxiv.org/abs/2611.22846",
+    "context": "Title: Music Similarity Learning in Sparse Latin Scenarios\nAbstract: arXiv:2611.22846v1 Announce Type: new  Abstract: In this work we propose a lightweight, interpretable approach that estimates item-item music similarity from publicly available metadata. Our hybrid regression model combines content-based filtering with the classic item-based collaborative filtering. We test generalization via a zero-shot evaluation on Latin American music, a genre for which co-occurrence data is scarce. Accurately predicting similarity for these unseen, sparse pairs shows that our approach is robust to the regional gap affecting many existing systems, without the audio signal processing or the computational budget that deep multimodal approaches would require.",
+    "path": "papers/26/11/2611.22846.json",
+    "total_tokens": 911,
+    "translated_title": "稀疏拉丁音乐场景下的音乐相似度学习",
+    "translated_abstract": "在这项工作中，我们提出了一种轻量级、可解释的方法，可以从公开可用的元数据中估计音乐项目之间的相似度。我们的混合回归模型结合了基于内容的过滤与经典的基于项目的协同过滤。我们通过对拉丁美洲音乐进行零样本评估来测试泛化能力，而拉丁音乐正是一种共现数据稀缺的音乐类型。对这些未见过的、稀疏的配对进行准确的相似度预测表明，我们的方法对影响许多现有系统的区域性数据差距具有鲁棒性，且无需深度多模态方法所需的音频信号处理或庞大的计算预算。",
+    "tldr": "该论文提出一种基于公开元数据的轻量级混合回归模型，结合内容过滤与项目协同过滤，在共现数据稀缺的拉丁音乐零样本评估中实现准确的相似度预测，无需音频信号处理或庞大的计算资源。",
+    "en_tdlr": "This paper proposes a lightweight, interpretable hybrid regression model combining content-based filtering and item-based collaborative filtering, which accurately predicts music similarity from public metadata in zero-shot evaluation on sparse Latin music scenarios without requiring audio signal processing or heavy computational budgets."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Settling the Time and Structural Complexity of Bertrand Networks",
+    "abstract": "arXiv:2611.22216v1 Announce Type: cross  Abstract: In the seminal Bertrand network game introduced by Babaioff et al. (2013), each seller posts a single price to captive buyers and to the markets it shares with neighboring sellers, where sellers cannot price discriminate across the markets. Although the existence of equilibria and polynomial-time algorithms to compute them in trees (Babaioff et al. (2013)) have been known, it has been a major open problem whether there exist efficient algorithms to compute them for general graphs.   In this paper, we resolve this open question negatively by proving that computing any constant-error approximate Nash equilibrium in a Bertrand network is $\\PPAD$-complete. This hardness holds even on sparse bipartite graphs of maximum degree five with constant integer market weights. Complementing our hardness result, we design an efficient polynomial-time approximation scheme (EPTAS) when both the maximum degree and the number of sellers with captive buye",
+    "link": "https://arxiv.org/abs/2611.22216",
+    "context": "Title: Settling the Time and Structural Complexity of Bertrand Networks\nAbstract: arXiv:2611.22216v1 Announce Type: cross  Abstract: In the seminal Bertrand network game introduced by Babaioff et al. (2013), each seller posts a single price to captive buyers and to the markets it shares with neighboring sellers, where sellers cannot price discriminate across the markets. Although the existence of equilibria and polynomial-time algorithms to compute them in trees (Babaioff et al. (2013)) have been known, it has been a major open problem whether there exist efficient algorithms to compute them for general graphs.   In this paper, we resolve this open question negatively by proving that computing any constant-error approximate Nash equilibrium in a Bertrand network is $\\PPAD$-complete. This hardness holds even on sparse bipartite graphs of maximum degree five with constant integer market weights. Complementing our hardness result, we design an efficient polynomial-time approximation scheme (EPTAS) when both the maximum degree and the number of sellers with captive buye",
+    "path": "papers/26/11/2611.22216.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

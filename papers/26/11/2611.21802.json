@@ -1,0 +1,12 @@
+{
+    "title": "Data-Driven Variable-Length Compression of 3D Representations",
+    "abstract": "arXiv:2611.21802v1 Announce Type: cross  Abstract: Compressing 3D shapes is important for the efficiency of many applications, yet existing methods either cannot leverage dataset-level statistics or use a fixed compression ratio for all shapes. We propose a learned variable-length compression method that exploits structure across a training dataset while adapting compressed representation size to individual shape complexity using only fast feed-forward inference. Our method operates on general latent representations and improves rate-distortion for both meshes and signed distance fields. Code is available at https://github.com/voilalab/varlen-3D.",
+    "link": "https://arxiv.org/abs/2611.21802",
+    "context": "Title: Data-Driven Variable-Length Compression of 3D Representations\nAbstract: arXiv:2611.21802v1 Announce Type: cross  Abstract: Compressing 3D shapes is important for the efficiency of many applications, yet existing methods either cannot leverage dataset-level statistics or use a fixed compression ratio for all shapes. We propose a learned variable-length compression method that exploits structure across a training dataset while adapting compressed representation size to individual shape complexity using only fast feed-forward inference. Our method operates on general latent representations and improves rate-distortion for both meshes and signed distance fields. Code is available at https://github.com/voilalab/varlen-3D.",
+    "path": "papers/26/11/2611.21802.json",
+    "total_tokens": 873,
+    "translated_title": "数据驱动的三维表示变长压缩",
+    "translated_abstract": "压缩三维形状对许多应用的效率而言至关重要，然而现有方法要么无法利用数据集级别的统计信息，要么对所有形状采用固定的压缩率。我们提出了一种可学习的变长压缩方法，该方法在利用训练数据集整体结构的同时，仅通过快速的前向推理就能使压缩表示的大小自适应地匹配各个形状的复杂度。我们的方法作用于通用的潜在表示，并能同时改善网格和带符号距离场的率失真性能。代码可在 https://github.com/voilalab/varlen-3D 获取。",
+    "tldr": "提出一种数据驱动的可学习变长压缩方法，利用数据集整体结构并根据单个形状复杂度自适应调整压缩表示大小，仅通过快速前向推理即可改善网格和带符号距离场的率失真性能。",
+    "en_tdlr": "A learned variable-length compression method that exploits dataset-level structure and adaptively sizes compressed representations to each shape's complexity using only fast feed-forward inference, improving rate-distortion for both meshes and signed distance fields."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Long-Term Quantile Treatment Effects with Combined Experimental and Observational Data",
+    "abstract": "arXiv:2611.22984v1 Announce Type: new  Abstract: This paper studies the identification, estimation, and inference of long-term quantile treatment effects (LTQTEs) when short-term experimental data are supplemented with long-term observational data. Under a latent unconfoundedness framework, we establish identification of the LTQTE curve and derive the corresponding efficient influence functions. Building on these influence functions, we propose a semiparametrically efficient estimation procedure and develop a multiplier bootstrap method for uniform inference on the LTQTE curve, yielding valid simultaneous confidence bands over a continuum of quantile indices.",
+    "link": "https://arxiv.org/abs/2611.22984",
+    "context": "Title: Long-Term Quantile Treatment Effects with Combined Experimental and Observational Data\nAbstract: arXiv:2611.22984v1 Announce Type: new  Abstract: This paper studies the identification, estimation, and inference of long-term quantile treatment effects (LTQTEs) when short-term experimental data are supplemented with long-term observational data. Under a latent unconfoundedness framework, we establish identification of the LTQTE curve and derive the corresponding efficient influence functions. Building on these influence functions, we propose a semiparametrically efficient estimation procedure and develop a multiplier bootstrap method for uniform inference on the LTQTE curve, yielding valid simultaneous confidence bands over a continuum of quantile indices.",
+    "path": "papers/26/11/2611.22984.json",
+    "total_tokens": 768,
+    "translated_title": "结合实验数据与观测数据的长期分位数处理效应",
+    "translated_abstract": "本文研究了在短期实验数据辅以长期观测数据的情形下，长期分位数处理效应（LTQTEs）的识别、估计与推断问题。在潜在无混杂性框架下，我们建立了LTQTE曲线的识别性，并推导出相应的有效影响函数。基于这些影响函数，我们提出了一种半参数有效估计方法，并开发了一种乘数自助法用于对LTQTE曲线进行一致推断，从而在连续的分位数指标范围内给出有效的同步置信带。",
+    "tldr": "本文提出了一种结合短期实验数据与长期观测数据来识别和估计长期分位数处理效应的半参数有效方法，并基于乘数自助法实现了对整个分位数曲线的一致推断与同步置信带构造。",
+    "en_tdlr": "This paper proposes a semiparametrically efficient approach for identifying and estimating long-term quantile treatment effects by combining short-term experimental data with long-term observational data, and develops a multiplier bootstrap method for uniform inference with simultaneous confidence bands over the quantile curve."
+}

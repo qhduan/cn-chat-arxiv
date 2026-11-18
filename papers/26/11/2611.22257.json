@@ -1,0 +1,12 @@
+{
+    "title": "The Online LSTM Prediction Models and The Term Structure of Predictions",
+    "abstract": "arXiv:2611.22257v1 Announce Type: new  Abstract: We examine and illustrate the properties of the Long Short Term Memory (LSTM) prediction models applied online to stationary inputs. We discuss the effects of: a) the network architecture that defines the admissible prediction functions, b) the objective function used to measure the prediction accuracy, and c) the Stochastic Gradient Descent (SGD) algorithm. We also study the prediction optimality, the term structure of predictions, the filtered memory dynamics. We also introduce a set of diagnostic tools for memory-based prediction models that focus on the estimated dynamics of the hidden states.",
+    "link": "https://arxiv.org/abs/2611.22257",
+    "context": "Title: The Online LSTM Prediction Models and The Term Structure of Predictions\nAbstract: arXiv:2611.22257v1 Announce Type: new  Abstract: We examine and illustrate the properties of the Long Short Term Memory (LSTM) prediction models applied online to stationary inputs. We discuss the effects of: a) the network architecture that defines the admissible prediction functions, b) the objective function used to measure the prediction accuracy, and c) the Stochastic Gradient Descent (SGD) algorithm. We also study the prediction optimality, the term structure of predictions, the filtered memory dynamics. We also introduce a set of diagnostic tools for memory-based prediction models that focus on the estimated dynamics of the hidden states.",
+    "path": "papers/26/11/2611.22257.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

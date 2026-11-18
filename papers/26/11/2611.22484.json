@@ -1,0 +1,12 @@
+{
+    "title": "Moral Inversion: Expressive Payoffs and the Reliability of Consensus",
+    "abstract": "arXiv:2611.22484v1 Announce Type: new  Abstract: Moral inversion is a public consensus on an account that falsely reverses responsibility for a harm. We study how expressive payoffs affect its emergence in a sequential social-learning model. A larger payoff makes an account more attractive to endorse, but also makes each endorsement of that account weaker evidence in its favor. We show that under a single-peakedness condition on private beliefs a larger payoff both increases the probability of an incorrect consensus on the favored account and reduces its reliability. Without this condition, both comparisons can reverse, and the informativeness of the public record can strictly improve in the Blackwell order. Finally, we show that a sufficiently large increase in the expressive payoff nevertheless restores the benchmark comparative statics.",
+    "link": "https://arxiv.org/abs/2611.22484",
+    "context": "Title: Moral Inversion: Expressive Payoffs and the Reliability of Consensus\nAbstract: arXiv:2611.22484v1 Announce Type: new  Abstract: Moral inversion is a public consensus on an account that falsely reverses responsibility for a harm. We study how expressive payoffs affect its emergence in a sequential social-learning model. A larger payoff makes an account more attractive to endorse, but also makes each endorsement of that account weaker evidence in its favor. We show that under a single-peakedness condition on private beliefs a larger payoff both increases the probability of an incorrect consensus on the favored account and reduces its reliability. Without this condition, both comparisons can reverse, and the informativeness of the public record can strictly improve in the Blackwell order. Finally, we show that a sufficiently large increase in the expressive payoff nevertheless restores the benchmark comparative statics.",
+    "path": "papers/26/11/2611.22484.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

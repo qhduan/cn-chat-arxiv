@@ -1,0 +1,12 @@
+{
+    "title": "Complexity and precision in quantum associative retrieval",
+    "abstract": "arXiv:2611.21941v1 Announce Type: cross  Abstract: We show that efficient and high-precision quantum associative retrieval is possible with an exponential complexity advantage with respect to the classical brute force approach and with a polynomial capacity advantage with respect to classical neural network implementations for any number of patterns scaling polynomially in the number of qubits. Both classical neural and quantum associative memories store the patterns in a Hamiltonian; in the classical case the dynamics is irreversible relaxation toward attractors, in the quantum case it is unitary transformations generating an effective thermal distribution, followed by a measurement.",
+    "link": "https://arxiv.org/abs/2611.21941",
+    "context": "Title: Complexity and precision in quantum associative retrieval\nAbstract: arXiv:2611.21941v1 Announce Type: cross  Abstract: We show that efficient and high-precision quantum associative retrieval is possible with an exponential complexity advantage with respect to the classical brute force approach and with a polynomial capacity advantage with respect to classical neural network implementations for any number of patterns scaling polynomially in the number of qubits. Both classical neural and quantum associative memories store the patterns in a Hamiltonian; in the classical case the dynamics is irreversible relaxation toward attractors, in the quantum case it is unitary transformations generating an effective thermal distribution, followed by a measurement.",
+    "path": "papers/26/11/2611.21941.json",
+    "total_tokens": 808,
+    "translated_title": "量子联想检索中的复杂度与精度",
+    "translated_abstract": "我们证明了高效且高精度的量子联想检索是可行的：相对于经典暴力搜索方法，它具有指数级的复杂度优势；对于任何以量子比特数多项式规模扩展的模式数量，相对于经典神经网络实现，它具有多项式级的容量优势。经典神经联想记忆和量子联想记忆都将模式存储在哈密顿量中；在经典情况下，动力学是向吸引子的不可逆弛豫，而在量子情况下，则是生成有效热分布的幺正变换，随后进行测量。",
+    "tldr": "该论文证明了量子联想检索相对于经典暴力搜索具有指数级复杂度优势、相对于经典神经网络具有多项式级容量优势，并能实现高效且高精度的模式检索。",
+    "en_tdlr": "This paper demonstrates that quantum associative retrieval achieves high efficiency and precision, with an exponential complexity advantage over classical brute force approaches and a polynomial capacity advantage over classical neural network implementations."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Nested logit: model structure and normalisation",
+    "abstract": "arXiv:2611.22638v1 Announce Type: new  Abstract: Nested logit remains a widely used model, especially in applied work. However, there remains substantial confusion surrounding the existence of different versions of the model, different normalisations for the same version, and different software implementations. This paper argues that the labels in common use, RU1 and RU2, and the name non-normalised nested logit (NNNL) itself, have contributed to the confusion. The model is written in two forms: one in which utilities are divided by the structural parameter of the nest that contains them, which is consistent with utility maximisation by construction, and one without that division, known as NNNL. The difference between these forms is not one of normalisation. Normalising at the top or at the bottom gives the same model, and NNNL is itself normalised. What distinguishes the forms is whether the division is performed. In short, normalisation changes the units, whereas division changes the",
+    "link": "https://arxiv.org/abs/2611.22638",
+    "context": "Title: Nested logit: model structure and normalisation\nAbstract: arXiv:2611.22638v1 Announce Type: new  Abstract: Nested logit remains a widely used model, especially in applied work. However, there remains substantial confusion surrounding the existence of different versions of the model, different normalisations for the same version, and different software implementations. This paper argues that the labels in common use, RU1 and RU2, and the name non-normalised nested logit (NNNL) itself, have contributed to the confusion. The model is written in two forms: one in which utilities are divided by the structural parameter of the nest that contains them, which is consistent with utility maximisation by construction, and one without that division, known as NNNL. The difference between these forms is not one of normalisation. Normalising at the top or at the bottom gives the same model, and NNNL is itself normalised. What distinguishes the forms is whether the division is performed. In short, normalisation changes the units, whereas division changes the",
+    "path": "papers/26/11/2611.22638.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

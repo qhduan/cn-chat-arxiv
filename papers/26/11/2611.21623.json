@@ -1,0 +1,12 @@
+{
+    "title": "The Software Engineering Factory: Engineering Accountability and Control in the Age of Abundant Code",
+    "abstract": "arXiv:2611.21623v1 Announce Type: new  Abstract: AI agents can now plan, write, test, review, and revise code at a volume no human organization can inspect line by line. Final code review therefore cannot remain the primary organizational control for owning code changes.   The Software Engineering (SE) Factory moves control into the process that produces the code. The Factory protocols define how work moves, what evidence must exist before it can proceed, and who owns the result. A deterministic protocol engine, implemented in conventional code rather than prompts, enforces those protocols by controlling stage transitions, requiring evidence, and invoking gates and human escalation, where needed, before work can advance. The SE Factory preserves human authority over consequential decisions and makes accountable acceptance possible without requiring humans to supervise every agent action.   The SE Factory is not a dark factory. Humans remain in control by defining the scope and granular",
+    "link": "https://arxiv.org/abs/2611.21623",
+    "context": "Title: The Software Engineering Factory: Engineering Accountability and Control in the Age of Abundant Code\nAbstract: arXiv:2611.21623v1 Announce Type: new  Abstract: AI agents can now plan, write, test, review, and revise code at a volume no human organization can inspect line by line. Final code review therefore cannot remain the primary organizational control for owning code changes.   The Software Engineering (SE) Factory moves control into the process that produces the code. The Factory protocols define how work moves, what evidence must exist before it can proceed, and who owns the result. A deterministic protocol engine, implemented in conventional code rather than prompts, enforces those protocols by controlling stage transitions, requiring evidence, and invoking gates and human escalation, where needed, before work can advance. The SE Factory preserves human authority over consequential decisions and makes accountable acceptance possible without requiring humans to supervise every agent action.   The SE Factory is not a dark factory. Humans remain in control by defining the scope and granular",
+    "path": "papers/26/11/2611.21623.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

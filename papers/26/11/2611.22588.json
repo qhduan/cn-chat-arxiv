@@ -1,0 +1,12 @@
+{
+    "title": "ReBoT-MiCS: Reliability-Aware Bounding Time for Enhancing Timing Behavior of Embedded Mixed-Criticality Systems",
+    "abstract": "arXiv:2611.22588v1 Announce Type: cross  Abstract: In Mixed-Criticality (MC) systems, considering multiple Worst-Case Execution Times (WCETs) for the same task, corresponding to different system operation modes, presents a fundamental challenge in MC system design. Identifying suitable WCETs for lower (LO) criticality system operational modes is inherently difficult. Tight low WCET values may trigger frequent mode switches that degrade Quality-of-Service (QoS) by dropping/degrading the lower-criticality tasks and reducing their functionality. However, more conservative values reduce resource efficiency. Moreover, low WCET selection affects exposure assumptions under the adopted transient-fault model, which is used in reliability-aware scheduling analysis. Although some studies have considered low WCET determination to make a reasonable trade-off between processor utilization, mode switching probability and QoS, reliability constraints are typically addressed separately through fault-to",
+    "link": "https://arxiv.org/abs/2611.22588",
+    "context": "Title: ReBoT-MiCS: Reliability-Aware Bounding Time for Enhancing Timing Behavior of Embedded Mixed-Criticality Systems\nAbstract: arXiv:2611.22588v1 Announce Type: cross  Abstract: In Mixed-Criticality (MC) systems, considering multiple Worst-Case Execution Times (WCETs) for the same task, corresponding to different system operation modes, presents a fundamental challenge in MC system design. Identifying suitable WCETs for lower (LO) criticality system operational modes is inherently difficult. Tight low WCET values may trigger frequent mode switches that degrade Quality-of-Service (QoS) by dropping/degrading the lower-criticality tasks and reducing their functionality. However, more conservative values reduce resource efficiency. Moreover, low WCET selection affects exposure assumptions under the adopted transient-fault model, which is used in reliability-aware scheduling analysis. Although some studies have considered low WCET determination to make a reasonable trade-off between processor utilization, mode switching probability and QoS, reliability constraints are typically addressed separately through fault-to",
+    "path": "papers/26/11/2611.22588.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

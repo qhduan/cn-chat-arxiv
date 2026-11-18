@@ -1,0 +1,12 @@
+{
+    "title": "The Shared Word: Evaluating Language Models on Dutch Word Puzzles",
+    "abstract": "arXiv:2611.22935v1 Announce Type: new  Abstract: Many LLM benchmarks for languages other than English are translated, multiple-choice, or difficult to score automatically. We introduce The Shared Word (TSW-NL), a Dutch benchmark built around four core principles: it is language-specific, open-vocabulary, human-curated, and deterministically scored. Each puzzle gives three clues that describe different senses or uses of the same Dutch word. The clues are individually ambiguous, requiring the solver to combine evidence across multiple clues. We construct the benchmark from Dutch Wikipedia disambiguation pages, followed by automatic filtering and extensive manual curation. The final dataset contains 222 instances, with three independent human answers per test item. The task is clearly challenging: scores in our human study range from 49.5% to 61.0% and the highest-scoring open-weight model we tested reaches only 39.3%. Many others even score below 20%. At the same time, closed-source mode",
+    "link": "https://arxiv.org/abs/2611.22935",
+    "context": "Title: The Shared Word: Evaluating Language Models on Dutch Word Puzzles\nAbstract: arXiv:2611.22935v1 Announce Type: new  Abstract: Many LLM benchmarks for languages other than English are translated, multiple-choice, or difficult to score automatically. We introduce The Shared Word (TSW-NL), a Dutch benchmark built around four core principles: it is language-specific, open-vocabulary, human-curated, and deterministically scored. Each puzzle gives three clues that describe different senses or uses of the same Dutch word. The clues are individually ambiguous, requiring the solver to combine evidence across multiple clues. We construct the benchmark from Dutch Wikipedia disambiguation pages, followed by automatic filtering and extensive manual curation. The final dataset contains 222 instances, with three independent human answers per test item. The task is clearly challenging: scores in our human study range from 49.5% to 61.0% and the highest-scoring open-weight model we tested reaches only 39.3%. Many others even score below 20%. At the same time, closed-source mode",
+    "path": "papers/26/11/2611.22935.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

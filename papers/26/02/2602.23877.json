@@ -1,0 +1,12 @@
+{
+    "title": "Difference-in-differences for mediation analysis using double machine learning",
+    "abstract": "arXiv:2602.23877v2 Announce Type: replace  Abstract: We propose a difference-in-differences (DiD) framework with mediation for possibly multivalued discrete or continuous treatments and mediators, aimed at identifying the direct effect of the treatment on the outcome (net of effects operating through the mediator), the indirect effect via the mediator, and the joint effects of treatment and mediator, consistent with the framework of dynamic treatment effects. Identification relies on a conditional parallel trends assumption imposed on the mean potential outcome across treatment and mediator states, or (depending on the causal parameter) additionally on the mean potential outcomes and potential mediator distributions across treatment states. We propose ATET estimators for repeated cross sections and panel data within the double/debiased machine learning framework, which allows for data-driven control of covariates, and we establish their asymptotic normality under standard regularity co",
+    "link": "https://arxiv.org/abs/2602.23877",
+    "context": "Title: Difference-in-differences for mediation analysis using double machine learning\nAbstract: arXiv:2602.23877v2 Announce Type: replace  Abstract: We propose a difference-in-differences (DiD) framework with mediation for possibly multivalued discrete or continuous treatments and mediators, aimed at identifying the direct effect of the treatment on the outcome (net of effects operating through the mediator), the indirect effect via the mediator, and the joint effects of treatment and mediator, consistent with the framework of dynamic treatment effects. Identification relies on a conditional parallel trends assumption imposed on the mean potential outcome across treatment and mediator states, or (depending on the causal parameter) additionally on the mean potential outcomes and potential mediator distributions across treatment states. We propose ATET estimators for repeated cross sections and panel data within the double/debiased machine learning framework, which allows for data-driven control of covariates, and we establish their asymptotic normality under standard regularity co",
+    "path": "papers/26/02/2602.23877.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

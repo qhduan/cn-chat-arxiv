@@ -1,0 +1,12 @@
+{
+    "title": "Compact and Decodable Electrocardiogram Text for Large Language Models",
+    "abstract": "arXiv:2611.22827v1 Announce Type: new  Abstract: When a twelve-lead electrocardiogram is written as text for a large language model, the number of tokens has to be balanced against the information lost through compression. This paper presents a deterministic encoding that writes eight independent leads as amplitude letters and exact time gaps and recovers the remaining four limb leads algebraically. The key points are selected with a cardiac-cycle-dependent tolerance, the amplitudes are parameterized by a 26-letter logarithmic codebook learned from a training set, and a 10-step tolerance schedule keeps all records within a fixed token budget. The encoding was applied to 21,388 records from the public PTB-XL database and evaluated using an exact decode-and-re-encode round trip, waveform reconstruction error, and a paired comparison of convolutional classifiers trained with 5 different seeds on signals from the original and decoded databases. All records were contained in 4,080 tokens (a",
+    "link": "https://arxiv.org/abs/2611.22827",
+    "context": "Title: Compact and Decodable Electrocardiogram Text for Large Language Models\nAbstract: arXiv:2611.22827v1 Announce Type: new  Abstract: When a twelve-lead electrocardiogram is written as text for a large language model, the number of tokens has to be balanced against the information lost through compression. This paper presents a deterministic encoding that writes eight independent leads as amplitude letters and exact time gaps and recovers the remaining four limb leads algebraically. The key points are selected with a cardiac-cycle-dependent tolerance, the amplitudes are parameterized by a 26-letter logarithmic codebook learned from a training set, and a 10-step tolerance schedule keeps all records within a fixed token budget. The encoding was applied to 21,388 records from the public PTB-XL database and evaluated using an exact decode-and-re-encode round trip, waveform reconstruction error, and a paired comparison of convolutional classifiers trained with 5 different seeds on signals from the original and decoded databases. All records were contained in 4,080 tokens (a",
+    "path": "papers/26/11/2611.22827.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

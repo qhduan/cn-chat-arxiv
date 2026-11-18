@@ -1,0 +1,12 @@
+{
+    "title": "From syllable representation via gesture generation to articulation: A spiking neural model",
+    "abstract": "arXiv:2611.22499v1 Announce Type: new  Abstract: Speech production requires a transformation from phonological representations into coordinated vocal-tract movements. This paper presents a spiking neural sensorimotor model within the Neural Engineering Framework and Semantic Pointer Architecture. Each syllable occurrence has a neural oscillator whose evolving phase coordinates its gestures and initiates the next syllable. Phase-dependent commands recruit separate neural populations for vocalic, oral-constriction, velopharyngeal, and glottal actions (gestures). Neural ramp integrators shape the rise and fall of gesture activation. Together with articulatory targets, these trajectories determine the extent and time course of articulatory movements. Opponent neural populations provide control signals to a geometric articulatory model.   Thirty reference recordings cover an input corpus of eight lexical words, an alternative realization of one word, a syllable sequence, and isolated syllab",
+    "link": "https://arxiv.org/abs/2611.22499",
+    "context": "Title: From syllable representation via gesture generation to articulation: A spiking neural model\nAbstract: arXiv:2611.22499v1 Announce Type: new  Abstract: Speech production requires a transformation from phonological representations into coordinated vocal-tract movements. This paper presents a spiking neural sensorimotor model within the Neural Engineering Framework and Semantic Pointer Architecture. Each syllable occurrence has a neural oscillator whose evolving phase coordinates its gestures and initiates the next syllable. Phase-dependent commands recruit separate neural populations for vocalic, oral-constriction, velopharyngeal, and glottal actions (gestures). Neural ramp integrators shape the rise and fall of gesture activation. Together with articulatory targets, these trajectories determine the extent and time course of articulatory movements. Opponent neural populations provide control signals to a geometric articulatory model.   Thirty reference recordings cover an input corpus of eight lexical words, an alternative realization of one word, a syllable sequence, and isolated syllab",
+    "path": "papers/26/11/2611.22499.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

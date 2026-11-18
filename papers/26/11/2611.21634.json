@@ -1,0 +1,12 @@
+{
+    "title": "Trusting Trust in AI Software Engineering Agents: The Why, What, and How?",
+    "abstract": "arXiv:2611.21634v1 Announce Type: new  Abstract: AI software engineering agents are increasingly integrated into development workflows, from autocomplete assistants to autonomous repair agents and multi-agent software development pipelines. Trust matters because these agents can produce, revise, and pass on artifacts that developers, other agents, or organisations may later rely on under uncertainty and risk. Yet trust in such systems is often treated as a single measurable property of an AI system. This is insufficient for software engineering, where trust depends on who relies on the agent, how that reliance is structured, and which properties must hold in that deployment. We propose a structural framework for reasoning about trust in AI software engineering agents. Inspired by the recursive nature of trust in software systems, we decompose trust into three analytical questions: Why trust?, identifying the trust scenario; What trust?, identifying the trust configuration; and How much",
+    "link": "https://arxiv.org/abs/2611.21634",
+    "context": "Title: Trusting Trust in AI Software Engineering Agents: The Why, What, and How?\nAbstract: arXiv:2611.21634v1 Announce Type: new  Abstract: AI software engineering agents are increasingly integrated into development workflows, from autocomplete assistants to autonomous repair agents and multi-agent software development pipelines. Trust matters because these agents can produce, revise, and pass on artifacts that developers, other agents, or organisations may later rely on under uncertainty and risk. Yet trust in such systems is often treated as a single measurable property of an AI system. This is insufficient for software engineering, where trust depends on who relies on the agent, how that reliance is structured, and which properties must hold in that deployment. We propose a structural framework for reasoning about trust in AI software engineering agents. Inspired by the recursive nature of trust in software systems, we decompose trust into three analytical questions: Why trust?, identifying the trust scenario; What trust?, identifying the trust configuration; and How much",
+    "path": "papers/26/11/2611.21634.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

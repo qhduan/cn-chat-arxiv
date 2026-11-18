@@ -1,0 +1,12 @@
+{
+    "title": "Two Counterexamples for e-means",
+    "abstract": "arXiv:2611.22065v1 Announce Type: new  Abstract: e-means (Bessa et al., 2026) combines exponential averaging and cluster revival. We give two counterexamples to its published recipe with higher final loss than standard k-means (Lloyd, 1982) from identical initial centers. Mass-based revival can destroy a global optimum and make the ratio of expected losses unbounded even with k-means++ seeding.",
+    "link": "https://arxiv.org/abs/2611.22065",
+    "context": "Title: Two Counterexamples for e-means\nAbstract: arXiv:2611.22065v1 Announce Type: new  Abstract: e-means (Bessa et al., 2026) combines exponential averaging and cluster revival. We give two counterexamples to its published recipe with higher final loss than standard k-means (Lloyd, 1982) from identical initial centers. Mass-based revival can destroy a global optimum and make the ratio of expected losses unbounded even with k-means++ seeding.",
+    "path": "papers/26/11/2611.22065.json",
+    "total_tokens": 783,
+    "translated_title": "关于 e-means 的两个反例",
+    "translated_abstract": "e-means（Bessa 等人，2026）将指数平均与聚类复活机制相结合。我们针对其已发表的算法方案给出了两个反例，证明在相同的初始中心条件下，该算法的最终损失高于标准 k-means（Lloyd，1982）。基于质量的复活机制可能会破坏全局最优解，即使使用 k-means++ 进行初始化，期望损失之比仍可能是无界的。",
+    "tldr": "本文给出两个反例，证明 e-means 算法在相同初始中心下最终损失可能高于标准 k-means，且其基于质量的聚类复活机制可能破坏全局最优解，导致期望损失之比无界。",
+    "en_tdlr": "This paper presents two counterexamples showing that e-means can achieve a higher final loss than standard k-means from identical initial centers, and its mass-based revival can destroy a global optimum, making the ratio of expected losses unbounded even with k-means++ seeding."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Bidirectional Random Projections",
+    "abstract": "arXiv:2606.10377v2 Announce Type: replace-cross  Abstract: This paper analyzes bidirectional random projections for ordinary least squares (OLS) regression under the fixed design setting. Let $(X, Y) \\in \\mathbb{R}^{n\\times p}\\times\\mathbb{R}^{n}$ be a sample and $W \\in \\mathbb{R}^{n_1\\times n}$, $R \\in \\mathbb{R}^{p\\times p_1}$ be two random projections. We develop an expected excess loss bound for the OLS estimator built on $(WXR, WY)$, extending an established bound for the OLS estimator built on $(XR, Y)$. Our analysis shows that our bound is larger and the gap between the two bounds decays at a rate of approximately $O(1/n_1)$. These findings are confirmed by numerical results.",
+    "link": "https://arxiv.org/abs/2606.10377",
+    "context": "Title: Bidirectional Random Projections\nAbstract: arXiv:2606.10377v2 Announce Type: replace-cross  Abstract: This paper analyzes bidirectional random projections for ordinary least squares (OLS) regression under the fixed design setting. Let $(X, Y) \\in \\mathbb{R}^{n\\times p}\\times\\mathbb{R}^{n}$ be a sample and $W \\in \\mathbb{R}^{n_1\\times n}$, $R \\in \\mathbb{R}^{p\\times p_1}$ be two random projections. We develop an expected excess loss bound for the OLS estimator built on $(WXR, WY)$, extending an established bound for the OLS estimator built on $(XR, Y)$. Our analysis shows that our bound is larger and the gap between the two bounds decays at a rate of approximately $O(1/n_1)$. These findings are confirmed by numerical results.",
+    "path": "papers/26/06/2606.10377.json",
+    "total_tokens": 1135,
+    "translated_title": "双向随机投影",
+    "translated_abstract": "本文在固定设计设置下分析了普通最小二乘（OLS）回归中的双向随机投影。设 $(X, Y) \\in \\mathbb{R}^{n\\times p}\\times\\mathbb{R}^{n}$ 为一个样本，$W \\in \\mathbb{R}^{n_1\\times n}$ 和 $R \\in \\mathbb{R}^{p\\times p_1}$ 为两个随机投影。我们为基于 $(WXR, WY)$ 构建的 OLS 估计量推导了期望超额损失上界，扩展了已有的针对基于 $(XR, Y)$ 构建的 OLS 估计量的上界。我们的分析表明，我们的上界更大，且两个上界之间的差距以约 $O(1/n_1)$ 的速率衰减。这些发现得到了数值结果的证实。",
+    "tldr": "本文为固定设计下基于双向随机投影的普通最小二乘回归建立了期望超额损失上界，并证明该上界与单向随机投影已有上界之间的差距以约 O(1/n₁) 的速率衰减。",
+    "en_tdlr": "This paper establishes an expected excess loss bound for OLS regression based on bidirectional random projections under the fixed design setting, showing that the gap to the existing one-sided projection bound decays at a rate of approximately O(1/n₁)."
+}

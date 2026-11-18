@@ -1,0 +1,12 @@
+{
+    "title": "Usage Patterns of Programming Languages and Tools: A Systematic Literature Review",
+    "abstract": "arXiv:2611.21627v1 Announce Type: new  Abstract: Technology and the popularity of languages and tools are rapidly evolving. Thus, it is important to constantly assess the most popular languages and tools used in industry, furthering the collaboration between research and the software industry. In this study, we use a systematic literature review and investigate 37 studies published between 2015 -- 2024, which explored the programming languages, IDEs and CI tools used in industry. We observed that Java is most often listed among the most popular languages, and there are limited studies that investigate specific IDE usage. Also, Travis CI and GitHub Actions are the most common CI tools identified as being top CI tools used in industry. Overall, evidence shows that there is a lack of research focused on popular languages and tools used in industry, largely as there are many limitations with the possible methodology approaches. For example, lack of access to closed-source projects and samp",
+    "link": "https://arxiv.org/abs/2611.21627",
+    "context": "Title: Usage Patterns of Programming Languages and Tools: A Systematic Literature Review\nAbstract: arXiv:2611.21627v1 Announce Type: new  Abstract: Technology and the popularity of languages and tools are rapidly evolving. Thus, it is important to constantly assess the most popular languages and tools used in industry, furthering the collaboration between research and the software industry. In this study, we use a systematic literature review and investigate 37 studies published between 2015 -- 2024, which explored the programming languages, IDEs and CI tools used in industry. We observed that Java is most often listed among the most popular languages, and there are limited studies that investigate specific IDE usage. Also, Travis CI and GitHub Actions are the most common CI tools identified as being top CI tools used in industry. Overall, evidence shows that there is a lack of research focused on popular languages and tools used in industry, largely as there are many limitations with the possible methodology approaches. For example, lack of access to closed-source projects and samp",
+    "path": "papers/26/11/2611.21627.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

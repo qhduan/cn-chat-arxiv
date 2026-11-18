@@ -1,0 +1,12 @@
+{
+    "title": "One-Sided Randomization in Two-Sided Platform Experiments: Which Side Should be Randomized?",
+    "abstract": "arXiv:2611.16406v2 Announce Type: replace-cross  Abstract: Two-sided marketplace platforms often use randomized experiments to evaluate new features, raising the question of whether to randomize customers or listings. Randomizing the smaller (\\emph{short}) side can reduce interference bias due to weaker competition, while randomizing the larger (\\emph{long}) side provides a larger nominal sample, potentially reducing variance. On the surface, these competing considerations suggest a bias-variance trade-off in choosing which side to randomize. We investigate this trade-off in a two-sided marketplace with first-come, first-served (FCFS) booking and heterogeneous customer preferences, studying the bias and variance of difference-in-means estimators of the global average treatment effect.   Our findings suggest that rather than a bias-variance tradeoff, in fact short-side randomization is generally preferable on {\\em both} dimensions. We prove these results in an asymptotic regime where ma",
+    "link": "https://arxiv.org/abs/2611.16406",
+    "context": "Title: One-Sided Randomization in Two-Sided Platform Experiments: Which Side Should be Randomized?\nAbstract: arXiv:2611.16406v2 Announce Type: replace-cross  Abstract: Two-sided marketplace platforms often use randomized experiments to evaluate new features, raising the question of whether to randomize customers or listings. Randomizing the smaller (\\emph{short}) side can reduce interference bias due to weaker competition, while randomizing the larger (\\emph{long}) side provides a larger nominal sample, potentially reducing variance. On the surface, these competing considerations suggest a bias-variance trade-off in choosing which side to randomize. We investigate this trade-off in a two-sided marketplace with first-come, first-served (FCFS) booking and heterogeneous customer preferences, studying the bias and variance of difference-in-means estimators of the global average treatment effect.   Our findings suggest that rather than a bias-variance tradeoff, in fact short-side randomization is generally preferable on {\\em both} dimensions. We prove these results in an asymptotic regime where ma",
+    "path": "papers/26/11/2611.16406.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

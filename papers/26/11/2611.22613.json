@@ -1,0 +1,12 @@
+{
+    "title": "Python Code Generation for Isabelle/HOL",
+    "abstract": "arXiv:2611.22613v1 Announce Type: cross  Abstract: The Isabelle theorem prover provides an environment for formalising mathematics and reasoning about programs. To make verified implementations practically usable, its code generator translates functions expressed in the executable fragment of its logic into conventional programming languages. Its targets have traditionally been functional languages (Standard ML, OCaml, Haskell, and Scala), recently joined by Go. Python, which is becoming the dominant language of scientific computing, data science, and education, has remained out of reach. In this work, we close this gap with a Python backend for Isabelle's code generator. This generator enables verified algorithms to be used in Python applications, or to serve as verified references against which established Python libraries can be differentially tested, without leaving the Python ecosystem. We validate the backend on regression suites covering large parts of the HOL library and by tes",
+    "link": "https://arxiv.org/abs/2611.22613",
+    "context": "Title: Python Code Generation for Isabelle/HOL\nAbstract: arXiv:2611.22613v1 Announce Type: cross  Abstract: The Isabelle theorem prover provides an environment for formalising mathematics and reasoning about programs. To make verified implementations practically usable, its code generator translates functions expressed in the executable fragment of its logic into conventional programming languages. Its targets have traditionally been functional languages (Standard ML, OCaml, Haskell, and Scala), recently joined by Go. Python, which is becoming the dominant language of scientific computing, data science, and education, has remained out of reach. In this work, we close this gap with a Python backend for Isabelle's code generator. This generator enables verified algorithms to be used in Python applications, or to serve as verified references against which established Python libraries can be differentially tested, without leaving the Python ecosystem. We validate the backend on regression suites covering large parts of the HOL library and by tes",
+    "path": "papers/26/11/2611.22613.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

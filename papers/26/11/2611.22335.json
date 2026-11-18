@@ -1,0 +1,12 @@
+{
+    "title": "Comparing Implicit and Explicit Language Attitudes toward the Dutch multiethnolect Straattaal in Humans and Large Language Models",
+    "abstract": "arXiv:2611.22335v1 Announce Type: new  Abstract: While language attitudes have been extensively studied in humans, the extent to which large language models (LLMs) encode similar associations between language varieties and social attributes remains unclear. Contemporary sociolinguistic research distinguishes between explicit attitudes, which stem from deliberative processing, and implicit attitudes, which arise from automatic processing. This study investigates whether LLMs exhibit human-like implicit and explicit language attitudes toward the Dutch multiethnolect Straattaal, particularly its association with migrant communities. We use closely matched designs to assess attitudes in humans and LLMs. For humans, we use an Implicit Association Test (IAT) and an explicit rating task. For LLMs, we use the LLM Word Association Test (LLM WAT) and the same explicit rating task. Human participants strongly associate Straattaal with individuals with a migration background at both implicit and e",
+    "link": "https://arxiv.org/abs/2611.22335",
+    "context": "Title: Comparing Implicit and Explicit Language Attitudes toward the Dutch multiethnolect Straattaal in Humans and Large Language Models\nAbstract: arXiv:2611.22335v1 Announce Type: new  Abstract: While language attitudes have been extensively studied in humans, the extent to which large language models (LLMs) encode similar associations between language varieties and social attributes remains unclear. Contemporary sociolinguistic research distinguishes between explicit attitudes, which stem from deliberative processing, and implicit attitudes, which arise from automatic processing. This study investigates whether LLMs exhibit human-like implicit and explicit language attitudes toward the Dutch multiethnolect Straattaal, particularly its association with migrant communities. We use closely matched designs to assess attitudes in humans and LLMs. For humans, we use an Implicit Association Test (IAT) and an explicit rating task. For LLMs, we use the LLM Word Association Test (LLM WAT) and the same explicit rating task. Human participants strongly associate Straattaal with individuals with a migration background at both implicit and e",
+    "path": "papers/26/11/2611.22335.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

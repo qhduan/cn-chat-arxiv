@@ -1,0 +1,12 @@
+{
+    "title": "We Fixed the Scorer First, and Cluster Correction Killed Our Own Planted-Defect Result in AI Code Review",
+    "abstract": "arXiv:2611.21635v1 Announce Type: new  Abstract: Judging an AI code-review pipeline only by how much it catches hides an axis: what it dropped. Stronger selection raises precision for free; the cost never reaches the report. We ran four arms on the same eight cases, one scorer, asking whether planted-defect detection can rise without raising the claim error rate. Three repetitions are nested in eight cases, so p is reported per contrast and twice: under an exact permutation test over cases (2^8 arrangements) the two contrasts publishable under independence (Fisher p=0.017, 0.019) move to 0.0625 and 0.109, and after Holm correction no contrast separates. This is \"not observable with this design,\" not \"no effect\": the sign test needs six discordant cases in one direction, its realized type-I rate under the null is 0.0078, and 80% power needs a per-case win probability near 0.80; closing it takes 12-25 cases, not repetitions. Within a run, a second pass never removes what the first found ",
+    "link": "https://arxiv.org/abs/2611.21635",
+    "context": "Title: We Fixed the Scorer First, and Cluster Correction Killed Our Own Planted-Defect Result in AI Code Review\nAbstract: arXiv:2611.21635v1 Announce Type: new  Abstract: Judging an AI code-review pipeline only by how much it catches hides an axis: what it dropped. Stronger selection raises precision for free; the cost never reaches the report. We ran four arms on the same eight cases, one scorer, asking whether planted-defect detection can rise without raising the claim error rate. Three repetitions are nested in eight cases, so p is reported per contrast and twice: under an exact permutation test over cases (2^8 arrangements) the two contrasts publishable under independence (Fisher p=0.017, 0.019) move to 0.0625 and 0.109, and after Holm correction no contrast separates. This is \"not observable with this design,\" not \"no effect\": the sign test needs six discordant cases in one direction, its realized type-I rate under the null is 0.0078, and 80% power needs a per-case win probability near 0.80; closing it takes 12-25 cases, not repetitions. Within a run, a second pass never removes what the first found ",
+    "path": "papers/26/11/2611.21635.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}
