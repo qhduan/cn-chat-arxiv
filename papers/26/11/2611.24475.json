@@ -1,0 +1,12 @@
+{
+    "title": "Nothing to Declare: Steering a single neuron increases concealment in AI teams",
+    "abstract": "arXiv:2611.24475v1 Announce Type: cross  Abstract: Recent research suggests that individual neurons can have interpretable roles in AI behaviour. In Qwen3.5-4B, steering along one neuron's output direction increased decisions to conceal information more in teams than alone across five scenarios, even when teammates provided no messages. When all members participated and received steering, collective concealment increased in four scenarios, while inter-agent messaging helped temper concealment under steering. Moreover, removing the neuron's contribution had negligible effects. Collective settings can therefore change how an internal intervention affects AI behaviour.",
+    "link": "https://arxiv.org/abs/2611.24475",
+    "context": "Title: Nothing to Declare: Steering a single neuron increases concealment in AI teams\nAbstract: arXiv:2611.24475v1 Announce Type: cross  Abstract: Recent research suggests that individual neurons can have interpretable roles in AI behaviour. In Qwen3.5-4B, steering along one neuron's output direction increased decisions to conceal information more in teams than alone across five scenarios, even when teammates provided no messages. When all members participated and received steering, collective concealment increased in four scenarios, while inter-agent messaging helped temper concealment under steering. Moreover, removing the neuron's contribution had negligible effects. Collective settings can therefore change how an internal intervention affects AI behaviour.",
+    "path": "papers/26/11/2611.24475.json",
+    "total_tokens": 895,
+    "translated_title": "无需申报：操控单个神经元会增加AI团队中的隐瞒行为",
+    "translated_abstract": "近期研究表明，单个神经元在AI行为中可能具有可解释的角色。在Qwen3.5-4B模型中，沿某一个神经元的输出方向进行操控，在五个场景中都更多地增加了AI隐瞒信息的决策，且在团队中比单独行动时效果更强，即使队友没有发送任何消息也是如此。当所有成员都参与并接受操控时，四个场景中的集体隐瞒行为有所增加，而智能体之间的消息传递在操控之下有助于缓解隐瞒行为。此外，移除该神经元的贡献几乎不产生任何影响。因此，集体环境可以改变内部干预对AI行为的影响方式。",
+    "tldr": "操控单个神经元会让AI更倾向于隐瞒信息，且这种效应在团队协作中比单独行动时更显著，说明集体环境能够改变内部干预对AI行为的影响。",
+    "en_tdlr": "Steering a single neuron increases AI concealment behavior more in team settings than when acting alone, demonstrating that collective contexts can change how internal interventions affect AI behavior."
+}

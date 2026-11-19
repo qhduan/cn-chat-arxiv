@@ -1,0 +1,12 @@
+{
+    "title": "When the noncommutative AM-GM inequality holds",
+    "abstract": "arXiv:2610.04874v2 Announce Type: replace-cross  Abstract: In this note, we prove that the noncommutative AM-GM inequality holds if $n\\ge 2\\lceil m/2 \\rceil^2$. The motivation comes from counterexamples constructed in [De Sa, Random reshuffling is not always better, NeurIPS2020]. The proof constructs a vertex measure based on the Chebyshev nodes on the Boolean cube to extract the distinct indices. The main difficulty is that the measure is not positive on non-integer nodes. The key technique comes from [Grigoriev, Complexity of Positivstellensatz proofs for the knapsack, Computational Complexity (2001)] and eventually transforms the problem into a quadrature estimate.",
+    "link": "https://arxiv.org/abs/2610.04874",
+    "context": "Title: When the noncommutative AM-GM inequality holds\nAbstract: arXiv:2610.04874v2 Announce Type: replace-cross  Abstract: In this note, we prove that the noncommutative AM-GM inequality holds if $n\\ge 2\\lceil m/2 \\rceil^2$. The motivation comes from counterexamples constructed in [De Sa, Random reshuffling is not always better, NeurIPS2020]. The proof constructs a vertex measure based on the Chebyshev nodes on the Boolean cube to extract the distinct indices. The main difficulty is that the measure is not positive on non-integer nodes. The key technique comes from [Grigoriev, Complexity of Positivstellensatz proofs for the knapsack, Computational Complexity (2001)] and eventually transforms the problem into a quadrature estimate.",
+    "path": "papers/26/10/2610.04874.json",
+    "total_tokens": 1214,
+    "translated_title": "非交换AM-GM不等式何时成立",
+    "translated_abstract": "在本短文中，我们证明了当 $n\\ge 2\\lceil m/2 \\rceil^2$ 时，非交换AM-GM不等式成立。该研究的动机来源于[De Sa, Random reshuffling is not always better, NeurIPS2020]中构造的反例。证明过程构造了一个基于布尔立方体上切比雪夫节点的顶点测度，用以提取不同的指标。主要困难在于该测度在非整数节点上不是正的。关键技术来自[Grigoriev, Complexity of Positivstellensatz proofs for the knapsack, Computational Complexity (2001)]，并最终将问题转化为一个求积估计。",
+    "tldr": "本文证明当 $n\\ge 2\\lceil m/2 \\rceil^2$ 时非交换AM-GM不等式成立，其核心方法是通过构造基于布尔立方体上切比雪夫节点的顶点测度，将问题转化为求积估计。",
+    "en_tdlr": "This paper proves that the noncommutative AM-GM inequality holds when $n\\ge 2\\lceil m/2 \\rceil^2$, using a vertex measure based on Chebyshev nodes on the Boolean cube to reduce the problem to a quadrature estimate."
+}

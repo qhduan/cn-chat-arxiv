@@ -1,0 +1,12 @@
+{
+    "title": "Who Changed the AI Agent's Rules? Measuring How AI Coding Agents Escalate Authority in CI/CD Pipelines",
+    "abstract": "arXiv:2611.23251v1 Announce Type: new  Abstract: AI coding agents can modify CI/CD control-plane structures, including workflows and permission settings, thereby extending their authority beyond routine code changes. Because such modifications can affect an entire development pipeline, this study examines the trade-off between execution cost and governance risk in agentic CI/CD. We introduce a joint penalty model, P(M), that combines these two dimensions and evaluate it on all 932,791 agent-authored pull requests in the AIDev dataset, covering five autonomous coding agents. Each pull request is automatically classified by authority scope - data-plane or control-plane - and assigned a penalty score.   We found that control-plane actions have a 2.3x higher mean joint penalty than data-plane actions (0.498 vs. 0.218) and a 3.9x higher mean governance risk (0.530 vs. 0.135), which means that they indeed increase the risk. All 775 pull requests in the extreme-risk category, defined as P(M) ",
+    "link": "https://arxiv.org/abs/2611.23251",
+    "context": "Title: Who Changed the AI Agent's Rules? Measuring How AI Coding Agents Escalate Authority in CI/CD Pipelines\nAbstract: arXiv:2611.23251v1 Announce Type: new  Abstract: AI coding agents can modify CI/CD control-plane structures, including workflows and permission settings, thereby extending their authority beyond routine code changes. Because such modifications can affect an entire development pipeline, this study examines the trade-off between execution cost and governance risk in agentic CI/CD. We introduce a joint penalty model, P(M), that combines these two dimensions and evaluate it on all 932,791 agent-authored pull requests in the AIDev dataset, covering five autonomous coding agents. Each pull request is automatically classified by authority scope - data-plane or control-plane - and assigned a penalty score.   We found that control-plane actions have a 2.3x higher mean joint penalty than data-plane actions (0.498 vs. 0.218) and a 3.9x higher mean governance risk (0.530 vs. 0.135), which means that they indeed increase the risk. All 775 pull requests in the extreme-risk category, defined as P(M) ",
+    "path": "papers/26/11/2611.23251.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

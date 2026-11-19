@@ -1,0 +1,12 @@
+{
+    "title": "Agents as Architecture Evaluators: Automating ATAM and SAAM for Continuous Assessment",
+    "abstract": "arXiv:2611.23278v1 Announce Type: new  Abstract: The long-term success of a software system relies heavily on its underlying architecture, which dictates its performance with respect to quality attributes. Software Architecture Evaluation methods, such as the Architecture Tradeoff Analysis Method (ATAM) and the Software Architecture Analysis Method (SAAM), are widely recognized for their ability to mitigate risks and ensure reliable quality attributes. However, their widespread adoption remains limited due to the significant cost, time, and human expertise required for these processes. This paper investigates the potential of agentic AI to lower these barriers and facilitate architectural assessment. To enable this preliminary study, we established a dataset by extracting human conducted evaluations from existing academic literature into a structured format. Using this dataset, we developed an agentic workflow to synthesize ATAM and SAAM evaluation reports based on these high level arc",
+    "link": "https://arxiv.org/abs/2611.23278",
+    "context": "Title: Agents as Architecture Evaluators: Automating ATAM and SAAM for Continuous Assessment\nAbstract: arXiv:2611.23278v1 Announce Type: new  Abstract: The long-term success of a software system relies heavily on its underlying architecture, which dictates its performance with respect to quality attributes. Software Architecture Evaluation methods, such as the Architecture Tradeoff Analysis Method (ATAM) and the Software Architecture Analysis Method (SAAM), are widely recognized for their ability to mitigate risks and ensure reliable quality attributes. However, their widespread adoption remains limited due to the significant cost, time, and human expertise required for these processes. This paper investigates the potential of agentic AI to lower these barriers and facilitate architectural assessment. To enable this preliminary study, we established a dataset by extracting human conducted evaluations from existing academic literature into a structured format. Using this dataset, we developed an agentic workflow to synthesize ATAM and SAAM evaluation reports based on these high level arc",
+    "path": "papers/26/11/2611.23278.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

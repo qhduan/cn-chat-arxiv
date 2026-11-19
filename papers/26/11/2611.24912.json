@@ -1,0 +1,12 @@
+{
+    "title": "Stock bubbles in limited participation models with power utilities",
+    "abstract": "arXiv:2611.24912v1 Announce Type: new  Abstract: We prove that the equilibrium state-price deflated cum-dividend stock-price process in Guasoni, Larsen, and Leoni (2025) is a strict local martingale. Our result is based on proving that the unrestricted trader faces an endogenously complete model.",
+    "link": "https://arxiv.org/abs/2611.24912",
+    "context": "Title: Stock bubbles in limited participation models with power utilities\nAbstract: arXiv:2611.24912v1 Announce Type: new  Abstract: We prove that the equilibrium state-price deflated cum-dividend stock-price process in Guasoni, Larsen, and Leoni (2025) is a strict local martingale. Our result is based on proving that the unrestricted trader faces an endogenously complete model.",
+    "path": "papers/26/11/2611.24912.json",
+    "total_tokens": 716,
+    "translated_title": "幂效用函数下有限参与模型中的股票泡沫",
+    "translated_abstract": "我们证明了 Guasoni、Larsen 和 Leoni (2025) 论文中均衡状态价格折算后的含股息股票价格过程是一个严格局部鞅。我们的结果基于证明无限制交易者面临一个内生完备的模型。",
+    "tldr": "本文证明了有限参与模型中均衡状态价格折算后的含股息股票价格过程是严格局部鞅，从而证实了股票泡沫的存在，其核心创新在于证明无限制交易者面临一个内生完备的市场模型。",
+    "en_tdlr": "This paper proves that the equilibrium state-price deflated cum-dividend stock-price process in Guasoni, Larsen, and Leoni (2025) is a strict local martingale, thereby establishing the existence of stock bubbles, with the key contribution being the proof that the unrestricted trader faces an endogenously complete model."
+}

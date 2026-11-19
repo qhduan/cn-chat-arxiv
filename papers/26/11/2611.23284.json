@@ -1,0 +1,12 @@
+{
+    "title": "Code Cloning and Procedural Abstraction in Scratch: A Large-Scale Study of Co-Existing Reuse Practices",
+    "abstract": "arXiv:2611.23284v1 Announce Type: new  Abstract: Code cloning is a long-standing software-evolution concern: duplicated implementations diverge as software changes. In block-based programming, however, duplication is an everyday reuse mechanism, and Scratch facilitates a copy-and-paste culture that may hinder abstraction. We study this relation in 2.04 million public Scratch projects. We compare cloned sequences with existing abstractions and examine how their use varies across Computational Thinking (CT) score levels. Clones occur in 6.2% of projects and custom blocks in 11.9%. Of 436,198 detected clone instances, 16.1% have a normalized sequence matching a custom block in the same project and 17.8% match a custom block only outside it. At the pattern level, 83 of the 100 most frequent clone patterns have counterparts implementable as custom blocks elsewhere in the corpus. Of the remaining 17 patterns, 15 are amenable to custom-block extraction, while in two cases the benefit of abstr",
+    "link": "https://arxiv.org/abs/2611.23284",
+    "context": "Title: Code Cloning and Procedural Abstraction in Scratch: A Large-Scale Study of Co-Existing Reuse Practices\nAbstract: arXiv:2611.23284v1 Announce Type: new  Abstract: Code cloning is a long-standing software-evolution concern: duplicated implementations diverge as software changes. In block-based programming, however, duplication is an everyday reuse mechanism, and Scratch facilitates a copy-and-paste culture that may hinder abstraction. We study this relation in 2.04 million public Scratch projects. We compare cloned sequences with existing abstractions and examine how their use varies across Computational Thinking (CT) score levels. Clones occur in 6.2% of projects and custom blocks in 11.9%. Of 436,198 detected clone instances, 16.1% have a normalized sequence matching a custom block in the same project and 17.8% match a custom block only outside it. At the pattern level, 83 of the 100 most frequent clone patterns have counterparts implementable as custom blocks elsewhere in the corpus. Of the remaining 17 patterns, 15 are amenable to custom-block extraction, while in two cases the benefit of abstr",
+    "path": "papers/26/11/2611.23284.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

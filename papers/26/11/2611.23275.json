@@ -1,0 +1,12 @@
+{
+    "title": "AI Code Review Requires Revision-Aware Evidence of Concern Resolution",
+    "abstract": "arXiv:2611.23275v1 Announce Type: new  Abstract: AI-assisted code review increasingly judges whether reported concerns have been resolved. Yet closing a thread or modifying a commented line does not establish repair, and later revisions can invalidate earlier fixes. This position paper argues that resolution requires inspectable, revision-specific evidence that is revalidated when its dependencies change. We model review concerns as persistent verification obligations, derive a sufficient condition under which dependency-gated revalidation matches exhaustive reassessment, and introduce REVAL, a lightweight procedure adapting principles from regression-test selection and build systems. We evaluate REVAL against oracle ground truth in synthetic revision histories covering 441 concerns, 1,284 assessments, and 12 defect families. A sticky outdated-line proxy falsely marked 72.9% of unresolved states as resolved, while stopping checks after initial success missed every recurrence. With thre",
+    "link": "https://arxiv.org/abs/2611.23275",
+    "context": "Title: AI Code Review Requires Revision-Aware Evidence of Concern Resolution\nAbstract: arXiv:2611.23275v1 Announce Type: new  Abstract: AI-assisted code review increasingly judges whether reported concerns have been resolved. Yet closing a thread or modifying a commented line does not establish repair, and later revisions can invalidate earlier fixes. This position paper argues that resolution requires inspectable, revision-specific evidence that is revalidated when its dependencies change. We model review concerns as persistent verification obligations, derive a sufficient condition under which dependency-gated revalidation matches exhaustive reassessment, and introduce REVAL, a lightweight procedure adapting principles from regression-test selection and build systems. We evaluate REVAL against oracle ground truth in synthetic revision histories covering 441 concerns, 1,284 assessments, and 12 defect families. A sticky outdated-line proxy falsely marked 72.9% of unresolved states as resolved, while stopping checks after initial success missed every recurrence. With thre",
+    "path": "papers/26/11/2611.23275.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

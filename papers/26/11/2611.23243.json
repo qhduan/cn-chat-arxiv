@@ -1,0 +1,12 @@
+{
+    "title": "Agent-Native Applications: A New Application Paradigm",
+    "abstract": "arXiv:2611.23243v1 Announce Type: new  Abstract: Traditional application architectures assume behavioral logic authored in advance, leaving reachable behavior largely bounded by explicit code and workflow rules. Large language model (LLM)-based agents challenge this assumption by enabling runtime reasoning and autonomous action to become part of application behavior, allowing applications to address situations not enumerated at design time. Extending this pattern, this paper identifies a new application paradigm in which LLM-based agents serve as central reasoning and action components responsible for the application's core logic and, where permitted, for adapting the application graph itself at runtime. We call these agent-native applications. While such applications significantly expand their possible behavioral space beyond explicit code and workflow rules, they also face a major control problem in which useful agentic reasoning should be preserved while application behavior should ",
+    "link": "https://arxiv.org/abs/2611.23243",
+    "context": "Title: Agent-Native Applications: A New Application Paradigm\nAbstract: arXiv:2611.23243v1 Announce Type: new  Abstract: Traditional application architectures assume behavioral logic authored in advance, leaving reachable behavior largely bounded by explicit code and workflow rules. Large language model (LLM)-based agents challenge this assumption by enabling runtime reasoning and autonomous action to become part of application behavior, allowing applications to address situations not enumerated at design time. Extending this pattern, this paper identifies a new application paradigm in which LLM-based agents serve as central reasoning and action components responsible for the application's core logic and, where permitted, for adapting the application graph itself at runtime. We call these agent-native applications. While such applications significantly expand their possible behavioral space beyond explicit code and workflow rules, they also face a major control problem in which useful agentic reasoning should be preserved while application behavior should ",
+    "path": "papers/26/11/2611.23243.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

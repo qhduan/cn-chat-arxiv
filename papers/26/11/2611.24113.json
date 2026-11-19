@@ -1,0 +1,12 @@
+{
+    "title": "AG-BFGS: Foundations for Accelerated Geometry Learning",
+    "abstract": "arXiv:2611.24113v1 Announce Type: cross  Abstract: We introduce an accelerated geometry-learning framework for BFGS that incorporates momentum into the learning of Hessian inverse approximations. We prove that the resulting accelerated updates satisfy explicit stability conditions and preserve positive definiteness within admissible parameter regions. Numerical experiments demonstrate consistent improvements over the corresponding non-accelerated schemes while maintaining numerical stability. These results provide the first rigorous theoretical foundation for accelerated quasi-Newton learning and bridge the gap between empirical observations and mathematical guarantees for accelerated second-order methods.",
+    "link": "https://arxiv.org/abs/2611.24113",
+    "context": "Title: AG-BFGS: Foundations for Accelerated Geometry Learning\nAbstract: arXiv:2611.24113v1 Announce Type: cross  Abstract: We introduce an accelerated geometry-learning framework for BFGS that incorporates momentum into the learning of Hessian inverse approximations. We prove that the resulting accelerated updates satisfy explicit stability conditions and preserve positive definiteness within admissible parameter regions. Numerical experiments demonstrate consistent improvements over the corresponding non-accelerated schemes while maintaining numerical stability. These results provide the first rigorous theoretical foundation for accelerated quasi-Newton learning and bridge the gap between empirical observations and mathematical guarantees for accelerated second-order methods.",
+    "path": "papers/26/11/2611.24113.json",
+    "total_tokens": 845,
+    "translated_title": "AG-BFGS：加速几何学习的基础",
+    "translated_abstract": "我们为BFGS引入了一个加速几何学习框架，该框架将动量融入Hessian逆近似的学习过程中。我们证明了所得到的加速更新满足显式的稳定性条件，并在可允许的参数区域内保持正定性。数值实验表明，与相应的非加速方案相比，该方法取得了一致的改进，同时保持了数值稳定性。这些结果为加速拟牛顿学习提供了首个严格的理论基础，并弥合了加速二阶方法在经验观察与数学保证之间的差距。",
+    "tldr": "该论文提出了AG-BFGS加速几何学习框架，将动量引入BFGS的Hessian逆近似学习中，首次为加速拟牛顿方法建立了严格的理论基础，证明了加速更新满足显式稳定性条件且保持正定性。",
+    "en_tdlr": "This paper introduces AG-BFGS, an accelerated geometry-learning framework that incorporates momentum into BFGS Hessian inverse approximations, providing the first rigorous theoretical foundation for accelerated quasi-Newton learning with proven explicit stability conditions and positive definiteness preservation."
+}

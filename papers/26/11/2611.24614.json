@@ -1,0 +1,11 @@
+{
+    "title": "On the equilibrium lattice of supermodular games",
+    "abstract": "arXiv:2611.24614v1 Announce Type: new  Abstract: This paper shows how the meet and join of any pair of equilibria in a super- modular game can be constructed. The method relies on two one-directional best-response processes that I call contagion up and contagion down. Starting from any action profile, applying this pair of processes in opposite orders produces two equilibria that define its equilibrium envelope. The endpoints of the envelope are precisely the least and greatest equilibria reachable through arbitrary asynchronous best-response dynamics, and can only move closer together as players revise their actions. These and other results show how appending one-directional adjustment processes to the familiar equilibrium lattice structure allows us to explore the relationships between equilibria further.",
+    "link": "https://arxiv.org/abs/2611.24614",
+    "context": "Title: On the equilibrium lattice of supermodular games\nAbstract: arXiv:2611.24614v1 Announce Type: new  Abstract: This paper shows how the meet and join of any pair of equilibria in a super- modular game can be constructed. The method relies on two one-directional best-response processes that I call contagion up and contagion down. Starting from any action profile, applying this pair of processes in opposite orders produces two equilibria that define its equilibrium envelope. The endpoints of the envelope are precisely the least and greatest equilibria reachable through arbitrary asynchronous best-response dynamics, and can only move closer together as players revise their actions. These and other results show how appending one-directional adjustment processes to the familiar equilibrium lattice structure allows us to explore the relationships between equilibria further.",
+    "path": "papers/26/11/2611.24614.json",
+    "total_tokens": 1045,
+    "translated_title": "论超模博弈的均衡格",
+    "translated_abstract": "本文展示了如何构造超模博弈中任意一对均衡的下确界与上确界。该方法依赖于两个单向的最优反应过程，我称之为“向上传染”与“向下传染”。从任意行动组合出发，以相反的顺序应用这一对过程会产生两个均衡，它们定义了该行动组合的均衡包络。包络的端点恰好是通过任意异步最优反应动态所能达到的最小均衡与最大均衡，并且随着参与者调整自己的行动，这两个端点只会相互靠近。这些及其他结果表明，在人们熟悉的均衡格结构上附加单向调整过程，能够让我们进一步探索均衡之间的关系。",
+    "tldr": "本文提出“向上传染”与“向下传染”两个单向最优反应过程来构造超模博弈中任意一对均衡的下确界与上确界，并证明由此得到的均衡包络端点恰为异步最优反应动态可达的最小与最大均衡。"
+}

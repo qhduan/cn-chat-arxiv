@@ -1,0 +1,12 @@
+{
+    "title": "Structure-Behavior Coalescence: A Definition of Systems",
+    "abstract": "arXiv:2611.23254v1 Announce Type: new  Abstract: For more than seventy years, systems engineering has developed extensive models and frameworks, yet the fundamental question of what constitutes a system remains insufficiently formalized. Existing approaches often treat structure and behavior as separate aspects, leaving their unity, system identity, and consistency conditions insufficiently defined. This paper introduces Structure-Behavior Coalescence (SBC) as a formal framework that defines a system as an integrated entity in which structure and behavior are coalesced through interaction. SBC provides a formal modeling approach with well-formedness constraints for maintaining structural-behavioral coherence, including representations for terminal, paused, and intermediate states and rules for sequential, parallel, and alternative behaviors. The framework provides a formal perspective on the question, \"What is a system?\", and establishes a foundation for consistent system modeling, ver",
+    "link": "https://arxiv.org/abs/2611.23254",
+    "context": "Title: Structure-Behavior Coalescence: A Definition of Systems\nAbstract: arXiv:2611.23254v1 Announce Type: new  Abstract: For more than seventy years, systems engineering has developed extensive models and frameworks, yet the fundamental question of what constitutes a system remains insufficiently formalized. Existing approaches often treat structure and behavior as separate aspects, leaving their unity, system identity, and consistency conditions insufficiently defined. This paper introduces Structure-Behavior Coalescence (SBC) as a formal framework that defines a system as an integrated entity in which structure and behavior are coalesced through interaction. SBC provides a formal modeling approach with well-formedness constraints for maintaining structural-behavioral coherence, including representations for terminal, paused, and intermediate states and rules for sequential, parallel, and alternative behaviors. The framework provides a formal perspective on the question, \"What is a system?\", and establishes a foundation for consistent system modeling, ver",
+    "path": "papers/26/11/2611.23254.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

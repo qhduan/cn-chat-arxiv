@@ -1,0 +1,12 @@
+{
+    "title": "Label-Free Role-Aware Segmentation of Classroom Recordings: Recovering the Teacher from Transferable Structure",
+    "abstract": "arXiv:2611.23609v1 Announce Type: new  Abstract: How much the teacher talks and when are among the most informative and costly-to-measure signals of teaching. Yet, classroom audio is among the most sensitive data an AI system can process: recordings capture minors and fall under GDPR, preventing raw audio from leaving the recording device. We present a teacher-student segmentation pipeline designed to meet exactly this constraint: label-free at inference, running on a recording device, and requiring no per-session calibration. The pipeline chains a lightweight voice activity detector, compactly pretrained speaker embeddings, agglomerative clustering, and a small logistic regression that assigns the teacher role based on session-relative structure rather than voice identity. We show that our structural cue transfers across classrooms, languages, and acoustic conditions.   In leave-one-teacher-out cross-validation on 292 recordings from 63 teachers across English and German corpora, our ",
+    "link": "https://arxiv.org/abs/2611.23609",
+    "context": "Title: Label-Free Role-Aware Segmentation of Classroom Recordings: Recovering the Teacher from Transferable Structure\nAbstract: arXiv:2611.23609v1 Announce Type: new  Abstract: How much the teacher talks and when are among the most informative and costly-to-measure signals of teaching. Yet, classroom audio is among the most sensitive data an AI system can process: recordings capture minors and fall under GDPR, preventing raw audio from leaving the recording device. We present a teacher-student segmentation pipeline designed to meet exactly this constraint: label-free at inference, running on a recording device, and requiring no per-session calibration. The pipeline chains a lightweight voice activity detector, compactly pretrained speaker embeddings, agglomerative clustering, and a small logistic regression that assigns the teacher role based on session-relative structure rather than voice identity. We show that our structural cue transfers across classrooms, languages, and acoustic conditions.   In leave-one-teacher-out cross-validation on 292 recordings from 63 teachers across English and German corpora, our ",
+    "path": "papers/26/11/2611.23609.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

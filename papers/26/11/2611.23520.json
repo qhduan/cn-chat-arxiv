@@ -1,0 +1,12 @@
+{
+    "title": "BeFit: Shifting Complexity from Weights to Bernstein Activations for Resource-Constrained Sensing",
+    "abstract": "arXiv:2611.23520v1 Announce Type: new  Abstract: Time-series sensing increasingly relies on neural networks, yet deployment on resource-constrained microcontrollers remains challenging. Aggressive model compression can reduce accuracy, while restricting weights to multiplication-free representations introduces further losses. We present BeFit, an end-to-end framework that shifts model capacity from weights to learnable Bernstein polynomial activations. BeFit (i) finds compact Bernstein-activated convolutional neural networks (BeCNNs) through hardware-aware neural architecture search and trains them via knowledge distillation; (ii) projects their weights to multiplication-free codes, freezes the codes, and recovers the resulting accuracy loss through the learnable activations; and (iii) generates model-specific kernels that exploit the projected weights for multiplication-free convolutions. On human activity recognition, BeCNNs are 2.75 percentage points (pp) more accurate on average th",
+    "link": "https://arxiv.org/abs/2611.23520",
+    "context": "Title: BeFit: Shifting Complexity from Weights to Bernstein Activations for Resource-Constrained Sensing\nAbstract: arXiv:2611.23520v1 Announce Type: new  Abstract: Time-series sensing increasingly relies on neural networks, yet deployment on resource-constrained microcontrollers remains challenging. Aggressive model compression can reduce accuracy, while restricting weights to multiplication-free representations introduces further losses. We present BeFit, an end-to-end framework that shifts model capacity from weights to learnable Bernstein polynomial activations. BeFit (i) finds compact Bernstein-activated convolutional neural networks (BeCNNs) through hardware-aware neural architecture search and trains them via knowledge distillation; (ii) projects their weights to multiplication-free codes, freezes the codes, and recovers the resulting accuracy loss through the learnable activations; and (iii) generates model-specific kernels that exploit the projected weights for multiplication-free convolutions. On human activity recognition, BeCNNs are 2.75 percentage points (pp) more accurate on average th",
+    "path": "papers/26/11/2611.23520.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

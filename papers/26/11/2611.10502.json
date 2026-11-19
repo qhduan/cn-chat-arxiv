@@ -1,0 +1,12 @@
+{
+    "title": "Distinguishing Extraction Failures and Clinical Discordance with LLM Uncertainty on Radiology Reports",
+    "abstract": "arXiv:2611.10502v2 Announce Type: replace  Abstract: Large language models (LLMs) are increasingly used to structure data from unstructured text, but extraction errors remain inevitable. We evaluated whether LLM uncertainty could distinguish extraction failure from true clinical discordance. In 5{,}225 vessels from 1{,}045 patients undergoing coronary CT angiography (CCTA) for suspected coronary artery disease (CAD), we evaluated token-level and self-reported LLM uncertainty during extraction of vessel-level stenosis severity. Extraction failure was defined as disagreement between LLM-extracted stenosis and expert annotations. Clinical discordance was defined as disagreement in obstructive CAD status between CCTA and subsequent invasive coronary angiography (ICA). Incremental discrimination was assessed after adjustment for stenosis severity, calcium burden, and coronary vessel. Extraction failure was evaluated in 1{,}077 vessels from 253 patients with expert annotations, and clinical ",
+    "link": "https://arxiv.org/abs/2611.10502",
+    "context": "Title: Distinguishing Extraction Failures and Clinical Discordance with LLM Uncertainty on Radiology Reports\nAbstract: arXiv:2611.10502v2 Announce Type: replace  Abstract: Large language models (LLMs) are increasingly used to structure data from unstructured text, but extraction errors remain inevitable. We evaluated whether LLM uncertainty could distinguish extraction failure from true clinical discordance. In 5{,}225 vessels from 1{,}045 patients undergoing coronary CT angiography (CCTA) for suspected coronary artery disease (CAD), we evaluated token-level and self-reported LLM uncertainty during extraction of vessel-level stenosis severity. Extraction failure was defined as disagreement between LLM-extracted stenosis and expert annotations. Clinical discordance was defined as disagreement in obstructive CAD status between CCTA and subsequent invasive coronary angiography (ICA). Incremental discrimination was assessed after adjustment for stenosis severity, calcium burden, and coronary vessel. Extraction failure was evaluated in 1{,}077 vessels from 253 patients with expert annotations, and clinical ",
+    "path": "papers/26/11/2611.10502.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

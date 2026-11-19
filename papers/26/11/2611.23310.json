@@ -1,0 +1,13 @@
+{
+    "title": "Edge Computing for IoT-Enabled Smart Cities: A Review of Middleware, Explainable AI, and User Behavior Analytics",
+    "abstract": "arXiv:2611.23310v1 Announce Type: new  Abstract: This review looks at cloud-IoT edge middleware for analyzing user behavior in smart cities, with a particular focus on linking behavioral analytics to energy-aware and mission-critical urban services. The topic sits at the crossroads of smart-city platforms, IoT sensing, edge/fog/cloud computing, service-oriented architectures, machine learning, explainable AI, privacy-aware governance, and energy-critical applications such as EV charging, energy demand, environmental exposure, crowd safety, and the operational resilience of urban infrastructure. As such, this paper maps out the main categories of user-behavior data, examines five application domains, compares several case studies, and puts forward a new XAI-EdgeSOA Middleware Framework called X-EdgeCity Middleware. This framework brings together IoT sensing, edge preprocessing, fog coordination, event-driven communication, cloud analytics, XAI explanations, privacy-by-design, and benchm",
+    "link": "https://arxiv.org/abs/2611.23310",
+    "context": "Title: Edge Computing for IoT-Enabled Smart Cities: A Review of Middleware, Explainable AI, and User Behavior Analytics\nAbstract: arXiv:2611.23310v1 Announce Type: new  Abstract: This review looks at cloud-IoT edge middleware for analyzing user behavior in smart cities, with a particular focus on linking behavioral analytics to energy-aware and mission-critical urban services. The topic sits at the crossroads of smart-city platforms, IoT sensing, edge/fog/cloud computing, service-oriented architectures, machine learning, explainable AI, privacy-aware governance, and energy-critical applications such as EV charging, energy demand, environmental exposure, crowd safety, and the operational resilience of urban infrastructure. As such, this paper maps out the main categories of user-behavior data, examines five application domains, compares several case studies, and puts forward a new XAI-EdgeSOA Middleware Framework called X-EdgeCity Middleware. This framework brings together IoT sensing, edge preprocessing, fog coordination, event-driven communication, cloud analytics, XAI explanations, privacy-by-design, and benchm",
+    "path": "papers/26/11/2611.23310.json",
+    "total_tokens": 1224,
+    "translated_title": "面向物联网智慧城市的边缘计算：中间件、可解释人工智能与用户行为分析综述",
+    "pending": [
+        "translated_abstract",
+        "tldr"
+    ]
+}

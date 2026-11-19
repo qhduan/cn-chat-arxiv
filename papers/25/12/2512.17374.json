@@ -1,0 +1,12 @@
+{
+    "title": "Generative modeling of conditional probability distributions on the level-sets of collective variables",
+    "abstract": "arXiv:2512.17374v4 Announce Type: replace  Abstract: Given a probability distribution $\\mu$ in $\\mathbb{R}^d$ represented by data, we study in this paper the generative modeling of the corresponding conditional probability distributions on the level-sets of a collective variable $\\xi:\\mathbb{R}^d \\rightarrow \\mathbb{R}^k$, where $1 \\le k",
+    "link": "https://arxiv.org/abs/2512.17374",
+    "context": "Title: Generative modeling of conditional probability distributions on the level-sets of collective variables\nAbstract: arXiv:2512.17374v4 Announce Type: replace  Abstract: Given a probability distribution $\\mu$ in $\\mathbb{R}^d$ represented by data, we study in this paper the generative modeling of the corresponding conditional probability distributions on the level-sets of a collective variable $\\xi:\\mathbb{R}^d \\rightarrow \\mathbb{R}^k$, where $1 \\le k",
+    "path": "papers/25/12/2512.17374.json",
+    "total_tokens": 872,
+    "translated_title": "基于集体变量水平集的条件概率分布生成式建模",
+    "translated_abstract": "给定一个由数据表示的 $\\mathbb{R}^d$ 中的概率分布 $\\mu$，本文研究了在集体变量 $\\xi:\\mathbb{R}^d \\rightarrow \\mathbb{R}^k$（其中 $1 \\le k$ ...）的水平集上相应条件概率分布的生成式建模。",
+    "tldr": "本文研究了如何对由集体变量水平集所定义的条件概率分布进行生成式建模。",
+    "en_tdlr": "This paper studies the generative modeling of conditional probability distributions defined on the level-sets of collective variables."
+}

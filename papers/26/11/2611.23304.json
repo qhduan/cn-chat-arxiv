@@ -1,0 +1,12 @@
+{
+    "title": "LLMs for Software Vulnerability Prediction and Prioritization: A Review",
+    "abstract": "arXiv:2611.23304v1 Announce Type: new  Abstract: Large language models have moved beyond vulnerability detection into prediction, assessment, exploitability estimation, risk assessment and prioritization, yet the evidence for this shift has not been synthesised separately from the detection literature. In this systematic literature review, we examine how LLMs are used across those five task classes, how well they perform against established baselines, and what prevents their operational adoption. Following a prespecified protocol, we identified 197 records, removed 53 duplicates, and excluded 103 records at title and abstract stage. We assessed 41 full texts and finally retained 23 primary studies published between 2024 and 2026 after a six-question quality assessment. The review contributes a five-class taxonomy ordered by decision outcome, a method taxonomy covering prompting, tuning and retrieval or agentic architectures, an evaluation-practice audit, a bounded performance synthesis",
+    "link": "https://arxiv.org/abs/2611.23304",
+    "context": "Title: LLMs for Software Vulnerability Prediction and Prioritization: A Review\nAbstract: arXiv:2611.23304v1 Announce Type: new  Abstract: Large language models have moved beyond vulnerability detection into prediction, assessment, exploitability estimation, risk assessment and prioritization, yet the evidence for this shift has not been synthesised separately from the detection literature. In this systematic literature review, we examine how LLMs are used across those five task classes, how well they perform against established baselines, and what prevents their operational adoption. Following a prespecified protocol, we identified 197 records, removed 53 duplicates, and excluded 103 records at title and abstract stage. We assessed 41 full texts and finally retained 23 primary studies published between 2024 and 2026 after a six-question quality assessment. The review contributes a five-class taxonomy ordered by decision outcome, a method taxonomy covering prompting, tuning and retrieval or agentic architectures, an evaluation-practice audit, a bounded performance synthesis",
+    "path": "papers/26/11/2611.23304.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

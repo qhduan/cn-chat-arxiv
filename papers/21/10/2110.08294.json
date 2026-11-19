@@ -1,0 +1,11 @@
+{
+    "title": "Coherence boosting: When your pretrained language model is not paying enough attention",
+    "abstract": "arXiv:2110.08294v3 Announce Type: replace  Abstract: Long-range semantic coherence remains a challenge in automatic language generation and understanding. We demonstrate that large language models have insufficiently learned the effect of distant words on next-token prediction. We present coherence boosting, an inference procedure that increases a LM's focus on a long context. We show the benefits of coherence boosting with pretrained models by distributional analyses of generated ordinary text and dialog responses. It is also found that coherence boosting with state-of-the-art models for various zero-shot NLP tasks yields performance gains with no additional training.",
+    "link": "https://arxiv.org/abs/2110.08294",
+    "context": "Title: Coherence boosting: When your pretrained language model is not paying enough attention\nAbstract: arXiv:2110.08294v3 Announce Type: replace  Abstract: Long-range semantic coherence remains a challenge in automatic language generation and understanding. We demonstrate that large language models have insufficiently learned the effect of distant words on next-token prediction. We present coherence boosting, an inference procedure that increases a LM's focus on a long context. We show the benefits of coherence boosting with pretrained models by distributional analyses of generated ordinary text and dialog responses. It is also found that coherence boosting with state-of-the-art models for various zero-shot NLP tasks yields performance gains with no additional training.",
+    "path": "papers/21/10/2110.08294.json",
+    "total_tokens": 859,
+    "translated_title": "连贯性提升：当你的预训练语言模型注意力不够时",
+    "translated_abstract": "长距离语义连贯性仍然是自动语言生成与理解中的一项挑战。我们证明了大型语言模型尚未充分学习到远距离词语对下一个词预测的影响。我们提出了连贯性提升，这是一种推理方法，能够增强语言模型对长上下文的关注。通过对生成的普通文本和对话回复进行分布分析，我们展示了连贯性提升在预训练模型上的优势。我们还发现，将连贯性提升应用于各种零样本NLP任务的最先进模型时，无需额外训练即可带来性能提升。",
+    "tldr": "提出了一种无需额外训练的推理方法“连贯性提升”，通过增强语言模型对长上下文的关注度来改善长距离语义连贯性，并在多种零样本NLP任务上带来性能提升。"
+}

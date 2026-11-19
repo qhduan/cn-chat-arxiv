@@ -1,0 +1,12 @@
+{
+    "title": "Optimal Development Path: An Empirical Evaluation of Tiered Dependency-Aware Sequencing",
+    "abstract": "arXiv:2611.23303v1 Announce Type: new  Abstract: The Optimal Development Path (ODP) in D-POAF orders Feature Blocks in a Wave Candidate by choosing the eligible block with the lowest effort-and-risk-to-value ratio (ERS/BVS), while respecting declared prerequisites. We evaluate native ODP (L0) against four dependency-aware strategies: unlock count (L1), unlocked value (L2), multi-hop potential (L3), and one-step rollout (L4), alongside local search, Sidney decomposition, and an exact reference. On held-out synthetic graphs with about one prerequisite per block, L0 attains 0.978 of the surrogate optimum at 12 blocks, versus 0.993 for L2 and 0.994 for L4. At 100 blocks, L0 attains 0.942 and L2 0.983. In contrast, 373 historical Jira sprints from 21 open-source projects in TAWOS, used as scheduling proxies rather than D-POAF Waves, contain sparse recorded dependencies. On these instances, L0 attains 0.998 of the surrogate optimum and is exactly optimal in 69% of sprints. Unlock bonuses cal",
+    "link": "https://arxiv.org/abs/2611.23303",
+    "context": "Title: Optimal Development Path: An Empirical Evaluation of Tiered Dependency-Aware Sequencing\nAbstract: arXiv:2611.23303v1 Announce Type: new  Abstract: The Optimal Development Path (ODP) in D-POAF orders Feature Blocks in a Wave Candidate by choosing the eligible block with the lowest effort-and-risk-to-value ratio (ERS/BVS), while respecting declared prerequisites. We evaluate native ODP (L0) against four dependency-aware strategies: unlock count (L1), unlocked value (L2), multi-hop potential (L3), and one-step rollout (L4), alongside local search, Sidney decomposition, and an exact reference. On held-out synthetic graphs with about one prerequisite per block, L0 attains 0.978 of the surrogate optimum at 12 blocks, versus 0.993 for L2 and 0.994 for L4. At 100 blocks, L0 attains 0.942 and L2 0.983. In contrast, 373 historical Jira sprints from 21 open-source projects in TAWOS, used as scheduling proxies rather than D-POAF Waves, contain sparse recorded dependencies. On these instances, L0 attains 0.998 of the surrogate optimum and is exactly optimal in 69% of sprints. Unlock bonuses cal",
+    "path": "papers/26/11/2611.23303.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

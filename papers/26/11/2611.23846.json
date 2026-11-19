@@ -1,0 +1,12 @@
+{
+    "title": "Defining equations for two-block shallow ReLU pattern varieties",
+    "abstract": "arXiv:2611.23846v1 Announce Type: cross  Abstract: We give a complete algebraic characterization of two-block shallow ReLU pattern varieties. We show that the determinantal equations arising from rank constraints imposed by the activation patterns generate the defining ideals, thereby proving a conjecture of Alexandr-Mont\\'ufar. The set-theoretic proof uses a characterization of orbit closures of matrix pencils in terms of the Kronecker canonical form.",
+    "link": "https://arxiv.org/abs/2611.23846",
+    "context": "Title: Defining equations for two-block shallow ReLU pattern varieties\nAbstract: arXiv:2611.23846v1 Announce Type: cross  Abstract: We give a complete algebraic characterization of two-block shallow ReLU pattern varieties. We show that the determinantal equations arising from rank constraints imposed by the activation patterns generate the defining ideals, thereby proving a conjecture of Alexandr-Mont\\'ufar. The set-theoretic proof uses a characterization of orbit closures of matrix pencils in terms of the Kronecker canonical form.",
+    "path": "papers/26/11/2611.23846.json",
+    "total_tokens": 779,
+    "translated_title": "两块浅层ReLU模式簇的定义方程",
+    "translated_abstract": "我们给出了两块浅层ReLU模式簇的完整代数刻画。我们证明了由激活模式所施加的秩约束产生的行列式方程生成其定义理想，从而证明了Alexandr-Montúfar的一个猜想。该集合论层面的证明利用了矩阵束轨道闭包在Kronecker标准形下的刻画。",
+    "tldr": "本文完整地代数刻画了两块浅层ReLU模式簇，证明由激活模式的秩约束所产生的行列式方程生成其定义理想，从而解决了Alexandr-Montúfar提出的猜想。",
+    "en_tdlr": "This paper gives a complete algebraic characterization of two-block shallow ReLU pattern varieties, proving that determinantal equations arising from rank constraints of activation patterns generate the defining ideals, thereby resolving a conjecture of Alexandr-Montúfar."
+}

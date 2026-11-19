@@ -1,0 +1,12 @@
+{
+    "title": "f2x50: A Repository-Scale Benchmark for Fortran-to-X Software Migration",
+    "abstract": "arXiv:2611.23268v1 Announce Type: new  Abstract: Repository-level migration requires more than translating isolated functions: it must preserve behaviour across modules, shared state, build structure, and dependencies. Existing translation benchmarks predominantly cover small programs or small repositories, or fixed and widely studied language pairs. We present f2x50, a target-independent benchmark comprising 50 public Fortran repositories pinned to exact Git revisions. It contains 12,116 Git-tracked Fortran files and 6,569,806 lines, divided into three structural-complexity tiers and paired with 561 deterministic behavioural probes. Of these probes, 446 compile pinned source files with small drivers and span 131 repository--routine pairs. Every repository has at least five direct checks that collectively execute at least two routines. f2x50 provides target-independent tools for acquisition, validation, licence review, and reproducibility, together with a reference adapter for evaluati",
+    "link": "https://arxiv.org/abs/2611.23268",
+    "context": "Title: f2x50: A Repository-Scale Benchmark for Fortran-to-X Software Migration\nAbstract: arXiv:2611.23268v1 Announce Type: new  Abstract: Repository-level migration requires more than translating isolated functions: it must preserve behaviour across modules, shared state, build structure, and dependencies. Existing translation benchmarks predominantly cover small programs or small repositories, or fixed and widely studied language pairs. We present f2x50, a target-independent benchmark comprising 50 public Fortran repositories pinned to exact Git revisions. It contains 12,116 Git-tracked Fortran files and 6,569,806 lines, divided into three structural-complexity tiers and paired with 561 deterministic behavioural probes. Of these probes, 446 compile pinned source files with small drivers and span 131 repository--routine pairs. Every repository has at least five direct checks that collectively execute at least two routines. f2x50 provides target-independent tools for acquisition, validation, licence review, and reproducibility, together with a reference adapter for evaluati",
+    "path": "papers/26/11/2611.23268.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

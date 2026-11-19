@@ -1,0 +1,12 @@
+{
+    "title": "Study and Improvement of Search Algorithms in Stochastic Perfect-Information",
+    "abstract": "arXiv:2611.24486v1 Announce Type: new  Abstract: In this article, we generalize Unbounded Minimax, the state- of-the-art search algorithm for deterministic zero-sum two- player games with perfect information to the framework of stochastic zero-sum two-player games with perfect informa- tion. We experimentally show that this generalized algorithm achieves better performance than the main stochastic search algorithms.",
+    "link": "https://arxiv.org/abs/2611.24486",
+    "context": "Title: Study and Improvement of Search Algorithms in Stochastic Perfect-Information\nAbstract: arXiv:2611.24486v1 Announce Type: new  Abstract: In this article, we generalize Unbounded Minimax, the state- of-the-art search algorithm for deterministic zero-sum two- player games with perfect information to the framework of stochastic zero-sum two-player games with perfect informa- tion. We experimentally show that this generalized algorithm achieves better performance than the main stochastic search algorithms.",
+    "path": "papers/26/11/2611.24486.json",
+    "total_tokens": 763,
+    "translated_title": "随机完美信息博弈中搜索算法的研究与改进",
+    "translated_abstract": "在本文中，我们将无界极小极大算法——这是确定性完美信息双人零和博弈中最先进的搜索算法——推广到随机完美信息双人零和博弈的框架中。我们通过实验证明，这种推广后的算法比现有的主要随机搜索算法取得了更好的性能。",
+    "tldr": "本文将确定性博弈中最先进的搜索算法Unbounded Minimax推广到随机完美信息双人零和博弈框架，并通过实验证明其性能优于现有主要随机搜索算法。",
+    "en_tdlr": "This paper generalizes Unbounded Minimax, the state-of-the-art search algorithm for deterministic perfect-information games, to stochastic zero-sum two-player games with perfect information, and experimentally shows it outperforms the main stochastic search algorithms."
+}

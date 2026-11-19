@@ -1,0 +1,12 @@
+{
+    "title": "Error accumulation in reverse diffusion with an imperfect score: beyond path-space analyses",
+    "abstract": "arXiv:2611.23617v1 Announce Type: new  Abstract: Diffusion modeling is a popular method of sampling from a complex, high-dimensional distribution $p$ using learned approximations of its (noised) score functions. Generating a single sample requires simulating the reverse diffusion process, which requires many queries to the learned scores. Thus, a priori, the learning errors can easily compound. Indeed, in existing theoretical analyses, the sampling error (as measured in total variation distance to $p$) accumulates polynomially with the horizon of the stochastic process. This is a consequence of bounding the error of the output law by the error of the law of the entire reverse diffusion path.   In this paper, we demonstrate that by circumventing the \"path-space\" analysis, the error accumulation of the diffusion sampler can be mitigated when $p$ satisfies a Poincar\\'e inequality. Moreover, we achieve this result as a special case of a broader framework that applies to any distribution $p",
+    "link": "https://arxiv.org/abs/2611.23617",
+    "context": "Title: Error accumulation in reverse diffusion with an imperfect score: beyond path-space analyses\nAbstract: arXiv:2611.23617v1 Announce Type: new  Abstract: Diffusion modeling is a popular method of sampling from a complex, high-dimensional distribution $p$ using learned approximations of its (noised) score functions. Generating a single sample requires simulating the reverse diffusion process, which requires many queries to the learned scores. Thus, a priori, the learning errors can easily compound. Indeed, in existing theoretical analyses, the sampling error (as measured in total variation distance to $p$) accumulates polynomially with the horizon of the stochastic process. This is a consequence of bounding the error of the output law by the error of the law of the entire reverse diffusion path.   In this paper, we demonstrate that by circumventing the \"path-space\" analysis, the error accumulation of the diffusion sampler can be mitigated when $p$ satisfies a Poincar\\'e inequality. Moreover, we achieve this result as a special case of a broader framework that applies to any distribution $p",
+    "path": "papers/26/11/2611.23617.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

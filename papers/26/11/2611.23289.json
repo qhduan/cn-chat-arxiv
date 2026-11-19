@@ -1,0 +1,12 @@
+{
+    "title": "An Empirical Study of Visual Artifacts in Pull Request Descriptions",
+    "abstract": "arXiv:2611.23289v1 Announce Type: new  Abstract: Reviewers rely on pull request (PR) descriptions to understand what a change does, yet some changes, such as UI updates or runtime behavior, are hard to convey in text alone. PR authors attach visual artifacts to fill this gap, but how often they do so, what they show, and whether they change how a PR is reviewed remain unknown. We present a large-scale study of visual artifacts in GitHub PR descriptions. From 6,505,113 closed PRs in 5,012 repositories, we built VisPR, a dataset of 2,473,892 English, human-authored PRs from 647 repos where visual artifacts are an established practice. Of these, 329,185 (13.3%) are visual PRs, i.e., their descriptions contain at least one visual artifact (479,974 in total). By manually labeling a sample of 1,113 visual artifacts from 891 merged visual PRs, we derived two taxonomies: 11 content types capturing what developers show and six purposes capturing why they include visual artifacts. The dominant c",
+    "link": "https://arxiv.org/abs/2611.23289",
+    "context": "Title: An Empirical Study of Visual Artifacts in Pull Request Descriptions\nAbstract: arXiv:2611.23289v1 Announce Type: new  Abstract: Reviewers rely on pull request (PR) descriptions to understand what a change does, yet some changes, such as UI updates or runtime behavior, are hard to convey in text alone. PR authors attach visual artifacts to fill this gap, but how often they do so, what they show, and whether they change how a PR is reviewed remain unknown. We present a large-scale study of visual artifacts in GitHub PR descriptions. From 6,505,113 closed PRs in 5,012 repositories, we built VisPR, a dataset of 2,473,892 English, human-authored PRs from 647 repos where visual artifacts are an established practice. Of these, 329,185 (13.3%) are visual PRs, i.e., their descriptions contain at least one visual artifact (479,974 in total). By manually labeling a sample of 1,113 visual artifacts from 891 merged visual PRs, we derived two taxonomies: 11 content types capturing what developers show and six purposes capturing why they include visual artifacts. The dominant c",
+    "path": "papers/26/11/2611.23289.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

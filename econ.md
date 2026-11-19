@@ -2,472 +2,397 @@
 
 | Ref | Title | Summary |
 | --- | --- | --- |
-| [^1] | [Inference after coding agents](https://arxiv.org/abs/2611.23174) | 本文指出AI编码智能体会在实证研究中引发一种新型的选择后推断偏差——在零效应的模拟数据上，前沿智能体被要求产出“有说服力的发现”时会有54%至98%的概率报告虚假显著p值——并提出了一种检测与校正此类扭曲的简单程序。 |
-| [^2] | [Long-Term Quantile Treatment Effects with Combined Experimental and Observational Data](https://arxiv.org/abs/2611.22984) | 本文提出了一种结合短期实验数据与长期观测数据来识别和估计长期分位数处理效应的半参数有效方法，并基于乘数自助法实现了对整个分位数曲线的一致推断与同步置信带构造。 |
-| [^3] | [Action-outcome coupling: a pre-investment feasibility audit for offline reinforcement learning in supply chain operations](https://arxiv.org/abs/2611.22921) | 本文提出“动作-结果耦合”这一总效应方差指标，作为供应链离线强化学习投资前的可行性审计工具，为任何策略的价值提供与算法无关的货币化上界，并揭示在同一数据上拟合与评估价值模型会随状态单元数增加而导致近乎必然的虚假许可风险。 |
-| [^4] | [Weighted Proportional Toll Sharing on General Highway Networks](https://arxiv.org/abs/2611.22892) | 本文提出加权比例分摊（WPS）方法，将路段均等分摊（SES）方法从线性高速公路推广到含环路的一般公路网络，证明其可表示为两个加权 Shapley 分配之和，并给出两个公理化刻画。 |
-| [^5] | [Does the AI Reviewer Alleviate or Aggravate the Maintenance Burden? Evidence from GitHub Copilot Reviewer](https://arxiv.org/abs/2611.22793) | 本研究以GitHub Copilot审查者的引入作为自然实验，发现AI审查者短期内显著加重维护者的审查工作量，长期则导致人类贡献下降而机器人PR持续增加，且AI虽提高了人类PR的审查效率，但机器人PR的审查与合并耗时更长。 |
-| [^6] | [Exact and Approximate Maximum Likelihood Estimation for Multivariate Diffusions under High-Frequency Sampling](https://arxiv.org/abs/2611.22675) | 该论文建立了高频、长时间跨度采样下离散观测多维遍历扩散过程精确极大似然估计的完整渐近理论（一致性、渐近正态性、有效性与矩收敛），解决了此前文献提出的公开问题，其核心证明思路是用高阶闭式密度展开在每个观测转移处的相对一致精确性来替代对精确似然的直接分析。 |
-| [^7] | [Nested logit: model structure and normalisation](https://arxiv.org/abs/2611.22638) | 本文澄清了嵌套Logit模型中RU1、RU2及NNNL等术语引起的混淆，指出两种模型形式的本质区别在于是否将效用除以所在嵌套层的结构参数，而并非归一化方式的差异。 |
-| [^8] | [Clicks, Carbon, and Risk: Climate Attention, Persistent Financial Risk, and Real-Sector Activity](https://arxiv.org/abs/2611.22517) | 本文基于互联网搜索构建气候关注度指数，发现不利型气候担忧会推高能源行业的长期波动并预示油气行业生产与就业的下滑，而转型导向型关注则降低公用事业行业的长期波动，揭示了气候情绪从金融市场向实体经济的传导机制。 |
-| [^9] | [Moral Inversion: Expressive Payoffs and the Reliability of Consensus](https://arxiv.org/abs/2611.22484) | 本文证明在序贯社会学习中，表达性收益的增大会同时提高错误道德倒置共识的概率并降低其可靠性（在信念单峰条件下），但条件不满足时结论可能逆转，且收益足够大时又会恢复基准结果。 |
-| [^10] | [Who Pays for Product Returns? Advertising and Return Policies](https://arxiv.org/abs/2611.22370) | 该论文研究了在线平台如何在消费者、企业和自身之间分配产品退货成本，发现广告收入会促使平台更倾向于让消费者承担退货费用，并刻画了不同退货频率下平台的最优成本分担策略。 |
-| [^11] | [Estimation and Model Selection in Factor Models with Long Memory](https://arxiv.org/abs/2611.22289) | 该论文为共同因子具有异质未知长记忆参数的近似因子模型建立了主成分估计的渐近理论，证明样本协方差矩阵的特征值按记忆性渐近排序，且 Bai-Ng 信息准则仍能一致地确定因子总数。 |
-| [^12] | [The Online LSTM Prediction Models and The Term Structure of Predictions](https://arxiv.org/abs/2611.22257) | 该论文系统研究了应用于平稳输入的在线LSTM预测模型，分析了网络架构、目标函数和SGD算法对其的影响，并提出了一套基于隐藏状态动态的预测模型诊断工具。 |
-| [^13] | [Settling the Time and Structural Complexity of Bertrand Networks](https://arxiv.org/abs/2611.22216) | 本文解决了Bertrand网络领域的长期开放问题，证明了一般图上计算常数误差近似纳什均衡是PPAD完全的（即使在最大度为五的稀疏二部图上），并在受限情形下给出了高效多项式时间近似方案（EPTAS）。 |
-| [^14] | [An axiomatic foundation for optimized certainty equivalents](https://arxiv.org/abs/2611.22119) | 本文提出“公平硬币补偿”新公理，结合强风险厌恶与归一化首次从经济公理角度刻画了优化确定性等价（OCEs），并通过附加公理进一步分别刻画了标准OCEs、预期短缺、熵风险测度及均值-方差准则。 |
-| [^15] | [Reserve Systems in Dynamic Settings: Account Design and Inherited Rights](https://arxiv.org/abs/2611.22116) | 该论文将动态环境下的保留制度分解为账本、账户和选择规则三个组成部分，揭示了账户设计如何通过继承权利使同一选择规则实现不同政策，并证明当每批次规模较小时，最宽松的“超额之上”政策与最保守的“最低保障”政策几乎能选出相同的接受者。 |
-| [^16] | [Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents](https://arxiv.org/abs/2611.22033) | 在三个购物基准测试中，增加LLM购物代理的推理努力并不能显著提升其选购产品的正确性，却会显著提高其报告的置信度——也就是说，模型“想得更多”只是变得更自信，而不是变得更正确。 |
-| [^17] | [Optimal Network Design under Node Failures](https://arxiv.org/abs/2611.21856) | 该论文刻画了节点独立失效情形下福利最优网络的结构：存在一个链路成本区间使最优网络严格介于星形网络与完全网络之间，且在区间低端最优网络恰好是从完全网络中移除一个匹配所得的网络，并为完全多部网络给出了动态规划精确算法。 |
-| [^18] | [Who sees the sea? Sea-view potential by fa\c{c}ade and floor from cadastral LoD1 models on the Costa del Sol](https://arxiv.org/abs/2611.21672) | 该论文提出了一种基于开放地籍LoD1数据的快速海景潜力评估方法，可按建筑立面与楼层量化每栋住宅的海景可见度，并在西班牙太阳海岸15.8万余栋建筑上以不到一小时的双核运算验证了其高效性，结果与LiDAR追踪和房源照片高度一致。 |
-| [^19] | [RAW: Refusal Aversion in the Wild, A Causal Measurement Method for Deployed LLMs](https://arxiv.org/abs/2611.21641) | 本文提出RAW方法，利用大语言模型在相同提示下有时拒答有时不拒答的随机性作为自然实验，首次对已部署模型的拒答进行因果测量，发现一次拒答会使约一半被测模型的用户后续再参与率下降3至17个百分点。 |
-| [^20] | [One-Sided Randomization in Two-Sided Platform Experiments: Which Side Should be Randomized?](https://arxiv.org/abs/2611.16406) | 双边平台实验中选择随机化短侧（供给或需求中较小的一侧）在减少偏差和降低方差两个维度上通常都优于随机化长侧，因此并不存在传统认为的偏差-方差权衡。 |
-| [^21] | [Convex Order and Moment Persuasion](https://arxiv.org/abs/2609.13696) | 本文在多维设定下完整刻画了凸序（保均值收缩）关系及其极值点，引入了每个状态只能映射到其自身不可约分量内后验均值的“集中”结构，并将这些结果应用于矩说服问题。 |
-| [^22] | [Optimal Uniform Pricing for Multi-Interval Dispatch without Make-Whole Uplifts](https://arxiv.org/abs/2609.00541) | 本文提出一种最优统一定价规则，能够在无需市场外全额补偿的情况下消除LMP低于发电机报价的问题，同时最小化需求侧支付、保留阻塞费用并确保收入充足。 |
-| [^23] | [AI Adoption in S&P 500 Firms](https://arxiv.org/abs/2607.08920) | 该论文基于SEC 10-K年报开发了一种能够区分“深度AI采纳”与“AI炒作”的新颖度量方法，发现2025年标普500企业中11%已将AI深度整合进业务流程、另有10%在生产与服务交付中使用AI，采纳率自2016年以来已增长超过四倍。 |
-| [^24] | [Tax Salience: How Requiring Transparency Affects the Price of Equality](https://arxiv.org/abs/2605.30081) | 该论文定义并刻画了税收领域中的“道德效率前沿”，分析透明度在平等、效率与诚实之间的三方权衡，并发现税收显著性的成本最稳健地落在平等上——更高的显著性总是降低平等，而对效率的影响则不明确。 |
-| [^25] | [Difference-in-differences for mediation analysis using double machine learning](https://arxiv.org/abs/2602.23877) | 本文提出了一个结合双重差分与中介分析的双重机器学习框架，用于估计多值离散或连续处理变量对结果的直接效应、经由中介的间接效应及联合效应。 |
-| [^26] | [The Economics of AI Foundation Models: Openness, Competition, and Governance](https://arxiv.org/abs/2510.15200) | 该论文构建两期博弈模型，揭示基础模型在位者的最优开放度随学习效应增强先降后升，并警示强制完全开放的监管可能适得其反，反而损害下游适配效率。 |
-| [^27] | [Simple Communication](https://arxiv.org/abs/2509.09621) | 本文在偏好一致的多维廉价磋商模型中证明：任何均衡评分必须是线性评分或其粗化，均衡收益低于可承诺评分时的水平，并对正态分布状态刻画了均衡线性评分的特征。 |
-| [^28] | [Just After Minimum Wage Hikes: Short-Run Labor-Demand Response and Reallocation](https://arxiv.org/abs/2505.04555) | 本文利用日本即时劳动力市场数据发现，最低工资上调后净就业份额立即小幅下降约1%，原有雇主削减低于新工资下限的岗位，而新进入的雇主则在略高于新标准处发布岗位，表明市场主要通过岗位再配置进行调整。 |
-| [^29] | [Irrational Random Utility Models](https://arxiv.org/abs/2403.10208) | 理性决策者群体的选择可以被足够不相关的偏好的非理性决策者群体所代表，即非理性RUM。几乎所有的RUMs可以通过一部分决策者是非理性的群体来表示，并且在特定条件下他们的非理性行为是不受限制的。 |
-| [^30] | [High-Dimensional Tail Index Regression: with An Application to Text Analyses of Viral Posts in Social Media](https://arxiv.org/abs/2403.01318) | 提出了高维尾指数回归方法，利用正则化估计和去偏方法进行推断，支持理论的仿真研究，并在社交媒体病毒帖子文本分析中应用。 |
-| [^31] | [Multiply Robust Causal Mediation Analysis with Continuous Treatments](https://arxiv.org/abs/2105.09254) | 本文提出了一种适用于连续治疗环境的多重稳健因果中介分析估计器，采用了核平滑方法，并具有多重稳健性和渐近正态性。 |
+| [^1] | [The Structural Number of Parties: An Electoral-Outcome-Independent Baseline for Comparing Party-System Scale](https://arxiv.org/abs/2611.24714) | 该论文提出了政党结构数（SNP），一种仅凭人口规模和领土面积即可计算、不依赖任何选举结果的事前基准，从而能够在缺乏选举数据的国家（尤其是非洲国家）衡量并比较政党体系的结构性规模。 |
+| [^2] | [On the equilibrium lattice of supermodular games](https://arxiv.org/abs/2611.24614) | 本文提出“向上传染”与“向下传染”两个单向最优反应过程来构造超模博弈中任意一对均衡的下确界与上确界，并证明由此得到的均衡包络端点恰为异步最优反应动态可达的最小与最大均衡。 |
+| [^3] | [Platform Recommendation and Competition in Search Markets](https://arxiv.org/abs/2611.24464) | 该论文构建了一个评估平台推荐规则的经济学分析框架，证明对低价的奖励在产品质量充分差异化时未必降低价格惠及消费者，而质量引导虽能降低单品价格却可能抬高平均交易价格。 |
+| [^4] | [Design-Based Inference for Fuzzy Difference-in-Differences](https://arxiv.org/abs/2611.24402) | 本文从基于设计的视角研究模糊双重差分设计，提出了在弱一阶段下仍有效的Anderson-Rubin型检验及敏感性分析方法，其所需的因果解释条件弱于结果与处理两方面的平行趋势假设。 |
+| [^5] | [Exploiting Common Volatility Dynamics in High-Dimensional Portfolio Selection](https://arxiv.org/abs/2611.23952) | 本文提出在预设股票组内汇集ARMA动态参数的波动率预测方法，证明其具有精确的动态因子表示，并在标普500成分股样本外最小方差投资组合构建中持续优于潜在因子模型等替代方案。 |
+| [^6] | [Match Rate Is Not Match Quality](https://arxiv.org/abs/2611.23851) | 本文指出第三方身份解析服务商常用的“匹配率”指标并不等同于“匹配质量”，并利用选民档案与自我报告调查中年龄、性别等人口统计数据的对比，评估发现高匹配率无法保证匹配到的标识符真正属于目标记录，且存在每次匹配对应多个设备标识符等模糊性问题。 |
+| [^7] | [Developing a Subdistrict-Level Economic Progress Index Using Geospatial Data](https://arxiv.org/abs/2611.23798) | 本文利用地球观测和开放地理空间数据，通过无监督PCA加权构建了经济进步指数（EPI），为印度马哈拉施特拉邦357个次区提供了以往不存在的次区级经济发展监测工具。 |
+| [^8] | [A Tail-Geometric Approach to Kotlarski's Lemma with Order Statistics](https://arxiv.org/abs/2611.23642) | 该论文提出一种尾部几何方法，通过在重复测量中以大间隔为条件，实现了经典Kotlarski模型以及仅观测次序统计量情形下的非参数识别，并可应用于拍卖和工资报价模型。 |
+| [^9] | [Plausibly Exogenous Instruments in Probit Models: Sensitivity Bounds for Average Partial and Interaction Effects](https://arxiv.org/abs/2611.23438) | 本文将合理外生工具变量的敏感性分析框架扩展至控制函数probit模型，针对平均偏效应与交互效应推导了敏感性区间，并指出在错误的潜变量尺度上陈述工具变量违背假设会导致区间校准出现偏差。 |
+| [^10] | [AI, Specialization, and the Organization of Knowledge Work: Evidence from Legal Services](https://arxiv.org/abs/2611.23354) | 该论文构建了一个连接个人自我供给、企业自制或外购决策与专业公司定价的框架，并利用美国法律服务数据发现：AI推动客户在外部供应商间重新分配工作（非在押人员自我代理比例上升6.6个百分点），而高端律所在工作份额下降时反而可能提高加价率。 |
+| [^11] | [Inference for conditional Fr\'echet means via Riemannian Robust Bias Correction](https://arxiv.org/abs/2611.01857) | 提出黎曼稳健偏差修正（RRBC）方法，通过对平滑偏差进行二阶展开估计与指数映射修正，在无需欠平滑的条件下实现了黎曼流形上条件Fréchet均值的渐近有效逐点置信集与同步置信管推断。 |
+| [^12] | [The Digital-Energy Recomposition of the Kitchin Cycle: Exploratory Evidence from U.S. IT and Irish Data-Centre Series (1995-2025)](https://arxiv.org/abs/2610.33122) | 该研究通过断点检验发现美国IT与GDP的相关性在2014年第三季度发生显著的“战略性脱钩”（早于AI时代约六年），而爱尔兰数据中心用电量与GDP的高相关性在改用GNP后骤然消失，表明基钦周期正围绕能源与算力资产重组这一命题仅获得部分探索性证据支持。 |
+| [^13] | [Continuously Updating GMM in Linear IV Models: A Polynomial Approach](https://arxiv.org/abs/2609.36445) | 本文将线性工具变量模型中CU-GMM的目标函数表示为多项式之比，通过伴随矩阵实特征值与代数消元方法刻画并求得其全局最小值。 |
+| [^14] | [The "Rough" HAR Model](https://arxiv.org/abs/2609.21587) | 本文提出在AR和HAR模型中加入一阶移动平均（MA(1)）成分来离散近似粗糙连续时间已实现方差模型，并证明MA系数与Hurst参数几乎线性对应，实证发现所有资产均存在负MA系数且隐含的Hurst参数与连续时间模型估计高度一致。 |
+| [^15] | [Feasible Search Behavior](https://arxiv.org/abs/2609.16431) | 该论文刻画了与某种信息结构相容的所有可行搜索行为集合（形成一个多面体），并证明存在单一的信息结构能够使所有这些搜索行为理性化，同时使当事人在所有信息结构中福利最小化。 |
+| [^16] | [Recommendation Quality and the Concentration of Consumption: Experimental Evidence from Netflix](https://arxiv.org/abs/2608.21274) | 该研究表明，改进推荐算法可提升总消费并分散消费从热门到中等热门产品，而非极化消费，从而支持对中尾产品的投资。 |
+| [^17] | [Fooling Yourself: how narratives shape beliefs](https://arxiv.org/abs/2607.04753) | 本研究通过实验发现，叙事中嵌入的无信息细节会导致人们将信念向均等概率调整，从而削弱诊断性证据对信念更新的影响。 |
+| [^18] | [Embedding Foundation Model Predictions in Discrete-Choice Models with Structural Guarantees](https://arxiv.org/abs/2606.26432) | 本文提出一种两阶段适配器方法，通过将基础模型预测嵌入多项Logit模型，在保留结构保证的同时修正经济逻辑冲突，使时间价值等指标成为数学保证。 |
+| [^19] | [Counterexamples to EFX for Submodular and Subadditive Valuations](https://arxiv.org/abs/2605.06451) | 本文通过对称的三智能体、八物品反例，证明即使在次模估值下也不存在EFX分配，且在次可加估值下任何α-EFX近似比率都不可能超过约0.89。 |
+| [^20] | [Allocating Common-Value Goods](https://arxiv.org/abs/2512.20001) | 本文研究了无货币转移下分配共同价值商品的最优机制设计问题，证明最优机制可由分配概率和分配引致的学习量两个参数刻画，且最优机制会排除部分代理人，即使所有代理人都愿意接受商品也可能不予分配。 |
+| [^21] | [AI Behavioral Science: A Framework and Agenda](https://arxiv.org/abs/2509.13323) | 本文提出了“AI行为科学”这一新框架：一方面将社会科学中评估人类行为的工具用于建模和评估AI的偏差与倾向，另一方面探讨AI如何变革人类行为研究方法，并呼吁深入分析与建模日益复杂的人机交互系统。 |
+| [^22] | [Influence Functions: A Unified Differentiation-Based Framework](https://arxiv.org/abs/2501.15307) | 该论文提出了一个统一的基于微分的框架，将参数、非参数和半参数模型中影响函数的推导统一起来，证明影响函数是矩函数的线性变换，并能自动生成局部稳健的矩函数。 |
+| [^23] | [Inference on Treatment Effects with Repeatedly Mismeasured High-Dimensional Controls](https://arxiv.org/abs/2408.14671) | 提出协方差重新校准的双重机器学习方法（CORE），利用重复测量的单元内差异识别测量误差协方差并校正由此引起的矩条件偏移，从而在高维控制变量存在误测的情况下实现处理效应的有效推断。 |
+| [^24] | [A nonparametric test for diurnal variation in spot correlation processes](https://arxiv.org/abs/2408.02757) | 本文提出了一种非参数检验方法来检测高频数据估计的即期相关过程中的日内变化，该检验统计量在原假设下具有已知分布，并实证发现股票市场上午的相关性显著低于下午。 |
+| [^25] | [Human-AI Interactions and Societal Pitfalls.](http://arxiv.org/abs/2309.10448) | 本研究研究了人工智能与人类互动中面临的同质化和偏见问题，提出了改善人工智能与人类互动的解决办法，实现个性化输出而不牺牲生产力。 |
+| [^26] | [High-Dimensional Canonical Correlation Analysis.](http://arxiv.org/abs/2306.16393) | 本文研究了高维正典相关分析（CCA），发现当数据的两个维度无限增长时，传统的CCA估计过程无法提供一致的估计。我们首次证明了在所有维度都很大时无法识别正典变量的CCA过程的不可能性。并提供了估计误差的量级，可用于评估CCA估计的精确性。 |
 
 # 详细
 
-[^1]: 编码智能体之后的统计推断
+[^1]: 政党结构数：一种独立于选举结果的政党体系规模比较基准
 
-    Inference after coding agents
+    The Structural Number of Parties: An Electoral-Outcome-Independent Baseline for Comparing Party-System Scale
 
-    [https://arxiv.org/abs/2611.23174](https://arxiv.org/abs/2611.23174)
+    [https://arxiv.org/abs/2611.24714](https://arxiv.org/abs/2611.24714)
 
-    本文指出AI编码智能体会在实证研究中引发一种新型的选择后推断偏差——在零效应的模拟数据上，前沿智能体被要求产出“有说服力的发现”时会有54%至98%的概率报告虚假显著p值——并提出了一种检测与校正此类扭曲的简单程序。
-
-    
-
-    随着AI编码智能体在实证研究的每一个环节——从编写代码到处理数据——都变得日益娴熟，实证研究正在迅速发生变革。我们认为，尽管编码智能体对科学的潜力巨大，但它们在假设检验中的使用对经典统计推断构成了实质性威胁，因为这些智能体实现了一种超级强化的选择性推断形式。具体而言，我们认为执行实证研究的编码智能体引入了一种新型的选择后推断，它将人类式的、在隐式估计量空间中的开放式搜索，与选择过程和估计过程的程序化可重放性结合在一起。事实上，我们发现在效应为零的模拟数据上，当被要求产出一个有说服力的发现时，四个前沿智能体在54%到98%的情况下报告了显著的p值。我们提出了一种用于检测和纠正这些扭曲的简单程序。在智能体完成……（原文摘要在此处截断）
-
-    arXiv:2611.23174v1 Announce Type: cross  Abstract: Empirical research is changing rapidly as AI coding agents are becoming increasingly proficient in every step of it, from writing code to manipulating data. We argue that while the potential of coding agents for science is vast, their use in hypothesis testing poses a substantial threat to classical inference, as these agents enable a supercharged form of selective inference. In particular, we argue that coding agents carrying out empirical research introduce a new type of post-selection inference that combines human-like, open-ended search over an implicit space of estimators with programmatic replayability of both the selection and the estimation process. Indeed, we find that on simulated data with zero effects, four frontier agents report significant p-values between 54% and 98% of the time when asked to produce a compelling finding. We propose a simple procedure for detecting and correcting these distortions. After an agent has com
-    
-[^2]: 结合实验数据与观测数据的长期分位数处理效应
-
-    Long-Term Quantile Treatment Effects with Combined Experimental and Observational Data
-
-    [https://arxiv.org/abs/2611.22984](https://arxiv.org/abs/2611.22984)
-
-    本文提出了一种结合短期实验数据与长期观测数据来识别和估计长期分位数处理效应的半参数有效方法，并基于乘数自助法实现了对整个分位数曲线的一致推断与同步置信带构造。
+    该论文提出了政党结构数（SNP），一种仅凭人口规模和领土面积即可计算、不依赖任何选举结果的事前基准，从而能够在缺乏选举数据的国家（尤其是非洲国家）衡量并比较政党体系的结构性规模。
 
     
 
-    本文研究了在短期实验数据辅以长期观测数据的情形下，长期分位数处理效应（LTQTEs）的识别、估计与推断问题。在潜在无混杂性框架下，我们建立了LTQTE曲线的识别性，并推导出相应的有效影响函数。基于这些影响函数，我们提出了一种半参数有效估计方法，并开发了一种乘数自助法用于对LTQTE曲线进行一致推断，从而在连续的分位数指标范围内给出有效的同步置信带。
+    一个国家在结构上究竟能够容纳多少个政党？诸如有效政党数（ENP）等标准测量方法无法回答这个问题。它们是描述性的、事后性的：它们只能在选举之后概括竞争状况，并且依赖于选举得票数据，而在许多发展中民主国家（尤其是非洲国家），这类数据往往缺失、中断或不可靠。此外，这些方法也无法为比较政党登记规模与实际选举碎片化程度提供共同的尺度。我们提出了政党结构数，这是一个独立于选举结果的基准，仅由两个普遍可得的数据推导而来：人口规模和领土面积。基于席位乘积模型的逻辑和议会规模的立方根定律，SNP提供了一个可对任何国家和任何年份进行计算的事前基准，即使在没有选举数据的情况下也适用。将该指标应用于非洲国家，SNP能够进行结构性差距诊断……
 
-    arXiv:2611.22984v1 Announce Type: new  Abstract: This paper studies the identification, estimation, and inference of long-term quantile treatment effects (LTQTEs) when short-term experimental data are supplemented with long-term observational data. Under a latent unconfoundedness framework, we establish identification of the LTQTE curve and derive the corresponding efficient influence functions. Building on these influence functions, we propose a semiparametrically efficient estimation procedure and develop a multiplier bootstrap method for uniform inference on the LTQTE curve, yielding valid simultaneous confidence bands over a continuum of quantile indices.
+    arXiv:2611.24714v1 Announce Type: cross  Abstract: How many parties can a country structurally sustain? Standard measures such as the effective number of parties (ENP) cannot answer this question. They are descriptive and post hoc: they summarize competition only after an election, and they depend on electoral returns that are often missing, interrupted, or unreliable in many developing democracies, particularly in Africa. They also offer no common scale for comparing the size of party registers with realized electoral fragmentation. We introduce the Structural Number of Parties (SNP), an outcome-independent baseline derived from two universally available quantities: population size and territorial area. Building on the logic of the seat product model and the cube-root law of assembly size, the SNP gives an ex ante benchmark that can be computed for any country and year, including where electoral data are absent. Applied to African states, the SNP enables a structural gap diagnosis tha
     
-[^3]: 动作-结果耦合：供应链运营中离线强化学习的投资前可行性审计
+[^2]: 论超模博弈的均衡格
 
-    Action-outcome coupling: a pre-investment feasibility audit for offline reinforcement learning in supply chain operations
+    On the equilibrium lattice of supermodular games
 
-    [https://arxiv.org/abs/2611.22921](https://arxiv.org/abs/2611.22921)
+    [https://arxiv.org/abs/2611.24614](https://arxiv.org/abs/2611.24614)
 
-    本文提出“动作-结果耦合”这一总效应方差指标，作为供应链离线强化学习投资前的可行性审计工具，为任何策略的价值提供与算法无关的货币化上界，并揭示在同一数据上拟合与评估价值模型会随状态单元数增加而导致近乎必然的虚假许可风险。
-
-    
-
-    物流领域的规范性分析计划（如离线强化学习和下一步最佳行动系统）往往在任何人验证现有历史日志能否支撑改进后的决策策略之前就已获得资金投入。我们通过“动作-结果耦合”（action-outcome coupling）将这一投资前可行性问题形式化：这是一个衡量期望结果随已记录动作变化程度的总效应方差指标。耦合为任何策略可实现的价值提供了与算法无关的上界，该上界以每次决策的货币单位表示，同时适用于单步目标和折扣序列目标。我们还分析了一种无效工作流的渐近虚假许可风险：在同一数据上拟合价值模型并评估该模型的贪心策略。虚假许可率主要由执行选择的状态单元数量驱动：当只有一个状态单元时，虚假许可率处于名义检验水平；当状态单元达到几十个时，虚假许可率则接近必然。
-
-    arXiv:2611.22921v1 Announce Type: new  Abstract: Prescriptive analytics initiatives in logistics, such as offline reinforcement learning and next-best-action systems, are often funded before anyone verifies that the available historical logs can support an improved decision policy. We formalise this pre-investment feasibility question via action-outcome coupling: a total-effect variance index measuring how much expected outcomes change with the logged action. Coupling provides an algorithm-independent upper bound on any policy's achievable value, expressed in monetary units per decision for both single-step and discounted sequential objectives. We also analyse the asymptotic false-licensing risk of an invalid workflow: fitting a value model and evaluating the model's greedy policy on the same data. The false-licence rate is driven mainly by the number of state cells over which selection is performed, rising from the nominal test level with one cell to near certainty with a few dozen, w
-    
-[^4]: 一般公路网络上的加权比例通行费分摊
-
-    Weighted Proportional Toll Sharing on General Highway Networks
-
-    [https://arxiv.org/abs/2611.22892](https://arxiv.org/abs/2611.22892)
-
-    本文提出加权比例分摊（WPS）方法，将路段均等分摊（SES）方法从线性高速公路推广到含环路的一般公路网络，证明其可表示为两个加权 Shapley 分配之和，并给出两个公理化刻画。
+    本文提出“向上传染”与“向下传染”两个单向最优反应过程来构造超模博弈中任意一对均衡的下确界与上确界，并证明由此得到的均衡包络端点恰为异步最优反应动态可达的最小与最大均衡。
 
     
 
-    我们将 Wu 等人（2024）提出的路段均等分摊（SES）方法从线性高速公路推广到一般公路网络，包括含环路的网络。其输入为外生给定的路径流量分布。我们提出了加权比例分摊（WPS）方法，该方法将每条路径的里程收入按加权路段长度成比例分配，并将其固定附加费收入按正附加费路段的附加费成比例分配。在每个收入组成部分内采用同质权重时，即可恢复路径 SES。我们证明 WPS 是两个加权 Shapley 分配之和，且其背后的路径博弈扩展了线性 SES 的红利与 Shapley 表示。我们给出两个公理化刻画来唯一确定 WPS：第一个基于可加性以及对每条正收入路径均使用的路段的比例化处理；第二个在路径取消规则下结合了子高速公路效率与加权平均平衡贡献。
+    本文展示了如何构造超模博弈中任意一对均衡的下确界与上确界。该方法依赖于两个单向的最优反应过程，我称之为“向上传染”与“向下传染”。从任意行动组合出发，以相反的顺序应用这一对过程会产生两个均衡，它们定义了该行动组合的均衡包络。包络的端点恰好是通过任意异步最优反应动态所能达到的最小均衡与最大均衡，并且随着参与者调整自己的行动，这两个端点只会相互靠近。这些及其他结果表明，在人们熟悉的均衡格结构上附加单向调整过程，能够让我们进一步探索均衡之间的关系。
 
-    arXiv:2611.22892v1 Announce Type: new  Abstract: We extend the Segments Equal Sharing (SES) method of \citet{wu2024} from line highways to general highway networks, including networks with cycles. The input is an exogenously specified profile of route flows. We introduce the Weighted Proportional Sharing (WPS) method, which distributes each route's mileage revenue in proportion to weighted segment lengths and its fixed-surcharge revenue in proportion to positive segment surcharges. Route SES is recovered under homogeneous weights within each revenue component. We show that WPS is the sum of two weighted Shapley allocations and that the underlying route games extend the dividend and Shapley representation of linear SES. Two axiomatic characterizations identify WPS. The first uses additivity and proportional treatment of segments used on every positive-revenue route. The second combines sub-highway efficiency and weighted average balanced contributions under a route cancellation rule. We
+    arXiv:2611.24614v1 Announce Type: new  Abstract: This paper shows how the meet and join of any pair of equilibria in a super- modular game can be constructed. The method relies on two one-directional best-response processes that I call contagion up and contagion down. Starting from any action profile, applying this pair of processes in opposite orders produces two equilibria that define its equilibrium envelope. The endpoints of the envelope are precisely the least and greatest equilibria reachable through arbitrary asynchronous best-response dynamics, and can only move closer together as players revise their actions. These and other results show how appending one-directional adjustment processes to the familiar equilibrium lattice structure allows us to explore the relationships between equilibria further.
     
-[^5]: AI审查者是减轻还是加重维护负担？来自GitHub Copilot审查者的证据
+[^3]: 平台推荐与搜索市场中的竞争
 
-    Does the AI Reviewer Alleviate or Aggravate the Maintenance Burden? Evidence from GitHub Copilot Reviewer
+    Platform Recommendation and Competition in Search Markets
 
-    [https://arxiv.org/abs/2611.22793](https://arxiv.org/abs/2611.22793)
+    [https://arxiv.org/abs/2611.24464](https://arxiv.org/abs/2611.24464)
 
-    本研究以GitHub Copilot审查者的引入作为自然实验，发现AI审查者短期内显著加重维护者的审查工作量，长期则导致人类贡献下降而机器人PR持续增加，且AI虽提高了人类PR的审查效率，但机器人PR的审查与合并耗时更长。
-
-    
-
-    本研究考察了基于AI的代码审查者如何重塑开源软件（OSS）社区中的贡献行为和维护动态。AI审查者提供可扩展、快速且标准化的评估，它们既重塑了贡献方式，也改变了维护者的工作量。本研究利用2025年GitHub Copilot审查者在GitHub上的引入作为自然实验，探讨了AI审查如何影响维护者的工作量、审查效率以及贡献行为。研究发现，在采用AI审查者之后，仓库维护者最初面临PR（拉取请求）提交数量的急剧增加和更高的审查工作量。随着时间推移，人类贡献逐渐下降，而机器人生成的PR的增加则持续存在。有趣的是，生存分析显示，AI审查者提高了人类PR贡献的审查效率，而机器人PR的审查和合并则需要更长时间。研究结果表明，尽管AI审查者增加了……（原文摘要在此处截断）
-
-    arXiv:2611.22793v1 Announce Type: new  Abstract: This study examines how AI-based code reviewers reshape contribution behavior and maintenance dynamics in open-source software (OSS) communities. AI reviewers provide scalable, fast, and standardized evaluations. They reshape contributions as well as maintainers' workload. Leveraging the introduction of GitHub Copilot Reviewer on GitHub as a natural experiment in 2025, we investigate how AI review affects maintainers' workload and review efficiency as well as contribution behavior. We find that repository maintainers initially face a sharp increase in PR submissions and a higher review workload after the adoption of the AI reviewer. Over time, human contributions decline while the increase in bot-generated PRs is sustained. Interestingly, survival analysis reveals that AI reviewers increase review efficiency for human PR contributions, whereas bot PRs take longer to review and merge. Our findings suggest that while AI reviewers increase 
-    
-[^6]: 高频采样下多维扩散过程的精确与近似极大似然估计
-
-    Exact and Approximate Maximum Likelihood Estimation for Multivariate Diffusions under High-Frequency Sampling
-
-    [https://arxiv.org/abs/2611.22675](https://arxiv.org/abs/2611.22675)
-
-    该论文建立了高频、长时间跨度采样下离散观测多维遍历扩散过程精确极大似然估计的完整渐近理论（一致性、渐近正态性、有效性与矩收敛），解决了此前文献提出的公开问题，其核心证明思路是用高阶闭式密度展开在每个观测转移处的相对一致精确性来替代对精确似然的直接分析。
+    该论文构建了一个评估平台推荐规则的经济学分析框架，证明对低价的奖励在产品质量充分差异化时未必降低价格惠及消费者，而质量引导虽能降低单品价格却可能抬高平均交易价格。
 
     
 
-    我们建立了离散观测的多维遍历扩散过程在高频、长时间跨度采样下精确极大似然估计量（MLE）的渐近理论，解决了由 \citet{YCW2019} 和 \citet{Li2013} 提出的一个公开问题。模型允许漂移项线性增长，波动率有下界远离零，且可以是有界的或与 $1+|x|$ 成比例。当采样间隔按多项式速度衰减时，精确极大似然估计量具有一致性、渐近正态性和有效性，其中漂移参数的收敛速率为 $\sqrt{n\Delta_n}$，扩散参数的收敛速率为 $\sqrt n$。在关于遍历平均值的附加条件下，当时间跨度 $n\Delta_n$ 也按多项式速度增长时，估计量的矩也收敛。证明过程从未直接分析精确似然函数：该方法证明了足够高阶的闭式密度展开在每一次观测到的转移处都具有相对误差一致精确性，从而使两个对数似然之差为 $o$（原文此处被截断）。
+    推荐规则既影响卖家的激励，也影响消费者预期找到的替代选择。我们开发了一个评估这些规则的框架，其中考虑了异质性卖家、内生定价与广告投放以及消费者的有成本搜索。对于一大类可分离的推荐得分函数，我们建立了唯一市场均衡存在的条件。三个应用展示了该框架的用途：当产品在质量上充分差异化时，对低价格给予更强的奖励并不一定会降低均衡价格并使消费者受益；质量引导可以降低每个产品的价格并使消费者受益，但同时会提高平均交易价格；在匹配分布存在异质性的情况下，对最佳初次考察的奖励在广告固定时可以帮助消费者，而在广告随之调整时则会损害消费者。一个双类型设计的扩展表明，在可实施的结果范围内不存在有限的最优（原文在此处截断）。
 
-    arXiv:2611.22675v1 Announce Type: cross  Abstract: We establish the asymptotic theory of the exact maximum likelihood estimator (MLE) for discretely observed multivariate ergodic diffusions under high-frequency, long-span sampling, solving an open problem posed by \citet{YCW2019} and \citet{Li2013}. The drift may grow linearly, and the volatility is bounded away from zero and either bounded or proportional to $1+|x|$. When the sampling interval decays polynomially, the exact MLE is consistent, asymptotically normal and efficient, with rates $\sqrt{n\Delta_n}$ for drift and $\sqrt n$ for diffusion parameters. Under an additional condition on ergodic averages, and when the time span $n\Delta_n$ also grows polynomially, its moments converge as well. The proof never analyzes the exact likelihood directly: it shows that a closed-form density expansion of sufficiently high order is uniformly accurate in relative terms at every observed transition, so that the two log-likelihoods differ by $o
+    arXiv:2611.24464v1 Announce Type: new  Abstract: Recommendation rules affect both sellers' incentives and the alternatives consumers expect to find. We develop a framework for evaluating these rules with heterogeneous sellers, endogenous pricing and advertising, and costly consumer search. For a broad class of separable recommendation scores, we establish conditions under which a unique market equilibrium exists. Three applications illustrate the use of the framework. A stronger reward for low prices does not necessarily lower equilibrium prices and benefit consumers when products are sufficiently differentiated in qualities. Quality guidance can lower the price of each product and benefit consumers while raising the average transaction price. With heterogeneous match distributions, a reward for the best initial inspection can help consumers with advertising fixed and harm them when advertising adjusts. A two-type design extension shows that no finite optimum over implementable outcome
     
-[^7]: 嵌套Logit：模型结构与归一化
+[^4]: 模糊双重差分的基于设计推断
 
-    Nested logit: model structure and normalisation
+    Design-Based Inference for Fuzzy Difference-in-Differences
 
-    [https://arxiv.org/abs/2611.22638](https://arxiv.org/abs/2611.22638)
+    [https://arxiv.org/abs/2611.24402](https://arxiv.org/abs/2611.24402)
 
-    本文澄清了嵌套Logit模型中RU1、RU2及NNNL等术语引起的混淆，指出两种模型形式的本质区别在于是否将效用除以所在嵌套层的结构参数，而并非归一化方式的差异。
-
-    
-
-    嵌套Logit模型至今仍被广泛使用，尤其是在应用研究工作中。然而，围绕该模型的不同版本、同一版本的不同归一化方式以及不同软件实现，仍存在相当大的混淆。本文认为，常用的标签RU1和RU2，以及“非归一化嵌套Logit”（NNNL）这一名称本身，都加剧了这种混淆。该模型可以写成两种形式：一种是将效用除以包含它们的嵌套层的结构参数，这种形式在构造上与效用最大化保持一致；另一种则是没有进行该除法运算的形式，即NNNL。这两种形式之间的区别并非归一化方式的不同：在顶层或底层进行归一化得到的都是同一个模型，而且NNNL本身也是经过归一化的。区分这两种形式的关键在于是否执行了除法运算。简而言之，归一化改变的是单位，而除法改变的是……（原文摘要在此处截断）
-
-    arXiv:2611.22638v1 Announce Type: new  Abstract: Nested logit remains a widely used model, especially in applied work. However, there remains substantial confusion surrounding the existence of different versions of the model, different normalisations for the same version, and different software implementations. This paper argues that the labels in common use, RU1 and RU2, and the name non-normalised nested logit (NNNL) itself, have contributed to the confusion. The model is written in two forms: one in which utilities are divided by the structural parameter of the nest that contains them, which is consistent with utility maximisation by construction, and one without that division, known as NNNL. The difference between these forms is not one of normalisation. Normalising at the top or at the bottom gives the same model, and NNNL is itself normalised. What distinguishes the forms is whether the division is performed. In short, normalisation changes the units, whereas division changes the
-    
-[^8]: 点击、碳与风险：气候关注度、持续性金融风险与实体经济活动
-
-    Clicks, Carbon, and Risk: Climate Attention, Persistent Financial Risk, and Real-Sector Activity
-
-    [https://arxiv.org/abs/2611.22517](https://arxiv.org/abs/2611.22517)
-
-    本文基于互联网搜索构建气候关注度指数，发现不利型气候担忧会推高能源行业的长期波动并预示油气行业生产与就业的下滑，而转型导向型关注则降低公用事业行业的长期波动，揭示了气候情绪从金融市场向实体经济的传导机制。
+    本文从基于设计的视角研究模糊双重差分设计，提出了在弱一阶段下仍有效的Anderson-Rubin型检验及敏感性分析方法，其所需的因果解释条件弱于结果与处理两方面的平行趋势假设。
 
     
 
-    公众气候担忧的变化是否会改变持续性金融风险，并进而对实体经济活动产生影响？我们将美国行业股票日收益率与月度气候关注度指数（CCI）相结合，该指数基于互联网搜索强度构建，并被分解为不利型（adverse）和转型导向型（transition-oriented）两个组成部分。GARCH-MIDAS估计结果显示出显著的异质性：不利型气候担忧会推高碳密集型能源行业的持续性波动率，而转型导向型关注则倾向于降低受监管公用事业行业的持续性波动率，且各子行业之间存在重要差异。随后，我们构建了能源与公用事业之间的持续性风险差异指标，并利用局部投影方法考察其对行业实体经济活动的预测能力。与不利型气候担忧相关的新息在随后的几个季度中先于石油和天然气工业生产及就业的下降，而公用事业行业的类似反应……
+    本文从基于设计的视角研究模糊双重差分设计，其中潜在结果和处理决策是固定的，只有政策的分配是随机的，且分配概率是异质的并可能未知。Wald-DiD设计估计量等于分配加权的依从者效应，再加上来自转换者的污染、来自始终接受者效应变化的污染以及未处理结果趋势的污染。本文推导了该估计量具有明确因果解释的条件，这些条件弱于结果和处理两方面的平行趋势假设。我们提出了一种具有保守Neyman方差的Anderson-Rubin型检验，该检验在弱一阶段下仍然有效；同时提出了针对依从者效应的敏感性分析方法，以及适用于已知分配概率设计的估计量。对俄勒冈健康保险实验的应用展示了这些结果。
 
-    arXiv:2611.22517v1 Announce Type: new  Abstract: Do shifts in public climate concern alter persistent financial risk and subsequently matter for real activity? We combine daily U.S. sectoral equity returns with a monthly Climate Concern Index (CCI) constructed from internet search intensity and decomposed into adverse and transition-oriented components. GARCH-MIDAS estimates reveal substantial heterogeneity: adverse climate concern raises persistent volatility in carbon-intensive Energy activities, while transition-oriented attention tends to reduce persistent volatility in regulated Utilities, with important differences across sub-sectors. We then construct a persistent-risk differential between Energy and Utilities and examine its predictive content for sectoral real activity using local projections. Innovations associated with adverse climate concern precede declines in Oil and Gas industrial production and employment over the following quarters, while comparable Utilities responses
+    arXiv:2611.24402v1 Announce Type: new  Abstract: I study fuzzy difference-in-differences designs from a design-based perspective, in which potential outcomes and treatment decisions are fixed and only the assignment of a policy is random, with heterogeneous and possibly unknown assignment probabilities. The Wald-DiD design estimand equals an assignment-weighted complier effect plus contamination from switchers, from changes in always-takers' effects and from trends in untreated outcomes. I derive the conditions under which the estimand holds a clear causal interpretation. The conditions are weaker than parallel trends in both outcomes and treatments. We propose an Anderson--Rubin-type test with a conservative Neyman variance that remains valid under weak first stages, a sensitivity analysis for the complier effect, and estimators for designs with known assignment probabilities. An application to the Oregon Health Insurance Experiment illustrates the results.
     
-[^9]: 道德倒置：表达性收益与共识的可靠性
+[^5]: 在高维投资组合选择中利用共同的波动率动态特征
 
-    Moral Inversion: Expressive Payoffs and the Reliability of Consensus
+    Exploiting Common Volatility Dynamics in High-Dimensional Portfolio Selection
 
-    [https://arxiv.org/abs/2611.22484](https://arxiv.org/abs/2611.22484)
+    [https://arxiv.org/abs/2611.23952](https://arxiv.org/abs/2611.23952)
 
-    本文证明在序贯社会学习中，表达性收益的增大会同时提高错误道德倒置共识的概率并降低其可靠性（在信念单峰条件下），但条件不满足时结论可能逆转，且收益足够大时又会恢复基准结果。
-
-    
-
-    道德倒置是指公众对某种说法达成共识，而该说法错误地颠倒了某一伤害的责任归属。我们研究表达性收益如何在序贯社会学习模型中影响其产生。更大的收益使某种说法更有吸引力去认同，但也使每一次对该说法的认同成为支持它的更弱证据。我们证明，在私人信念满足单峰性条件下，更大的收益既提高了对受偏好说法形成错误共识的概率，又降低了该共识的可靠性。若不满足这一条件，两种比较都可能逆转，且公共记录的信息量可在Blackwell序下严格改善。最后，我们表明，表达性收益的充分大的提升仍能恢复基准的比较静态结论。
-
-    arXiv:2611.22484v1 Announce Type: new  Abstract: Moral inversion is a public consensus on an account that falsely reverses responsibility for a harm. We study how expressive payoffs affect its emergence in a sequential social-learning model. A larger payoff makes an account more attractive to endorse, but also makes each endorsement of that account weaker evidence in its favor. We show that under a single-peakedness condition on private beliefs a larger payoff both increases the probability of an incorrect consensus on the favored account and reduces its reliability. Without this condition, both comparisons can reverse, and the informativeness of the public record can strictly improve in the Blackwell order. Finally, we show that a sufficiently large increase in the expressive payoff nevertheless restores the benchmark comparative statics.
-    
-[^10]: 谁为产品退货买单？广告与退货政策
-
-    Who Pays for Product Returns? Advertising and Return Policies
-
-    [https://arxiv.org/abs/2611.22370](https://arxiv.org/abs/2611.22370)
-
-    该论文研究了在线平台如何在消费者、企业和自身之间分配产品退货成本，发现广告收入会促使平台更倾向于让消费者承担退货费用，并刻画了不同退货频率下平台的最优成本分担策略。
+    本文提出在预设股票组内汇集ARMA动态参数的波动率预测方法，证明其具有精确的动态因子表示，并在标普500成分股样本外最小方差投资组合构建中持续优于潜在因子模型等替代方案。
 
     
 
-    在线市场平台需要决定消费者、企业和平台之间如何分担产品退货的成本。本文研究了当平台赚取佣金并出售显著展示位置时的这一决策。消费者检查、试用并退回产品；企业竞拍首位展示位置，然后设定价格。更早的展示位置能吸引更多试用，但可能保留更小比例的销售。对于较小的正退货损失，将退货成本分配给消费者，相比向企业报销同等金额，能提高显著展示位置的价值。因此，广告收入使平台在分摊给定退货账单时更倾向于让消费者承担更大份额。本文刻画了小正退货损失下的联合分配方案，并给出了平台无需承担任何成本的成本条件。在退货频繁的市场中，平台反而可以与消费者分担账单：更高的佣金促使平台支付更多，以鼓励购物和保留销售。
+    我们研究如何利用月度已实现股票波动率中的共性特征来进行高维协方差预测和投资组合选择。我们将潜在因子模型与在预先设定的股票组内汇集动态参数的ARMA模型进行比较。我们证明，汇集式ARMA模型具有精确的动态因子表示形式，包含组特定的动态特征和股票特定的载荷。其隐含的静态因子表示所涉及的组特定因子无需具备普遍渗透性。通过将波动率预测与已实现动态条件相关性以及非线性收缩相结合，我们评估了标普500成分股的样本外最小方差投资组合。结果表明，基于参数汇集的方法在各种投资组合约束和模型设定下均持续优于其他替代方法。
 
-    arXiv:2611.22370v1 Announce Type: new  Abstract: An online marketplace decides how consumers, firms, and the platform share the cost of product returns. We study this decision when the platform earns commissions and sells prominent placement. Consumers inspect, try, and return products; firms bid for the first position and then set prices. Earlier display attracts more trials but can retain a smaller fraction of them. For small positive losses, assigning return costs to consumers raises the value of prominence relative to reimbursing firms by the same amount. Advertising therefore shifts the platform's preferred division of a given return bill toward consumers. We characterize the joint allocation for small positive return losses and give a cost condition under which the platform pays nothing. In markets with frequent returns, the platform can instead share the bill with consumers: a higher commission makes it pay more to encourage shopping and retained sales. Results at finite losses 
+    arXiv:2611.23952v1 Announce Type: new  Abstract: We study how commonalities in monthly realized stock volatilities can be exploited for high-dimensional covariance forecasting and portfolio selection. We compare latent factor models with ARMA models that pool dynamic parameters within pre-specified groups of stocks. We show that pooled ARMA models admit an exact dynamic factor representation with group-specific dynamics and stock-specific loadings. The implied static factor representation involves group-specific factors that need not be pervasive. Combining volatility forecasts with realized dynamic conditional correlations and nonlinear shrinkage, we evaluate out-of-sample minimum variance portfolios of S&P 500 constituents. Pooling-based approaches consistently outperform the alternatives across portfolio constraints and model specifications.
     
-[^11]: 长记忆因子模型中的估计与模型选择
+[^6]: 匹配率并不等于匹配质量
 
-    Estimation and Model Selection in Factor Models with Long Memory
+    Match Rate Is Not Match Quality
 
-    [https://arxiv.org/abs/2611.22289](https://arxiv.org/abs/2611.22289)
+    [https://arxiv.org/abs/2611.23851](https://arxiv.org/abs/2611.23851)
 
-    该论文为共同因子具有异质未知长记忆参数的近似因子模型建立了主成分估计的渐近理论，证明样本协方差矩阵的特征值按记忆性渐近排序，且 Bai-Ng 信息准则仍能一致地确定因子总数。
-
-    
-
-    经济学、金融学和气候科学中的面板数据常常由具有不同记忆性的共同成分所驱动，例如共同趋势、周期或联合冲击。我们研究了近似因子模型，其共同因子为分数积分过程，具有异质且未知的记忆参数，并针对面板的水平值数据建立了主成分估计的渐近理论。我们的理论建立在样本协方差矩阵特征值按记忆性渐近排序的基础之上：记忆参数 $d>1/2$ 的非平稳因子组会产生 $NT^{2d-1}$ 阶的特征值，而平稳因子则产生 $N$ 阶的特征值。主成分在允许旋转的意义下一致地估计因子，而相邻因子组按其记忆差距所给定的速率实现分离。Bai 和 Ng 的信息准则对于因子总数依然保持一致性，其惩罚项起到对特征值设定阈值的作用。
-
-    arXiv:2611.22289v1 Announce Type: new  Abstract: Panels in economics, finance and climate science are often driven by common components that differ in memory, such as common trends, cycles, or joint shocks. We study approximate factor models whose common factors are fractionally integrated with heterogeneous and unknown memory and develop the asymptotic theory of principal components for the panel in levels. Our theory builds on the eigenvalues of the sample covariance matrix being ordered by memory asymptotically: a nonstationary factor group with memory $d>1/2$ generates eigenvalues of order $NT^{2d-1}$, whereas stationary factors generate eigenvalues of order $N$. Principal components estimate the factors consistently up to rotation, while adjacent factor groups are separated at a rate given by their memory gap. The information criteria of Bai and Ng remain consistent for the total number of factors, with their penalties acting as thresholds on eigenvalues that are asymptotically or
-    
-[^12]: 在线LSTM预测模型与预测的期限结构
-
-    The Online LSTM Prediction Models and The Term Structure of Predictions
-
-    [https://arxiv.org/abs/2611.22257](https://arxiv.org/abs/2611.22257)
-
-    该论文系统研究了应用于平稳输入的在线LSTM预测模型，分析了网络架构、目标函数和SGD算法对其的影响，并提出了一套基于隐藏状态动态的预测模型诊断工具。
+    本文指出第三方身份解析服务商常用的“匹配率”指标并不等同于“匹配质量”，并利用选民档案与自我报告调查中年龄、性别等人口统计数据的对比，评估发现高匹配率无法保证匹配到的标识符真正属于目标记录，且存在每次匹配对应多个设备标识符等模糊性问题。
 
     
 
-    我们检验并阐述了应用于平稳输入的在线长短期记忆网络（LSTM）预测模型的特性。我们讨论了以下因素的影响：a) 定义可容许预测函数的网络架构，b) 用于衡量预测精度的目标函数，以及 c) 随机梯度下降（SGD）算法。我们还研究了预测最优性、预测的期限结构以及滤波记忆动态。此外，我们引入了一套针对基于记忆的预测模型的诊断工具，该工具集聚焦于隐藏状态的估计动态。
+    第三方身份解析服务商通常将匹配率（即其能够关联到用于广告投放的标识符的提交记录所占比例）作为衡量其服务质量的核心指标加以强调。然而，高匹配率并不一定意味着这些匹配到的标识符确实属于提交的记录（即预期的目标对象）。本文利用一个独特的数据集，将匹配质量作为匹配率的替代指标进行探索与评估。我们能够将提交记录（选民档案）中的年龄和性别这两个人口统计特征，与两家领先的身份解析服务商所关联的移动广告标识符匹配到的自我报告调查中的相同人口统计特征进行比较。数据和匹配工作来自2019-20年。返回记录的匹配质量存在很大的模糊性。首先，两家服务商的激活文件中每次匹配都包含多个设备标识符。其次，经审计的样本中的匹配质量……
 
-    arXiv:2611.22257v1 Announce Type: new  Abstract: We examine and illustrate the properties of the Long Short Term Memory (LSTM) prediction models applied online to stationary inputs. We discuss the effects of: a) the network architecture that defines the admissible prediction functions, b) the objective function used to measure the prediction accuracy, and c) the Stochastic Gradient Descent (SGD) algorithm. We also study the prediction optimality, the term structure of predictions, the filtered memory dynamics. We also introduce a set of diagnostic tools for memory-based prediction models that focus on the estimated dynamics of the hidden states.
+    arXiv:2611.23851v1 Announce Type: new  Abstract: Third-party identity-resolution vendors commonly emphasize match rate, the share of submitted records they can link to identifiers for advertising activation, as their core metric of quality. Yet a high match rate does not necessarily mean that those matched identifiers belong to the submitted records (i.e., the intended targets). In this paper we explore match quality as an alternative metric to match rate, utilizing a unique data set to evaluate match quality. We are able to compare two demographics, age and gender, from a submitted record (voter files) to the same demographics in self-reported surveys matched to mobile advertising identifiers linked together by two leading identity-resolution vendors. The data and matching was from 2019-20.   There is substantial ambiguity in match quality of the returned records. First, both vendors' activation files contain multiple device identifiers per match. Second, match quality among audited p
     
-[^13]: 确定Bertrand网络的时间与结构复杂性
+[^7]: 利用地理空间数据构建次区级经济进步指数
 
-    Settling the Time and Structural Complexity of Bertrand Networks
+    Developing a Subdistrict-Level Economic Progress Index Using Geospatial Data
 
-    [https://arxiv.org/abs/2611.22216](https://arxiv.org/abs/2611.22216)
+    [https://arxiv.org/abs/2611.23798](https://arxiv.org/abs/2611.23798)
 
-    本文解决了Bertrand网络领域的长期开放问题，证明了一般图上计算常数误差近似纳什均衡是PPAD完全的（即使在最大度为五的稀疏二部图上），并在受限情形下给出了高效多项式时间近似方案（EPTAS）。
-
-    
-
-    在Babaioff等人（2013）开创性提出的Bertrand网络博弈中，每个卖家向其专属（captive）买家以及与相邻卖家共享的市场发布单一价格，且卖家无法跨市场进行价格歧视。尽管均衡的存在性以及树上计算均衡的多项式时间算法早已被证明，但针对一般图是否存在高效算法一直是一个重要的开放问题。本文通过证明在Bertrand网络中计算任意常数误差的近似纳什均衡是PPAD完全的，从而否定地解决了这一开放问题。该困难性结果即使在最大度为五、市场权重为常数整数的稀疏二部图上依然成立。作为对困难性结果的补充，当最大度与拥有专属买家的卖家数量均受限时，我们设计了一种高效的多项式时间近似方案（EPTAS）。
-
-    arXiv:2611.22216v1 Announce Type: cross  Abstract: In the seminal Bertrand network game introduced by Babaioff et al. (2013), each seller posts a single price to captive buyers and to the markets it shares with neighboring sellers, where sellers cannot price discriminate across the markets. Although the existence of equilibria and polynomial-time algorithms to compute them in trees (Babaioff et al. (2013)) have been known, it has been a major open problem whether there exist efficient algorithms to compute them for general graphs.   In this paper, we resolve this open question negatively by proving that computing any constant-error approximate Nash equilibrium in a Bertrand network is $\PPAD$-complete. This hardness holds even on sparse bipartite graphs of maximum degree five with constant integer market weights. Complementing our hardness result, we design an efficient polynomial-time approximation scheme (EPTAS) when both the maximum degree and the number of sellers with captive buye
-    
-[^14]: 优化确定性等价的公理化基础
-
-    An axiomatic foundation for optimized certainty equivalents
-
-    [https://arxiv.org/abs/2611.22119](https://arxiv.org/abs/2611.22119)
-
-    本文提出“公平硬币补偿”新公理，结合强风险厌恶与归一化首次从经济公理角度刻画了优化确定性等价（OCEs），并通过附加公理进一步分别刻画了标准OCEs、预期短缺、熵风险测度及均值-方差准则。
+    本文利用地球观测和开放地理空间数据，通过无监督PCA加权构建了经济进步指数（EPI），为印度马哈拉施特拉邦357个次区提供了以往不存在的次区级经济发展监测工具。
 
     
 
-    优化确定性等价是一类重要的风险度量，广泛应用于优化与风险管理，涵盖了均值-方差准则、预期短缺、熵风险测度以及期望。尽管其重要性显著，此前尚无经济公理能够刻画OCEs。我们提出了一个名为“公平硬币补偿”的新公理，它与强风险厌恶和归一化共同刻画了OCEs。我们通过掷硬币对两个损失进行公平分配来诠释这一公理：参与者之间的转移支付可以消除随机分配所带来的额外风险。加入更多公理后可以得到更精确的刻画：单调性导出标准OCEs；正齐次性与谨慎性共同导出预期短缺；公平硬币独立性导出熵风险测度。我们还利用新颖的等均值随机化公理对均值-方差准则进行了公理化刻画
+    本文开发了经济进步指数（EPI），这是一个基于地球观测（EO）数据和开放地理空间数据、采用无监督主成分分析（PCA）加权的综合指标。该指数捕捉了地方经济可观测的生产能力与支撑能力，以及经济空间的使用强度。发展中经济体的次国家级监测一直受到数据稀缺的制约：区级GDP估算数据滞后多年，依赖价格平减指数和自上而下的分配方式，并且在地方性政策所针对的次区（塔鲁克/特西尔）尺度上根本不存在此类数据。EPI融合了多传感器卫星数据、网格化人口数据以及OpenStreetMap道路与设施网络数据，覆盖印度马哈拉施特拉邦357个次区，时间跨度为46个季度（2015年第一季度至2026年第二季度）。基于LOESS的季节-趋势分解（STL）方法将长期趋势与季风和作物周期的季节性波动相分离。非负PCA给出了符号一致的……（摘要被截断）
 
-    arXiv:2611.22119v1 Announce Type: cross  Abstract: Optimized Certainty Equivalents (OCEs) are an important class of risk measures for optimization and risk management that includes the Mean--Variance criterion, Expected Shortfall, the Entropic Risk Measure, and expectation. Despite their importance, economic axioms have not characterized OCEs. We propose a new axiom called Fair-Coin Compensation, which characterizes OCEs together with Strong Risk Aversion and Normalization. We interpret Fair-Coin Compensation through the fair assignment of two losses by a coin toss: transfers between two participants can remove the additional risk created by the random assignment. Adding further axioms yields sharper characterizations. Monotonicity yields standard OCEs; Positive Homogeneity, together with Prudence, yields Expected Shortfall; and Fair-Coin Independence yields the Entropic Risk Measure. We also axiomatize the Mean--Variance criterion using our novel axiom of Equal-Mean Randomization, whi
+    arXiv:2611.23798v1 Announce Type: new  Abstract: This paper develops an Economic Progress Index (EPI), a composite measure built from Earth Observation (EO) and open geospatial data with unsupervised Principal Component Analysis (PCA) weighting. The index captures the observable productive and enabling capacity of local economies and the intensity with which economic space is used. Sub-national monitoring in developing economies is held back by sparse data: district GDP estimates arrive with multi-year lags, rely on price deflators and top-down allocation, and do not exist at the subdistrict (taluka/tehsil) scale where place-based policy is targeted. The EPI fuses multi-sensor satellite data, gridded population and OpenStreetMap road and amenity networks across 357 subdistricts of Maharashtra, India, over 46 quarters (2015 Q1 - 2026 Q2). Seasonal-Trend decomposition using LOESS (STL) separates long-run trends from monsoon and crop-cycle seasonality. A non-negative PCA gives sign-consis
     
-[^15]: 动态环境下的保留制度：账户设计与继承权利
+[^8]: 基于次序统计量的Kotlarski引理的尾部几何方法
 
-    Reserve Systems in Dynamic Settings: Account Design and Inherited Rights
+    A Tail-Geometric Approach to Kotlarski's Lemma with Order Statistics
 
-    [https://arxiv.org/abs/2611.22116](https://arxiv.org/abs/2611.22116)
+    [https://arxiv.org/abs/2611.23642](https://arxiv.org/abs/2611.23642)
 
-    该论文将动态环境下的保留制度分解为账本、账户和选择规则三个组成部分，揭示了账户设计如何通过继承权利使同一选择规则实现不同政策，并证明当每批次规模较小时，最宽松的“超额之上”政策与最保守的“最低保障”政策几乎能选出相同的接受者。
-
-    
-
-    关于保留制度的研究主要考虑静态环境，即为给定的分配问题制定和研究选择规则。动态环境的不同之处在于问题本身并非给定的。随着时间的推移，越来越多的职位变得可用，机构每次都必须根据其过去来构建当前的问题。我们区分了三个概念：账本，用于存储早期分配的信息；账户，将这些数据转换为当前的问题；以及选择规则，为该问题选择一个结果。同一个选择规则在不同的账户设计下可以实施截然不同的政策。如果在分配每个新批次时保持之前的接受者及其类别不变，那么随着批次的缩小，我们所研究的最宽松的保留政策——“超额之上”——可以选出与最保守的政策——“最低保障”——几乎相同的接受者。而累积实施则采用一种不同的账户，它会重新考虑类别……（摘要在此处截断）
-
-    arXiv:2611.22116v1 Announce Type: new  Abstract: Research on reserve systems mainly considers static settings, formulating and studying choice rules for a given allocation problem. Dynamic settings are different in that the problem is not given. Over time, more positions become available, and each time the institution must build the current problem from its past. We distinguish the ledger, which stores information about earlier allocations, the account, which transforms these data into the current problem, and the choice rule, which selects an outcome for that problem. The same choice rule can implement very different policies under different accounts. If each new batch is assigned while holding earlier recipients and their categories fixed, then as batches shrink, over-and-above, the most generous reserve policy we study, can select nearly the same recipients as minimum guarantee, the most conservative one. Cumulative implementation uses a different account, which reconsiders the cate
-    
-[^16]: 更努力思考并不能带来更好的选择：推理努力提升了LLM购物代理的置信度，而非正确性
-
-    Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents
-
-    [https://arxiv.org/abs/2611.22033](https://arxiv.org/abs/2611.22033)
-
-    在三个购物基准测试中，增加LLM购物代理的推理努力并不能显著提升其选购产品的正确性，却会显著提高其报告的置信度——也就是说，模型“想得更多”只是变得更自信，而不是变得更正确。
+    该论文提出一种尾部几何方法，通过在重复测量中以大间隔为条件，实现了经典Kotlarski模型以及仅观测次序统计量情形下的非参数识别，并可应用于拍卖和工资报价模型。
 
     
 
-    大型语言模型（LLM）越来越多地被部署为自主购物代理，它们处理多模态商品信息（包括视觉和文本数据）并代表消费者推荐购买。人们自然会认为，思考能力更强的模型会做出更高质量的购买决策。为了验证这一观点，我们针对此类代理提出了两个问题：要求模型更努力地思考，是否会让它选出更好的产品？它所报告的置信度，能否告诉我们它出错的概率？我们在基于WebShop、亚马逊SQID和Wayfair的WANDS平台构建的三个产品选择基准上，对十个前沿模型进行了测试，以检验思考能力更强的LLM是否真的能做出更高质量的产品购买决策。在全部三个基准上，我们发现增加思考努力并不能在统计上显著提升决策质量。而同样的思考努力变化却会提高模型所声称的置信度（原文摘要在此处截断）。
+    我们针对基于单元内大间隔的重复测量模型非参数识别问题，提出了一种尾部几何方法。差分运算消除了共同的潜在成分，而以大间隔为条件会使个体特异误差进入相反的尾部。在正则的“薄于高斯”尾部条件下，个体特异成分会集中于一个确定性的、依赖于间隔大小的位置附近。因此，相应的观测测量在重新中心化后，可以在位置的意义上揭示共同潜在成分的分布。随后，可以通过反卷积恢复个体特异分布。这一原理既适用于经典的双测量Kotlarski模型，也适用于仅能观测到次序统计量的情形。应用场景包括拍卖模型和工资报价模型，无论是所有报价均被观测到，还是仅有排名最高的报价可用。
 
-    arXiv:2611.22033v1 Announce Type: new  Abstract: Large language models (LLMs) are increasingly deployed as autonomous shopping agents that process multimodal product listings (consisting of visual and text data) and recommend purchases on behalf of consumers. Naturally, one might assume that models with more thinking power would make higher-quality purchasing decisions. To test this belief, we ask two questions about such agents: does asking a model to think harder make it choose better products, and does the confidence it reports tell us the likelihood it may be wrong? We benchmark ten frontier models on three product-choice benchmarks built from WebShop, Amazon's SQID and Wayfair's WANDS platforms to see if LLMs with more thinking power actually make better-quality product purchase decisions. Across all three benchmarks, we found that increasing the thinking effort does not increase decision quality in a statistically meaningful way. The same change in thinking effort raises stated c
+    arXiv:2611.23642v1 Announce Type: new  Abstract: We develop a tail-geometric approach to nonparametric identification in repeated-measurement models based on large within-unit gaps. Differencing eliminates the common latent component, while conditioning on a large gap pushes the idiosyncratic errors into opposite tails. Under a regular thinner-than-Gaussian tail condition, an idiosyncratic component concentrates around a deterministic, gap-dependent location. Consequently, the corresponding observed measurement, after recentering, reveals the distribution of the common latent component up to location. The idiosyncratic distribution can then be recovered through deconvolution. This principle applies both to the classical two-measurement Kotlarski model and to settings where only order statistics are observed. Applications include auctions and wage-offer models, whether all offers are observed or only the top-ranked ones are available.
     
-[^17]: 节点失效下的最优网络设计
+[^9]: Probit模型中合理外生的工具变量：平均偏效应与交互效应的敏感性边界
 
-    Optimal Network Design under Node Failures
+    Plausibly Exogenous Instruments in Probit Models: Sensitivity Bounds for Average Partial and Interaction Effects
 
-    [https://arxiv.org/abs/2611.21856](https://arxiv.org/abs/2611.21856)
+    [https://arxiv.org/abs/2611.23438](https://arxiv.org/abs/2611.23438)
 
-    该论文刻画了节点独立失效情形下福利最优网络的结构：存在一个链路成本区间使最优网络严格介于星形网络与完全网络之间，且在区间低端最优网络恰好是从完全网络中移除一个匹配所得的网络，并为完全多部网络给出了动态规划精确算法。
-
-    
-
-    网络常常在尚未确定哪些节点会留存之前就已经建成。我们研究在节点独立失效、链路成本高昂且必须提前建立、幸存节点收益随距离递减这一情境下的设计问题。典型例子包括供应商网络、银行间网络和基础设施网络。在所有可能的网络中，完全图、星形图和空图这三种结构分别在特定链路成本区间内是福利最优的。然而，当节点数达到四个或更多时，节点失效会引入一个成本区间，在该区间内每个最优网络所含的链路数都多于星形网络但少于完全网络。在该区间的低端，我们证明最优网络恰好就是从完全网络中移除一个匹配所得到的网络。我们还为完全多部网络开发了一种精确算法，该算法通过动态规划寻找最优网络，其运算次数随……
-
-    arXiv:2611.21856v1 Announce Type: new  Abstract: Networks are frequently constructed before it is determined which nodes will persist. We address the design problem in scenarios where nodes fail independently, links are costly and must be established in advance, and the benefits to surviving nodes diminish with distance. Examples include supplier, interbank, and infrastructure networks. Among all possible networks, the complete, star, and empty configurations are each welfare-optimal within specific ranges of link costs. However, with four or more nodes, failures introduce a range of costs in which every optimal network contains more links than the star but fewer than the complete network. At the lower end of this range, we show that the optimal networks are exactly those obtained by removing a matching from the complete network. We develop an exact algorithm for complete multipartite networks. It finds an optimal network by dynamic programming in a number of operations that grows with
-    
-[^18]: 谁能看到海？基于地籍LoD1模型按立面与楼层评估太阳海岸的海景潜力
-
-    Who sees the sea? Sea-view potential by fa\c{c}ade and floor from cadastral LoD1 models on the Costa del Sol
-
-    [https://arxiv.org/abs/2611.21672](https://arxiv.org/abs/2611.21672)
-
-    该论文提出了一种基于开放地籍LoD1数据的快速海景潜力评估方法，可按建筑立面与楼层量化每栋住宅的海景可见度，并在西班牙太阳海岸15.8万余栋建筑上以不到一小时的双核运算验证了其高效性，结果与LiDAR追踪和房源照片高度一致。
+    本文将合理外生工具变量的敏感性分析框架扩展至控制函数probit模型，针对平均偏效应与交互效应推导了敏感性区间，并指出在错误的潜变量尺度上陈述工具变量违背假设会导致区间校准出现偏差。
 
     
 
-    视野是住宅最受重视却最少被测量的属性之一。我们提出了一种开放数据方法，仅利用带楼层数的地籍轮廓图和国家地形模型，即可估算每栋住宅建筑每个无遮挡立面在三个楼层（底层、中层和顶层，其余楼层取其最邻近层）的海景潜力。该方法在双核处理器上不到一小时内完成了西班牙太阳海岸21个市镇共158,060栋建筑的运算，发现52%的建筑从顶层可见部分海景，36%的建筑拥有开阔视野（20°或以上）。在一项基于LiDAR表面的试点追踪中，评分与地籍轮廓内的模型结果高度一致（在20°阈值下96.7%的观测点落入同一类别），但地籍未记录的构筑物平均会使顶层可见海景减少6.1–9.0°。在与93套在售住宅照片（由两家开发商的AI模型进行盲标注，判定关系由作者……）的对比中……（原文摘要在此处截断）
+    针对不完美工具变量的敏感性分析通常针对线性两阶段最小二乘系数，然而许多应用中结果变量为二元变量，且目标参数处于概率尺度上。我们将合理外生框架扩展到控制函数probit模型，以平均偏效应和交互效应为目标。我们推导了生成回归元的方差、并集区间和局部趋零区间，以及它们在给定模型和校准条件下的渐近覆盖性质。在错误的潜变量尺度上陈述违背假设会导致区间校准出现偏差，偏差幅度由内生性相关系数决定。论文将该方法应用于天主教学校教育、兄弟姐妹性别构成和儒家宗族的研究，比较了probit分析与线性分析的结果。该分析附有Stata和R的实现代码。
 
-    arXiv:2611.21672v1 Announce Type: new  Abstract: Views are among the most valued and least measured attributes of a home. We present an open-data method that estimates the sea-view potential of every free fa\c{c}ade of every residential building at three floors (ground, middle and top; other floors take the nearest of them), from cadastral footprints with floor counts and a national terrain model. Run for 158,060 buildings of 21 municipalities on Spain's Costa del Sol in under an hour on two cores, it finds that 52 % of buildings see some sea from their top floor and 36 % have an open view (20{\deg} or more). Traced over a LiDAR surface in a pilot, scores agree with the model's inside cadastral footprints (96.7 % of viewpoints in the same class at 20{\deg}), but structures the cadastre does not record lower the sea seen from the top floor by 6.1--9.0{\deg} on average. Against the photographs of 93 homes for sale, labelled blind by AI models of two developers with ties decided by the au
+    arXiv:2611.23438v1 Announce Type: new  Abstract: Sensitivity analysis for imperfect instruments usually targets a linear two-stage least squares coefficient, yet many applications have binary outcomes and probability-scale targets. We extend the plausibly exogenous framework to the control-function probit, targeting average partial and interaction effects. We derive the generated-regressor variance, union and local-to-zero intervals, and their asymptotic coverage under stated model and calibration conditions. A violation stated on the wrong latent scale can miscalibrate the interval by a factor set by the endogeneity correlation. Applications to Catholic schooling, sibling sex composition and Confucian clans compare probit and linear analyses. Stata and R implementations accompany the analysis.
     
-[^19]: RAW：现实场景中的拒答回避——一种针对已部署大语言模型的因果测量方法
+[^10]: AI、专业化与知识工作的组织：来自法律服务的证据
 
-    RAW: Refusal Aversion in the Wild, A Causal Measurement Method for Deployed LLMs
+    AI, Specialization, and the Organization of Knowledge Work: Evidence from Legal Services
 
-    [https://arxiv.org/abs/2611.21641](https://arxiv.org/abs/2611.21641)
+    [https://arxiv.org/abs/2611.23354](https://arxiv.org/abs/2611.23354)
 
-    本文提出RAW方法，利用大语言模型在相同提示下有时拒答有时不拒答的随机性作为自然实验，首次对已部署模型的拒答进行因果测量，发现一次拒答会使约一半被测模型的用户后续再参与率下降3至17个百分点。
-
-    
-
-    已部署的大语言模型每天处理数亿次对话，并会拒绝相当一部分用户请求，然而拒答给用户侧带来的代价——即用户是否会因此流失以及流失程度——在任何生产模型上都未曾被测量过，这对建立在这些模型之上的面向消费者的平台而言是一个盲区。在前沿实验室产品上进行拒答的A/B测试在伦理和运营层面均受限制，而对于通过固定API部署这些模型的第三方平台来说更是无法实现。我们提出了RAW方法，利用大语言模型的随机性作为自然实验：在任何现有对话日志中，面对几乎相同的提示，同一模型有时拒答、有时不拒答，这种变化使得我们能够识别拒答对用户侧行为的因果效应。将该应用于LMSYS-Chat-1M和WildChat数据集中的15个已部署大语言模型，并采用用户聚类推断，我们发现对于约一半可精确测量的模型，一次拒答会导致后续用户再参与率下降3至17个百分点。
-
-    arXiv:2611.21641v1 Announce Type: cross  Abstract: Deployed LLMs field hundreds of millions of conversations a day and refuse a non-trivial fraction of user requests, yet the user-side cost of refusal, whether users disengage and by how much, is unmeasured on any production model: a blind spot for the consumer-facing platforms built on them. A/B-testing refusal is ethically and operationally constrained on frontier-lab products and unavailable to third-party platforms deploying these models through a fixed API. We introduce RAW, a method that uses LLM stochasticity as a natural experiment: at near-identical prompts in any existing log, the same model sometimes refuses and sometimes does not, and that variation identifies the causal user-side effect of refusal. Applying the method to 15 deployed LLMs in LMSYS-Chat-1M and WildChat, with user-clustered inference, we find that for about half of the models we can measure precisely, a refusal costs 3 to 17 pp of subsequent re-engagement; the
-    
-[^20]: 双边平台实验中的单边随机化：应该对哪一侧进行随机化？
-
-    One-Sided Randomization in Two-Sided Platform Experiments: Which Side Should be Randomized?
-
-    [https://arxiv.org/abs/2611.16406](https://arxiv.org/abs/2611.16406)
-
-    双边平台实验中选择随机化短侧（供给或需求中较小的一侧）在减少偏差和降低方差两个维度上通常都优于随机化长侧，因此并不存在传统认为的偏差-方差权衡。
+    该论文构建了一个连接个人自我供给、企业自制或外购决策与专业公司定价的框架，并利用美国法律服务数据发现：AI推动客户在外部供应商间重新分配工作（非在押人员自我代理比例上升6.6个百分点），而高端律所在工作份额下降时反而可能提高加价率。
 
     
 
-    双边市场平台通常使用随机化实验来评估新功能，这引发了一个问题：应该对客户还是房源（listing）进行随机化。随机化较小的一侧（短侧）可以因竞争较弱而减少干扰偏差，而随机化较大的一侧（长侧）则提供了更大的名义样本量，可能降低方差。表面上，这些相互竞争的考虑因素表明，在选择随机化哪一侧时存在偏差-方差权衡。我们在一个具有先到先得（FCFS）预订机制和异质客户偏好的双边市场中研究这种权衡，分析全局平均处理效应的均值差估计量的偏差和方差。我们的研究结果表明，这并非偏差-方差权衡，实际上短侧随机化在这两个维度上通常都更优。我们在一个渐近状态下证明了这些结果，其中……（摘要截断）
+    人工智能使专业知识的使用变得更加廉价，但其对专业服务企业的影响取决于客户如何重新分配工作以及供应商如何应对。我们构建了一个将个人自我供给、企业的自制或外购决策以及专业公司定价联系起来的分析框架。随着AI改善了价格更低的替代方案，客户可能会在外部供应商之间重新分配工作，而不必将工作收回企业内部。如果流失的工作比留下的工作对价格更敏感，那么即使高端公司承接的工作份额下降，它们也可能提高最优加价率。我们在美国法律服务领域考察了这些边际效应。通过跨89个联邦地区的双重差分分析发现，到2025财年，非在押人员自我代理相对于在押人员申请的比例上升了6.6个百分点，且在调整了既有趋势后这一幅度仍然显著。相比之下，律师就业在2022年后没有出现明显的转变。
 
-    arXiv:2611.16406v2 Announce Type: replace-cross  Abstract: Two-sided marketplace platforms often use randomized experiments to evaluate new features, raising the question of whether to randomize customers or listings. Randomizing the smaller (\emph{short}) side can reduce interference bias due to weaker competition, while randomizing the larger (\emph{long}) side provides a larger nominal sample, potentially reducing variance. On the surface, these competing considerations suggest a bias-variance trade-off in choosing which side to randomize. We investigate this trade-off in a two-sided marketplace with first-come, first-served (FCFS) booking and heterogeneous customer preferences, studying the bias and variance of difference-in-means estimators of the global average treatment effect.   Our findings suggest that rather than a bias-variance tradeoff, in fact short-side randomization is generally preferable on {\em both} dimensions. We prove these results in an asymptotic regime where ma
+    arXiv:2611.23354v1 Announce Type: new  Abstract: Artificial intelligence makes specialized knowledge cheaper to use, but its effects on professional-service firms depend on how clients reallocate work and how suppliers respond. We develop a framework linking individual self-provision, enterprise make-or-buy decisions, and pricing by specialist firms. As AI improves lower-priced alternatives, clients may reallocate work across outside providers without bringing it in-house. If the departing work is more price-sensitive than the work that remains, premium firms may raise their optimal markups even as their share of work declines. We examine these margins in U.S. legal services. Across 89 federal districts, a difference-in-differences analysis finds a 6.6-percentage-point increase in non-prisoner self-representation relative to prisoner petitions by fiscal 2025, remaining substantial after adjusting for pre-existing trends. In contrast, lawyer employment shows no clear post-2022 shift tow
     
-[^21]: 凸序与矩说服
+[^11]: 基于黎曼稳健偏差修正的条件Fréchet均值推断
 
-    Convex Order and Moment Persuasion
+    Inference for conditional Fr\'echet means via Riemannian Robust Bias Correction
 
-    [https://arxiv.org/abs/2609.13696](https://arxiv.org/abs/2609.13696)
+    [https://arxiv.org/abs/2611.01857](https://arxiv.org/abs/2611.01857)
 
-    本文在多维设定下完整刻画了凸序（保均值收缩）关系及其极值点，引入了每个状态只能映射到其自身不可约分量内后验均值的“集中”结构，并将这些结果应用于矩说服问题。
-
-    
-
-    如果一个概率测度是另一个测度的保均值收缩，则称这两个测度处于凸序关系中。本文在多维设定下对保均值收缩及其极值点提供了完整的刻画，将 Kleiner、Moldovanu、Strack 和 Whitmeyer（2024）的结果扩展到包含完全揭示区域和低维混同区域。我们刻画结果的一个核心特征是“集中”结构：每个状态只能被映射到位于其自身不可约分量内的后验均值。我们将这些结果应用于矩说服问题。
-
-    arXiv:2609.13696v1 Announce Type: new  Abstract: If a probability measure is a mean-preserving contraction of another, the two measures are said to be in convex order. This paper provides a complete characterization of mean-preserving contractions and their extreme points in the multidimensional setting, extending the results of Kleiner, Moldovanu, Strack, and Whitmeyer (2024) to incorporate fully revealing regions and lower-dimensional pooling regions. A central feature of our characterization is a "concentration " structure: each state can be mapped only to posterior means lying within its own irreducible component. We apply these results to the moment persuasion problem.
-    
-[^22]: 无需市场外全额补偿的多区间调度最优统一定价
-
-    Optimal Uniform Pricing for Multi-Interval Dispatch without Make-Whole Uplifts
-
-    [https://arxiv.org/abs/2609.00541](https://arxiv.org/abs/2609.00541)
-
-    本文提出一种最优统一定价规则，能够在无需市场外全额补偿的情况下消除LMP低于发电机报价的问题，同时最小化需求侧支付、保留阻塞费用并确保收入充足。
+    提出黎曼稳健偏差修正（RRBC）方法，通过对平滑偏差进行二阶展开估计与指数映射修正，在无需欠平滑的条件下实现了黎曼流形上条件Fréchet均值的渐近有效逐点置信集与同步置信管推断。
 
     
 
-    在含有爬坡速率受限发电机以及净需求预测不准确的网络中，实际运行的滚动窗口调度可能使节点边际价格（LMP）低于发电机的申报报价。在这种情况下，市场外（OOM）结算被用于补偿发电机并维持其跟随调度的激励，但市场外结算会带来负面后果，包括不透明的实时价格信号、歧视性的补偿机制，以及对不真实报价行为的激励。本文提出了一种最优统一定价规则，该规则能够最小化需求侧支付、消除市场外全额补偿支付、保留基于LMP的阻塞费用，并确保收入充足性。我们以闭式形式推导了所提出的定价规则，并将其与现有定价方案建立了联系。数值比较表明，该规则能带来更有利的发电机利润和更低的价格波动性。然而，更高的发电机利润伴随着需求侧支付的增加，这反映了市场内（原文此处截断）
+    我们开发了一个内在框架，用于对预测变量和响应变量取值于有限维黎曼流形的条件Fréchet均值进行统计推断。我们推导了平滑偏差的二阶展开式，该展开通过 logarithm 映射在切空间中表示，并证明该偏差会影响一阶推断的有效性。我们提出黎曼稳健偏差修正（RRBC）方法，该方法利用响应切空间中的局部二次回归估计主导平滑偏差，并通过指数映射对估计量进行修正。我们的留一法（LOO）协方差估计量利用全样本估计与留一RRBC估计之间的内在位移，同时考虑了估计偏差修正的变异性及其与局部线性估计量之间的协方差。我们建立了渐近有效的逐点置信集和同步置信管，且无需进行欠平滑。在球面和对称（空间）上的模拟实验……（摘要原文在此处截断）
 
-    arXiv:2609.00541v1 Announce Type: cross  Abstract: In a network with ramp-limited generators and inaccurate net-demand forecasts, practical rolling-window dispatch can drive locational marginal prices (LMPs) below generators' bid-in offers. In such cases, out-of-market (OOM) settlements are used to compensate generators and maintain dispatch-following incentives, but OOM can have negative consequences, including nontransparent real-time price signals, discriminatory compensation, and incentives for untruthful bidding. This paper presents an optimal uniform pricing rule that minimizes demand payments, eliminates OOM make-whole payments, preserves LMP-based congestion charges, and ensures revenue adequacy. We derive the proposed pricing rule in closed form and relate it to existing pricing schemes. Numerical comparisons demonstrate favorable generator profits and reduced price volatility. However, higher generator profits are accompanied by increased demand payments, reflecting the in-ma
+    arXiv:2611.01857v1 Announce Type: cross  Abstract: We develop an intrinsic framework for inference on conditional Fr\'echet means with predictors and responses taking values in finite-dimensional Riemannian manifolds. We derive a second-order expansion of the smoothing bias, represented in the tangent space via the logarithm map, and show that this bias can affect first-order inference. We propose Riemannian robust bias correction (RRBC), which estimates the leading smoothing bias using a local quadratic regression in the response tangent space and corrects the estimator through the exponential map. Our leave-one-out (LOO) covariance estimator uses intrinsic displacements between the full-sample and LOO RRBC estimates, accounting for the variability of the estimated bias correction and its covariance with the local linear estimator. We establish asymptotically valid pointwise confidence sets and simultaneous confidence tubes without undersmoothing. Simulations on spheres and symmetric 
     
-[^23]: 标普500企业的AI采纳研究
+[^12]: 基钦周期的数字-能源重组：来自美国IT与爱尔兰数据中心序列（1995-2025）的探索性证据
 
-    AI Adoption in S&P 500 Firms
+    The Digital-Energy Recomposition of the Kitchin Cycle: Exploratory Evidence from U.S. IT and Irish Data-Centre Series (1995-2025)
 
-    [https://arxiv.org/abs/2607.08920](https://arxiv.org/abs/2607.08920)
+    [https://arxiv.org/abs/2610.33122](https://arxiv.org/abs/2610.33122)
 
-    该论文基于SEC 10-K年报开发了一种能够区分“深度AI采纳”与“AI炒作”的新颖度量方法，发现2025年标普500企业中11%已将AI深度整合进业务流程、另有10%在生产与服务交付中使用AI，采纳率自2016年以来已增长超过四倍。
-
-    
-
-    arXiv:2607.08920v2 公告类型：替换 摘要：大型企业对人工智能（AI）的采纳是总体生产率提升和劳动力市场影响的重要潜在来源。我们研究了2016年至2025年期间标普500企业的AI采纳情况，并在企业层面进行采纳率估计。虽然生成式AI工具对个人和专业应用很有用，但我们的研究重点是AI在大型企业业务流程中的深度整合，这些企业是更广泛企业采纳趋势的风向标。我们开发了一种新颖的度量方法来评估深度AI采纳（并将其与AI炒作区分开来），该方法基于SEC 10-K年报文件，因为法律法规“禁止公司做出重大虚假或误导性陈述”。2025年，11%的标普500企业已将AI深度整合到其业务流程中，另有10%的企业在商品生产和服务交付中使用AI。AI的采纳率已从5（原文在此处截断，疑为“5%”）增长了超过四倍。
-
-    arXiv:2607.08920v2 Announce Type: replace  Abstract: The adoption of artificial intelligence (AI) by large enterprises is an important potential source of aggregate productivity improvement and labor market impact. We study AI adoption of S&P 500 firms over the period 2016 to 2025, estimating adoption at the enterprise level. While generative AI tools are useful for personal and professional applications, our focus is on the deep integration of AI in the business processes of large enterprises which are bellwethers for firm adoption more broadly. We develop a novel measure to assess deep AI adoption (and distinguish it from AI hype) that is based on SEC 10-K filings, where laws and regulations ``prohibit companies from making materially false or misleading statements." In 2025, 11% of S&P 500 enterprises had AI deeply integrated into their business processes, and a further 10% were using AI in the production of goods and delivery of services. AI adoption has more than quadrupled from 5
-    
-[^24]: 税收显著性：要求透明度如何影响平等的代价
-
-    Tax Salience: How Requiring Transparency Affects the Price of Equality
-
-    [https://arxiv.org/abs/2605.30081](https://arxiv.org/abs/2605.30081)
-
-    该论文定义并刻画了税收领域中的“道德效率前沿”，分析透明度在平等、效率与诚实之间的三方权衡，并发现税收显著性的成本最稳健地落在平等上——更高的显著性总是降低平等，而对效率的影响则不明确。
+    该研究通过断点检验发现美国IT与GDP的相关性在2014年第三季度发生显著的“战略性脱钩”（早于AI时代约六年），而爱尔兰数据中心用电量与GDP的高相关性在改用GNP后骤然消失，表明基钦周期正围绕能源与算力资产重组这一命题仅获得部分探索性证据支持。
 
     
 
-    较低显著性的税收可以通过使人们对税收的反应降低，来缓解平等与效率之间的经典权衡。但故意模糊税收可能被视为不诚实。这在平等、效率与诚实之间形成了三方权衡。我们在一个采用线性所得税的简单设定中分析这一权衡。我们定义并刻画了“道德效率前沿”，在功利主义福利与诚实（或透明度）之间进行权衡。完全诚实是帕累托低效的，但并非道德上低效。更一般而言，提高诚实度会降低功利主义福利。当将功利主义福利分解为平等和效率时，诚实的成本最稳健地落在平等上：更高的显著性总是降低平等，而对效率的影响则不明确。这种不对称性源于显著性提高了“平等的代价”，即平等边际增加所带来的效率成本。
+    利用1995年第一季度至2025年第四季度的FRED与爱尔兰中央统计局（CSO）季度数据，我们研究美国IT投资与爱尔兰数据中心用电量是否正在围绕能源与算力支撑的资产重组基钦周期。研究有三个突出发现。第一，Quandt-Andrews sup-Wald检验在美国IT-GDP相关性中定位到2014年第三季度的显著断点（sup-W = 9.69；相关系数从+0.45降至-0.12）；Fisher r-to-z检验在Bonferroni校正后依然显著（z = +3.11，p_Bonf = 0.006），而人为设定的云计算与AI分界处的类似检验则不显著（p_Bonf = 0.164），因此“战略性脱钩”比AI时代早约六年出现。第二，在爱尔兰，AI时代数据中心实测用电量与实际GDP的同步相关性较大（r = +0.41，N = 16），但当用实际GNP替代实际GDP时，该相关性骤降至r ≈ 0，表明这一表面结果在很大程度上是……（原文摘要在此处截断）
 
-    arXiv:2605.30081v2 Announce Type: replace  Abstract: Less-salient taxes can ease the classic trade-off between equality and efficiency by making people respond less to taxation. But deliberately obscuring taxes may be viewed as dishonest. This creates a three-way trade-off between equality, efficiency, and honesty. We analyze this trade-off in a simple setting with a linear income tax. We define and characterize the morally efficient frontier, trading off utilitarian welfare against honesty or transparency. Complete honesty is Pareto inefficient but not morally inefficient. More generally, increasing honesty reduces utilitarian welfare. When utilitarian welfare is decomposed into equality and efficiency, the cost of honesty falls most robustly on equality: Higher salience always reduces equality, while the effect on efficiency is ambiguous. This asymmetry arises because salience increases the price of equality, which is the efficiency cost of a marginal increase in equality. Our approa
+    arXiv:2610.33122v1 Announce Type: cross  Abstract: Using quarterly FRED and CSO Ireland data over 1995Q1-2025Q4, we examine whether U.S.\ IT investment and Irish data-centre electricity are recomposing the Kitchin cycle around energy- and compute-backed assets. Three findings stand out. First, a Quandt-Andrews sup-Wald test locates a significant break in the U.S.\ IT-GDP correlation at 2014Q3 (sup-W $= 9.69$; $r$ falls from $+0.45$ to $-0.12$); the Fisher $r$-to-$z$ test survives Bonferroni adjustment ($z = +3.11$, $p_{\text{Bonf}} = 0.006$), whereas the analogous test on the imposed Cloud-vs-AI boundary does not ($p_{\text{Bonf}} = 0.164$), so ``Strategic Decoupling'' pre-dates the AI Era by approximately six years. Second, in Ireland the synchronous AI-Era correlation between metered data-centre electricity and Real GDP is large ($r = +0.41$, $N = 16$) but \emph{collapses to $r \approx 0$ when Real GDP is replaced by Real GNP}, suggesting the headline is largely an artefact of the sh
     
-[^25]: 基于双重机器学习的中介分析双重差分方法
+[^13]: 线性工具变量模型中的持续更新GMM：一种多项式方法
 
-    Difference-in-differences for mediation analysis using double machine learning
+    Continuously Updating GMM in Linear IV Models: A Polynomial Approach
 
-    [https://arxiv.org/abs/2602.23877](https://arxiv.org/abs/2602.23877)
+    [https://arxiv.org/abs/2609.36445](https://arxiv.org/abs/2609.36445)
 
-    本文提出了一个结合双重差分与中介分析的双重机器学习框架，用于估计多值离散或连续处理变量对结果的直接效应、经由中介的间接效应及联合效应。
-
-    
-
-    我们提出了一个包含中介效应的双重差分框架，适用于可能为多值离散或连续的处理变量和中介变量，旨在识别处理对结果的直接效应（剔除通过中介传导的效应）、经由中介的间接效应，以及处理与中介的联合效应，并与动态处理效应框架保持一致。识别依赖于施加在处理和中介状态上平均潜在结果的条件平行趋势假设，或（取决于所研究的因果参数）额外依赖于处理状态间的平均潜在结果和潜在中介分布。我们在双重/去偏机器学习框架内提出了适用于重复截面数据和面板数据的ATET估计量，该框架允许对协变量进行数据驱动的控制，并在标准正则性条件下建立了这些估计量的渐近正态性。
-
-    arXiv:2602.23877v2 Announce Type: replace  Abstract: We propose a difference-in-differences (DiD) framework with mediation for possibly multivalued discrete or continuous treatments and mediators, aimed at identifying the direct effect of the treatment on the outcome (net of effects operating through the mediator), the indirect effect via the mediator, and the joint effects of treatment and mediator, consistent with the framework of dynamic treatment effects. Identification relies on a conditional parallel trends assumption imposed on the mean potential outcome across treatment and mediator states, or (depending on the causal parameter) additionally on the mean potential outcomes and potential mediator distributions across treatment states. We propose ATET estimators for repeated cross sections and panel data within the double/debiased machine learning framework, which allows for data-driven control of covariates, and we establish their asymptotic normality under standard regularity co
-    
-[^26]: AI基础模型经济学：开放性、竞争与治理
-
-    The Economics of AI Foundation Models: Openness, Competition, and Governance
-
-    [https://arxiv.org/abs/2510.15200](https://arxiv.org/abs/2510.15200)
-
-    该论文构建两期博弈模型，揭示基础模型在位者的最优开放度随学习效应增强先降后升，并警示强制完全开放的监管可能适得其反，反而损害下游适配效率。
+    本文将线性工具变量模型中CU-GMM的目标函数表示为多项式之比，通过伴随矩阵实特征值与代数消元方法刻画并求得其全局最小值。
 
     
 
-    基础模型开发者需要选择其模型的开放程度。更高的开放性降低了下游适配成本，但也可能使竞争模型更容易被使用。在一个两期模型中，在位者选择其许可费和开放程度，部署者为用户适配模型，而进入者提供竞争性模型。使用会积累模型特定的经验，从而降低部署者未来的适配成本，形成一个有利于持续使用在位者模型的数据飞轮。我们识别出了随着学习效应增强，最优开放程度先下降后上升的条件：在位者从完全开放和高许可费，转向为留住用户而限制开放性，继而转向低许可费策略——通过积累足够的使用量和经验来留住部署者，即便开放程度更高。强制完全开放的监管可能诱使在位者放弃这种低许可费策略；更高的许可费即使在开放程度更高的情况下，也可能减少第一期的适配。
+    本文刻画了线性工具变量模型中持续更新广义矩估计（CU-GMM）目标函数的全局最小值。我们允许在异方差、自相关或聚类情形下使用最优加权矩阵。我们证明该目标函数是多项式之比。对于一个内生回归变量，CU-GMM目标函数的驻点是一个伴随矩阵的实特征值，将这些驻点处的目标值与无穷远处的目标值进行比较即可得到全局最小值，这将经典的特征向量方法推广至受限信息极大似然估计。对于多个内生回归变量的情形，代数消元法与实解检验可以在包括边界值在内的有限个候选目标值中识别出最小值。伽罗瓦理论表明，即使只含一个内生回归变量和两个工具变量，也不存在一般的根式求解公式，但数值求根方法仍然可行。
 
-    arXiv:2510.15200v2 Announce Type: replace-cross  Abstract: Foundation model developers choose how open to make their models. Greater openness lowers downstream adaptation costs but can also make competing models easier to use. In a two-period model, an incumbent chooses its license fee and openness, a deployer adapts the model for users, and an entrant offers a competing model. Usage builds model-specific experience that lowers the deployer's future adaptation cost, creating a data flywheel that favors continued use of the incumbent. We identify conditions under which optimal openness falls and then rises as learning strengthens. The incumbent moves from full openness and a high fee to restricting openness for retention, then to a low fee that builds enough usage and experience to retain the deployer despite greater openness. A full-openness mandate can induce the incumbent to abandon this low-fee strategy. The higher fee can reduce first-period adaptation despite greater openness. An 
+    arXiv:2609.36445v1 Announce Type: new  Abstract: This paper characterizes the global minimum of the continuously updating generalized method of moments (CU-GMM) objective in linear instrumental variables models. We allow optimal weighting matrices under heteroskedasticity, autocorrelation, or clustering. We show that the objective is a ratio of polynomials. For one endogenous regressor, stationary points of CU-GMM objective function are real eigenvalues of a companion matrix. Comparing their objective values with the value at infinity gives the global minimum, extending the classical eigenvector approach to limited information maximum likelihood. With multiple endogenous regressors, algebraic elimination and checks for real solutions identify the minimum among finitely many candidate objective values, including boundary values. Galois theory rules out general formulas by radicals even with one endogenous regressor and two instruments, while numerical root finding remains possible. Find
     
-[^27]: 简单沟通
+[^14]: “粗糙”HAR模型
 
-    Simple Communication
+    The "Rough" HAR Model
 
-    [https://arxiv.org/abs/2509.09621](https://arxiv.org/abs/2509.09621)
+    [https://arxiv.org/abs/2609.21587](https://arxiv.org/abs/2609.21587)
 
-    本文在偏好一致的多维廉价磋商模型中证明：任何均衡评分必须是线性评分或其粗化，均衡收益低于可承诺评分时的水平，并对正态分布状态刻画了均衡线性评分的特征。
-
-    
-
-    我们研究具有一致偏好的多维廉价磋商模型中的简单沟通。专家使用一个“评分”与决策者进行沟通，即一个将多维状态聚合为一维信息的聚合器。尽管专家与决策者拥有相同的收益，均衡收益仍低于通过承诺某一评分所能实现的收益。在二次损失效用下，任何均衡评分都必须是状态的线性函数，或是线性评分的粗化。最后，对于正态分布的状态，我们刻画了均衡线性评分，并证明其中包含了事前最优与最差的线性评分。
-
-    arXiv:2509.09621v5 Announce Type: replace  Abstract: We study simple communication in a multidimensional cheap talk model with aligned preferences. An expert communicates with a decision-maker using a score, i.e., an aggregator of a multidimensional state into a one-dimensional message. Even though the expert and the decision-maker share the same payoffs, equilibrium payoffs are lower than those achievable under commitment to a score. Under quadratic-loss utility, any equilibrium score must be linear in the state or a coarsening of a linear score. Finally, for normally distributed states, we characterize the equilibrium linear scores and show they include the ex-ante best and worst linear scores.
-    
-[^28]: 最低工资上调之后：短期劳动需求响应与再配置
-
-    Just After Minimum Wage Hikes: Short-Run Labor-Demand Response and Reallocation
-
-    [https://arxiv.org/abs/2505.04555](https://arxiv.org/abs/2505.04555)
-
-    本文利用日本即时劳动力市场数据发现，最低工资上调后净就业份额立即小幅下降约1%，原有雇主削减低于新工资下限的岗位，而新进入的雇主则在略高于新标准处发布岗位，表明市场主要通过岗位再配置进行调整。
+    本文提出在AR和HAR模型中加入一阶移动平均（MA(1)）成分来离散近似粗糙连续时间已实现方差模型，并证明MA系数与Hurst参数几乎线性对应，实证发现所有资产均存在负MA系数且隐含的Hurst参数与连续时间模型估计高度一致。
 
     
 
-    最低工资上调后劳动力市场如何在短期内立即调整，仍然是一个开放的、具有重要政策意义的问题。本文利用Timee数据和工资区间双重差分设计，研究了最低工资上调在日本即时（零工）劳动力市场中的短期效应。我们发现标准化的净就业份额变化为-0.010，职位空缺和总工作时长也有类似的估计结果。周度和日度估计显示，这些效应在政策实施后立即显现，随后趋于稳定。在最低工资约束力度更大的地区以及餐饮业中，负面效应更为明显。深夜班次和提供交通补贴的招聘信息其净份额效应为负，而针对特定性别和面向新手的招聘信息则没有显著的净变化。通过按雇主的招聘历史对职位空缺进行分解，我们发现原有雇主削减了低于新工资下限的招聘信息，而修订前从未发布过招聘信息的雇主则将招聘工资定在略高于新标准的水平。
+    本文提出了已实现方差（RV）的粗糙连续时间模型的离散时间近似。主流的粗糙模型可以被视为由分数高斯噪声驱动的自回归过程。我们证明，当Hurst参数小于二分之一时，该噪声的Wold表示将其依赖性集中在第一滞后项上。因此，在自回归（AR）和异质自回归（HAR）模型中加入一阶移动平均（MA(1)）成分即可近似这种粗糙性，并且MA系数与Hurst参数之间几乎呈线性映射关系。我们将这些扩展模型称为“粗糙”AR模型和“粗糙”HAR模型。在十只ETF的对数已实现方差上对这些模型进行估计，我们发现所有资产的MA系数均为负值，且隐含的Hurst参数与连续时间模型的估计结果高度一致。在HAR文献中，负的MA(1)成分是一个一直被忽视的重要特征……
 
-    arXiv:2505.04555v4 Announce Type: replace  Abstract: How labor markets adjust immediately after minimum wage hikes remains an open, policy-relevant question. This paper studies short-run minimum-wage effects in Japan's spot labor market using Timee data and a wage-bin difference-in-differences design. We find a normalized net employment-share change of $-0.010$, with similar estimates for vacancies and total working hours. Weekly and daily estimates show that these effects emerge immediately after implementation and then stabilize. Effects are more negative where the minimum-wage bite is higher and in restaurant work. Net share effects are negative for midnight shifts and postings offering transportation reimbursement. Gender-targeted and beginner-targeted postings show no significant net change. Decomposing vacancies by employers' posting histories, we find that incumbent employers cut postings below the new floor while employers that did not post before the revision post just above i
+    arXiv:2609.21587v1 Announce Type: new  Abstract: This paper proposes discrete-time approximations to rough continuous-time models of realized variance (RV). The leading rough models can be viewed as autoregressive processes driven by fractional Gaussian noise. We show that the Wold representation of this noise concentrates its dependence at the first lag when the Hurst parameter is below one half. Augmenting the autoregressive (AR) and heterogeneous autoregressive (HAR) models with a first-order moving-average (MA(1)) component therefore approximates the roughness, and the MA coefficient maps almost linearly into the Hurst parameter. We refer to these extensions as the "rough" AR and "rough" HAR models. Estimating them on the log RV of ten ETFs, we find negative MA coefficients for every asset, and the implied Hurst parameters align closely with the estimates from the continuous-time models. In the HAR literature, the negative MA(1) component is a significant feature that has been larg
     
-[^29]: 非理性随机效用模型
+[^15]: 可行搜索行为
 
-    Irrational Random Utility Models
+    Feasible Search Behavior
 
-    [https://arxiv.org/abs/2403.10208](https://arxiv.org/abs/2403.10208)
+    [https://arxiv.org/abs/2609.16431](https://arxiv.org/abs/2609.16431)
 
-    理性决策者群体的选择可以被足够不相关的偏好的非理性决策者群体所代表，即非理性RUM。几乎所有的RUMs可以通过一部分决策者是非理性的群体来表示，并且在特定条件下他们的非理性行为是不受限制的。
-
-    
-
-    我们展示了一个理性决策者群体的集合选择 - 随机效用模型（RUMs） - 只有当他们的偏好足够不相关时，可以通过一个非理性决策者群体来表示。我们称这种表示为：非理性RUM。然后我们展示几乎所有的RUMs都可以通过至少一部分决策者是非理性决策者的群体来表示，并且在特定条件下他们的非理性行为是不受限制的。
-
-    arXiv:2403.10208v1 Announce Type: new  Abstract: We show that the set of aggregate choices of a population of rational decision-makers - random utility models (RUMs) - can be represented by a population of irrational ones if, and only if, their preferences are sufficiently uncorrelated. We call this representation: Irrational RUM. We then show that almost all RUMs can be represented by a population in which at least some decision-makers are irrational and that under specific conditions their irrational behavior is unconstrained.
-    
-[^30]: 高维尾指数回归：以社交媒体病毒帖子文本分析为例
-
-    High-Dimensional Tail Index Regression: with An Application to Text Analyses of Viral Posts in Social Media
-
-    [https://arxiv.org/abs/2403.01318](https://arxiv.org/abs/2403.01318)
-
-    提出了高维尾指数回归方法，利用正则化估计和去偏方法进行推断，支持理论的仿真研究，并在社交媒体病毒帖子文本分析中应用。
+    该论文刻画了与某种信息结构相容的所有可行搜索行为集合（形成一个多面体），并证明存在单一的信息结构能够使所有这些搜索行为理性化，同时使当事人在所有信息结构中福利最小化。
 
     
 
-    受社交媒体病毒帖子的点赞分布（如点赞数量）经验性幂律的启发，我们引入了高维尾指数回归及其参数的估计和推断方法。我们提出了一种正则化估计量，证明了它的一致性，并推导了其收敛速度。为了进行推断，我们提出了去偏正则化估计，证明了去偏估计量的渐近正态性。仿真研究支持了我们的理论。这些方法被应用于对涉及 LGBTQ+ 话题的 X（原 Twitter）病毒帖子的文本分析。
+    考虑这样一个情形：决策者在异质性选项之间按照任意搜索顺序依次搜索最优选项。当事人在考察某个选项时会部分地了解其价值。信息结构共同决定了考察每个选项的事前价值和事后价值，从而塑造了整个学习路径。我们刻画了与某种信息结构相容的所有搜索行为构成的集合，该集合形成一个多面体。单一的信息结构即可使所有这些搜索行为理性化，并且该信息结构在所有信息结构中使当事人的福利最小化。在关于基础要素的某些对称性假设下，我们还考察了搜索行为与选择行为所有可行配对组合的集合，包括存在与不存在选项卖家价格竞争两种情形，并证明了相同的结果。我们的研究不仅为分析信息如何塑造有序学习路径提供了一个简洁的框架，而且……（原文摘要此处被截断）
 
-    arXiv:2403.01318v1 Announce Type: cross  Abstract: Motivated by the empirical power law of the distributions of credits (e.g., the number of "likes") of viral posts in social media, we introduce the high-dimensional tail index regression and methods of estimation and inference for its parameters. We propose a regularized estimator, establish its consistency, and derive its convergence rate. To conduct inference, we propose to debias the regularized estimate, and establish the asymptotic normality of the debiased estimator. Simulation studies support our theory. These methods are applied to text analyses of viral posts in X (formerly Twitter) concerning LGBTQ+.
+    arXiv:2609.16431v1 Announce Type: new  Abstract: Consider a situation wherein a decision maker sequentially searches for the best alternative among heterogeneous options with an arbitrary search order. The agent partially learns the value of an option when inspecting it. The information structure jointly determines the ex-ante and ex-post value of investigating each option, thereby shaping the entire learning path. We characterize the set of all search behaviors compatible with some information structure, which forms a polytope. A single information structure rationalizes all these search behaviors, which minimizes the agent's welfare among all information structures. Under certain symmetry assumption over primitives, we also examine the set of all feasible pairs of search and choice behaviors, with and without option sellers' price competition, and prove the same results. Our study not only provides a simple framework for analyzing how information shapes ordered learning paths, but al
     
-[^31]: 在连续治疗下的多重稳健因果中介分析
+[^16]: 推荐质量与消费集中度：来自Netflix的实验证据
 
-    Multiply Robust Causal Mediation Analysis with Continuous Treatments
+    Recommendation Quality and the Concentration of Consumption: Experimental Evidence from Netflix
 
-    [https://arxiv.org/abs/2105.09254](https://arxiv.org/abs/2105.09254)
+    [https://arxiv.org/abs/2608.21274](https://arxiv.org/abs/2608.21274)
 
-    本文提出了一种适用于连续治疗环境的多重稳健因果中介分析估计器，采用了核平滑方法，并具有多重稳健性和渐近正态性。
+    该研究表明，改进推荐算法可提升总消费并分散消费从热门到中等热门产品，而非极化消费，从而支持对中尾产品的投资。
 
     
 
-    在许多应用中，研究人员对治疗或暴露对感兴趣的结果的直接和间接的因果效应。中介分析为鉴定和估计这些因果效应提供了一个严谨的框架。对于二元治疗，Tchetgen Tchetgen和Shpitser (2012)提出了直接和间接效应的高效估计器，基于参数的影响函数。这些估计器具有良好的性质，如多重稳健性和渐近正态性，同时允许对干扰参数进行低于根号n的收敛速度。然而，在涉及连续治疗的情况下，这些基于影响函数的估计器没有准备好应用，除非进行强参数假设。在这项工作中，我们利用核平滑方法提出了一种适用于连续治疗环境的估计器，受到Tchetgen Tchetgen的影响函数估计器的启发。
+    摘要：arXiv:2608.21274v1 公告类型：交叉 摘要：我们针对Netflix推荐系统进行了一项涉及850万用户的实验，以衡量推荐技术的改进如何影响被消费的产品集合。改进提高了总消费量和用户对推荐的依赖，同时使推荐和消费从最受欢迎的标题（“超级明星”）扩散到数量更多的中等热门标题（“中尾”），对最冷门的标题（“长尾”）影响甚微。我们的结果挑战了推荐系统会使消费极化——即提高头部和尾部消费份额而牺牲中间部分——的观点，并表明随着算法改进和平台规模化，投资于中尾产品的回报会增长。
 
-    In many applications, researchers are interested in the direct and indirect causal effects of a treatment or exposure on an outcome of interest. Mediation analysis offers a rigorous framework for identifying and estimating these causal effects. For binary treatments, efficient estimators for the direct and indirect effects are presented in Tchetgen Tchetgen and Shpitser (2012) based on the influence function of the parameter of interest. These estimators possess desirable properties, such as multiple-robustness and asymptotic normality, while allowing for slower than root-n rates of convergence for the nuisance parameters. However, in settings involving continuous treatments, these influence function-based estimators are not readily applicable without making strong parametric assumptions. In this work, utilizing a kernel-smoothing approach, we propose an estimator suitable for settings with continuous treatments inspired by the influence function-based estimator of Tchetgen Tchetgen an
+    arXiv:2608.21274v1 Announce Type: cross  Abstract: We study an experiment with 8.5 million users on Netflix's recommender system to measure how improvements in recommendation technology affect the set of products that get consumed. Improvements increase total consumption and users' reliance on recommendations while diffusing recommendations and consumption away from the most popular titles (``superstars") toward a larger number of moderately popular titles (``middle-tail"), with minimal effects on the most niche titles (``long-tail"). Our results challenge the notion that recommender systems polarize consumption -- raising the consumption shares of the head and tail at the expense of the middle -- and suggest that the returns to investing in middle-tail products grow as algorithms improve and platforms scale.
+    
+[^17]: 自欺欺人：叙事如何塑造信念
+
+    Fooling Yourself: how narratives shape beliefs
+
+    [https://arxiv.org/abs/2607.04753](https://arxiv.org/abs/2607.04753)
+
+    本研究通过实验发现，叙事中嵌入的无信息细节会导致人们将信念向均等概率调整，从而削弱诊断性证据对信念更新的影响。
+
+    
+
+    arXiv:2607.04753v2 公告类型：替换 摘要：决策者通常通过叙事接收信息，这些叙事将诊断性证据（偏向某一状态而非另一状态）与非诊断性细节（不提供关于真实状态的信息）结合在一起。我们研究嵌入在叙事中的此类无信息细节是否会影响信念更新。在一项实验室实验中，参与者在贝叶斯更新任务中报告受激励的信念。我们实施了三种具有相同统计结构的实验条件：一个带有诊断性彩色球和非诊断性白球的瓮问题；一个调查叙事，其中这些信号表现为有罪线索和无罪线索；以及同一叙事中无罪线索被无信息消息替代的情况。尽管非诊断性信号应使信念保持不变，但参与者将信念修正为均等概率，削弱了诊断性证据的影响。这种反应出现在瓮条件下，即...
+
+    arXiv:2607.04753v2 Announce Type: replace  Abstract: Decision-makers often receive information through narratives combining diagnostic evidence, which favors one state over another, with nondiagnostic details, which provide no information about the true state. We study whether such uninformative details embedded in a narrative affect belief updating. In a laboratory experiment, participants report incentivized beliefs in a Bayesian updating task. We implement three experimental conditions with the same statistical structure: an urn problem with diagnostic colored balls and nondiagnostic white balls; an investigation narrative in which these signals appear as incriminating and non-incriminating clues; and the same narrative with non-incriminating clues replaced by no-information messages. Although nondiagnostic signals should leave beliefs unchanged, participants revise beliefs toward equal odds, attenuating the impact of diagnostic evidence. This response occurs in the urn condition, i
+    
+[^18]: 具有结构保证的离散选择模型中嵌入基础模型预测
+
+    Embedding Foundation Model Predictions in Discrete-Choice Models with Structural Guarantees
+
+    [https://arxiv.org/abs/2606.26432](https://arxiv.org/abs/2606.26432)
+
+    本文提出一种两阶段适配器方法，通过将基础模型预测嵌入多项Logit模型，在保留结构保证的同时修正经济逻辑冲突，使时间价值等指标成为数学保证。
+
+    
+
+    arXiv:2606.26432v1 公告类型：新 摘要：表格基础模型在选择预测任务上表现出较高的准确性，但其预测结果常常违背这些任务所需的经济逻辑：提高价格可能导致预测需求增加，隐含的支付意愿估计值经常为负或不合理，且不可用的替代方案获得非零概率。我们提出了一种两阶段适配器，将基础模型预测的选择概率作为预计算特征，并嵌入到多项Logit的效用函数中。在第一阶段，我们通过带符号约束的最大似然估计拟合多项Logit的结构系数；在第二阶段，我们冻结这些系数，并拟合一个基于基础模型预测的小型神经网络修正项。我们证明这种组合精确保留了多项Logit的边际替代率，因此可分析计算的时间价值成为数学保证而非经验准确性。
+
+    arXiv:2606.26432v1 Announce Type: new  Abstract: Tabular foundation models achieve strong accuracy on choice prediction tasks, but their predictions often violate the economic logic those tasks require: raising a price can increase predicted demand, implied willingness-to-pay estimates are frequently negative or implausible, and unavailable alternatives receive nonzero probability. We propose a two-stage adapter that takes a foundation model's predicted choice probabilities as a precomputed feature and embeds them inside a multinomial logit's utility. In Stage 1, we fit the multinomial logit's structural coefficients by maximum likelihood with sign constraints; in Stage 2, we freeze those coefficients and fit a small neural correction operating on the foundation model's predictions. We prove that this composition exactly preserves the multinomial logit's marginal rate of substitution, so analytically computable value-of-time becomes a mathematical guarantee rather than an empirical acc
+    
+[^19]: 次模与次可加估值下EFX的反例
+
+    Counterexamples to EFX for Submodular and Subadditive Valuations
+
+    [https://arxiv.org/abs/2605.06451](https://arxiv.org/abs/2605.06451)
+
+    本文通过对称的三智能体、八物品反例，证明即使在次模估值下也不存在EFX分配，且在次可加估值下任何α-EFX近似比率都不可能超过约0.89。
+
+    
+
+    EFX分配的存在性是公平划分中的一个基本问题。在本文中，我们构造了一个三智能体、八物品的实例，其估值是单调次可加的，使得不存在任何满足α-EFX的分配，其中α > 1/⁶√2 ≈ 0.89。我们还提供了一个密切相关的三智能体、八物品实例，其估值是次模的（实际上是加权覆盖函数），且不存在EFX分配。我们构造的一个关键特征是其对称性：各智能体的估值在物品重新标记的意义上是完全相同的。因此，即使智能体仅在物品的标记方式上存在差异，EFX也可能失效。这种对称性使得这些反例紧凑且可由人工验证，为EFX分配的存在性提供了简单的组合性障碍。
+
+    arXiv:2605.06451v2 Announce Type: replace-cross  Abstract: The existence of EFX allocations is a fundamental question in fair division. In this paper, we construct a three-agent, eight-good instance with monotone subadditive valuations such that no allocation satisfies $\alpha$-EFX for any $\alpha > \frac{1}{\sqrt[6]{2}} \approx 0.89$. We also provide a closely related three-agent, eight-good instance with submodular (in fact weighted coverage) valuations for which no EFX allocation exists.   A key feature of our construction is its symmetry: the agents' valuations are identical up to a relabeling of the goods. Thus, EFX can fail even when agents differ only in how the goods are labeled. This symmetry makes the counterexamples compact and human-verifiable, yielding simple combinatorial obstructions to the existence of EFX.
+    
+[^20]: 共同价值商品的分配
+
+    Allocating Common-Value Goods
+
+    [https://arxiv.org/abs/2512.20001](https://arxiv.org/abs/2512.20001)
+
+    本文研究了无货币转移下分配共同价值商品的最优机制设计问题，证明最优机制可由分配概率和分配引致的学习量两个参数刻画，且最优机制会排除部分代理人，即使所有代理人都愿意接受商品也可能不予分配。
+
+    
+
+    我们研究了一个分配共同价值商品的简单问题。设计者希望在无货币转移的情况下，将商品分配给尽可能多的单位需求代理人，而代理人虽拥有关于商品的部分私人信息，但只有当商品具有高价值时才愿意接受商品。机制利用其他代理人的信息来筛选每个代理人的私人信息，并在此过程中塑造代理人从其他代理人处了解到的关于商品价值的信息。最优机制可以由两个参数概括：一个调节分配概率，另一个控制分配所引致的学习量。尽管设计者倾向于分配商品，但最优机制会排除某些代理人，因此即使所有代理人都愿意接受商品，机制也可能不予分配。即使在允许支付的情况下，最优机制仍具有相同的结构，但它可能不会排除……（摘要不完整）
+
+    arXiv:2512.20001v4 Announce Type: replace  Abstract: We study a simple problem of allocating common-value goods. The designer seeks to allocate the goods to as many unit-demand agents as possible without monetary transfers, while agents, who possess partial private information about the goods, are willing to receive them only when the goods are of high value. Mechanisms screen each agent's private information using the information of other agents, and in doing so shape what agents learn from other agents about the value of the goods. The optimal mechanism can be summarized by two parameters: one adjusts the allocation probability, while the other governs the amount of learning induced by allocation. Although the designer prefers to allocate the goods, the optimal mechanism excludes some agents and, as a result, may withhold allocation even when all agents would be willing to receive them. The optimal mechanism has the same structure even when payments are available, but it may not excl
+    
+[^21]: AI行为科学：一个框架与研究议程
+
+    AI Behavioral Science: A Framework and Agenda
+
+    [https://arxiv.org/abs/2509.13323](https://arxiv.org/abs/2509.13323)
+
+    本文提出了“AI行为科学”这一新框架：一方面将社会科学中评估人类行为的工具用于建模和评估AI的偏差与倾向，另一方面探讨AI如何变革人类行为研究方法，并呼吁深入分析与建模日益复杂的人机交互系统。
+
+    
+
+    我们讨论了快速兴起的“AI行为科学”领域中所存在的挑战与机遇。我们通过三个子领域对其加以框架化阐述。首先，随着人工智能变得无处不在、日益专有化且不透明，开发人工智能模型以及评估人工智能行为的方法变得至关重要。我们概述了如何将社会科学家为评估人类行为而开发的工具用于建模、评估和推断人工智能的行为偏差、倾向与启发式策略。其次，我们还讨论了人工智能如何改变我们认识人类行为的方式。除了其计算能力之外，人工智能为模拟、推断、预测和分析人类行为提供了新的技术。第三，随着人类与人工智能在日益复杂且相互交织的系统中进行互动，我们需要分析和建模人机交互，包括人类和人工智能的行为如何在个体层面依赖于交互、相互作用的系统如何……
+
+    arXiv:2509.13323v3 Announce Type: replace-cross  Abstract: We discuss the challenges and opportunities present in the rapidly emerging area of ``AI Behavioral Science.'' We frame it via three subfields. First, as AI becomes ubiquitous and is increasingly proprietary and opaque, it becomes vital to develop models of AI and methods for assessing AI behavior. We outline how tools developed to assess people's behaviors by social scientists can be used to model, assess and infer AI's behaviors biases, tendencies, and heuristics. Second, we also discuss how AI can change the ways in which we learn about human behavior. Beyond its computational power, AI offers new techniques for simulating, inferring, predicting, and analyzing human behaviors. Third, as humans and AI are interacting in increasingly complex and intertwined systems, we need to analyze and model human-AI interactions including how human and AI behaviors depend on interactions at the individual level, how interacting systems of 
+    
+[^22]: 影响函数：一个统一的基于微分的框架
+
+    Influence Functions: A Unified Differentiation-Based Framework
+
+    [https://arxiv.org/abs/2501.15307](https://arxiv.org/abs/2501.15307)
+
+    该论文提出了一个统一的基于微分的框架，将参数、非参数和半参数模型中影响函数的推导统一起来，证明影响函数是矩函数的线性变换，并能自动生成局部稳健的矩函数。
+
+    
+
+    本文提出了一个直接基于微分的框架，统一了参数模型、非参数模型和半参数模型中影响函数的推导。我们证明了泛函导数的Riesz表示子可以通过将识别函数正交投影到均值为零的函数子空间上获得，因此影响函数是矩函数的线性变换。该方法可以无缝扩展到无限维参数，并揭示了有限维与无限维情形下共同的代数形式。它证明了非参数估计较慢的收敛速度源于对不可行的狄拉克δ函数的逼近。同一框架还进一步适用于半参数多步骤代入估计，其中它能自动生成局部稳健的矩函数。关键的是，通过采用分布导数，该方法能够处理非光滑矩（函数）……
+
+    arXiv:2501.15307v3 Announce Type: replace  Abstract: This paper introduces a direct differentiation-based framework that unifies the derivation of influence functions across parametric, nonparametric, and semiparametric models. We show that the Riesz representer of the functional derivative is obtained by orthogonally projecting the identification function onto the subspace of mean-zero functions, so the influence function is a linear transformation of the moment function. This approach extends seamlessly to infinite-dimensional parameters and reveals a common algebraic form across both finite- and infinite-dimensional cases. It demonstrates that the slower nonparametric convergence rate arises from approximating the infeasible Dirac delta function. The same framework further applies to semiparametric multi-step plug-in estimation, where it automatically yields locally robust moment functions. Crucially, by employing distributional derivatives, the method accommodates non-smooth moment
+    
+[^23]: 基于重复误测高维控制变量的处理效应推断
+
+    Inference on Treatment Effects with Repeatedly Mismeasured High-Dimensional Controls
+
+    [https://arxiv.org/abs/2408.14671](https://arxiv.org/abs/2408.14671)
+
+    提出协方差重新校准的双重机器学习方法（CORE），利用重复测量的单元内差异识别测量误差协方差并校正由此引起的矩条件偏移，从而在高维控制变量存在误测的情况下实现处理效应的有效推断。
+
+    
+
+    我们研究部分线性模型中处理效应的推断问题，该模型中的高维控制变量仅通过重复的含噪测量被观测。用测量值的平均值替代控制变量会使双重机器学习（DML）矩条件产生一个由干扰参数系数与测量误差协方差构成的双线性形式偏移，这种偏差无法通过改进第一阶段学习器来消除。测量值在单元内部的差异可以识别该协方差（其不必为对角矩阵），而无需重构潜在的控制变量。协方差重新校准的双重机器学习方法（CORE）从交叉拟合的得分中减去估计的偏移量，并且由于所得结果与协方差不正交，该方法在其标准误中考虑了协方差估计的不确定性。在近似稀疏性和第一阶段收敛速率条件下（我们针对校正Lasso学习器验证了这些条件），该估计量具有一致渐近线性性质，其置信区间是一致有效的。
+
+    arXiv:2408.14671v2 Announce Type: replace  Abstract: We study inference on a treatment effect in a partially linear model whose high-dimensional controls are observed only through repeated noisy measurements. Replacing the controls by the average of their measurements shifts the double machine learning (DML) moment by a bilinear form in the nuisance coefficients and the measurement-error covariance, a bias that better first stages cannot remove. Within-unit differences among the measurements identify this covariance, which need not be diagonal, without reconstructing the latent controls. Covariance-Recalibrated DML (\CORE{}) subtracts the estimated shift from a cross-fitted score and, because the result is not orthogonal to the covariance, accounts for covariance estimation in its standard error. Under approximate sparsity and first-stage rate conditions, which we verify for a corrected-Lasso learner, the estimator is uniformly asymptotically linear and its confidence intervals are uni
+    
+[^24]: 即期相关过程日内变化的一种非参数检验
+
+    A nonparametric test for diurnal variation in spot correlation processes
+
+    [https://arxiv.org/abs/2408.02757](https://arxiv.org/abs/2408.02757)
+
+    本文提出了一种非参数检验方法来检测高频数据估计的即期相关过程中的日内变化，该检验统计量在原假设下具有已知分布，并实证发现股票市场上午的相关性显著低于下午。
+
+    
+
+    以基于高频数据估计的即期相关性来度量的交易所上市股票对数价格增量之间的关联性，在日内尺度上呈现出明显的向上倾斜且近似分段线性的关系。值得注意的是，平均而言上午的相关性（正相关性较弱）明显低于下午。我们开发了一种非参数检验方法来检测相关过程中的这种变化。该检验统计量在原假设下具有已知的分布，而在备择假设下则会发散。我们通过蒙特卡洛模拟来考察该检验统计量的有限样本性质，结果表明即使在样本量较小且日内变化程度符合实际情况的情况下，其有限样本性质也与大样本预测非常接近。在实证应用中，我们将该检验应用于覆盖较长时间跨度的股票市场高频数据集，该检验在大多数情况下拒绝了原假设。
+
+    arXiv:2408.02757v3 Announce Type: replace  Abstract: The association between log-price increments of exchange-traded equities, as measured by their spot correlation estimated from high-frequency data, exhibits a pronounced upward-sloping and almost piecewise linear relationship at the intraday horizon. There is notably lower-on average less positive-correlation in the morning than in the afternoon. We develop a nonparametric testing procedure to detect such variation in a correlation process. The test statistic has a known distribution under the null hypothesis, whereas it diverges under the alternative. We run a Monte Carlo simulation to discover the finite sample properties of the test statistic, which are close to the large sample predictions, even for small sample sizes and realistic levels of diurnal variation. In an application, we implement the test on a high-frequency dataset covering the stock market over an extended period. The test leads to rejection of the null most of the 
+    
+[^25]: 人工智能与人类互动以及社会陷阱
+
+    Human-AI Interactions and Societal Pitfalls. (arXiv:2309.10448v1 [cs.AI])
+
+    [http://arxiv.org/abs/2309.10448](http://arxiv.org/abs/2309.10448)
+
+    本研究研究了人工智能与人类互动中面临的同质化和偏见问题，提出了改善人工智能与人类互动的解决办法，实现个性化输出而不牺牲生产力。
+
+    
+
+    当与生成式人工智能（AI）合作时，用户可能会看到生产力的提升，但AI生成的内容可能不完全符合他们的偏好。为了研究这种影响，我们引入了一个贝叶斯框架，其中异质用户选择与AI共享多少信息，面临输出保真度和通信成本之间的权衡。我们展示了这些个体决策与AI训练之间的相互作用可能导致社会挑战。输出可能变得更加同质化，特别是当AI在AI生成的内容上进行训练时。而任何AI的偏见可能成为社会偏见。解决同质化和偏见问题的办法是改进人工智能与人类的互动，实现个性化输出而不牺牲生产力。
+
+    When working with generative artificial intelligence (AI), users may see productivity gains, but the AI-generated content may not match their preferences exactly. To study this effect, we introduce a Bayesian framework in which heterogeneous users choose how much information to share with the AI, facing a trade-off between output fidelity and communication cost. We show that the interplay between these individual-level decisions and AI training may lead to societal challenges. Outputs may become more homogenized, especially when the AI is trained on AI-generated content. And any AI bias may become societal bias. A solution to the homogenization and bias issues is to improve human-AI interactions, enabling personalized outputs without sacrificing productivity.
+    
+[^26]: 高维正典相关分析
+
+    High-Dimensional Canonical Correlation Analysis. (arXiv:2306.16393v1 [econ.EM])
+
+    [http://arxiv.org/abs/2306.16393](http://arxiv.org/abs/2306.16393)
+
+    本文研究了高维正典相关分析（CCA），发现当数据的两个维度无限增长时，传统的CCA估计过程无法提供一致的估计。我们首次证明了在所有维度都很大时无法识别正典变量的CCA过程的不可能性。并提供了估计误差的量级，可用于评估CCA估计的精确性。
+
+    
+
+    本文研究了高维正典相关分析（CCA），重点关注了定义正典变量的向量。研究表明，当数据的两个维度共同且成比例地增长到无穷时，传统的CCA估计过程无法提供一致的估计。这是首次研究在所有维度都很大时无法识别正典变量的CCA过程的不可能性。为了弥补这个问题，本文推导出了估计误差的大小，可以在实践中用于评估CCA估计的精确度。还提供了将结果应用于石灰草地数据集的示例。
+
+    This paper studies high-dimensional canonical correlation analysis (CCA) with an emphasis on vectors which define canonical variables. The paper shows that when two dimensions of data grow to infinity jointly and proportionally the classical CCA procedure for estimating those vectors fails to deliver a consistent estimate. This provides the first result on impossibility of the identification of canonical variables in CCA procedure when all dimensions are large. To offset, the paper derives the magnitude of the estimation error, which can be used in practice to assess the precision of CCA estimates. An application of the results to limestone grassland data set is provided.
     
 

@@ -1,0 +1,12 @@
+{
+    "title": "Monitoring Machine Learning Systems in Production: A Multivocal Literature Review",
+    "abstract": "arXiv:2611.23293v1 Announce Type: new  Abstract: Monitoring is essential for maintaining reliable machine learning (ML) systems after deployment. However, knowledge about its practical implementation and effectiveness remains fragmented across academic and gray literature. We present a multivocal literature review of 94 sources (37 academic and 57 gray) covering both traditional ML and generative AI systems. We develop taxonomies covering monitored objects and properties, techniques, input signals, tools, automation, frequency, evaluation, and challenges. Our findings reveal an imbalanced monitoring process. Existing approaches provide broad and largely automated support for observing system behavior, detecting problems, and communicating findings, while monitor configuration, investigation, and response retain substantial human involvement. Monitoring is concentrated on inference, with no source covering the entire production ML system, limiting end-to-end diagnosis. Evidence of effec",
+    "link": "https://arxiv.org/abs/2611.23293",
+    "context": "Title: Monitoring Machine Learning Systems in Production: A Multivocal Literature Review\nAbstract: arXiv:2611.23293v1 Announce Type: new  Abstract: Monitoring is essential for maintaining reliable machine learning (ML) systems after deployment. However, knowledge about its practical implementation and effectiveness remains fragmented across academic and gray literature. We present a multivocal literature review of 94 sources (37 academic and 57 gray) covering both traditional ML and generative AI systems. We develop taxonomies covering monitored objects and properties, techniques, input signals, tools, automation, frequency, evaluation, and challenges. Our findings reveal an imbalanced monitoring process. Existing approaches provide broad and largely automated support for observing system behavior, detecting problems, and communicating findings, while monitor configuration, investigation, and response retain substantial human involvement. Monitoring is concentrated on inference, with no source covering the entire production ML system, limiting end-to-end diagnosis. Evidence of effec",
+    "path": "papers/26/11/2611.23293.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

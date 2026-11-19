@@ -1,0 +1,12 @@
+{
+    "title": "Meta-Learning Preferences for Multilingual LLM Alignment",
+    "abstract": "arXiv:2607.13315v3 Announce Type: replace  Abstract: Unequal availability of human preference data across languages poses a significant challenge for aligning large language models in multilingual settings. To address the lack of sufficient data in low-resource language alignment, we propose a meta-learning framework for Reinforcement Learning from Human Feedback and Direct Preference Optimization. By leveraging preference data from other languages, our framework learns a transferable initialization that enables effective adaptation to a target language with minimal data. We provide theoretical guarantees for both the meta-reward modeling and meta-policy optimization settings, and empirically demonstrate the effectiveness of our approach on multilingual benchmarks. In an extremely low-resource setting with only 100 target-language preference samples, our approach achieves up to $33.4\\%$ win-rate improvements over baseline methods, and consistently outperforms baselines across multiple ",
+    "link": "https://arxiv.org/abs/2607.13315",
+    "context": "Title: Meta-Learning Preferences for Multilingual LLM Alignment\nAbstract: arXiv:2607.13315v3 Announce Type: replace  Abstract: Unequal availability of human preference data across languages poses a significant challenge for aligning large language models in multilingual settings. To address the lack of sufficient data in low-resource language alignment, we propose a meta-learning framework for Reinforcement Learning from Human Feedback and Direct Preference Optimization. By leveraging preference data from other languages, our framework learns a transferable initialization that enables effective adaptation to a target language with minimal data. We provide theoretical guarantees for both the meta-reward modeling and meta-policy optimization settings, and empirically demonstrate the effectiveness of our approach on multilingual benchmarks. In an extremely low-resource setting with only 100 target-language preference samples, our approach achieves up to $33.4\\%$ win-rate improvements over baseline methods, and consistently outperforms baselines across multiple ",
+    "path": "papers/26/07/2607.13315.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

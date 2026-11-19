@@ -1,0 +1,12 @@
+{
+    "title": "Supervised Hebbian Class Networks: Learning Without Backpropagation",
+    "abstract": "arXiv:2611.24314v1 Announce Type: new  Abstract: This paper introduces Supervised Hebbian Class Networks as a method for training multi- layer perceptrons and convolutional networks without gradient calculations or backpropa- gation. Each neuron in a learned layer is assigned a class, while connections follow the usual fully connected or convolutional pattern. The method combines a class-based supervision rule shared across layers with a Lion optimizer adapted to Hebbian activity products. All layers train together throughout the run, and their activities provide class predictions di- rectly, without a separately trained classifier. The experiments test the method on MNIST with a multilayer perceptron and on CIFAR-10 with a convolutional networ",
+    "link": "https://arxiv.org/abs/2611.24314",
+    "context": "Title: Supervised Hebbian Class Networks: Learning Without Backpropagation\nAbstract: arXiv:2611.24314v1 Announce Type: new  Abstract: This paper introduces Supervised Hebbian Class Networks as a method for training multi- layer perceptrons and convolutional networks without gradient calculations or backpropa- gation. Each neuron in a learned layer is assigned a class, while connections follow the usual fully connected or convolutional pattern. The method combines a class-based supervision rule shared across layers with a Lion optimizer adapted to Hebbian activity products. All layers train together throughout the run, and their activities provide class predictions di- rectly, without a separately trained classifier. The experiments test the method on MNIST with a multilayer perceptron and on CIFAR-10 with a convolutional networ",
+    "path": "papers/26/11/2611.24314.json",
+    "total_tokens": 993,
+    "translated_title": "监督式赫布类网络：无需反向传播的学习",
+    "translated_abstract": "本文提出了监督式赫布类网络，这是一种无需梯度计算或反向传播即可训练多层感知机和卷积网络的方法。学习层中的每个神经元都被分配一个类别，而连接则遵循通常的全连接或卷积模式。该方法将跨层共享的基于类别的监督规则与适配赫布活动乘积的Lion优化器相结合。所有层在整个训练过程中共同训练，其活动直接提供类别预测，无需单独训练的分类器。实验在MNIST数据集上使用多层感知机以及在CIFAR-10数据集上使用卷积网络对该方法进行了测试。",
+    "tldr": "本文提出监督式赫布类网络，通过为神经元分配类别、采用跨层共享的基于类别的监督规则并结合适配的Lion优化器，实现了无需反向传播和梯度计算的多层感知机与卷积网络训练。",
+    "en_tdlr": "This paper introduces Supervised Hebbian Class Networks, which enable training MLPs and convolutional networks without backpropagation or gradient calculations by assigning classes to neurons, using a class-based supervision rule shared across layers, and combining it with an adapted Lion optimizer."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "The Largest Tractable Subclass of Multi-Scale Allen Temporal Reasoning",
+    "abstract": "arXiv:2611.24498v1 Announce Type: new  Abstract: In this paper, we propose a novel model for temporal reasoning over multi-scale intervals. We show that this model yields a complete reasoning framework and exhibits other particularly interesting properties. Furthermore, we identify the maximal tractable subalgebra for this model, as well as for the other complete model, in the qualitative scales context, which exhibits weaker properties but whose results can be derived by transfer from our new model.",
+    "link": "https://arxiv.org/abs/2611.24498",
+    "context": "Title: The Largest Tractable Subclass of Multi-Scale Allen Temporal Reasoning\nAbstract: arXiv:2611.24498v1 Announce Type: new  Abstract: In this paper, we propose a novel model for temporal reasoning over multi-scale intervals. We show that this model yields a complete reasoning framework and exhibits other particularly interesting properties. Furthermore, we identify the maximal tractable subalgebra for this model, as well as for the other complete model, in the qualitative scales context, which exhibits weaker properties but whose results can be derived by transfer from our new model.",
+    "path": "papers/26/11/2611.24498.json",
+    "total_tokens": 737,
+    "translated_title": "多尺度Allen时间推理的最大可解子类",
+    "translated_abstract": "在本文中，我们提出了一个用于多尺度区间时间推理的新模型。我们证明该模型产生了一个完整的推理框架，并展现出其他特别有趣的性质。此外，我们在定性尺度的背景下，识别出了该模型以及另一个完整模型的最大可解子代数；后者虽然性质较弱，但其结果可以通过从我们的新模型转移推导得出。",
+    "tldr": "本文提出了一种新的多尺度区间时间推理模型，证明其构成完整的推理框架，并识别出该模型及另一个完整模型在定性尺度背景下的最大可解子代数。",
+    "en_tdlr": "This paper proposes a novel model for multi-scale interval temporal reasoning, proves it yields a complete reasoning framework, and identifies the maximal tractable subalgebra for this model and another complete model in the qualitative scales context."
+}
