@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.22257",
     "context": "Title: The Online LSTM Prediction Models and The Term Structure of Predictions\nAbstract: arXiv:2611.22257v1 Announce Type: new  Abstract: We examine and illustrate the properties of the Long Short Term Memory (LSTM) prediction models applied online to stationary inputs. We discuss the effects of: a) the network architecture that defines the admissible prediction functions, b) the objective function used to measure the prediction accuracy, and c) the Stochastic Gradient Descent (SGD) algorithm. We also study the prediction optimality, the term structure of predictions, the filtered memory dynamics. We also introduce a set of diagnostic tools for memory-based prediction models that focus on the estimated dynamics of the hidden states.",
     "path": "papers/26/11/2611.22257.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 788,
+    "translated_title": "在线LSTM预测模型与预测的期限结构",
+    "translated_abstract": "我们检验并阐述了应用于平稳输入的在线长短期记忆网络（LSTM）预测模型的特性。我们讨论了以下因素的影响：a) 定义可容许预测函数的网络架构，b) 用于衡量预测精度的目标函数，以及 c) 随机梯度下降（SGD）算法。我们还研究了预测最优性、预测的期限结构以及滤波记忆动态。此外，我们引入了一套针对基于记忆的预测模型的诊断工具，该工具集聚焦于隐藏状态的估计动态。",
+    "tldr": "该论文系统研究了应用于平稳输入的在线LSTM预测模型，分析了网络架构、目标函数和SGD算法对其的影响，并提出了一套基于隐藏状态动态的预测模型诊断工具。",
+    "en_tdlr": "This paper systematically examines online LSTM prediction models applied to stationary inputs, analyzing the effects of network architecture, objective functions, and SGD algorithms, and introduces a set of diagnostic tools for memory-based prediction models focused on hidden state dynamics."
 }
