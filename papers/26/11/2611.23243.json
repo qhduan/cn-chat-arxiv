@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.23243",
     "context": "Title: Agent-Native Applications: A New Application Paradigm\nAbstract: arXiv:2611.23243v1 Announce Type: new  Abstract: Traditional application architectures assume behavioral logic authored in advance, leaving reachable behavior largely bounded by explicit code and workflow rules. Large language model (LLM)-based agents challenge this assumption by enabling runtime reasoning and autonomous action to become part of application behavior, allowing applications to address situations not enumerated at design time. Extending this pattern, this paper identifies a new application paradigm in which LLM-based agents serve as central reasoning and action components responsible for the application's core logic and, where permitted, for adapting the application graph itself at runtime. We call these agent-native applications. While such applications significantly expand their possible behavioral space beyond explicit code and workflow rules, they also face a major control problem in which useful agentic reasoning should be preserved while application behavior should ",
     "path": "papers/26/11/2611.23243.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1276,
+    "translated_title": "智能体原生应用：一种新的应用范式",
+    "translated_abstract": "传统应用架构假设行为逻辑是预先编写好的，使得可达行为在很大程度上受限于显式代码和工作流规则。基于大语言模型（LLM）的智能体挑战了这一假设，它使运行时推理和自主行动成为应用行为的一部分，从而让应用能够应对设计阶段未被枚举到的情况。进一步扩展这一模式，本文提出了一种新的应用范式，其中基于LLM的智能体作为核心的推理与行动组件，负责应用的核心逻辑，并在允许的情况下于运行时对应用图本身进行自适应调整。我们将这类应用称为智能体原生应用。虽然这类应用显著扩展了超越显式代码和工作流规则的可能行为空间，但它们也面临一个重大的控制问题：既要保留有用的智能体推理能力，又需要对应用行为加以约束。",
+    "tldr": "本文提出了“智能体原生应用”这一新的应用范式，让基于LLM的智能体作为应用核心逻辑的推理与行动组件并可在运行时自适应调整应用结构，同时指出这类应用需在保留智能体推理能力与约束应用行为之间解决重大控制问题。",
+    "en_tdlr": "This paper introduces \"agent-native applications,\" a new application paradigm in which LLM-based agents act as central reasoning and action components responsible for core application logic and can adapt the application graph at runtime, while highlighting the major control problem of preserving useful agentic reasoning while constraining application behavior."
 }

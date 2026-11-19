@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.24058",
     "context": "Title: MIRAGE: A Framework for Multi-hop Reasoning under Dynamic Knowledge Injection\nAbstract: arXiv:2611.24058v1 Announce Type: new  Abstract: Multi-hop Question Answering (MQA) requires large language models (LLMs) to retrieve and synthesize multiple pieces of evidence into a coherent reasoning path, which is essential for complex tasks. However, prior work on knowledge updating for MQA has largely focused on simple fact edits, overlooking a more challenging and realistic setting---\\emph{Knowledge Injection}---in which the model must simultaneously accommodate both conflicting updates and entirely novel information. Under this setting, a hop-level answer is often wrong simply because the model trusts the wrong knowledge source: it clings to outdated parametric memory when the injected knowledge conflicts with it (K2), and it cannot answer when the required fact is entirely new (K3).   To investigate this, we introduce NEXUS, the first benchmark tailored for multi-hop reasoning under Knowledge Injection, which explicitly covers both conflicting (K2) and incremental (K3) knowled",
     "path": "papers/26/11/2611.24058.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1457,
+    "translated_title": "MIRAGE：动态知识注入下的多跳推理框架",
+    "translated_abstract": "多跳问答（MQA）要求大型语言模型（LLM）检索并综合多条证据，形成连贯的推理路径，这对复杂任务至关重要。然而，以往针对多跳问答的知识更新研究大多只关注简单的事实编辑，忽视了一个更具挑战性且更贴近现实的场景——知识注入——在该场景下，模型必须同时应对相互冲突的更新以及全新的信息。在这一设定下，某一跳的答案出错往往仅仅是因为模型信任了错误的知识来源：当注入的知识与模型参数记忆相冲突时，模型固守过时的参数记忆（K2）；而当所需事实是完全崭新的信息时，模型则无法作答（K3）。为了研究这一问题，我们提出了NEXUS——首个专门面向知识注入场景下多跳推理的基准，明确涵盖了冲突型（K2）和增量型（K3）知识……（摘要在此处被截断）",
+    "tldr": "该论文提出了首个针对知识注入场景（同时涵盖冲突型K2与增量型K3知识）的多跳推理基准NEXUS，并构建MIRAGE框架，以解决模型因依赖错误知识来源（固守过时参数记忆、无法应对全新信息）而导致多跳推理出错的问题。",
+    "en_tdlr": "The paper introduces NEXUS, the first benchmark for multi-hop reasoning under knowledge injection (covering both conflicting K2 and incremental K3 knowledge), along with the MIRAGE framework that tackles errors caused by models trusting the wrong knowledge sources, such as clinging to outdated parametric memory or failing on entirely novel facts."
 }

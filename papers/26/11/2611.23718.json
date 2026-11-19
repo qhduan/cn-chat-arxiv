@@ -4,9 +4,8 @@
     "link": "https://arxiv.org/abs/2611.23718",
     "context": "Title: HypoLoop: Revising Weight-Editing Plans from Scientific Feedback\nAbstract: arXiv:2611.23718v1 Announce Type: new  Abstract: Scientific experiments continually reveal prediction errors. Effective updates depend on which parameters change and which errors drive the correction. We introduce HypoLoop, a family of native weight-editing methods that connects these choices to experimental feedback. Fixed, numerically adaptive, and LLM-guided policies produce editing plans; numerical solvers compute weight patches, and internal validation selects the deployed predictor. Successive observations and validation records support revisions to editable locations and fitting rules. Experiments cover 22 scientific tasks and both DeepSeek and Claude. On Burgers, reallocating a matched parameter budget reduces error by 58.80% and 47.72% relative to fixed locations. On DIODE, positive-residual weighting reduces absolute relative error (AbsRel) by 13.35% in internal cross-validation, with the same 33 editable coordinates. Revising the complete plan across rounds lowers final AbsR",
     "path": "papers/26/11/2611.23718.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1217,
+    "translated_title": "HypoLoop：基于科学反馈修正权重编辑方案",
+    "translated_abstract": "科学实验不断揭示预测误差。有效的更新取决于哪些参数发生变化，以及哪些误差驱动了修正。我们提出了HypoLoop，这是一系列原生权重编辑方法，将这些选择与实验反馈联系起来。固定策略、数值自适应策略和LLM引导策略生成编辑方案；数值求解器计算权重补丁，内部验证则选择最终部署的预测器。连续的观测结果和验证记录支持对可编辑位置和拟合规则的修正。实验涵盖22个科学任务，并同时使用了DeepSeek和Claude。在Burgers任务上，在相同的参数预算下重新分配可编辑位置，相较于固定位置可将误差降低58.80%和47.72%。在DIODE任务上，正残差加权在内部交叉验证中将绝对相对误差（AbsRel）降低了13.35%，且可编辑坐标保持同样的33个。跨轮次修正完整方案可降低最终AbsRel。",
+    "tldr": "该论文提出HypoLoop，一种将实验反馈与权重编辑决策相关联的原生权重编辑方法族，通过跨轮次迭代修正可编辑参数位置和拟合规则，在22个科学任务上显著降低了预测误差。"
 }

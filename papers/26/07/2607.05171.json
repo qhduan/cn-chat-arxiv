@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2607.05171",
     "context": "Title: RABBiT: Rapidly adaptive BOLD foundation model via brain-tuning for accurate zero-shot and few-shot prediction of speech-elicited responses in the brain\nAbstract: arXiv:2607.05171v2 Announce Type: replace  Abstract: Language understanding in the brain is context-dependent, varying across experimental stimuli and individuals, which makes it difficult to build computational models that generalize across both. This calls for a foundation model of language-evoked brain activity that can capture shared structure while adapting efficiently to new participants and inputs. We introduce RABBiT (Rapidly Adaptive BOLD foundation model via BraIn-Tuning), a compact audio-to-fMRI encoder designed for accurate zero- and few-shot prediction. A comprehensive evaluation on 324 participants across multiple unseen fMRI datasets shows that RABBiT enables accurate zero-shot prediction of fMRI responses to natural speech across auditory and language-selective regions, surpassing the SOTA foundation model for fMRI and predictions based on group averages. With as little as 10 minutes of participant-specific data, RABBiT further improves performance via parameter-efficie",
     "path": "papers/26/07/2607.05171.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1225,
+    "translated_title": "RABBiT：通过脑调优实现快速自适应的BOLD基础模型，用于准确零样本和少样本预测大脑中的语音诱发响应",
+    "translated_abstract": "arXiv:2607.05171v2 公告类型：替换 摘要：大脑中的语言理解依赖于上下文，会因实验刺激和个体不同而变化，这使得构建能够同时在这两者之间泛化的计算模型变得困难。因此，需要一个能够捕捉共享结构、同时高效适应新参与者和新输入的语言诱发大脑活动基础模型。我们提出了RABBiT（Rapidly Adaptive BOLD foundation model via BraIn-Tuning，通过脑调优的快速自适应BOLD基础模型），这是一个紧凑的音频到fMRI编码器，专为准确的零样本和少样本预测而设计。在涵盖324名参与者、跨多个未见过的fMRI数据集的全面评估中，RABBiT能够在听觉和语言选择性脑区准确进行自然语音fMRI响应的零样本预测，超越了当前最先进（SOTA）的fMRI基础模型以及基于群体平均值的预测。仅需10分钟的参与者特定数据，RABBiT还能通过参数高效的方法进一步提升性能。",
+    "tldr": "RABBiT是一个通过“脑调优”实现的紧凑型音频到fMRI基础模型，能够在零样本和少样本设置下准确预测大脑对自然语音的fMRI响应，仅需10分钟个体数据即可高效适应新参与者，性能超越现有SOTA fMRI基础模型。",
+    "en_tdlr": "RABBiT is a compact audio-to-fMRI foundation model built via \"brain-tuning\" that accurately predicts brain fMRI responses to natural speech in zero-shot and few-shot settings, efficiently adapting to new participants with just 10 minutes of individual data and surpassing existing SOTA fMRI foundation models."
 }

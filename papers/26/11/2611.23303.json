@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.23303",
     "context": "Title: Optimal Development Path: An Empirical Evaluation of Tiered Dependency-Aware Sequencing\nAbstract: arXiv:2611.23303v1 Announce Type: new  Abstract: The Optimal Development Path (ODP) in D-POAF orders Feature Blocks in a Wave Candidate by choosing the eligible block with the lowest effort-and-risk-to-value ratio (ERS/BVS), while respecting declared prerequisites. We evaluate native ODP (L0) against four dependency-aware strategies: unlock count (L1), unlocked value (L2), multi-hop potential (L3), and one-step rollout (L4), alongside local search, Sidney decomposition, and an exact reference. On held-out synthetic graphs with about one prerequisite per block, L0 attains 0.978 of the surrogate optimum at 12 blocks, versus 0.993 for L2 and 0.994 for L4. At 100 blocks, L0 attains 0.942 and L2 0.983. In contrast, 373 historical Jira sprints from 21 open-source projects in TAWOS, used as scheduling proxies rather than D-POAF Waves, contain sparse recorded dependencies. On these instances, L0 attains 0.998 of the surrogate optimum and is exactly optimal in 69% of sprints. Unlock bonuses cal",
     "path": "papers/26/11/2611.23303.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1703,
+    "translated_title": "最优开发路径：分层依赖感知排序的实证评估",
+    "translated_abstract": "D-POAF中的最优开发路径（ODP）通过在波次候选中选择具有最低“工作量与风险相对于价值比率”（ERS/BVS）的合格功能块来对功能块进行排序，同时遵守已声明的前置条件。我们将原生ODP（L0）与四种依赖感知策略进行比较：解锁数量（L1）、已解锁价值（L2）、多跳潜力（L3）和单步推演（L4），并同时与局部搜索、Sidney分解和精确参考算法进行对比。在每块约含一个前置条件的预留合成图上，L0在12个块时达到代理最优值的0.978，而L2为0.993，L4为0.994；在100个块时，L0达到0.942，L2为0.983。相比之下，来自TAWOS中21个开源项目的373个历史Jira冲刺（作为调度代理而非D-POAF波次使用）包含稀疏的已记录依赖关系。在这些实例上，L0达到代理最优值的0.998，并在69%的冲刺中完全最优。",
+    "tldr": "本文实证评估了D-POAF框架中的最优开发路径（ODP）排序策略，发现该简单启发式方法在依赖稀疏的真实Jira冲刺数据上几乎达到最优，但在依赖密集的大规模合成图上略逊于更复杂的依赖感知策略。",
+    "en_tdlr": "This paper empirically evaluates the Optimal Development Path (ODP) heuristic in D-POAF, showing that this simple greedy strategy achieves near-optimal performance on real Jira sprints with sparse dependencies, while slightly underperforming more sophisticated dependency-aware strategies on larger synthetic graphs with denser dependencies."
 }

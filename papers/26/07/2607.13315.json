@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2607.13315",
     "context": "Title: Meta-Learning Preferences for Multilingual LLM Alignment\nAbstract: arXiv:2607.13315v3 Announce Type: replace  Abstract: Unequal availability of human preference data across languages poses a significant challenge for aligning large language models in multilingual settings. To address the lack of sufficient data in low-resource language alignment, we propose a meta-learning framework for Reinforcement Learning from Human Feedback and Direct Preference Optimization. By leveraging preference data from other languages, our framework learns a transferable initialization that enables effective adaptation to a target language with minimal data. We provide theoretical guarantees for both the meta-reward modeling and meta-policy optimization settings, and empirically demonstrate the effectiveness of our approach on multilingual benchmarks. In an extremely low-resource setting with only 100 target-language preference samples, our approach achieves up to $33.4\\%$ win-rate improvements over baseline methods, and consistently outperforms baselines across multiple ",
     "path": "papers/26/07/2607.13315.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1091,
+    "translated_title": "面向多语言大模型对齐的元学习偏好",
+    "translated_abstract": "在多语言环境下对齐大语言模型时，不同语言间人类偏好数据可获取性的不均衡构成了重大挑战。为解决低资源语言对齐中数据不足的问题，我们提出了一种用于人类反馈强化学习（RLHF）和直接偏好优化（DPO）的元学习框架。通过利用其他语言的偏好数据，我们的框架学习到一个可迁移的初始化，使其能够在数据极少的情况下有效适应目标语言。我们为元奖励建模和元策略优化两种设置提供了理论保证，并在多语言基准上实证展示了该方法的有效性。在仅有100个目标语言偏好样本的极低资源设置下，我们的方法相比基线方法实现了高达33.4%的胜率提升，并在多个基准上持续优于基线方法。",
+    "tldr": "该论文提出了一种面向RLHF和DPO的元学习框架，通过从其他语言的偏好数据中学习可迁移的初始化，使模型在仅有100个目标语言偏好样本的极低资源场景下实现对齐，胜率相比基线提升高达33.4%。",
+    "en_tdlr": "This paper proposes a meta-learning framework for RLHF and DPO that learns transferable initialization from preference data in other languages, enabling effective multilingual LLM alignment with as few as 100 target-language preference samples and achieving up to 33.4% win-rate improvements over baselines."
 }

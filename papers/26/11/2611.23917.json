@@ -4,7 +4,7 @@
     "link": "https://arxiv.org/abs/2611.23917",
     "context": "Title: Vanguard: Knowing When to Trust the Draft in Speculative Vision-Language Agents\nAbstract: arXiv:2611.23917v1 Announce Type: new  Abstract: Vision-language agents that browse websites, operate phones and act in homes reason before every action, so every step waits for a large model, a latency and cost that stand in the way of deployment. Step-level speculation lets a small model draft each step and calls the large model only on rejected drafts, but its outcome rests on the judge, and a judge that reads only a step's text cannot tell whether the step fits the screen it acts on. We find that a few samples of a small model can contain a correct step about as often as the large model gets the step right, and not always on the same steps: checked against the screen, small drafts can be not only cheaper but better. We present Vanguard, a training-free judge that leaves the draft and target models unchanged: a general decision model, with the screenshot in view, gives each candidate step a probability of being right in one forward pass; the best candidate is kept if it clears a thr",
     "path": "papers/26/11/2611.23917.json",
-    "total_tokens": 1487,
+    "total_tokens": 1413,
     "translated_title": "Vanguard：在推测式视觉-语言智能体中判断何时信任草稿",
     "pending": [
         "translated_abstract",

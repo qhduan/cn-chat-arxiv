@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.23362",
     "context": "Title: TRACE-MAS: Diagnosing and Repairing Collaboration Failures in Multi-Agent Systems\nAbstract: arXiv:2611.23362v1 Announce Type: new  Abstract: LLM-based multi-agent systems (MAS) rely on not only individual agent behaviors but also the interactions that connect agents, including message exchanges and task dependencies. Existing MAS safeguards mainly perform agent-level anomaly detection, which becomes insufficient when failures originate from agent interactions and detected anomalies do not necessarily reveal their true sources. To address this limitation, we propose \\textbf{TRACE-MAS}, a finer-grained framework for diagnosing and repairing MAS failures. TRACE-MAS learns normal collaborative execution patterns from benign trajectories and detects deviations in agent state changes, message transitions, and task dependency evolutions. It further identifies responsible execution elements through source-aware attribution and selects minimal interventions to restore collaboration while preserving task-critical capabilities. Experiments on five MAS benchmarks demonstrate that TRACE-M",
     "path": "papers/26/11/2611.23362.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1062,
+    "translated_title": "TRACE-MAS：诊断与修复多智能体系统中的协作故障",
+    "translated_abstract": "基于大语言模型的多智能体系统（MAS）不仅依赖于单个智能体的行为，还依赖于连接各智能体的交互，包括消息交换和任务依赖关系。现有的多智能体系统安全防护机制主要执行智能体级别的异常检测，当故障源自智能体之间的交互时，这种方法就变得不足，且检测到的异常并不一定能揭示其真正的根源。为解决这一局限，我们提出了TRACE-MAS，一个用于诊断和修复多智能体系统故障的更细粒度框架。TRACE-MAS从良性轨迹中学习正常的协作执行模式，并检测智能体状态变化、消息传递和任务依赖演化中的偏差。它进一步通过源头感知的归因识别出导致故障的执行要素，并选择最小干预来恢复协作，同时保留任务关键能力。在五个多智能体系统基准上的实验表明，TRACE-MAS...",
+    "tldr": "TRACE-MAS是一个细粒度诊断与修复框架，通过从良性轨迹中学习正常协作模式、检测智能体交互层面的偏差、进行源头归因并实施最小干预，来识别和修复多智能体系统中源于交互的协作故障。",
+    "en_tdlr": "TRACE-MAS is a fine-grained framework that diagnoses and repairs collaboration failures in LLM-based multi-agent systems by learning normal interaction patterns, detecting deviations in agent interactions, performing source-aware attribution, and applying minimal interventions."
 }

@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.23271",
     "context": "Title: Skip-Level Meetings: Benefits, Risks, and Design Considerations Informed by Bypassed Managers' Experiences\nAbstract: arXiv:2611.23271v1 Announce Type: new  Abstract: Skip-level meetings (SLMs), bidirectional, relationship-oriented meetings between employees and managers two or more levels above, are common but not universal, and often recommended in professional outlets. They entail benefits and risks for employees, direct and skip-level managers, and organizations, with multiple factors related to shaping the value-risk balance and appropriate approach. However, SLMs have received limited scholarly attention, particularly regarding bypassed managers' views of that managerial practice. This exploratory qualitative study examined the experiences and perspectives of 25 first-tier software engineering managers from diverse personal and organizational contexts in the multicultural, dynamic, innovation-driven, and high-turnover U.S. tech sector as bypassed managers in SLMs between their direct reports and these reports' second-tier managers. Their accounts, integrated with directly related literature, as ",
     "path": "papers/26/11/2611.23271.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1221,
+    "translated_title": "越级会议：基于被跳过管理者经验的收益、风险与设计考量",
+    "translated_abstract": "越级会议是指员工与其跨两级或更多层级的管理者之间进行的双向、关系导向型会议，这种会议形式较为常见但并不普遍，且经常在专业刊物中被推荐采用。它为员工、直接管理者、越级管理者以及组织同时带来收益与风险，多种因素会影响其价值与风险的平衡以及恰当的实施方式。然而，越级会议在学术研究中受到的关注有限，尤其是关于被跳过的管理者对这一管理实践的看法更是鲜有研究。这项探索性定性研究考察了 25 名处于第一层级的软件工程管理者的经历与观点，他们来自多元、动态、创新驱动且人员流动率高的美国科技行业中不同的个人与组织背景，在其直接下属与第二层级管理者之间的越级会议中充当被跳过的管理者角色。他们的叙述与直接相关的文献相结合……",
+    "tldr": "这项探索性定性研究首次关注了越级会议中被跳过的直接管理者的经历与视角，通过与25名美国科技行业软件工程管理者的访谈及相关文献，揭示了越级会议为各利益相关方带来的收益与风险，并为越级会议的设计提供了实践考量。",
+    "en_tdlr": "This exploratory qualitative study is among the first to examine skip-level meetings from the perspective of bypassed managers, drawing on the experiences of 25 first-tier software engineering managers in the U.S. tech sector to reveal the benefits, risks, and design considerations of SLMs."
 }

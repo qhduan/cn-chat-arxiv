@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.24383",
     "context": "Title: What Majority Labels Hide: Annotator Disagreement and Model Errors in Multi-Dialect Arabic Sexism Detection\nAbstract: arXiv:2611.24383v1 Announce Type: new  Abstract: Judgements of sexism are subjective and may vary across communities, yet sexism detection datasets usually reduce annotator judgements to a single majority label, obscuring disagreement and how models behave on contested cases. We introduce MuDAS, a dataset of YouTube comments in Saudi, Egyptian and Moroccan Arabic, each labelled by three native speakers of its dialect, with the individual annotations preserved. We use it to evaluate Arabic encoders fine-tuned with hard-label, soft-label and perspectivist objectives, GPT-5.6 Terra, and four Arabic-centric large language models. Model errors are more frequent on comments with annotator disagreement. Despite relatively close Macro-F1 scores, GPT-5.6 Terra and the fine-tuned encoders exhibit contrasting error patterns: GPT-5.6 Terra, even with the annotators' definition of sexism, over-classifies gender-related content such as religious advice on modesty, whereas the encoders miss implicit ",
     "path": "papers/26/11/2611.24383.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1436,
+    "translated_title": "多数标签隐藏了什么：多方言阿拉伯语性别歧视检测中的标注者分歧与模型错误",
+    "translated_abstract": "对性别歧视的判断是主观的，且可能因社群而异，然而性别歧视检测数据集通常将标注者的判断简化为单一的多数标签，从而掩盖了标注者之间的分歧以及模型在争议样本上的表现。我们推出了MuDAS数据集，包含沙特、埃及和摩洛哥阿拉伯语方言的YouTube评论，每条评论由三名该方言的母语者分别标注，并保留了每位标注者的独立标注结果。我们利用该数据集评估了采用硬标签、软标签和视角主义目标微调的阿拉伯语编码器模型、GPT-5.6 Terra，以及四个以阿拉伯语为中心的大语言模型。结果表明，在存在标注者分歧的评论上，模型错误更为频繁。尽管宏观F1分数相对接近，GPT-5.6 Terra与微调编码器却表现出截然不同的错误模式：即使采用了标注者对性别歧视的定义，GPT-5.6 Terra仍会将诸如关于端庄的宗教劝告等性别相关内容过度判定为性别歧视，而编码器模型则会漏判隐性的性别歧视言论。",
+    "tldr": "本文构建了保留个体标注结果的多方言阿拉伯语性别歧视检测数据集MuDAS，发现模型错误更多出现在标注者存在分歧的评论上，且GPT-5.6 Terra与微调编码器虽F1分数接近但错误模式截然不同——前者过度判定性别相关内容，后者则漏判隐性性别歧视。",
+    "en_tdlr": "This paper introduces MuDAS, a multi-dialect Arabic sexism detection dataset that preserves individual annotator labels, showing that model errors are more frequent on contested cases and that GPT-5.6 Terra and fine-tuned encoders exhibit contrasting error patterns despite similar Macro-F1 scores."
 }

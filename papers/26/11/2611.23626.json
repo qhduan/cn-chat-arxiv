@@ -4,9 +4,8 @@
     "link": "https://arxiv.org/abs/2611.23626",
     "context": "Title: Two is better than one: optimizing binary rating scales for online platforms\nAbstract: arXiv:2611.23626v1 Announce Type: cross  Abstract: Online platforms often struggle with inflated, uninformative user ratings. This issue can be mitigated by better design of the data collection mechanism, for example through changing the phrasing of user questions. Previous work optimizes a single rating scale to best distinguish the inherent qualities of items under binary feedback. In this paper, we demonstrate the power of utilizing different rating scales for different users. First, we show that a designer can always split a single rating scale into two to improve item rankings. Next, we formally characterize the optimal design of multiple scales as a series of 0-1 step functions whose threshold values are evenly spaced. Finally, we consider an adaptive model where subsequent rating scales can depend on the responses from previous users and items are ranked by their full sequence of responses, and show that adaptivity leads to exponentially greater distinguishing power. All in all,",
     "path": "papers/26/11/2611.23626.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1246,
+    "translated_title": "二胜于一：优化在线平台的二元评分量表",
+    "translated_abstract": "在线平台常常受到夸大的、缺乏信息量的用户评分的困扰。这一问题可以通过更好地设计数据收集机制来缓解，例如改变用户问题的措辞。以往的工作优化单一的评分量表，以便在二元反馈下最好地区分物品的内在质量。在本文中，我们展示了对不同用户使用不同评分量表的力量。首先，我们证明设计者总是可以将单一评分量表拆分为两个，从而改进物品的排名。接下来，我们形式化地刻画了多量表的最优设计，即一系列阈值均匀间隔的0-1阶跃函数。最后，我们考虑了一个自适应模型，其中后续的评分量表可以依赖于先前用户的反馈，并且物品根据其完整的反馈序列进行排名，我们证明自适应性带来了指数级更强的区分能力。总而言之，",
+    "tldr": "该论文证明在线平台通过为不同用户使用不同的二元评分量表而非单一量表——包括将单一量表拆分为两个、将多量表最优设计刻画为阈值均匀间隔的0-1阶跃函数、以及引入依赖先前反馈的自适应量表——可以显著提升区分物品内在质量的排名能力，其中自适应设计能带来指数级的提升。"
 }

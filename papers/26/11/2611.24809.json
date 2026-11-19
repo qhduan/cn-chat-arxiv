@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.24809",
     "context": "Title: On-Policy Morphing into Hybrid Attention Models\nAbstract: arXiv:2611.24809v1 Announce Type: new  Abstract: Hybrid attention models combine full and linear attention to achieve a better quality--efficiency trade-off. Converting pretrained Transformers into such models requires identifying which layers should retain full attention under a prescribed budget. We identify two off-policy mismatches in FlashMorph's layer selection: (i) continuous branch interpolation and teacher-forced hidden states differ from discrete hybrid computation; and (ii) frozen model weights fail to account for parameter adaptation during subsequent recovery. We introduce FlashMorph2, an on-policy layer-selection method that (I) evaluates sampled discrete hybrid architectures end to end using their own hidden states, and (II) jointly optimizes layer-selection scores and model weights under the recovery objective to reflect post-adaptation performance. Experiments across Qwen3 model scales and linear-attention variants show that FlashMorph2 consistently outperforms existin",
     "path": "papers/26/11/2611.24809.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1076,
+    "translated_title": "基于在线策略的混合注意力模型转换方法",
+    "translated_abstract": "混合注意力模型通过结合全注意力与线性注意力，实现了更优的质量—效率权衡。将预训练的Transformer转换为此类模型，需要在给定预算下确定哪些层应保留全注意力。我们在FlashMorph的层选择方法中识别出两个离策略不匹配问题：(i) 连续分支插值和教师强制隐藏状态与离散混合计算存在差异；(ii) 冻结的模型权重无法反映后续恢复过程中的参数自适应。我们提出了FlashMorph2，一种在线策略的层选择方法，该方法 (I) 使用采样得到的离散混合架构自身的隐藏状态进行端到端评估；(II) 在恢复目标下联合优化层选择分数与模型权重，以反映参数自适应后的性能。在Qwen3不同模型规模及多种线性注意力变体上的实验表明，FlashMorph2始终优于现有方法。",
+    "tldr": "提出在线策略层选择方法FlashMorph2，通过利用离散混合架构自身的隐藏状态进行端到端评估，并在恢复目标下联合优化层选择分数与模型权重，解决了FlashMorph中连续插值与冻结权重导致的离策略不匹配问题，从而更准确地将预训练Transformer转换为混合注意力模型。",
+    "en_tdlr": "FlashMorph2, an on-policy layer-selection method that evaluates discrete hybrid architectures end to end using their own hidden states and jointly optimizes layer-selection scores with model weights, resolving the off-policy mismatches in FlashMorph when converting pretrained Transformers into hybrid attention models."
 }

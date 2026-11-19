@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.23630",
     "context": "Title: What Interpolators Store and What They Express: An Information-Theoretic Framework for Benign Overfitting and Label-Free Model Selection\nAbstract: arXiv:2611.23630v1 Announce Type: new  Abstract: Overparameterized learners can fit noisy training labels perfectly and still predict well, which neither classical complexity measures nor information-theoretic generalization bounds explain. We develop an information-theoretic framework that separates two things an interpolating learner does with its sample: storage, the information the trained model retains about its training labels, and expression, the information about the sample that reaches its predictions at fresh inputs. We first characterize the ideal model: for a loss l, the least complex l-sufficient representation is the Bayes act, whose entropy is the minimal sufficient complexity; this generalizes, and corrects, an earlier \"lossless maximal compression\" view of boosting. We then show that every interpolator stores exactly nH(Y|X) bits of label noise, so storage, and bounds built on it (including CMI bounds), cannot tell interpolators apart. Expression can: excess risk is bo",
     "path": "papers/26/11/2611.23630.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1523,
+    "translated_title": "插值器存储了什么、表达了什么：一个用于良性过拟合与无标签模型选择的信息论框架",
+    "translated_abstract": "过参数化学习器能够完美拟合含噪的训练标签，同时仍具有良好的预测能力，这一现象既无法用经典复杂度度量解释，也无法用信息论泛化界解释。我们提出了一个信息论框架，将插值型学习器对样本所做的两件事区分开来：存储，即训练后的模型所保留的关于其训练标签的信息；表达，即关于样本的信息中最终体现在其对新鲜输入的预测中的部分。我们首先刻画了理想模型：对于某个损失 l，最不复杂的 l-充分表示是贝叶斯动作，其熵即为最小充分复杂度；这一结果推广并修正了先前关于提升方法的“无损最大压缩”观点。接着我们证明，每个插值器都恰好存储 nH(Y|X) 比特的标签噪声，因此存储以及基于存储构建的界（包括条件互信息界）无法区分不同的插值器。而表达则可以：超额风险由表",
+    "tldr": "本文提出区分插值器“存储”与“表达”的信息论框架，证明所有插值器存储等量标签噪声故存储类泛化界（如CMI）无法区分它们，而“表达”才能刻画超额风险，从而解释良性过拟合并实现无需标签的模型选择。",
+    "en_tdlr": "This paper develops an information-theoretic framework separating what interpolators \"store\" (label information retained in the model) from what they \"express\" (information reaching predictions on fresh inputs), proving that all interpolators store the same amount of label noise so storage-based bounds like CMI cannot distinguish them, while expression characterizes excess risk—explaining benign overfitting and enabling label-free model selection."
 }

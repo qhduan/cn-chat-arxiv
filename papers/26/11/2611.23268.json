@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.23268",
     "context": "Title: f2x50: A Repository-Scale Benchmark for Fortran-to-X Software Migration\nAbstract: arXiv:2611.23268v1 Announce Type: new  Abstract: Repository-level migration requires more than translating isolated functions: it must preserve behaviour across modules, shared state, build structure, and dependencies. Existing translation benchmarks predominantly cover small programs or small repositories, or fixed and widely studied language pairs. We present f2x50, a target-independent benchmark comprising 50 public Fortran repositories pinned to exact Git revisions. It contains 12,116 Git-tracked Fortran files and 6,569,806 lines, divided into three structural-complexity tiers and paired with 561 deterministic behavioural probes. Of these probes, 446 compile pinned source files with small drivers and span 131 repository--routine pairs. Every repository has at least five direct checks that collectively execute at least two routines. f2x50 provides target-independent tools for acquisition, validation, licence review, and reproducibility, together with a reference adapter for evaluati",
     "path": "papers/26/11/2611.23268.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1215,
+    "translated_title": "f2x50：面向Fortran到X软件迁移的仓库规模基准测试",
+    "translated_abstract": "仓库级迁移不仅仅是翻译孤立的函数：它必须在模块、共享状态、构建结构和依赖关系之间保持行为一致。现有的翻译基准主要涵盖小型程序或小型仓库，或者是固定的、被广泛研究的语言对。我们提出了f2x50，这是一个与目标无关的基准，包含50个固定到确切Git版本的公开Fortran仓库。它包含12,116个受Git跟踪的Fortran文件和6,569,806行代码，分为三个结构复杂度层级，并配有561个确定性行为探针。在这些探针中，446个通过小型驱动程序编译固定的源文件，涵盖131个仓库-例程对。每个仓库至少有五个直接检查，共同执行至少两个例程。f2x50还提供了用于获取、验证、许可证审查和可重现性的与目标无关的工具，以及用于评估的参考适配器。",
+    "tldr": "f2x50是一个仓库规模的迁移基准，包含50个公开Fortran仓库、超过650万行代码和561个确定性行为探针，用于评估从Fortran到其他语言的仓库级软件迁移质量。",
+    "en_tdlr": "f2x50 is a repository-scale, target-independent benchmark with 50 public Fortran repositories, over 6.5 million lines of code, and 561 deterministic behavioural probes for evaluating Fortran-to-X software migration."
 }

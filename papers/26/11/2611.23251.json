@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.23251",
     "context": "Title: Who Changed the AI Agent's Rules? Measuring How AI Coding Agents Escalate Authority in CI/CD Pipelines\nAbstract: arXiv:2611.23251v1 Announce Type: new  Abstract: AI coding agents can modify CI/CD control-plane structures, including workflows and permission settings, thereby extending their authority beyond routine code changes. Because such modifications can affect an entire development pipeline, this study examines the trade-off between execution cost and governance risk in agentic CI/CD. We introduce a joint penalty model, P(M), that combines these two dimensions and evaluate it on all 932,791 agent-authored pull requests in the AIDev dataset, covering five autonomous coding agents. Each pull request is automatically classified by authority scope - data-plane or control-plane - and assigned a penalty score.   We found that control-plane actions have a 2.3x higher mean joint penalty than data-plane actions (0.498 vs. 0.218) and a 3.9x higher mean governance risk (0.530 vs. 0.135), which means that they indeed increase the risk. All 775 pull requests in the extreme-risk category, defined as P(M) ",
     "path": "papers/26/11/2611.23251.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1547,
+    "translated_title": "谁改变了AI智能体的规则？衡量AI编码智能体如何在CI/CD流水线中不断扩权",
+    "translated_abstract": "AI编码智能体可以修改CI/CD控制平面的结构（包括工作流和权限设置），从而将其权限扩展到常规代码变更之外。由于此类修改可能影响整个开发流水线，本研究考察了智能体化CI/CD中执行成本与治理风险之间的权衡。我们提出了一个结合这两个维度的联合惩罚模型 P(M)，并在 AIDev 数据集中全部 932,791 个由智能体创建的拉取请求上进行了评估，涵盖五个自主编码智能体。每个拉取请求按权限范围——数据平面或控制平面——进行自动分类，并被赋予一个惩罚分数。研究发现，控制平面操作的平均联合惩罚比数据平面操作高 2.3 倍（0.498 对 0.218），平均治理风险高 3.9 倍（0.530 对 0.135），这表明控制平面操作确实会放大风险。所有 775 个被定义为极高风险类别（P(M)……）的拉取请求（原文摘要在此处截断）。",
+    "tldr": "本研究提出联合惩罚模型 P(M)，对 AIDev 数据集中 93 万余个 AI 编码智能体创建的拉取请求进行大规模量化分析，首次系统揭示了智能体在 CI/CD 流水线中的“扩权”行为——控制平面操作（如修改工作流与权限设置）的治理风险是数据平面操作的 3.9 倍，为智能体化 CI/CD 的执行成本与治理风险权衡提供了度量框架。",
+    "en_tdlr": "This study introduces a joint penalty model P(M) and, through large-scale analysis of all 932,791 agent-authored pull requests in the AIDev dataset, provides the first quantitative framework showing that AI coding agents' control-plane actions (e.g., modifying workflows and permissions) carry 3.9x higher governance risk than data-plane actions, quantifying the trade-off between execution cost and governance risk in agentic CI/CD pipelines."
 }

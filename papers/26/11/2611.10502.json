@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.10502",
     "context": "Title: Distinguishing Extraction Failures and Clinical Discordance with LLM Uncertainty on Radiology Reports\nAbstract: arXiv:2611.10502v2 Announce Type: replace  Abstract: Large language models (LLMs) are increasingly used to structure data from unstructured text, but extraction errors remain inevitable. We evaluated whether LLM uncertainty could distinguish extraction failure from true clinical discordance. In 5{,}225 vessels from 1{,}045 patients undergoing coronary CT angiography (CCTA) for suspected coronary artery disease (CAD), we evaluated token-level and self-reported LLM uncertainty during extraction of vessel-level stenosis severity. Extraction failure was defined as disagreement between LLM-extracted stenosis and expert annotations. Clinical discordance was defined as disagreement in obstructive CAD status between CCTA and subsequent invasive coronary angiography (ICA). Incremental discrimination was assessed after adjustment for stenosis severity, calcium burden, and coronary vessel. Extraction failure was evaluated in 1{,}077 vessels from 253 patients with expert annotations, and clinical ",
     "path": "papers/26/11/2611.10502.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1243,
+    "translated_title": "基于大语言模型不确定性在放射学报告中区分抽取失败与临床不一致",
+    "translated_abstract": "大语言模型越来越多地被用于从非结构化文本中构建结构化数据，但抽取错误仍然不可避免。我们评估了大语言模型的不确定性是否能够区分抽取失败与真正的临床不一致。在因疑似冠状动脉疾病（CAD）而接受冠状动脉CT血管造影（CCTA）的1,045名患者的5,225条血管中，我们评估了在抽取血管级别狭窄严重程度过程中的token级不确定性以及模型自报告的不确定性。抽取失败定义为大语言模型抽取的狭窄结果与专家标注之间的不一致；临床不一致定义为CCTA与后续有创性冠状动脉造影（ICA）之间在阻塞性CAD状态上的不一致。在校正狭窄严重程度、钙化负荷和冠状动脉血管等因素后，评估了不确定性的增量判别能力。抽取失败在具有专家标注的253名患者的1,077条血管中进行了评估，而临床不一致（摘要在此处截断）……",
+    "tldr": "该研究表明，大语言模型的不确定性信号（包括token级和模型自报告的不确定性）能够有效区分放射学报告信息抽取中的抽取失败与真正的临床不一致，为医学文本结构化抽取的质量控制提供了新方法。",
+    "en_tdlr": "This study demonstrates that LLM uncertainty signals—including token-level and self-reported uncertainty—can effectively distinguish extraction failures from true clinical discordance when structuring radiology report data, offering a novel approach to quality control in medical text extraction."
 }

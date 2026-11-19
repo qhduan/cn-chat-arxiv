@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.23880",
     "context": "Title: A Rank-One Bypass of Fixed Linear Erasure\nAbstract: arXiv:2611.23880v1 Announce Type: new  Abstract: Linear concept erasure can make a target unreadable to a specified family of linear classifiers applied to a model's current internal features. In an open-weight release, however, an attacker can modify the layers that produce those features. We study a fixed affine erasure layer whose upstream model is allowed to change. If the layer transmits even one direction visible to an allowed downstream classifier, the attacker can write a target score into that direction and carry it through the layer. We show that this condition is also necessary, and that for a nonconstant linear target score the required change is a rank-one affine update. Across six CIFAR-10 class-pair tasks, the route restores nearly all pre-erasure target performance and can leave a deployed benign linear head's scores unchanged to numerical tolerance. We then price the attack: with eight target labels and 2,000 unlabelled calibration examples, a 10% mean relative feature",
     "path": "papers/26/11/2611.23880.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1212,
+    "translated_title": "固定线性擦除的秩一旁路攻击",
+    "translated_abstract": "线性概念擦除可以使目标概念对于应用于模型当前内部特征的指定线性分类器族变得不可读。然而，在开放权重的发布中，攻击者可以修改产生这些特征的层。我们研究了一种固定仿射擦除层，其上游模型被允许发生变化。如果该层传输了哪怕一个对允许的下游分类器可见的方向，攻击者就可以将目标分数写入该方向并将其传递通过该层。我们证明这一条件也是必要的，并且对于非常数的线性目标分数，所需的改变是一个秩一的仿射更新。在六个CIFAR-10类别对任务中，该攻击路径恢复了几乎所有的擦除前目标性能，并且可以在数值容差范围内保持已部署的良性线性头的分数不变。随后我们对攻击进行了代价评估：使用八个目标标签和2,000个未标记的校准样本，10%的平均相对特征（摘要在此处截断）。",
+    "tldr": "本文证明了在开放权重场景下，攻击者仅需一个秩一的仿射更新即可绕过固定线性擦除层，几乎完全恢复被擦除的目标性能，同时保持良性线性头的输出分数不变。",
+    "en_tdlr": "This paper proves that in open-weight settings, an attacker can bypass a fixed linear erasure layer with a rank-one affine update, restoring nearly all pre-erasure target performance while leaving benign linear heads' scores unchanged."
 }

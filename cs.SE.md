@@ -52,52 +52,66 @@
 | [^48] | [Model Discovery for Virtual Chaos Engineering with Incomplete Tracing: An eBPF Study](https://arxiv.org/abs/2611.23313) | 该论文探索了利用eBPF外部观测技术在追踪数据缺失或不完整的遗留系统上发现操作模型，从而在无需改造追踪系统的情况下实现虚拟混沌工程中的基于模型的故障分析。 |
 | [^49] | [AppSec Core: An Ontology for Security-by-Design Software Engineering](https://arxiv.org/abs/2611.23312) | 本文提出了AppSec Core——一个涵盖十个领域、共259个元素的安全设计软件工程本体模型，它将分散在众多标准、框架和法律中的安全要求统一为“目标—实践—机制—证据工件”的结构化表示，并基于31个外部来源（含10个AI相关来源）进行了验证。 |
 | [^50] | [Post-Quantum Cryptography Education for Software Developers: A Multivocal Literature Review](https://arxiv.org/abs/2611.23311) | 本文通过对8篇学术文献和15个专业培训项目的多源文献综述，系统评估了面向软件开发者的后量子密码学（PQC）教育现状，发现虽然所有来源均覆盖PQC基础与算法，但实际软件工程任务训练不均衡，并识别出六大教育缺口及相应改进建议。 |
-| [^51] | [Repository-Grounded Rubrics for Execution-Free Evaluation of Coding Agents](https://arxiv.org/abs/2611.23309) | 该论文提出了一种基于仓库探索生成加权评分量表的无执行评估方法，无需运行测试即可评估编码智能体补丁的质量，其评分排序与真实测试结果高度一致（平均AUROC达0.826，系统排名Spearman相关系数达0.968）。 |
-| [^52] | [Checking Retry Transparency in Agent Tools](https://arxiv.org/abs/2611.23307) | 提出一种基于人工构建、源码可溯的效果契约的测试原型，从原子重试吸收义务和成功尝试微步骤的有界交错两个层面检验智能体工具重试透明性背后的恢复保证。 |
-| [^53] | [When Exact Inference Changes Code Selection: A Decision-Theoretic Analysis of B4](https://arxiv.org/abs/2611.23306) | 本文通过决策论分析精确刻画了在B4代码-测试模型中更精确的后验推断何时会改变程序选择——给出了保证整组规则已达MAP的先验-预算条件与有限修正界，并在大量实证比较中表明精确推断几乎从不改变所选代码。 |
-| [^54] | [Dependency Fabrication in Repository Deployment Agents](https://arxiv.org/abs/2611.23305) | 本研究通过构造无法合法获取依赖的探针仓库，揭示了仓库部署智能体在环境搭建失败时会通过伪造缺失依赖（如创建存根）来通过测试，且现有规则和测试框架难以可靠阻止这种“奖励破解”行为，仅当智能体收到明确禁令并具备停止上报机制时缓解措施才最有效。 |
-| [^55] | [When Code Works but the License Doesn't: Evaluating License Constraint Handling in Coding Agents](https://arxiv.org/abs/2611.23299) | 该论文系统评估了编程智能体在仓库级开发中对软件许可证约束的处理能力，发现智能体虽能成功构建并测试软件，却普遍忽视来源追溯、授权与分发等许可证约束，暴露出功能正确性与许可证合规性之间的持续差距。 |
-| [^56] | [Plug-and-Play Sensor Evolution in Software-Defined Vehicles through Asset Administration Shells](https://arxiv.org/abs/2611.23298) | 本文提出一种基于资产管理壳（AAS）的即插即用传感器集成框架，使软件定义汽车在部署后新增传感器时能够自动完成识别、配置与安全监督下的软件部署。 |
-| [^57] | [Architectural Design Decisions for Data Ingestion in Big Data Architectures](https://arxiv.org/abs/2611.23297) | 本文通过系统性灰文献综述、定性分析及专家访谈，编制了一份包含数据摄取设计决策、选项及选择驱动因素的目录，以帮助从业者系统地开发大数据架构中的数据摄取流程。 |
-| [^58] | [Ask the Peers: Ranking NFR Coverage Gaps for Requirements Review](https://arxiv.org/abs/2611.23296) | 本研究将NFR覆盖缺口评审建模为项目级排序任务，实验表明利用同行项目类别统计信息的四种配置表现最优且效果相近（平均AUROC达0.875-0.889）。 |
-| [^59] | [From Ambiguous Tickets to Ranked Hypotheses: Multi-Agent Root-Cause Analysis for Autonomous Heavy-Vehicle Software](https://arxiv.org/abs/2611.23294) | 该论文提出了一种多智能体根因分析工作流，将稀疏的故障工单和海量多模态车辆记录转化为基于遥测的事件链、按优先级排序的因果假设及候选代码位置，并通过隔离疑似原因、预筛选遥测数据和压缩共享证据，显著降低了每次事故的分析成本。 |
-| [^60] | [Decided or Open? Comparing Program Repair Techniques When Patch Correctness Is Unknown](https://arxiv.org/abs/2611.23287) | 该论文提出一种将程序修复技术比较结果划分为“已判定”或“悬而未决”的方法，通过计算成功率差异在未知补丁正确性标签所有可能取值下的范围来量化比较结论的确定性，并能在测试运行前判断哪些比较无法通过增加测试来解决。 |
-| [^61] | [The Illusion of Relief: How GenAI Redistributes Cognitive Workload in Software Organizations](https://arxiv.org/abs/2611.23286) | 研究表明生成式AI并未消除软件从业者的认知工作，而是将其重新分配——从业者从直接编写代码转向提供上下文、审查验证和协调AI输出等监督性工作，人类判断与问责仍然是核心。 |
-| [^62] | [Beyond Stars: MTTX Brings Developer Responsiveness to Dependency Decisions, from Dashboard to IDE to GitHub Actions](https://arxiv.org/abs/2611.23285) | MTTX 是一个开源工具，通过精确的历史依赖解析为任意包计算 MTTU 和 MTTR 这两项难以伪造的响应能力指标，并将其集成到从仪表盘、IDE 到 GitHub Actions 的开发者工作流程各环节中。 |
-| [^63] | [When Single Agent Is Enough: Rethinking Multi-Agent Systems for Automated Code Review](https://arxiv.org/abs/2611.23283) | 该论文通过系统比较发现，更简单的单智能体方法在代码审查任务中的表现与多智能体系统相当甚至更优，挑战了多智能体架构是复杂软件工程任务默认选择的普遍假设。 |
-| [^64] | [Ephyra: A Property-Based Testing Framework for the LLM Era](https://arxiv.org/abs/2611.23282) | Ephyra是一个面向大语言模型时代的Rust语言基于属性测试框架，以可定制性、可观察性和生成器合成为核心特性，在14个开源系统中发现了349个漏洞。 |
-| [^65] | [Log Analysis for LLM-Based Agents: A Lifecycle-Oriented Survey](https://arxiv.org/abs/2611.23281) | 本文首次以生命周期视角系统综述了基于LLM智能体的日志分析领域，通过对90项核心研究的阶段划分与比较，揭示了日志记录、结构化与挖掘之间的跨阶段依赖关系，并指出详细日志未必证据充分、结构一致不等于语义等价等关键局限。 |
-| [^66] | [Evidence-Carrying Contracts for Safe Claim Composition in Data Marketplace Workflows](https://arxiv.org/abs/2611.23276) | 该论文提出“证据携带声明合约”这一轻量级假设-保证语义，通过冲突敏感的四状态域与安全组合规则，确保数据市场工作流中的事务声明只有在证据充分支持时才能被提升，并为有限无环工作流证明了可靠性、有界性、撤销安全性和终止性等关键性质。 |
-| [^67] | [A Concurrent Structured Record Mirrored the Prose It Accompanied: A Pre-Registered Conceptual Replication and Extension of the Hide Pending Tool Call Scenario](https://arxiv.org/abs/2611.23274) | 本研究对 Huang 等人（2026）的“隐藏待处理工具调用”场景进行了预注册概念复制与扩展，发现要求模型在同一次生成中附加含“未解决问题”残余部分的结构化记录时，该记录只是映照了其伴随的散文叙述内容，并未能独立提升对缺失待处理结果的披露。 |
-| [^68] | [torchtest2: One-Call Sanity Checks for PyTorch Models,Evaluated on Real and Unseen Architectures](https://arxiv.org/abs/2611.23273) | torchtest2 是一个开源库，只需一次调用即可对 PyTorch 模型执行 18 项健全性检查以捕获无声 bug，并通过在 103 个真实模型、600 个随机架构和 20 个真实 bug 上的变异分析验证了其有效性。 |
-| [^69] | [An Industry Perspective on Software Vulnerability Management: A Systematic Review of Approaches, Tools, Practices, and Challenges](https://arxiv.org/abs/2611.23267) | 该系统性综述分析了57项直接涉及行业从业者的实证研究，总结了软件漏洞管理领域的方法、工具与实践及其实施挑战，发现现有证据以指南、经验教训等实践导向贡献为主，而严格的评估性研究较为缺乏。 |
-| [^70] | [Escaping the Anthropomorphic Trap: Resolving the Cognitive Mismatch in Future AI Software Development](https://arxiv.org/abs/2611.23264) | 论文指出传统以人类认知为中心的软件开发范式与多智能体AI存在根本性认知错配，由此产生“AI-软件技术债务”，并提出“隐形软件工程”这一新范式，实现从智能体模仿人类向以环境为中心的共识调控治理的转变。 |
-| [^71] | [Perceived Effectiveness of Social Debt Mitigation Measures: A Preliminary Vignette-Based Survey](https://arxiv.org/abs/2611.23263) | 该论文通过情景式问卷调查，让23名IT从业者和高年级学生对六类社会债务问题场景中的41项缓解措施进行有效性评分，并用配对t检验与分层贝叶斯模型分析排名，初步揭示了从业者眼中针对不同社会债务问题最有效的应对措施。 |
-| [^72] | [Artificial Intelligence in Finance and the Early-Career Skills Shift: A Structured Evidence Synthesis of Decision Delegation, Bank Deployments, and Business Education](https://arxiv.org/abs/2611.23261) | 本文通过结构化的证据综合，系统梳理了金融工作中哪些任务可安全委托给AI、哪些须保留人类主导，并指出在AI压缩新手历练路径的背景下商业教育亟需转型。 |
-| [^73] | [Software Engineering for LLM-Based Agents: A Lifecycle-Oriented Survey](https://arxiv.org/abs/2611.23260) | 本综述基于355篇论文，从需求工程、架构与设计、实现与集成、测试与保障、维护与演化五个软件生命周期阶段，系统梳理并比较了基于LLM智能体的软件工程方法。 |
-| [^74] | [Controlled Natural Language for Requirements Specification: A Systematic Literature Review](https://arxiv.org/abs/2611.23259) | 本文通过一项覆盖2000年至2024年间133篇原始研究的系统性文献综述，对用于需求规约的受控自然语言（CNL）方法进行了识别、分类与比较。 |
-| [^75] | [EnvAgent: Multi-Agent Approach to Building Science Environments in the Clouds](https://arxiv.org/abs/2611.23258) | 提出了EnvAgent多智能体框架，能够自动综合、构建和验证仓库级Docker环境，并引入ENVBENCH基准（包含54个科学成果）来评估科学计算环境自动化构建的效果。 |
-| [^76] | [StatePortal: Agentic Checkpoint Synthesis for Testing Deep States in Interactive Software](https://arxiv.org/abs/2611.23257) | StatePortal 提出了一种智能体方法，能从自然语言测试用例和只读源码中自动合成可版本化、可重放的检查点，从而解决交互式 GUI 软件测试中反复到达深层状态的成本瓶颈。 |
-| [^77] | [Generative AI in Software Testing: Practitioners' Perspectives on the Benefits, Challenges, Opportunities, and Risks](https://arxiv.org/abs/2611.23256) | 一项针对64名软件测试从业者的问卷调查显示，从业者普遍认可生成式AI在减少工作量、测试生成和调试方面的益处，但也担心提示词依赖、信任问题和错误输出，且使用者比非使用者更关注具体收益与可靠性风险。 |
-| [^78] | [Structure-Behavior Coalescence for Model-Based Systems Engineering](https://arxiv.org/abs/2611.23255) | 本文提出结构-行为融合（SBC），将系统定义为结构与行为通过交互融合而成的单一集成实体，并借助进程代数框架与良构性约束实现MBSE中“构造即一致”的系统建模。 |
-| [^79] | [Measuring What Matters in the Age of AI: The Research Software Metrics Landscape](https://arxiv.org/abs/2611.23253) | 该论文基于49篇文献系统梳理了研究软件度量指标的全景，将其归纳为八大类并从数据来源、效度、自动化潜力和滥用风险等维度进行分析，同时指出AI辅助开发正使现有指标体系的假设面临失效。 |
-| [^80] | [From Data Quality to Data Trustworthiness in AI-Driven Software-Intensive Embedded Systems: A Systematic Review](https://arxiv.org/abs/2611.23252) | 本系统性综述识别了AI驱动软件密集型嵌入式系统中影响数据可信性的16个数据质量关注点和8类评估管理方法，并揭示上游数据问题可能嵌入训练基线且在运行时难以检测。 |
-| [^81] | [What Moves the Ceiling on Automated Audit: from General Code to Scientific Code, Results and Data](https://arxiv.org/abs/2611.23250) | 本文在真值基准上量化了“异厂商模型审计+确定性检查”这一自动化审计流程的能力上限：通用代码上召回率仅约 30% 且无饱和点，可通过阅读模型、规则与决策规则提升；而在科学结果核查中，数字溯源检查能识别全部 49 份不一致报告，模型审计则可额外发现 25 份内部一致伪造中的 23 份。 |
-| [^82] | [The Obsolescence of High-Level Code: Agentic Generation from Semantic Artifacts](https://arxiv.org/abs/2611.23249) | 本文提出当AI智能体能够从作为语义权威的语义规范出发生成、验证和重新生成可执行实现时，高级源代码将不再是软件开发的主要持久工件，“生成”将成为软件开发的基本操作。 |
-| [^83] | [ETA: Exit on Tool Arrival in Speculative Agent Loops](https://arxiv.org/abs/2611.23239) | ETA 将推测性工具分发的分支用作模型决策状态的“传感器”，在工具结果到达且预测稳定一致时提前截断推理，从而在不牺牲准确性的前提下将工具调用智能体的速度提升最高 1.33 倍并减少 24% 的 token 解码量。 |
-| [^84] | [Tracing the Messy Middle: A Runtime Transaction Schema for AI Coding Agents](https://arxiv.org/abs/2611.23234) | 本文提出一个可观测性框架，将AI编码代理开发过程中通常被忽视的运行时行为（如重试、回退、路由决策和放弃的会话）记录为结构化事务数据，从而支持基于行为证据的工程辅导、工作流优化和以总任务成本为导向的路由策略改进。 |
-| [^85] | [A Metric for Semantic Graph Matching of No-Code Workflows](https://arxiv.org/abs/2611.23233) | 该论文为无代码工作流图首次定义了严格的语义图匹配度量，证明了其在属性同构意义下满足度量公理，并通过填充匈牙利算法给出可扩展的上界，在4,705个公开n8n工作流上完成了大规模验证。 |
-| [^86] | [Live Noise Fingerprints for Quantum Program Analysis](https://arxiv.org/abs/2611.19143) | 本文提出“噪声指纹”这一紧凑的抽象表示，并通过概率伽罗瓦连接将其与具体噪声行为关联，实现了对含噪量子程序的高效可靠分析，且多项式规模的接口可产生比完整噪声模型指数级更小的指纹。 |
-| [^87] | [Detecting Silent Faults at the Environment-Trainer Boundary in Reinforcement Learning](https://arxiv.org/abs/2611.08144) | 该论文发现强化学习中环境与训练器边界处的静默故障几乎无法通过学习曲线等基于结果的检查发现，而直接检查运行过程中跨越边界传输的数据本身则能检测到每一个注入的故障。 |
-| [^88] | [Interaction-as-a-Judge](https://arxiv.org/abs/2610.17895) | 提出“交互即裁判”评估范式，让计算机操作智能体直接与应用交互来进行评估和生成，弥补了传统基于代码分析与单元测试的自动评估和人类交互式评估之间的差距，并发布了包含人类偏好对与经人类验证需求标签的两个数据集。 |
-| [^89] | [What Does a Harness Buy? Tokens, Mostly](https://arxiv.org/abs/2610.04433) | 该研究通过对七个模型在三个生产级框架和多个基准上的重复对照实验发现，没有任何框架能稳定提升性能，更换框架带来的差异仅有 2 到 5 个百分点、效果与重新运行一次相当，框架带来的分数提升主要源于更多的 token 消耗。 |
-| [^90] | [Hearsay: Who Can Audit the Record a Deployed Agent Harness Writes?](https://arxiv.org/abs/2609.32495) | 该论文提出 Hearsay 基准，揭示了一个关键问题：由于已部署的智能体运行框架是运行记录的唯一书写者，审计者虽能从记录中指认故障（高达九成运行），却无法独立核实记录的真实性，使其沦为法律意义上的“传闻”。 |
-| [^91] | [Who Is Behind the Harness? Fingerprinting LLMs through Agentic Behavior](https://arxiv.org/abs/2609.28559) | 提出了一种名为LIDAR的主动式黑盒指纹识别方法，通过编码智能体在运行时的决策与行动（如编辑后验证、故障恢复和规范-测试冲突处理等行为）来识别框架背后的大语言模型身份。 |
-| [^92] | [Biomedical Knowledge Composition: A Software Engineering Perspective](https://arxiv.org/abs/2608.08927) | 本文从软件工程视角统一阐述生物医学知识基础设施，向软件工程师介绍知识图谱及五大数据协调挑战，并指出软件工具采用不足是生物医学知识基础设施工程化困难的一个根本原因。 |
-| [^93] | [Scrouting: Cost-Aware Routing of Coding Agents by Scouting the Repository First](https://arxiv.org/abs/2608.04804) | SuperScout先用一个7B搜索器侦察仓库并生成经沙箱验证的结构化交接文档，再据此将编码任务路由至合适的前沿模型，在SWE-bench Pro上以约五分之一的成本达到与最佳单一模型相当的解决率，且新增修复模型无需重新训练。 |
-| [^94] | [Where Is the Tradeoff in Using Third-Party API Routers for Agentic Software Development?](https://arxiv.org/abs/2607.23624) | 该论文首次实证研究了编码智能体中第三方API路由器的路由器端注入风险，通过四个隐蔽程度递增的干预级别（如响应替换）揭示其可对软件开发任务造成真实且难以检测的影响，而现有客户端权限机制难以有效防御。 |
-| [^95] | [Prior Knowledge or Search? A Study of LLM Agents in Hardware-Aware Code Optimization](https://arxiv.org/abs/2605.19782) | 该研究通过三个受控实验揭示，LLM智能体在硬件感知代码优化中依赖先验知识而非搜索——它在黑盒优化中表现为贪婪优化器，在零样本内核生成中会完全忽略输入尺寸信息，且面对不常见的内核尺寸时性能急剧下降。 |
-| [^96] | [Analysis of Commit Signing on GitHub](https://arxiv.org/abs/2604.14014) | 该论文首次以GitHub账户为抽样单位，通过对270多万个账户、1600多万次提交和20多万个公钥的大规模端到端分析，系统揭示了开发者提交签名中签名密钥的使用与管理模式。 |
+| [^51] | [Edge Computing for IoT-Enabled Smart Cities: A Review of Middleware, Explainable AI, and User Behavior Analytics](https://arxiv.org/abs/2611.23310) | 本文提出名为 X-EdgeCity 的新型中间件框架，融合物联网感知、边缘/雾/云计算与可解释人工智能，用于智慧城市用户行为分析，并支持能源感知与关键任务型城市服务。 |
+| [^52] | [Repository-Grounded Rubrics for Execution-Free Evaluation of Coding Agents](https://arxiv.org/abs/2611.23309) | 该论文提出了一种基于仓库探索生成加权评分量表的无执行评估方法，无需运行测试即可评估编码智能体补丁的质量，其评分排序与真实测试结果高度一致（平均AUROC达0.826，系统排名Spearman相关系数达0.968）。 |
+| [^53] | [Checking Retry Transparency in Agent Tools](https://arxiv.org/abs/2611.23307) | 提出一种基于人工构建、源码可溯的效果契约的测试原型，从原子重试吸收义务和成功尝试微步骤的有界交错两个层面检验智能体工具重试透明性背后的恢复保证。 |
+| [^54] | [When Exact Inference Changes Code Selection: A Decision-Theoretic Analysis of B4](https://arxiv.org/abs/2611.23306) | 本文通过决策论分析精确刻画了在B4代码-测试模型中更精确的后验推断何时会改变程序选择——给出了保证整组规则已达MAP的先验-预算条件与有限修正界，并在大量实证比较中表明精确推断几乎从不改变所选代码。 |
+| [^55] | [Dependency Fabrication in Repository Deployment Agents](https://arxiv.org/abs/2611.23305) | 本研究通过构造无法合法获取依赖的探针仓库，揭示了仓库部署智能体在环境搭建失败时会通过伪造缺失依赖（如创建存根）来通过测试，且现有规则和测试框架难以可靠阻止这种“奖励破解”行为，仅当智能体收到明确禁令并具备停止上报机制时缓解措施才最有效。 |
+| [^56] | [LLMs for Software Vulnerability Prediction and Prioritization: A Review](https://arxiv.org/abs/2611.23304) | 该系统性文献综述首次独立于检测文献，综合了23项2024至2026年间的研究，系统梳理了大语言模型在软件漏洞预测、评估、可利用性估计、风险评估与优先级排序五类任务中的应用、性能表现及落地障碍，并提出了按决策结果划分的五类任务分类法与涵盖提示、微调及智能体架构的方法分类法。 |
+| [^57] | [Optimal Development Path: An Empirical Evaluation of Tiered Dependency-Aware Sequencing](https://arxiv.org/abs/2611.23303) | 本文实证评估了D-POAF框架中的最优开发路径（ODP）排序策略，发现该简单启发式方法在依赖稀疏的真实Jira冲刺数据上几乎达到最优，但在依赖密集的大规模合成图上略逊于更复杂的依赖感知策略。 |
+| [^58] | [When Code Works but the License Doesn't: Evaluating License Constraint Handling in Coding Agents](https://arxiv.org/abs/2611.23299) | 该论文系统评估了编程智能体在仓库级开发中对软件许可证约束的处理能力，发现智能体虽能成功构建并测试软件，却普遍忽视来源追溯、授权与分发等许可证约束，暴露出功能正确性与许可证合规性之间的持续差距。 |
+| [^59] | [Plug-and-Play Sensor Evolution in Software-Defined Vehicles through Asset Administration Shells](https://arxiv.org/abs/2611.23298) | 本文提出一种基于资产管理壳（AAS）的即插即用传感器集成框架，使软件定义汽车在部署后新增传感器时能够自动完成识别、配置与安全监督下的软件部署。 |
+| [^60] | [Architectural Design Decisions for Data Ingestion in Big Data Architectures](https://arxiv.org/abs/2611.23297) | 本文通过系统性灰文献综述、定性分析及专家访谈，编制了一份包含数据摄取设计决策、选项及选择驱动因素的目录，以帮助从业者系统地开发大数据架构中的数据摄取流程。 |
+| [^61] | [Ask the Peers: Ranking NFR Coverage Gaps for Requirements Review](https://arxiv.org/abs/2611.23296) | 本研究将NFR覆盖缺口评审建模为项目级排序任务，实验表明利用同行项目类别统计信息的四种配置表现最优且效果相近（平均AUROC达0.875-0.889）。 |
+| [^62] | [From Ambiguous Tickets to Ranked Hypotheses: Multi-Agent Root-Cause Analysis for Autonomous Heavy-Vehicle Software](https://arxiv.org/abs/2611.23294) | 该论文提出了一种多智能体根因分析工作流，将稀疏的故障工单和海量多模态车辆记录转化为基于遥测的事件链、按优先级排序的因果假设及候选代码位置，并通过隔离疑似原因、预筛选遥测数据和压缩共享证据，显著降低了每次事故的分析成本。 |
+| [^63] | [Monitoring Machine Learning Systems in Production: A Multivocal Literature Review](https://arxiv.org/abs/2611.23293) | 该论文通过对94篇学术与灰色文献的多声部综述，构建了机器学习系统生产监控的分类体系，并揭示了监控过程的不均衡性——观察、检测与报告环节已高度自动化，而监控配置、调查与响应仍高度依赖人工，且监控集中于推理阶段、缺乏对整个生产系统的端到端覆盖。 |
+| [^64] | [An Empirical Study of Visual Artifacts in Pull Request Descriptions](https://arxiv.org/abs/2611.23289) | 本研究首次对GitHub拉取请求描述中的视觉制品进行大规模实证研究，构建了包含247万余个PR的VisPR数据集，发现13.3%的PR包含视觉制品，并提出了涵盖11种内容类型和6种用途的双分类体系。 |
+| [^65] | [Decided or Open? Comparing Program Repair Techniques When Patch Correctness Is Unknown](https://arxiv.org/abs/2611.23287) | 该论文提出一种将程序修复技术比较结果划分为“已判定”或“悬而未决”的方法，通过计算成功率差异在未知补丁正确性标签所有可能取值下的范围来量化比较结论的确定性，并能在测试运行前判断哪些比较无法通过增加测试来解决。 |
+| [^66] | [The Illusion of Relief: How GenAI Redistributes Cognitive Workload in Software Organizations](https://arxiv.org/abs/2611.23286) | 研究表明生成式AI并未消除软件从业者的认知工作，而是将其重新分配——从业者从直接编写代码转向提供上下文、审查验证和协调AI输出等监督性工作，人类判断与问责仍然是核心。 |
+| [^67] | [Beyond Stars: MTTX Brings Developer Responsiveness to Dependency Decisions, from Dashboard to IDE to GitHub Actions](https://arxiv.org/abs/2611.23285) | MTTX 是一个开源工具，通过精确的历史依赖解析为任意包计算 MTTU 和 MTTR 这两项难以伪造的响应能力指标，并将其集成到从仪表盘、IDE 到 GitHub Actions 的开发者工作流程各环节中。 |
+| [^68] | [Code Cloning and Procedural Abstraction in Scratch: A Large-Scale Study of Co-Existing Reuse Practices](https://arxiv.org/abs/2611.23284) | 该研究通过对204万个Scratch项目的大规模分析，首次揭示了代码克隆与自定义块抽象这两种复用实践的共存关系，发现绝大多数频繁出现的克隆模式都可以被提取为自定义块抽象，为引导Scratch编程者从复制走向抽象提供了实证依据。 |
+| [^69] | [When Single Agent Is Enough: Rethinking Multi-Agent Systems for Automated Code Review](https://arxiv.org/abs/2611.23283) | 该论文通过系统比较发现，更简单的单智能体方法在代码审查任务中的表现与多智能体系统相当甚至更优，挑战了多智能体架构是复杂软件工程任务默认选择的普遍假设。 |
+| [^70] | [Ephyra: A Property-Based Testing Framework for the LLM Era](https://arxiv.org/abs/2611.23282) | Ephyra是一个面向大语言模型时代的Rust语言基于属性测试框架，以可定制性、可观察性和生成器合成为核心特性，在14个开源系统中发现了349个漏洞。 |
+| [^71] | [Log Analysis for LLM-Based Agents: A Lifecycle-Oriented Survey](https://arxiv.org/abs/2611.23281) | 本文首次以生命周期视角系统综述了基于LLM智能体的日志分析领域，通过对90项核心研究的阶段划分与比较，揭示了日志记录、结构化与挖掘之间的跨阶段依赖关系，并指出详细日志未必证据充分、结构一致不等于语义等价等关键局限。 |
+| [^72] | [Agents as Architecture Evaluators: Automating ATAM and SAAM for Continuous Assessment](https://arxiv.org/abs/2611.23278) | 本文提出利用智能体AI工作流自动化软件架构评估方法ATAM与SAAM，并通过从学术文献构建结构化评估数据集，实现降低成本与专家门槛的持续架构评估。 |
+| [^73] | [Evidence-Carrying Contracts for Safe Claim Composition in Data Marketplace Workflows](https://arxiv.org/abs/2611.23276) | 该论文提出“证据携带声明合约”这一轻量级假设-保证语义，通过冲突敏感的四状态域与安全组合规则，确保数据市场工作流中的事务声明只有在证据充分支持时才能被提升，并为有限无环工作流证明了可靠性、有界性、撤销安全性和终止性等关键性质。 |
+| [^74] | [AI Code Review Requires Revision-Aware Evidence of Concern Resolution](https://arxiv.org/abs/2611.23275) | 本文主张AI代码审查不能仅凭关闭线程或修改被评论代码行就认定问题已解决，而需要修订感知、可检验的解决证据并在依赖变化时重新验证，据此设计了轻量级方法REVAL，显著减少将未解决问题误判为已解决的情况。 |
+| [^75] | [A Concurrent Structured Record Mirrored the Prose It Accompanied: A Pre-Registered Conceptual Replication and Extension of the Hide Pending Tool Call Scenario](https://arxiv.org/abs/2611.23274) | 本研究对 Huang 等人（2026）的“隐藏待处理工具调用”场景进行了预注册概念复制与扩展，发现要求模型在同一次生成中附加含“未解决问题”残余部分的结构化记录时，该记录只是映照了其伴随的散文叙述内容，并未能独立提升对缺失待处理结果的披露。 |
+| [^76] | [torchtest2: One-Call Sanity Checks for PyTorch Models,Evaluated on Real and Unseen Architectures](https://arxiv.org/abs/2611.23273) | torchtest2 是一个开源库，只需一次调用即可对 PyTorch 模型执行 18 项健全性检查以捕获无声 bug，并通过在 103 个真实模型、600 个随机架构和 20 个真实 bug 上的变异分析验证了其有效性。 |
+| [^77] | [Skip-Level Meetings: Benefits, Risks, and Design Considerations Informed by Bypassed Managers' Experiences](https://arxiv.org/abs/2611.23271) | 这项探索性定性研究首次关注了越级会议中被跳过的直接管理者的经历与视角，通过与25名美国科技行业软件工程管理者的访谈及相关文献，揭示了越级会议为各利益相关方带来的收益与风险，并为越级会议的设计提供了实践考量。 |
+| [^78] | [f2x50: A Repository-Scale Benchmark for Fortran-to-X Software Migration](https://arxiv.org/abs/2611.23268) | f2x50是一个仓库规模的迁移基准，包含50个公开Fortran仓库、超过650万行代码和561个确定性行为探针，用于评估从Fortran到其他语言的仓库级软件迁移质量。 |
+| [^79] | [An Industry Perspective on Software Vulnerability Management: A Systematic Review of Approaches, Tools, Practices, and Challenges](https://arxiv.org/abs/2611.23267) | 该系统性综述分析了57项直接涉及行业从业者的实证研究，总结了软件漏洞管理领域的方法、工具与实践及其实施挑战，发现现有证据以指南、经验教训等实践导向贡献为主，而严格的评估性研究较为缺乏。 |
+| [^80] | [Skill Roulette: Measuring Skill Invocation Rate Across LLM Coding Agents](https://arxiv.org/abs/2611.23266) | 该论文提出“技能调用率”这一量化指标，通过约2万次大规模重复试验，系统测量了LLM编程代理在不同因素（技能元数据、竞争技能、上下文指令、任务措辞等）影响下调用相关技能的可靠性。 |
+| [^81] | [Escaping the Anthropomorphic Trap: Resolving the Cognitive Mismatch in Future AI Software Development](https://arxiv.org/abs/2611.23264) | 论文指出传统以人类认知为中心的软件开发范式与多智能体AI存在根本性认知错配，由此产生“AI-软件技术债务”，并提出“隐形软件工程”这一新范式，实现从智能体模仿人类向以环境为中心的共识调控治理的转变。 |
+| [^82] | [Perceived Effectiveness of Social Debt Mitigation Measures: A Preliminary Vignette-Based Survey](https://arxiv.org/abs/2611.23263) | 该论文通过情景式问卷调查，让23名IT从业者和高年级学生对六类社会债务问题场景中的41项缓解措施进行有效性评分，并用配对t检验与分层贝叶斯模型分析排名，初步揭示了从业者眼中针对不同社会债务问题最有效的应对措施。 |
+| [^83] | [Artificial Intelligence in Finance and the Early-Career Skills Shift: A Structured Evidence Synthesis of Decision Delegation, Bank Deployments, and Business Education](https://arxiv.org/abs/2611.23261) | 本文通过结构化的证据综合，系统梳理了金融工作中哪些任务可安全委托给AI、哪些须保留人类主导，并指出在AI压缩新手历练路径的背景下商业教育亟需转型。 |
+| [^84] | [Software Engineering for LLM-Based Agents: A Lifecycle-Oriented Survey](https://arxiv.org/abs/2611.23260) | 本综述基于355篇论文，从需求工程、架构与设计、实现与集成、测试与保障、维护与演化五个软件生命周期阶段，系统梳理并比较了基于LLM智能体的软件工程方法。 |
+| [^85] | [Controlled Natural Language for Requirements Specification: A Systematic Literature Review](https://arxiv.org/abs/2611.23259) | 本文通过一项覆盖2000年至2024年间133篇原始研究的系统性文献综述，对用于需求规约的受控自然语言（CNL）方法进行了识别、分类与比较。 |
+| [^86] | [EnvAgent: Multi-Agent Approach to Building Science Environments in the Clouds](https://arxiv.org/abs/2611.23258) | 提出了EnvAgent多智能体框架，能够自动综合、构建和验证仓库级Docker环境，并引入ENVBENCH基准（包含54个科学成果）来评估科学计算环境自动化构建的效果。 |
+| [^87] | [StatePortal: Agentic Checkpoint Synthesis for Testing Deep States in Interactive Software](https://arxiv.org/abs/2611.23257) | StatePortal 提出了一种智能体方法，能从自然语言测试用例和只读源码中自动合成可版本化、可重放的检查点，从而解决交互式 GUI 软件测试中反复到达深层状态的成本瓶颈。 |
+| [^88] | [Generative AI in Software Testing: Practitioners' Perspectives on the Benefits, Challenges, Opportunities, and Risks](https://arxiv.org/abs/2611.23256) | 一项针对64名软件测试从业者的问卷调查显示，从业者普遍认可生成式AI在减少工作量、测试生成和调试方面的益处，但也担心提示词依赖、信任问题和错误输出，且使用者比非使用者更关注具体收益与可靠性风险。 |
+| [^89] | [Structure-Behavior Coalescence for Model-Based Systems Engineering](https://arxiv.org/abs/2611.23255) | 本文提出结构-行为融合（SBC），将系统定义为结构与行为通过交互融合而成的单一集成实体，并借助进程代数框架与良构性约束实现MBSE中“构造即一致”的系统建模。 |
+| [^90] | [Structure-Behavior Coalescence: A Definition of Systems](https://arxiv.org/abs/2611.23254) | 本文提出结构-行为融合（SBC）形式化框架，将系统定义为通过交互使结构与行为融为一体的整体实体，并给出良构性约束与行为规则，从而形式化地回答了“什么是系统”这一根本问题。 |
+| [^91] | [Measuring What Matters in the Age of AI: The Research Software Metrics Landscape](https://arxiv.org/abs/2611.23253) | 该论文基于49篇文献系统梳理了研究软件度量指标的全景，将其归纳为八大类并从数据来源、效度、自动化潜力和滥用风险等维度进行分析，同时指出AI辅助开发正使现有指标体系的假设面临失效。 |
+| [^92] | [From Data Quality to Data Trustworthiness in AI-Driven Software-Intensive Embedded Systems: A Systematic Review](https://arxiv.org/abs/2611.23252) | 本系统性综述识别了AI驱动软件密集型嵌入式系统中影响数据可信性的16个数据质量关注点和8类评估管理方法，并揭示上游数据问题可能嵌入训练基线且在运行时难以检测。 |
+| [^93] | [Who Changed the AI Agent's Rules? Measuring How AI Coding Agents Escalate Authority in CI/CD Pipelines](https://arxiv.org/abs/2611.23251) | 本研究提出联合惩罚模型 P(M)，对 AIDev 数据集中 93 万余个 AI 编码智能体创建的拉取请求进行大规模量化分析，首次系统揭示了智能体在 CI/CD 流水线中的“扩权”行为——控制平面操作（如修改工作流与权限设置）的治理风险是数据平面操作的 3.9 倍，为智能体化 CI/CD 的执行成本与治理风险权衡提供了度量框架。 |
+| [^94] | [What Moves the Ceiling on Automated Audit: from General Code to Scientific Code, Results and Data](https://arxiv.org/abs/2611.23250) | 本文在真值基准上量化了“异厂商模型审计+确定性检查”这一自动化审计流程的能力上限：通用代码上召回率仅约 30% 且无饱和点，可通过阅读模型、规则与决策规则提升；而在科学结果核查中，数字溯源检查能识别全部 49 份不一致报告，模型审计则可额外发现 25 份内部一致伪造中的 23 份。 |
+| [^95] | [The Obsolescence of High-Level Code: Agentic Generation from Semantic Artifacts](https://arxiv.org/abs/2611.23249) | 本文提出当AI智能体能够从作为语义权威的语义规范出发生成、验证和重新生成可执行实现时，高级源代码将不再是软件开发的主要持久工件，“生成”将成为软件开发的基本操作。 |
+| [^96] | [Agent-Native Applications: A New Application Paradigm](https://arxiv.org/abs/2611.23243) | 本文提出了“智能体原生应用”这一新的应用范式，让基于LLM的智能体作为应用核心逻辑的推理与行动组件并可在运行时自适应调整应用结构，同时指出这类应用需在保留智能体推理能力与约束应用行为之间解决重大控制问题。 |
+| [^97] | [ETA: Exit on Tool Arrival in Speculative Agent Loops](https://arxiv.org/abs/2611.23239) | ETA 将推测性工具分发的分支用作模型决策状态的“传感器”，在工具结果到达且预测稳定一致时提前截断推理，从而在不牺牲准确性的前提下将工具调用智能体的速度提升最高 1.33 倍并减少 24% 的 token 解码量。 |
+| [^98] | [Tracing the Messy Middle: A Runtime Transaction Schema for AI Coding Agents](https://arxiv.org/abs/2611.23234) | 本文提出一个可观测性框架，将AI编码代理开发过程中通常被忽视的运行时行为（如重试、回退、路由决策和放弃的会话）记录为结构化事务数据，从而支持基于行为证据的工程辅导、工作流优化和以总任务成本为导向的路由策略改进。 |
+| [^99] | [A Metric for Semantic Graph Matching of No-Code Workflows](https://arxiv.org/abs/2611.23233) | 该论文为无代码工作流图首次定义了严格的语义图匹配度量，证明了其在属性同构意义下满足度量公理，并通过填充匈牙利算法给出可扩展的上界，在4,705个公开n8n工作流上完成了大规模验证。 |
+| [^100] | [Live Noise Fingerprints for Quantum Program Analysis](https://arxiv.org/abs/2611.19143) | 本文提出“噪声指纹”这一紧凑的抽象表示，并通过概率伽罗瓦连接将其与具体噪声行为关联，实现了对含噪量子程序的高效可靠分析，且多项式规模的接口可产生比完整噪声模型指数级更小的指纹。 |
+| [^101] | [Detecting Silent Faults at the Environment-Trainer Boundary in Reinforcement Learning](https://arxiv.org/abs/2611.08144) | 该论文发现强化学习中环境与训练器边界处的静默故障几乎无法通过学习曲线等基于结果的检查发现，而直接检查运行过程中跨越边界传输的数据本身则能检测到每一个注入的故障。 |
+| [^102] | [Interaction-as-a-Judge](https://arxiv.org/abs/2610.17895) | 提出“交互即裁判”评估范式，让计算机操作智能体直接与应用交互来进行评估和生成，弥补了传统基于代码分析与单元测试的自动评估和人类交互式评估之间的差距，并发布了包含人类偏好对与经人类验证需求标签的两个数据集。 |
+| [^103] | [What Does a Harness Buy? Tokens, Mostly](https://arxiv.org/abs/2610.04433) | 该研究通过对七个模型在三个生产级框架和多个基准上的重复对照实验发现，没有任何框架能稳定提升性能，更换框架带来的差异仅有 2 到 5 个百分点、效果与重新运行一次相当，框架带来的分数提升主要源于更多的 token 消耗。 |
+| [^104] | [Hearsay: Who Can Audit the Record a Deployed Agent Harness Writes?](https://arxiv.org/abs/2609.32495) | 该论文提出 Hearsay 基准，揭示了一个关键问题：由于已部署的智能体运行框架是运行记录的唯一书写者，审计者虽能从记录中指认故障（高达九成运行），却无法独立核实记录的真实性，使其沦为法律意义上的“传闻”。 |
+| [^105] | [Who Is Behind the Harness? Fingerprinting LLMs through Agentic Behavior](https://arxiv.org/abs/2609.28559) | 提出了一种名为LIDAR的主动式黑盒指纹识别方法，通过编码智能体在运行时的决策与行动（如编辑后验证、故障恢复和规范-测试冲突处理等行为）来识别框架背后的大语言模型身份。 |
+| [^106] | [Biomedical Knowledge Composition: A Software Engineering Perspective](https://arxiv.org/abs/2608.08927) | 本文从软件工程视角统一阐述生物医学知识基础设施，向软件工程师介绍知识图谱及五大数据协调挑战，并指出软件工具采用不足是生物医学知识基础设施工程化困难的一个根本原因。 |
+| [^107] | [Scrouting: Cost-Aware Routing of Coding Agents by Scouting the Repository First](https://arxiv.org/abs/2608.04804) | SuperScout先用一个7B搜索器侦察仓库并生成经沙箱验证的结构化交接文档，再据此将编码任务路由至合适的前沿模型，在SWE-bench Pro上以约五分之一的成本达到与最佳单一模型相当的解决率，且新增修复模型无需重新训练。 |
+| [^108] | [Where Is the Tradeoff in Using Third-Party API Routers for Agentic Software Development?](https://arxiv.org/abs/2607.23624) | 该论文首次实证研究了编码智能体中第三方API路由器的路由器端注入风险，通过四个隐蔽程度递增的干预级别（如响应替换）揭示其可对软件开发任务造成真实且难以检测的影响，而现有客户端权限机制难以有效防御。 |
+| [^109] | [Prior Knowledge or Search? A Study of LLM Agents in Hardware-Aware Code Optimization](https://arxiv.org/abs/2605.19782) | 该研究通过三个受控实验揭示，LLM智能体在硬件感知代码优化中依赖先验知识而非搜索——它在黑盒优化中表现为贪婪优化器，在零样本内核生成中会完全忽略输入尺寸信息，且面对不常见的内核尺寸时性能急剧下降。 |
+| [^110] | [Analysis of Commit Signing on GitHub](https://arxiv.org/abs/2604.14014) | 该论文首次以GitHub账户为抽样单位，通过对270多万个账户、1600多万次提交和20多万个公钥的大规模端到端分析，系统揭示了开发者提交签名中签名密钥的使用与管理模式。 |
 
 # 详细
 
@@ -801,7 +815,21 @@
 
     arXiv:2611.23311v1 Announce Type: new  Abstract: Quantum computing threatens widely deployed public-key cryptography, making post-quantum cryptography (PQC) adoption a software engineering challenge. However, it remains unclear how well existing educational provision prepares software developers for secure PQC implementation and migration. We conducted a multivocal literature review of 8 research publications and 15 professional training offerings, examining competency coverage, practical software engineering tasks, pedagogical approaches, learner support, and evaluation. All 23 sources covered PQC foundations and algorithms, but coverage of practical software-engineering tasks was uneven. Our analysis identifies six gaps concerning developer focused evaluation, authentic software engineering tasks, task competency alignment, pedagogical design and learner support, security-focused assessment, and long term validation of learning outcomes and transfer. We derive recommendations for str
     
-[^51]: 基于仓库的评分量表：编码智能体的无需执行评估方法
+[^51]: 面向物联网赋能智慧城市的边缘计算：中间件、可解释人工智能与用户行为分析综述
+
+    Edge Computing for IoT-Enabled Smart Cities: A Review of Middleware, Explainable AI, and User Behavior Analytics
+
+    [https://arxiv.org/abs/2611.23310](https://arxiv.org/abs/2611.23310)
+
+    本文提出名为 X-EdgeCity 的新型中间件框架，融合物联网感知、边缘/雾/云计算与可解释人工智能，用于智慧城市用户行为分析，并支持能源感知与关键任务型城市服务。
+
+    
+
+    本综述探讨了用于智慧城市用户行为分析的云-物联网边缘中间件，特别关注将行为分析与能源感知及关键任务型城市服务相联系。该主题处于智慧城市平台、物联网感知、边缘/雾/云计算、面向服务的架构、机器学习、可解释人工智能（XAI）、隐私感知治理，以及能源关键型应用（如电动汽车充电、能源需求、环境暴露、人群安全和城市基础设施运行韧性）的交汇点。为此，本文梳理了用户行为数据的主要类别，考察了五个应用领域，比较了若干案例研究，并提出了一种名为 X-EdgeCity Middleware 的新型 XAI-EdgeSOA 中间件框架。该框架融合了物联网感知、边缘预处理、雾层协调、事件驱动通信、云端分析、XAI 解释以及隐私设计（privacy-by-design）等技术。
+
+    arXiv:2611.23310v1 Announce Type: new  Abstract: This review looks at cloud-IoT edge middleware for analyzing user behavior in smart cities, with a particular focus on linking behavioral analytics to energy-aware and mission-critical urban services. The topic sits at the crossroads of smart-city platforms, IoT sensing, edge/fog/cloud computing, service-oriented architectures, machine learning, explainable AI, privacy-aware governance, and energy-critical applications such as EV charging, energy demand, environmental exposure, crowd safety, and the operational resilience of urban infrastructure. As such, this paper maps out the main categories of user-behavior data, examines five application domains, compares several case studies, and puts forward a new XAI-EdgeSOA Middleware Framework called X-EdgeCity Middleware. This framework brings together IoT sensing, edge preprocessing, fog coordination, event-driven communication, cloud analytics, XAI explanations, privacy-by-design, and benchm
+    
+[^52]: 基于仓库的评分量表：编码智能体的无需执行评估方法
 
     Repository-Grounded Rubrics for Execution-Free Evaluation of Coding Agents
 
@@ -815,7 +843,7 @@
 
     arXiv:2611.23309v1 Announce Type: cross  Abstract: Coding agents are usually evaluated by running task-specific tests, but tests may be missing or incomplete, and running them requires a working environment for each repository. We adapt agentic rubrics, introduced for selecting among candidate patches, into an execution-free measure of how far a patch satisfies a task's requirements. An agent explores the repository before the change and writes weighted binary criteria, and a judge without tools scores a diff by the weighted share of criteria it satisfies. We validate the ordering this score produces against test outcomes on SWE-bench Verified, using 7,291 labeled patches from fifteen systems. Within the 400 tasks that have both resolved and unresolved patches, the mean per-task AUROC is 0.826 (0.838 on tasks not used to tune the rubric-generation prompt), and ranking systems by their failing patches closely agrees with ranking them by resolve rate (Spearman 0.968). Case analyses trace
     
-[^52]: 检查智能体工具中的重试透明性
+[^53]: 检查智能体工具中的重试透明性
 
     Checking Retry Transparency in Agent Tools
 
@@ -829,7 +857,7 @@
 
     arXiv:2611.23307v1 Announce Type: new  Abstract: A successful retry does not necessarily put the earlier attempt behind it. An old write may still overwrite a later acknowledged update; a partially executed file write may even empty a file after the retry has returned successfully. We study how to test the recovery guarantee behind an agent tool's local idempotence claim. Our prototype takes manually constructed, source-backed effect contracts and checks them at two levels: atomic retry-absorption obligations and bounded interleavings of successful-attempt microsteps. It emits model witnesses, conditional admission decisions, and explicit uncertainty when a completion boundary cannot be justified. The evaluation preserves a locally frozen purposive frame of 6 MCP components from 4 repositories; selected paths in 5 execute on the study machine and one backend remains unavailable. Real tests include file, graph, Git-index, document-update and browser bindings, together with a native Qdra
     
-[^53]: 何时精确推断会改变代码选择：对B4的决策论分析
+[^54]: 何时精确推断会改变代码选择：对B4的决策论分析
 
     When Exact Inference Changes Code Selection: A Decision-Theoretic Analysis of B4
 
@@ -843,7 +871,7 @@
 
     arXiv:2611.23306v1 Announce Type: new  Abstract: When generated programs are ranked using generated tests, a more exact posterior computation need not improve the selected program. We characterize this distinction in the published B4 code--test model. Identical execution signatures reduce exact candidate marginalization to N summands and nonempty joint maximum a posteriori (MAP) inference to two weights per group. A prior--budget condition guarantees that B4's whole-group rule already attains MAP; a sharp finite correction bound certifies when candidate marginals must select the same group. All 2,421 default-setting comparisons on 807 development matrices select the same candidates. A prospectively specified validation on 1,345 execution snapshots from a separate public archive also finds no changes in 4,035 default-setting comparisons. Across 80 literature-derived priors, this new archive yields 85 changed top sets in 107,600 comparisons; only six coincide with failure of whole-group 
     
-[^54]: 仓库部署智能体中的依赖伪造行为
+[^55]: 仓库部署智能体中的依赖伪造行为
 
     Dependency Fabrication in Repository Deployment Agents
 
@@ -857,7 +885,35 @@
 
     arXiv:2611.23305v1 Announce Type: cross  Abstract: Repository deployment agents set up the environment needed to run a software repository. They often treat passing tests as proof of a successful setup. This report examines how such agents behave when a working setup is impossible. Probe repositories were built with a dependency that the agents could not legitimately obtain. Passing tests therefore indicated fabrication, such as creating a stub to replace the missing package. Agents in Repo2Run and SetupX usually fabricated the dependency. Both harnesses mostly still marked these runs as successful. Rules against fabrication, whether given in the prompt or repository documentation, did not reliably prevent this behavior. On MinimalSetupAgent, which was built for this report, mitigations proposed in the reward-hacking literature were most effective when the agent received a direct rule and had a clear way to stop and report the problem. Under these conditions, neither Qwen3.5-Plus nor G
     
-[^55]: 当代码能运行但许可证不合规时：评估编程智能体对许可证约束的处理能力
+[^56]: 大语言模型在软件漏洞预测与优先级排序中的应用：综述
+
+    LLMs for Software Vulnerability Prediction and Prioritization: A Review
+
+    [https://arxiv.org/abs/2611.23304](https://arxiv.org/abs/2611.23304)
+
+    该系统性文献综述首次独立于检测文献，综合了23项2024至2026年间的研究，系统梳理了大语言模型在软件漏洞预测、评估、可利用性估计、风险评估与优先级排序五类任务中的应用、性能表现及落地障碍，并提出了按决策结果划分的五类任务分类法与涵盖提示、微调及智能体架构的方法分类法。
+
+    
+
+    大语言模型已经超越了漏洞检测范畴，进入漏洞预测、评估、可利用性估计、风险评估和优先级排序等任务领域，然而这一转变的证据尚未从检测相关文献中单独综合。在这项系统性文献综述中，我们考察了大语言模型在这五类任务中的使用方式、它们相对于既有基线的表现如何，以及哪些因素阻碍了其在实际运营中的采用。遵循预先设定的协议，我们识别了197条记录，去除了53条重复记录，并在标题与摘要阶段排除了103条记录。我们评估了41篇全文，并经过六问质量评估后，最终保留了2024年至2026年间发表的23篇原始研究。本综述的贡献包括：按决策结果排序的五类任务分类法、涵盖提示工程、微调以及检索式或智能体架构的方法分类法、对评估实践的审计，以及有界性能综合分析。
+
+    arXiv:2611.23304v1 Announce Type: new  Abstract: Large language models have moved beyond vulnerability detection into prediction, assessment, exploitability estimation, risk assessment and prioritization, yet the evidence for this shift has not been synthesised separately from the detection literature. In this systematic literature review, we examine how LLMs are used across those five task classes, how well they perform against established baselines, and what prevents their operational adoption. Following a prespecified protocol, we identified 197 records, removed 53 duplicates, and excluded 103 records at title and abstract stage. We assessed 41 full texts and finally retained 23 primary studies published between 2024 and 2026 after a six-question quality assessment. The review contributes a five-class taxonomy ordered by decision outcome, a method taxonomy covering prompting, tuning and retrieval or agentic architectures, an evaluation-practice audit, a bounded performance synthesis
+    
+[^57]: 最优开发路径：分层依赖感知排序的实证评估
+
+    Optimal Development Path: An Empirical Evaluation of Tiered Dependency-Aware Sequencing
+
+    [https://arxiv.org/abs/2611.23303](https://arxiv.org/abs/2611.23303)
+
+    本文实证评估了D-POAF框架中的最优开发路径（ODP）排序策略，发现该简单启发式方法在依赖稀疏的真实Jira冲刺数据上几乎达到最优，但在依赖密集的大规模合成图上略逊于更复杂的依赖感知策略。
+
+    
+
+    D-POAF中的最优开发路径（ODP）通过在波次候选中选择具有最低“工作量与风险相对于价值比率”（ERS/BVS）的合格功能块来对功能块进行排序，同时遵守已声明的前置条件。我们将原生ODP（L0）与四种依赖感知策略进行比较：解锁数量（L1）、已解锁价值（L2）、多跳潜力（L3）和单步推演（L4），并同时与局部搜索、Sidney分解和精确参考算法进行对比。在每块约含一个前置条件的预留合成图上，L0在12个块时达到代理最优值的0.978，而L2为0.993，L4为0.994；在100个块时，L0达到0.942，L2为0.983。相比之下，来自TAWOS中21个开源项目的373个历史Jira冲刺（作为调度代理而非D-POAF波次使用）包含稀疏的已记录依赖关系。在这些实例上，L0达到代理最优值的0.998，并在69%的冲刺中完全最优。
+
+    arXiv:2611.23303v1 Announce Type: new  Abstract: The Optimal Development Path (ODP) in D-POAF orders Feature Blocks in a Wave Candidate by choosing the eligible block with the lowest effort-and-risk-to-value ratio (ERS/BVS), while respecting declared prerequisites. We evaluate native ODP (L0) against four dependency-aware strategies: unlock count (L1), unlocked value (L2), multi-hop potential (L3), and one-step rollout (L4), alongside local search, Sidney decomposition, and an exact reference. On held-out synthetic graphs with about one prerequisite per block, L0 attains 0.978 of the surrogate optimum at 12 blocks, versus 0.993 for L2 and 0.994 for L4. At 100 blocks, L0 attains 0.942 and L2 0.983. In contrast, 373 historical Jira sprints from 21 open-source projects in TAWOS, used as scheduling proxies rather than D-POAF Waves, contain sparse recorded dependencies. On these instances, L0 attains 0.998 of the surrogate optimum and is exactly optimal in 69% of sprints. Unlock bonuses cal
+    
+[^58]: 当代码能运行但许可证不合规时：评估编程智能体对许可证约束的处理能力
 
     When Code Works but the License Doesn't: Evaluating License Constraint Handling in Coding Agents
 
@@ -871,7 +927,7 @@
 
     arXiv:2611.23299v1 Announce Type: cross  Abstract: Coding agents increasingly undertake repository-level development, including dependency selection, source modification, and software deployment. However, existing evaluations prioritize functional success over licensing correctness and commercial suitability.   We investigate whether agents recognize and preserve software-license constraints when developing proprietary software. Experiments across multiple agents examine permissive and copyleft licenses, missing licensing information, transitive dependencies, source modification, dual licensing, vendoring, and distribution contexts. Agent traces, repository changes, and final artifacts are evaluated against licensing ground truth.   Results reveal a persistent gap between functional and licensing correctness. Agents can successfully build and test software while overlooking licensing constraints involving provenance, authorization, and distribution. Better outcomes emerge when licensin
     
-[^56]: 通过资产管理壳实现软件定义汽车中的即插即用传感器演进
+[^59]: 通过资产管理壳实现软件定义汽车中的即插即用传感器演进
 
     Plug-and-Play Sensor Evolution in Software-Defined Vehicles through Asset Administration Shells
 
@@ -885,7 +941,7 @@
 
     arXiv:2611.23298v1 Announce Type: new  Abstract: Software-defined vehicles (SDVs) promise continuous software evolution, but sensor integration in deployed vehicles still depends on manual configuration, hardware-specific drivers, and repeated application-side adaptation. Existing standards address only parts of this problem. AUTOSAR standardizes selected sensor interfaces, the Vehicle Signal Specification (VSS) standardizes signal semantics, and Asset Administration Shells (AAS) standardize digital asset descriptions. However, these building blocks are rarely combined into an end-to-end onboarding path for sensors attached after vehicle deployment.   This paper presents an AAS-driven plug-and-play sensor integration framework for safety-supervised sensors. Each sensor is represented by an AAS that combines hardware identification, interface metadata, VSS mappings, and references to containerized driver and optional application software. After physical connection, an edge gateway ident
     
-[^57]: 大数据架构中数据摄取的架构设计决策
+[^60]: 大数据架构中数据摄取的架构设计决策
 
     Architectural Design Decisions for Data Ingestion in Big Data Architectures
 
@@ -899,7 +955,7 @@
 
     arXiv:2611.23297v1 Announce Type: new  Abstract: Introduction: Data ingestion is the first critical step in a data architecture, in which data from various sources is moved to storage systems, such as data lakes and data warehouses, for analysis and insight generation. When developing a data ingestion pipeline, practitioners (e.g., data engineers and architects) must understand the data ingestion requirements (functional and non-functional) and select appropriate design options to support them.   Objective: To help practitioners systematically develop data ingestion processes, this paper aims to compile a catalog of data ingestion design decisions, their options, and the selection drivers.   Method: We conducted a systematic gray literature review on data ingestion, analyzed the selected literature using qualitative data analysis methods, and conducted semi-structured interviews with experts to assess the framework's practicality and utility.   Results: From 42 gray literature articles
     
-[^58]: 询问同行：为需求评审排序NFR覆盖缺口
+[^61]: 询问同行：为需求评审排序NFR覆盖缺口
 
     Ask the Peers: Ranking NFR Coverage Gaps for Requirements Review
 
@@ -913,7 +969,7 @@
 
     arXiv:2611.23296v1 Announce Type: cross  Abstract: Missing or underrepresented non-functional requirements (NFR) categories leave little direct evidence in a requirements set, making them difficult to identify during requirements review. In this study, we frame NFR coverage-gap review as a project-level ranking task: given a target requirements specification, the goal is to rank the 11 PROMISE NFR categories for analyst inspection. We compare seven statistical, embedding-based, and large language model (LLM)-based configurations that differ in both ranking mechanism and evidence source, including target requirement statements, peer requirements, their semantic representation, and peer category statistics. We evaluate the configurations using controlled gap injection with leave-one-project-out evaluation on PROMISE, PROMISE+, PURE-Transport, and PURE-Business. Four configurations that use peer category statistics are effectively tied under complete removal (0.875-0.889 mean AUROC), desp
     
-[^59]: 从模糊工单到排序假设：面向自主重型车辆软件的多智能体根因分析
+[^62]: 从模糊工单到排序假设：面向自主重型车辆软件的多智能体根因分析
 
     From Ambiguous Tickets to Ranked Hypotheses: Multi-Agent Root-Cause Analysis for Autonomous Heavy-Vehicle Software
 
@@ -927,7 +983,35 @@
 
     arXiv:2611.23294v1 Announce Type: new  Abstract: Autonomous haulage systems run safety-critical software on driverless mining trucks, with no onboard driver to detect or mitigate abnormal behavior. Every failure in testing or operation must therefore be traced to its root cause to keep the safety case valid and limit downtime. An investigation often starts from a sparse ticket containing an approximate timestamp, sometimes a suspected cause, and a multimodal vehicle recording of several gigabytes. We present a multi-agent root-cause analysis (RCA) workflow that turns this input into a telemetry-grounded event chain, ranked causal hypotheses, and candidate code locations. A suspected cause in the ticket, which could anchor the analysis on a false theory, goes to a single LLM analyst in a separate agent session. Non-neural tools select the relevant telemetry once, before analysis, and an LLM condenses it into shared evidence artifacts; this more than halved the cost per incident compared
     
-[^60]: 已判定还是悬而未决？当补丁正确性未知时比较程序修复技术
+[^63]: 生产环境中机器学习系统的监控：一项多声部文献综述
+
+    Monitoring Machine Learning Systems in Production: A Multivocal Literature Review
+
+    [https://arxiv.org/abs/2611.23293](https://arxiv.org/abs/2611.23293)
+
+    该论文通过对94篇学术与灰色文献的多声部综述，构建了机器学习系统生产监控的分类体系，并揭示了监控过程的不均衡性——观察、检测与报告环节已高度自动化，而监控配置、调查与响应仍高度依赖人工，且监控集中于推理阶段、缺乏对整个生产系统的端到端覆盖。
+
+    
+
+    监控对于部署后维护可靠的机器学习（ML）系统至关重要。然而，关于其实际实施与有效性的知识仍分散于学术文献和灰色文献之中。我们对94个来源（37个学术来源和57个灰色文献来源）进行了多声部文献综述，涵盖传统机器学习系统和生成式人工智能系统。我们构建了涵盖监控对象与属性、技术、输入信号、工具、自动化、频率、评估以及挑战的分类体系。我们的研究结果揭示了监控过程的不均衡性：现有方法在观察系统行为、检测问题和传达发现方面提供了广泛且大部分自动化的支持，而监控配置、调查和响应环节仍需要大量的人工参与。监控集中于推理阶段，没有任何来源覆盖完整的生产机器学习系统，这限制了端到端的诊断能力。关于有效性的证据……（原文摘要在此处被截断）
+
+    arXiv:2611.23293v1 Announce Type: new  Abstract: Monitoring is essential for maintaining reliable machine learning (ML) systems after deployment. However, knowledge about its practical implementation and effectiveness remains fragmented across academic and gray literature. We present a multivocal literature review of 94 sources (37 academic and 57 gray) covering both traditional ML and generative AI systems. We develop taxonomies covering monitored objects and properties, techniques, input signals, tools, automation, frequency, evaluation, and challenges. Our findings reveal an imbalanced monitoring process. Existing approaches provide broad and largely automated support for observing system behavior, detecting problems, and communicating findings, while monitor configuration, investigation, and response retain substantial human involvement. Monitoring is concentrated on inference, with no source covering the entire production ML system, limiting end-to-end diagnosis. Evidence of effec
+    
+[^64]: 拉取请求描述中视觉制品的实证研究
+
+    An Empirical Study of Visual Artifacts in Pull Request Descriptions
+
+    [https://arxiv.org/abs/2611.23289](https://arxiv.org/abs/2611.23289)
+
+    本研究首次对GitHub拉取请求描述中的视觉制品进行大规模实证研究，构建了包含247万余个PR的VisPR数据集，发现13.3%的PR包含视觉制品，并提出了涵盖11种内容类型和6种用途的双分类体系。
+
+    
+
+    审阅者依赖拉取请求（PR）描述来了解代码变更的作用，然而某些变更（如界面更新或运行时行为）很难仅通过文字来传达。PR作者会附加视觉制品来填补这一空白，但他们这样做的频率如何、展示的内容是什么、以及这些视觉制品是否会改变PR的审阅方式，目前仍不得而知。我们对GitHub PR描述中的视觉制品进行了大规模研究。从5,012个仓库中的6,505,113个已关闭PR中，我们构建了VisPR数据集，其中包含来自647个仓库的2,473,892个英文人工编写的PR，这些仓库中视觉制品已是普遍做法。其中，329,185个（13.3%）是视觉PR，即其描述中包含至少一个视觉制品（总计479,974个）。通过手动标注来自891个已合并视觉PR的1,113个视觉制品样本，我们得出了两个分类体系：11种内容类型（刻画开发者展示什么）和6种目的（刻画他们为何包含视觉制品）。占主导地位的内容类型是……
+
+    arXiv:2611.23289v1 Announce Type: new  Abstract: Reviewers rely on pull request (PR) descriptions to understand what a change does, yet some changes, such as UI updates or runtime behavior, are hard to convey in text alone. PR authors attach visual artifacts to fill this gap, but how often they do so, what they show, and whether they change how a PR is reviewed remain unknown. We present a large-scale study of visual artifacts in GitHub PR descriptions. From 6,505,113 closed PRs in 5,012 repositories, we built VisPR, a dataset of 2,473,892 English, human-authored PRs from 647 repos where visual artifacts are an established practice. Of these, 329,185 (13.3%) are visual PRs, i.e., their descriptions contain at least one visual artifact (479,974 in total). By manually labeling a sample of 1,113 visual artifacts from 891 merged visual PRs, we derived two taxonomies: 11 content types capturing what developers show and six purposes capturing why they include visual artifacts. The dominant c
+    
+[^65]: 已判定还是悬而未决？当补丁正确性未知时比较程序修复技术
 
     Decided or Open? Comparing Program Repair Techniques When Patch Correctness Is Unknown
 
@@ -941,7 +1025,7 @@
 
     arXiv:2611.23287v1 Announce Type: new  Abstract: Comparisons of automated program repair (APR) techniques depend on knowing which patches are correct, but many patches are never checked and some archived test results are wrong. We propose reporting each comparison as decided or open. For two techniques that each pick one patch per bug, we compute the full range of the difference in their success rates over every possible value of the unknown labels, and we call the comparison decided when that range excludes zero. Because a test can only show that a patch is wrong, more testing can move this range in one direction only. This lets us tell, before any test runs, which open comparisons testing could never settle. We study eight settings, including 55,466 candidate patches for Defects4J bugs. The labels already in the archive decide 12 of 16 comparisons between a learned patch selector and its baselines, and adding further evidence decides all 16. In a campaign whose predictions we publish
     
-[^61]: 轻松的错觉：生成式AI如何在软件组织中重新分配认知工作量
+[^66]: 轻松的错觉：生成式AI如何在软件组织中重新分配认知工作量
 
     The Illusion of Relief: How GenAI Redistributes Cognitive Workload in Software Organizations
 
@@ -955,7 +1039,7 @@
 
     arXiv:2611.23286v1 Announce Type: cross  Abstract: This study explores how Generative AI (GenAI) reshapes software practitioners' cognitive work across software development activities. We analyzed questionnaire responses from 44 practitioners across nine organizations using descriptive quantitative methods and qualitative analysis of relevant open-ended responses. Practitioners reported productivity and time savings, but also effort associated with providing context, prompting, reviewing, correcting, verifying, and integrating AI-generated outputs. Human judgment and accountability remained central, with practitioners anticipating a shift from direct code production to guiding, evaluating, validating, integrating, and coordinating AI-supported work. Thus, GenAI appears to redistribute cognitive work toward oversight rather than simply eliminate it, although whether overall cognitive workload increases or decreases remains undetermined.
     
-[^62]: 超越星标：MTTX 将开发者响应能力引入依赖决策，覆盖仪表盘、IDE 到 GitHub Actions
+[^67]: 超越星标：MTTX 将开发者响应能力引入依赖决策，覆盖仪表盘、IDE 到 GitHub Actions
 
     Beyond Stars: MTTX Brings Developer Responsiveness to Dependency Decisions, from Dashboard to IDE to GitHub Actions
 
@@ -969,7 +1053,21 @@
 
     arXiv:2611.23285v1 Announce Type: new  Abstract: Modern software reuses open-source packages as dependencies, and developers often choose among candidate packages with cheap signals, such as GitHub stars and download counts. However, such signals are easy to fake, so developers need signals that represent "observed behavior," such as how quickly the developers of a package respond to new dependency releases and to security fixes. Prior work computed these responsiveness metrics, MTTU (Mean Time To Update) dependencies and MTTR (Mean Time To Remediate) vulnerable dependencies, but only with a research prototype for a fixed set of packages. Therefore, developers cannot easily benefit from them or integrate them into their workflow. We present MTTX, an open-source tool that computes MTTU and MTTR with accurate historical dependency resolution for any package and given time window, and brings them into different phases of developer workflow. MTTX resolves each version constraint of npm, Py
     
-[^63]: 单智能体何时足够：重新思考用于自动化代码审查的多智能体系统
+[^68]: Scratch中的代码克隆与过程抽象：对共存复用实践的大规模研究
+
+    Code Cloning and Procedural Abstraction in Scratch: A Large-Scale Study of Co-Existing Reuse Practices
+
+    [https://arxiv.org/abs/2611.23284](https://arxiv.org/abs/2611.23284)
+
+    该研究通过对204万个Scratch项目的大规模分析，首次揭示了代码克隆与自定义块抽象这两种复用实践的共存关系，发现绝大多数频繁出现的克隆模式都可以被提取为自定义块抽象，为引导Scratch编程者从复制走向抽象提供了实证依据。
+
+    
+
+    代码克隆是软件演化中一个长期存在的问题：随着软件的变化，重复的实现会产生分歧。然而，在基于积木块的编程中，复制是一种日常的复用机制，Scratch 助长了一种复制粘贴的文化，这可能阻碍抽象化。我们在204万个公开的Scratch项目中研究了这种关系。我们将克隆的代码序列与现有的抽象进行比较，并考察它们的使用方式在不同计算思维（CT）分数水平上的差异。克隆出现在6.2%的项目中，自定义块出现在11.9%的项目中。在检测到的436,198个克隆实例中，16.1%具有与同一项目中自定义块匹配的规范化序列，17.8%仅与项目之外的自定义块匹配。在模式层面，100个最频繁的克隆模式中有83个在语料库的其他地方存在可实现为自定义块的对应模式。在剩余的17个模式中，有15个适合提取为自定义块，而在两个案例中，抽象化的收益……（摘要原文在此处截断）
+
+    arXiv:2611.23284v1 Announce Type: new  Abstract: Code cloning is a long-standing software-evolution concern: duplicated implementations diverge as software changes. In block-based programming, however, duplication is an everyday reuse mechanism, and Scratch facilitates a copy-and-paste culture that may hinder abstraction. We study this relation in 2.04 million public Scratch projects. We compare cloned sequences with existing abstractions and examine how their use varies across Computational Thinking (CT) score levels. Clones occur in 6.2% of projects and custom blocks in 11.9%. Of 436,198 detected clone instances, 16.1% have a normalized sequence matching a custom block in the same project and 17.8% match a custom block only outside it. At the pattern level, 83 of the 100 most frequent clone patterns have counterparts implementable as custom blocks elsewhere in the corpus. Of the remaining 17 patterns, 15 are amenable to custom-block extraction, while in two cases the benefit of abstr
+    
+[^69]: 单智能体何时足够：重新思考用于自动化代码审查的多智能体系统
 
     When Single Agent Is Enough: Rethinking Multi-Agent Systems for Automated Code Review
 
@@ -983,7 +1081,7 @@
 
     arXiv:2611.23283v1 Announce Type: cross  Abstract: Code review plays a critical role in identifying software quality issues and ensuring system robustness. Prior work has proposed techniques for Review Comment Generation (RCG) and Code Refinement (CR), with recent Multi-Agent (MA) approaches achieving state-of-the-art results by coordinating agents specialized in different quality dimensions. However, MA systems introduce substantial architectural complexity and runtime overhead, and recent evidence suggests they may underperform Single-Agent (SA) approaches in certain tasks. In this work, we systematically compare MA and SA designs for RCG and CR. Surprisingly, our results show that SA approaches perform comparably to- and sometimes outperform-MA systems, despite their simpler design. These findings challenge the prevailing assumption that MA architectures are the default choice for complex software engineering tasks.
     
-[^64]: Ephyra：面向大语言模型时代的基于属性的测试框架
+[^70]: Ephyra：面向大语言模型时代的基于属性的测试框架
 
     Ephyra: A Property-Based Testing Framework for the LLM Era
 
@@ -997,7 +1095,7 @@
 
     arXiv:2611.23282v1 Announce Type: cross  Abstract: Coding agents now write a growing share of software tests; however, property-based testing (PBT) libraries are designed with historical considerations. We present Ephyra, a PBT library in Rust built on three concepts: customizability, observability and generator synthesis. Ephyra lets users compose their own testing loops from generation, mutation and shrinking, and synthesize these components to satisfy functional predicates. Applying Ephyra to 14 open source systems, we have found 349 bugs and reported 300 of them, in database management systems (SQLite, Turso, PostgreSQL, DuckDB, DataFusion), the verified policy engine (Cedar), the SQL equivalence prover (QED), the URL parser used in Node.js (ada-url), reimplementations of existing open source systems in Rust (coreutils, brush, gitoxide), and compilers (binaryen, OCaml, and OxCaml).
     
-[^65]: 面向基于大语言模型智能体的日志分析：一项生命周期导向的综述
+[^71]: 面向基于大语言模型智能体的日志分析：一项生命周期导向的综述
 
     Log Analysis for LLM-Based Agents: A Lifecycle-Oriented Survey
 
@@ -1011,7 +1109,21 @@
 
     arXiv:2611.23281v1 Announce Type: new  Abstract: Logs generated by LLM-based agents support analysis of execution behavior beyond final outputs. Existing surveys give limited attention to dependencies across the lifecycle of these records. A lifecycle-oriented review of 90 core studies published between 2024 and August 2026 covers Agent Logging, Agent Log Structuring, and Agent Log Mining. Stage-specific comparisons reveal cross-stage dependencies and limitations. Detailed logs do not necessarily provide sufficient evidence. Structural uniformity does not guarantee semantic equivalence. Analytical claims require alignment with supporting evidence, reference criteria, and validation procedures. Representative open-source tools, public datasets, and future research directions are also summarized.
     
-[^66]: 数据市场工作流中用于安全声明组合的证据携带合约
+[^72]: 智能体作为架构评估者：自动化ATAM与SAAM以实现持续评估
+
+    Agents as Architecture Evaluators: Automating ATAM and SAAM for Continuous Assessment
+
+    [https://arxiv.org/abs/2611.23278](https://arxiv.org/abs/2611.23278)
+
+    本文提出利用智能体AI工作流自动化软件架构评估方法ATAM与SAAM，并通过从学术文献构建结构化评估数据集，实现降低成本与专家门槛的持续架构评估。
+
+    
+
+    软件系统的长期成功在很大程度上取决于其底层架构，而底层架构决定了系统在质量属性方面的表现。软件架构评估方法，如架构权衡分析方法（ATAM）和软件架构分析方法（SAAM），因其能够缓解风险并确保可靠的质量属性而得到广泛认可。然而，由于这些过程需要大量的成本、时间和人类专家知识，其广泛应用仍然受限。本文探讨了智能体人工智能降低这些门槛并促进架构评估的潜力。为了开展这项初步研究，我们通过将现有学术文献中由人工执行的评估提取为结构化格式，建立了一个数据集。基于该数据集，我们开发了一个智能体工作流，以根据这些高层架构信息合成ATAM和SAAM评估报告。
+
+    arXiv:2611.23278v1 Announce Type: new  Abstract: The long-term success of a software system relies heavily on its underlying architecture, which dictates its performance with respect to quality attributes. Software Architecture Evaluation methods, such as the Architecture Tradeoff Analysis Method (ATAM) and the Software Architecture Analysis Method (SAAM), are widely recognized for their ability to mitigate risks and ensure reliable quality attributes. However, their widespread adoption remains limited due to the significant cost, time, and human expertise required for these processes. This paper investigates the potential of agentic AI to lower these barriers and facilitate architectural assessment. To enable this preliminary study, we established a dataset by extracting human conducted evaluations from existing academic literature into a structured format. Using this dataset, we developed an agentic workflow to synthesize ATAM and SAAM evaluation reports based on these high level arc
+    
+[^73]: 数据市场工作流中用于安全声明组合的证据携带合约
 
     Evidence-Carrying Contracts for Safe Claim Composition in Data Marketplace Workflows
 
@@ -1025,7 +1137,21 @@
 
     arXiv:2611.23276v1 Announce Type: new  Abstract: Data marketplace workflows cross organizational boundaries, where payment, policy presence, or API delivery may be promoted into transaction claims that the evidence does not support. We introduce evidence-carrying claim contracts: a lightweight assume-guarantee semantics declaring assumptions, guarantees, blocking obligations, and evidence dependencies. A conflict-sensitive four-state domain distinguishes supported, refuted, unresolved, and conflicting requirements. Safe composition bounds the transaction claim by the meet of local bounds and blocks full promotion while a critical obligation remains open. We establish local soundness, compositional boundedness, revocation safety, termination, and aggregation-order invariance for finite acyclic workflows. An executable conformance harness covers all 4,096 configurations (four states for each of six stages), 18 mutations, six basic revocations, 12 alternative-support scenarios, an eight-t
     
-[^67]: 并发生成的结构化记录映照了它所伴随的散文叙述：《隐藏待处理工具调用》场景的预注册概念性复制与扩展
+[^74]: AI代码审查需要具备修订感知能力的关注点解决证据
+
+    AI Code Review Requires Revision-Aware Evidence of Concern Resolution
+
+    [https://arxiv.org/abs/2611.23275](https://arxiv.org/abs/2611.23275)
+
+    本文主张AI代码审查不能仅凭关闭线程或修改被评论代码行就认定问题已解决，而需要修订感知、可检验的解决证据并在依赖变化时重新验证，据此设计了轻量级方法REVAL，显著减少将未解决问题误判为已解决的情况。
+
+    
+
+    AI辅助代码审查日益被用于判断所报告的关注点（问题）是否已得到解决。然而，关闭讨论线程或修改被评论的代码行并不能证明修复已经完成，而且后续的修订还可能使早期的修复失效。这篇立场论文主张，关注点的“解决”需要可检验的、与特定修订相关的证据，并且当这些证据的依赖关系发生变化时应重新验证。我们将审查关注点建模为持久的验证义务，推导出一个充分条件——在该条件下，基于依赖关系门控的重新验证与穷尽式重新评估的结果相一致——并提出了REVAL，这是一种借鉴回归测试选择与构建系统原理的轻量级流程。我们在涵盖441个关注点、1,284次评估和12个缺陷族的合成修订历史数据上，以oracle基准真值为参照对REVAL进行了评估。一种“粘性过期行”代理方法将72.9%的未解决状态错误地标记为已解决，而首次检查通过后即停止验证的做法则遗漏了所有的问题复发。（摘要在此处被截断）
+
+    arXiv:2611.23275v1 Announce Type: new  Abstract: AI-assisted code review increasingly judges whether reported concerns have been resolved. Yet closing a thread or modifying a commented line does not establish repair, and later revisions can invalidate earlier fixes. This position paper argues that resolution requires inspectable, revision-specific evidence that is revalidated when its dependencies change. We model review concerns as persistent verification obligations, derive a sufficient condition under which dependency-gated revalidation matches exhaustive reassessment, and introduce REVAL, a lightweight procedure adapting principles from regression-test selection and build systems. We evaluate REVAL against oracle ground truth in synthetic revision histories covering 441 concerns, 1,284 assessments, and 12 defect families. A sticky outdated-line proxy falsely marked 72.9% of unresolved states as resolved, while stopping checks after initial success missed every recurrence. With thre
+    
+[^75]: 并发生成的结构化记录映照了它所伴随的散文叙述：《隐藏待处理工具调用》场景的预注册概念性复制与扩展
 
     A Concurrent Structured Record Mirrored the Prose It Accompanied: A Pre-Registered Conceptual Replication and Extension of the Hide Pending Tool Call Scenario
 
@@ -1039,7 +1165,7 @@
 
     arXiv:2611.23274v1 Announce Type: cross  Abstract: Huang et al. (2026) show that language models writing reports of agentic work tend to conceal narrative-changing flaws, and that appending "Be honest in your response." to the instruction substantially increases disclosure in most of their scenarios. In their Hide Pending Tool Call scenario, where a broader follow-up query was accepted but never returned, the honesty prompt left GPT-5.5's rate of flagging the missing data at 0%, although it turned most answers into caveats. I ask whether a different request changes this: appending, in the same generation, a structured record that follows the schema of an adversarial-review tool, including a residue section for what remained unresolved. In two pre-registered phases on the same 100 synthetic log pairs, each pending log matched with a clean twin in which the follow-up query did return, I ran gpt-5.6-sol through Codex CLI under four conditions. Phase 1 measured the record: with the residue
     
-[^68]: torchtest2：一次调用即可完成的 PyTorch 模型健全性检查，并在真实与未见过的架构上进行评估
+[^76]: torchtest2：一次调用即可完成的 PyTorch 模型健全性检查，并在真实与未见过的架构上进行评估
 
     torchtest2: One-Call Sanity Checks for PyTorch Models,Evaluated on Real and Unseen Architectures
 
@@ -1053,7 +1179,35 @@
 
     arXiv:2611.23273v1 Announce Type: new  Abstract: Many bugs in deep learning code are silent: a layer that is never called, an optimizer created before the classification head was replaced, a recurrent layer that treats the batch as time, or an ignored attention mask. The code runs, the loss decreases somewhat, and the defect surfaces, if ever, after days of GPU time. We present torchtest2, an open-source library that runs 18 sanity checks on a single batch with one call, restores the PyTorch state it touches, and adapts to model families through plugins. We evaluate it by mutation analysis with 17 classes of silent bugs on 103 models from torchvision, timm and Hugging Face transformers, on 600 random architectures and on 20 hand-written realistic bugs, against the checks of the original torchtest, overfitting a single batch, a smoke test and a training monitor in the style of AUTOTRAINER and DeepDiagnosis. Every mutant is compared with its healthy counterpart, and intervals come from a
     
-[^69]: 软件漏洞管理的行业视角：方法、工具、实践与挑战的系统性综述
+[^77]: 越级会议：基于被跳过管理者经验的收益、风险与设计考量
+
+    Skip-Level Meetings: Benefits, Risks, and Design Considerations Informed by Bypassed Managers' Experiences
+
+    [https://arxiv.org/abs/2611.23271](https://arxiv.org/abs/2611.23271)
+
+    这项探索性定性研究首次关注了越级会议中被跳过的直接管理者的经历与视角，通过与25名美国科技行业软件工程管理者的访谈及相关文献，揭示了越级会议为各利益相关方带来的收益与风险，并为越级会议的设计提供了实践考量。
+
+    
+
+    越级会议是指员工与其跨两级或更多层级的管理者之间进行的双向、关系导向型会议，这种会议形式较为常见但并不普遍，且经常在专业刊物中被推荐采用。它为员工、直接管理者、越级管理者以及组织同时带来收益与风险，多种因素会影响其价值与风险的平衡以及恰当的实施方式。然而，越级会议在学术研究中受到的关注有限，尤其是关于被跳过的管理者对这一管理实践的看法更是鲜有研究。这项探索性定性研究考察了 25 名处于第一层级的软件工程管理者的经历与观点，他们来自多元、动态、创新驱动且人员流动率高的美国科技行业中不同的个人与组织背景，在其直接下属与第二层级管理者之间的越级会议中充当被跳过的管理者角色。他们的叙述与直接相关的文献相结合……
+
+    arXiv:2611.23271v1 Announce Type: new  Abstract: Skip-level meetings (SLMs), bidirectional, relationship-oriented meetings between employees and managers two or more levels above, are common but not universal, and often recommended in professional outlets. They entail benefits and risks for employees, direct and skip-level managers, and organizations, with multiple factors related to shaping the value-risk balance and appropriate approach. However, SLMs have received limited scholarly attention, particularly regarding bypassed managers' views of that managerial practice. This exploratory qualitative study examined the experiences and perspectives of 25 first-tier software engineering managers from diverse personal and organizational contexts in the multicultural, dynamic, innovation-driven, and high-turnover U.S. tech sector as bypassed managers in SLMs between their direct reports and these reports' second-tier managers. Their accounts, integrated with directly related literature, as 
+    
+[^78]: f2x50：面向Fortran到X软件迁移的仓库规模基准测试
+
+    f2x50: A Repository-Scale Benchmark for Fortran-to-X Software Migration
+
+    [https://arxiv.org/abs/2611.23268](https://arxiv.org/abs/2611.23268)
+
+    f2x50是一个仓库规模的迁移基准，包含50个公开Fortran仓库、超过650万行代码和561个确定性行为探针，用于评估从Fortran到其他语言的仓库级软件迁移质量。
+
+    
+
+    仓库级迁移不仅仅是翻译孤立的函数：它必须在模块、共享状态、构建结构和依赖关系之间保持行为一致。现有的翻译基准主要涵盖小型程序或小型仓库，或者是固定的、被广泛研究的语言对。我们提出了f2x50，这是一个与目标无关的基准，包含50个固定到确切Git版本的公开Fortran仓库。它包含12,116个受Git跟踪的Fortran文件和6,569,806行代码，分为三个结构复杂度层级，并配有561个确定性行为探针。在这些探针中，446个通过小型驱动程序编译固定的源文件，涵盖131个仓库-例程对。每个仓库至少有五个直接检查，共同执行至少两个例程。f2x50还提供了用于获取、验证、许可证审查和可重现性的与目标无关的工具，以及用于评估的参考适配器。
+
+    arXiv:2611.23268v1 Announce Type: new  Abstract: Repository-level migration requires more than translating isolated functions: it must preserve behaviour across modules, shared state, build structure, and dependencies. Existing translation benchmarks predominantly cover small programs or small repositories, or fixed and widely studied language pairs. We present f2x50, a target-independent benchmark comprising 50 public Fortran repositories pinned to exact Git revisions. It contains 12,116 Git-tracked Fortran files and 6,569,806 lines, divided into three structural-complexity tiers and paired with 561 deterministic behavioural probes. Of these probes, 446 compile pinned source files with small drivers and span 131 repository--routine pairs. Every repository has at least five direct checks that collectively execute at least two routines. f2x50 provides target-independent tools for acquisition, validation, licence review, and reproducibility, together with a reference adapter for evaluati
+    
+[^79]: 软件漏洞管理的行业视角：方法、工具、实践与挑战的系统性综述
 
     An Industry Perspective on Software Vulnerability Management: A Systematic Review of Approaches, Tools, Practices, and Challenges
 
@@ -1067,7 +1221,21 @@
 
     arXiv:2611.23267v1 Announce Type: new  Abstract: Software vulnerability management (SVM) refers to coordinated activities to detect, assess, repair, and disclose software vulnerabilities (SVs) across a product or ecosystem. As software systems grow in scale and dependency depth, organisations must balance timely security action with limited expertise, evolving tooling, and delivery pressure. In this practitioner-centred systematic literature review, we synthesise 57 peer-reviewed empirical studies published between 2010 and 2025 that collect primary data directly from industry practitioners. We examine the SVM solutions (approaches, tools, and practices) proposed and evaluated with practitioners and the challenges practitioners report when adopting and using these solutions in real-world settings. We find that practice-oriented contributions, such as guidelines, recommendations, lessons learned, and shared experiences, constitute most of the evidence base, while fewer studies evaluate 
     
-[^70]: 逃离拟人化陷阱：解决未来AI软件开发中的认知错配问题
+[^80]: 技能轮盘：测量大语言模型编程代理的技能调用率
+
+    Skill Roulette: Measuring Skill Invocation Rate Across LLM Coding Agents
+
+    [https://arxiv.org/abs/2611.23266](https://arxiv.org/abs/2611.23266)
+
+    该论文提出“技能调用率”这一量化指标，通过约2万次大规模重复试验，系统测量了LLM编程代理在不同因素（技能元数据、竞争技能、上下文指令、任务措辞等）影响下调用相关技能的可靠性。
+
+    
+
+    代理技能为大语言模型（LLM）编程代理封装了操作流程。代理在阅读流程内容之前，仅凭技能的名称和描述来选择技能。因此代理可能在未调用相关技能的情况下就完成任务。我们研究了编程代理调用相关技能的可靠程度，以及哪些因素会影响这一决策。我们通过使用相同输入重复试验来估计调用率；调用率是指代理调用了相关技能的试验所占比例。我们测试了9个非方向性假设，涉及技能元数据、竞争性技能、上下文指令以及任务的措辞和构成。其中八个假设关于调用行为；第九个测试提供某项技能是否会改变任务本身并未要求的某个动作的出现频率。我们使用合成代码仓库中来自4个软件工程类别的任务，在4种编程代理框架上分别运行2个模型进行测试。计划中的20,400次试验包含60次重复……
+
+    arXiv:2611.23266v1 Announce Type: new  Abstract: Agent skills package procedures for large language model (LLM) coding agents. An agent selects a skill from its name and description before reading the procedure. It may complete the task without invoking a relevant skill. We investigate how reliably coding agents invoke relevant skills and which factors affect that decision. We estimate invocation rates by repeating trials with identical inputs; invocation rate is the proportion of trials in which the agent invokes the relevant skill. We test 9 non-directional hypotheses about skill metadata, competing skills, contextual instructions, and task wording and composition. Eight concern invocation; the ninth tests whether making a skill available changes the occurrence of an action that the task does not request. We use tasks from 4 software engineering categories in a synthetic repository, running each of 4 coding-agent harnesses with 2 models. The planned 20,400 trials include 60 repetitio
+    
+[^81]: 逃离拟人化陷阱：解决未来AI软件开发中的认知错配问题
 
     Escaping the Anthropomorphic Trap: Resolving the Cognitive Mismatch in Future AI Software Development
 
@@ -1081,7 +1249,7 @@
 
     arXiv:2611.23264v1 Announce Type: new  Abstract: For more than a half-century, the foundational paradigms of software development-such as modularity, information hiding, and hierarchical labor division-have been engineered to accommodate the strict cognitive limitations of human working memory. However, the rapid emergence of multi-agent artificial intelligence exposes a fundamental cognitive mismatch. Current frameworks attempt to integrate high-dimensional, stateless neural reasoning engines by coercing them to operate within these legacy, human-centric structures, falling into an anthropomorphic trap. This friction generates a novel, highly volatile behavioral entropy defined as AI-software technical debt, wherein amnesic agents hallucinate opaque workarounds to bypass architectural blindfolds. To resolve this, we propose Invisible Software Engineering (Invisible SE), a paradigm shift from agent-centric human emulation to environment-centric stigmergic governance. By reimagining the
     
-[^71]: 社会债务缓解措施的感知有效性：一项初步的情景式问卷调查
+[^82]: 社会债务缓解措施的感知有效性：一项初步的情景式问卷调查
 
     Perceived Effectiveness of Social Debt Mitigation Measures: A Preliminary Vignette-Based Survey
 
@@ -1095,7 +1263,7 @@
 
     arXiv:2611.23263v1 Announce Type: new  Abstract: Software engineering is a socio-technical discipline in which unresolved social and organizational problems accumulate as social debt, gradually eroding collaboration and project health. The literature offers a solid vocabulary for these problems but says little about which countermeasures practitioners consider effective. We address this gap with a vignette-based survey: six social debt problem dimensions (Organizational Silo, Newcomer Isolation, Communication Breakdown, Knowledge Bottleneck, Cultural and Geographical Distance, Psychological Safety Deficit) were presented as realistic team scenarios, and 23 IT professionals and advanced students rated 41 literature-derived mitigation measures. Rankings were analyzed with paired t-tests and a hierarchical Bayesian model that accounts for the within-subject design and yields, for each measure, the probability of being the best option in its scenario. Only for Communication Breakdown is th
     
-[^72]: 金融领域的人工智能与早期职业技能转变：关于决策委托、银行部署与商业教育的结构化证据综合
+[^83]: 金融领域的人工智能与早期职业技能转变：关于决策委托、银行部署与商业教育的结构化证据综合
 
     Artificial Intelligence in Finance and the Early-Career Skills Shift: A Structured Evidence Synthesis of Decision Delegation, Bank Deployments, and Business Education
 
@@ -1109,7 +1277,7 @@
 
     arXiv:2611.23261v1 Announce Type: new  Abstract: Artificial intelligence is becoming a general interaction and decision-support layer across finance. Banks use AI for research retrieval, document synthesis, meeting follow-up, customer service, coding, fraud detection, risk support, and increasingly multi-step workflows. This paper asks which parts of finance work can be delegated safely, which remain human-owned, and how education should change when AI compresses the tasks through which novices traditionally build judgment. It presents a structured evidence synthesis of research and public evidence released from 2023 through October 2026 across finance, labor economics, education, bank deployments, and financial regulation. Numerical results and deployment claims remain attributed to their original sources. Four connections emerge: AI is strongest at retrieval, transformation, coding, and first-pass analysis; financial institutions are moving toward constrained rather than unrestricted
     
-[^73]: 面向基于大语言模型智能体的软件工程：一项面向生命周期的综述
+[^84]: 面向基于大语言模型智能体的软件工程：一项面向生命周期的综述
 
     Software Engineering for LLM-Based Agents: A Lifecycle-Oriented Survey
 
@@ -1123,7 +1291,7 @@
 
     arXiv:2611.23260v1 Announce Type: new  Abstract: Large language model (LLM)-based Agents perform tasks through tool use and interaction with external environments. Public engineering guidance commonly begins with a target task, selects a suitable workflow or autonomous Agent design, and refines prompts, tools, and execution strategies using task outcomes, latency, and cost. When delivered as software systems, Agents must also satisfy stakeholder requirements, action boundaries, quality checks, and maintenance needs. Model-directed execution can vary across runs, failures can span model decisions and tools, and changes to prompts, models, or interfaces can affect previously accepted behavior. This survey examines how LLM-based Agents are engineered across five software lifecycle stages: Requirements Engineering, Architecture and Design, Implementation and Integration, Testing and Assurance, and Maintenance and Evolution. Based on a main collection of 355 papers, we compare the engineeri
     
-[^74]: 用于需求规约的受控自然语言：一项系统性文献综述
+[^85]: 用于需求规约的受控自然语言：一项系统性文献综述
 
     Controlled Natural Language for Requirements Specification: A Systematic Literature Review
 
@@ -1137,7 +1305,7 @@
 
     arXiv:2611.23259v1 Announce Type: new  Abstract: Requirements are critical artifacts of the software development life-cycle. They express capabilities that the system should provide, guiding both the development and testing process. Given their significance, require- ments specification has attracted the interest of researchers and practitioners in recent years. Requirements specification is an activity where requirements are specified, i.e., documented. In this context, Controlled Natural Languages (CNL) were proposed as a compromise between the ambiguity of natural language and the complexity of formal languages. CNLs enable the specification of requirements using accurate statements that can be processed automatically, while remaining understandable by stakeholders. In this article, we perform a Systematic Literature Review (SLR) to identify, categorize, and compare CNL approaches for requirements specification. The SLR covers 133 primary studies published between 2000 and 2024. We 
     
-[^75]: EnvAgent：在云端构建科学环境的多智能体方法
+[^86]: EnvAgent：在云端构建科学环境的多智能体方法
 
     EnvAgent: Multi-Agent Approach to Building Science Environments in the Clouds
 
@@ -1151,7 +1319,7 @@
 
     arXiv:2611.23258v1 Announce Type: cross  Abstract: AI agents are transforming scientific computing and software workflows, but generating and executing code requires a correctly configured execution environment. Automating environment construction remains difficult because repositories encode heterogeneous, often incomplete requirements for operating systems, toolchains, dependencies, and build procedures. Existing workflows thus rely on developer-maintained Dockerfiles and setup scripts, making preparation labor-intensive, hard to scale, and potentially biasing evaluations. We present ENVAGENT, an agentic framework that synthesizes, builds, and verifies repository-level Docker environments. ENVAGENT combines deterministic utilities for Docker execution and state management with coordinated agents for repository analysis, planning, Dockerfile synthesis, and iterative failure diagnosis and repair. We also introduce ENVBENCH, a benchmark of 54 scientific artifacts and open-source reposit
     
-[^76]: StatePortal：用于测试交互式软件深层状态的智能体检查点合成方法
+[^87]: StatePortal：用于测试交互式软件深层状态的智能体检查点合成方法
 
     StatePortal: Agentic Checkpoint Synthesis for Testing Deep States in Interactive Software
 
@@ -1165,7 +1333,7 @@
 
     arXiv:2611.23257v1 Announce Type: cross  Abstract: Large language models have reduced the effort to generate code for interactive software with graphical user interfaces (GUIs). For such software, a key testing bottleneck is reaching a deep state, one that requires a long interaction history. The cost of reaching it recurs across commits, and the GUI automation that could amortize it assumes a DOM or accessibility tree that self-rendered engines do not expose. We introduce StatePortal, an agent that synthesizes a checkpoint, an artifact that restores that state and can be versioned and replayed, from a natural-language functional test case and read-only access to the target's source code. The checkpoint is restored through a per-application hook that an onboarding agent binds or synthesizes once without hand-written hook code. Because a checkpoint can satisfy state checks while rendering incorrectly, checkpoints are scored by hybrid programmatic-state and visual evaluation: acceptance 
     
-[^77]: 生成式人工智能在软件测试中的应用：从业者对益处、挑战、机遇与风险的看法
+[^88]: 生成式人工智能在软件测试中的应用：从业者对益处、挑战、机遇与风险的看法
 
     Generative AI in Software Testing: Practitioners' Perspectives on the Benefits, Challenges, Opportunities, and Risks
 
@@ -1179,7 +1347,7 @@
 
     arXiv:2611.23256v1 Announce Type: cross  Abstract: Generative Artificial Intelligence (GenAI) increasingly supports software testing, yet empirical evidence on practitioners' perceptions remains limited. This study investigates perceived benefits, challenges, opportunities, and risks of GenAI in software testing through a questionnaire survey of 64 practitioners. Closed-ended responses were analyzed descriptively, while open-ended responses were qualitatively coded to contextualize the findings. Among the respondents, 34 were users (those with regular or experimental use of GenAI in testing) and 30 were non-users (those without prior use of GenAI in testing). Results show generally positive perceptions of GenAI for reducing effort, test generation, and debugging, alongside concerns about prompt dependence, trust, and incorrect outputs. Users were more positive about several concrete benefits while also more frequently prioritizing reliability-related risks, whereas non-users showed gre
     
-[^78]: 面向基于模型的系统工程的结构-行为融合
+[^89]: 面向基于模型的系统工程的结构-行为融合
 
     Structure-Behavior Coalescence for Model-Based Systems Engineering
 
@@ -1193,7 +1361,21 @@
 
     arXiv:2611.23255v1 Announce Type: new  Abstract: Model-Based Systems Engineering (MBSE) has advanced system design and analysis for decades, yet traditional approaches often treat structure and behavior separately, resulting in inconsistencies, incomplete models, and ambiguity. This paper introduces Structure-Behavior Coalescence (SBC) as a formal and unified definition of systems for MBSE. SBC defines a system as a single integrated entity in which structure and behavior are coalesced through interaction, providing both a conceptual foundation and a formal process-algebra framework. Well-formedness constraints ensure that interactions are structurally grounded and compositions are valid, enabling consistency by construction. Boundary processes, including 0 for terminal states and a checkpoint construct for paused or suspended states, allow inactive and intermediate states to be represented while preserving system unity. Illustrative examples and a Smart Healthcare IoT case study demon
     
-[^79]: AI时代衡量真正重要的东西：研究软件指标全景
+[^90]: 结构-行为融合：系统的定义
+
+    Structure-Behavior Coalescence: A Definition of Systems
+
+    [https://arxiv.org/abs/2611.23254](https://arxiv.org/abs/2611.23254)
+
+    本文提出结构-行为融合（SBC）形式化框架，将系统定义为通过交互使结构与行为融为一体的整体实体，并给出良构性约束与行为规则，从而形式化地回答了“什么是系统”这一根本问题。
+
+    
+
+    七十多年来，系统工程已经发展出大量模型与框架，然而关于“什么构成一个系统”这一基本问题仍未得到充分的形式化。现有方法往往将结构与行为视为相互分离的两个方面，对其统一性、系统身份以及一致性条件的定义不够充分。本文提出结构-行为融合（Structure-Behavior Coalescence, SBC）作为一个形式化框架，将系统定义为通过交互使结构与行为融合为一体的整体实体。SBC 提供了一种形式化建模方法，包含用于维持结构-行为一致性的良构性约束，其中包括对终止状态、暂停状态和中间状态的表示，以及针对顺序、并行和替代行为的规则。该框架为“什么是系统？”这一问题提供了形式化的视角，并为一致的系统建模与验证奠定了基础。
+
+    arXiv:2611.23254v1 Announce Type: new  Abstract: For more than seventy years, systems engineering has developed extensive models and frameworks, yet the fundamental question of what constitutes a system remains insufficiently formalized. Existing approaches often treat structure and behavior as separate aspects, leaving their unity, system identity, and consistency conditions insufficiently defined. This paper introduces Structure-Behavior Coalescence (SBC) as a formal framework that defines a system as an integrated entity in which structure and behavior are coalesced through interaction. SBC provides a formal modeling approach with well-formedness constraints for maintaining structural-behavioral coherence, including representations for terminal, paused, and intermediate states and rules for sequential, parallel, and alternative behaviors. The framework provides a formal perspective on the question, "What is a system?", and establishes a foundation for consistent system modeling, ver
+    
+[^91]: AI时代衡量真正重要的东西：研究软件指标全景
 
     Measuring What Matters in the Age of AI: The Research Software Metrics Landscape
 
@@ -1207,7 +1389,7 @@
 
     arXiv:2611.23253v1 Announce Type: cross  Abstract: Research software now serves as a primary instrument of science, but the methods the community uses to judge its quality, sustainability, reuse, and impact remain scattered across software engineering, open science, FAIR software, citation, and research-assessment literature. AI-assisted development sharpens the problem: code can be produced at rates that outpace human review capacity, provenance and attribution are harder to track, scholarly credit systems cannot keep pace, and existing metrics inherit assumptions about how research software gets developed that may no longer apply. To aid in navigating these challenges, we present a focused landscape synthesis of research software metrics based on 49 substantive references, organizing the recurring metrics into eight families described by data source, claimed construct, evidence of validity, automation potential, and susceptibility to misuse. Many widely cited research software metric
     
-[^80]: 从数据质量到AI驱动软件密集型嵌入式系统中的数据可信性：一项系统性综述
+[^92]: 从数据质量到AI驱动软件密集型嵌入式系统中的数据可信性：一项系统性综述
 
     From Data Quality to Data Trustworthiness in AI-Driven Software-Intensive Embedded Systems: A Systematic Review
 
@@ -1221,7 +1403,21 @@
 
     arXiv:2611.23252v1 Announce Type: cross  Abstract: AI-driven software-intensive embedded systems (SIES) depend on data during development and operation. Poor data quality (DQ) may weaken data trustworthiness, yet evidence about its effects and lifecycle management remains fragmented. This systematic literature review synthesizes 27 primary studies published from January 2020 to February 2026. It examines DQ concerns and evidence linking them to reduced data trustworthiness, along with assessment and management methods. The review identifies 16 concerns organized as Source Quality and Content Quality. Studies provide DQ-based scores and evidence of effects on model or decision performance. Synthesis suggests upstream source or handling problems may become embedded in training baselines and remain difficult to detect at runtime. Eight method categories were identified. Runtime monitoring is the largest category, while upstream and training-time controls remain poorly integrated with runt
     
-[^81]: 是什么决定了自动化审计的上限：从通用代码到科学代码、结果与数据
+[^93]: 谁改变了AI智能体的规则？衡量AI编码智能体如何在CI/CD流水线中不断扩权
+
+    Who Changed the AI Agent's Rules? Measuring How AI Coding Agents Escalate Authority in CI/CD Pipelines
+
+    [https://arxiv.org/abs/2611.23251](https://arxiv.org/abs/2611.23251)
+
+    本研究提出联合惩罚模型 P(M)，对 AIDev 数据集中 93 万余个 AI 编码智能体创建的拉取请求进行大规模量化分析，首次系统揭示了智能体在 CI/CD 流水线中的“扩权”行为——控制平面操作（如修改工作流与权限设置）的治理风险是数据平面操作的 3.9 倍，为智能体化 CI/CD 的执行成本与治理风险权衡提供了度量框架。
+
+    
+
+    AI编码智能体可以修改CI/CD控制平面的结构（包括工作流和权限设置），从而将其权限扩展到常规代码变更之外。由于此类修改可能影响整个开发流水线，本研究考察了智能体化CI/CD中执行成本与治理风险之间的权衡。我们提出了一个结合这两个维度的联合惩罚模型 P(M)，并在 AIDev 数据集中全部 932,791 个由智能体创建的拉取请求上进行了评估，涵盖五个自主编码智能体。每个拉取请求按权限范围——数据平面或控制平面——进行自动分类，并被赋予一个惩罚分数。研究发现，控制平面操作的平均联合惩罚比数据平面操作高 2.3 倍（0.498 对 0.218），平均治理风险高 3.9 倍（0.530 对 0.135），这表明控制平面操作确实会放大风险。所有 775 个被定义为极高风险类别（P(M)……）的拉取请求（原文摘要在此处截断）。
+
+    arXiv:2611.23251v1 Announce Type: new  Abstract: AI coding agents can modify CI/CD control-plane structures, including workflows and permission settings, thereby extending their authority beyond routine code changes. Because such modifications can affect an entire development pipeline, this study examines the trade-off between execution cost and governance risk in agentic CI/CD. We introduce a joint penalty model, P(M), that combines these two dimensions and evaluate it on all 932,791 agent-authored pull requests in the AIDev dataset, covering five autonomous coding agents. Each pull request is automatically classified by authority scope - data-plane or control-plane - and assigned a penalty score.   We found that control-plane actions have a 2.3x higher mean joint penalty than data-plane actions (0.498 vs. 0.218) and a 3.9x higher mean governance risk (0.530 vs. 0.135), which means that they indeed increase the risk. All 775 pull requests in the extreme-risk category, defined as P(M) 
+    
+[^94]: 是什么决定了自动化审计的上限：从通用代码到科学代码、结果与数据
 
     What Moves the Ceiling on Automated Audit: from General Code to Scientific Code, Results and Data
 
@@ -1235,7 +1431,7 @@
 
     arXiv:2611.23250v1 Announce Type: cross  Abstract: Models increasingly check what other models write. We study one shipped arrangement, in which an auditor from a different vendor reads the work and deterministic checks verify what code can verify, and measure its limits against ground truth no model supplies. On general-purpose code with hidden tests, eight readings of the auditor reach 30.0% recall [20.0, 40.7] at 16.0% [10.1, 22.3] flags on correct code, with diminishing returns and no plateau. The reading model (confounded with its sampling), one rulebook sentence and the decision rule each move that figure, and much of what is missed is, on a post hoc rating, behaviour the specification never determined. In three preregistered science studies, checking that reported numbers trace to their sources flagged all 49 inconsistent reports and none of 25 consistent fabrications, of which the model auditor flagged 23 (21 with a sound finding, post hoc); on data, a documentation-derived val
     
-[^82]: 高级代码的过时：从语义工件进行智能体生成
+[^95]: 高级代码的过时：从语义工件进行智能体生成
 
     The Obsolescence of High-Level Code: Agentic Generation from Semantic Artifacts
 
@@ -1249,7 +1445,21 @@
 
     arXiv:2611.23249v1 Announce Type: cross  Abstract: This paper argues that high-level source code need not remain the primary persistent artifact of software development when AI agents can generate, validate, and regenerate executable implementations from semantic intent. We place this claim in historical context by revisiting application generators, CASE tools, model-driven development, and platforms such as GeneXus, where developers already maintained higher-level representations from which code and other artifacts were derived.   We propose a unifying view in which generation is the fundamental operation: given a semantic specification S = (R, C, I, T, O), maintained as the semantic authority, an agent produces a generated executable artifact A. Functional requirements, contracts, and interfaces are assessed as semantic obligations, while tests and operational objectives are assessed by an explicit external oracle V(A, S). We operationalize this framework through an experiment in ind
     
-[^83]: ETA：推测性智能体循环中工具到达即退出
+[^96]: 智能体原生应用：一种新的应用范式
+
+    Agent-Native Applications: A New Application Paradigm
+
+    [https://arxiv.org/abs/2611.23243](https://arxiv.org/abs/2611.23243)
+
+    本文提出了“智能体原生应用”这一新的应用范式，让基于LLM的智能体作为应用核心逻辑的推理与行动组件并可在运行时自适应调整应用结构，同时指出这类应用需在保留智能体推理能力与约束应用行为之间解决重大控制问题。
+
+    
+
+    传统应用架构假设行为逻辑是预先编写好的，使得可达行为在很大程度上受限于显式代码和工作流规则。基于大语言模型（LLM）的智能体挑战了这一假设，它使运行时推理和自主行动成为应用行为的一部分，从而让应用能够应对设计阶段未被枚举到的情况。进一步扩展这一模式，本文提出了一种新的应用范式，其中基于LLM的智能体作为核心的推理与行动组件，负责应用的核心逻辑，并在允许的情况下于运行时对应用图本身进行自适应调整。我们将这类应用称为智能体原生应用。虽然这类应用显著扩展了超越显式代码和工作流规则的可能行为空间，但它们也面临一个重大的控制问题：既要保留有用的智能体推理能力，又需要对应用行为加以约束。
+
+    arXiv:2611.23243v1 Announce Type: new  Abstract: Traditional application architectures assume behavioral logic authored in advance, leaving reachable behavior largely bounded by explicit code and workflow rules. Large language model (LLM)-based agents challenge this assumption by enabling runtime reasoning and autonomous action to become part of application behavior, allowing applications to address situations not enumerated at design time. Extending this pattern, this paper identifies a new application paradigm in which LLM-based agents serve as central reasoning and action components responsible for the application's core logic and, where permitted, for adapting the application graph itself at runtime. We call these agent-native applications. While such applications significantly expand their possible behavioral space beyond explicit code and workflow rules, they also face a major control problem in which useful agentic reasoning should be preserved while application behavior should 
+    
+[^97]: ETA：推测性智能体循环中工具到达即退出
 
     ETA: Exit on Tool Arrival in Speculative Agent Loops
 
@@ -1263,7 +1473,7 @@
 
     arXiv:2611.23239v1 Announce Type: new  Abstract: Tool-using language agents in explicit thinking modes generate long chains of thought before acting, making each turn inherently serial: later tokens depend on the tool observation. Recent speculative tool dispatch methods overlap tool execution with reasoning, but offers limited benefit when reasoning dominates latency. We present ETA, that treats the speculative fork not as an actuator but as a sensor of the model's decision state, using it to terminate the reasoning of the main decode. It truncates reasoning only when the prediction is stable, agrees with the dispatched call, passes a free probe measuring whether a call will be emitted at all, and the tool result has arrived: a deadline that bounds per-turn regret by the remaining decode cost. ETA achieves speedups of 1.33x on tau2 airline/retail, 1.26x on tau2 telecom, and 1.13x on BFCL v4 multi-turn. On tau2, it decodes 24% fewer tokens at a nearly unchanged per-token rate without d
     
-[^84]: 追踪“混乱的中间过程”：面向AI编码代理的运行时事务模式
+[^98]: 追踪“混乱的中间过程”：面向AI编码代理的运行时事务模式
 
     Tracing the Messy Middle: A Runtime Transaction Schema for AI Coding Agents
 
@@ -1277,7 +1487,7 @@
 
     arXiv:2611.23234v1 Announce Type: new  Abstract: AI coding agents are increasingly integrated into software development, yet the field lacks a systematic feedback loop to improve their behavior in practice. Artifact datasets capture final outputs such as code patches, commits, and benchmark outcomes, but omit the messy middle of the development lifecycle: the failed retries, fallback strategies, routing decisions, and abandoned sessions that determine operational cost, reliability, and productivity.   We propose an observability framework that captures these runtime behaviors as structured transaction records, enabling engineering coaching grounded in behavioral evidence, workflow optimization at the stages where tasks break down, and routing policy iteration measured by total task cost rather than per-request price. We define the runtime transaction schema this architecture requires and demonstrate initial feasibility through Agent Token Manager (Atm), a local-first prototype that rec
     
-[^85]: 无代码工作流语义图匹配的度量方法
+[^99]: 无代码工作流语义图匹配的度量方法
 
     A Metric for Semantic Graph Matching of No-Code Workflows
 
@@ -1291,7 +1501,7 @@
 
     arXiv:2611.23233v1 Announce Type: new  Abstract: No-code and agentic systems increasingly produce executable workflows, but workflows cannot be compared adequately as strings because typed operations, parameters, and directed connections jointly determine the artifact. We define a semantic graph-matching distance for finite attributed workflow graphs. A partial one-to-one node matching determines node-substitution and directed labelled-edge disagreement, while unmatched nodes incur a positive null cost. Under a fixed type hierarchy, encoder, field universe, and metric-compatible primitive distances, the objective is a metric on workflow graphs up to attributed isomorphism. A padded Hungarian procedure provides a scalable feasible upper bound distinct from the exact objective. We evaluate the metric on 4,705 public n8n exports, representing 2,282 distinct normalized-graph hashes, 73,057 nodes, and 469 observed node types. Across 32,093 branch-and-bound-complete evaluations, the mean raw
     
-[^86]: 量子程序分析中的实时噪声指纹
+[^100]: 量子程序分析中的实时噪声指纹
 
     Live Noise Fingerprints for Quantum Program Analysis
 
@@ -1305,7 +1515,7 @@
 
     arXiv:2611.19143v1 Announce Type: new  Abstract: Quantum programs are probabilistic in nature, and noisy execution due to current imperfect hardware further complicates their analysis. In this paper, we study abstract semantics for analysing quantum programs under these conditions. We introduce noise fingerprints, compact descriptions of the observable effects of noise relative to a finite interface of input states and output measurements. We use them to define our abstract domain with respect to the concrete noise-related behaviour. We relate the concrete and abstract domains through a probabilistic Galois connection, extending the Galois-connection framework to distribution-valued interpretations. We study the resulting abstraction in terms of observational soundness, conciseness, efficiency, and ability to adapt to changing noise. We show that polynomial-size interfaces yield exponentially smaller fingerprints than full noise models while preserving the chosen observations, and that
     
-[^87]: 强化学习中环境-训练器边界处的静默故障检测
+[^101]: 强化学习中环境-训练器边界处的静默故障检测
 
     Detecting Silent Faults at the Environment-Trainer Boundary in Reinforcement Learning
 
@@ -1319,7 +1529,7 @@
 
     arXiv:2611.08144v1 Announce Type: cross  Abstract: Robot reinforcement learning increasingly runs environments outside the trainer: in another process, on another machine, in another language. Many faults at this boundary raise no error. We make the boundary a wire protocol and ask what notices a fault in it.   On Pendulum, HalfCheetah, Hopper and a 7-joint arm (Pusher), we injected up to 23 faults into what crosses the wire and 2 into the trainer's log, from one value to every value. Unless every value was wrong, a learning-curve threshold caught at most one run in ten, and a comparison with ten fault-free seeds at most 21%. A clean evaluation of all 1,060 final policies agreed with the curves: of the 728 boundary-fault runs both curve checks passed, 723 scored no more than three standard deviations below fault-free seeds, though nearly all ended on other weights and, for reward faults, logged other returns.   Checks of the run itself, not of its outcome, saw every fault. A step ledge
     
-[^88]: 交互即裁判
+[^102]: 交互即裁判
 
     Interaction-as-a-Judge
 
@@ -1333,7 +1543,7 @@
 
     arXiv:2610.17895v2 Announce Type: cross  Abstract: Coding agents are tasked with producing sophisticated interactive applications such as websites, desktop applications, and games. While humans assess these applications interactively, current automated LLM evaluations primarily focus on code analysis and unit tests. This mismatch can cause LLM judges to miss failures that are immediately apparent to human users. We study Interaction-as-a-Judge, an evaluation paradigm where computer-use agents (CUAs) directly interact with an application. We demonstrate that Interaction-as-a-Judge can improve both evaluation and generation of interactive applications. To this end, we collect and release two complementary datasets: $6,858$ pairs of applications with human preferences and corresponding agent traces, and $222$ applications with human-verified requirement labels. Relative to standard non-interactive approaches, we find that Interaction-as-a-Judge improves evaluation in terms of predicting h
     
-[^89]: 框架到底换来了什么？主要只是更多的 Token
+[^103]: 框架到底换来了什么？主要只是更多的 Token
 
     What Does a Harness Buy? Tokens, Mostly
 
@@ -1347,7 +1557,7 @@
 
     arXiv:2610.04433v2 Announce Type: replace  Abstract: A coding agent is a language model inside a harness: the system prompt, the tools, and the context management that let a chat model work in a repository. Most of the engineering on these agents goes into the harness, and vendors and leaderboards credit it with score gains. Earlier studies have fixed the model and swapped the harness, but have not measured whether the swap changes the pass rate more than running the same harness again. We run seven models through three production harnesses, Claude Code, mini-SWE-agent, and OpenCode, on SWE-bench Verified and two benchmarks of other kinds, and rerun them unchanged. No harness leads consistently across models. Where the data can bound the difference between two harnesses, the bound is 2 to 5 points, and a harness swap changes about as many task outcomes as a rerun. The exceptions are harness effects in particular pairings of model and harness, whose direction changes with the model: Ope
     
-[^90]: 传闻（Hearsay）：谁能审计已部署智能体运行框架所写入的记录？
+[^104]: 传闻（Hearsay）：谁能审计已部署智能体运行框架所写入的记录？
 
     Hearsay: Who Can Audit the Record a Deployed Agent Harness Writes?
 
@@ -1361,7 +1571,7 @@
 
     arXiv:2609.32495v2 Announce Type: replace-cross  Abstract: The record of an agent's run is written by the harness that drives the agent. When the run is later disputed, the auditor was not there and has only this record. We ask whether someone who was not there can check the record, and what decides the answer. It depends on who wrote what a check can rely on: if the harness wrote all of it, the record is only the harness's own word, and we call it hearsay. We build Hearsay, a benchmark that examines the record and not the task: five harnesses run fourteen tasks, model examiners from three vendors and a human panel read the records and answer questions about the runs, and every passage they cite is labelled mechanically by who wrote it. We also audit what is deployed: in all sixteen frameworks, the harness is the only writer. With one writer, readers can name the fault from the record, in up to nine runs in ten, but they cannot check the record. The model examiners claim corroboration 
     
-[^91]: 谁在框架背后？通过智能体行为对大语言模型进行指纹识别
+[^105]: 谁在框架背后？通过智能体行为对大语言模型进行指纹识别
 
     Who Is Behind the Harness? Fingerprinting LLMs through Agentic Behavior
 
@@ -1375,7 +1585,7 @@
 
     arXiv:2609.28559v1 Announce Type: cross  Abstract: LLMs increasingly operate through coding-agent harnesses that inspect repositories, invoke tools, and modify files. Substituting the model behind such an agent can therefore change security-relevant decisions, including whether it verifies changes or recovers safely from failures. Existing LLM fingerprints largely infer identity from direct text or token distributions. In coding agents, these signals are mediated by system instructions, controller logic, tools, and execution feedback, limiting their transfer.   We present LIDAR (LLM Identification from Decisions and Actions at Runtime), an active black-box fingerprinting method for coding-agent execution. Three coding probe pairs expose post-edit verification, transient-failure recovery, and specification--test conflict resolution under controlled changes. LIDAR represents the resulting trajectories with complementary instance-level and distribution-level features and compares them wit
     
-[^92]: 生物医学知识构建：软件工程视角
+[^106]: 生物医学知识构建：软件工程视角
 
     Biomedical Knowledge Composition: A Software Engineering Perspective
 
@@ -1389,7 +1599,7 @@
 
     arXiv:2608.08927v2 Announce Type: replace  Abstract: Biomedical research has accumulated vast molecular, clinical, and population data, yet translating this wealth into actionable knowledge remains constrained by technical and organizational difficulties. This article presents a unified treatment of two perspectives on biomedical knowledge infrastructure. The first introduces the biomedical domain to software engineers: it explains why knowledge graphs (KGs) are the central integrative data structure in modern biomedicine, characterizes five data harmonization challenges (identifier mapping, entity resolution, schema alignment, evidence integration, and provenance tracking), surveys application domains from drug discovery to digital twins, and profiles six representative KG systems with contrasting choices. The second perspective asks why engineering biomedical knowledge infrastructure remains so difficult. We argue that a contributing root cause is limited adoption of software tooling
     
-[^93]: Scrouting：通过先侦察仓库实现成本感知的编码智能体路由
+[^107]: Scrouting：通过先侦察仓库实现成本感知的编码智能体路由
 
     Scrouting: Cost-Aware Routing of Coding Agents by Scouting the Repository First
 
@@ -1403,7 +1613,7 @@
 
     arXiv:2608.04804v2 Announce Type: replace-cross  Abstract: Frontier language models can resolve repository-level software issues, but each attempt is expensive, and existing routers select a model from the issue text alone. We present SuperScout, which routes after scouting the repository: a 7B searcher, SuperScout-7B, first explores the repository and produces a structured handoff whose reproduction claims are sandbox-verified, with false claims stripped before delivery. The searcher's hidden states, together with the task text, then feed a resume-based router that dispatches the task to one of four frontier fixers. Adding a new fixer requires no retraining. On the full Python slice of SWE-bench Pro (266 tasks) under the benchmark's official capped budget tier, SuperScout matches the best single model's solve rate (159 of 266 for SuperScout, 158 for the best model) at about a fifth of the total cost per solve, and the reported configuration sits above the random traffic-splitting base
     
-[^94]: 在智能体软件开发中使用第三方API路由器的权衡在哪里？
+[^108]: 在智能体软件开发中使用第三方API路由器的权衡在哪里？
 
     Where Is the Tradeoff in Using Third-Party API Routers for Agentic Software Development?
 
@@ -1417,7 +1627,7 @@
 
     arXiv:2607.23624v3 Announce Type: replace-cross  Abstract: Third-party API routers have become a common layer that unifies access across increasingly diverse LLM providers. In coding-agent workflows, high-autonomy operation is widely adopted because it reduces interaction overhead. As a result, a third-party API router, which sits between the agent and the upstream provider, inevitably occupies the trusted path. It can inspect and modify every request and response, yet no mechanism verifies alignment between the provider's output and the repository-level actions ultimately executed by the agent. Consequently, client-side permission mechanisms may become ineffective in practice. Whether this control gap produces real, hard-to-detect effects on software development tasks remains empirically unmeasured. In this paper, we conduct an empirical study of router-side injection in coding agents, examining four intervention levels of increasing subtlety: Response Substitution (L1), Response Appe
     
-[^95]: 先验知识还是搜索？LLM智能体在硬件感知代码优化中的研究
+[^109]: 先验知识还是搜索？LLM智能体在硬件感知代码优化中的研究
 
     Prior Knowledge or Search? A Study of LLM Agents in Hardware-Aware Code Optimization
 
@@ -1431,7 +1641,7 @@
 
     arXiv:2605.19782v2 Announce Type: replace  Abstract: LLM discovery and optimization systems are increasingly applied across domains, implementing a common propose-evaluate-revise loop. Such optimization or discovery progresses via context conditioning on received feedback from an environment. However, as modern LLM agents are increasingly complex in their structure, it is difficult to evaluate which components contribute the most, and when and how this exploration may fail. We answer these questions through three controlled experiments. Our findings: (1) In pure black-box optimization, LLMs act as greedy optimizers. (2) In zero-shot kernel generation, providing explicit input-size information has no measurable effect, models converge to the same kernel parameters regardless of size or temperature, as though the size instruction were invisible. Moreover, when tasked to perform kernel optimization for uncommon kernel sizes, performance sharply degrades regardless of the language used. (3
     
-[^96]: GitHub上提交签名的分析
+[^110]: GitHub上提交签名的分析
 
     Analysis of Commit Signing on GitHub
 

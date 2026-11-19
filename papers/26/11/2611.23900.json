@@ -4,9 +4,8 @@
     "link": "https://arxiv.org/abs/2611.23900",
     "context": "Title: Coverage Governs Accuracy: When to Expand the Lexicon and When to Fall Back in Low-Resource Manchu OCR\nAbstract: arXiv:2611.23900v1 Announce Type: new  Abstract: Character-level OCR for low-resource Manchu often produces near-miss spelling errors. Lexicon-constrained decoding can correct such errors with lexical knowledge, but a fixed dictionary cannot cover the many unseen word forms produced by agglutinative word formation. We study whether morphological expansion alleviates this limitation, and how the expansion size and confidence fallback affect recognition. We segment the training transcriptions with a dictionary-based stem list, extract roots and suffix chains from them, generate about 510k candidates, select the expansion size through frequency ranking on the validation set, and decompose accuracy under hard lexicon constraints into the product of coverage and in-lexicon precision. Across three CRNN training seeds, adding 250k candidates to a base dictionary of about 29k words raises the type accuracy on unseen combinations of seen roots from 63.6% to 86.3%, and overall token accuracy fro",
     "path": "papers/26/11/2611.23900.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1601,
+    "translated_title": "覆盖率决定准确性：低资源满文OCR中何时扩展词典、何时回退",
+    "translated_abstract": "低资源满文的字符级OCR常常产生近似拼写错误。词典约束解码可以利用词汇知识纠正这类错误，但固定词典无法覆盖黏着式构词所产生的众多未见词形。我们研究形态扩展能否缓解这一局限，以及扩展规模与置信度回退如何影响识别效果。我们使用基于词典的词干表对训练转写文本进行分词，从中提取词根与后缀链，生成约51万个候选词，通过在验证集上的频率排序确定扩展规模，并将硬词典约束下的准确率分解为覆盖率与词典内精度的乘积。在三个CRNN训练随机种子上，向约2.9万词的基础词典添加25万候选词，使未见词根组合上的词形准确率从63.6%提升至86.3%，整体词元准确率也随之提升。",
+    "tldr": "该研究提出基于词根-后缀链形态扩展的词典约束解码方法，用于低资源满文OCR，证明词典覆盖率决定识别准确率，将未见词形的准确率从63.6%大幅提升至86.3%。"
 }

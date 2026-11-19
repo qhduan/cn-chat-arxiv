@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.23293",
     "context": "Title: Monitoring Machine Learning Systems in Production: A Multivocal Literature Review\nAbstract: arXiv:2611.23293v1 Announce Type: new  Abstract: Monitoring is essential for maintaining reliable machine learning (ML) systems after deployment. However, knowledge about its practical implementation and effectiveness remains fragmented across academic and gray literature. We present a multivocal literature review of 94 sources (37 academic and 57 gray) covering both traditional ML and generative AI systems. We develop taxonomies covering monitored objects and properties, techniques, input signals, tools, automation, frequency, evaluation, and challenges. Our findings reveal an imbalanced monitoring process. Existing approaches provide broad and largely automated support for observing system behavior, detecting problems, and communicating findings, while monitor configuration, investigation, and response retain substantial human involvement. Monitoring is concentrated on inference, with no source covering the entire production ML system, limiting end-to-end diagnosis. Evidence of effec",
     "path": "papers/26/11/2611.23293.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1298,
+    "translated_title": "生产环境中机器学习系统的监控：一项多声部文献综述",
+    "translated_abstract": "监控对于部署后维护可靠的机器学习（ML）系统至关重要。然而，关于其实际实施与有效性的知识仍分散于学术文献和灰色文献之中。我们对94个来源（37个学术来源和57个灰色文献来源）进行了多声部文献综述，涵盖传统机器学习系统和生成式人工智能系统。我们构建了涵盖监控对象与属性、技术、输入信号、工具、自动化、频率、评估以及挑战的分类体系。我们的研究结果揭示了监控过程的不均衡性：现有方法在观察系统行为、检测问题和传达发现方面提供了广泛且大部分自动化的支持，而监控配置、调查和响应环节仍需要大量的人工参与。监控集中于推理阶段，没有任何来源覆盖完整的生产机器学习系统，这限制了端到端的诊断能力。关于有效性的证据……（原文摘要在此处被截断）",
+    "tldr": "该论文通过对94篇学术与灰色文献的多声部综述，构建了机器学习系统生产监控的分类体系，并揭示了监控过程的不均衡性——观察、检测与报告环节已高度自动化，而监控配置、调查与响应仍高度依赖人工，且监控集中于推理阶段、缺乏对整个生产系统的端到端覆盖。",
+    "en_tdlr": "This multivocal literature review of 94 academic and gray sources develops taxonomies for monitoring ML systems in production and reveals an imbalanced process: observing, detecting, and communicating are largely automated, while configuration, investigation, and response remain human-intensive, with monitoring concentrated on inference and lacking end-to-end coverage of the full production ML system."
 }

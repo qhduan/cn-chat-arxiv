@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.24654",
     "context": "Title: CurvDelta: Low-Curvature Delta Modeling For Surgical Learning and Unlearning\nAbstract: arXiv:2611.24654v1 Announce Type: new  Abstract: A central challenge in adapting large language models (LLMs) is capability preservation: an adaptation can achieve its target while degrading general capabilities. We introduce CurvDelta, a scalable framework that incorporates the preservation constraint into the parameterization of the model update. By analyzing the local geometry of the preservation constraint around the pre-adaptation model, CurvDelta constructs a low-curvature space in which parameter updates leave the preservation loss nearly invariant. We make its construction practical for LLMs through Kronecker-factored approximate curvature (K-FAC) and a factorized projection. We also introduce CurvLoRA, a low-rank variant within the same preservation geometry, designed for more efficient adaptation. Both methods apply to preservation-constrained adaptation tasks such as capability learning and selective unlearning. We evaluate our methods on mathematical reasoning, code generat",
     "path": "papers/26/11/2611.24654.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1669,
+    "translated_title": "CurvDelta：面向外科手术式学习与遗忘的低曲率增量建模",
+    "translated_abstract": "适配大语言模型（LLM）时的一个核心挑战是能力保持：一次适配可能在达成目标的同时损害模型的通用能力。我们提出了 CurvDelta，这是一个可扩展的框架，它将保持约束直接纳入模型更新的参数化之中。通过分析适配前模型附近保持约束的局部几何，CurvDelta 构建了一个低曲率空间，在该空间中参数更新几乎不会改变保持损失。我们借助 Kronecker 分解近似曲率（K-FAC）与分解投影，使这一构建对 LLM 而言切实可行。我们还提出了 CurvLoRA，这是同一保持几何框架下的低秩变体，旨在实现更高效的适配。两种方法均适用于保持约束下的适配任务，例如能力学习与选择性遗忘。我们在数学推理、代码生成等任务上评估了我们的方法。",
+    "tldr": "CurvDelta 通过基于 K-FAC 构建低曲率空间，将能力保持约束内建于模型更新的参数化中，使大模型在能力学习与选择性遗忘等适配任务中达成目标而不损害通用能力。",
+    "en_tdlr": "CurvDelta embeds capability-preservation constraints into the parameterization of model updates by constructing a low-curvature space via K-FAC, enabling LLMs to learn or selectively unlearn capabilities without degrading general performance."
 }

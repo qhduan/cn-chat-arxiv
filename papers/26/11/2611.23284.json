@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.23284",
     "context": "Title: Code Cloning and Procedural Abstraction in Scratch: A Large-Scale Study of Co-Existing Reuse Practices\nAbstract: arXiv:2611.23284v1 Announce Type: new  Abstract: Code cloning is a long-standing software-evolution concern: duplicated implementations diverge as software changes. In block-based programming, however, duplication is an everyday reuse mechanism, and Scratch facilitates a copy-and-paste culture that may hinder abstraction. We study this relation in 2.04 million public Scratch projects. We compare cloned sequences with existing abstractions and examine how their use varies across Computational Thinking (CT) score levels. Clones occur in 6.2% of projects and custom blocks in 11.9%. Of 436,198 detected clone instances, 16.1% have a normalized sequence matching a custom block in the same project and 17.8% match a custom block only outside it. At the pattern level, 83 of the 100 most frequent clone patterns have counterparts implementable as custom blocks elsewhere in the corpus. Of the remaining 17 patterns, 15 are amenable to custom-block extraction, while in two cases the benefit of abstr",
     "path": "papers/26/11/2611.23284.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1589,
+    "translated_title": "Scratch中的代码克隆与过程抽象：对共存复用实践的大规模研究",
+    "translated_abstract": "代码克隆是软件演化中一个长期存在的问题：随着软件的变化，重复的实现会产生分歧。然而，在基于积木块的编程中，复制是一种日常的复用机制，Scratch 助长了一种复制粘贴的文化，这可能阻碍抽象化。我们在204万个公开的Scratch项目中研究了这种关系。我们将克隆的代码序列与现有的抽象进行比较，并考察它们的使用方式在不同计算思维（CT）分数水平上的差异。克隆出现在6.2%的项目中，自定义块出现在11.9%的项目中。在检测到的436,198个克隆实例中，16.1%具有与同一项目中自定义块匹配的规范化序列，17.8%仅与项目之外的自定义块匹配。在模式层面，100个最频繁的克隆模式中有83个在语料库的其他地方存在可实现为自定义块的对应模式。在剩余的17个模式中，有15个适合提取为自定义块，而在两个案例中，抽象化的收益……（摘要原文在此处截断）",
+    "tldr": "该研究通过对204万个Scratch项目的大规模分析，首次揭示了代码克隆与自定义块抽象这两种复用实践的共存关系，发现绝大多数频繁出现的克隆模式都可以被提取为自定义块抽象，为引导Scratch编程者从复制走向抽象提供了实证依据。",
+    "en_tdlr": "Through a large-scale analysis of 2.04 million Scratch projects, this study reveals how code cloning and custom-block abstraction co-exist as reuse practices, showing that most frequent clone patterns are amenable to extraction into custom-block abstractions."
 }

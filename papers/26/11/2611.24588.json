@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.24588",
     "context": "Title: Large Language Models or AI Agents for English to Arabic Translation? An assessment on WikiEn-Ar190\nAbstract: arXiv:2611.24588v1 Announce Type: new  Abstract: This research investigates whether a large language model or an autonomous AI Agent performs better at translating from English to Arabic, which is considered a low-resource language. The authors introduce WikiEn-Ar190, a new dataset of 190 carefully selected Wikipedia articles from 18 different areas, which were created and verified by two native Arabic speakers to ensure that they accurately reflect both meaning and style. Using this dataset, the study evaluates the translation quality of GPT-5-mini both as an independent neural translator and when used within a more complex process that includes self-assessment and improvement. As a standalone model, GPT-5-mini produced very fluent translations , achieving a COMET score of 0.8649 and receiving high human scores for adequacy, fluency, and style (averaging 4.53 out of 5). When used in a system that combined translation with self-assessment, it improved lexical accuracy by 28.76% (BLEU s",
     "path": "papers/26/11/2611.24588.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1340,
+    "translated_title": "大语言模型还是AI智能体更适合英语到阿拉伯语的翻译？基于WikiEn-Ar190数据集的评估",
+    "translated_abstract": "本研究探讨了大语言模型与自主AI智能体在英语到阿拉伯语（一种低资源语言）翻译任务中孰优孰劣。作者推出了WikiEn-Ar190，这是一个包含190篇精心挑选的维基百科文章的新数据集，涵盖18个不同领域，由两名阿拉伯语母语者创建并核验，以确保其准确反映原文的含义与风格。基于该数据集，研究评估了GPT-5-mini的翻译质量，既包括其作为独立神经翻译器的表现，也包括其应用于包含自我评估与改进环节的更复杂流程时的表现。作为独立模型，GPT-5-mini生成了非常流畅的译文，COMET得分达到0.8649，并在充分性、流畅性和风格方面获得很高的人工评分（平均4.53分，满分5分）。在结合翻译与自我评估的系统中，其词汇准确性提升了28.76%（BLEU……）",
+    "tldr": "本研究构建了由阿拉伯语母语者核验的英译阿拉伯语新基准数据集WikiEn-Ar190，发现GPT-5-mini独立翻译已表现优异，而引入自我评估与改进的智能体流程可进一步提升词汇准确性。",
+    "en_tdlr": "This study introduces WikiEn-Ar190, a native-speaker-verified benchmark for English-to-Arabic translation, showing that GPT-5-mini already performs excellently as a standalone translator, while an agentic process with self-assessment and refinement further improves lexical accuracy."
 }

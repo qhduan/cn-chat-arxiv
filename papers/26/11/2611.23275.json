@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.23275",
     "context": "Title: AI Code Review Requires Revision-Aware Evidence of Concern Resolution\nAbstract: arXiv:2611.23275v1 Announce Type: new  Abstract: AI-assisted code review increasingly judges whether reported concerns have been resolved. Yet closing a thread or modifying a commented line does not establish repair, and later revisions can invalidate earlier fixes. This position paper argues that resolution requires inspectable, revision-specific evidence that is revalidated when its dependencies change. We model review concerns as persistent verification obligations, derive a sufficient condition under which dependency-gated revalidation matches exhaustive reassessment, and introduce REVAL, a lightweight procedure adapting principles from regression-test selection and build systems. We evaluate REVAL against oracle ground truth in synthetic revision histories covering 441 concerns, 1,284 assessments, and 12 defect families. A sticky outdated-line proxy falsely marked 72.9% of unresolved states as resolved, while stopping checks after initial success missed every recurrence. With thre",
     "path": "papers/26/11/2611.23275.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1890,
+    "translated_title": "AI代码审查需要具备修订感知能力的关注点解决证据",
+    "translated_abstract": "AI辅助代码审查日益被用于判断所报告的关注点（问题）是否已得到解决。然而，关闭讨论线程或修改被评论的代码行并不能证明修复已经完成，而且后续的修订还可能使早期的修复失效。这篇立场论文主张，关注点的“解决”需要可检验的、与特定修订相关的证据，并且当这些证据的依赖关系发生变化时应重新验证。我们将审查关注点建模为持久的验证义务，推导出一个充分条件——在该条件下，基于依赖关系门控的重新验证与穷尽式重新评估的结果相一致——并提出了REVAL，这是一种借鉴回归测试选择与构建系统原理的轻量级流程。我们在涵盖441个关注点、1,284次评估和12个缺陷族的合成修订历史数据上，以oracle基准真值为参照对REVAL进行了评估。一种“粘性过期行”代理方法将72.9%的未解决状态错误地标记为已解决，而首次检查通过后即停止验证的做法则遗漏了所有的问题复发。（摘要在此处被截断）",
+    "tldr": "本文主张AI代码审查不能仅凭关闭线程或修改被评论代码行就认定问题已解决，而需要修订感知、可检验的解决证据并在依赖变化时重新验证，据此设计了轻量级方法REVAL，显著减少将未解决问题误判为已解决的情况。",
+    "en_tdlr": "This position paper argues that AI code review requires revision-aware, inspectable evidence of concern resolution that is revalidated when dependencies change, and introduces REVAL, a lightweight dependency-gated revalidation procedure."
 }

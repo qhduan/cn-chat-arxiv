@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.23242",
     "context": "Title: Biologically-Inspired Spike Encoding and Optimization for Spiking Neural Networks\nAbstract: arXiv:2611.23242v1 Announce Type: new  Abstract: Spiking Neural Networks (SNNs) offer theoretical energy-efficiency advantages over conventional deep networks, but realizing these advantages on vision tasks requires sparse spike representations that naive rate-coding methods fail to provide. We combine biologically motivated spike-encoding schemes with two training improvements: Rouser adaptive-threshold surrogate gradients and Kronecker-Factored Approximate Curvature (K-FAC) second-order optimization. The spike encoding schemes experimented with are rate coding, latency coding, DVS-style delta modulation, and Difference-of-Gaussians (DoG) filtering. Experiments on MNIST and Fashion-MNIST demonstrate that biologically inspired encoders yield the largest accuracy gains in capacity-constrained regimes and serve as an effective parameter-efficiency lever. DoG and delta modulation encoders produce significantly sparser spike trains than rate coding. K-FAC yields modest but consistent accur",
     "path": "papers/26/11/2611.23242.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1239,
+    "translated_title": "脉冲神经网络的生物启发脉冲编码与优化",
+    "translated_abstract": "脉冲神经网络在理论上相比传统深度网络具有能效优势，但要在视觉任务中实现这些优势，需要稀疏的脉冲表示，而朴素的频率编码方法无法提供。我们将生物启发的脉冲编码方案与两项训练改进相结合：Rouser 自适应阈值替代梯度以及 Kronecker 分解近似曲率（K-FAC）二阶优化。实验中考察的脉冲编码方案包括频率编码、延迟编码、DVS 风格的增量调制以及高斯差分（DoG）滤波。在 MNIST 和 Fashion-MNIST 上的实验表明，生物启发的编码器在容量受限的情形下带来最大的准确率提升，并可作为有效的参数效率手段。DoG 与增量调制编码器产生的脉冲序列比频率编码显著更稀疏。K-FAC 带来适度但一致的准确率提升。",
+    "tldr": "该论文将生物启发的脉冲编码方案（频率编码、延迟编码、增量调制、DoG 滤波）与自适应阈值替代梯度和 K-FAC 二阶优化相结合，显著提升了脉冲神经网络在容量受限条件下的准确率和脉冲稀疏性。",
+    "en_tdlr": "This paper combines biologically-inspired spike encoding schemes (rate, latency, delta modulation, DoG filtering) with Rouser adaptive-threshold surrogate gradients and K-FAC second-order optimization, significantly improving the accuracy and spike sparsity of SNNs in capacity-constrained regimes."
 }

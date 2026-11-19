@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.24535",
     "context": "Title: ProbMedTOD: A Bayesian Network Guided Task-Oriented Dialogue System for Patient History Taking\nAbstract: arXiv:2611.24535v1 Announce Type: new  Abstract: Patient history taking is a strategic, multi-turn process that refines diagnostic hypotheses through iterative questioning, mirroring clinical reasoning where each inquiry updates beliefs over candidate diagnoses. Deploying AI in this setting is constrained by privacy, cost, and latency, making Small Language Models (SLMs) a more desirable backbone compared to larger LLMs. However, SLMs capture only the fast, intuitive \"System 1\" side of this process and lack explicit mechanisms for the deliberative \"System 2\" reasoning needed to maintain and update diagnostic uncertainty over time. Bayesian Networks (BayesNets) offer a natural complement, providing an interpretable framework for auditable probabilistic belief tracking. Yet, clinical BayesNets are difficult to construct due to their reliance on expert curated structure, dependencies, and parameters.   We introduce ProbMedTOD, which automatically synthesizes a clinical BayesNet from a sma",
     "path": "papers/26/11/2611.24535.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1831,
+    "translated_title": "ProbMedTOD：一种贝叶斯网络引导的面向患者病史采集的任务导向对话系统",
+    "translated_abstract": "病史采集是一个策略性的多轮过程，通过迭代提问来细化诊断假设，反映了临床推理中每次询问都会更新对候选诊断信念的特点。在这一场景中部署AI受到隐私、成本和延迟的限制，因此相比大型语言模型（LLMs），小型语言模型（SLMs）是更理想的骨干选择。然而，SLMs只能捕捉这一过程中快速、直觉的“系统1”部分，缺乏维持和更新诊断不确定性所需的深思熟虑的“系统2”推理的显式机制。贝叶斯网络（BayesNets）提供了天然的补充，为可审计的概率信念跟踪提供了可解释的框架。然而，临床贝叶斯网络难以构建，因为其依赖于专家手工整理的结构、依赖关系和参数。我们提出了ProbMedTOD，它能从少量的……自动合成临床贝叶斯网络（注：原摘要不完整，在“from a sma”处截断）",
+    "tldr": "该论文提出ProbMedTOD系统，通过自动合成临床贝叶斯网络为小型语言模型提供可解释的概率信念跟踪与“系统2”深思推理能力，从而实现更可靠的患者病史采集任务导向对话。",
+    "en_tdlr": "ProbMedTOD combines small language models with automatically synthesized clinical Bayesian networks, enabling interpretable probabilistic belief tracking and deliberative \"System 2\" reasoning for patient history taking dialogue systems."
 }

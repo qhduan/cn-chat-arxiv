@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.23480",
     "context": "Title: Diagnostic Accuracy and Navigation Behavior of Vision-Language Model Agents Reading Emergency CT and MRI Examinations\nAbstract: arXiv:2611.23480v1 Announce Type: new  Abstract: Purpose. To evaluate the diagnostic accuracy and image navigation behavior of vision-language model (VLM) agents under varying exploration strategies. Materials and Methods. In this retrospective study, six VLMs read 100 emergency CT and MRI examinations published in a public archive (March 2025-August 2026) under four conditions (free navigation, navigation from a key slice, and all slices or key slices in a single request), twice each (4800 runs). Nine radiologists read 30 of those cases. A large language model judge validated against two radiologists graded the answers. Conditions were compared with generalized estimating equations clustered by case. Results. Pooled accuracy was lowest under free navigation (32.6%; 391/1200), followed by navigation from a key slice (37.9%; 455/1200; P = .003), and highest with all slices (42.2%; 506/1200) or key slices (42.5%; 510/1200) in one request (both P < .001). On the 30 cases read by radiologi",
     "path": "papers/26/11/2611.23480.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1504,
+    "translated_title": "视觉-语言模型智能体读取急诊CT和MRI检查的诊断准确性与导航行为",
+    "translated_abstract": "目的：评估视觉-语言模型（VLM）智能体在不同探索策略下的诊断准确性和图像导航行为。材料与方法：在这项回顾性研究中，六种VLM读取了公开发布档案中的100例急诊CT和MRI检查（2025年3月至2026年8月），在四种条件下进行（自由导航、从关键切片开始导航、单次请求中提供全部切片或关键切片），每种条件读取两次（共4800次运行）。九名放射科医师读取了其中30例病例。一个经过两名放射科医师验证的大语言模型评判系统对答案进行评分。各条件间采用按病例聚类的广义估计方程进行比较。结果：汇总准确率在自由导航下最低（32.6%；391/1200），其次是从关键切片开始导航（37.9%；455/1200；P = .003），而在单次请求中提供全部切片（42.2%；506/1200）或关键切片（42.5%；510/1200）时最高（均P < .001）。在放射科医师读取的30例病例中……",
+    "tldr": "该研究比较了六种视觉-语言模型智能体在不同图像导航策略下读取急诊CT和MRI的诊断准确性，发现单次请求提供全部或关键切片时准确率最高（约42.5%），而自由导航时最低（32.6%），表明当前VLM智能体自主探索医学图像的能力仍然有限。",
+    "en_tdlr": "This study compared the diagnostic accuracy of six vision-language model agents reading emergency CT and MRI examinations under different navigation strategies, finding that accuracy was highest when all or key slices were provided in a single request (up to 42.5%) and lowest under free navigation (32.6%), indicating that current VLM agents' autonomous exploration of medical images remains limited."
 }

@@ -4,9 +4,8 @@
     "link": "https://arxiv.org/abs/2611.23289",
     "context": "Title: An Empirical Study of Visual Artifacts in Pull Request Descriptions\nAbstract: arXiv:2611.23289v1 Announce Type: new  Abstract: Reviewers rely on pull request (PR) descriptions to understand what a change does, yet some changes, such as UI updates or runtime behavior, are hard to convey in text alone. PR authors attach visual artifacts to fill this gap, but how often they do so, what they show, and whether they change how a PR is reviewed remain unknown. We present a large-scale study of visual artifacts in GitHub PR descriptions. From 6,505,113 closed PRs in 5,012 repositories, we built VisPR, a dataset of 2,473,892 English, human-authored PRs from 647 repos where visual artifacts are an established practice. Of these, 329,185 (13.3%) are visual PRs, i.e., their descriptions contain at least one visual artifact (479,974 in total). By manually labeling a sample of 1,113 visual artifacts from 891 merged visual PRs, we derived two taxonomies: 11 content types capturing what developers show and six purposes capturing why they include visual artifacts. The dominant c",
     "path": "papers/26/11/2611.23289.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1420,
+    "translated_title": "拉取请求描述中视觉制品的实证研究",
+    "translated_abstract": "审阅者依赖拉取请求（PR）描述来了解代码变更的作用，然而某些变更（如界面更新或运行时行为）很难仅通过文字来传达。PR作者会附加视觉制品来填补这一空白，但他们这样做的频率如何、展示的内容是什么、以及这些视觉制品是否会改变PR的审阅方式，目前仍不得而知。我们对GitHub PR描述中的视觉制品进行了大规模研究。从5,012个仓库中的6,505,113个已关闭PR中，我们构建了VisPR数据集，其中包含来自647个仓库的2,473,892个英文人工编写的PR，这些仓库中视觉制品已是普遍做法。其中，329,185个（13.3%）是视觉PR，即其描述中包含至少一个视觉制品（总计479,974个）。通过手动标注来自891个已合并视觉PR的1,113个视觉制品样本，我们得出了两个分类体系：11种内容类型（刻画开发者展示什么）和6种目的（刻画他们为何包含视觉制品）。占主导地位的内容类型是……",
+    "tldr": "本研究首次对GitHub拉取请求描述中的视觉制品进行大规模实证研究，构建了包含247万余个PR的VisPR数据集，发现13.3%的PR包含视觉制品，并提出了涵盖11种内容类型和6种用途的双分类体系。"
 }

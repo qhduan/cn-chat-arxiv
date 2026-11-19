@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.23386",
     "context": "Title: Chorus: Shared N-gram Embeddings with Layer-wise Adaptation\nAbstract: arXiv:2611.23386v1 Announce Type: new  Abstract: Language models can gain capacity at little computational cost from n-gram embedding tables: large tables of learned vectors for short sequences of consecutive tokens, which are looked up and added to the model's input or to its intermediate layers. Recent designs commonly use a separate n-gram embedding table for each layer, which makes the tables costly in memory and prevents layers from sharing what they learn. Sharing a single table, however, gives every layer the same embedding and leaves no room for layer-wise preferences, and it performs poorly in practice. We propose Chorus, in which one set of n-gram embedding tables serves the whole network and every layer reads it in its own way. Each layer maps the refined embedding through its own projection layer, after rescaling its components by factors computed from its current hidden state. Chorus matches the quality of existing n-gram methods with 87% smaller tables: with 1.2B table pa",
     "path": "papers/26/11/2611.23386.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1370,
+    "translated_title": "Chorus：具有逐层自适应的共享N-gram嵌入",
+    "translated_abstract": "语言模型可以通过n-gram嵌入表以极小的计算代价获得容量提升：这些嵌入表是为连续token短序列存储学习向量的大型表，通过查表将其添加到模型的输入或中间层。近期的设计通常为每一层使用单独的n-gram嵌入表，这使得这些表在内存开销上十分昂贵，并且阻碍了各层之间共享所学内容。然而，共享单个表会使每一层获得相同的嵌入，没有为各层的偏好留下空间，因此在实践中表现不佳。我们提出Chorus，其中一组n-gram嵌入表服务于整个网络，而每一层以自己的方式读取它。每一层先根据其当前隐藏状态计算出的因子对各分量进行重新缩放，然后通过其自己的投影层映射该精炼后的嵌入。Chorus以小87%的表实现了与现有n-gram方法相当的质量：在1.2B表参数……",
+    "tldr": "Chorus提出让整个网络共享一组n-gram嵌入表，每层通过基于自身隐藏状态计算的缩放因子和独立投影层以各自的方式读取共享表，从而以比现有方法小87%的表实现相当的质量。",
+    "en_tdlr": "Chorus enables the whole network to share a single set of n-gram embedding tables, where each layer reads them in its own way via rescaling factors computed from its hidden state and a layer-specific projection, matching existing n-gram methods' quality with 87% smaller tables."
 }

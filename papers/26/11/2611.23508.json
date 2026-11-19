@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.23508",
     "context": "Title: BOS Summary: The First Token Matters\nAbstract: arXiv:2611.23508v1 Announce Type: new  Abstract: Large vision-language models (LVLMs) and language models (LLMs) often exhibit attention sinks, whereby particular positions, such as the beginning-of-sequence (BOS) token, receive a disproportionate share of attention. Under standard causal masking, however, the BOS query attends only to itself, so the representation that later tokens repeatedly access carries no information about the input. We introduce BOS Summary, a training-free inference-time method that repurposes this persistent pathway to carry input context. At a single transformer layer during prefill, BOS Summary relaxes the causal constraint for the BOS query row alone, letting BOS aggregate all visual and textual input tokens into a self-derived context representation while every other token retains standard causal attention. The enriched representation then remains accessible to the model throughout decoding, with no additional parameters, auxiliary modules, or decoding-tim",
     "path": "papers/26/11/2611.23508.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1207,
+    "translated_title": "BOS摘要：第一个标记至关重要",
+    "translated_abstract": "大型视觉语言模型（LVLMs）和语言模型（LLMs）常常表现出注意力汇聚现象，即特定位置（如序列开始（BOS）标记）会获得不成比例的注意力份额。然而，在标准因果掩码下，BOS查询仅关注自身，因此后续标记反复访问的表示不携带任何关于输入的信息。我们提出了BOS Summary，这是一种无需训练的推理时方法，将这一持久通路重新用于承载输入上下文。在预填充阶段的单个transformer层，BOS Summary仅对BOS查询行放宽因果约束，使BOS能够将所有视觉和文本输入标记聚合为一个自生成的上下文表示，同时其他所有标记保持标准因果注意力。这种丰富的表示在解码全过程中始终保持对模型可访问，无需额外参数、辅助模块或解码时间开销。",
+    "tldr": "BOS Summary是一种无需训练的推理时方法，通过在预填充阶段的单个transformer层放宽BOS查询行的因果约束，让序列开始标记聚合所有视觉和文本输入信息，使模型在解码全程都能访问这一上下文表示，且不引入任何额外参数或开销。",
+    "en_tdlr": "BOS Summary is a training-free inference-time method that relaxes the causal constraint for the BOS query row at a single transformer layer during prefill, allowing the first token to aggregate all visual and textual inputs into a context representation that remains accessible throughout decoding, with no additional parameters or overhead."
 }

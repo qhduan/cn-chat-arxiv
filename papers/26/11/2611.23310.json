@@ -4,10 +4,9 @@
     "link": "https://arxiv.org/abs/2611.23310",
     "context": "Title: Edge Computing for IoT-Enabled Smart Cities: A Review of Middleware, Explainable AI, and User Behavior Analytics\nAbstract: arXiv:2611.23310v1 Announce Type: new  Abstract: This review looks at cloud-IoT edge middleware for analyzing user behavior in smart cities, with a particular focus on linking behavioral analytics to energy-aware and mission-critical urban services. The topic sits at the crossroads of smart-city platforms, IoT sensing, edge/fog/cloud computing, service-oriented architectures, machine learning, explainable AI, privacy-aware governance, and energy-critical applications such as EV charging, energy demand, environmental exposure, crowd safety, and the operational resilience of urban infrastructure. As such, this paper maps out the main categories of user-behavior data, examines five application domains, compares several case studies, and puts forward a new XAI-EdgeSOA Middleware Framework called X-EdgeCity Middleware. This framework brings together IoT sensing, edge preprocessing, fog coordination, event-driven communication, cloud analytics, XAI explanations, privacy-by-design, and benchm",
     "path": "papers/26/11/2611.23310.json",
-    "total_tokens": 1224,
-    "translated_title": "面向物联网智慧城市的边缘计算：中间件、可解释人工智能与用户行为分析综述",
-    "pending": [
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1200,
+    "translated_title": "面向物联网赋能智慧城市的边缘计算：中间件、可解释人工智能与用户行为分析综述",
+    "translated_abstract": "本综述探讨了用于智慧城市用户行为分析的云-物联网边缘中间件，特别关注将行为分析与能源感知及关键任务型城市服务相联系。该主题处于智慧城市平台、物联网感知、边缘/雾/云计算、面向服务的架构、机器学习、可解释人工智能（XAI）、隐私感知治理，以及能源关键型应用（如电动汽车充电、能源需求、环境暴露、人群安全和城市基础设施运行韧性）的交汇点。为此，本文梳理了用户行为数据的主要类别，考察了五个应用领域，比较了若干案例研究，并提出了一种名为 X-EdgeCity Middleware 的新型 XAI-EdgeSOA 中间件框架。该框架融合了物联网感知、边缘预处理、雾层协调、事件驱动通信、云端分析、XAI 解释以及隐私设计（privacy-by-design）等技术。",
+    "tldr": "本文提出名为 X-EdgeCity 的新型中间件框架，融合物联网感知、边缘/雾/云计算与可解释人工智能，用于智慧城市用户行为分析，并支持能源感知与关键任务型城市服务。",
+    "en_tdlr": "This paper proposes X-EdgeCity, a novel XAI-EdgeSOA middleware framework that integrates IoT sensing, edge/fog/cloud computing, and explainable AI to analyze user behavior in smart cities while supporting energy-aware and mission-critical urban services."
 }

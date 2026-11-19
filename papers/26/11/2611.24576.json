@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.24576",
     "context": "Title: Late Entry in Looped Language Models\nAbstract: arXiv:2611.24576v1 Announce Type: new  Abstract: Looped language models deepen reasoning at a compact parameter count by iterating a shared layer stack T times per token, turning recurrence depth directly into sequential decoding latency. Conventional early-exit decoding halts after initial passes without cache completion, truncating cached key-value states of past tokens to shallow depth. We study the opposite strategy, late entry, where new tokens skip initial passes and enter directly into the final K < T passes over a deep context cache. Once lightweight fine-tuning resolves hidden-state norm mismatch at the entry boundary, deep cached context substitutes for skipped token-local passes, allowing late entry to outperform matched early exit across model families and pass budgets. To turn this asymmetry into wall-clock speedups without stalling to build deep caches, candidate blocks verify through only the final K passes on the critical path while previously committed tokens complete ",
     "path": "papers/26/11/2611.24576.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1307,
+    "translated_title": "循环语言模型中的晚入策略",
+    "translated_abstract": "循环语言模型通过对每个token迭代共享层堆栈T次，在紧凑参数规模下实现更深层的推理，但也因此将循环深度直接转化为顺序解码的延迟。传统的早退解码在完成初始几次迭代后即停止且不完成缓存构建，将历史token的缓存键值状态截断至浅层深度。我们研究了相反的策略——晚入，即新token跳过初始迭代，直接进入基于深度上下文缓存的最后K（K < T）次迭代。一旦通过轻量级微调解决了入口边界处隐状态范数不匹配的问题，深度缓存上下文便可替代被跳过的token局部迭代，使晚入在多个模型家族和迭代预算设定下均优于同等条件的早退策略。为了在不因构建深度缓存而停滞的情况下将这种不对称性转化为实际运行时间的加速，候选块在关键路径上仅通过最后K次迭代进行验证，而先前已提交的token则完成……（摘要原文在此处被截断）",
+    "tldr": "提出循环语言模型的“晚入”解码策略——新token跳过初始迭代、直接基于深度缓存上下文进入最后K次迭代，性能优于同等的早退策略，并可将该优势转化为实际解码速度的提升。",
+    "en_tdlr": "Proposes \"late entry\" decoding for looped language models, where new tokens skip initial passes and enter directly into the final K passes over a deep context cache, outperforming matched early-exit decoding across model families and pass budgets while enabling wall-clock speedups."
 }

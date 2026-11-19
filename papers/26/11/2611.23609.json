@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.23609",
     "context": "Title: Label-Free Role-Aware Segmentation of Classroom Recordings: Recovering the Teacher from Transferable Structure\nAbstract: arXiv:2611.23609v1 Announce Type: new  Abstract: How much the teacher talks and when are among the most informative and costly-to-measure signals of teaching. Yet, classroom audio is among the most sensitive data an AI system can process: recordings capture minors and fall under GDPR, preventing raw audio from leaving the recording device. We present a teacher-student segmentation pipeline designed to meet exactly this constraint: label-free at inference, running on a recording device, and requiring no per-session calibration. The pipeline chains a lightweight voice activity detector, compactly pretrained speaker embeddings, agglomerative clustering, and a small logistic regression that assigns the teacher role based on session-relative structure rather than voice identity. We show that our structural cue transfers across classrooms, languages, and acoustic conditions.   In leave-one-teacher-out cross-validation on 292 recordings from 63 teachers across English and German corpora, our ",
     "path": "papers/26/11/2611.23609.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1227,
+    "translated_title": "无标签的课堂录音角色感知分割：从可迁移的结构中恢复教师角色",
+    "translated_abstract": "教师说话的多少及其发生时机，是教学中最具信息量、同时也最难测量的信号之一。然而，课堂音频是人工智能系统所能处理的最敏感数据之一：录音涉及未成年人并受到GDPR法规约束，因此原始音频不得离开录音设备。我们提出了一种专为满足这一约束而设计的师生语音分割流水线：推理阶段无需标签、可在录音设备上运行，且无需针对每次会话进行校准。该流水线串联了一个轻量级语音活动检测器、紧凑的预训练说话人嵌入、凝聚式聚类，以及一个小型逻辑回归模型——该模型基于会话内的相对结构而非声音身份来分配教师角色。我们证明了这种结构线索能够跨教室、跨语言、跨声学条件进行迁移。在来自英语和德语语料库、共63位教师的292段录音上进行留一教师交叉验证，我们的（摘要在此处截断）",
+    "tldr": "该论文提出了一种无需标签、可在录音设备本地运行的师生语音分割流水线，通过基于会话相对结构而非声音身份的方式来识别教师角色，并能跨教室、语言和声学条件迁移。",
+    "en_tdlr": "The paper presents a label-free, on-device teacher-student speech segmentation pipeline that identifies the teacher based on session-relative structure rather than voice identity, and transfers across classrooms, languages, and acoustic conditions."
 }

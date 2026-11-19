@@ -4,9 +4,8 @@
     "link": "https://arxiv.org/abs/2611.23266",
     "context": "Title: Skill Roulette: Measuring Skill Invocation Rate Across LLM Coding Agents\nAbstract: arXiv:2611.23266v1 Announce Type: new  Abstract: Agent skills package procedures for large language model (LLM) coding agents. An agent selects a skill from its name and description before reading the procedure. It may complete the task without invoking a relevant skill. We investigate how reliably coding agents invoke relevant skills and which factors affect that decision. We estimate invocation rates by repeating trials with identical inputs; invocation rate is the proportion of trials in which the agent invokes the relevant skill. We test 9 non-directional hypotheses about skill metadata, competing skills, contextual instructions, and task wording and composition. Eight concern invocation; the ninth tests whether making a skill available changes the occurrence of an action that the task does not request. We use tasks from 4 software engineering categories in a synthetic repository, running each of 4 coding-agent harnesses with 2 models. The planned 20,400 trials include 60 repetitio",
     "path": "papers/26/11/2611.23266.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1213,
+    "translated_title": "技能轮盘：测量大语言模型编程代理的技能调用率",
+    "translated_abstract": "代理技能为大语言模型（LLM）编程代理封装了操作流程。代理在阅读流程内容之前，仅凭技能的名称和描述来选择技能。因此代理可能在未调用相关技能的情况下就完成任务。我们研究了编程代理调用相关技能的可靠程度，以及哪些因素会影响这一决策。我们通过使用相同输入重复试验来估计调用率；调用率是指代理调用了相关技能的试验所占比例。我们测试了9个非方向性假设，涉及技能元数据、竞争性技能、上下文指令以及任务的措辞和构成。其中八个假设关于调用行为；第九个测试提供某项技能是否会改变任务本身并未要求的某个动作的出现频率。我们使用合成代码仓库中来自4个软件工程类别的任务，在4种编程代理框架上分别运行2个模型进行测试。计划中的20,400次试验包含60次重复……",
+    "tldr": "该论文提出“技能调用率”这一量化指标，通过约2万次大规模重复试验，系统测量了LLM编程代理在不同因素（技能元数据、竞争技能、上下文指令、任务措辞等）影响下调用相关技能的可靠性。"
 }

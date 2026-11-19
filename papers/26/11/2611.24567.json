@@ -4,9 +4,8 @@
     "link": "https://arxiv.org/abs/2611.24567",
     "context": "Title: Objective-Specialized Residual Streams in Manifold-Constrained Hyper-Connections\nAbstract: arXiv:2611.24567v1 Announce Type: new  Abstract: Manifold-constrained Hyper-Connections (mHC) extend a Transformer's residual stream into multiple parallel streams with learned cross-stream connections. Prior work trains all streams toward a shared objective. We instead study whether assigning distinct learning objectives to different streams can improve task performance and induce objective-specific specialization. Using complementary lexical (sparse) and semantic (dense) retrieval objectives as a test case, we find that objective-specialized mHC consistently outperforms a non-specialized mHC model across the full sparse--dense fusion range, for both two- and four-stream models and at two model scales. We then examine how specialization changes the model internally using probes of stream representations, residual mixing, objective-specific gradient flow, and read/write gates. The specialized and non-specialized models behave similarly through most of the network but diverge in the fin",
     "path": "papers/26/11/2611.24567.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1099,
+    "translated_title": "流形约束超连接中的目标特化残差流",
+    "translated_abstract": "流形约束超连接将Transformer的残差流扩展为多条并行流，并带有可学习的跨流连接。先前的工作将所有流朝着一个共享目标进行训练。我们转而研究为不同流分配不同的学习目标能否提升任务性能并诱导出目标特定的特化。以互补的词汇（稀疏）和语义（密集）检索目标作为测试案例，我们发现目标特化的mHC在整个稀疏-密集融合范围内始终优于非特化的mHC模型，这在双流和四流模型以及两种模型规模上均成立。随后，我们通过对流表示、残差混合、目标特定梯度流以及读写门控的探测，考察了特化如何在模型内部改变模型。特化与非特化模型在网络的大部分部分表现相似，但在网络的末端出现分化……",
+    "tldr": "在流形约束超连接中为不同残差流分配不同的学习目标（如词汇与语义检索），能在各种配置下持续提升性能并诱导出目标特定的内部表征特化。"
 }

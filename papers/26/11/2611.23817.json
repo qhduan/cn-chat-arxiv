@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.23817",
     "context": "Title: Metrics-in-the-Loop: Complexity Feedback Reshapes Agent-Written Code\nAbstract: arXiv:2611.23817v1 Announce Type: new  Abstract: Coding agents now write whole codebases in long autonomous runs, guided mainly by whether their tests pass. Yet passing tests alone does not reveal accumulating complexity or gaps in test coverage, which then persist as agents extend their own code. We introduce metrics-in-the-loop, an inference-time intervention that gives agents in-flight feedback: cheap, automatically computed code metrics injected into the agent's context during the trajectory. After each code-changing agent turn, we insert short feedback messages naming changed functions whose cyclomatic complexity exceeds a limit (complexity feedback) or changed lines that are skipped by tests (coverage feedback), giving the agent the opportunity to refactor code or strengthen tests before continuing. We run extensive experiments and ablations comparing several interventions across three long-horizon coding benchmarks and four strong models. We find that complexity feedback signifi",
     "path": "papers/26/11/2611.23817.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1648,
+    "translated_title": "循环中的度量：复杂度反馈重塑智能体编写的代码",
+    "translated_abstract": "编程智能体现在能够在长时间的自主运行中编写整个代码库，其主要依据是测试是否通过。然而，仅凭测试通过无法揭示不断累积的代码复杂度或测试覆盖率的缺口，而这些缺陷会随着智能体不断扩展自己编写的代码而持续存在。我们提出了“循环中的度量”，这是一种推理时干预方法，为智能体提供执行过程中的即时反馈：在智能体的运行轨迹中注入低成本、自动计算的代码度量指标。在智能体每次修改代码的轮次之后，我们插入简短的反馈消息，指出圈复杂度超过阈值的被修改函数（复杂度反馈）或被测试跳过的被修改代码行（覆盖率反馈），使智能体有机会在继续执行之前重构代码或加强测试。我们在三个长时程编程基准测试和四个强大的模型上进行了广泛的实验和消融研究，比较了多种干预方法。我们发现复杂度反馈显著……",
+    "tldr": "提出了一种推理时干预方法，通过在编程智能体的执行轨迹中注入自动计算的代码复杂度和测试覆盖率反馈，促使智能体及时重构代码并加强测试，从而有效抑制智能体自主编写代码过程中累积的复杂度和覆盖缺口。",
+    "en_tdlr": "This paper proposes metrics-in-the-loop, an inference-time intervention that injects automatically computed code complexity and test coverage feedback into coding agents' trajectories, prompting them to refactor code and strengthen tests to curb accumulating complexity in agent-written codebases."
 }

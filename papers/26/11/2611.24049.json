@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.24049",
     "context": "Title: A Hybrid RAG Framework for Deceptive Review Detection: Integrating RoBERTa-LoRA, FAISS-Based Retrieval, and LLM Reasoning\nAbstract: arXiv:2611.24049v1 Announce Type: new  Abstract: The growth of deceptive online opinions poses a critical risk of misinformation and fraud. This paper proposes a Retrieval-Augmented Generation (RAG) system to automatically distinguish spam reviews. The architecture integrates RoBERTa with Low-Rank Adaptation (LoRA) classification, FAISS semantic vector retrieval, and a Large Language Model (LLM) for final reasoning. The system was evaluated across balanced and severely imbalanced real-world scenarios. Results demonstrate that five epochs of fine-tuning enable robust domain transfer, achieving an F1-score of 0.90 in cross-domain evaluation, outperforming baselines (OpenAI Detector,F1 = 0.82) and demonstrating competitive performance against specialized in-domain SOTA models (fakeRoBERTa,F1 = 0.97). The proposed architecture provides evidence-backed explainability and statistically significant precision gains while maintaining comparable overall detection performance.",
     "path": "papers/26/11/2611.24049.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1295,
+    "translated_title": "一种用于虚假评论检测的混合RAG框架：集成RoBERTa-LoRA、基于FAISS的检索与大语言模型推理",
+    "translated_abstract": "虚假在线评论的不断增长带来了错误信息和欺诈的严重风险。本文提出了一种检索增强生成（RAG）系统，用于自动识别虚假评论。该架构集成了采用低秩适配（LoRA）微调的RoBERTa分类模块、FAISS语义向量检索，以及用于最终推理的大语言模型（LLM）。该系统在平衡以及严重类别不平衡的真实场景中进行了评估。结果表明，仅需五个训练周期的微调即可实现稳健的领域迁移，在跨领域评估中达到0.90的F1分数，优于基线模型（OpenAI Detector，F1 = 0.82），并与领域内专用SOTA模型（fakeRoBERTa，F1 = 0.97）展现出有竞争力的性能。所提出的架构在保持相当的整体检测性能的同时，提供了有证据支持的可解释性以及统计学上显著的精确率提升。",
+    "tldr": "本文提出了一种融合RoBERTa-LoRA分类、FAISS语义检索与LLM推理的混合RAG框架用于虚假评论检测，仅经五个微调周期即在跨领域评估中取得0.90的F1分数，同时提供了证据支持的可解释性。",
+    "en_tdlr": "This paper proposes a hybrid RAG framework integrating RoBERTa-LoRA classification, FAISS-based retrieval, and LLM reasoning for deceptive review detection, achieving an F1-score of 0.90 in cross-domain evaluation after only five fine-tuning epochs while providing evidence-backed explainability."
 }

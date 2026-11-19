@@ -4,9 +4,8 @@
     "link": "https://arxiv.org/abs/2611.23254",
     "context": "Title: Structure-Behavior Coalescence: A Definition of Systems\nAbstract: arXiv:2611.23254v1 Announce Type: new  Abstract: For more than seventy years, systems engineering has developed extensive models and frameworks, yet the fundamental question of what constitutes a system remains insufficiently formalized. Existing approaches often treat structure and behavior as separate aspects, leaving their unity, system identity, and consistency conditions insufficiently defined. This paper introduces Structure-Behavior Coalescence (SBC) as a formal framework that defines a system as an integrated entity in which structure and behavior are coalesced through interaction. SBC provides a formal modeling approach with well-formedness constraints for maintaining structural-behavioral coherence, including representations for terminal, paused, and intermediate states and rules for sequential, parallel, and alternative behaviors. The framework provides a formal perspective on the question, \"What is a system?\", and establishes a foundation for consistent system modeling, ver",
     "path": "papers/26/11/2611.23254.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1162,
+    "translated_title": "结构-行为融合：系统的定义",
+    "translated_abstract": "七十多年来，系统工程已经发展出大量模型与框架，然而关于“什么构成一个系统”这一基本问题仍未得到充分的形式化。现有方法往往将结构与行为视为相互分离的两个方面，对其统一性、系统身份以及一致性条件的定义不够充分。本文提出结构-行为融合（Structure-Behavior Coalescence, SBC）作为一个形式化框架，将系统定义为通过交互使结构与行为融合为一体的整体实体。SBC 提供了一种形式化建模方法，包含用于维持结构-行为一致性的良构性约束，其中包括对终止状态、暂停状态和中间状态的表示，以及针对顺序、并行和替代行为的规则。该框架为“什么是系统？”这一问题提供了形式化的视角，并为一致的系统建模与验证奠定了基础。",
+    "tldr": "本文提出结构-行为融合（SBC）形式化框架，将系统定义为通过交互使结构与行为融为一体的整体实体，并给出良构性约束与行为规则，从而形式化地回答了“什么是系统”这一根本问题。"
 }

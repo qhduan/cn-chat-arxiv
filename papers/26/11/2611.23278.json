@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.23278",
     "context": "Title: Agents as Architecture Evaluators: Automating ATAM and SAAM for Continuous Assessment\nAbstract: arXiv:2611.23278v1 Announce Type: new  Abstract: The long-term success of a software system relies heavily on its underlying architecture, which dictates its performance with respect to quality attributes. Software Architecture Evaluation methods, such as the Architecture Tradeoff Analysis Method (ATAM) and the Software Architecture Analysis Method (SAAM), are widely recognized for their ability to mitigate risks and ensure reliable quality attributes. However, their widespread adoption remains limited due to the significant cost, time, and human expertise required for these processes. This paper investigates the potential of agentic AI to lower these barriers and facilitate architectural assessment. To enable this preliminary study, we established a dataset by extracting human conducted evaluations from existing academic literature into a structured format. Using this dataset, we developed an agentic workflow to synthesize ATAM and SAAM evaluation reports based on these high level arc",
     "path": "papers/26/11/2611.23278.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1007,
+    "translated_title": "智能体作为架构评估者：自动化ATAM与SAAM以实现持续评估",
+    "translated_abstract": "软件系统的长期成功在很大程度上取决于其底层架构，而底层架构决定了系统在质量属性方面的表现。软件架构评估方法，如架构权衡分析方法（ATAM）和软件架构分析方法（SAAM），因其能够缓解风险并确保可靠的质量属性而得到广泛认可。然而，由于这些过程需要大量的成本、时间和人类专家知识，其广泛应用仍然受限。本文探讨了智能体人工智能降低这些门槛并促进架构评估的潜力。为了开展这项初步研究，我们通过将现有学术文献中由人工执行的评估提取为结构化格式，建立了一个数据集。基于该数据集，我们开发了一个智能体工作流，以根据这些高层架构信息合成ATAM和SAAM评估报告。",
+    "tldr": "本文提出利用智能体AI工作流自动化软件架构评估方法ATAM与SAAM，并通过从学术文献构建结构化评估数据集，实现降低成本与专家门槛的持续架构评估。",
+    "en_tdlr": "This paper proposes agentic AI workflows to automate the ATAM and SAAM software architecture evaluation methods, building a structured dataset from academic literature to enable continuous assessment while lowering cost and expertise barriers."
 }

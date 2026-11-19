@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.23304",
     "context": "Title: LLMs for Software Vulnerability Prediction and Prioritization: A Review\nAbstract: arXiv:2611.23304v1 Announce Type: new  Abstract: Large language models have moved beyond vulnerability detection into prediction, assessment, exploitability estimation, risk assessment and prioritization, yet the evidence for this shift has not been synthesised separately from the detection literature. In this systematic literature review, we examine how LLMs are used across those five task classes, how well they perform against established baselines, and what prevents their operational adoption. Following a prespecified protocol, we identified 197 records, removed 53 duplicates, and excluded 103 records at title and abstract stage. We assessed 41 full texts and finally retained 23 primary studies published between 2024 and 2026 after a six-question quality assessment. The review contributes a five-class taxonomy ordered by decision outcome, a method taxonomy covering prompting, tuning and retrieval or agentic architectures, an evaluation-practice audit, a bounded performance synthesis",
     "path": "papers/26/11/2611.23304.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1263,
+    "translated_title": "大语言模型在软件漏洞预测与优先级排序中的应用：综述",
+    "translated_abstract": "大语言模型已经超越了漏洞检测范畴，进入漏洞预测、评估、可利用性估计、风险评估和优先级排序等任务领域，然而这一转变的证据尚未从检测相关文献中单独综合。在这项系统性文献综述中，我们考察了大语言模型在这五类任务中的使用方式、它们相对于既有基线的表现如何，以及哪些因素阻碍了其在实际运营中的采用。遵循预先设定的协议，我们识别了197条记录，去除了53条重复记录，并在标题与摘要阶段排除了103条记录。我们评估了41篇全文，并经过六问质量评估后，最终保留了2024年至2026年间发表的23篇原始研究。本综述的贡献包括：按决策结果排序的五类任务分类法、涵盖提示工程、微调以及检索式或智能体架构的方法分类法、对评估实践的审计，以及有界性能综合分析。",
+    "tldr": "该系统性文献综述首次独立于检测文献，综合了23项2024至2026年间的研究，系统梳理了大语言模型在软件漏洞预测、评估、可利用性估计、风险评估与优先级排序五类任务中的应用、性能表现及落地障碍，并提出了按决策结果划分的五类任务分类法与涵盖提示、微调及智能体架构的方法分类法。",
+    "en_tdlr": "This systematic literature review synthesizes evidence from 23 primary studies (2024–2026) on how LLMs are used for software vulnerability prediction, assessment, exploitability estimation, risk assessment, and prioritization, contributing a decision-outcome-ordered five-class task taxonomy, a method taxonomy covering prompting, tuning, and retrieval/agentic architectures, and an audit of evaluation practices."
 }

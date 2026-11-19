@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2610.38366",
     "context": "Title: TCC-RAG: Temporal Causal Chain-Guided RAG for Temporal Knowledge Graph Question Answering\nAbstract: arXiv:2610.38366v2 Announce Type: replace  Abstract: Recent advances in large language models (LLMs) have spurred growing interest in temporal knowledge graph question answering (TKGQA). Most existing methods rely on semantic retrieval augmented generation (RAG), which suffers from fundamental limitations in complex temporal reasoning. On the one hand, semantic-based RAG methods struggle to capture the multi-hop causal knowledge required for complex temporal reasoning. On the other hand, these methods introduce excessive redundant knowledge, trapping LLMs in spurious reasoning chains that potentially result in erroneous answers. To address these problems, we propose a Temporal Causal Chain-guided RAG (TCC-RAG) to retrieve a concise yet sufficient set of causal knowledge to support complex temporal reasoning. Specifically, we reformulate the temporal knowledge graph into a multi-view causal cue graph, with causal cues inducing connections that explicitly encode temporal evolution and ca",
     "path": "papers/26/10/2610.38366.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1331,
+    "translated_title": "TCC-RAG：面向时序知识图谱问答的时序因果链引导检索增强生成方法",
+    "translated_abstract": "大语言模型（LLM）的最新进展激发了人们对时序知识图谱问答（TKGQA）日益浓厚的兴趣。现有的大多数方法依赖于语义检索增强生成（RAG），而这类方法在复杂时序推理方面存在根本性的局限。一方面，基于语义的RAG方法难以捕获复杂时序推理所需的多跳因果知识；另一方面，这些方法会引入过多的冗余知识，使LLM陷入虚假的推理链，从而可能导致错误的答案。为解决这些问题，我们提出了时序因果链引导的检索增强生成方法（TCC-RAG），以检索一个简洁而充分的因果知识集合来支持复杂的时序推理。具体而言，我们将时序知识图谱重新构建为多视图因果线索图，通过因果线索诱导的连接来显式编码时序演化与因果关系（摘要在此处截断）。",
+    "tldr": "该论文提出TCC-RAG方法，通过将时序知识图谱重构为多视图因果线索图，并沿时序因果链检索简洁而充分的因果知识，克服了语义RAG难以捕获多跳因果知识且易受冗余信息干扰的缺陷，从而提升时序知识图谱问答的推理准确性。",
+    "en_tdlr": "This paper proposes TCC-RAG, which reformulates the temporal knowledge graph into a multi-view causal cue graph and retrieves a concise yet sufficient set of causal knowledge along temporal causal chains, overcoming semantic RAG's inability to capture multi-hop causal knowledge and its susceptibility to spurious reasoning chains caused by redundant information, thereby improving temporal knowledge graph question answering."
 }

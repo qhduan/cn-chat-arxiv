@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.23617",
     "context": "Title: Error accumulation in reverse diffusion with an imperfect score: beyond path-space analyses\nAbstract: arXiv:2611.23617v1 Announce Type: new  Abstract: Diffusion modeling is a popular method of sampling from a complex, high-dimensional distribution $p$ using learned approximations of its (noised) score functions. Generating a single sample requires simulating the reverse diffusion process, which requires many queries to the learned scores. Thus, a priori, the learning errors can easily compound. Indeed, in existing theoretical analyses, the sampling error (as measured in total variation distance to $p$) accumulates polynomially with the horizon of the stochastic process. This is a consequence of bounding the error of the output law by the error of the law of the entire reverse diffusion path.   In this paper, we demonstrate that by circumventing the \"path-space\" analysis, the error accumulation of the diffusion sampler can be mitigated when $p$ satisfies a Poincar\\'e inequality. Moreover, we achieve this result as a special case of a broader framework that applies to any distribution $p",
     "path": "papers/26/11/2611.23617.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1061,
+    "translated_title": "不完美分数下反向扩散的误差累积：超越路径空间分析",
+    "translated_abstract": "arXiv:2611.23617v1 公告类型：new 摘要：扩散建模是一种从复杂高维分布 $p$ 中采样的流行方法，其通过对（加噪）分数函数的学习近似来实现。生成单个样本需要模拟反向扩散过程，这需要对学习到的分数函数进行大量查询。因此，先验地看，学习误差很容易复合累积。事实上，在现有理论分析中，采样误差（以与 $p$ 的总变差距离度量）随随机过程的时间范围呈多项式级累积。这是由于现有方法通过整个反向扩散路径的分布误差来界定输出分布的误差。本文中，我们证明通过绕开“路径空间”分析，当 $p$ 满足 Poincaré 不等式时，扩散采样器的误差累积可以得到缓解。此外，该结果是作为更广泛框架的特例而实现的，该框架适用于任何分布 $p。",
+    "tldr": "本文突破了传统路径空间分析框架，证明当目标分布满足 Poincaré 不等式时，扩散模型采样过程中的误差累积可以得到有效缓解。",
+    "en_tdlr": "This paper shows that, by going beyond path-space analyses, the error accumulation in diffusion samplers can be mitigated when the target distribution satisfies a Poincaré inequality."
 }
