@@ -4,10 +4,9 @@
     "link": "https://arxiv.org/abs/2611.23917",
     "context": "Title: Vanguard: Knowing When to Trust the Draft in Speculative Vision-Language Agents\nAbstract: arXiv:2611.23917v1 Announce Type: new  Abstract: Vision-language agents that browse websites, operate phones and act in homes reason before every action, so every step waits for a large model, a latency and cost that stand in the way of deployment. Step-level speculation lets a small model draft each step and calls the large model only on rejected drafts, but its outcome rests on the judge, and a judge that reads only a step's text cannot tell whether the step fits the screen it acts on. We find that a few samples of a small model can contain a correct step about as often as the large model gets the step right, and not always on the same steps: checked against the screen, small drafts can be not only cheaper but better. We present Vanguard, a training-free judge that leaves the draft and target models unchanged: a general decision model, with the screenshot in view, gives each candidate step a probability of being right in one forward pass; the best candidate is kept if it clears a thr",
     "path": "papers/26/11/2611.23917.json",
-    "total_tokens": 1417,
-    "translated_title": "Vanguard：在推测式视觉-语言智能体中判断何时可以信任草稿",
-    "pending": [
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1377,
+    "translated_title": "Vanguard：在推测式视觉-语言智能体中判断何时信任草稿",
+    "translated_abstract": "浏览网页、操作手机以及在家居环境中执行任务的视觉-语言智能体在每次行动前都需要进行推理，因此每一步都要等待大模型的响应，这种延迟和成本阻碍了其实际部署。步骤级推测机制允许小模型为每一步起草草稿，仅在草稿被拒绝时才调用大模型，但其效果取决于评判者，而仅读取步骤文本的评判者无法判断该步骤是否契合其作用的屏幕。我们发现，小模型的少量采样中包含正确步骤的频率与大模型直接得出正确步骤的频率相当，且两者并非总在相同的步骤上正确：对照屏幕进行检验后，小模型草稿不仅可以更便宜，还可能更好。我们提出了Vanguard，这是一个无需训练的评判器，它保持草稿模型和目标模型不变：一个通用决策模型在观察屏幕截图的情况下，通过一次前向传播为每个候选步骤给出正确的概率；如果最佳候选步骤通过阈值，则予以保留。",
+    "tldr": "Vanguard是一个无需训练的评判器，它结合屏幕截图通过一次前向传播评估候选步骤的正确概率，使推测式视觉-语言智能体中经过屏幕验证的小模型草稿不仅更便宜，还可能比大模型更好。",
+    "en_tdlr": "Vanguard is a training-free judge that assesses the correctness probability of candidate steps in a single forward pass with the screenshot in view, enabling speculative vision-language agents to leverage small-model drafts that, when verified against the screen, are not only cheaper but often better than the large model."
 }
