@@ -1,0 +1,12 @@
+{
+    "title": "Safe AI Evaluation: A Systems Perspective",
+    "abstract": "arXiv:2611.24987v1 Announce Type: new  Abstract: AI evaluation can involve an active, adaptive optimisation process in which AI agents re-plan, retry, use tools or delegate work to achieve a goal. Unanticipated capabilities or unsafe behaviour may emerge, and existing controls may be inadequate to prevent harm. Selected safeguards may also be deliberately relaxed to observe behaviour they would otherwise suppress, creating additional risks. This article examines the distinctive safety considerations of evaluation and their implications for control placement, observation and intervention, and presents four architectural patterns to support safe AI evaluation, including diverse supervisors, an independent verifier, silent monitoring and coordinated shutdown.",
+    "link": "https://arxiv.org/abs/2611.24987",
+    "context": "Title: Safe AI Evaluation: A Systems Perspective\nAbstract: arXiv:2611.24987v1 Announce Type: new  Abstract: AI evaluation can involve an active, adaptive optimisation process in which AI agents re-plan, retry, use tools or delegate work to achieve a goal. Unanticipated capabilities or unsafe behaviour may emerge, and existing controls may be inadequate to prevent harm. Selected safeguards may also be deliberately relaxed to observe behaviour they would otherwise suppress, creating additional risks. This article examines the distinctive safety considerations of evaluation and their implications for control placement, observation and intervention, and presents four architectural patterns to support safe AI evaluation, including diverse supervisors, an independent verifier, silent monitoring and coordinated shutdown.",
+    "path": "papers/26/11/2611.24987.json",
+    "total_tokens": 867,
+    "translated_title": "安全AI评估：一种系统视角",
+    "translated_abstract": "AI评估可能涉及一个主动的、自适应的优化过程，其中AI智能体会重新规划、重试、使用工具或委托工作以实现目标。在此过程中可能出现未预料到的能力或不安全行为，而现有的控制措施可能不足以防止危害。此外，某些选定的防护措施也可能被有意放宽，以观察它们原本会抑制的行为，从而带来额外的风险。本文研究了评估过程中特有的安全考量及其对控制措施部署位置、观察和干预方式的影响，并提出了四种支持安全AI评估的架构模式，包括多样化监督者、独立验证器、静默监控和协调关停。",
+    "tldr": "本文从系统视角剖析了AI评估过程中特有的安全风险与控制挑战，并提出多样化监督者、独立验证器、静默监控和协调关停四种架构模式以支持安全的AI评估。",
+    "en_tdlr": "This paper examines the distinctive safety risks of AI evaluation from a systems perspective and proposes four architectural patterns—diverse supervisors, an independent verifier, silent monitoring, and coordinated shutdown—to support safe AI evaluation."
+}

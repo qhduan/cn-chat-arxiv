@@ -1,0 +1,12 @@
+{
+    "title": "Instance-Optimal Moment Estimation in the Add-Remove Model of Differential Privacy",
+    "abstract": "arXiv:2611.25425v1 Announce Type: cross  Abstract: In this paper, we study the problem of estimating empirical means, variances, and covariances under pure differential privacy in the add-remove model. While existing mechanisms achieve optimal worst-case error, they may not be optimal for individual datasets. To measure the performance of mechanisms on individual datasets, we introduce instance-dependent error metrics and prove sharp lower bounds on them. Then, we design mechanisms that achieve these lower bounds and demonstrate that they achieve asymptotically better utility compared to existing methods.",
+    "link": "https://arxiv.org/abs/2611.25425",
+    "context": "Title: Instance-Optimal Moment Estimation in the Add-Remove Model of Differential Privacy\nAbstract: arXiv:2611.25425v1 Announce Type: cross  Abstract: In this paper, we study the problem of estimating empirical means, variances, and covariances under pure differential privacy in the add-remove model. While existing mechanisms achieve optimal worst-case error, they may not be optimal for individual datasets. To measure the performance of mechanisms on individual datasets, we introduce instance-dependent error metrics and prove sharp lower bounds on them. Then, we design mechanisms that achieve these lower bounds and demonstrate that they achieve asymptotically better utility compared to existing methods.",
+    "path": "papers/26/11/2611.25425.json",
+    "total_tokens": 846,
+    "translated_title": "差分隐私加-删除模型中的实例最优矩估计",
+    "translated_abstract": "在本文中，我们研究了在加-删除模型的纯差分隐私约束下估计经验均值、方差和协方差的问题。虽然现有机制能够达到最优的最坏情况误差，但它们对于单个数据集而言可能并非最优。为了衡量机制在单个数据集上的性能，我们引入了实例相关的误差度量，并证明了其严格下界。随后，我们设计了能够达到这些下界的机制，并证明与现有方法相比，这些机制获得了渐近更优的效用。",
+    "tldr": "本文引入实例相关的误差度量并证明其严格下界，设计了在纯差分隐私加-删除模型下达到这些下界的矩估计机制，实现了比现有方法渐近更优的效用。",
+    "en_tdlr": "This paper introduces instance-dependent error metrics with sharp lower bounds and designs moment estimation mechanisms under pure differential privacy in the add-remove model that achieve these bounds with asymptotically better utility than existing methods."
+}

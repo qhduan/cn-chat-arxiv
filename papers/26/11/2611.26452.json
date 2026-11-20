@@ -1,0 +1,11 @@
+{
+    "title": "Entry Deterrence with Public Signals: Revisiting the Chain-Store Paradox",
+    "abstract": "arXiv:2611.26452v1 Announce Type: new  Abstract: We revisit the classic chain-store paradox by introducing exogenous public signals about the incumbent's private type that arrive each period over a finite horizon. We fully characterize perfect Bayesian equilibria in terms of sequences of reputation cutoffs that increase over time: entrants enter below their cutoff, while the normal incumbent mixes below its cutoff and fights above it. The equilibrium outcome is generically unique. Information arrival dampens the incentive to build a reputation, so full deterrence need not emerge as the horizon grows arbitrarily long, even when the incumbent is very patient. We characterize exactly when there is full deterrence in the limit, along with the limiting equilibrium when there is not.",
+    "link": "https://arxiv.org/abs/2611.26452",
+    "context": "Title: Entry Deterrence with Public Signals: Revisiting the Chain-Store Paradox\nAbstract: arXiv:2611.26452v1 Announce Type: new  Abstract: We revisit the classic chain-store paradox by introducing exogenous public signals about the incumbent's private type that arrive each period over a finite horizon. We fully characterize perfect Bayesian equilibria in terms of sequences of reputation cutoffs that increase over time: entrants enter below their cutoff, while the normal incumbent mixes below its cutoff and fights above it. The equilibrium outcome is generically unique. Information arrival dampens the incentive to build a reputation, so full deterrence need not emerge as the horizon grows arbitrarily long, even when the incumbent is very patient. We characterize exactly when there is full deterrence in the limit, along with the limiting equilibrium when there is not.",
+    "path": "papers/26/11/2611.26452.json",
+    "total_tokens": 1058,
+    "translated_title": "带有公共信号的进入威慑：重新审视连锁店悖论",
+    "translated_abstract": "我们通过引入关于在位者私人类型的外生公共信号来重新审视经典的连锁店悖论，这些信号在有限期限内的每一期到达。我们利用随时间递增的声誉门槛序列完整刻画了完美贝叶斯均衡：进入者在门槛以下时选择进入，而正常类型的在位者在门槛以下采用混合策略，在门槛以上则选择斗争。均衡结果在一般意义上是唯一的。信息的不断到达削弱了建立声誉的激励，因此随着期限变得任意长，即使在位者非常有耐心，完全威慑也未必会出现。我们精确刻画了在极限情形下何时存在完全威慑，以及不存在完全威慑时的极限均衡。",
+    "tldr": "该论文通过在有限期内引入关于在位者类型的外生公共信号，完整刻画了连锁店悖论的完美贝叶斯均衡，证明信息到达会削弱声誉积累的激励，使得即使在位者极有耐心，完全进入威慑在长期也未必出现。"
+}

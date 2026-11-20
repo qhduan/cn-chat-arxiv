@@ -1,0 +1,12 @@
+{
+    "title": "A Simple Proof of Koray's Theorem",
+    "abstract": "arXiv:2611.25748v1 Announce Type: new  Abstract: In this note, I provide a direct and self-contained proof of Koray's (2000) theorem, by which a neutral and unanimous social choice function is universally self-selective if and only if it is dictatorial. Koray's (2000) original proof relies on results by Sen (1970) and Houthakker (1950) to construct a social welfare function for each alternative set. He then shows that these functions are Paretian and independent of irrelevant alternatives, allowing him to apply Arrow's (1950, 1951) impossibility theorem. Instead, I construct a cyclic preference profile and show that the voter who ranks the chosen alternative first is the dictator on every finite nonempty alternative set.",
+    "link": "https://arxiv.org/abs/2611.25748",
+    "context": "Title: A Simple Proof of Koray's Theorem\nAbstract: arXiv:2611.25748v1 Announce Type: new  Abstract: In this note, I provide a direct and self-contained proof of Koray's (2000) theorem, by which a neutral and unanimous social choice function is universally self-selective if and only if it is dictatorial. Koray's (2000) original proof relies on results by Sen (1970) and Houthakker (1950) to construct a social welfare function for each alternative set. He then shows that these functions are Paretian and independent of irrelevant alternatives, allowing him to apply Arrow's (1950, 1951) impossibility theorem. Instead, I construct a cyclic preference profile and show that the voter who ranks the chosen alternative first is the dictator on every finite nonempty alternative set.",
+    "path": "papers/26/11/2611.25748.json",
+    "total_tokens": 1112,
+    "translated_title": "科雷定理的一个简单证明",
+    "translated_abstract": "在本文中，我为科雷（Koray, 2000）定理提供了一个直接且自包含的证明。该定理指出：一个中立且满足一致性（unanimity）的社会选择函数是普遍自选择（universally self-selective）的，当且仅当它是独裁的。科雷（2000）的原始证明依赖于森（Sen, 1970）和霍撒克（Houthakker, 1950）的结果，为每个备选方案集合构造一个社会福利函数，随后证明这些函数满足帕累托原则并独立于无关备选方案，从而可以应用阿罗（Arrow, 1950, 1951）的不可能性定理。与之不同，我构造了一个循环偏好轮廓，并证明在每个有限非空的备选方案集合上，将所选备选方案排在首位的投票者即是该集合上的独裁者。",
+    "tldr": "本文通过构造循环偏好轮廓，绕开阿罗不可能性定理，直接且自包含地证明了科雷定理，即中立且一致的社会选择函数是普遍自选择的当且仅当它是独裁的。",
+    "en_tdlr": "This note provides a direct and self-contained proof of Koray's theorem by constructing a cyclic preference profile, showing that the voter ranking the chosen alternative first is the dictator, thereby bypassing Arrow's impossibility theorem."
+}

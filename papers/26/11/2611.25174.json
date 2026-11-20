@@ -1,0 +1,12 @@
+{
+    "title": "Formally Verified Semidefinite Programming",
+    "abstract": "arXiv:2611.25174v1 Announce Type: new  Abstract: We present a formally verified Rust implementation of a first-order semidefinite programming solver, a nontrivial piece of numerical software. We wrote the solver by hand and then directed Claude to generate the entire verification in Verus, an automated theorem prover for Rust programs. We discuss the algorithm underlying the solver, its implementation in Rust, and our pragmatic approach to proving it correct in Verus.",
+    "link": "https://arxiv.org/abs/2611.25174",
+    "context": "Title: Formally Verified Semidefinite Programming\nAbstract: arXiv:2611.25174v1 Announce Type: new  Abstract: We present a formally verified Rust implementation of a first-order semidefinite programming solver, a nontrivial piece of numerical software. We wrote the solver by hand and then directed Claude to generate the entire verification in Verus, an automated theorem prover for Rust programs. We discuss the algorithm underlying the solver, its implementation in Rust, and our pragmatic approach to proving it correct in Verus.",
+    "path": "papers/26/11/2611.25174.json",
+    "total_tokens": 931,
+    "translated_title": "形式化验证的半定规划",
+    "translated_abstract": "我们提出了一个经形式化验证的半定规划求解器的Rust实现，这是一款一阶求解器，也是一段非同小可的数值软件。我们手工编写了该求解器，随后指导Claude在Verus（一个面向Rust程序的自动化定理证明器）中生成了完整的验证。我们讨论了求解器背后的算法、其在Rust中的实现，以及我们在Verus中证明其正确性的实用方法。",
+    "tldr": "本文的核心贡献是实现了首个经形式化验证的半定规划求解器Rust程序，其创新之处在于手工编写求解器代码后，借助AI工具Claude在Verus定理证明器中自动生成了全部正确性验证。",
+    "en_tdlr": "This paper presents a formally verified Rust implementation of a first-order semidefinite programming solver, whose key innovation is hand-writing the solver and then directing Claude to generate the entire correctness verification in Verus."
+}
