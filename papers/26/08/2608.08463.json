@@ -1,0 +1,12 @@
+{
+    "title": "Halpern Iteration Accelerates Solving High-Order Monotone Variational Inequalities",
+    "abstract": "arXiv:2608.08463v2 Announce Type: replace-cross  Abstract: In this short note, we revisit the classical Halpern iteration in 1967 and show its new applications in designing second- and higher-order methods for solving smooth monotone variational inequalities (MVI). By using a large-step inexact Halpern iteration, we propose a novel $p$th-order method Halpern-ATM, that achieves a fast convergence rate of $\\tilde{\\mathcal{O}}(T^{-p})$. This improves the best-known results for $p \\ge 2$ since 2012.",
+    "link": "https://arxiv.org/abs/2608.08463",
+    "context": "Title: Halpern Iteration Accelerates Solving High-Order Monotone Variational Inequalities\nAbstract: arXiv:2608.08463v2 Announce Type: replace-cross  Abstract: In this short note, we revisit the classical Halpern iteration in 1967 and show its new applications in designing second- and higher-order methods for solving smooth monotone variational inequalities (MVI). By using a large-step inexact Halpern iteration, we propose a novel $p$th-order method Halpern-ATM, that achieves a fast convergence rate of $\\tilde{\\mathcal{O}}(T^{-p})$. This improves the best-known results for $p \\ge 2$ since 2012.",
+    "path": "papers/26/08/2608.08463.json",
+    "total_tokens": 981,
+    "translated_title": "Halpern 迭代加速求解高阶单调变分不等式",
+    "translated_abstract": "在这篇简短笔记中，我们重新审视了1967年提出的经典 Halpern 迭代，并展示了其在设计求解光滑单调变分不等式（MVI）的二阶及更高阶方法中的新应用。通过使用大步长不精确 Halpern 迭代，我们提出了一种新颖的 $p$ 阶方法 Halpern-ATM，实现了 $\\tilde{\\mathcal{O}}(T^{-p})$ 的快速收敛速率。这改进了自 2012 年以来 $p \\ge 2$ 阶方法的已知最佳结果。",
+    "tldr": "本文通过重新审视经典 Halpern 迭代并提出大步长不精确的 $p$ 阶方法 Halpern-ATM，实现了求解光滑单调变分不等式的 $\\tilde{\\mathcal{O}}(T^{-p})$ 快速收敛速率，改进了自 2012 年以来 $p \\ge 2$ 阶方法的已知最佳结果。",
+    "en_tdlr": "By revisiting the classical Halpern iteration with a large-step inexact variant, this paper proposes a novel pth-order method Halpern-ATM that achieves a fast convergence rate of Õ(T^{-p}) for solving smooth monotone variational inequalities, improving the best-known results for p ≥ 2 since 2012."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "On the interplay between noise and curvature and its effect on optimization and generalization",
+    "abstract": "arXiv:1906.07774v3 Announce Type: replace  Abstract: The speed at which one can minimize an expected loss using stochastic methods depends on two properties: the curvature of the loss and the variance of the gradients. While most previous works focus on one or the other of these properties, we explore how their interaction affects optimization speed. Further, as the ultimate goal is good generalization performance, we clarify how both curvature and noise are relevant to properly estimate the generalization gap. Realizing that the limitations of some existing works stems from a confusion between these matrices, we also clarify the distinction between the Fisher matrix, the Hessian, and the covariance matrix of the gradients.",
+    "link": "https://arxiv.org/abs/1906.07774",
+    "context": "Title: On the interplay between noise and curvature and its effect on optimization and generalization\nAbstract: arXiv:1906.07774v3 Announce Type: replace  Abstract: The speed at which one can minimize an expected loss using stochastic methods depends on two properties: the curvature of the loss and the variance of the gradients. While most previous works focus on one or the other of these properties, we explore how their interaction affects optimization speed. Further, as the ultimate goal is good generalization performance, we clarify how both curvature and noise are relevant to properly estimate the generalization gap. Realizing that the limitations of some existing works stems from a confusion between these matrices, we also clarify the distinction between the Fisher matrix, the Hessian, and the covariance matrix of the gradients.",
+    "path": "papers/19/06/1906.07774.json",
+    "total_tokens": 932,
+    "translated_title": "论噪声与曲率之间的相互作用及其对优化和泛化的影响",
+    "translated_abstract": "使用随机方法最小化期望损失的速度取决于两个性质：损失的曲率和梯度的方差。以往的大多数研究只关注其中某一个性质，而我们探讨了二者的相互作用如何影响优化速度。此外，由于最终目标是获得良好的泛化性能，我们阐明了曲率和噪声两者都与正确估计泛化间隙相关。我们意识到一些现有工作的局限性源于对这些矩阵的混淆，因此还澄清了费舍尔矩阵、海森矩阵和梯度协方差矩阵之间的区别。",
+    "tldr": "该论文探讨了损失曲率与梯度噪声的相互作用如何影响优化速度以及泛化间隙的估计，并澄清了费舍尔矩阵、海森矩阵和梯度协方差矩阵之间的区别。",
+    "en_tdlr": "This paper studies how the interplay between loss curvature and gradient noise affects optimization speed and the estimation of the generalization gap, while clarifying the distinctions among the Fisher matrix, the Hessian, and the covariance matrix of the gradients."
+}

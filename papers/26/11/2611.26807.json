@@ -1,0 +1,12 @@
+{
+    "title": "NitroGen: Observations on the Action Dynamics, Visual Instruction Following, and Spatial Exploration",
+    "abstract": "arXiv:2611.26807v1 Announce Type: new  Abstract: NitroGen is an open vision-action foundation model for game control. It is trained by behavior cloning on online gameplay videos. In this paper, we study the frozen controller in Hollow Knight and Trackmania as examples along three dimensions: action adaptation, visual instruction following, and spatial exploration. Our results indicate that NitroGen can adapt its actions to local context, but it lacks the planning, recovery, and exploration needed for longer-horizon game control.",
+    "link": "https://arxiv.org/abs/2611.26807",
+    "context": "Title: NitroGen: Observations on the Action Dynamics, Visual Instruction Following, and Spatial Exploration\nAbstract: arXiv:2611.26807v1 Announce Type: new  Abstract: NitroGen is an open vision-action foundation model for game control. It is trained by behavior cloning on online gameplay videos. In this paper, we study the frozen controller in Hollow Knight and Trackmania as examples along three dimensions: action adaptation, visual instruction following, and spatial exploration. Our results indicate that NitroGen can adapt its actions to local context, but it lacks the planning, recovery, and exploration needed for longer-horizon game control.",
+    "path": "papers/26/11/2611.26807.json",
+    "total_tokens": 913,
+    "translated_title": "NitroGen：关于动作动态、视觉指令遵循与空间探索的观察",
+    "translated_abstract": "NitroGen是一个用于游戏控制的开放视觉-动作基础模型，它通过在在线游戏视频上进行行为克隆训练而成。在本文中，我们以《空洞骑士》和《赛道狂飙》中的冻结控制器为例，从动作适应、视觉指令遵循和空间探索三个维度对该模型进行研究。我们的结果表明，NitroGen能够根据局部上下文调整其动作，但它缺乏长时程游戏控制所需的规划、恢复和探索能力。",
+    "tldr": "NitroGen视觉-动作基础模型虽然能根据局部游戏情境适应动作，但在长时程游戏控制中仍缺乏规划、恢复和探索能力。",
+    "en_tdlr": "NitroGen, a vision-action foundation model for game control, can adapt its actions to local context but lacks the planning, recovery, and exploration needed for longer-horizon game control."
+}

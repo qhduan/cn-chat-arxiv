@@ -1,0 +1,12 @@
+{
+    "title": "A unified perspective of Gaussian process approximation for differential equations",
+    "abstract": "arXiv:2607.06292v2 Announce Type: replace-cross  Abstract: The use of Gaussian processes for approximating differential equations has expanded rapidly, leading to a growing, diverse, and fragmented body of numerical methods. We present a unified Bayesian perspective that places these techniques within a common probabilistic framework, based on a derivative matching interpretation for incorporating differential equation constraints into likelihood. This unified perspective supports both parameter estimation and solution approximation, and shows how a range of existing methods can be understood within it. This work aims to consolidate current developments and provide a foundation for future research.",
+    "link": "https://arxiv.org/abs/2607.06292",
+    "context": "Title: A unified perspective of Gaussian process approximation for differential equations\nAbstract: arXiv:2607.06292v2 Announce Type: replace-cross  Abstract: The use of Gaussian processes for approximating differential equations has expanded rapidly, leading to a growing, diverse, and fragmented body of numerical methods. We present a unified Bayesian perspective that places these techniques within a common probabilistic framework, based on a derivative matching interpretation for incorporating differential equation constraints into likelihood. This unified perspective supports both parameter estimation and solution approximation, and shows how a range of existing methods can be understood within it. This work aims to consolidate current developments and provide a foundation for future research.",
+    "path": "papers/26/07/2607.06292.json",
+    "total_tokens": 957,
+    "translated_title": "微分方程高斯过程逼近的统一视角",
+    "translated_abstract": "利用高斯过程逼近微分方程的应用正在迅速扩展，催生了数量不断增长、种类多样但较为碎片化的数值方法体系。我们提出了一个统一的贝叶斯视角，基于一种“导数匹配”的解释方式，将微分方程约束纳入似然函数，从而把这些技术置于一个共同的概率框架之中。这一统一视角同时支持参数估计和解的逼近，并展示了如何在该框架内理解一系列现有方法。本工作旨在整合当前的研究进展，并为未来的研究提供基础。",
+    "tldr": "该论文提出了一个统一的贝叶斯视角，通过导数匹配方式将微分方程约束纳入似然函数，把碎片化的高斯过程微分方程数值方法整合进一个共同的概率框架，并同时支持参数估计与解逼近。",
+    "en_tdlr": "This paper presents a unified Bayesian perspective that consolidates the fragmented landscape of Gaussian process methods for differential equations into a common probabilistic framework via a derivative matching interpretation, supporting both parameter estimation and solution approximation."
+}

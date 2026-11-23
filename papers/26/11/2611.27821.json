@@ -1,0 +1,12 @@
+{
+    "title": "Sampling non-abelian lattice gauge theories with diffusion models",
+    "abstract": "arXiv:2611.27821v1 Announce Type: cross  Abstract: We present gauge-equivariant diffusion models as samplers for lattice gauge theories (LGTs). Using lattice gauge-equivariant convolutional neural networks (L-CNNs) and the Metropolis-adjusted annealed Langevin algorithm (MAALA), we are able to accurately sample two-dimensional U(2) field configurations and show first promising results for four-dimensional SU(3). Our two-dimensional models extrapolate remarkably well to larger inverse couplings than originally trained on. We confirm this by comparing observables to analytically known values and to hybrid Monte Carlo results.",
+    "link": "https://arxiv.org/abs/2611.27821",
+    "context": "Title: Sampling non-abelian lattice gauge theories with diffusion models\nAbstract: arXiv:2611.27821v1 Announce Type: cross  Abstract: We present gauge-equivariant diffusion models as samplers for lattice gauge theories (LGTs). Using lattice gauge-equivariant convolutional neural networks (L-CNNs) and the Metropolis-adjusted annealed Langevin algorithm (MAALA), we are able to accurately sample two-dimensional U(2) field configurations and show first promising results for four-dimensional SU(3). Our two-dimensional models extrapolate remarkably well to larger inverse couplings than originally trained on. We confirm this by comparing observables to analytically known values and to hybrid Monte Carlo results.",
+    "path": "papers/26/11/2611.27821.json",
+    "total_tokens": 1012,
+    "translated_title": "使用扩散模型采样非阿贝尔格点规范理论",
+    "translated_abstract": "我们提出了规范等变扩散模型作为格点规范理论（LGT）的采样器。通过使用格点规范等变卷积神经网络（L-CNN）和Metropolis调整的退火朗之万算法（MAALA），我们能够准确采样二维U(2)场构型，并首次展示了四维SU(3)的有前景的初步结果。我们的二维模型在向外推至比训练时更大的逆耦合常数时表现出色。我们通过将观测量与解析已知值以及混合蒙特卡罗结果进行比较来证实这一点。",
+    "tldr": "本文提出将规范等变扩散模型与格点规范等变卷积神经网络和Metropolis调整的退火朗之万算法相结合，作为格点规范理论的采样器，实现了对二维U(2)场构型的准确采样、四维SU(3)的初步成功结果，以及对更大逆耦合常数的优异外推能力。",
+    "en_tdlr": "This paper introduces gauge-equivariant diffusion models as samplers for lattice gauge theories, combining L-CNNs with the Metropolis-adjusted annealed Langevin algorithm (MAALA) to accurately sample 2D U(2) field configurations, show promising first results for 4D SU(3), and demonstrate remarkable extrapolation to larger inverse couplings than seen in training."
+}

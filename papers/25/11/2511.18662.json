@@ -1,0 +1,12 @@
+{
+    "title": "Bayesian Persuasion without Commitment",
+    "abstract": "arXiv:2511.18662v2 Announce Type: replace  Abstract: We introduce a model of persuasion in which a sender without any commitment power privately gathers information about an unknown state of the world and then chooses what to verifiably disclose to a receiver. The receiver does not know how many experiments the sender is able to run, and may therefore be uncertain as to whether the sender disclosed all of her information. Despite this challenge, we show that, under general conditions, the sender is able to achieve the same payoff as in the full-commitment Bayesian persuasion case.",
+    "link": "https://arxiv.org/abs/2511.18662",
+    "context": "Title: Bayesian Persuasion without Commitment\nAbstract: arXiv:2511.18662v2 Announce Type: replace  Abstract: We introduce a model of persuasion in which a sender without any commitment power privately gathers information about an unknown state of the world and then chooses what to verifiably disclose to a receiver. The receiver does not know how many experiments the sender is able to run, and may therefore be uncertain as to whether the sender disclosed all of her information. Despite this challenge, we show that, under general conditions, the sender is able to achieve the same payoff as in the full-commitment Bayesian persuasion case.",
+    "path": "papers/25/11/2511.18662.json",
+    "total_tokens": 785,
+    "translated_title": "无承诺的贝叶斯说服",
+    "translated_abstract": "我们提出了一个说服模型，其中不具备任何承诺能力的发送者私下收集关于未知世界状态的信息，然后选择向接收者可验证地披露哪些内容。接收者并不知道发送者能够进行多少次实验，因此可能不确定发送者是否披露了她的全部信息。尽管存在这一挑战，我们证明，在一般性条件下，发送者仍能获得与完全承诺贝叶斯说服情形下相同的收益。",
+    "tldr": "本文提出了一个无承诺的说服模型，证明了即使接收者不确定发送者是否披露了全部信息，在一般条件下发送者仍能实现与完全承诺贝叶斯说服相同的收益。",
+    "en_tdlr": "This paper introduces a persuasion model without commitment, showing that even when the receiver is uncertain whether the sender has disclosed all her information, the sender can still achieve the same payoff as in full-commitment Bayesian persuasion under general conditions."
+}
