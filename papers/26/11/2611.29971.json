@@ -1,0 +1,12 @@
+{
+    "title": "Selling Training Data",
+    "abstract": "arXiv:2611.29971v1 Announce Type: new  Abstract: This paper studies the sale of supplementary training dataset to improve predictive model. The buyer not only has private knowledge of its own dataset, but also can choose the way to merge these two datasets. This flexibility imposes a new constraint on the menu, requiring the buyer's total net utility be monotonic in the Blackwell order on private datasets. Given that, we show that a single posted price for a fully informative dataset is optimal in hypothesis testing, under differential virtual-value condition. The result extends to multi-class classification in which private datasets share a clean component but differ in how their labels are contaminated.",
+    "link": "https://arxiv.org/abs/2611.29971",
+    "context": "Title: Selling Training Data\nAbstract: arXiv:2611.29971v1 Announce Type: new  Abstract: This paper studies the sale of supplementary training dataset to improve predictive model. The buyer not only has private knowledge of its own dataset, but also can choose the way to merge these two datasets. This flexibility imposes a new constraint on the menu, requiring the buyer's total net utility be monotonic in the Blackwell order on private datasets. Given that, we show that a single posted price for a fully informative dataset is optimal in hypothesis testing, under differential virtual-value condition. The result extends to multi-class classification in which private datasets share a clean component but differ in how their labels are contaminated.",
+    "path": "papers/26/11/2611.29971.json",
+    "total_tokens": 1260,
+    "translated_title": "销售训练数据",
+    "translated_abstract": "本文研究向买方出售补充性训练数据集以改进其预测模型的问题。买方不仅对自身数据集拥有私有信息，还可以自主选择两个数据集的合并方式。这种灵活性给定价菜单施加了一个新的约束：买方的总净效用必须关于其私有数据集在Blackwell序下单调。在此约束下，我们证明在假设检验问题中，在差异虚拟价值条件下，对完全信息数据集采用单一标价是最优的。该结果还可推广至多类别分类问题，其中买方的私有数据集共享一个干净成分，仅在标签被污染的方式上有所不同。",
+    "tldr": "该论文研究向拥有私有数据集且可自由选择合并方式的买方出售补充训练数据的定价机制问题，证明在差异虚拟价值条件下，对完全信息数据集采用单一标价在假设检验中是最优的，并将结果推广到多类别分类。",
+    "en_tdlr": "This paper studies mechanism design for selling supplementary training data to a buyer with a private dataset and flexible merging choices, showing that a single posted price for a fully informative dataset is optimal in hypothesis testing under a differential virtual-value condition, with extensions to multi-class classification."
+}

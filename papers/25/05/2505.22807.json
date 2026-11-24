@@ -1,0 +1,12 @@
+{
+    "title": "Distribution free M-estimation",
+    "abstract": "arXiv:2505.22807v5 Announce Type: replace-cross  Abstract: The basic question of delineating those statistical problems that are solvable without making any assumptions on the underlying data distribution has long animated statistics and learning theory. This paper characterizes when a convex M-estimation or stochastic optimization problem is solvable in such an assumption-free setting, providing a precise dividing line between solvable and unsolvable problems. The conditions we identify show, perhaps surprisingly, that Lipschitz continuity of the loss being minimized is not necessary for distribution free minimization, and they are also distinct from classical characterizations of learnability in machine learning.",
+    "link": "https://arxiv.org/abs/2505.22807",
+    "context": "Title: Distribution free M-estimation\nAbstract: arXiv:2505.22807v5 Announce Type: replace-cross  Abstract: The basic question of delineating those statistical problems that are solvable without making any assumptions on the underlying data distribution has long animated statistics and learning theory. This paper characterizes when a convex M-estimation or stochastic optimization problem is solvable in such an assumption-free setting, providing a precise dividing line between solvable and unsolvable problems. The conditions we identify show, perhaps surprisingly, that Lipschitz continuity of the loss being minimized is not necessary for distribution free minimization, and they are also distinct from classical characterizations of learnability in machine learning.",
+    "path": "papers/25/05/2505.22807.json",
+    "total_tokens": 910,
+    "translated_title": "无分布M估计",
+    "translated_abstract": "界定哪些统计问题可以在不对底层数据分布做任何假设的情况下求解，这一基本问题长期以来一直激励着统计学和学习理论的发展。本文刻画了凸M估计或随机优化问题在这样一种无假设设定下何时是可解的，为可解问题与不可解问题提供了精确的分界线。我们所识别出的条件表明，或许令人惊讶的是，被最小化损失的Lipschitz连续性对于无分布最小化而言并非必要，而且这些条件也不同于机器学习中经典的可学习性刻画。",
+    "tldr": "本文精确刻画了凸M估计与随机优化问题在完全不依赖数据分布假设时的可解性条件，给出了可解与不可解问题的严格分界线，并意外地发现损失的Lipschitz连续性并非无分布可解性的必要条件。",
+    "en_tdlr": "This paper characterizes when convex M-estimation or stochastic optimization problems are solvable without any distributional assumptions, providing a precise dividing line between solvable and unsolvable problems and showing, perhaps surprisingly, that Lipschitz continuity of the loss is not necessary."
+}

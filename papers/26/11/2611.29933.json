@@ -1,0 +1,12 @@
+{
+    "title": "Coarse Price Discrimination",
+    "abstract": "arXiv:2611.29933v1 Announce Type: new  Abstract: We study the revenue cost of limiting a seller to $L$ posted prices when heterogeneous buyers with independent values compete for scarce inventory. Our large-market assumption requires that removing any buyer have little effect on optimal revenue. We first make buyers arbitrarily replaceable at each fixed stock and then let stock grow. In this limit, one price guarantees half of optimal mechanism revenue and two guarantee $e/(e+1)$, approximately $73.1\\%$. For $L\\ge3$, the corresponding guarantee is a $1-1/(2L-1)$ fraction. The guarantees accommodate arbitrary differences in demand across buyers and do not require a separate price for each customer group.",
+    "link": "https://arxiv.org/abs/2611.29933",
+    "context": "Title: Coarse Price Discrimination\nAbstract: arXiv:2611.29933v1 Announce Type: new  Abstract: We study the revenue cost of limiting a seller to $L$ posted prices when heterogeneous buyers with independent values compete for scarce inventory. Our large-market assumption requires that removing any buyer have little effect on optimal revenue. We first make buyers arbitrarily replaceable at each fixed stock and then let stock grow. In this limit, one price guarantees half of optimal mechanism revenue and two guarantee $e/(e+1)$, approximately $73.1\\%$. For $L\\ge3$, the corresponding guarantee is a $1-1/(2L-1)$ fraction. The guarantees accommodate arbitrary differences in demand across buyers and do not require a separate price for each customer group.",
+    "path": "papers/26/11/2611.29933.json",
+    "total_tokens": 1017,
+    "translated_title": "粗略价格歧视",
+    "translated_abstract": "我们研究了当具有独立估值的异质买家竞争稀缺库存时，将卖家限制为 L 个标价所带来的收入成本。我们的大市场假设要求移除任何买家对最优收入的影响都很小。我们首先使买家在每个固定库存水平下可任意替代，然后让库存增长。在这一极限情形下，一个价格可保证获得最优机制收入的一半，两个价格可保证 e/(e+1)（约为 73.1%）。对于 L≥3，相应的保证比例为 1-1/(2L-1)。这些保证适用于买家之间需求的任意差异，且无需为每个客户群体单独定价。",
+    "tldr": "该论文证明了在异质买家竞争稀缺库存的大市场中，仅使用少量标价即可逼近最优机制收入——一个价格保证 50%，两个价格保证约 73.1%，L 个价格保证 1-1/(2L-1) 的收入比例，且无需针对每个客户群体单独定价。",
+    "en_tdlr": "In large markets with heterogeneous buyers competing for scarce inventory, a small number of posted prices approximates optimal mechanism revenue—one price guarantees 50%, two guarantee about 73.1%, and L prices guarantee a 1-1/(2L-1) fraction—without requiring separate prices for each customer group."
+}

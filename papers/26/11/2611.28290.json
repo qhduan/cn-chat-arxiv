@@ -1,0 +1,12 @@
+{
+    "title": "Preserving Prosody in Speaker Anonymization",
+    "abstract": "arXiv:2611.28290v1 Announce Type: cross  Abstract: Effective prosody modeling is essential in natural speech generation applications, but complications arise in speaker anonymization, since speaker attributes are present in acoustic correlates of prosody. Our work aims to improve previous reported tradeoffs between effective speaker obfuscation and preservation of prosodic content. To this end, we integrate an existing pretrained privacy-preserving prosody encoder into a speech synthesis model, enabling prosody-preserving speaker anonymization. By conditioning speech generation on prosody features, we find that human subjects more reliably perceive intended prosodic meaning, while anonymization performance is competitive with previous work.",
+    "link": "https://arxiv.org/abs/2611.28290",
+    "context": "Title: Preserving Prosody in Speaker Anonymization\nAbstract: arXiv:2611.28290v1 Announce Type: cross  Abstract: Effective prosody modeling is essential in natural speech generation applications, but complications arise in speaker anonymization, since speaker attributes are present in acoustic correlates of prosody. Our work aims to improve previous reported tradeoffs between effective speaker obfuscation and preservation of prosodic content. To this end, we integrate an existing pretrained privacy-preserving prosody encoder into a speech synthesis model, enabling prosody-preserving speaker anonymization. By conditioning speech generation on prosody features, we find that human subjects more reliably perceive intended prosodic meaning, while anonymization performance is competitive with previous work.",
+    "path": "papers/26/11/2611.28290.json",
+    "total_tokens": 806,
+    "translated_title": "在说话人匿名化中保留韵律",
+    "translated_abstract": "有效的韵律建模在自然语音生成应用中至关重要，但在说话人匿名化中会出现复杂问题，因为说话人属性存在于韵律的声学关联特征中。我们的工作旨在改善此前报道的说话人有效混淆与韵律内容保留之间的权衡。为此，我们将一个现有的预训练隐私保护韵律编码器集成到语音合成模型中，实现了保留韵律的说话人匿名化。通过以韵律特征为条件进行语音生成，我们发现人类受试者能够更可靠地感知预期的韵律含义，同时匿名化性能与此前的相关工作相当。",
+    "tldr": "该论文通过将预训练的隐私保护韵律编码器集成到语音合成模型中，实现了在有效混淆说话人身份的同时保留韵律内容的说话人匿名化方法。",
+    "en_tdlr": "This paper integrates a pretrained privacy-preserving prosody encoder into a speech synthesis model, enabling speaker anonymization that effectively obfuscates speaker identity while preserving prosodic content."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Monte Carlo Power Analysis for Small-System A/B Trials: Detecting Differences in Newsletter Engagement",
+    "abstract": "arXiv:2611.28018v1 Announce Type: cross  Abstract: Good experimental practice and predicting the scientific usefulness of an experiment or experimental platform require power analysis: estimating, *a priori*, how likely the experiment is to detect the intended effect if indeed it exists. While simple experimental designs admit well-understood power analysis methods, more sophisticated experimental designs and settings often require bespoke techniques to avoid either over- or under-estimating experimental power. We present the Monte Carlo method we use to estimate the power of experiments intended to increase user engagement with personalized e-mail newsletters of recommended news articles.",
+    "link": "https://arxiv.org/abs/2611.28018",
+    "context": "Title: Monte Carlo Power Analysis for Small-System A/B Trials: Detecting Differences in Newsletter Engagement\nAbstract: arXiv:2611.28018v1 Announce Type: cross  Abstract: Good experimental practice and predicting the scientific usefulness of an experiment or experimental platform require power analysis: estimating, *a priori*, how likely the experiment is to detect the intended effect if indeed it exists. While simple experimental designs admit well-understood power analysis methods, more sophisticated experimental designs and settings often require bespoke techniques to avoid either over- or under-estimating experimental power. We present the Monte Carlo method we use to estimate the power of experiments intended to increase user engagement with personalized e-mail newsletters of recommended news articles.",
+    "path": "papers/26/11/2611.28018.json",
+    "total_tokens": 813,
+    "translated_title": "面向小系统A/B试验的蒙特卡洛功效分析：检测新闻通讯参与度的差异",
+    "translated_abstract": "良好的实验实践以及预测实验或实验平台的科学价值都需要功效分析：即在实验前估计当预期效果确实存在时，实验能够检测到该效果的可能性。虽然简单的实验设计可以使用已被充分理解的功率分析方法，但更复杂的实验设计和实验环境往往需要定制的技术，以避免高估或低估实验功效。我们提出了用于估计实验功效的蒙特卡洛方法，该实验旨在提高用户对个性化推荐新闻文章电子邮件通讯的参与度。",
+    "tldr": "本文提出一种蒙特卡洛方法，用于估计旨在提升用户对个性化新闻邮件通讯参与度的A/B实验的统计功效。",
+    "en_tdlr": "This paper presents a Monte Carlo method for estimating the statistical power of small-system A/B trials designed to increase user engagement with personalized e-mail newsletters of recommended news articles."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Can Artificial Intelligence Forecast Treatment Effects in Economics?",
+    "abstract": "arXiv:2610.38883v2 Announce Type: replace  Abstract: I use LLMs to forecast treatment effects from pre-registrations and pre-analysis plans, evaluating forecasts against results released after the models' cut-off dates. The screened sample includes 1,459 questions from 36 papers. For the most recent time period and model, the median absolute error is 0.053 SD, the average absolute error is 0.098 SD, and the MSE is 0.021, falling to 0.015 after adjusting for sampling variance where standard errors are available. Forecasts substantially outperform benchmarks predicting zero or other papers' mean effects. These results suggest considerable scope for forecasts to inform policy and research.",
+    "link": "https://arxiv.org/abs/2610.38883",
+    "context": "Title: Can Artificial Intelligence Forecast Treatment Effects in Economics?\nAbstract: arXiv:2610.38883v2 Announce Type: replace  Abstract: I use LLMs to forecast treatment effects from pre-registrations and pre-analysis plans, evaluating forecasts against results released after the models' cut-off dates. The screened sample includes 1,459 questions from 36 papers. For the most recent time period and model, the median absolute error is 0.053 SD, the average absolute error is 0.098 SD, and the MSE is 0.021, falling to 0.015 after adjusting for sampling variance where standard errors are available. Forecasts substantially outperform benchmarks predicting zero or other papers' mean effects. These results suggest considerable scope for forecasts to inform policy and research.",
+    "path": "papers/26/10/2610.38883.json",
+    "total_tokens": 829,
+    "translated_title": "人工智能能否预测经济学中的处理效应？",
+    "translated_abstract": "我使用大语言模型（LLMs）根据预注册和预分析计划来预测处理效应，并将预测结果与模型截止日期之后发布的实际研究结果进行对比评估。筛选后的样本包括来自36篇论文的1,459个问题。对于最近的时间段和模型，中位绝对误差为0.053个标准差，平均绝对误差为0.098个标准差，均方误差（MSE）为0.021，在标准误可得的情况下，经抽样方差调整后降至0.015。预测结果显著优于预测零效应或其他论文平均效应的基准方法。这些结果表明，AI预测在为政策制定和研究提供参考方面具有相当大的潜力。",
+    "tldr": "该研究利用大语言模型根据预注册信息预测经济学实验的处理效应，预测误差很小且显著优于简单基准方法，表明AI预测可为政策制定和研究提供重要参考。",
+    "en_tdlr": "LLMs can accurately forecast treatment effects in economics from pre-registrations, substantially outperforming simple benchmarks, suggesting considerable scope for AI forecasts to inform policy and research."
+}

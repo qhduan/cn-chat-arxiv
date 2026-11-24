@@ -1,0 +1,12 @@
+{
+    "title": "Wavelet determinantal samplers: Optimal approximation rates adapting to regularity",
+    "abstract": "arXiv:2611.29992v1 Announce Type: cross  Abstract: We construct wavelet-based determinantal samplers on manifolds and geometric graphs whose approximation rates adapt to the regularity of the observable. On a Riemannian manifold of dimension $m$, our wavelet DPPs satisfy variance reduction of order $n^{1-2s/m}$ for linear statistics of both $s$-H\\\"older and $H^s$ observables, where $0",
+    "link": "https://arxiv.org/abs/2611.29992",
+    "context": "Title: Wavelet determinantal samplers: Optimal approximation rates adapting to regularity\nAbstract: arXiv:2611.29992v1 Announce Type: cross  Abstract: We construct wavelet-based determinantal samplers on manifolds and geometric graphs whose approximation rates adapt to the regularity of the observable. On a Riemannian manifold of dimension $m$, our wavelet DPPs satisfy variance reduction of order $n^{1-2s/m}$ for linear statistics of both $s$-H\\\"older and $H^s$ observables, where $0",
+    "path": "papers/26/11/2611.29992.json",
+    "total_tokens": 2404,
+    "translated_title": "小波行列式采样器：自适应于正则性的最优逼近速率",
+    "translated_abstract": "我们在流形与几何图上构造了基于小波的行列式采样器，其逼近速率能够自适应于观测量的正则性。在维度为 $m$ 的黎曼流形上，我们的小波行列式点过程（DPP）对于 $s$-Hölder 观测量和 $H^s$ 观测量的线性统计量实现了 $n^{1-2s/m}$ 阶的方差缩减，其中 $0 < s < m/2$。",
+    "tldr": "该论文构造了基于小波的行列式点过程采样器，在流形与几何图上对线性统计量实现了 n^{1-2s/m} 阶的方差缩减，且该逼近速率能够自适应于观测量的 Hölder/Sobolev 正则性。",
+    "en_tdlr": "This paper constructs wavelet-based determinantal point process samplers on manifolds and geometric graphs that achieve variance reduction of order n^{1-2s/m} for linear statistics, with approximation rates adapting to the Hölder/Sobolev regularity of the observable."
+}

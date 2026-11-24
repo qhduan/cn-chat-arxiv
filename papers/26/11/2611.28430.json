@@ -1,0 +1,12 @@
+{
+    "title": "Lean Census: A Distributional Analysis of AI-Generated Lean Code",
+    "abstract": "arXiv:2611.28430v1 Announce Type: cross  Abstract: We compare two human-written and four AI-generated Lean libraries with Mathlib through the distributions of simple statistics of their code. For each library we measure inline claims in proofs, proof length, how often each declaration is used, and design choices such as instances and private declarations, and we read each against the variation among Mathlib's own areas. The AI-generated libraries have more inline claims per theorem, longer proofs, fewer instances, and more private declarations than the human-written ones. We release the code for the analysis as a package, lean-census, at https://github.com/project-numina/lean-census.",
+    "link": "https://arxiv.org/abs/2611.28430",
+    "context": "Title: Lean Census: A Distributional Analysis of AI-Generated Lean Code\nAbstract: arXiv:2611.28430v1 Announce Type: cross  Abstract: We compare two human-written and four AI-generated Lean libraries with Mathlib through the distributions of simple statistics of their code. For each library we measure inline claims in proofs, proof length, how often each declaration is used, and design choices such as instances and private declarations, and we read each against the variation among Mathlib's own areas. The AI-generated libraries have more inline claims per theorem, longer proofs, fewer instances, and more private declarations than the human-written ones. We release the code for the analysis as a package, lean-census, at https://github.com/project-numina/lean-census.",
+    "path": "papers/26/11/2611.28430.json",
+    "total_tokens": 985,
+    "translated_title": "Lean Census：AI 生成的 Lean 代码的分布分析",
+    "translated_abstract": "我们通过代码简单统计量的分布，将两个人类编写的和四个 AI 生成的 Lean 库与 Mathlib 进行比较。对于每个库，我们测量了证明中的内联声明、证明长度、每个声明的使用频率，以及诸如实例和私有声明等设计选择，并将每个库与 Mathlib 自身各领域之间的差异进行对照分析。与人类编写的库相比，AI 生成的库中每个定理的内联声明更多、证明更长、实例更少、私有声明更多。我们将该分析的代码以 lean-census 包的形式发布于 https://github.com/project-numina/lean-census。",
+    "tldr": "该研究通过对代码统计量分布的对比分析，揭示了 AI 生成的 Lean 库与人类编写的库之间存在显著差异——AI 生成的库每个定理的内联声明更多、证明更长、实例更少、私有声明更多。",
+    "en_tdlr": "This study compares human-written and AI-generated Lean libraries with Mathlib through distributions of simple code statistics, finding that AI-generated libraries have more inline claims per theorem, longer proofs, fewer instances, and more private declarations than human-written ones."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Categorical Foundations of AI Agents",
+    "abstract": "arXiv:2611.29998v1 Announce Type: new  Abstract: We follow the idea of separating intelligence from execution and give the categorical foundations of AI agents: the transformers, the agents, and the orchestrations and choreographies of AI agents are categorized, and which also include their coalgebras and algebras.",
+    "link": "https://arxiv.org/abs/2611.29998",
+    "context": "Title: Categorical Foundations of AI Agents\nAbstract: arXiv:2611.29998v1 Announce Type: new  Abstract: We follow the idea of separating intelligence from execution and give the categorical foundations of AI agents: the transformers, the agents, and the orchestrations and choreographies of AI agents are categorized, and which also include their coalgebras and algebras.",
+    "path": "papers/26/11/2611.29998.json",
+    "total_tokens": 695,
+    "translated_title": "AI代理的范畴论基础",
+    "translated_abstract": "我们遵循将智能与执行相分离的思想，为AI代理给出范畴论基础：对变换器、AI代理，以及AI代理的编排与协作编排进行了范畴化，其中还包括它们的余代数与代数结构。",
+    "tldr": "本文基于智能与执行相分离的思想，为变换器、AI代理及其编排与协作建立了范畴论基础，并涵盖了相应的代数与余代数结构。",
+    "en_tdlr": "This paper establishes categorical foundations for AI agents by separating intelligence from execution, categorizing transformers, agents, and their orchestrations and choreographies, together with their algebras and coalgebras."
+}

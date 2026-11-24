@@ -1,0 +1,12 @@
+{
+    "title": "Training Dynamics of Large State-Transition Models",
+    "abstract": "arXiv:2611.30005v1 Announce Type: new  Abstract: Next-token prediction relies on learned token embeddings whose dimension $d$ is much smaller than the vocabulary size $V$. Existing analyses of training dynamics either fix the embeddings with $d\\ge V$ or train them only in restricted settings. It remains unclear whether jointly training the embeddings by gradient-based methods from random initialization leads to accurate prediction when $d",
+    "link": "https://arxiv.org/abs/2611.30005",
+    "context": "Title: Training Dynamics of Large State-Transition Models\nAbstract: arXiv:2611.30005v1 Announce Type: new  Abstract: Next-token prediction relies on learned token embeddings whose dimension $d$ is much smaller than the vocabulary size $V$. Existing analyses of training dynamics either fix the embeddings with $d\\ge V$ or train them only in restricted settings. It remains unclear whether jointly training the embeddings by gradient-based methods from random initialization leads to accurate prediction when $d",
+    "path": "papers/26/11/2611.30005.json",
+    "total_tokens": 950,
+    "translated_title": "大型状态转移模型的训练动力学",
+    "translated_abstract": "下一词元预测依赖于学习得到的词元嵌入，其维度 $d$ 远小于词表大小 $V$。现有的训练动力学分析要么在 $d\\ge V$ 的条件下固定嵌入不动，要么仅在受限设置中训练嵌入。当 $d$ 小于 $V$ 时，通过基于梯度的方法从随机初始化联合训练嵌入能否实现准确预测，目前仍不清楚。",
+    "tldr": "本文研究了在嵌入维度小于词表规模的条件下，从随机初始化出发联合训练词元嵌入与模型参数的训练动力学，揭示了大型状态转移模型实现准确下一词元预测的条件。",
+    "en_tdlr": "This paper studies the training dynamics of jointly training token embeddings with dimension smaller than the vocabulary size from random initialization, revealing the conditions under which large state-transition models achieve accurate next-token prediction."
+}

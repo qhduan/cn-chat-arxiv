@@ -1,0 +1,12 @@
+{
+    "title": "Principal Revelations of the Revelation Principle",
+    "abstract": "arXiv:2611.30612v1 Announce Type: new  Abstract: I prove a converse to the revelation principle, arguing that it is a principle of optimism: if it must hold for all environments (in fact, even just those with private values and independent types) the principal must assume her favorite equilibrium is played by the agents. When the principal knows only that the prior lies in some set, she must additionally assume it is her favorite one. With private values, independent types, and quasilinear payoffs, however, unrestricted transfers allow the principal to approximate any mechanism's equilibrium payoff via a direct mechanism whose unique equilibrium is truthful.",
+    "link": "https://arxiv.org/abs/2611.30612",
+    "context": "Title: Principal Revelations of the Revelation Principle\nAbstract: arXiv:2611.30612v1 Announce Type: new  Abstract: I prove a converse to the revelation principle, arguing that it is a principle of optimism: if it must hold for all environments (in fact, even just those with private values and independent types) the principal must assume her favorite equilibrium is played by the agents. When the principal knows only that the prior lies in some set, she must additionally assume it is her favorite one. With private values, independent types, and quasilinear payoffs, however, unrestricted transfers allow the principal to approximate any mechanism's equilibrium payoff via a direct mechanism whose unique equilibrium is truthful.",
+    "path": "papers/26/11/2611.30612.json",
+    "total_tokens": 1427,
+    "translated_title": "显示原理对委托人的启示",
+    "translated_abstract": "我证明了显示原理的一个逆命题，论证该原理实质上是一种乐观原理：如果它必须在所有环境中成立（实际上，甚至只需在私人价值且类型独立的环境中成立），委托人就必须假设代理人会实现她最喜欢的均衡。当委托人仅知道先验分布属于某个集合时，她还必须额外假设那是她最喜欢的一个。然而，在私人价值、类型独立和拟线性效用的条件下，无限制的转移支付使委托人能够通过一个唯一均衡为诚实（说真话）的直接机制来逼近任意机制的均衡收益。",
+    "tldr": "该论文证明了显示原理的逆命题，揭示其本质是“乐观原理”——若要求其在所有环境中成立，委托人必须假设代理人会实现她最喜欢的均衡，但在私人价值、类型独立与拟线性效用下，无限制转移支付仍可让任意机制的均衡收益被一个唯一诚实均衡的直接机制所近似。",
+    "en_tdlr": "This paper proves a converse to the revelation principle, showing it is a principle of optimism—holding for all environments requires the principal to assume her favorite equilibrium obtains—yet with private values, independent types, and quasilinear payoffs, unrestricted transfers allow any mechanism's equilibrium payoff to be approximated by a direct mechanism with a unique truthful equilibrium."
+}

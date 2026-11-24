@@ -1,0 +1,12 @@
+{
+    "title": "Global Stability and Loss Convergence in Matrix Factorization",
+    "abstract": "arXiv:2611.28975v1 Announce Type: new  Abstract: We study the matrix factorization objective $\\mathcal L(X,Y)=f(XY)$ for convex, twice continuously differentiable output losses with bounded and Lipschitz gradient and a minimizing set that is compact modulo specified input and output invariances. This includes the well-known cross entropy loss. We prove that a positive learning-rate threshold guarantees bounded parameters, summability of squared gradients, and convergence of the loss from every finite initialization. The proof constructs a quantity from the imbalance between parameter matrices that decreases over every step of the gradient descent trajectory.",
+    "link": "https://arxiv.org/abs/2611.28975",
+    "context": "Title: Global Stability and Loss Convergence in Matrix Factorization\nAbstract: arXiv:2611.28975v1 Announce Type: new  Abstract: We study the matrix factorization objective $\\mathcal L(X,Y)=f(XY)$ for convex, twice continuously differentiable output losses with bounded and Lipschitz gradient and a minimizing set that is compact modulo specified input and output invariances. This includes the well-known cross entropy loss. We prove that a positive learning-rate threshold guarantees bounded parameters, summability of squared gradients, and convergence of the loss from every finite initialization. The proof constructs a quantity from the imbalance between parameter matrices that decreases over every step of the gradient descent trajectory.",
+    "path": "papers/26/11/2611.28975.json",
+    "total_tokens": 1100,
+    "translated_title": "矩阵分解中的全局稳定性与损失收敛",
+    "translated_abstract": "我们研究矩阵分解目标函数 $\\mathcal L(X,Y)=f(XY)$，其中输出损失是凸的、二次连续可微的函数，其梯度有界且满足 Lipschitz 条件，并且其极小化集合在模掉指定的输入和输出不变性后是紧的。这一设定涵盖了著名的交叉熵损失。我们证明了一个正的学习率阈值可以保证参数有界、梯度平方可求和，以及从任意有限初始化出发的损失收敛。证明的关键在于构造一个由参数矩阵之间的不平衡性导出的量，该量在梯度下降轨迹的每一步都会递减。",
+    "tldr": "本文证明了对于包括交叉熵在内的广泛凸损失函数，矩阵分解的梯度下降存在一个正的学习率阈值，超过该阈值即可保证参数有界以及从任意有限初始化出发的损失收敛，其证明核心是构造一个沿训练轨迹逐步递减的参数矩阵不平衡量。",
+    "en_tdlr": "This paper proves that for matrix factorization with broad convex losses including cross entropy, a positive learning-rate threshold guarantees bounded parameters and loss convergence from any finite initialization, with the proof relying on a parameter-imbalance quantity that decreases at every step of the gradient descent trajectory."
+}

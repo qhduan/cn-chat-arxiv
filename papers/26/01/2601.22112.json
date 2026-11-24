@@ -1,0 +1,12 @@
+{
+    "title": "Distributional Competition",
+    "abstract": "arXiv:2601.22112v4 Announce Type: replace  Abstract: I study symmetric competitions in which each player chooses an arbitrary distribution over a performance index, subject to a convex cost. I establish existence of a symmetric equilibrium, document various properties it must possess, and provide a characterization via the first-order approach. Several applications--to R\\&D competition, oligopolistic competition with product design, and rank-order contests--follow.",
+    "link": "https://arxiv.org/abs/2601.22112",
+    "context": "Title: Distributional Competition\nAbstract: arXiv:2601.22112v4 Announce Type: replace  Abstract: I study symmetric competitions in which each player chooses an arbitrary distribution over a performance index, subject to a convex cost. I establish existence of a symmetric equilibrium, document various properties it must possess, and provide a characterization via the first-order approach. Several applications--to R\\&D competition, oligopolistic competition with product design, and rank-order contests--follow.",
+    "path": "papers/26/01/2601.22112.json",
+    "total_tokens": 1064,
+    "translated_title": "分布竞争",
+    "translated_abstract": "我研究一类对称竞争模型：每个参与者在一个绩效指标上选择任意分布，并需承担凸成本。我证明了对称均衡的存在性，记录了该均衡必须具备的若干性质，并通过一阶方法给出其刻画。随后给出若干应用，包括研发（R&D）竞争、涉及产品设计的寡头竞争以及排名次序竞赛。",
+    "tldr": "本文研究参与者以绩效指标上的任意分布为策略、承担凸成本的对称竞争，证明了对称均衡的存在性并通过一阶方法加以刻画，进而将该框架应用于研发竞争、带产品设计的寡头竞争和排名竞赛。",
+    "en_tdlr": "This paper studies symmetric competitions where players choose arbitrary distributions over a performance index subject to convex costs, establishes the existence of a symmetric equilibrium, characterizes it via the first-order approach, and applies the framework to R&D competition, oligopolistic competition with product design, and rank-order contests."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Subjective functions",
+    "abstract": "arXiv:2512.15948v4 Announce Type: replace  Abstract: Where do objective functions come from? How do we select what goals to pursue? Human intelligence is adept at synthesizing new objective functions on the fly. How does this work, and can we endow artificial systems with the same ability? This paper proposes an approach to answering these questions, starting with the concept of a subjective function, a higher-order objective function that is endogenous to the agent (i.e., defined with respect to the agent's features, rather than an external task). Expected prediction error is studied as a concrete example of a subjective function. This proposal has many connections to ideas in psychology, neuroscience, and machine learning.",
+    "link": "https://arxiv.org/abs/2512.15948",
+    "context": "Title: Subjective functions\nAbstract: arXiv:2512.15948v4 Announce Type: replace  Abstract: Where do objective functions come from? How do we select what goals to pursue? Human intelligence is adept at synthesizing new objective functions on the fly. How does this work, and can we endow artificial systems with the same ability? This paper proposes an approach to answering these questions, starting with the concept of a subjective function, a higher-order objective function that is endogenous to the agent (i.e., defined with respect to the agent's features, rather than an external task). Expected prediction error is studied as a concrete example of a subjective function. This proposal has many connections to ideas in psychology, neuroscience, and machine learning.",
+    "path": "papers/25/12/2512.15948.json",
+    "total_tokens": 927,
+    "translated_title": "主观函数",
+    "translated_abstract": "目标函数从何而来？我们如何选择要追求的目标？人类智能善于即时合成新的目标函数。这一机制是如何运作的，我们能否赋予人工系统同样的能力？本文提出了一种回答这些问题的新思路，首先引入了“主观函数”的概念——一种内生于智能体的高阶目标函数（即相对于智能体自身的特征而非外部任务来定义）。论文将预期预测误差作为主观函数的一个具体例子进行了研究。该提议与心理学、神经科学和机器学习中的诸多思想存在联系。",
+    "tldr": "本文提出“主观函数”这一新概念——一种基于智能体自身特征而非外部任务定义的高阶目标函数，并以预期预测误差为例，为解释和实现AI自主生成目标的能力提供了新途径。",
+    "en_tdlr": "This paper introduces the concept of \"subjective functions\" — higher-order objective functions endogenous to the agent (e.g., expected prediction error) — to explain and potentially enable artificial systems to synthesize new goals on the fly, like human intelligence does."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Quadratic Forms of Multivariate $t$-Distributions",
+    "abstract": "arXiv:2611.29074v1 Announce Type: new  Abstract: This paper concerns quadratic forms of multivariate $t$-distributions. This paper derives the joint distribution and density of multiple quadratic forms, and establishes the possibility of a finite series approximation to the CDF. The paper also provides closed-form expressions for all the mixed moments that exist. Inverses of quadratic forms and ratios of quadratic forms are also considered.",
+    "link": "https://arxiv.org/abs/2611.29074",
+    "context": "Title: Quadratic Forms of Multivariate $t$-Distributions\nAbstract: arXiv:2611.29074v1 Announce Type: new  Abstract: This paper concerns quadratic forms of multivariate $t$-distributions. This paper derives the joint distribution and density of multiple quadratic forms, and establishes the possibility of a finite series approximation to the CDF. The paper also provides closed-form expressions for all the mixed moments that exist. Inverses of quadratic forms and ratios of quadratic forms are also considered.",
+    "path": "papers/26/11/2611.29074.json",
+    "total_tokens": 768,
+    "translated_title": "多元 t 分布的二次型",
+    "translated_abstract": "本文研究多元 t 分布的二次型。论文推导了多个二次型的联合分布与密度，并证明了可以用有限级数逼近来近似累积分布函数（CDF）。论文还给出了所有存在的混合矩的封闭形式表达式。此外，还考虑了二次型的逆以及二次型之比。",
+    "tldr": "本文推导了多元 t 分布多个二次型的联合分布与密度，建立了 CDF 的有限级数逼近方法，给出所有存在混合矩的封闭表达式，并研究了二次型的逆与比值。",
+    "en_tdlr": "This paper derives the joint distribution and density of multiple quadratic forms of multivariate t-distributions, establishes finite series approximations to the CDF, provides closed-form expressions for all existing mixed moments, and studies inverses and ratios of quadratic forms."
+}

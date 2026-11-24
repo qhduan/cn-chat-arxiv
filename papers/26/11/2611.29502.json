@@ -1,0 +1,12 @@
+{
+    "title": "How to Mismatch Consumers",
+    "abstract": "arXiv:2611.29502v1 Announce Type: new  Abstract: Should a platform show all consumers all products, or at least those they like most? Or could it raise consumer surplus by mismatching some consumers: showing them only less-preferred products or even excluding them from trade? I show that in both monopoly and duopoly, mismatching can raise aggregate consumer surplus by inducing lower prices. In duopoly, consumer-optimal matching uses a cutoff policy: along each diagonal of equal valuation differences, consumers with lower valuations are matched only to less-preferred products, and some may subsequently be excluded. With independent uniform valuations, this raises aggregate consumer surplus by about 41% over full matching.",
+    "link": "https://arxiv.org/abs/2611.29502",
+    "context": "Title: How to Mismatch Consumers\nAbstract: arXiv:2611.29502v1 Announce Type: new  Abstract: Should a platform show all consumers all products, or at least those they like most? Or could it raise consumer surplus by mismatching some consumers: showing them only less-preferred products or even excluding them from trade? I show that in both monopoly and duopoly, mismatching can raise aggregate consumer surplus by inducing lower prices. In duopoly, consumer-optimal matching uses a cutoff policy: along each diagonal of equal valuation differences, consumers with lower valuations are matched only to less-preferred products, and some may subsequently be excluded. With independent uniform valuations, this raises aggregate consumer surplus by about 41% over full matching.",
+    "path": "papers/26/11/2611.29502.json",
+    "total_tokens": 1014,
+    "translated_title": "如何错配消费者",
+    "translated_abstract": "平台应该向所有消费者展示所有产品，或者至少展示他们最喜欢的产品吗？还是平台可以通过“错配”部分消费者来提高消费者剩余：只向他们展示偏好程度较低的产品，甚至将他们排除在交易之外？本文证明，在垄断和双寡头两种市场结构下，错配都可以通过诱导更低的价格来提高总消费者剩余。在双寡头市场中，消费者最优的匹配采用阈值（截止）策略：在每条估值差异相等的对角线上，估值较低的消费者只会被匹配到偏好程度较低的产品，部分消费者甚至随后可能被排除在交易之外。当估值相互独立且服从均匀分布时，这种策略相比完全匹配可将总消费者剩余提高约41%。",
+    "tldr": "本文证明平台通过故意错配部分消费者（只展示次优产品甚至将其排除在交易之外）来诱导商家降价，从而在垄断和双寡头市场中都能提高总消费者剩余，在双寡头独立均匀估值情形下可提升约41%。",
+    "en_tdlr": "This paper shows that platforms can raise aggregate consumer surplus by deliberately mismatching some consumers—showing them only less-preferred products or even excluding them from trade—to induce lower prices, yielding about a 41% surplus gain over full matching in duopoly with independent uniform valuations."
+}

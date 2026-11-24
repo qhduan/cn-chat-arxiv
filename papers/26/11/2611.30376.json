@@ -1,0 +1,12 @@
+{
+    "title": "Low-Rank Tensor Representations for Efficient Multimarginal Optimal Transport",
+    "abstract": "arXiv:2611.30376v1 Announce Type: new  Abstract: Multimarginal Optimal Transport (MOT) suffers from exponential computational and memory costs in the number of marginals, as transport plans are represented by high-dimensional tensors. We introduce Low-Rank Multimarginal Optimal Transport (LRMOT), which restricts transport plans to tensors with bounded multilinear rank, providing a compact and structured representation of multimarginal couplings. This structure enables efficient algorithms with a low memory footprint. We establish approximation bounds for the resulting low-rank formulations and demonstrate experimentally that the proposed algorithms substantially reduce computational time while achieving solutions with low transport cost.",
+    "link": "https://arxiv.org/abs/2611.30376",
+    "context": "Title: Low-Rank Tensor Representations for Efficient Multimarginal Optimal Transport\nAbstract: arXiv:2611.30376v1 Announce Type: new  Abstract: Multimarginal Optimal Transport (MOT) suffers from exponential computational and memory costs in the number of marginals, as transport plans are represented by high-dimensional tensors. We introduce Low-Rank Multimarginal Optimal Transport (LRMOT), which restricts transport plans to tensors with bounded multilinear rank, providing a compact and structured representation of multimarginal couplings. This structure enables efficient algorithms with a low memory footprint. We establish approximation bounds for the resulting low-rank formulations and demonstrate experimentally that the proposed algorithms substantially reduce computational time while achieving solutions with low transport cost.",
+    "path": "papers/26/11/2611.30376.json",
+    "total_tokens": 931,
+    "translated_title": "用于高效多边际最优传输的低秩张量表示",
+    "translated_abstract": "多边际最优传输（MOT）随着边际数量的增加，其传输计划由高维张量表示，导致计算和内存开销呈指数级增长。我们提出了低秩多边际最优传输（LRMOT），它将传输计划限制为具有有界多重线性秩的张量，为多边际耦合提供了紧凑且结构化的表示。这种结构使得我们能够设计出内存占用低的高效算法。我们为所得的低秩公式建立了近似界，并通过实验证明所提出的算法在大幅减少计算时间的同时，能够获得传输成本较低的解。",
+    "tldr": "该论文提出低秩多边际最优传输（LRMOT），通过将传输计划限制为有界多重线性秩的张量，大幅降低了多边际最优传输的计算与内存开销，同时保持较低的传输成本。",
+    "en_tdlr": "This paper introduces Low-Rank Multimarginal Optimal Transport (LRMOT), which restricts transport plans to tensors with bounded multilinear rank, substantially reducing the computational and memory costs of MOT while achieving solutions with low transport cost."
+}

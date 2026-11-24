@@ -1,0 +1,12 @@
+{
+    "title": "Direct Feedback Policy Optimization for AI Coding Agents",
+    "abstract": "arXiv:2611.29193v1 Announce Type: cross  Abstract: AI coding agents generate, modify, and validate code through multi-turn interactions. Existing reinforcement learning methods often rely on sparse terminal rewards, making it difficult to assess how intermediate decisions affect task outcomes, and group-relative methods also require repeated sampling for each task. We propose Direct Feedback Policy Optimization (DFPO), a single-trajectory reinforcement learning algorithm that trains directly from a single trajectory. DFPO achieves higher task resolution rates than GSPO under matched base models and execution harnesses.",
+    "link": "https://arxiv.org/abs/2611.29193",
+    "context": "Title: Direct Feedback Policy Optimization for AI Coding Agents\nAbstract: arXiv:2611.29193v1 Announce Type: cross  Abstract: AI coding agents generate, modify, and validate code through multi-turn interactions. Existing reinforcement learning methods often rely on sparse terminal rewards, making it difficult to assess how intermediate decisions affect task outcomes, and group-relative methods also require repeated sampling for each task. We propose Direct Feedback Policy Optimization (DFPO), a single-trajectory reinforcement learning algorithm that trains directly from a single trajectory. DFPO achieves higher task resolution rates than GSPO under matched base models and execution harnesses.",
+    "path": "papers/26/11/2611.29193.json",
+    "total_tokens": 791,
+    "translated_title": "面向AI编程代理的直接反馈策略优化",
+    "translated_abstract": "AI编程代理通过多轮交互来生成、修改和验证代码。现有的强化学习方法通常依赖稀疏的终端奖励，这使得难以评估中间决策对任务结果的影响，且组相对类方法还需要对每个任务进行重复采样。我们提出了直接反馈策略优化（DFPO），这是一种单轨迹强化学习算法，能够直接从单条轨迹中进行训练。在相同的基础模型和执行框架条件下，DFPO取得了比GSPO更高的任务解决率。",
+    "tldr": "提出单轨迹强化学习算法DFPO，无需依赖稀疏终端奖励和重复采样即可直接训练AI编程代理，在同等条件下任务解决率超过GSPO。",
+    "en_tdlr": "DFPO is a single-trajectory reinforcement learning algorithm that trains AI coding agents directly from single trajectories without relying on sparse terminal rewards or repeated sampling, achieving higher task resolution rates than GSPO."
+}

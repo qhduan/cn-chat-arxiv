@@ -1,0 +1,12 @@
+{
+    "title": "Notes on Generative AI for Mathematical Research",
+    "abstract": "arXiv:2611.29811v1 Announce Type: cross  Abstract: These notes describe how generative AI is now used to solve and to check research-level mathematics, with a focus on agents and their harnesses. For the proving agents Rethlas, Danus, and Pharos and the verification agent OSVerify, we explain the design principles, compare each with its base model, present case studies, and show how to use and contribute to them. We also briefly review the history of AI for mathematics and the community's reactions to it.",
+    "link": "https://arxiv.org/abs/2611.29811",
+    "context": "Title: Notes on Generative AI for Mathematical Research\nAbstract: arXiv:2611.29811v1 Announce Type: cross  Abstract: These notes describe how generative AI is now used to solve and to check research-level mathematics, with a focus on agents and their harnesses. For the proving agents Rethlas, Danus, and Pharos and the verification agent OSVerify, we explain the design principles, compare each with its base model, present case studies, and show how to use and contribute to them. We also briefly review the history of AI for mathematics and the community's reactions to it.",
+    "path": "papers/26/11/2611.29811.json",
+    "total_tokens": 825,
+    "translated_title": "关于生成式人工智能在数学研究中应用的笔记",
+    "translated_abstract": "本笔记描述了生成式人工智能如今如何被用于解决和检验研究级别的数学问题，重点关注智能体及其配套框架。针对证明智能体 Rethlas、Danus 和 Pharos 以及验证智能体 OSVerify，作者解释了它们的设计原则，将其与各自的基础模型进行比较，展示了案例研究，并说明了如何使用这些工具以及如何为其做出贡献。此外，本笔记还简要回顾了人工智能在数学领域应用的历史以及学术界对此的反应。",
+    "tldr": "本笔记系统介绍了Rethlas、Danus、Pharos等证明智能体与OSVerify验证智能体的设计原理和使用方法，展示了生成式AI在解决和检验研究级数学问题上的最新进展。",
+    "en_tdlr": "These notes explain the design principles, case studies, and usage of proving agents (Rethlas, Danus, Pharos) and the verification agent OSVerify, showcasing how generative AI now solves and checks research-level mathematics."
+}

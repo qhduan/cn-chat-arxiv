@@ -1,0 +1,12 @@
+{
+    "title": "fx(hash): Salvaging The Source Code of 28k Generative Artworks",
+    "abstract": "arXiv:2611.29604v1 Announce Type: new  Abstract: fx(hash), the most radically inclusive generative art NFT platform, went bankrupt and shut down on August 17, 2026. The ownership of its 2,705,350 artworks is immutable on the Tezos and Ethereum blockchains, but the source code that generates them is off-chain and in peril. We salvaged all 28,193 generative programs contributed by 5,532 international artists and archived them in Software Heritage. Here we explain why NFT generative art is fragile and the steps we took to salvage these software cultural landmarks.",
+    "link": "https://arxiv.org/abs/2611.29604",
+    "context": "Title: fx(hash): Salvaging The Source Code of 28k Generative Artworks\nAbstract: arXiv:2611.29604v1 Announce Type: new  Abstract: fx(hash), the most radically inclusive generative art NFT platform, went bankrupt and shut down on August 17, 2026. The ownership of its 2,705,350 artworks is immutable on the Tezos and Ethereum blockchains, but the source code that generates them is off-chain and in peril. We salvaged all 28,193 generative programs contributed by 5,532 international artists and archived them in Software Heritage. Here we explain why NFT generative art is fragile and the steps we took to salvage these software cultural landmarks.",
+    "path": "papers/26/11/2611.29604.json",
+    "total_tokens": 970,
+    "translated_title": "fx(hash)：抢救2.8万件生成艺术作品的源代码",
+    "translated_abstract": "fx(hash)是最具激进包容性的生成艺术NFT平台，于2026年8月17日破产并关闭。其2,705,350件艺术品的所有权在Tezos和以太坊区块链上不可篡改，但生成这些艺术品的源代码存储于链下且岌岌可危。我们抢救了5,532位国际艺术家贡献的全部28,193个生成程序，并将其归档于Software Heritage。本文解释了NFT生成艺术为何脆弱，以及我们为抢救这些软件文化地标所采取的具体步骤。",
+    "tldr": "本研究抢救并归档了已破产的生成艺术NFT平台fx(hash)上5,532位艺术家的全部28,193个生成程序源代码至Software Heritage，揭示了NFT生成艺术因源代码存于链下而面临的脆弱性。",
+    "en_tdlr": "This study salvaged and archived all 28,193 generative programs contributed by 5,532 artists from the bankrupt fx(hash) NFT platform into Software Heritage, revealing the fragility of NFT generative art whose source code resides off-chain."
+}
