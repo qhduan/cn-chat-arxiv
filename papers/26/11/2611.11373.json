@@ -1,0 +1,12 @@
+{
+    "title": "Optimal execution in a fractional setting with reinforcement learning",
+    "abstract": "arXiv:2611.11373v2 Announce Type: replace  Abstract: We consider the problem of optimal liquidation with linear market impact, as in the seminal work of Almgren and Chriss, but with an asset driven by a fractional Brownian motion. For $H \\neq 1/2$, we observe that the deterministic solution given by Almgren and Chriss is no longer optimal. We develop a strategy to exploit the information induced by the correlation between price increments. The strategy is derived from a policy gradient algorithm, parameterized by a neural network, trained to maximise the CARA utility, for which our method allows for significant improvements.",
+    "link": "https://arxiv.org/abs/2611.11373",
+    "context": "Title: Optimal execution in a fractional setting with reinforcement learning\nAbstract: arXiv:2611.11373v2 Announce Type: replace  Abstract: We consider the problem of optimal liquidation with linear market impact, as in the seminal work of Almgren and Chriss, but with an asset driven by a fractional Brownian motion. For $H \\neq 1/2$, we observe that the deterministic solution given by Almgren and Chriss is no longer optimal. We develop a strategy to exploit the information induced by the correlation between price increments. The strategy is derived from a policy gradient algorithm, parameterized by a neural network, trained to maximise the CARA utility, for which our method allows for significant improvements.",
+    "path": "papers/26/11/2611.11373.json",
+    "total_tokens": 897,
+    "translated_title": "分数布朗运动环境下基于强化学习的最优执行",
+    "translated_abstract": "我们考虑具有线性市场冲击的最优清算问题，这与Almgren和Chriss的开创性工作类似，但资产由分数布朗运动驱动。当H ≠ 1/2时，我们观察到Almgren和Chriss给出的确定性解不再是最优的。我们开发了一种策略来利用价格增量之间相关性所产生的信息。该策略源自策略梯度算法，由神经网络参数化，并通过训练以最大化CARA效用，我们的方法在该方面实现了显著的改进。",
+    "tldr": "该论文提出了一种基于神经网络参数化策略梯度算法的最优清算策略，通过利用分数布朗运动中价格增量间的相关性信息，在H ≠ 1/2的情况下显著优于Almgren-Chriss的确定性解。",
+    "en_tdlr": "This paper proposes an optimal liquidation strategy based on a neural network-parameterized policy gradient algorithm that exploits the correlation information between price increments in a fractional Brownian motion setting, significantly outperforming the deterministic Almgren-Chriss solution when H ≠ 1/2."
+}

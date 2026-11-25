@@ -1,0 +1,12 @@
+{
+    "title": "What it is to Obey",
+    "abstract": "arXiv:2611.32741v1 Announce Type: new  Abstract: Prior to agents taking part in a simultaneous-move game, a designer commits a device that sends signals to each of the agents, evaluating the resulting set of equilibria according to a (Hausdorff-)continuous function. In games of incomplete information I show that it must be without loss of optimality for the designer to restrict attention to direct obedient devices if and only if she assumes her preferred equilibrium will be played. In games of complete information, I characterize the monotone evaluations, which include both the maximally optimistic one and the maximally pessimistic one.",
+    "link": "https://arxiv.org/abs/2611.32741",
+    "context": "Title: What it is to Obey\nAbstract: arXiv:2611.32741v1 Announce Type: new  Abstract: Prior to agents taking part in a simultaneous-move game, a designer commits a device that sends signals to each of the agents, evaluating the resulting set of equilibria according to a (Hausdorff-)continuous function. In games of incomplete information I show that it must be without loss of optimality for the designer to restrict attention to direct obedient devices if and only if she assumes her preferred equilibrium will be played. In games of complete information, I characterize the monotone evaluations, which include both the maximally optimistic one and the maximally pessimistic one.",
+    "path": "papers/26/11/2611.32741.json",
+    "total_tokens": 927,
+    "translated_title": "何为服从",
+    "translated_abstract": "在代理人参与同时行动博弈之前，设计者承诺一个向每个代理人发送信号的装置，并根据一个（Hausdorff-）连续函数来评估由此产生的均衡集合。在不完全信息博弈中，我证明了当且仅当设计者假设其偏好的均衡将被实施时，她将注意力限定于直接服从装置才不会损失最优性。在完全信息博弈中，我刻画了单调评估类，其中包括最大乐观评估和最大悲观评估。",
+    "tldr": "本文刻画了信息设计中设计者可仅关注“直接服从”装置而不损失最优性的条件——当且仅当她乐观地假设自己偏好的均衡会被实施——并在完全信息博弈中刻画了涵盖最大乐观与最大悲观评估的单调评估类。",
+    "en_tdlr": "This paper shows that restricting attention to direct obedient devices is without loss of optimality if and only if the designer optimistically assumes her preferred equilibrium will be played, and characterizes the monotone evaluations—including the maximally optimistic and maximally pessimistic ones—in complete information games."
+}

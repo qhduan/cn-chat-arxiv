@@ -1,0 +1,12 @@
+{
+    "title": "Is Prosody Encoded in the Neural Audio Codec Mimi?",
+    "abstract": "arXiv:2611.32795v1 Announce Type: new  Abstract: Neural audio codecs (NACs) have become a fundamental infrastructure for modern speech-language models, discretizing continuous speech signals into token sequences that enable large language models to process and generate audio. Most research evaluates codec quality at the decoding phase, assessing the naturalness of reconstructed speech. However, little research investigates what phonetic information is captured during encoding. In this paper, we investigated the potential correlates of prosody in the NAC Mimi, a codec used by conversational speech agents such as Moshi and Sesame and used in downstream tasks such as speech-to-speech translation (Hibiki).",
+    "link": "https://arxiv.org/abs/2611.32795",
+    "context": "Title: Is Prosody Encoded in the Neural Audio Codec Mimi?\nAbstract: arXiv:2611.32795v1 Announce Type: new  Abstract: Neural audio codecs (NACs) have become a fundamental infrastructure for modern speech-language models, discretizing continuous speech signals into token sequences that enable large language models to process and generate audio. Most research evaluates codec quality at the decoding phase, assessing the naturalness of reconstructed speech. However, little research investigates what phonetic information is captured during encoding. In this paper, we investigated the potential correlates of prosody in the NAC Mimi, a codec used by conversational speech agents such as Moshi and Sesame and used in downstream tasks such as speech-to-speech translation (Hibiki).",
+    "path": "papers/26/11/2611.32795.json",
+    "total_tokens": 992,
+    "translated_title": "神经音频编解码器Mimi中是否编码了韵律信息？",
+    "translated_abstract": "神经音频编解码器（NACs）已成为现代语音-语言模型的基础设施，它将连续的语音信号离散化为token序列，使大型语言模型能够处理和生成音频。大多数研究在解码阶段评估编解码器的质量，即评估重建语音的自然度。然而，很少有研究调查编码过程中究竟捕获了哪些语音学信息。在本文中，我们研究了神经音频编解码器Mimi中韵律的潜在相关表征，该编解码器被Moshi和Sesame等对话式语音智能体所使用，并被应用于语音到语音翻译（Hibiki）等下游任务中。",
+    "tldr": "本文研究了被Moshi、Sesame等对话语音智能体使用的神经音频编解码器Mimi在编码阶段是否捕获了韵律信息，填补了以往仅从解码端评估编解码器质量、缺乏对编码端语音信息考察的研究空白。",
+    "en_tdlr": "This paper investigates whether prosody is encoded in the neural audio codec Mimi—used by conversational speech agents like Moshi and Sesame—addressing the underexplored question of what phonetic information is captured during encoding, in contrast to prior work that only evaluates codec quality at the decoding phase."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Set-based comprehensive learning and particle swarm optimization with memory for discrete optimization problem",
+    "abstract": "arXiv:2611.31306v1 Announce Type: cross  Abstract: This paper describes a novel algorithm of set-based comprehensive learning and particle swarm optimization with memory for discrete optimization problem. Our algorithm is an approach of searching for the best position in a set by referring to the current position when updating the solution. In order to show the validity of our algorithm, we examine numerical experiments compared to existing algorithms.",
+    "link": "https://arxiv.org/abs/2611.31306",
+    "context": "Title: Set-based comprehensive learning and particle swarm optimization with memory for discrete optimization problem\nAbstract: arXiv:2611.31306v1 Announce Type: cross  Abstract: This paper describes a novel algorithm of set-based comprehensive learning and particle swarm optimization with memory for discrete optimization problem. Our algorithm is an approach of searching for the best position in a set by referring to the current position when updating the solution. In order to show the validity of our algorithm, we examine numerical experiments compared to existing algorithms.",
+    "path": "papers/26/11/2611.31306.json",
+    "total_tokens": 604,
+    "translated_title": "基于集合的综合学习与带记忆的粒子群优化算法用于离散优化问题",
+    "translated_abstract": "本文提出了一种新颖的算法——针对离散优化问题的基于集合的综合学习与带记忆的粒子群优化算法。该算法在更新解的过程中，通过参考当前位置来在集合中搜索最佳位置。为了验证该算法的有效性，我们进行了与现有算法对比的数值实验。",
+    "tldr": "提出了一种融合记忆机制的基于集合的综合学习粒子群优化算法，用于求解离散优化问题，并通过与现有算法的数值实验对比验证了其有效性。"
+}

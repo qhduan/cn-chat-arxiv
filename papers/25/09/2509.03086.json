@@ -1,0 +1,12 @@
+{
+    "title": "Credit Access and Mutual Risk Sharing",
+    "abstract": "arXiv:2509.03086v4 Announce Type: replace  Abstract: A credit mutual shares project returns among its borrowers. Outside lenders finance borrowers the mutual turns away. As the mutual admits riskier projects, safer borrowers must contribute more to the pool. Beyond a threshold they leave. Borrowers who already had credit then lose as a group. If the gains to newly financed borrowers outweigh this loss at the threshold, opening the market continues to raise ex ante welfare after exit. Near full capacity, the original members lose from outside access even when the mutual offers safer borrowers enough to stay.",
+    "link": "https://arxiv.org/abs/2509.03086",
+    "context": "Title: Credit Access and Mutual Risk Sharing\nAbstract: arXiv:2509.03086v4 Announce Type: replace  Abstract: A credit mutual shares project returns among its borrowers. Outside lenders finance borrowers the mutual turns away. As the mutual admits riskier projects, safer borrowers must contribute more to the pool. Beyond a threshold they leave. Borrowers who already had credit then lose as a group. If the gains to newly financed borrowers outweigh this loss at the threshold, opening the market continues to raise ex ante welfare after exit. Near full capacity, the original members lose from outside access even when the mutual offers safer borrowers enough to stay.",
+    "path": "papers/25/09/2509.03086.json",
+    "total_tokens": 871,
+    "translated_title": "信贷准入与互助风险分担",
+    "translated_abstract": "信贷互助会在其借款人之间分摊项目收益，而外部贷款人为被互助会拒绝的借款人提供融资。随着互助会接纳风险更高的项目，较安全的借款人必须向资金池贡献更多份额，超过某个阈值后他们会选择退出，此时原本已获得信贷的借款人作为一个整体遭受损失。如果在阈值处新获融资借款人的收益超过这一损失，那么即使部分成员退出，市场开放仍会继续提高事前福利。当接近满负荷容量时，即使互助会向较安全的借款人提供足够的补偿使其留下，原始成员仍会因外部准入而蒙受损失。",
+    "tldr": "本文研究了信贷互助会的风险分担机制，揭示当互助会接纳更高风险项目时安全借款人会退出，并刻画了市场开放仍能提升整体事前福利的条件。",
+    "en_tdlr": "This paper studies risk sharing in credit mutuals, showing that admitting riskier projects induces safer borrowers to exit and characterizes the conditions under which opening the market still raises ex ante welfare."
+}

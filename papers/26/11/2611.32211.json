@@ -1,0 +1,12 @@
+{
+    "title": "ArEssays: Towards Robust Arabic Handwritten Text Understanding in Educational Settings",
+    "abstract": "arXiv:2611.32211v1 Announce Type: new  Abstract: Automated understanding of handwritten Arabic student essays remains challenging due to script complexity and high variability   in children's writing. We introduce ArEssays, a large-scale dataset of authentic essays from primary to secondary students   across Egypt, with both verbatim transcriptions and linguistically corrected versions. We benchmark 34 vision-language and OCR   models, including fine-tuned systems, and find large performance gaps on real student handwriting. We release the dataset,   training pipelines, and results to support research in Arabic OCR, document understanding, and educational NLP.",
+    "link": "https://arxiv.org/abs/2611.32211",
+    "context": "Title: ArEssays: Towards Robust Arabic Handwritten Text Understanding in Educational Settings\nAbstract: arXiv:2611.32211v1 Announce Type: new  Abstract: Automated understanding of handwritten Arabic student essays remains challenging due to script complexity and high variability   in children's writing. We introduce ArEssays, a large-scale dataset of authentic essays from primary to secondary students   across Egypt, with both verbatim transcriptions and linguistically corrected versions. We benchmark 34 vision-language and OCR   models, including fine-tuned systems, and find large performance gaps on real student handwriting. We release the dataset,   training pipelines, and results to support research in Arabic OCR, document understanding, and educational NLP.",
+    "path": "papers/26/11/2611.32211.json",
+    "total_tokens": 819,
+    "translated_title": "ArEssays：迈向教育场景下鲁棒的阿拉伯语手写文本理解",
+    "translated_abstract": "由于阿拉伯语文字的复杂性以及儿童书写的高度可变性，对手写阿拉伯语学生作文的自动理解仍然是一项挑战。我们提出了ArEssays，这是一个大规模数据集，包含来自埃及小学至中学学生的真实作文，并同时提供逐字转录版本和语言修正版本。我们对34个视觉-语言模型和OCR模型（包括经过微调的系统）进行了基准测试，发现现有模型在真实学生手写内容上存在较大的性能差距。我们发布了该数据集、训练流程和测试结果，以支持阿拉伯语OCR、文档理解和教育NLP领域的研究。",
+    "tldr": "提出大规模阿拉伯语学生手写作文数据集ArEssays，通过对34个视觉-语言和OCR模型的基准测试，揭示了现有模型在真实儿童手写内容上的显著性能差距。",
+    "en_tdlr": "We introduce ArEssays, a large-scale dataset of authentic handwritten Arabic student essays, and benchmark 34 vision-language and OCR models, revealing large performance gaps on real children's handwriting."
+}

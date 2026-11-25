@@ -1,0 +1,12 @@
+{
+    "title": "E(n)-Equivariant Spherical Decision Surfaces",
+    "abstract": "arXiv:2611.32815v1 Announce Type: new  Abstract: We present a constructive derivation of exactly E(n)-equivariant spherical decision surfaces by extending prior O(n)-equivariant hypersphere neurons to include translations. To achieve this, we present a decomposition of the features of the O(n)-equivariant neurons and provide explicit representations for translation and E(n)-transformations to fulfil the respective equivariance constraints. The resulting decision surfaces are exactly E(n)-equivariant without input centring or explicit pairwise differences, and admit explicit closed-form matrix representations. In addition, we numerically verify the correctness of the derivations and perform a downstream check of the resulting geometric primitives.",
+    "link": "https://arxiv.org/abs/2611.32815",
+    "context": "Title: E(n)-Equivariant Spherical Decision Surfaces\nAbstract: arXiv:2611.32815v1 Announce Type: new  Abstract: We present a constructive derivation of exactly E(n)-equivariant spherical decision surfaces by extending prior O(n)-equivariant hypersphere neurons to include translations. To achieve this, we present a decomposition of the features of the O(n)-equivariant neurons and provide explicit representations for translation and E(n)-transformations to fulfil the respective equivariance constraints. The resulting decision surfaces are exactly E(n)-equivariant without input centring or explicit pairwise differences, and admit explicit closed-form matrix representations. In addition, we numerically verify the correctness of the derivations and perform a downstream check of the resulting geometric primitives.",
+    "path": "papers/26/11/2611.32815.json",
+    "total_tokens": 969,
+    "translated_title": "E(n)等变球面决策曲面",
+    "translated_abstract": "我们通过将先前的O(n)等变超球面神经元扩展以包含平移，提出了严格E(n)等变球面决策曲面的构造性推导。为实现这一目标，我们对O(n)等变神经元的特征进行了分解，并为平移和E(n)变换提供了显式表示，以满足相应的等变性约束。所得的决策曲面在无需输入中心化或显式成对差值的情况下即严格E(n)等变，并且具有显式的闭式矩阵表示。此外，我们通过数值方法验证了推导的正确性，并对所得的几何基元进行了下游检验。",
+    "tldr": "该论文通过将O(n)等变超球面神经元扩展以包含平移，构造性地推导出无需输入中心化或显式成对差值即严格E(n)等变的球面决策曲面，并给出其显式闭式矩阵表示。",
+    "en_tdlr": "The paper constructively derives exactly E(n)-equivariant spherical decision surfaces by extending O(n)-equivariant hypersphere neurons to incorporate translations, achieving equivariance without input centering or explicit pairwise differences, with explicit closed-form matrix representations."
+}

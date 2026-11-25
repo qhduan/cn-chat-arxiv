@@ -1,0 +1,12 @@
+{
+    "title": "Differential evolution with perturbation for continuous function optimization",
+    "abstract": "arXiv:2611.31305v1 Announce Type: cross  Abstract: This paper presents differential evolution with perturbation (DEP) for continuous function optimization. Differential evolution is a simple and efficient algorithm. Perturbation is the phenomenon that the motion by the contribution of the main force is disturbed by the influence subsidiary power. In order to show the effectiveness of the proposed algorithm, we compare it to existing algorithms by CEC2017 datasets.",
+    "link": "https://arxiv.org/abs/2611.31305",
+    "context": "Title: Differential evolution with perturbation for continuous function optimization\nAbstract: arXiv:2611.31305v1 Announce Type: cross  Abstract: This paper presents differential evolution with perturbation (DEP) for continuous function optimization. Differential evolution is a simple and efficient algorithm. Perturbation is the phenomenon that the motion by the contribution of the main force is disturbed by the influence subsidiary power. In order to show the effectiveness of the proposed algorithm, we compare it to existing algorithms by CEC2017 datasets.",
+    "path": "papers/26/11/2611.31305.json",
+    "total_tokens": 700,
+    "translated_title": "基于扰动的差分进化算法用于连续函数优化",
+    "translated_abstract": "本文提出了一种用于连续函数优化的扰动差分进化算法（DEP）。差分进化是一种简单而高效的算法。扰动是指主力的贡献所产生的运动受到次级力影响而被干扰的现象。为了证明所提出算法的有效性，我们使用CEC2017数据集将其与现有算法进行了比较。",
+    "tldr": "本文提出了一种结合扰动机制的差分进化算法（DEP）用于连续函数优化，并通过CEC2017数据集与现有算法的对比验证了其有效性。",
+    "en_tdlr": "This paper proposes a differential evolution algorithm with perturbation (DEP) for continuous function optimization, and validates its effectiveness through comparisons with existing algorithms on CEC2017 benchmark datasets."
+}

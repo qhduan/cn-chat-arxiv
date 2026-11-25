@@ -1,0 +1,12 @@
+{
+    "title": "Tabra Blends: Improving the Accuracy--Latency Trade-off with Complementary Tabular Models",
+    "abstract": "arXiv:2611.32859v1 Announce Type: new  Abstract: Tabular foundation models make different trade-offs between prediction accuracy and latency. We study whether a compact ensemble can deliver higher accuracy in less time. Across 816 TabArena splits, our blend of four-estimator Kumo and one LimiX pipeline reaches 2063.8 Elo, 45.4 points above the top published entry in the same fit. Its normalized fit + predict time is 15% lower than Kumo-16's and 98% lower than full LimiX's. We find that greater prediction diversity between the two models helps explain the reduction in error.",
+    "link": "https://arxiv.org/abs/2611.32859",
+    "context": "Title: Tabra Blends: Improving the Accuracy--Latency Trade-off with Complementary Tabular Models\nAbstract: arXiv:2611.32859v1 Announce Type: new  Abstract: Tabular foundation models make different trade-offs between prediction accuracy and latency. We study whether a compact ensemble can deliver higher accuracy in less time. Across 816 TabArena splits, our blend of four-estimator Kumo and one LimiX pipeline reaches 2063.8 Elo, 45.4 points above the top published entry in the same fit. Its normalized fit + predict time is 15% lower than Kumo-16's and 98% lower than full LimiX's. We find that greater prediction diversity between the two models helps explain the reduction in error.",
+    "path": "papers/26/11/2611.32859.json",
+    "total_tokens": 1035,
+    "translated_title": "Tabra Blends：利用互补的表格模型改进准确率与延迟的权衡",
+    "translated_abstract": "表格基础模型在预测准确性与延迟之间做出不同的权衡。我们研究一个紧凑的集成模型能否在更短时间内提供更高的准确率。在816个TabArena数据集划分上，我们的由四个估计器的Kumo与一个LimiX流水线组成的混合模型达到了2063.8 Elo，比相同拟合条件下的最高已发布成绩高出45.4分。其归一化的拟合+预测时间比Kumo-16低15%，比完整的LimiX低98%。我们发现这两个模型之间更大的预测多样性有助于解释误差的降低。",
+    "tldr": "将四个估计器的Kumo与一个LimiX流水线混合成紧凑集成，在816个TabArena划分上比最佳已发布模型高出45.4 Elo，同时归一化拟合+预测时间比Kumo-16低15%、比完整LimiX低98%，且两个模型间的预测多样性是误差降低的关键。",
+    "en_tdlr": "Blending a four-estimator Kumo pipeline with one LimiX into a compact ensemble achieves 2063.8 Elo (45.4 above the top published entry) across 816 TabArena splits, with normalized fit+predict time 15% lower than Kumo-16 and 98% lower than full LimiX, with inter-model prediction diversity explaining the error reduction."
+}

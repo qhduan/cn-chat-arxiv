@@ -1,0 +1,11 @@
+{
+    "title": "Privacy-Preserving Disclosure and Welfare",
+    "abstract": "arXiv:2611.32072v1 Announce Type: new  Abstract: We consider a monopolist selling to multiple buyers. A platform observes buyers' tastes and can publicly disclose information about those tastes. However, the platform faces a privacy constraint: the disclosure must reveal nothing about any individual buyer's taste. We show that the same pairs of consumer and producer surplus are attainable with or without this constraint. For each such pair, we construct a privacy-preserving disclosure rule under which a posted-price mechanism attains the pair and no other feasible selling mechanism earns more.",
+    "link": "https://arxiv.org/abs/2611.32072",
+    "context": "Title: Privacy-Preserving Disclosure and Welfare\nAbstract: arXiv:2611.32072v1 Announce Type: new  Abstract: We consider a monopolist selling to multiple buyers. A platform observes buyers' tastes and can publicly disclose information about those tastes. However, the platform faces a privacy constraint: the disclosure must reveal nothing about any individual buyer's taste. We show that the same pairs of consumer and producer surplus are attainable with or without this constraint. For each such pair, we construct a privacy-preserving disclosure rule under which a posted-price mechanism attains the pair and no other feasible selling mechanism earns more.",
+    "path": "papers/26/11/2611.32072.json",
+    "total_tokens": 974,
+    "translated_title": "隐私保护的信息披露与福利",
+    "translated_abstract": "我们考虑一个向多个买家销售产品的垄断者。平台可以观察到买家的偏好，并可以公开披露有关这些偏好的信息。然而，平台面临一个隐私约束：所披露的信息不得泄露任何单个买家的偏好。我们证明了在有或没有这一约束的情况下，可实现的消费者剩余与生产者剩余的组合是相同的。对于每一个这样的组合，我们构造了一种隐私保护的信息披露规则，在该规则下，标价机制能够实现该组合，且没有其他可行的销售机制能获得更高的收益。",
+    "tldr": "该论文证明在垄断销售中，即使信息披露必须满足不泄露任何个体买家偏好的隐私约束，可实现的消费者剩余与生产者剩余组合也和无约束情形完全相同，并构造了相应的隐私保护披露规则使标价机制达到最优。"
+}

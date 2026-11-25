@@ -1,0 +1,12 @@
+{
+    "title": "Degree-bounded Satisfiability of Local MPNNs with Sum Aggregation is NEXPTIME-hard",
+    "abstract": "arXiv:2611.32595v1 Announce Type: cross  Abstract: We prove that the following problem is \\textbf{NEXPTIME}-hard: given a message passing neural network (MPNN) $M$ with local sum aggregation and ReLU activations, and a degree bound $d$ encoded in unary, decide whether there is a pointed graph $(G,v)$ with rational node labels and degree at most $d$ that is accepted by $M$. Hardness already holds for the fixed degree bound $d=3$.",
+    "link": "https://arxiv.org/abs/2611.32595",
+    "context": "Title: Degree-bounded Satisfiability of Local MPNNs with Sum Aggregation is NEXPTIME-hard\nAbstract: arXiv:2611.32595v1 Announce Type: cross  Abstract: We prove that the following problem is \\textbf{NEXPTIME}-hard: given a message passing neural network (MPNN) $M$ with local sum aggregation and ReLU activations, and a degree bound $d$ encoded in unary, decide whether there is a pointed graph $(G,v)$ with rational node labels and degree at most $d$ that is accepted by $M$. Hardness already holds for the fixed degree bound $d=3$.",
+    "path": "papers/26/11/2611.32595.json",
+    "total_tokens": 912,
+    "translated_title": "具有求和聚合的局部MPNN的度数受限可满足性问题是NEXPTIME难的",
+    "translated_abstract": "我们证明了以下问题是NEXPTIME难的：给定一个具有局部求和聚合和ReLU激活函数的消息传递神经网络（MPNN）$M$，以及一个以一元编码表示的度数上界$d$，判断是否存在一个带有有理数节点标签且度数至多为$d$的指向图$(G,v)$，使得该图能被$M$接受。即使在固定的度数上界$d=3$的情况下，该难度结果依然成立。",
+    "tldr": "本文证明了具有局部求和聚合和ReLU激活的消息传递神经网络（MPNN）的度数受限可满足性判定问题是NEXPTIME难的，且即使度数上界固定为3，该难度结果仍然成立。",
+    "en_tdlr": "This paper proves that the degree-bounded satisfiability problem for local MPNNs with sum aggregation and ReLU activations is NEXPTIME-hard, and the hardness holds even for the fixed degree bound d=3."
+}

@@ -1,0 +1,12 @@
+{
+    "title": "A Framework for Graph Node Symmetric Quantification under Dataset Shift",
+    "abstract": "arXiv:2611.32403v1 Announce Type: new  Abstract: Graph node quantification is the supervised learning task of estimating the prevalence of different classes within an arbitrary sample of unlabelled nodes from a graph, subject to some form of dataset shift. Existing approaches to graph node quantification typically follow the standard aggregative paradigm, i.e., they use labelled nodes from the graph to train an intermediate node classifier, and obtain an estimated class distribution for the sample by aggregating the classifier's predictions for the individual nodes and then correcting the result via some adjustment strategy that accounts for dataset shift. In this work we propose a framework for graph node quantification that does away with both node-level supervision, since its training phase only requires node samples labelled by their class distribution, and node-level predictions, since it estimates class prevalence values directly, without the need of any intermediate node classif",
+    "link": "https://arxiv.org/abs/2611.32403",
+    "context": "Title: A Framework for Graph Node Symmetric Quantification under Dataset Shift\nAbstract: arXiv:2611.32403v1 Announce Type: new  Abstract: Graph node quantification is the supervised learning task of estimating the prevalence of different classes within an arbitrary sample of unlabelled nodes from a graph, subject to some form of dataset shift. Existing approaches to graph node quantification typically follow the standard aggregative paradigm, i.e., they use labelled nodes from the graph to train an intermediate node classifier, and obtain an estimated class distribution for the sample by aggregating the classifier's predictions for the individual nodes and then correcting the result via some adjustment strategy that accounts for dataset shift. In this work we propose a framework for graph node quantification that does away with both node-level supervision, since its training phase only requires node samples labelled by their class distribution, and node-level predictions, since it estimates class prevalence values directly, without the need of any intermediate node classif",
+    "path": "papers/26/11/2611.32403.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

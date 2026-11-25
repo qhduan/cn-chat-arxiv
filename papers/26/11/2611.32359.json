@@ -1,0 +1,12 @@
+{
+    "title": "Implementation of Machine Translation for the Uzbek Language Based on Transformer Models",
+    "abstract": "arXiv:2611.32359v1 Announce Type: new  Abstract: This research focuses on building a machine translation system for the Uzbek language using transformer models such as T5 and mT5. Because of the limited data and the complexity of the Uzbek language, we collect, preprocess and augment data to create a strong Uzbek-English parallel corpus of about 3 million sentence pairs. The models are fine-tuned for optimal translation performance, and we use the BLEU score to evaluate the results. This study shows that our approach significantly improves upon older methods and helps promote the Uzbek language in the digital world.",
+    "link": "https://arxiv.org/abs/2611.32359",
+    "context": "Title: Implementation of Machine Translation for the Uzbek Language Based on Transformer Models\nAbstract: arXiv:2611.32359v1 Announce Type: new  Abstract: This research focuses on building a machine translation system for the Uzbek language using transformer models such as T5 and mT5. Because of the limited data and the complexity of the Uzbek language, we collect, preprocess and augment data to create a strong Uzbek-English parallel corpus of about 3 million sentence pairs. The models are fine-tuned for optimal translation performance, and we use the BLEU score to evaluate the results. This study shows that our approach significantly improves upon older methods and helps promote the Uzbek language in the digital world.",
+    "path": "papers/26/11/2611.32359.json",
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}
