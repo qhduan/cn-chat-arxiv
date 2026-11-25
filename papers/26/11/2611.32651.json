@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.32651",
     "context": "Title: LATEC: Learned Axial TEnsor Compression for High-Dimensional Scientific Data\nAbstract: arXiv:2611.32651v1 Announce Type: new  Abstract: With the growing scale of scientific simulation and infrastructure, part of the burden has shifted from producing scientific data to analyzing and storing it. Compression is a key step to expanding storage capacity, but requires dedicated techniques to enforce user-specified pointwise error bounds that ensure the validity of downstream scientific workflows. To further push the limits of compression, novel learned codecs have been developed, in particular for images and videos, but these methods often optimize for aggregated distortion and fail to meet error bound standards. Moreover, these methods often target fixed field dimensionality, failing to account for many scientific data use cases, or at the expense of large adaptation or retraining costs. In this work, we introduce the Learned Axial TEnsor Compression (LATEC) method, an error-bounded codec with a dimension-agnostic learned predictor based on a GNN architecture. LATEC is pretra",
     "path": "papers/26/11/2611.32651.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1013,
+    "translated_title": "LATEC：面向高维科学数据的学习式轴向张量压缩",
+    "translated_abstract": "随着科学模拟与基础设施规模的不断增长，部分负担已经从生成科学数据转移到了分析和存储科学数据上。压缩是扩展存储容量的关键步骤，但需要专门的技术来强制执行用户指定的逐点误差界限，以确保下游科学工作流的有效性。为了进一步突破压缩的极限，人们开发了新颖的学习式编解码器，尤其是针对图像和视频的编解码器，但这些方法通常以聚合失真为优化目标，无法满足误差界限标准。此外，这些方法通常针对固定的场维度，未能涵盖许多科学数据的使用场景，或者需要付出巨大的适配或重新训练成本。在这项工作中，我们提出了学习式轴向张量压缩方法，这是一种基于GNN架构、维度无关的学习式预测器的误差界限编解码器。LATEC经过预训练",
+    "tldr": "本文提出LATEC，一种基于GNN架构、维度无关的学习式误差界限压缩编解码器，可高效压缩高维科学数据且无需针对不同维度进行大量适配或重新训练。",
+    "en_tdlr": "LATEC introduces an error-bounded, dimension-agnostic learned codec based on a GNN architecture for efficiently compressing high-dimensional scientific data without costly adaptation or retraining."
 }

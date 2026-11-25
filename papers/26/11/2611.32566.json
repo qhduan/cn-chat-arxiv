@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.32566",
     "context": "Title: Evaluating Latent Knowledge Stability in Multimodal Large Language Models\nAbstract: arXiv:2611.32566v1 Announce Type: new  Abstract: Changes in image viewpoint and question formulation can alter latent knowledge representations in multimodal large language models (MLLMs). However, output correctness and overall representational drift provide limited insight into how these changes affect model decisions. We therefore evaluate latent knowledge stability across visual and linguistic elicitation conditions from two complementary perspectives: answer preference and internal support. Specifically, we devise the margin retention score (MRS), which measures the first-order projected degradation of the initial answer's logit margin over competing options across conditions and assesses how changes in latent knowledge representations affect this margin. We also present latent knowledge support-structure stability (KSS), which evaluates reference-correct items by comparing internal support profiles constructed using the margin gradient under the reference condition, which jointly",
     "path": "papers/26/11/2611.32566.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1170,
+    "translated_title": "评估多模态大语言模型中的潜在知识稳定性",
+    "translated_abstract": "图像视角和问题表述的变化可能会改变多模态大语言模型（MLLMs）中的潜在知识表征。然而，输出正确性和整体表征漂移对于理解这些变化如何影响模型决策所提供的洞察十分有限。因此，我们从两个互补的视角——答案偏好和内部支持——来评估视觉和语言引导条件下的潜在知识稳定性。具体而言，我们设计了边际保留分数，该分数测量初始答案相对于竞争选项的logit边际在各条件下的一阶投影退化，并评估潜在知识表征的变化如何影响这一边际。我们还提出了潜在知识支持结构稳定性，该方法通过比较在参考条件下利用边际梯度构建的内部支持轮廓来评估参考正确的项目，从而联合（摘要在此处截断）",
+    "tldr": "该论文提出了边际保留分数（MRS）和潜在知识支持结构稳定性（KSS）两个指标，从答案偏好与内部支持两个互补视角，评估多模态大语言模型在图像视角和问题表述变化下的潜在知识稳定性。",
+    "en_tdlr": "This paper proposes two metrics, the Margin Retention Score (MRS) and the Knowledge Support-Structure Stability (KSS), to evaluate latent knowledge stability in multimodal large language models under visual and linguistic elicitation changes from the complementary perspectives of answer preference and internal support."
 }

@@ -7,22 +7,24 @@
 | [^3] | [Delta-Vega Hedging with Deep Reinforcement Learning: From Simulation to Reality](https://arxiv.org/abs/2611.32790) | 提出一种基于PPO的深度强化学习方法，通过同时交易标的资产和更长期限的期权，在交易成本下同时对冲价格与波动率风险，且仿真中学到的策略因仅依赖市场可观测量而可直接应用于真实市场数据。 |
 | [^4] | [Large-Scale Streaming Portfolio Optimization with Pauli Correlation Encoding](https://arxiv.org/abs/2611.32769) | 该论文将泡利相关性编码从静态单点测试推进到流式实时再平衡场景，提出PCE与dPCE两种流式变体，在数千种资产规模及多种参数设置下持续优于“买入持有”等被动基线。 |
 | [^5] | [Semivariance and Semivolatility in Portfolio Selection: A Unified Framework for Downside-Risk Portfolio Models](https://arxiv.org/abs/2611.32638) | 本文提出了一个按风险度量正齐次性程度对下行风险组合模型进行分类的统一框架，并给出了一个非退化条件，在该条件下风险平价、最大分散化与Sortino比率问题均适定且可归结为凸规划。 |
-| [^6] | [Grokipedia stretches the US political spectrum](https://arxiv.org/abs/2611.32420) | 研究发现，xAI的Grokipedia并非偏袒某一政党，而是系统性“拉伸”了美国政治光谱：对约九成共和党政治人物，其传记读起来比维基百科的更保守，且作者的保守程度随政治人物意识形态线性增强，斜率约为维基百科的两倍。 |
-| [^7] | [AgentBank: Banking on Blockchain Agentic Payments](https://arxiv.org/abs/2611.32389) | AgentBank提出了一种智能合约银行层，让AI智能体在所有者授权与链上支出限额下直接动用银行负债进行内部支付而无需逐笔转移资产，可将闲置流动性降低52-77%并降低批量支付的gas成本，同时通过储备策略和损失界定来管理安全与流动性风险。 |
-| [^8] | [Decision support framework for mitigating failure demand in healthcare](https://arxiv.org/abs/2611.32139) | 本文提出一个将成本效益建模、蒙特卡洛模拟与模拟分解方法相结合、并辅以不确定性-敏感性分析的决策支持框架，用于帮助医疗保健领域有效缓解失败需求。 |
-| [^9] | [The Effect of Remote Working on Regional Waste: Evidence from South Korea](https://arxiv.org/abs/2611.31860) | 本研究以COVID-19疫情为自然实验，发现远程办公虽未显著改变韩国总体家庭垃圾量，但使远程办公可及性较高的地区塑料和纺织品垃圾增加、食物垃圾减少，揭示了远程办公对消费模式和日常习惯的改变。 |
-| [^10] | [A Kernel Framework for Linear Operator Equations](https://arxiv.org/abs/2611.31626) | 该论文提出了一个统一的再生核希尔伯特空间框架，将带非局部项或异质约束的线性算子方程的求解归结为单个线性系统，并借助Nyström近似降低大规模配置点问题的计算成本。 |
-| [^11] | [Training decision models for simulating human respondents](https://arxiv.org/abs/2611.31613) | 在历史受访者选择数据上对KEV决策模型进行选择训练，可将LLM合成受访者在跨领域留存研究上的处理效应误差降低22%至89%，且小模型可胜过更大的现成模型。 |
-| [^12] | [Burning the Bridge: Agentification and Domestic Value Added](https://arxiv.org/abs/2611.31518) | 该论文研究指出，用外国AI智能体替代本地服务业工作会降低国内收入和增加值，而出口部门因可扩大生产并赚取外汇而具有抵消效应；以巴西数据为例，若供应商议价份额超过约0.15（可贸易品部门约为0.66），进一步在本地服务中采用智能体将净减少国内经济价值。 |
-| [^13] | [Cleaning correlation matrices with external information: the Maximum Variance estimat](https://arxiv.org/abs/2611.30843) | 该论文提出了一种利用外部资产分组信息修正相关矩阵特征向量的最大方差估计量，它将因子模型参数从 n²/2 降至约 n 个，即使在观测数少于资产数时仍保持正定，并能显著减小与参考矩阵的偏差。 |
-| [^14] | [Optimal execution in a fractional setting with reinforcement learning](https://arxiv.org/abs/2611.11373) | 该论文提出了一种基于神经网络参数化策略梯度算法的最优清算策略，通过利用分数布朗运动中价格增量间的相关性信息，在H ≠ 1/2的情况下显著优于Almgren-Chriss的确定性解。 |
-| [^15] | [Stay, Reposition, or Recharge: Battery-Aware Operation of Robotaxi Fleets](https://arxiv.org/abs/2611.07699) | 本文提出一个连续时间流体模型来研究自动驾驶出租车车队的服务、重新调度与充电联合决策，证明了最优策略具有简单的阈值结构，并识别出经典重新调度模型所缺失的“提前返回场站充电”与“电量感知重新调度”两种控制机制。 |
-| [^16] | [Demand Models for Market-Level Data with Closed-Form Inverses](https://arxiv.org/abs/2610.10069) | 该论文提出了一类基于闭式逆市场份额函数构建的市场层面需求模型，可通过线性工具变量回归进行估计，既能容纳比logit和嵌套logit更丰富的替代模式（包括任意嵌套结构），又与效用最大化保持一致。 |
-| [^17] | [When Hedging Changes the Payoff: Option Replication with Price Impact and Execution Costs](https://arxiv.org/abs/2609.36257) | 本文研究了价格冲击和执行成本如何导致期权对冲行为本身改变其想要复制的收益，通过不动点方程和非线性定价PDE刻画了这一“移动目标”问题，并证明在中间价执行成本下单调凸收益（如看涨看跌期权）可实现精确复制。 |
-| [^18] | [Settlement Manipulation in Prediction Markets](https://arxiv.org/abs/2606.31675) | 本文通过理论模型与Polymarket比特币合约的实证数据证明，以可被交易推动的资产价格结算的短期预测合约会将财富从流动性交易者转移给操纵者和做市商并损害价格发现，而延长合约期限或采用平均价格结算即可消除这种操纵。 |
-| [^19] | [Choice of Collateral Currency in Differential Swaps](https://arxiv.org/abs/2603.07863) | 本文研究了一类参考隔夜利率后视平均值的差额互换的估值与对冲，将抵押账户扩展为可用不同于合约现金流的货币计价，并给出了显式的定价与对冲策略。 |
-| [^20] | [Binding Constraints in a Strategic Technology: An Industrial Vulnerability Index for the Foundation Model Industry](https://arxiv.org/abs/2510.23421) | 本文提出人工智能工业脆弱性指数（AIIVI），利用十四个集中度与可持续性参数并通过 O-Ring 函数形式聚合，用以评估基础模型产业中最具约束性的生产瓶颈，揭示了当前产业政策聚焦算力而忽视电网等环节的配置可能偏离真正的约束所在。 |
-| [^21] | [Conditional Deep Levy Models for Exotic Derivatives: History-Aware Path Generation and P-Q Payoff Diagnostics](https://arxiv.org/abs/2509.13374) | 该论文提出基于去噪列维概率模型的条件式历史感知股指路径生成器，通过严格控制变量的匹配实验证明，列维稳定参数α=1.9相比高斯极限α=2在路径依赖衍生品收益诊断（CRPS、覆盖率、区间评分等指标）上取得显著改进。 |
+| [^6] | [Dynamic stochastic multi-attribute group decision-making based on fractional-order stochastic dominance criteria](https://arxiv.org/abs/2611.32488) | 本文提出基于分数阶随机占优准则的动态随机多属性群决策模型，所引入的分数阶优先度不仅涵盖整数阶随机占优情形，还可适用于效用函数非处处凹的决策者，从而克服了整数阶尺度过于粗糙以及静态方法不适应动态决策环境的局限。 |
+| [^7] | [Grokipedia stretches the US political spectrum](https://arxiv.org/abs/2611.32420) | 研究发现，xAI的Grokipedia并非偏袒某一政党，而是系统性“拉伸”了美国政治光谱：对约九成共和党政治人物，其传记读起来比维基百科的更保守，且作者的保守程度随政治人物意识形态线性增强，斜率约为维基百科的两倍。 |
+| [^8] | [AgentBank: Banking on Blockchain Agentic Payments](https://arxiv.org/abs/2611.32389) | AgentBank提出了一种智能合约银行层，让AI智能体在所有者授权与链上支出限额下直接动用银行负债进行内部支付而无需逐笔转移资产，可将闲置流动性降低52-77%并降低批量支付的gas成本，同时通过储备策略和损失界定来管理安全与流动性风险。 |
+| [^9] | [Decision support framework for mitigating failure demand in healthcare](https://arxiv.org/abs/2611.32139) | 本文提出一个将成本效益建模、蒙特卡洛模拟与模拟分解方法相结合、并辅以不确定性-敏感性分析的决策支持框架，用于帮助医疗保健领域有效缓解失败需求。 |
+| [^10] | [The Effect of Remote Working on Regional Waste: Evidence from South Korea](https://arxiv.org/abs/2611.31860) | 本研究以COVID-19疫情为自然实验，发现远程办公虽未显著改变韩国总体家庭垃圾量，但使远程办公可及性较高的地区塑料和纺织品垃圾增加、食物垃圾减少，揭示了远程办公对消费模式和日常习惯的改变。 |
+| [^11] | [A Kernel Framework for Linear Operator Equations](https://arxiv.org/abs/2611.31626) | 该论文提出了一个统一的再生核希尔伯特空间框架，将带非局部项或异质约束的线性算子方程的求解归结为单个线性系统，并借助Nyström近似降低大规模配置点问题的计算成本。 |
+| [^12] | [Training decision models for simulating human respondents](https://arxiv.org/abs/2611.31613) | 在历史受访者选择数据上对KEV决策模型进行选择训练，可将LLM合成受访者在跨领域留存研究上的处理效应误差降低22%至89%，且小模型可胜过更大的现成模型。 |
+| [^13] | [Burning the Bridge: Agentification and Domestic Value Added](https://arxiv.org/abs/2611.31518) | 该论文研究指出，用外国AI智能体替代本地服务业工作会降低国内收入和增加值，而出口部门因可扩大生产并赚取外汇而具有抵消效应；以巴西数据为例，若供应商议价份额超过约0.15（可贸易品部门约为0.66），进一步在本地服务中采用智能体将净减少国内经济价值。 |
+| [^14] | [Pretrained Tabular Features and the Measurement of Financial Proximity](https://arxiv.org/abs/2611.31491) | 该论文创新性地将四个预训练表格基础模型的冻结内部表示作为金融接近度度量，嵌入空间套利定价模型中分析美国股票，发现其估计增益在纳入广泛的SEC申报数据后变得持续为正。 |
+| [^15] | [Cleaning correlation matrices with external information: the Maximum Variance estimat](https://arxiv.org/abs/2611.30843) | 该论文提出了一种利用外部资产分组信息修正相关矩阵特征向量的最大方差估计量，它将因子模型参数从 n²/2 降至约 n 个，即使在观测数少于资产数时仍保持正定，并能显著减小与参考矩阵的偏差。 |
+| [^16] | [Optimal execution in a fractional setting with reinforcement learning](https://arxiv.org/abs/2611.11373) | 该论文提出了一种基于神经网络参数化策略梯度算法的最优清算策略，通过利用分数布朗运动中价格增量间的相关性信息，在H ≠ 1/2的情况下显著优于Almgren-Chriss的确定性解。 |
+| [^17] | [Stay, Reposition, or Recharge: Battery-Aware Operation of Robotaxi Fleets](https://arxiv.org/abs/2611.07699) | 本文提出一个连续时间流体模型来研究自动驾驶出租车车队的服务、重新调度与充电联合决策，证明了最优策略具有简单的阈值结构，并识别出经典重新调度模型所缺失的“提前返回场站充电”与“电量感知重新调度”两种控制机制。 |
+| [^18] | [Demand Models for Market-Level Data with Closed-Form Inverses](https://arxiv.org/abs/2610.10069) | 该论文提出了一类基于闭式逆市场份额函数构建的市场层面需求模型，可通过线性工具变量回归进行估计，既能容纳比logit和嵌套logit更丰富的替代模式（包括任意嵌套结构），又与效用最大化保持一致。 |
+| [^19] | [When Hedging Changes the Payoff: Option Replication with Price Impact and Execution Costs](https://arxiv.org/abs/2609.36257) | 本文研究了价格冲击和执行成本如何导致期权对冲行为本身改变其想要复制的收益，通过不动点方程和非线性定价PDE刻画了这一“移动目标”问题，并证明在中间价执行成本下单调凸收益（如看涨看跌期权）可实现精确复制。 |
+| [^20] | [Settlement Manipulation in Prediction Markets](https://arxiv.org/abs/2606.31675) | 本文通过理论模型与Polymarket比特币合约的实证数据证明，以可被交易推动的资产价格结算的短期预测合约会将财富从流动性交易者转移给操纵者和做市商并损害价格发现，而延长合约期限或采用平均价格结算即可消除这种操纵。 |
+| [^21] | [Choice of Collateral Currency in Differential Swaps](https://arxiv.org/abs/2603.07863) | 本文研究了一类参考隔夜利率后视平均值的差额互换的估值与对冲，将抵押账户扩展为可用不同于合约现金流的货币计价，并给出了显式的定价与对冲策略。 |
+| [^22] | [Binding Constraints in a Strategic Technology: An Industrial Vulnerability Index for the Foundation Model Industry](https://arxiv.org/abs/2510.23421) | 本文提出人工智能工业脆弱性指数（AIIVI），利用十四个集中度与可持续性参数并通过 O-Ring 函数形式聚合，用以评估基础模型产业中最具约束性的生产瓶颈，揭示了当前产业政策聚焦算力而忽视电网等环节的配置可能偏离真正的约束所在。 |
+| [^23] | [Conditional Deep Levy Models for Exotic Derivatives: History-Aware Path Generation and P-Q Payoff Diagnostics](https://arxiv.org/abs/2509.13374) | 该论文提出基于去噪列维概率模型的条件式历史感知股指路径生成器，通过严格控制变量的匹配实验证明，列维稳定参数α=1.9相比高斯极限α=2在路径依赖衍生品收益诊断（CRPS、覆盖率、区间评分等指标）上取得显著改进。 |
 
 # 详细
 
@@ -96,7 +98,21 @@
 
     arXiv:2611.32638v1 Announce Type: new  Abstract: In this paper, we study downside risk in portfolio selection beyond minimum-risk models, where semivariance and its square root, semivolatility, yield the same portfolio. Downside-risk models are often presented as direct extensions of their variance-based counterparts, although different classes of portfolio problems require different properties of the risk measure. We classify these models by the degree of positive homogeneity of the risk measure in the weights: degree one makes risk contributions add up to the portfolio risk and keeps diversification and reward-to-risk ratios scale invariant. For three thresholds, the portfolio mean, zero and a market-index return, we state a non-degeneracy condition on long-only downside risk under which the risk-parity, most-diversified and Sortino-ratio problems are well posed. Under this condition, the two ratio problems reduce to convex programs, and the differentiability of semivolatility ensure
     
-[^6]: Grokipedia 拉伸了美国政治光谱
+[^6]: 基于分数阶随机占优准则的动态随机多属性群决策
+
+    Dynamic stochastic multi-attribute group decision-making based on fractional-order stochastic dominance criteria
+
+    [https://arxiv.org/abs/2611.32488](https://arxiv.org/abs/2611.32488)
+
+    本文提出基于分数阶随机占优准则的动态随机多属性群决策模型，所引入的分数阶优先度不仅涵盖整数阶随机占优情形，还可适用于效用函数非处处凹的决策者，从而克服了整数阶尺度过于粗糙以及静态方法不适应动态决策环境的局限。
+
+    
+
+    随机占优准则作为一种定量比较决策者对备选方案偏好的稳健工具，已在随机多属性决策中得到广泛应用。现有研究主要依赖于静态建模框架下的整数阶随机占优准则。然而，整数阶尺度往往过于粗糙，且现实世界的决策通常发生在动态环境中，静态方法难以应对此类情形。为解决这些局限性，本文提出了一种基于分数阶随机占优准则的新型动态随机多属性群决策模型。在该模型中，我们引入了分数阶随机占优下的优先度，它不仅涵盖了整数阶随机占优下的优先度，而且适用于效用函数并非处处为凹的决策者。
+
+    arXiv:2611.32488v1 Announce Type: new  Abstract: The stochastic dominance criterion has been widely employed in stochastic multi-attribute decision making as a robust tool for quantitatively comparing decision-makers' preferences over alternatives. Existing research predominantly relies on integer-order stochastic dominance criteria within static modeling frameworks. However, the integer-order scale is often too coarse, and real-world decision-making typically occurs in dynamic environments, for which static methods are inadequate. To address these limitations, this paper proposes a novel dynamic stochastic multi-attribute group decision making model based on fractional-order stochastic dominance criteria. In this model, we introduce the priority degree under fractional-order stochastic dominance, which not only encompasses the priority degree under integer-order stochastic dominance, but also is applicable to decision-makers whose utility functions are not concave everywhere. Conseque
+    
+[^7]: Grokipedia 拉伸了美国政治光谱
 
     Grokipedia stretches the US political spectrum
 
@@ -110,7 +126,7 @@
 
     arXiv:2611.32420v1 Announce Type: new  Abstract: Language models now write reference works that people and other AI systems consult. Grokipedia, written by xAI's model, presents itself as a less biased alternative to crowd-edited Wikipedia. We compare the biographies of 1,614 Democratic and Republican current and former politicians, from Andrew Jackson to members of the current Congress, on both encyclopedias in February and November 2026. For nine in ten Republicans, Grokipedia's biography reads as if written by a more conservative author than Wikipedia's. For Democrats, this holds only about half the time. We find the politicians' ideology explains this asymmetry. For 1,022 politicians with Congressional roll call voting records, how conservative the author seems rises linearly with the politician's ideology and about twice as steeply on Grokipedia as on Wikipedia. Republicans in races where Elon Musk's America PAC spent money show no extra bias. Rather than favoring a party, Grokipe
     
-[^7]: AgentBank：面向区块链智能体支付的银行系统
+[^8]: AgentBank：面向区块链智能体支付的银行系统
 
     AgentBank: Banking on Blockchain Agentic Payments
 
@@ -124,7 +140,7 @@
 
     arXiv:2611.32389v1 Announce Type: cross  Abstract: AI agents increasingly pay for data and computation through protocols such as x402 and AP2, but individually funded wallets idle and require asset transfers for every payment. We present AgentBank, a smart-contract banking layer that lets agents spend bank liabilities under owner-issued mandates and on-chain spending limits. Internal payments update account balances without transferring assets, while pooled backing funds are allocated between reserves and yield-bearing strategies. We bound losses from compromised agent keys and analyze how correlated demand affects reserve requirements. Experiments show that AgentBank reduces idle liquidity by 52-77% relative to per-agent wallets and lowers gas costs for batched internal payments. Using historical DeFi liquidity data, we evaluate how reserve policies balance treasury returns against payment availability during market stress. We further examine the risks of automated bank runs and evalu
     
-[^8]: 医疗保健领域缓解失败需求的决策支持框架
+[^9]: 医疗保健领域缓解失败需求的决策支持框架
 
     Decision support framework for mitigating failure demand in healthcare
 
@@ -138,7 +154,7 @@
 
     arXiv:2611.32139v1 Announce Type: cross  Abstract: Failure demand studies in healthcare are, by nature, observational field studies conducted by social scientists. Historically, these practices have neglected any follow-on analysis by economists, data analysts, or mathematicians. In this paper, we argue that the mitigation of failure demand can only be effectively navigated through analytical cost-benefit modelling conducted in conjunction with a comprehensive uncertainty-sensitivity analysis. Using an existing failure demand field study as the starting point, we demonstrate how such a follow up analysis can be conducted and formulate a pragmatic decision support methodological framework that can be disseminated to the researchers and practitioners throughout the broad healthcare field. The framework emanates from classical cost-benefit modelling that is then supplemented with Monte Carlo simulation in combination with the groundbreaking Simulation Decomposition (SimDec) method. The Si
     
-[^9]: 远程办公对区域垃圾的影响：来自韩国的证据
+[^10]: 远程办公对区域垃圾的影响：来自韩国的证据
 
     The Effect of Remote Working on Regional Waste: Evidence from South Korea
 
@@ -152,7 +168,7 @@
 
     arXiv:2611.31860v1 Announce Type: new  Abstract: Remote working, or work-from-home (WFH), has become common around the world. However, its broader effects on social welfare, including waste generation, remain understudied. This study examines the impact of remote work on regional waste production in South Korea, using the COVID-19 pandemic as a natural experiment. Overall household waste changed little, but regions with greater WFH eligibility saw increases in plastic and textile waste and a decrease in food waste. These findings suggest that remote work may change consumption patterns and daily routines. Understanding these effects can help inform sustainable work practices and waste management as remote work becomes more widespread.
     
-[^10]: 线性算子方程的核框架
+[^11]: 线性算子方程的核框架
 
     A Kernel Framework for Linear Operator Equations
 
@@ -166,7 +182,7 @@
 
     arXiv:2611.31626v1 Announce Type: cross  Abstract: Solving linear operator equations with nonlocal terms or heterogeneous constraints often requires specific numerical schemes. We develop a unified approach based on embedding such equations into a reproducing kernel Hilbert space (RKHS). Differential, boundary, and integral operators are represented by their Riesz representers in the RKHS. The equations are solved in the regularized least-squares sense at finitely many collocation points. The solution is a finite linear combination of operator-induced representers and is obtained from a single linear system. Its sensitivities, such as financial Greeks, follow by direct differentiation. To reduce the computational cost for large collocation sets, we introduce a Nystr\"om approximation based on subsampling the operator-induced representers. It yields the best approximation of this solution within the reduced trial space, in a regularized empirical norm. Numerical examples cover ordinary,
     
-[^11]: 训练决策模型以模拟人类受访者
+[^12]: 训练决策模型以模拟人类受访者
 
     Training decision models for simulating human respondents
 
@@ -180,7 +196,7 @@
 
     arXiv:2611.31613v1 Announce Type: new  Abstract: Researchers increasingly use large language models (LLMs) as synthetic respondents in market research, conjoint analysis, and randomized experiments. However, synthetic choice data from off-the-shelf generative LLMs bias downstream econometric inference. Neither proprietary models nor higher reasoning effort reliably reduces this bias. We investigate decision models (System One architectures) for silicon sampling. Using choice training, we update KEV model weights on historical respondent-level choice microdata by conditional maximum likelihood, before inference and without target-study data. Across three model scales, training on two discrete choice experiments lowers treatment-effect error by 22% to 89% on four held-out studies from new domains (vaccines, nutrition labels, consumer rights, and AI) and new response formats. A small choice-trained model outperforms a much larger off-the-shelf model on three of the four studies. Although 
     
-[^12]: 烧毁桥梁：智能体化与国内增加值
+[^13]: 烧毁桥梁：智能体化与国内增加值
 
     Burning the Bridge: Agentification and Domestic Value Added
 
@@ -194,7 +210,21 @@
 
     arXiv:2611.31518v1 Announce Type: new  Abstract: Firms that replace local work with foreign AI agents can produce more per paid hour while generating less income at home. We study this trade-off in a small open economy where exporters and local services both use agents. Once wages reach a reservation floor, extending agent use in local services lowers domestic income at unchanged foreign costs. Value added at constant prices and consumption also fall if suppliers capture enough of the saving. Exporters have an offset: adopting agents can expand production and earn the foreign exchange needed to pay for them. The difference is substantial. Using Brazilian accounts as a reference, a supplier bargaining share above about 0.15 is sufficient to make further local-service adoption reduce value added even at negligible foreign costs. The corresponding threshold in tradables is about 0.66. We derive separate export-growth requirements for preserving income and consumption and illustrate them u
     
-[^13]: 利用外部信息清洗相关矩阵：最大方差估计量
+[^14]: 预训练表格特征与金融接近度的度量
+
+    Pretrained Tabular Features and the Measurement of Financial Proximity
+
+    [https://arxiv.org/abs/2611.31491](https://arxiv.org/abs/2611.31491)
+
+    该论文创新性地将四个预训练表格基础模型的冻结内部表示作为金融接近度度量，嵌入空间套利定价模型中分析美国股票，发现其估计增益在纳入广泛的SEC申报数据后变得持续为正。
+
+    
+
+    空间套利定价理论（S-APT）将因子模型扩展至允许收益在相互关联的公司之间溢出，超越了共同风险因子所能解释的范围。近年来，表格基础模型（TFMs）在中小规模表格数据基准上已达到或超越了经过调优的梯度提升和装袋集成模型的性能。尽管这些模型的预测性能强大，但它们对其学到的内容揭示甚少，这限制了它们在需要可解释性的受监管金融应用中的使用。内部表示被广泛用于探究神经网络学习到的内容以及度量相似性。在本文中，我们将四个表格基础模型的冻结表示作为金融相异性的度量，应用于2011年至2025年美国股票的空间资产定价模型中，并发现一旦纳入广泛的SEC申报文件数据，它们相对于相同披露内容之间直接距离的估计增益变得持续为正。
+
+    arXiv:2611.31491v1 Announce Type: new  Abstract: Spatial arbitrage pricing theory (S-APT) extends factor models to allow returns to spill over between connected firms, beyond what common risk factors explain. In recent years, tabular foundation models (TFMs) have matched or outperformed tuned gradient-boosted and bagged ensembles on small and medium-sized tabular benchmarks. Although their predictive performance is strong, these models reveal little about what they have learned, which limits their use in regulated financial applications that require explanation. Internal representations are widely used to probe what neural networks learn and to measure similarity. In this paper, we use the frozen representations of four TFMs as a measure of financial dissimilarity in a spatial asset-pricing model of US equities from 2011 to 2025, and find that their estimated gains over a direct distance between the same disclosures become consistently positive once broad SEC filing data are included. 
+    
+[^15]: 利用外部信息清洗相关矩阵：最大方差估计量
 
     Cleaning correlation matrices with external information: the Maximum Variance estimat
 
@@ -208,7 +238,7 @@
 
     arXiv:2611.30843v1 Announce Type: new  Abstract: Rotationally invariant estimators clean the eigenvalues of an empirical correlation matrix but keep its noisy eigenvectors. We study an estimator that corrects the eigenvectors by using external information, namely a partition of the assets into groups such as asset classes or regions. The Maximum Variance (MaxVar) estimator restricts the leading eigenvectors to linear combinations of the maximum-variance portfolios of the groups and replaces the rest of the spectrum by a single eigenvalue. It is a factor model with about n parameters instead of n2/2, and it is positive de nite even when the number of observations is smaller than the number of assets n. We apply it to the correlation matrix of 47 futures on stock indices, bonds and currencies, with the three asset classes as groups. In an illustrative Monte Carlo test, in which the reference matrix has the structure assumed by the estimator, the distance to the reference is reduced by on
     
-[^14]: 分数布朗运动环境下基于强化学习的最优执行
+[^16]: 分数布朗运动环境下基于强化学习的最优执行
 
     Optimal execution in a fractional setting with reinforcement learning
 
@@ -222,7 +252,7 @@
 
     arXiv:2611.11373v2 Announce Type: replace  Abstract: We consider the problem of optimal liquidation with linear market impact, as in the seminal work of Almgren and Chriss, but with an asset driven by a fractional Brownian motion. For $H \neq 1/2$, we observe that the deterministic solution given by Almgren and Chriss is no longer optimal. We develop a strategy to exploit the information induced by the correlation between price increments. The strategy is derived from a policy gradient algorithm, parameterized by a neural network, trained to maximise the CARA utility, for which our method allows for significant improvements.
     
-[^15]: 停留、重新调度还是充电：自动驾驶出租车车队的电池感知运营
+[^17]: 停留、重新调度还是充电：自动驾驶出租车车队的电池感知运营
 
     Stay, Reposition, or Recharge: Battery-Aware Operation of Robotaxi Fleets
 
@@ -236,7 +266,7 @@
 
     arXiv:2611.07699v1 Announce Type: cross  Abstract: Electric robotaxis are rapidly expanding from pilots to scaled commercial deployment; unlike traditional human-driven ride-hailing vehicles, they require centralized fleet control and careful management of vehicle state of charge (SoC). We study how a fleet manager should jointly make service, empty repositioning, idling, and charging decisions in such systems. We develop a continuous-time fluid model in which vehicles evolve across location-charge states, and identify two forms of charge-aware control that are absent from classic repositioning models: early return-to-depot (RTD) and charge-aware repositioning. In particular, the optimal solution admits simple threshold structures. Each location has a battery threshold such that vehicles should return to the depot to recharge when their SoC is below it and should not do so when their SoC is above it. Vehicles should not reposition below the same threshold either; above it, the choice o
     
-[^16]: 具有闭式逆函数的市场层面数据需求模型
+[^18]: 具有闭式逆函数的市场层面数据需求模型
 
     Demand Models for Market-Level Data with Closed-Form Inverses
 
@@ -250,7 +280,7 @@
 
     arXiv:2610.10069v1 Announce Type: new  Abstract: We introduce a class of demand models for market-level data. The models can be estimated by linear instrumental variables regression while accommodating substitution patterns far richer than the logit and nested logit models they embed. They are built from closed-form inverse market share functions through a generator analogous to McFadden's generalized extreme value generating function, but acting on market shares. Constructive results allow arbitrary nesting structures, including overlapping nests and partial membership, yielding inverse-share analogs of generalized extreme value models. The class is consistent with utility maximization and strictly larger than the class of regular additive random utility models.
     
-[^17]: 当对冲改变收益时：考虑价格冲击与执行成本的期权复制
+[^19]: 当对冲改变收益时：考虑价格冲击与执行成本的期权复制
 
     When Hedging Changes the Payoff: Option Replication with Price Impact and Execution Costs
 
@@ -264,7 +294,7 @@
 
     arXiv:2609.36257v1 Announce Type: new  Abstract: Hedging a derivative by trading the underlying asset changes the payoff that the hedging intended to replicate. We study this phenomenon when trading generates price impact and execution costs. In a binomial model, we characterize replication through a fixed-point equation. In continuous time, we derive a nonlinear pricing PDE whose implicit terminal condition captures the nature of the moving target problem of the hedger. For monotone convex Lipschitz payoffs (such as calls and puts) we establish exact replication under midpoint execution costs. Numerical experiments illustrate: (i) how price impact shifts the effective strike, (ii) the non-linear dependence of the option price on the number of contracts, (iii) how execution costs smooth terminal holdings, (iv) the extent to which the hedger's own trading can bring an otherwise worthless option into the money, and (v) we explain the spread and the shape of the limit order book in the op
     
-[^18]: 预测市场中的结算操纵
+[^20]: 预测市场中的结算操纵
 
     Settlement Manipulation in Prediction Markets
 
@@ -278,7 +308,7 @@
 
     arXiv:2606.31675v2 Announce Type: replace  Abstract: Prediction markets increasingly list contracts settling on an asset price that holders can move by trading the underlying. We build a model showing that such contracts transfer wealth from prediction-market liquidity traders to manipulators and the prediction-market maker and harm price discovery in the underlying, even as it becomes more liquid. After the launch of Polymarket's five-minute Bitcoin contract, settlement-time spot order flow spikes, causing large price reversals after settlement. Manipulators capture a large amount of profit, mostly from retail. Manipulation is largely absent in the fifteen-minute contracts, and it disappeared from the five-minute contract once Polymarket began settling on a 60-second average price: lengthening the horizon or averaging the settlement price removes it.
     
-[^19]: 差额互换中抵押货币的选择
+[^21]: 差额互换中抵押货币的选择
 
     Choice of Collateral Currency in Differential Swaps
 
@@ -292,7 +322,7 @@
 
     arXiv:2603.07863v2 Announce Type: replace  Abstract: The role of collateral in derivative pricing has evolved beyond credit risk mitigation, particularly following the global financial crisis, when funding costs and basis spreads became central to valuation practices. This development coincided with the transition from the London Interbank Offered Rate (LIBOR) to risk-free rates (RFRs) and the increasing standardization of collateralised trading. We study the valuation and hedging of a class of differential swaps referencing backward-looking averages of overnight rates, with Secured Overnight Financing Rate (SOFR) swaps appearing as a particular instance. The focus is on the impact of the collateral currency. Extending the earlier results of Bickersteth et al. [Math. Finance 36 (2026), pp.~180--202], we allow the collateral account to be denominated in a currency different from that of the contractual cash flows and derive explicit pricing and hedging strategies using a futures-based r
     
-[^20]: 战略技术中的约束性瓶颈：面向基础模型产业的工业脆弱性指数
+[^22]: 战略技术中的约束性瓶颈：面向基础模型产业的工业脆弱性指数
 
     Binding Constraints in a Strategic Technology: An Industrial Vulnerability Index for the Foundation Model Industry
 
@@ -306,7 +336,7 @@
 
     arXiv:2510.23421v3 Announce Type: replace-cross  Abstract: Industrial policy directed at artificial intelligence has become substantial. Public investment concentrates on compute, where private capacity expansion is already underway, and is largely absent from grid interconnection and generation. Whether that allocation accurately reflects the most binding constraint in production has not yet been systematically measured. This paper introduces the Artificial Intelligence Industrial Vulnerability Index (AIIVI) as a framework for assessing potential production constraints in frontier AI. We construct a composite index of input vulnerability for the foundation model industry from fourteen concentration and sustainability parameters, aggregated by an O-Ring functional form in which capability is strongly influenced by the most constrained input. AIIVI should not be interpreted as a direct measurement of production constraints. Rather, it provides an index-based approximation derived from o
     
-[^21]: 用于奇异衍生品的条件深度列维模型：历史感知路径生成与P-Q收益诊断
+[^23]: 用于奇异衍生品的条件深度列维模型：历史感知路径生成与P-Q收益诊断
 
     Conditional Deep Levy Models for Exotic Derivatives: History-Aware Path Generation and P-Q Payoff Diagnostics
 

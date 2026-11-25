@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.31730",
     "context": "Title: Tokenization and Architecture Jointly Allocate Component Roles in Time Series Transformers\nAbstract: arXiv:2611.31730v1 Announce Type: new  Abstract: Time series transformers have achieved strong forecasting performance, yet it remains unclear which of their components, attention or the feed-forward network (FFN), constructs temporal features, and how tokenization such as patching changes this. We propose a temporal probing framework that uses 15 token-level diagnostic tasks to measure feature construction as the gain in linear decodability of temporal properties from one sub-layer to the next (a matched MLP probe already saturates at the embedding). It targets models whose probed representations are read by a linear forecasting head. Applied to 5 supervised models trained on 8 long-term forecasting benchmarks, it finds that the constructing component is not fixed but allocated by the interaction of tokenization and architecture. Under patch tokenization (PatchTST), the FFN's gain exceeds attention's in probing on all 8 datasets, and its 8-dataset mean is 3.2x attention's. Without att",
     "path": "papers/26/11/2611.31730.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1398,
+    "translated_title": "时间序列Transformer中标记化与架构共同分配组件角色",
+    "translated_abstract": "时间序列Transformer已取得强大的预测性能，但其组件中究竟是注意力机制还是前馈网络（FFN）负责构建时间特征，以及patching等标记化方式如何改变这一分工，仍不清楚。我们提出了一个时间探测框架，使用15个token级诊断任务，通过测量时间属性从一个子层到下一个子层的线性可解码性增益来衡量特征构建（匹配的MLP探测在嵌入层已饱和）。该框架针对的是被探测表示由线性预测头读取的模型。将该框架应用于在8个长期预测基准上训练的5个监督模型后发现，构建特征的组件并非固定不变，而是由标记化与架构的交互作用所分配。在patch标记化（PatchTST）下，FFN的增益在全部8个数据集的探测中均超过注意力机制，其8个数据集的平均增益是注意力机制的3.2倍。",
+    "tldr": "该论文提出基于15个token级诊断任务的时间探测框架，揭示时间序列Transformer中构建时间特征的组件并非固定，而是由标记化与架构共同分配——在patch标记化（PatchTST）下FFN承担特征构建角色，其增益平均达注意力机制的3.2倍。",
+    "en_tdlr": "This paper proposes a temporal probing framework with 15 token-level diagnostic tasks, revealing that the component constructing temporal features in time series transformers is not fixed but allocated by the interaction of tokenization and architecture—under patch tokenization (PatchTST), the FFN's feature-construction gain exceeds attention's with a 3.2x average across 8 datasets."
 }

@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.31431",
     "context": "Title: CaLA: Causal Latent Adjustment for World Models under Adaptive Policies\nAbstract: arXiv:2611.31431v1 Announce Type: new  Abstract: World models is answering ``imagine\" answers to ``what-if'' questions via imagined rollouts. But rollouts collected by adaptive policies induce treatment-outcome confounding in imagined rollouts. We study this problem in Match-3 difficulty adjustment, where latent player skill influences both assigned difficulty and churn. We build a fully specified Match-3 SCM with sequential mechanics, adaptive assignment, and paired ground-truth interventions, on which unadjusted models fit to the logged trajectories select difficulty settings that raise churn. We then introduce Causal Latent Adjustment (CaLA), a DAG-constrained world model that infers a variational player representation from pretreatment history. Across our evaluations, CaLA provides the most reliable population-level intervention estimates and competitive individualized decisions, although rich handcrafted histories can remain advantageous for individual-level adjustment. We further",
     "path": "papers/26/11/2611.31431.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1330,
+    "translated_title": "CaLA：自适应策略下世界模型的因果潜变量调整",
+    "translated_abstract": "世界模型通过想象的 rollout 来回答“如果-会怎样”的问题。但由自适应策略收集的 rollout 会在想象 rollout 中引入“处理-结果”混杂。我们在三消（Match-3）游戏难度调整这一场景中研究该问题，其中潜藏的玩家技能会同时影响所分配的难度与玩家流失。我们构建了一个完全指定的三消结构因果模型（SCM），包含序列化游戏机制、自适应分配机制以及成对的真值干预；在该模型上，未经因果调整、直接拟合记录轨迹的模型会选择会提高流失率的难度设置。随后，我们提出因果潜变量调整，这是一种受 DAG 约束的世界模型，能够从处理前历史中推断变分玩家表征。在各项评估中，CaLA 提供了最可靠的总体层面干预估计以及具有竞争力的个体化决策，尽管丰富的手工设计历史特征在个体层面调整上仍可能保持优势。我们进一步（原文在此处截断）",
+    "tldr": "该论文提出 CaLA，一种受 DAG 约束的世界模型，通过从处理前历史中推断潜变量玩家表征，消除自适应策略在想象 rollout 中引入的处理-结果混杂，从而在三消难度调整任务中获得最可靠的因果干预估计和有竞争力的个体化决策。",
+    "en_tdlr": "This paper proposes CaLA, a DAG-constrained world model that infers a variational latent player representation from pretreatment history to remove treatment-outcome confounding in imagined rollouts under adaptive policies, delivering the most reliable population-level intervention estimates and competitive individualized decisions in Match-3 difficulty adjustment."
 }

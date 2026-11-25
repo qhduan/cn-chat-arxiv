@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.32685",
     "context": "Title: Social Bias Neurons in Multilingual Language Models: A Mechanistic Interpretability Analysis\nAbstract: arXiv:2611.32685v1 Announce Type: new  Abstract: Multilingual models exhibit social bias when processing inputs pertaining to societal stereotypes. We adapt emerging mechanistic interpretability methods to pinpoint and characterize model components that encode this bias. We conduct our analysis across three instruction-tuned models, four languages, and seven bias dimensions. Specifically, we leverage multilingual bias benchmarks in implementing two methods for identifying social bias neurons: activation probability entropy and integrated gap gradients. We find the latter method to be more effective, as the neurons it isolates (which are largely concentrated at the model's deepest layers) lead to sharper decreases in model bias when suppressed. Further analysis reveals neuron distribution patterns differ between high- and low-resourced languages, suggesting that a language's representation in pretraining data influences how its biases are represented within model internals. Our results ",
     "path": "papers/26/11/2611.32685.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 973,
+    "translated_title": "多语言语言模型中的社会偏见神经元：一种机制可解释性分析",
+    "translated_abstract": "多语言模型在处理与社会刻板印象相关的输入时会表现出社会偏见。我们采用新兴的机制可解释性方法来定位并刻画编码这种偏见的模型组件。我们在三个指令微调模型、四种语言和七个偏见维度上开展了分析。具体而言，我们利用多语言偏见基准实现了两种识别社会偏见神经元的方法：激活概率熵和积分间隙梯度。我们发现后一种方法更为有效，因为它所分离出的神经元（主要集中于模型的最深层）在被抑制时能使模型偏见出现更显著的下降。进一步分析显示，神经元分布模式在高资源语言和低资源语言之间存在差异，这表明一种语言在预训练数据中的呈现方式会影响其偏见在模型内部的表示方式。",
+    "tldr": "该研究运用机制可解释性方法定位多语言模型中编码社会偏见的神经元，发现积分间隙梯度方法更有效，且偏见神经元的分布模式因语言资源丰富程度不同而存在差异。",
+    "en_tdlr": "This study applies mechanistic interpretability methods to pinpoint social bias neurons in multilingual language models, finding that integrated gap gradients are more effective and that neuron distribution patterns differ between high- and low-resourced languages."
 }

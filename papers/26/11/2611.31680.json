@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.31680",
     "context": "Title: Curvature-Equilibrated Policy Optimization for Deep Reinforcement Learning\nAbstract: arXiv:2611.31680v1 Announce Type: new  Abstract: Gradient-based actor optimization is central to deep reinforcement learning. However, conventional first-order optimizers do not explicitly exploit the local curvature of neural actor losses. We propose EQUIP (Curvature-Equilibrated Gradients for Policy Search), a novel approach that seeks to balance local contraction and expansion of the actor parameter space by equilibrating positive and negative curvature. EQUIP constructs a trajectory-informed search subspace and uses the projected Hessian of actor loss to build a bounded local metric for curvature equilibration. First-order loss matching preserves the approximated first-order decrease in actor loss. Meanwhile, gradient mixing and curvature-based gradient selection adjust the gradient applied for actor optimization. We establish the geometric properties of curvature equilibration, derive bounds on gradient alignment and magnitude, and identify conditions for improved actor loss reduc",
     "path": "papers/26/11/2611.31680.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1070,
+    "translated_title": "面向深度强化学习的曲率均衡策略优化",
+    "translated_abstract": "基于梯度的参与者优化是深度强化学习的核心。然而，传统的一阶优化器并未显式利用神经参与者损失的局部曲率。我们提出了EQUIP（用于策略搜索的曲率均衡梯度），这是一种新颖的方法，旨在通过均衡正曲率与负曲率来平衡参与者参数空间的局部收缩与扩张。EQUIP构建了一个基于轨迹信息的搜索子空间，并利用参与者损失的投影Hessian矩阵来构建有界的局部度量，以实现曲率均衡。一阶损失匹配保留了参与者损失中近似的一阶下降量。同时，梯度混合和基于曲率的梯度选择机制调整了用于参与者优化的梯度。我们建立了曲率均衡的几何性质，推导了梯度对齐性与幅度的界限，并给出了改善参与者损失下降的条件。",
+    "tldr": "提出EQUIP方法，通过均衡策略损失的正负曲率来平衡参数空间的局部收缩与扩张，从而改进深度强化学习中基于梯度的策略优化。",
+    "en_tdlr": "EQUIP improves gradient-based policy optimization in deep reinforcement learning by equilibrating positive and negative curvature to balance local contraction and expansion of the actor parameter space."
 }

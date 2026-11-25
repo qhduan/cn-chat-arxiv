@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.31640",
     "context": "Title: Reward Basis Decomposition for Interpreting Preference Heterogeneity\nAbstract: arXiv:2611.31640v1 Announce Type: new  Abstract: Canonical reward models specify the optimization target for AI policies, so understanding the values they encode is important for ensuring AI alignment. Existing interpretability techniques interpret reward models with a single reward head, which cannot distinguish between the values that a population shares and those that vary among individuals. We introduce Reward Basis Decomposition (RBD), which splits per-user weights into a population term and a per-user term. This yields a shared population direction and individual user directions that are analyzed separately via concept alignment and sparse autoencoder decomposition. We verify that RBD can recover artificially planted per-user directions on a synthetic control, then apply it to two real-world multi-preference datasets, PRISM and Community Alignment. In both, we find no individual-user structure, suggesting that a single direction in the reward embedding space accounts for most pre",
     "path": "papers/26/11/2611.31640.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1180,
+    "translated_title": "用于解释偏好异质性的奖励基分解",
+    "translated_abstract": "标准奖励模型规定了AI策略的优化目标，因此理解它们所编码的价值观对于确保AI对齐至关重要。现有的可解释性技术使用单一奖励头来解释奖励模型，无法区分群体共享的价值观与个体间存在差异的价值观。我们提出了奖励基分解，将每个用户的权重分解为一个群体项和一个用户个体项。由此得到一个共享的群体方向和若干个体用户方向，可以通过概念对齐和稀疏自编码器分解分别进行分析。我们在合成对照实验上验证了RBD能够恢复人工植入的用户个体方向，随后将其应用于两个真实世界的多偏好数据集——PRISM和Community Alignment。在这两个数据集中，我们均未发现个体用户结构，这表明奖励嵌入空间中的单一方向就能解释大部分偏好……",
+    "tldr": "提出奖励基分解（RBD）方法，将奖励模型中每个用户的权重分解为群体共享项与个体项，从而分别解析群体共享价值观与个体偏好差异，并发现真实数据中偏好主要由单一群体方向解释。",
+    "en_tdlr": "We introduce Reward Basis Decomposition (RBD), which splits per-user reward model weights into population-shared and individual components to separately interpret shared versus heterogeneous preference values, finding that a single population direction accounts for most preference variation in real-world data."
 }

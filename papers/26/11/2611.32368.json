@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.32368",
     "context": "Title: Decision Models: An Introduction and Capability Evaluation\nAbstract: arXiv:2611.32368v1 Announce Type: new  Abstract: Applications such as ticket routing and incident triage need decisions that software can act on. Decision models provide these outputs through explicit types for choices, binary judgments, and policy scores. We evaluate the accuracy, output validity, and request latency of eleven configurations on 1,000 English and Chinese cases across nine task suites. StartLux Instant achieves 95.3% overall accuracy, returns valid outputs on all 1,000 cases, and has a median request latency of 0.084 s. It reaches 99.4% on classification and routing and selects the correct response on all 100 tool-selection cases. The highest overall accuracy among the evaluated configurations is 97.1%. These results show how a typed decision service can support fast, programmatic decisions and why its suitability depends on task-specific errors and latency requirements.",
     "path": "papers/26/11/2611.32368.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1151,
+    "translated_title": "决策模型：介绍与能力评估",
+    "translated_abstract": "工单路由和事件分诊等应用需要软件能够执行的决策。决策模型通过对选择、二元判断和策略分数采用显式类型来提供这些输出。我们在涵盖九个任务套件的1,000个英文和中文案例上，评估了十一种配置的准确性、输出有效性和请求延迟。StartLux Instant实现了95.3%的总体准确率，在全部1,000个案例上均返回有效输出，中位请求延迟为0.084秒。它在分类和路由任务上达到99.4%的准确率，并在全部100个工具选择案例中选出正确响应。在被评估的配置中，最高的总体准确率为97.1%。这些结果表明类型化决策服务如何支持快速、可编程的决策，以及其适用性为何取决于任务特定的错误和延迟要求。",
+    "tldr": "该论文介绍决策模型并评估表明，类型化决策服务（如StartLux Instant）能以低延迟（中位0.084秒）和高准确率（最高97.1%）为工单路由和事件分诊等应用提供可靠、可编程的决策输出。",
+    "en_tdlr": "The paper introduces decision models and evaluates that a typed decision service (e.g., StartLux Instant) can deliver reliable, programmatic decisions for applications like ticket routing with low latency (median 0.084 s) and high accuracy (up to 97.1%)."
 }

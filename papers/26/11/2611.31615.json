@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.31615",
     "context": "Title: Eliciting sandbagged LLM capability via structural interventions on attention-head functional networks\nAbstract: arXiv:2611.31615v1 Announce Type: new  Abstract: Reliably evaluating the capabilities of advanced AI systems is critical for safe development and deployment, yet such evaluations may be undermined by sandbagging, a situation in which a model strategically suppresses capabilities it possesses. Existing work has developed controlled sandbagging settings and methods for detecting or eliciting hidden capabilities, but comparatively little is known about how a model's internal neural computation changes when its capabilities are suppressed. In this work, we study sandbagging through the lens of internal functional organization. Inspired by network neuroscience, we construct functional graphs from attention-head activations and compare their organization under honest and sandbagging conditions while holding the model architecture and weights fixed. Surprisingly, across model architectures and community detection methods, we find a consistent structural signature in which sandbagging is assoc",
     "path": "papers/26/11/2611.31615.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1238,
+    "translated_title": "通过对注意力头功能网络的结构干预来引导出被藏拙的大语言模型能力",
+    "translated_abstract": "可靠地评估先进AI系统的能力对于其安全开发与部署至关重要，然而这类评估可能被“藏拙”行为所破坏——即模型策略性地抑制其自身实际拥有的能力。现有工作已构建了受控的藏拙场景以及检测或引导隐藏能力的方法，但对于模型在能力被抑制时其内部神经计算如何变化，相关研究仍相对匮乏。在本工作中，我们从内部功能组织的视角来研究藏拙行为。受网络神经科学启发，我们基于注意力头激活构建功能图，并在保持模型架构与权重不变的前提下，比较诚实条件与藏拙条件下功能图的组织方式。令人惊讶的是，跨越不同模型架构与社区检测方法，我们发现了一个一致的结构性特征：藏拙与……（原文摘要在此处截断）",
+    "tldr": "该研究通过基于注意力头激活构建功能网络图，发现了跨模型架构一致的藏拙结构性特征，并证明可通过对该功能网络施加结构干预来引导出模型被隐藏的能力。",
+    "en_tdlr": "This work constructs functional graphs from attention-head activations, identifies a consistent structural signature of sandbagging across model architectures, and shows that suppressed LLM capabilities can be elicited via structural interventions on these functional networks."
 }

@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.32598",
     "context": "Title: On the Effectiveness of Resampling for Supervised Graph Anomaly Detection\nAbstract: arXiv:2611.32598v1 Announce Type: new  Abstract: Class imbalance and scarce anomaly labels motivate oversampling in supervised graph anomaly detection (GAD), but its benefits across detectors and benchmarks remain unclear. In the low-label setting of GADBench, with 20 labelled anomalies and 80 labelled normal nodes, we compare class weighting and up to six oversampling strategies in ten detector configurations from three families: graph neural networks (GNNs), tree ensembles on neighbourhood-aggregated features, and tabular foundation models, on 17 datasets. On the eight datasets with organic anomalies, no strategy has a statistically resolved average gain in any configuration, and which nodes are labelled matters as much as the strategy. On the nine datasets with injected anomalies, Gaussian-noise oversampling (ROSE) gains up to 5.2 AUPRC points in four of the six tree and tabular foundation model configurations, and in all six only on attribute-swap anomalies; in four GNNs its gain i",
     "path": "papers/26/11/2611.32598.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 2114,
+    "translated_title": "关于重采样在监督式图异常检测中有效性的研究",
+    "translated_abstract": "类别不平衡和异常标签稀缺促使监督式图异常检测（GAD）中广泛采用过采样技术，但其在不同检测器和基准上的实际收益仍不明确。在GADBench的低标签设置下（仅20个带标签异常节点和80个带标签正常节点），我们在17个数据集上，针对来自三大家族——图神经网络（GNN）、基于邻域聚合特征的树集成模型以及表格基础模型——的十种检测器配置，比较了类别加权与多达六种过采样策略。在八个包含自然发生异常的数据集上，没有任何策略在任何配置下展现出具有统计显著性的平均增益，而且哪些节点被标记与所采用的策略同等重要。在九个包含注入异常的数据集上，高斯噪声过采样（ROSE）在六个树模型和表格基础模型配置中的四个里最高可提升5.2个AUPRC点，且在所有六个配置中仅在属性交换类异常上有效；而在四个GNN配置中，其增益……（原文摘要在此处截断）",
+    "tldr": "该研究系统评估了监督式图异常检测中的重采样策略，发现对自然发生的异常没有任何过采样方法能带来统计显著的收益，高斯噪声过采样仅对注入型属性交换异常有效，且标注哪些节点比选择何种采样策略更为关键。",
+    "en_tdlr": "A systematic evaluation of resampling for supervised graph anomaly detection shows that no oversampling strategy yields statistically significant gains on organic anomalies, Gaussian-noise oversampling (ROSE) helps only on injected attribute-swap anomalies, and which nodes are labelled matters as much as the strategy itself."
 }

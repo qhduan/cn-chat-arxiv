@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.31511",
     "context": "Title: Near-Zero Forgetting Is Not Enough: Out-of-Distribution Robustness in Continual Learning of Pretrained VLAs\nAbstract: arXiv:2611.31511v1 Announce Type: new  Abstract: Recent work shows that pretrained Vision-Language-Action (VLA) models exhibit near-zero forgetting in specific continual learning settings with experience replay. However, robustness to domain shift of learned tasks remains unexplored. In this work, we study the robustness of Pi0 fine-tuned with experience replay under out-of-distribution (OOD) data using the LIBERO and LIBERO-Plus benchmarks. While the in-domain (ID) setup achieves near-zero catastrophic forgetting, OOD performance on previous tasks quickly collapses. Specifically, we show that during the continual learning process, the OOD capabilities of the model degrade, following a shared representational pattern across domain shifts, which is also visible behaviorally in the two simpler suites. Representational analysis shows that drift concentrates in the multimodal and action features. Linear probes indicate that OOD features still retain task-relevant information, but appear un",
     "path": "papers/26/11/2611.31511.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1320,
+    "translated_title": "近乎零遗忘并不足够：预训练视觉-语言-动作模型持续学习中的分布外鲁棒性",
+    "translated_abstract": "近期研究表明，预训练的视觉-语言-动作模型在带有经验回放的特定持续学习设置中表现出近乎为零的遗忘。然而，所学任务对领域偏移的鲁棒性仍未被探索。在本工作中，我们使用LIBERO和LIBERO-Plus基准，研究了通过经验回放微调的Pi0模型在分布外（OOD）数据下的鲁棒性。虽然域内（ID）设置实现了近乎为零的灾难性遗忘，但先前任务在OOD条件下的性能迅速崩溃。具体而言，我们展示了在持续学习过程中，模型的OOD能力会退化，并遵循一种跨领域偏移的共享表征模式，这种模式在两个更简单的测试套件中也能在行为层面观察到。表征分析表明，漂移集中在多模态特征和动作特征中。线性探针显示，OOD特征仍然保留与任务相关的信息，但表现出未……（原文摘要在此处截断）",
+    "tldr": "该论文首次揭示了带经验回放的持续学习虽能使预训练VLA模型实现近乎零遗忘，但模型对分布外数据的鲁棒性会随持续学习持续退化，且这种退化遵循集中于多模态与动作特征的跨领域共享表征漂移模式。",
+    "en_tdlr": "Even with near-zero forgetting via experience replay in continual learning of pretrained VLAs, out-of-distribution performance on previously learned tasks rapidly collapses, degrading along a shared representational drift pattern concentrated in multimodal and action features."
 }

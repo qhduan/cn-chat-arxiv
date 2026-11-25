@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.31486",
     "context": "Title: CHORD: Learning Latent Spaces for Constrained Stellarator Design\nAbstract: arXiv:2611.31486v1 Announce Type: new  Abstract: In high-dimensional, PDE-constrained design, interpolating between known feasible solutions can reveal trade-offs without repeating expensive optimization campaigns. In stellarator design for fusion energy, direct interpolation of plasma boundary parameters can violate physical constraints even when both endpoints are feasible. Learned latent representations can capture nonlinear relationships among design variables, but latent interpolation can still cross infeasible regions, and conditioning on target metrics can become inconsistent with the decoded design. We introduce CHORD, a conditional variational autoencoder that penalizes predicted constraint violations along decoded latent interpolants during training, paired with self-consistent inference that aligns conditioning with the decoded design's predicted metrics. Geometric benchmarks show the benefit of regularizing latent interpolants. In stellarator interpolation between distinct ",
     "path": "papers/26/11/2611.31486.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1087,
+    "translated_title": "CHORD：面向受约束仿星器设计的潜空间学习",
+    "translated_abstract": "在高维、受偏微分方程约束的设计问题中，在已知可行解之间进行插值可以在无需重复昂贵优化过程的情况下揭示设计之间的权衡关系。在面向聚变能源的仿星器设计中，即使两个端点均可行，对等离子体边界参数的直接插值仍可能违反物理约束。学习得到的潜在表示能够捕捉设计变量之间的非线性关系，但潜空间插值仍可能穿过不可行区域，且以目标指标为条件的调节可能与解码出的设计不一致。我们提出了CHORD，一种条件变分自编码器，它在训练过程中对解码后的潜空间插值路径上预测到的约束违反进行惩罚，并配合自洽推理方法，使条件调节与解码设计的预测指标保持一致。几何基准测试表明了对潜空间插值进行正则化的收益。在不同……之间的仿星器插值中（摘要在此处截断）",
+    "tldr": "CHORD是一种条件变分自编码器，通过在训练中惩罚潜空间插值路径上的约束违反并结合自洽推理，实现了仿星器聚变设计中满足物理约束的可行设计插值。",
+    "en_tdlr": "CHORD is a conditional variational autoencoder that penalizes predicted constraint violations along latent interpolants during training and employs self-consistent inference, enabling physically feasible design interpolation for constrained stellarator fusion design."
 }

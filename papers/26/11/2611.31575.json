@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.31575",
     "context": "Title: Latent Channel Completion for Forecasting in Sensor Networks with Failed Detectors\nAbstract: arXiv:2611.31575v1 Announce Type: new  Abstract: Monitoring networks for traffic and utility infrastructure lose sensors routinely, and forecasting models that couple sensors together to gain accuracy also inherit an exposure to those losses. When a detector stops reporting, the substituted value is embedded as though it were a reading and propagates through the shared representation that couples the network, degrading forecasts for sensors that are still healthy. Because these models are selected on benchmarks where every sensor reports, the exposure is absent from the numbers used to choose them. We introduce Latent Channel Completion, a channel-axis joint embedding predictive objective that reconstructs missing sensors' latent representations rather than their values, since a coupling operator consumes embeddings and never sees raw readings. Channels are masked during training and their representations predicted from surviving channels against stop-gradient targets; at inference the",
     "path": "papers/26/11/2611.31575.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1193,
+    "translated_title": "潜在通道补全：面向含失效检测器传感器网络的预测",
+    "translated_abstract": "用于交通和公用事业基础设施的监测网络经常出现传感器丢失，而通过将传感器相互耦合来提升精度的预测模型也因此继承了这种失效带来的脆弱性。当一个探测器停止报告时，替代值会被当作真实读数嵌入其中，并通过耦合网络的共享表征传播，从而损害仍然健康的传感器的预测质量。由于这些模型是在所有传感器均正常报告的基准上被挑选的，这种脆弱性并未体现在用于选择模型的指标数字中。我们提出潜在通道补全，这是一种沿通道轴的联合嵌入预测目标，它重建缺失传感器的潜在表示而非其数值，因为耦合算子消费的是嵌入而从不接触原始读数。在训练期间对通道进行掩蔽，并根据存活的通道对照停止梯度目标来预测被掩蔽通道的表示；在推理时……（原文摘要在此处截断）",
+    "tldr": "提出潜在通道补全方法，通过在训练中重建失效传感器的潜在表示而非其数值，使传感器网络预测模型在部分探测器失效时仍能保持对健康传感器预测的准确性。",
+    "en_tdlr": "Proposes Latent Channel Completion, a channel-axis joint embedding predictive objective that reconstructs missing sensors' latent representations rather than their values, making sensor network forecasting robust to detector failures."
 }

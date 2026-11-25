@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.31491",
     "context": "Title: Pretrained Tabular Features and the Measurement of Financial Proximity\nAbstract: arXiv:2611.31491v1 Announce Type: new  Abstract: Spatial arbitrage pricing theory (S-APT) extends factor models to allow returns to spill over between connected firms, beyond what common risk factors explain. In recent years, tabular foundation models (TFMs) have matched or outperformed tuned gradient-boosted and bagged ensembles on small and medium-sized tabular benchmarks. Although their predictive performance is strong, these models reveal little about what they have learned, which limits their use in regulated financial applications that require explanation. Internal representations are widely used to probe what neural networks learn and to measure similarity. In this paper, we use the frozen representations of four TFMs as a measure of financial dissimilarity in a spatial asset-pricing model of US equities from 2011 to 2025, and find that their estimated gains over a direct distance between the same disclosures become consistently positive once broad SEC filing data are included. ",
     "path": "papers/26/11/2611.31491.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1161,
+    "translated_title": "预训练表格特征与金融接近度的度量",
+    "translated_abstract": "空间套利定价理论（S-APT）将因子模型扩展至允许收益在相互关联的公司之间溢出，超越了共同风险因子所能解释的范围。近年来，表格基础模型（TFMs）在中小规模表格数据基准上已达到或超越了经过调优的梯度提升和装袋集成模型的性能。尽管这些模型的预测性能强大，但它们对其学到的内容揭示甚少，这限制了它们在需要可解释性的受监管金融应用中的使用。内部表示被广泛用于探究神经网络学习到的内容以及度量相似性。在本文中，我们将四个表格基础模型的冻结表示作为金融相异性的度量，应用于2011年至2025年美国股票的空间资产定价模型中，并发现一旦纳入广泛的SEC申报文件数据，它们相对于相同披露内容之间直接距离的估计增益变得持续为正。",
+    "tldr": "该论文创新性地将四个预训练表格基础模型的冻结内部表示作为金融接近度度量，嵌入空间套利定价模型中分析美国股票，发现其估计增益在纳入广泛的SEC申报数据后变得持续为正。",
+    "en_tdlr": "This paper innovatively uses the frozen internal representations of four pretrained tabular foundation models as a measure of financial proximity in a spatial asset-pricing model of US equities, finding their estimated gains become consistently positive once broad SEC filing data are included."
 }

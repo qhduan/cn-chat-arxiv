@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.32568",
     "context": "Title: Representation and Model Contributions on Small Molecular Benchmarks: Controlled Comparisons and External Evaluation\nAbstract: arXiv:2611.32568v1 Announce Type: new  Abstract: Improvements in molecular property prediction are usually attributed to the model, although part of the gain may come from the molecular representation. New models are commonly benchmarked against a random forest (RF) trained on a molecular fingerprint, a comparison that changes the model and the representation at the same time. We separate the two contributions with a two-by-two factorial design in which the RF and a second model (CatBoost or the tabular foundation models TabPFN and TabFM) are each trained on a fingerprint and on RDKit descriptors, and each effect is tested with a paired scaffold bootstrap. Seven small MoleculeNet datasets (3 regression, 4 classification) are evaluated on the published split of a recent graph transformer (DGT), on 10 additional scaffold splits and on external datasets. For solubility and lipophilicity, the representation effect exceeds the model effect in every main factorial design, in all three evalua",
     "path": "papers/26/11/2611.32568.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1310,
+    "translated_title": "小分子基准测试中分子表示与模型的贡献：受控比较与外部评估",
+    "translated_abstract": "分子性质预测的性能提升通常被归功于模型本身，尽管其中部分收益可能来自分子表示。新模型通常与在分子指纹上训练的随机森林（RF）进行基准对比，这种比较方式同时改变了模型和表示两个因素。我们通过二乘二的因子设计将这两种贡献分离：随机森林与第二个模型（CatBoost 或表格基础模型 TabPFN 和 TabFM）分别在同一分子指纹和 RDKit 描述符上训练，并使用配对支架自助法检验各因素的效应。我们在七个小型 MoleculeNet 数据集（3 个回归、4 个分类）上，于近期图 Transformer（DGT）已发表的数据划分、另外 10 个支架划分以及外部数据集上进行评估。对于溶解度和亲脂性，在所有主要因子设计中、在所有三种评估中，表示效应均超过模型效应……（摘要在此处截断）",
+    "tldr": "该研究通过二乘二因子设计与配对支架自助法，将分子表示与模型架构的贡献分离，发现在溶解度和亲脂性等任务上，分子表示（如RDKit描述符）带来的性能提升甚至超过更换模型本身的效果。",
+    "en_tdlr": "Using a two-by-two factorial design with paired scaffold bootstrap, this study disentangles molecular representation from model contributions, showing that representation effects (e.g., RDKit descriptors) can exceed model effects on solubility and lipophilicity benchmarks."
 }

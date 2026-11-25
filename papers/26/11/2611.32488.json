@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.32488",
     "context": "Title: Dynamic stochastic multi-attribute group decision-making based on fractional-order stochastic dominance criteria\nAbstract: arXiv:2611.32488v1 Announce Type: new  Abstract: The stochastic dominance criterion has been widely employed in stochastic multi-attribute decision making as a robust tool for quantitatively comparing decision-makers' preferences over alternatives. Existing research predominantly relies on integer-order stochastic dominance criteria within static modeling frameworks. However, the integer-order scale is often too coarse, and real-world decision-making typically occurs in dynamic environments, for which static methods are inadequate. To address these limitations, this paper proposes a novel dynamic stochastic multi-attribute group decision making model based on fractional-order stochastic dominance criteria. In this model, we introduce the priority degree under fractional-order stochastic dominance, which not only encompasses the priority degree under integer-order stochastic dominance, but also is applicable to decision-makers whose utility functions are not concave everywhere. Conseque",
     "path": "papers/26/11/2611.32488.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1167,
+    "translated_title": "基于分数阶随机占优准则的动态随机多属性群决策",
+    "translated_abstract": "随机占优准则作为一种定量比较决策者对备选方案偏好的稳健工具，已在随机多属性决策中得到广泛应用。现有研究主要依赖于静态建模框架下的整数阶随机占优准则。然而，整数阶尺度往往过于粗糙，且现实世界的决策通常发生在动态环境中，静态方法难以应对此类情形。为解决这些局限性，本文提出了一种基于分数阶随机占优准则的新型动态随机多属性群决策模型。在该模型中，我们引入了分数阶随机占优下的优先度，它不仅涵盖了整数阶随机占优下的优先度，而且适用于效用函数并非处处为凹的决策者。",
+    "tldr": "本文提出基于分数阶随机占优准则的动态随机多属性群决策模型，所引入的分数阶优先度不仅涵盖整数阶随机占优情形，还可适用于效用函数非处处凹的决策者，从而克服了整数阶尺度过于粗糙以及静态方法不适应动态决策环境的局限。",
+    "en_tdlr": "This paper proposes a novel dynamic stochastic multi-attribute group decision-making model based on fractional-order stochastic dominance criteria, whose priority degree generalizes the integer-order case and applies to decision-makers with non-concave utility functions, overcoming both the coarseness of integer-order scales and the inadequacy of static methods in dynamic environments."
 }

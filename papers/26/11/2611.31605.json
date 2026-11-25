@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.31605",
     "context": "Title: Noise-Level Adjacency in Diffusion Training\nAbstract: arXiv:2611.31605v1 Announce Type: new  Abstract: Diffusion models train one network across all noise levels, although their training objective is pointwise in the noise level. If training on each pair of adjacent levels were an independent problem, separate networks with the same total parameter count would be expected to match one shared network. But in practice, on images, sharing weights across levels gives better results, which hints at an implicit dependence on their order. An order fixes both which levels are adjacent and the direction in which they run. In this paper, we show that, of the two, the benefit of sharing rests on adjacency in the noise-level embedding. The fitting error of a shared network is bounded below by the distances between neighbouring posterior means, minus the change the network can make between neighbouring embeddings. We first distinguish adjacency from direction: on a Gaussian mixture and CIFAR-10, reversing the embeddings keeps every neighbour and leave",
     "path": "papers/26/11/2611.31605.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1271,
+    "translated_title": "扩散训练中的噪声级别邻接性",
+    "translated_abstract": "扩散模型在所有噪声级别上训练同一个网络，尽管其训练目标在每个噪声级别上是逐点独立的。如果在每对相邻级别上的训练是相互独立的问题，那么具有相同总参数量的多个独立网络理应能与一个共享网络相媲美。但在实践中，在图像任务上，跨级别共享权重能带来更好的结果，这暗示了其中存在对级别顺序的隐式依赖。顺序同时决定了哪些级别相邻以及它们的运行方向。本文证明，在两者之中，共享的收益依赖于噪声级别嵌入中的邻接性。共享网络的拟合误差存在一个下界：该下界由相邻后验均值之间的距离，减去网络在相邻嵌入之间所能做出的改变而确定。我们首先区分了邻接性与方向性：在高斯混合分布和CIFAR-10上，反转嵌入的顺序保持了所有邻居关系不变，而……",
+    "tldr": "本文揭示了扩散模型跨噪声级别共享权重的收益来源于噪声级别嵌入中的邻接性而非方向性，并从理论上给出共享网络拟合误差的下界，即由相邻后验均值间的距离减去网络在相邻嵌入间可调整的幅度所决定。",
+    "en_tdlr": "This paper shows that the benefit of weight sharing across noise levels in diffusion training rests on adjacency in the noise-level embedding rather than on direction, and derives a lower bound on the shared network's fitting error based on distances between neighboring posterior means."
 }

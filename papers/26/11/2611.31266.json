@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.31266",
     "context": "Title: Agentic Systems Need Multi-Run Evaluation: A Study of Retrieval and Response Variability in a Deployed Enterprise RAG System\nAbstract: arXiv:2611.31266v1 Announce Type: new  Abstract: Previous RAG systems have mostly been evaluated in a single-run setting, and with the advent of agentic RAG, systems are still often evaluated the same way. However, agentic RAG systems introduce a source of run-to-run variability, since several of their components make decisions non-deterministically. Such systems typically comprise a retrieval stage followed by a generation stage, and the retrieval stage in particular can behave differently across runs. For example, the agent might issue a different number of parallel searches from one run to the next, which alters the retrieved documents and therefore the final answer. In this paper we study this behavior in a deployed agentic RAG system for product-documentation questions, running each of 739 questions ten times and analyzing the execution traces to find where different runs first diverge. We find a substantial gap between success in any run and success in every run: the retrieval hi",
     "path": "papers/26/11/2611.31266.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1260,
+    "translated_title": "智能体系统需要多次运行评估：对已部署企业RAG系统中检索与响应变异性的研究",
+    "translated_abstract": "以往的RAG系统大多在单次运行的设置下进行评估，而随着智能体RAG的出现，系统仍常常以同样的方式被评估。然而，智能体RAG系统引入了运行间变异性的来源，因为其多个组件以非确定性的方式做出决策。这类系统通常由检索阶段和生成阶段组成，其中检索阶段尤其可能在不同的运行中表现不同。例如，智能体在一次运行与下一次运行中可能会发出不同数量的并行搜索，这会改变检索到的文档，进而改变最终答案。在本文中，我们在一个已部署的、用于产品文档问答的智能体RAG系统中研究这种行为，将739个问题各运行十次，并分析执行轨迹以定位不同运行首次出现分歧的位置。我们发现“任一次运行成功”与“每一次运行都成功”之间存在显著差距：检索命中……（原文摘要在此截断）",
+    "tldr": "智能体RAG系统因组件的非确定性决策而存在运行间变异性，本文通过将已部署企业RAG系统中的739个问题各运行十次并分析执行轨迹，揭示了“任一次成功”与“每次都成功”之间的显著差距，主张智能体系统应采用多次运行评估。",
+    "en_tdlr": "Agentic RAG systems exhibit run-to-run variability due to non-deterministic components; by running 739 questions ten times in a deployed enterprise RAG system and analyzing execution traces, this study reveals a substantial gap between success in any run and success in every run, arguing for multi-run evaluation of agentic systems."
 }

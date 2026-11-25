@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.31661",
     "context": "Title: Boundary Representation-Driven Graph Transformer Modeling for Machining Operation Sequencing\nAbstract: arXiv:2611.31661v1 Announce Type: new  Abstract: Machining process planning is inherently complex due to the interdependence between part geometry, machining operations, and evolving manufacturable states. Traditional approaches rely heavily on expert knowledge and rule-based systems, limiting scalability and automation. While recent machine learning methods have shown promise, most operate on simplified geometric representations, such as voxels or hand-crafted features, which fail to fully exploit the rich geometric and topological information encoded in Boundary Representation (B-Rep) models. In this work, we propose a graph transformer-based framework for geometry-to-sequence learning that directly predicts machining operation sequences from B-Rep design geometry. The proposed method constructs topology-aware graphs from B-Rep entities, where faces and their adjacencies are encoded as node and edge features capturing both geometric and relational information. A graph neural network ",
     "path": "papers/26/11/2611.31661.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 955,
+    "translated_title": "基于边界表示驱动的图Transformer建模用于加工工序排序",
+    "translated_abstract": "加工工艺规划本质上十分复杂，这是由于零件几何形状、加工工序以及不断演变的可制造状态之间存在相互依赖关系。传统方法严重依赖专家知识和基于规则的系统，限制了可扩展性和自动化程度。虽然近期的机器学习方法已展现出潜力，但大多数方法基于简化的几何表示（如体素或手工设计的特征），无法充分利用边界表示（B-Rep）模型中编码的丰富几何与拓扑信息。在本工作中，我们提出了一种基于图Transformer的“几何到序列”学习框架，可直接从B-Rep设计几何预测加工工序序列。所提出的方法从B-Rep实体构建拓扑感知图，其中面及其邻接关系被编码为节点和边特征，从而同时捕捉几何信息和关系信息。图神经网络",
+    "tldr": "该论文提出了一种基于图Transformer的框架，直接从B-Rep设计几何预测加工工序序列，充分利用边界表示模型中丰富的几何与拓扑信息以实现工艺规划的自动化。",
+    "en_tdlr": "This paper proposes a graph transformer-based framework that directly predicts machining operation sequences from B-Rep design geometry, fully exploiting the rich geometric and topological information encoded in boundary representation models to automate process planning."
 }

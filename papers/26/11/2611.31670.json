@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.31670",
     "context": "Title: Neural Interoperability Protocols: Specifying Compatibility Before Training\nAbstract: arXiv:2611.31670v1 Announce Type: new  Abstract: Neural networks are increasingly developed as reusable components, yet their intermediate representations remain difficult to exchange across independently trained models. Existing approaches can align representations or encourage compatible features, but successful transfer between particular models does not by itself define what future implementations must satisfy to interoperate. We introduce Neural Interoperability Protocols (NIPs), a specification-first framework that treats neural compatibility as a set of public interface obligations rather than a property inferred solely from model-pair performance. A NIP specifies an exchange boundary, the semantics and admissibility conditions of exchanged packets, and the downstream computations that recipients must support, independently of the architectures and training procedures implementing it. We investigate this distinction through controlled retrieval, vision, and continuous-memory exp",
     "path": "papers/26/11/2611.31670.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1183,
+    "translated_title": "神经网络互操作协议：在训练前指定兼容性",
+    "translated_abstract": "神经网络越来越多地被作为可复用组件来开发，但它们的中间表示在独立训练的模型之间仍然难以交换。现有方法可以对齐表示或鼓励兼容特征，但特定模型对之间成功的迁移本身并不能定义未来的实现必须满足哪些条件才能实现互操作。我们提出了神经网络互操作协议，这是一个“规范优先”的框架，它将神经兼容性视为一组公开的接口义务，而不是仅从模型对性能中推断出来的属性。NIP 规定了交换边界、交换数据包的语义与可接受性条件，以及接收方必须支持的下游计算，且这一切独立于实现它的具体架构和训练过程。我们通过受控的检索、视觉以及连续记忆实验来研究这一区别……",
+    "tldr": "该论文提出神经网络互操作协议（NIP），将模型间的兼容性从“事后由模型对性能推断”转变为“训练前以公开接口规范明确规定”，独立于具体架构和训练过程来约束表示交换的边界、语义与下游支持的计算。",
+    "en_tdlr": "This paper introduces Neural Interoperability Protocols (NIPs), a specification-first framework that defines neural compatibility as public interface obligations—specifying the exchange boundary, packet semantics and admissibility, and required downstream computations—so models can interoperate independently of their architectures and training procedures."
 }

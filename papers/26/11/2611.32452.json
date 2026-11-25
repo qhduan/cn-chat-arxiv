@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.32452",
     "context": "Title: The Teacher Is Already Inside: Self-Distilling Looped Language Models Beyond Their Last Loop\nAbstract: arXiv:2611.32452v1 Announce Type: new  Abstract: Looped language models apply one shared transformer stack several times per token, and every loop is readable through the shared language-model head. Post-training them is hard. Reward-only reinforcement learning needs a verifier and learns from one sparse signal per response; spreading the reward over loops collapses the entropy of every loop; and cross-loop self-distillation, as in LoopOPD, can only teach intermediate loops, because the last loop cannot learn from its own frozen copy: the loss is zero at initialisation. We observe that a looped model already contains a policy that decodes better than its last loop: the next-token distribution extrapolated from the first loop through the last. ELPSD (Extrapolated-Loop Policy Self-Distillation) turns this distribution into a self-distillation target: a frozen copy of the model computes it, and the model's own last loop is distilled towards it on its own rollouts, using the exact reverse ",
     "path": "papers/26/11/2611.32452.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 2320,
+    "translated_title": "教师就在其中：将循环语言模型自蒸馏至超越其最后一轮",
+    "translated_abstract": "循环语言模型对每个token多次重复应用同一个共享的Transformer堆栈，且每一轮循环都可以通过共享的语言模型头读取输出。对这类模型进行后训练十分困难：仅基于奖励的强化学习需要验证器，且每次响应只能从一个稀疏信号中学习；将奖励分散到各轮循环会导致每轮循环的熵坍缩；而像LoopOPD那样的跨循环自蒸馏方法只能训练中间循环，因为最后一轮循环无法从其自身的冻结副本中学习——在初始化时损失即为零。我们观察到，循环模型内部本身已经蕴含着一个比其最后一轮解码效果更好的策略：即从第一轮循环外推至最后一轮所得到的下一个token分布。ELPSD（外推循环策略自蒸馏，Extrapolated-Loop Policy Self-Distillation）将这一分布转化为自蒸馏目标：由模型的一个冻结副本计算该分布，并在模型自身的rollout上，将模型自身的最后一轮循环朝该目标进行蒸馏，使用精确的逆向……",
+    "tldr": "该论文提出ELPSD方法，将循环语言模型从首轮循环外推至末轮得到的下一个token分布作为自蒸馏目标，在模型自身rollout上训练其最后一轮循环，突破了传统后训练方法无法改进循环模型最后一轮的瓶颈。",
+    "en_tdlr": "The paper proposes ELPSD (Extrapolated-Loop Policy Self-Distillation), which distills a looped language model's own last loop towards the next-token distribution extrapolated from its first loop through the last, overcoming the bottleneck that the last loop cannot be improved by conventional post-training methods."
 }

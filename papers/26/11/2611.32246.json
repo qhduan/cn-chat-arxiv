@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.32246",
     "context": "Title: SkillCore: Internalizing Generalizable Skills via Scaffolding-Removed Fine-Tuning\nAbstract: arXiv:2611.32246v1 Announce Type: new  Abstract: Runtime skills can improve agents' problem-solving capabilities by providing procedural guidance for tasks such as code review and debugging. However, these benefits reach only a minority of users, as most do not proactively invoke skills in practice. We argue that such generalizable procedures should become part of the model's capabilities rather than remain optional external add-ons, making them directly available without explicit skill loading. To this end, we present SkillCore, a data pipeline and supervised fine-tuning recipe for internalizing generalizable skills. We transform real agent trajectories by removing skill-loading scaffolding while preserving the task context and subsequent agent actions, thereby supervising direct execution without external skill content. To preserve access to task-specific skills that provide genuinely external information, we mix these scaffold-removed trajectories with a small proportion of skill-na",
     "path": "papers/26/11/2611.32246.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1266,
+    "translated_title": "SkillCore：通过去除脚手架的微调内化可泛化技能",
+    "translated_abstract": "运行时技能可以通过为代码审查和调试等任务提供程序性指导，来提升智能体的问题解决能力。然而，这些好处只能惠及少数用户，因为大多数用户在实践中并不会主动调用技能。我们认为，这类可泛化的程序性知识应当成为模型自身能力的一部分，而不是作为可选的外部附加组件存在，从而在无需显式加载技能的情况下直接可用。为此，我们提出了 SkillCore，一个用于内化可泛化技能的数据构建管线与监督微调方案。我们通过移除技能加载脚手架来转换真实的智能体轨迹，同时保留任务上下文及其后续的智能体动作，从而在缺乏外部技能内容的情况下监督模型直接执行。为了保留对那些提供真正外部信息的任务特定技能的访问，我们将这些去脚手架的轨迹与少量技能朴素轨迹混合（摘要在此处截断）。",
+    "tldr": "SkillCore 通过从真实智能体轨迹中移除技能加载脚手架并构建监督微调数据，将可泛化的运行时技能内化为模型自身能力，使其无需显式加载技能即可直接使用。",
+    "en_tdlr": "SkillCore internalizes generalizable runtime skills into the model's own capabilities through a scaffolding-removed supervised fine-tuning pipeline built from real agent trajectories, eliminating the need for explicit skill loading."
 }

@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.31479",
     "context": "Title: Transferable, Time-Parallel Graph Dynamics via Space-Time Factorization\nAbstract: arXiv:2611.31479v1 Announce Type: new  Abstract: Time-parallel neural operators (FNO and successors) have transformed PDE surrogates on regular grids. Mesh-based operators (MeshGraphNets, Transolver) extend operator learning to irregular geometries, but jointly learning across diverse topologies while retaining non-recurrent temporal evaluation remains challenging. We propose space-time factorization: partition the model into local temporal operators (learned, graph-independent) and a spatial mixer that propagates information across nodes without graph-dependent learned parameters. This structural condition lets the same parameters run on unseen graphs; non-recurrent instances also admit time-parallel evaluation. Accurate zero-shot transfer further depends on controlling three information leaks (graph-dependent weights, graph-specific features, and graph-correlated training distributions) and on suitable task physics and training coverage. The protocol applies to two distinct spatial-m",
     "path": "papers/26/11/2611.31479.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1410,
+    "translated_title": "基于时空分解的可迁移、时间并行图动力学",
+    "translated_abstract": "时间并行神经算子（FNO 及其后续方法）已经变革了规则网格上的 PDE 代理建模。基于网格的算子（MeshGraphNets、Transolver）将算子学习扩展到了不规则几何结构，但在保持非递归时间评估的同时跨多种拓扑结构进行联合学习仍然具有挑战性。我们提出了时空分解方法：将模型划分为局部时间算子（可学习的、与图无关的）和一个空间混合器，后者在节点间传播信息时不需要依赖图的已学习参数。这一结构性条件使相同的参数能够在未见过的图上运行；非递归实例还支持时间并行评估。准确的零样本迁移进一步取决于控制三种信息泄漏（图相关权重、图特定特征以及图相关训练分布），以及合适的任务物理特性和训练覆盖范围。该协议适用于两种不同的空间混合器……",
+    "tldr": "该论文提出时空分解方法，将模型拆分为与图无关的局部时间算子和无图依赖参数的空间混合器，从而实现同一参数在未见图上的零样本迁移，并支持非递归的时间并行评估。",
+    "en_tdlr": "The paper proposes space-time factorization that splits the model into graph-independent local temporal operators and a spatial mixer free of graph-dependent learned parameters, enabling zero-shot transfer to unseen graphs and non-recurrent time-parallel evaluation."
 }
