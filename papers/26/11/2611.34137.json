@@ -1,0 +1,12 @@
+{
+    "title": "How resampling method can help us: Improving the Delta model",
+    "abstract": "arXiv:2611.34137v1 Announce Type: new  Abstract: Delta has been successfully employed as an authorship attribution method in various contexts, although its effectiveness is not always perfect. Since it is based on the most frequent words, its results can be readily interpreted and explained in plain English. In this study, we propose improving its performance by applying a resampling method to the selected stylistic features. The results show that this approach increases the accuracy of the model while preserving the interpretability of its outcomes. However, the main drawback of the proposed technique is the additional computational time required to obtain more accurate results.",
+    "link": "https://arxiv.org/abs/2611.34137",
+    "context": "Title: How resampling method can help us: Improving the Delta model\nAbstract: arXiv:2611.34137v1 Announce Type: new  Abstract: Delta has been successfully employed as an authorship attribution method in various contexts, although its effectiveness is not always perfect. Since it is based on the most frequent words, its results can be readily interpreted and explained in plain English. In this study, we propose improving its performance by applying a resampling method to the selected stylistic features. The results show that this approach increases the accuracy of the model while preserving the interpretability of its outcomes. However, the main drawback of the proposed technique is the additional computational time required to obtain more accurate results.",
+    "path": "papers/26/11/2611.34137.json",
+    "total_tokens": 755,
+    "translated_title": "重采样方法如何帮助我们：改进Delta模型",
+    "translated_abstract": "Delta作为一种作者归属方法已在多种情境中得到成功应用，但其有效性并非总是完美。由于该方法基于最高频词汇，其结果易于用通俗易懂的语言进行解释。在本研究中，我们提出通过对所选文体特征应用重采样方法来提升其性能。结果表明，这种方法在保持结果可解释性的同时提高了模型的准确率。然而，所提出技术的主要缺点是需要额外的计算时间才能获得更准确的结果。",
+    "tldr": "本文提出对文体特征应用重采样方法来改进Delta作者归属模型，在保持结果可解释性的同时提高了准确率，但代价是需要额外的计算时间。",
+    "en_tdlr": "This paper proposes applying a resampling method to the selected stylistic features to improve the Delta authorship attribution model, which increases accuracy while preserving interpretability, at the cost of additional computational time."
+}

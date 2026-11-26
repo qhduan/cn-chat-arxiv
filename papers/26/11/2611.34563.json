@@ -1,0 +1,12 @@
+{
+    "title": "On Utilization of Edge-AI for condition monitoring towards predictive maintenance: A use case in dairy processing using explainable AI",
+    "abstract": "arXiv:2611.34563v1 Announce Type: new  Abstract: The Industrial Internet of Things (IIoT) and Artificial Intelligence (AI) are driving Industry 4.0, enhancing productivity, automation, and efficiency in manufacturing systems. This study develops an Edge-AI-based condition monitoring framework, as a step towards predictive maintenance, for a rotary valve in a dairy processing pilot plant, using vibration data collected via a low-power IIoT sensor node and processed on an edge device.",
+    "link": "https://arxiv.org/abs/2611.34563",
+    "context": "Title: On Utilization of Edge-AI for condition monitoring towards predictive maintenance: A use case in dairy processing using explainable AI\nAbstract: arXiv:2611.34563v1 Announce Type: new  Abstract: The Industrial Internet of Things (IIoT) and Artificial Intelligence (AI) are driving Industry 4.0, enhancing productivity, automation, and efficiency in manufacturing systems. This study develops an Edge-AI-based condition monitoring framework, as a step towards predictive maintenance, for a rotary valve in a dairy processing pilot plant, using vibration data collected via a low-power IIoT sensor node and processed on an edge device.",
+    "path": "papers/26/11/2611.34563.json",
+    "total_tokens": 834,
+    "translated_title": "论边缘AI在面向预测性维护的状态监测中的应用：基于可解释AI的乳制品加工用例",
+    "translated_abstract": "工业物联网和人工智能正在推动工业4.0的发展，提升制造系统的生产力、自动化水平和效率。本研究开发了一个基于边缘AI的状态监测框架，作为迈向预测性维护的一步，应用于乳制品加工中试工厂中的旋转阀。该框架使用通过低功耗IIoT传感器节点采集的振动数据，并在边缘设备上进行处理。",
+    "tldr": "该研究开发了一个基于边缘AI的状态监测框架，利用低功耗IIoT传感器节点采集的振动数据并在边缘设备上处理，对乳制品加工厂的旋转阀进行状态监测，为预测性维护迈出重要一步。",
+    "en_tdlr": "This study develops an Edge-AI-based condition monitoring framework for a rotary valve in dairy processing, using vibration data from a low-power IIoT sensor node processed on an edge device, as a step towards predictive maintenance."
+}

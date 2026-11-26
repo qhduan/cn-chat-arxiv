@@ -1,0 +1,13 @@
+{
+    "title": "Robust Adaptive Channel Estimation for RIS-Assisted mmWave Massive MIMO via a Stochastic Shannon Entropy Criterion",
+    "abstract": "arXiv:2611.33773v1 Announce Type: cross  Abstract: Accurate channel estimation in reconfigurable intelligent surface (RIS)-assisted millimeter-wave (mmWave) massive multiple-input multiple-output (MIMO) systems remains challenging due to the passive nature of the RIS, the high dimensionality of the cascaded channel, and the presence of non-Gaussian impulsive disturbances. This paper proposes a robust sparsity-aware adaptive estimator, termed reweighted zero-attracting stochastic Shannon entropy (RZA-SSE), for angular-domain channel estimation. The algorithm combines a double-window kernel-based Shannon entropy criterion with a norm-normalized \\(\\ell_1\\) penalty. Both the data-driven term and the nonsmooth penalty are differentiated using exact Wirtinger calculus. An exact weight-error recursion and a mean-square energy relation are derived. Local stability is analyzed via a joint coefficient--penalty state representation, and an approximate steady-state mean-square deviation (MSD) expr",
+    "link": "https://arxiv.org/abs/2611.33773",
+    "context": "Title: Robust Adaptive Channel Estimation for RIS-Assisted mmWave Massive MIMO via a Stochastic Shannon Entropy Criterion\nAbstract: arXiv:2611.33773v1 Announce Type: cross  Abstract: Accurate channel estimation in reconfigurable intelligent surface (RIS)-assisted millimeter-wave (mmWave) massive multiple-input multiple-output (MIMO) systems remains challenging due to the passive nature of the RIS, the high dimensionality of the cascaded channel, and the presence of non-Gaussian impulsive disturbances. This paper proposes a robust sparsity-aware adaptive estimator, termed reweighted zero-attracting stochastic Shannon entropy (RZA-SSE), for angular-domain channel estimation. The algorithm combines a double-window kernel-based Shannon entropy criterion with a norm-normalized \\(\\ell_1\\) penalty. Both the data-driven term and the nonsmooth penalty are differentiated using exact Wirtinger calculus. An exact weight-error recursion and a mean-square energy relation are derived. Local stability is analyzed via a joint coefficient--penalty state representation, and an approximate steady-state mean-square deviation (MSD) expr",
+    "path": "papers/26/11/2611.33773.json",
+    "total_tokens": 1166,
+    "pending": [
+        "translated_title",
+        "translated_abstract",
+        "tldr"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Comments on \"Jackknife Standard Errors for Clustered Regression\"",
+    "abstract": "arXiv:2611.33203v1 Announce Type: new  Abstract: We point out substantial shortcomings in the main theorems and their proofs in Hansen (2026). We also question the interpretation Hansen (2026) gives to his results.",
+    "link": "https://arxiv.org/abs/2611.33203",
+    "context": "Title: Comments on \"Jackknife Standard Errors for Clustered Regression\"\nAbstract: arXiv:2611.33203v1 Announce Type: new  Abstract: We point out substantial shortcomings in the main theorems and their proofs in Hansen (2026). We also question the interpretation Hansen (2026) gives to his results.",
+    "path": "papers/26/11/2611.33203.json",
+    "total_tokens": 596,
+    "translated_title": "关于《聚类回归的刀切标准误》一文的评论",
+    "translated_abstract": "我们指出 Hansen (2026) 一文中主要定理及其证明存在的重大缺陷。同时，我们对 Hansen (2026) 对其结果的解释也提出质疑。",
+    "tldr": "该评论文章指出 Hansen (2026) 关于聚类回归刀切标准误的研究在主要定理及其证明方面存在重大缺陷，并质疑其对自己结果的解释。",
+    "en_tdlr": "This comment points out substantial shortcomings in the main theorems and their proofs in Hansen (2026) on jackknife standard errors for clustered regression, and questions the interpretation Hansen gives to his results."
+}

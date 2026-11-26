@@ -1,0 +1,12 @@
+{
+    "title": "Tokenisation is not in APX",
+    "abstract": "arXiv:2611.34938v1 Announce Type: new  Abstract: In this paper, we prove that, unless P=NP, no polynomial-time algorithm can find a tokeniser whose objective is within any constant factor of the optimum, meaning that tokenisation is not in the APX complexity class. We prove this for direct and bottom-up tokenisation, under both a compression or unigram log-likelihood objectives, and for binary or larger alphabets. We further show that, even over unary alphabets, direct tokenisation is APX-hard, and thus admits no polynomial-time approximation scheme.",
+    "link": "https://arxiv.org/abs/2611.34938",
+    "context": "Title: Tokenisation is not in APX\nAbstract: arXiv:2611.34938v1 Announce Type: new  Abstract: In this paper, we prove that, unless P=NP, no polynomial-time algorithm can find a tokeniser whose objective is within any constant factor of the optimum, meaning that tokenisation is not in the APX complexity class. We prove this for direct and bottom-up tokenisation, under both a compression or unigram log-likelihood objectives, and for binary or larger alphabets. We further show that, even over unary alphabets, direct tokenisation is APX-hard, and thus admits no polynomial-time approximation scheme.",
+    "path": "papers/26/11/2611.34938.json",
+    "total_tokens": 929,
+    "translated_title": "分词化不属于APX复杂度类",
+    "translated_abstract": "在本文中，我们证明，除非P=NP，否则不存在任何多项式时间算法能够找到一个分词器，使其目标值在最优值的任意常数因子范围内，这意味着分词化问题不属于APX复杂度类。我们对直接分词和自底向上分词均证明了这一结论，涵盖压缩目标和unigram对数似然目标两种情形，以及二元或更大字符表的情况。我们进一步证明，即使在一元字符表上，直接分词也是APX难的，因此不存在多项式时间近似方案。",
+    "tldr": "本文证明除非P=NP，分词化问题无法在多项式时间内近似到最优解的任意常数因子（即不属于APX类），且直接分词即使在一元字符表上也是APX难的。",
+    "en_tdlr": "This paper proves that, unless P=NP, tokenisation is not in APX—no polynomial-time algorithm can approximate the optimal tokeniser within any constant factor—and that direct tokenisation is APX-hard even over unary alphabets."
+}

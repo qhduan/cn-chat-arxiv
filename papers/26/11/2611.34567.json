@@ -1,0 +1,12 @@
+{
+    "title": "Large deviations for integrated exponentials of Gaussian Volterra processes - application to variance options",
+    "abstract": "arXiv:2611.34567v1 Announce Type: cross  Abstract: We prove small-time large deviations for the normalised time integral of the exponential of a Gaussian Volterra process, and complement it with a central limit theorem and moderate deviations. As an application, we obtain short-maturity asymptotics for out-of-the-money and at-the-money variance options in rough volatility models, as well as implied volatility expansions which we validate numerically.",
+    "link": "https://arxiv.org/abs/2611.34567",
+    "context": "Title: Large deviations for integrated exponentials of Gaussian Volterra processes - application to variance options\nAbstract: arXiv:2611.34567v1 Announce Type: cross  Abstract: We prove small-time large deviations for the normalised time integral of the exponential of a Gaussian Volterra process, and complement it with a central limit theorem and moderate deviations. As an application, we obtain short-maturity asymptotics for out-of-the-money and at-the-money variance options in rough volatility models, as well as implied volatility expansions which we validate numerically.",
+    "path": "papers/26/11/2611.34567.json",
+    "total_tokens": 776,
+    "translated_title": "高斯Volterra过程积分指数的大偏差——在方差期权中的应用",
+    "translated_abstract": "我们证明了高斯Volterra过程指数的归一化时间积分的小时间大偏差原理，并用中心极限定理和中等偏差结果对其加以补充。作为应用，我们获得了粗糙波动率模型中虚值和平值方差期权的短到期渐近性，以及隐含波动率的展开式，并通过数值方法对这些结果进行了验证。",
+    "tldr": "本文建立了高斯Volterra过程积分指数的小时间大偏差原理，并将其应用于推导粗糙波动率模型中方差期权的短到期渐近性和隐含波动率展开式。",
+    "en_tdlr": "This paper establishes small-time large deviations for integrated exponentials of Gaussian Volterra processes, and applies them to derive short-maturity asymptotics and implied volatility expansions for variance options in rough volatility models."
+}

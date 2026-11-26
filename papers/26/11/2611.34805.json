@@ -1,0 +1,12 @@
+{
+    "title": "Barron Smoothness for Layers in Deep Neural Networks",
+    "abstract": "arXiv:2611.34805v1 Announce Type: new  Abstract: In order to bound approximation errors for deep neural networks, we split the problem into two steps: First the selection of optimal infinite width limits for each layer and second an optimal discretization of all layers to obtain finite sized networks. We show that in expectation, the latter problem is equivalently characterized by a layer wise generalization of Barron norms. Moreover, we provide an analysis of the optimization landscape and show that local minima are characterized by an equidistribution principle akin to similar ideas in adaptive spline and finite element approximation.",
+    "link": "https://arxiv.org/abs/2611.34805",
+    "context": "Title: Barron Smoothness for Layers in Deep Neural Networks\nAbstract: arXiv:2611.34805v1 Announce Type: new  Abstract: In order to bound approximation errors for deep neural networks, we split the problem into two steps: First the selection of optimal infinite width limits for each layer and second an optimal discretization of all layers to obtain finite sized networks. We show that in expectation, the latter problem is equivalently characterized by a layer wise generalization of Barron norms. Moreover, we provide an analysis of the optimization landscape and show that local minima are characterized by an equidistribution principle akin to similar ideas in adaptive spline and finite element approximation.",
+    "path": "papers/26/11/2611.34805.json",
+    "total_tokens": 889,
+    "translated_title": "深度神经网络中各层的Barron平滑性",
+    "translated_abstract": "为了界定深度神经网络的逼近误差，我们将该问题分解为两个步骤：首先为每一层选择最优的无限宽度极限，其次对所有层进行最优离散化以获得有限尺寸的网络。我们证明，在期望意义下，后一个问题可由Barron范数的逐层推广等价刻画。此外，我们对优化景观进行了分析，并表明局部极小值由一种等分布原理所刻画，这与自适应样条和有限元逼近中的类似思想相呼应。",
+    "tldr": "该论文提出用Barron范数的逐层推广来等价刻画深度神经网络逐层最优离散化问题，并通过优化景观分析证明局部极小值满足类似自适应样条与有限元方法中的等分布原理。",
+    "en_tdlr": "This paper equivalently characterizes the optimal layer-wise discretization of deep neural networks via a layer-wise generalization of Barron norms, and shows that local minima obey an equidistribution principle akin to adaptive spline and finite element approximation."
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Do Language Models Mix? Experimental Evidence from Asymmetric Matching Pennies",
+    "abstract": "arXiv:2611.33265v1 Announce Type: new  Abstract: I test whether language models can select and implement mixed strategies using asymmetric matching pennies and a task with prescribed choice probabilities. Several models respond to their own payoffs, contrary to equilibrium and resembling human experimental subjects. Without randomization tools, no tested model reliably implements prescribed probabilities. Prompting models with their choice histories alone does not resolve this failure. While an external randomizer sharply improves implementation, I find most models remain exploitable by an opportunistic opponent. These results provide guidance on the delegation of strategic decisions to AI systems based on language models.",
+    "link": "https://arxiv.org/abs/2611.33265",
+    "context": "Title: Do Language Models Mix? Experimental Evidence from Asymmetric Matching Pennies\nAbstract: arXiv:2611.33265v1 Announce Type: new  Abstract: I test whether language models can select and implement mixed strategies using asymmetric matching pennies and a task with prescribed choice probabilities. Several models respond to their own payoffs, contrary to equilibrium and resembling human experimental subjects. Without randomization tools, no tested model reliably implements prescribed probabilities. Prompting models with their choice histories alone does not resolve this failure. While an external randomizer sharply improves implementation, I find most models remain exploitable by an opportunistic opponent. These results provide guidance on the delegation of strategic decisions to AI systems based on language models.",
+    "path": "papers/26/11/2611.33265.json",
+    "total_tokens": 917,
+    "translated_title": "语言模型会使用混合策略吗？来自非对称猜硬币实验的证据",
+    "translated_abstract": "本文使用非对称猜硬币游戏和一个规定选择概率的任务，测试语言模型能否选择并实施混合策略。实验发现，若干模型会对自身收益作出反应，这与均衡预测相悖，却与人类实验受试者的行为相似。在没有随机化工具的情况下，没有任何被测试的模型能够可靠地实施规定的选择概率。仅通过向模型提供其自身的选择历史进行提示，也无法解决这一失败。虽然使用外部随机化器能显著改善概率实施的效果，但作者发现大多数模型仍会被机会主义对手所利用。这些结果为将战略决策委托给基于语言模型的AI系统提供了指导。",
+    "tldr": "语言模型在混合策略博弈中会像人类一样对自身收益作出偏离均衡的反应，缺乏外部随机化工具时无法可靠实施规定概率，且大多数模型仍可被机会主义对手利用。"
+}

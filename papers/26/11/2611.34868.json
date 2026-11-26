@@ -1,0 +1,12 @@
+{
+    "title": "A Survey of Security, Privacy, and Ethics of Large Language Models in Telecom",
+    "abstract": "arXiv:2611.34868v1 Announce Type: cross  Abstract: Large Language Models (LLMs) are increasingly integrated into telecommunications for customer service, network analytics, and operational support. While offering efficiency and innovation, their deployment raises critical privacy, security, and ethical challenges due to the uniquely sensitive and longitudinal nature of telecom data. This paper presents a survey of LLM risks and safeguards in telecom context. Our survey introduces a telecom-specific taxonomy linking privacy, security, and ethics with use cases and outlines open research challenges such as longitudinal data privacy, cross-border compliance, and scalable guardrails.",
+    "link": "https://arxiv.org/abs/2611.34868",
+    "context": "Title: A Survey of Security, Privacy, and Ethics of Large Language Models in Telecom\nAbstract: arXiv:2611.34868v1 Announce Type: cross  Abstract: Large Language Models (LLMs) are increasingly integrated into telecommunications for customer service, network analytics, and operational support. While offering efficiency and innovation, their deployment raises critical privacy, security, and ethical challenges due to the uniquely sensitive and longitudinal nature of telecom data. This paper presents a survey of LLM risks and safeguards in telecom context. Our survey introduces a telecom-specific taxonomy linking privacy, security, and ethics with use cases and outlines open research challenges such as longitudinal data privacy, cross-border compliance, and scalable guardrails.",
+    "path": "papers/26/11/2611.34868.json",
+    "total_tokens": 897,
+    "translated_title": "电信领域大语言模型的安全、隐私与伦理综述",
+    "translated_abstract": "大语言模型（LLM）正日益被集成到电信领域，用于客户服务、网络分析和运营支持。虽然它们带来了效率和创新，但由于电信数据具有独特的高敏感性和长期性特征，其部署引发了严峻的隐私、安全和伦理挑战。本文对电信背景下大语言模型的风险与保障措施进行了综述。我们的综述提出了一个电信专用的分类体系，将隐私、安全与伦理与具体应用场景相联系，并概述了开放的研究挑战，如长期数据隐私、跨境合规以及可扩展的防护措施。",
+    "tldr": "本文综述了电信领域大语言模型的隐私、安全与伦理风险及保障措施，提出了将三者与应用场景相关联的电信专用分类体系，并指出长期数据隐私、跨境合规和可扩展防护等开放研究挑战。",
+    "en_tdlr": "This survey provides a telecom-specific taxonomy linking LLM privacy, security, and ethics with use cases, and outlines open research challenges such as longitudinal data privacy, cross-border compliance, and scalable guardrails."
+}

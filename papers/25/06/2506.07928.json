@@ -1,0 +1,12 @@
+{
+    "title": "Predicting Realized Variance Out of Sample: Can Anything Beat The Benchmark?",
+    "abstract": "arXiv:2506.07928v2 Announce Type: replace  Abstract: The discrepancy between realized volatility and the market's view of volatility has been known to predict individual equity options at the monthly horizon. It is not clear how this predictability depends on a forecast's ability to predict firm-level volatility. We consider this phenomenon at the daily frequency using high-dimensional machine learning models, as well as low-dimensional factor models. We find that marginal improvements to standard forecast error measurements can lead to economically significant gains in portfolio performance. This makes a case for re-imagining the way we train models that are used to construct portfolios.",
+    "link": "https://arxiv.org/abs/2506.07928",
+    "context": "Title: Predicting Realized Variance Out of Sample: Can Anything Beat The Benchmark?\nAbstract: arXiv:2506.07928v2 Announce Type: replace  Abstract: The discrepancy between realized volatility and the market's view of volatility has been known to predict individual equity options at the monthly horizon. It is not clear how this predictability depends on a forecast's ability to predict firm-level volatility. We consider this phenomenon at the daily frequency using high-dimensional machine learning models, as well as low-dimensional factor models. We find that marginal improvements to standard forecast error measurements can lead to economically significant gains in portfolio performance. This makes a case for re-imagining the way we train models that are used to construct portfolios.",
+    "path": "papers/25/06/2506.07928.json",
+    "total_tokens": 931,
+    "translated_title": "样本外已实现方差预测：有什么能超越基准吗？",
+    "translated_abstract": "已实现波动率与市场对波动率的看法之间的差异，已知能够在月度时间尺度上预测个股期权收益。然而，这种可预测性在多大程度上取决于预测模型预测公司层面波动率的能力，目前尚不清楚。我们使用高维机器学习模型以及低维因子模型，在日频数据上考察了这一现象。研究发现，对标准预测误差指标的边际改进，能够在投资组合表现上带来经济上显著的收益。这为重新思考用于构建投资组合的模型训练方式提供了依据。",
+    "tldr": "该论文在日频层面利用高维机器学习模型和低维因子模型研究已实现波动率与市场隐含波动率之差的预测能力，发现对标准预测误差指标的边际改进能带来经济上显著的投资组合收益提升，并据此提出应重新设计组合构建模型的训练方式。",
+    "en_tdlr": "Using high-dimensional machine learning and low-dimensional factor models at daily frequency, this paper shows that marginal improvements in standard forecast error metrics can yield economically significant portfolio performance gains, arguing for rethinking how portfolio-constructing models are trained."
+}

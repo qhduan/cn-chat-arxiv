@@ -1,0 +1,12 @@
+{
+    "title": "Reading the Room with AI: FOMC Deliberation and Growth-at-Risk",
+    "abstract": "arXiv:2611.34423v1 Announce Type: new  Abstract: Macro-at-Risk models forecast the growth distribution from public data; policy is set by a committee arguing over their meaning. From FOMC Minutes, public three weeks after each meeting, we add several dimensions of deliberation to a growth quantile model on FRED-MD's 123 series. Only disagreement present in the discussion but absent from the vote lowers out-of-sample loss by 4-6 percent, chiefly in the center, beyond professional, staff and Committee forecasts. Much of deliberation's informational value lies in the recorded discussion itself, and in the disagreement it reveals, rather than in the risk assessments the Committee chooses to state.",
+    "link": "https://arxiv.org/abs/2611.34423",
+    "context": "Title: Reading the Room with AI: FOMC Deliberation and Growth-at-Risk\nAbstract: arXiv:2611.34423v1 Announce Type: new  Abstract: Macro-at-Risk models forecast the growth distribution from public data; policy is set by a committee arguing over their meaning. From FOMC Minutes, public three weeks after each meeting, we add several dimensions of deliberation to a growth quantile model on FRED-MD's 123 series. Only disagreement present in the discussion but absent from the vote lowers out-of-sample loss by 4-6 percent, chiefly in the center, beyond professional, staff and Committee forecasts. Much of deliberation's informational value lies in the recorded discussion itself, and in the disagreement it reveals, rather than in the risk assessments the Committee chooses to state.",
+    "path": "papers/26/11/2611.34423.json",
+    "total_tokens": 1020,
+    "translated_title": "用AI解读会议氛围：FOMC审议与增长风险",
+    "translated_abstract": "宏观风险模型从公开数据中预测增长分布，而政策则由一个委员会围绕数据含义的争论来制定。我们从每次会议三周后公开发布的FOMC会议纪要中提取审议的多个维度，将其加入基于FRED-MD数据库123个序列的增长分位数模型。研究发现，只有那些出现在讨论中但未体现在投票中的分歧才能使样本外预测损失降低4-6%，且主要体现在分布的中心区域，其效果超越了专业预测机构、美联储工作人员以及委员会自身的预测。审议的信息价值很大程度上在于记录下来的讨论本身及其所揭示的分歧，而非委员会选择公开陈述的风险评估。",
+    "tldr": "本研究从FOMC会议纪要中提取审议信息，发现讨论中呈现但未体现在投票中的分歧加入增长分位数模型后，可将样本外预测损失降低4-6%，超越专业机构、美联储工作人员和委员会自身的预测。",
+    "en_tdlr": "By incorporating deliberation dimensions extracted from FOMC Minutes—particularly disagreement present in discussion but absent from the vote—into a growth quantile model, out-of-sample forecast loss falls by 4-6%, surpassing professional, staff, and Committee forecasts."
+}

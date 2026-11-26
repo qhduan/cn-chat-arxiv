@@ -1,0 +1,12 @@
+{
+    "title": "Change Partners at Every Layer: Balanced Random Regrouping for Model Merging",
+    "abstract": "arXiv:2611.33308v1 Announce Type: new  Abstract: Model merging combines fine-tuned experts into one model that serves many tasks without retraining, but merging many experts this way substantially reduces accuracy. Grouping offers a middle ground: at every layer or weight matrix, the $N$ experts are divided into $K",
+    "link": "https://arxiv.org/abs/2611.33308",
+    "context": "Title: Change Partners at Every Layer: Balanced Random Regrouping for Model Merging\nAbstract: arXiv:2611.33308v1 Announce Type: new  Abstract: Model merging combines fine-tuned experts into one model that serves many tasks without retraining, but merging many experts this way substantially reduces accuracy. Grouping offers a middle ground: at every layer or weight matrix, the $N$ experts are divided into $K",
+    "path": "papers/26/11/2611.33308.json",
+    "total_tokens": 1024,
+    "translated_title": "每一层都更换搭档：面向模型合并的均衡随机重新分组",
+    "translated_abstract": "模型合并将多个微调后的专家模型组合成一个无需重新训练即可服务多任务的单一模型，但以这种方式合并大量专家会显著降低准确率。分组提供了一种折中方案：在每一层或每个权重矩阵处，将 N 个专家划分为 K 个组……",
+    "tldr": "该论文提出在每一层对专家进行均衡随机重新分组的模型合并策略，作为完全合并与保留多个模型之间的折中方案，以缓解合并大量专家带来的准确率下降。",
+    "en_tdlr": "This paper proposes balanced random regrouping of experts at every layer, a middle-ground model merging strategy that mitigates the accuracy loss caused by merging many fine-tuned experts."
+}
