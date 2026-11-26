@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.33178",
     "context": "Title: Geophysics-informed invertible operator network for Bayesian geophysical inversion\nAbstract: arXiv:2611.33178v1 Announce Type: new  Abstract: Geophysical inverse problems are inherently ill-posed because of sparse observations and measurement noise. Classical sampling-based Bayesian inference methods, such as Markov chain Monte Carlo (MCMC), are computationally prohibitive because they require many forward simulations. Data-driven machine-learning methods often struggle to produce physically consistent solutions when training data are limited. To address these issues, we propose a geophysics-informed invertible operator network (GI-ION) that integrates an invertible neural network (INN) within a deep operator-learning framework for efficient Bayesian geophysical inversion. The INN serves as the branch network and transforms the model parameters into branch coefficients that represent the forward solution and a latent variable that captures uncertainty in the inverse problem. By learning the forward operator and enforcing statistical independence between the branch coefficients",
     "path": "papers/26/11/2611.33178.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1143,
+    "translated_title": "用于贝叶斯地球物理反演的地球物理信息引导可逆算子网络",
+    "translated_abstract": "由于观测数据稀疏和测量噪声的存在，地球物理反问题本质上是病态的（不适定的）。经典的基于采样的贝叶斯推断方法（如马尔可夫链蒙特卡罗，MCMC）由于需要进行大量正演模拟而在计算上代价高昂；而数据驱动的机器学习方法在训练数据有限时往往难以产生物理上一致的解。为解决这些问题，我们提出了一种地球物理信息引导的可逆算子网络，该方法将可逆神经网络集成到深度算子学习框架中，以实现高效的贝叶斯地球物理反演。INN作为分支网络，将模型参数转换为代表正演解的分支系数以及捕捉反问题不确定性的潜变量。通过学习正演算子并强制分支系数之间的统计独立性……（摘要内容在此处被截断）",
+    "tldr": "提出一种将可逆神经网络嵌入深度算子学习框架的地球物理信息引导可逆算子网络（GI-ION），实现了计算高效且物理一致的贝叶斯地球物理反演。",
+    "en_tdlr": "A geophysics-informed invertible operator network (GI-ION) that embeds an invertible neural network within a deep operator-learning framework to enable efficient and physically consistent Bayesian geophysical inversion."
 }

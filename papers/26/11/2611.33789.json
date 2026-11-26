@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.33789",
     "context": "Title: Multimodal Safety Evaluation of Vision-Language Models in Japanese\nAbstract: arXiv:2611.33789v1 Announce Type: new  Abstract: Vision-Language Models (VLMs) are increasingly deployed in Japanese-language settings, yet multimodal safety evaluation has been largely English-centric. We extend the Multimodal Safety Test Suite (MSTS) of R\\\"ottger et al. (2025) to Japanese as the 12th language, contributing 320 machine-translated and post-edited cases with reference answers plus 82 culturally localized Japanese images. We introduce an evaluation framework that (i) extends MSTS's 3-class safety grouping with a 5-point scale that also rewards useful (not just safe) responses, and (ii) separates image recognition from safety judgment to isolate recognition errors. Using this framework, we evaluate five modern Japanese VLMs (Gemini-3-Flash, GPT-5, InternVL3, LLM-JP-4-VL, Qwen3-VL) against human evaluation, and find substantial variance in the safety readiness across the models. Finally, we evaluate two LLM-as-a-Judge models and find that providing a reference answer impro",
     "path": "papers/26/11/2611.33789.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1495,
+    "translated_title": "视觉语言模型在日语环境下的多模态安全评估",
+    "translated_abstract": "视觉语言模型（VLM）日益被部署于日语应用场景中，然而多模态安全评估此前大多以英语为中心。我们将Röttger等人（2025）提出的多模态安全测试套件（MSTS）扩展至日语，使其成为该套件的第12种语言，贡献了320个经机器翻译并人工校对的测试案例（附参考答案），以及82张融入日本文化本地化特色的图像。我们提出了一个评估框架：（i）将MSTS原有的三类安全分组扩展为五分制评分，该评分不仅衡量回答是否安全，还会奖励回答的有用性；（ii）将图像识别与安全判断相分离，以便隔离识别错误。利用该框架，我们结合人工评估对五个现代日语视觉语言模型（Gemini-3-Flash、GPT-5、InternVL3、LLM-JP-4-VL、Qwen3-VL）进行了评测，发现各模型的安全就绪度存在显著差异。最后，我们评估了两个“以大语言模型作为评判者”（LLM-as-a-Judge）的模型，发现提供参考答案能够提升其评判效果。",
+    "tldr": "该论文将多模态安全测试套件MSTS扩展至日语（第12种语言）并构建了包含82张日本文化本地化图像的评估资源，同时提出区分图像识别与安全判断的五分制评估框架，据此对五个日语视觉语言模型进行安全评估，发现各模型安全就绪度差异显著，且提供参考答案可提升LLM评判者的评估效果。",
+    "en_tdlr": "This paper extends the Multimodal Safety Test Suite (MSTS) to Japanese as its 12th language with 320 test cases and 82 culturally localized images, and introduces a 5-point evaluation framework that separates image recognition from safety judgment, revealing substantial variance in safety readiness among five modern Japanese VLMs, while showing that reference answers improve LLM-as-a-Judge evaluations."
 }

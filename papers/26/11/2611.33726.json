@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.33726",
     "context": "Title: NORMCRAFT: Cultural Norm Generation for Context-Aware Language Model Alignment\nAbstract: arXiv:2611.33726v1 Announce Type: new  Abstract: Cultural alignment requires large language models (LLMs) to infer often-implicit social norms from a scenario and its cultural context. Existing approaches typically adapt individual models or supply external cultural knowledge, while learning norm inference independently of downstream response generation remains underexplored. We introduce NORMCRAFT, a modular framework that decouples norm inference from response generation. Through norm-centric multi-view supervision, we train an LLM as a norm generator to recover shared norms from prospective, adherence, and violation scenarios without downstream response labels. The generated norms guide a separate, frozen LLM (the responder). With Qwen3.5-4B as the responder, NORMCRAFT outperforms prompting and supervised fine-tuning (SFT) baselines on four of five downstream metrics. On SafeWorld, its responses reflect the reference norms more often (Coverage) and more precisely (Faithfulness), exc",
     "path": "papers/26/11/2611.33726.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1224,
+    "translated_title": "NORMCRAFT：面向情境感知语言模型对齐的文化规范生成",
+    "translated_abstract": "文化对齐要求大型语言模型（LLM）能够从场景及其文化背景中推断出往往是隐含的社会规范。现有方法通常是适配单个模型或提供外部文化知识，而独立于下游响应生成来学习规范推断这一方向仍鲜有探索。我们提出了NORMCRAFT，一个将规范推断与响应生成解耦的模块化框架。通过以规范为中心的多视角监督，我们训练一个LLM作为规范生成器，从预期、遵守和违规三类场景中恢复共享规范，而无需下游响应标签。生成的规范用于指导一个独立的、冻结的LLM（即响应器）。以Qwen3.5-4B作为响应器，NORMCRAFT在五个下游指标中的四个上优于提示工程和监督微调（SFT）基线。在SafeWorld数据集上，其响应更频繁（覆盖率/Coverage）且更精确（忠实度/Faithfulness）地反映参考规范……",
+    "tldr": "NORMCRAFT提出了一种将规范推断与响应生成解耦的模块化框架，通过多视角监督训练LLM作为文化规范生成器，无需下游响应标签即可实现更强的文化规范感知对齐。",
+    "en_tdlr": "NORMCRAFT is a modular framework that decouples norm inference from response generation by training an LLM as a cultural norm generator via norm-centric multi-view supervision, achieving context-aware cultural alignment without requiring downstream response labels."
 }

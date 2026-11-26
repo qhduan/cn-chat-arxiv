@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.33716",
     "context": "Title: Flipping the Coins: Training Physical Simulators through Hard Switches\nAbstract: arXiv:2611.33716v1 Announce Type: new  Abstract: Hybrid simulators embed learnable components such as neural networks in physical solvers and train them on reference trajectories. Many scientific solvers feature hard switches, such as a tripping power line, an igniting grid cell, or depolarizing brain tissue, where the loss exhibits discrete jumps across switch flips, leaving standard automatic differentiation to capture only its smooth part. Existing training paradigms face a fundamentally challenging trade-off, as gradient-based relaxations smooth the switches and introduce bias across jumps, whereas derivative-free methods treat the solver as a black box and discard path gradients of the continuous dynamics. Here we introduce EventFlip, which flips a near-threshold switch from a stored state, replays the original solver, and measures the loss difference between the two runs, in effect a finite difference across the switch. By perturbing every threshold with small Gaussian noise, we ",
     "path": "papers/26/11/2611.33716.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1149,
+    "translated_title": "翻转硬币：通过硬开关训练物理模拟器",
+    "translated_abstract": "混合模拟器将神经网络等可学习组件嵌入物理求解器中，并在参考轨迹上对其进行训练。许多科学求解器具有硬开关特性，例如电力线路跳闸、电网单元点火或脑组织去极化，在这些情况下损失函数会在开关翻转时出现离散跳变，导致标准自动微分只能捕捉其平滑部分。现有的训练范式面临一个根本性的挑战性权衡：基于梯度的松弛方法会平滑开关并在跳变处引入偏差，而无导数方法则将求解器视为黑箱，从而丢弃了连续动力学的路径梯度。本文提出EventFlip方法，该方法从存储的状态出发翻转一个接近阈值的开关，重放原始求解器，并测量两次运行之间的损失差异，实质上相当于跨越开关的有限差分。通过用小的高斯噪声扰动每个阈值，我们……",
+    "tldr": "提出EventFlip方法，通过随机翻转近阈值硬开关并重放求解器来测量两次运行的损失差，实现对跨越离散跳变的梯度估计，从而有效训练包含硬开关的物理模拟器。",
+    "en_tdlr": "EventFlip trains hybrid physical simulators containing hard switches by stochastically flipping near-threshold switches and replaying the solver to measure loss differences, effectively performing a finite difference across the discrete jump."
 }

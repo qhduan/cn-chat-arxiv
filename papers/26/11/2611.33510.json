@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.33510",
     "context": "Title: LogToPersona: New Benchmark and Efficient Persona Prediction through Semantic Log Filtering\nAbstract: arXiv:2611.33510v1 Announce Type: new  Abstract: Detailed knowledge of a user's persona is valuable for personalizing generative AI models and agents, yet such details are difficult to obtain and change over time. We address the task of inferring persona attributes from a single day of mobile activity logs. No suitable publicly available benchmark exists for this task, so we introduce a synthetic benchmark of 1,600 persona-log pairs. We target on-device inference so that raw logs never leave the phone, which makes memory rather than speed the limiting constraint: a day of activity yields roughly 30K tokens, whose key-value cache alone exceeds the INT4 weights of a 4B-parameter model. We therefore propose a log filtering method that retains only behaviorally distinct entries. Filtering reduces the memory footprint by up to 39% across nine models from four families and more than halves prefill time, while maintaining or improving prediction quality. For Qwen3-4B it removes 2.5GB, bringin",
     "path": "papers/26/11/2611.33510.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1218,
+    "translated_title": "LogToPersona：新基准与基于语义日志过滤的高效人格预测",
+    "translated_abstract": "详细了解用户的人格画像对于个性化生成式AI模型和智能体非常有价值，然而这些细节难以获取且会随时间变化。我们研究从单日移动设备活动日志中推断人格属性的任务。目前没有合适的公开可用基准，因此我们引入了一个包含1,600个人格-日志对的合成基准。我们的目标是端侧（设备上）推理，使原始日志永远不会离开手机，这使得内存而非速度成为限制性约束：一天的活动会产生约30K个token，其键值缓存本身就超过了40亿参数模型的INT4权重大小。因此，我们提出了一种日志过滤方法，仅保留行为上具有区分性的条目。过滤使来自四个模型家族的九个模型的内存占用最多降低39%，并将预填充时间缩短一半以上，同时保持或提高预测质量。对于Qwen3-4B，它减少了2.5GB的内存占用。",
+    "tldr": "本文提出了LogToPersona任务及包含1600个人格-日志对的合成基准，通过语义日志过滤方法在端侧设备上实现高效的用户人格属性预测，内存占用最多降低39%且预填充时间减半以上。",
+    "en_tdlr": "This paper introduces LogToPersona, a new task and synthetic benchmark of 1,600 persona-log pairs, along with a semantic log filtering method that enables efficient on-device persona prediction by reducing memory footprint by up to 39% and more than halving prefill time while maintaining prediction quality."
 }

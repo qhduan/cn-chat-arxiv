@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.33335",
     "context": "Title: FlowersBench: A FluidFlower-Inspired Dataset for Benchmarking Carbon Storage Surrogates Across Geological Structures\nAbstract: arXiv:2611.33335v1 Announce Type: new  Abstract: Machine learning surrogates are emerging as a computationally efficient tool for uncertainty quantification in geological carbon storage (GCS). Geological structure constitutes a major source of uncertainty; however, existing benchmark simulation datasets predominantly vary petrophysical and operational parameters within a fixed geological setting. Generalisation to unseen geological structures therefore remains largely unexplored. We introduce FlowersBench, a benchmark dataset of 5,000 two-dimensional, reservoir-scale CO$_2$ storage simulations across 244 structural geometries. The geometries are sampled from an in-house structural generator inspired by the FluidFlower experiments and Case B of the 11th Society of Petroleum Engineers Comparative Solution Project (SPE11B). Each simulation is run with Open Porous Media (OPM) Flow over a 50-year injection period and a 500-year post-injection monitoring period. Test geometries are withheld ",
     "path": "papers/26/11/2611.33335.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1327,
+    "translated_title": "FlowersBench：一个受FluidFlower启发的数据集，用于跨地质结构对碳存储代理模型进行基准测试",
+    "translated_abstract": "机器学习代理模型正成为地质碳存储（GCS）不确定性量化中一种计算高效的工具。地质结构是不确定性的主要来源之一；然而，现有的基准模拟数据集主要是在固定的地质环境内变化岩石物理和作业参数，因此对未见过的地质结构的泛化能力在很大程度上仍未被探索。我们提出了FlowersBench，这是一个包含5,000个二维油藏规模CO₂存储模拟的基准数据集，涵盖244种结构几何形状。这些几何形状采样自一个内部结构生成器，该生成器受FluidFlower实验以及第11届石油工程师协会比较求解项目案例B（SPE11B）的启发。每个模拟均使用Open Porous Media（OPM）Flow运行，涵盖50年的注入期和500年的注入后监测期。测试用的几何形状被保留（未包含在训练集中）",
+    "tldr": "提出了FlowersBench基准数据集，包含跨越244种地质结构几何形状的5,000个二维油藏规模CO₂存储模拟，填补了测试机器学习碳存储代理模型对未见地质结构泛化能力的空白。",
+    "en_tdlr": "FlowersBench introduces a benchmark dataset of 5,000 two-dimensional reservoir-scale CO2 storage simulations across 244 geological structural geometries, addressing the unexplored challenge of benchmarking machine learning carbon storage surrogates' generalization to unseen geological structures."
 }

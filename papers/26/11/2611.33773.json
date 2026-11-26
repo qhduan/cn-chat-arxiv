@@ -4,10 +4,9 @@
     "link": "https://arxiv.org/abs/2611.33773",
     "context": "Title: Robust Adaptive Channel Estimation for RIS-Assisted mmWave Massive MIMO via a Stochastic Shannon Entropy Criterion\nAbstract: arXiv:2611.33773v1 Announce Type: cross  Abstract: Accurate channel estimation in reconfigurable intelligent surface (RIS)-assisted millimeter-wave (mmWave) massive multiple-input multiple-output (MIMO) systems remains challenging due to the passive nature of the RIS, the high dimensionality of the cascaded channel, and the presence of non-Gaussian impulsive disturbances. This paper proposes a robust sparsity-aware adaptive estimator, termed reweighted zero-attracting stochastic Shannon entropy (RZA-SSE), for angular-domain channel estimation. The algorithm combines a double-window kernel-based Shannon entropy criterion with a norm-normalized \\(\\ell_1\\) penalty. Both the data-driven term and the nonsmooth penalty are differentiated using exact Wirtinger calculus. An exact weight-error recursion and a mean-square energy relation are derived. Local stability is analyzed via a joint coefficient--penalty state representation, and an approximate steady-state mean-square deviation (MSD) expr",
     "path": "papers/26/11/2611.33773.json",
-    "total_tokens": 1166,
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1333,
+    "translated_title": "基于随机香农熵准则的RIS辅助毫米波大规模MIMO鲁棒自适应信道估计",
+    "translated_abstract": "在可重构智能表面（RIS）辅助的毫米波大规模多输入多输出（MIMO）系统中，精确的信道估计仍然面临挑战，其原因在于RIS的无源特性、级联信道的高维度以及非高斯脉冲干扰的存在。本文提出了一种鲁棒的稀疏感知自适应估计器，称为重加权零吸引随机香农熵（RZA-SSE），用于角度域信道估计。该算法将双窗口基于核的香农熵准则与范数归一化的ℓ1惩罚相结合。数据驱动项和非光滑惩罚项均采用精确的Wirtinger微积分进行求导。文中推导了精确的权重误差递推关系和均方能量关系，并通过联合系数-惩罚状态表示分析了局部稳定性，同时给出了近似的稳态均方偏差（MSD）表达式。",
+    "tldr": "本文提出了一种将双窗口核香农熵准则与重加权零吸引ℓ1惩罚相结合的鲁棒稀疏自适应算法RZA-SSE，用于RIS辅助毫米波大规模MIMO系统的角度域信道估计，能够有效抵抗非高斯脉冲干扰并给出了完整的理论稳定性分析。",
+    "en_tdlr": "This paper proposes RZA-SSE, a robust sparsity-aware adaptive estimator combining a double-window kernel Shannon entropy criterion with a reweighted zero-attracting ℓ1 penalty, for angular-domain channel estimation in RIS-assisted mmWave massive MIMO systems, offering resilience to non-Gaussian impulsive disturbances with complete theoretical stability analysis."
 }

@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.33690",
     "context": "Title: Refusal Is Not Scored: A Coverage Limit in Content-Based Bias Evaluation\nAbstract: arXiv:2611.33690v1 Announce Type: new  Abstract: Bias audits of conversational models often discard refusals (responses such as \"I can't assist with that request\") before scoring, a filtering step which is rarely examined as a measurement decision even though it determines which responses an audit is capable of evaluating. This work examines what the step removes, applying seven bias-evaluation instruments spanning both deployed paradigms, three dictionary-based and four LLM-as-judge, to two intersectional datasets of 360 generated responses each. In both datasets, the filter removed a demographically skewed subset produced entirely by one of the three responder models, which refused North Korean prompts at 2.15 times the rate of American prompts on declarative content and 1.76 times on operational content. We then remove the filter and pass every refusal to all seven instruments. Bias-Lexicon scores refusals as clean, and including them shrinks the nationality disparity it reports. Hu",
     "path": "papers/26/11/2611.33690.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1426,
+    "translated_title": "拒答不计分：基于内容的偏见评估中的覆盖盲区",
+    "translated_abstract": "对对话式模型的偏见审计通常在评分之前丢弃拒答（如“我无法协助该请求”之类的回复），这一过滤步骤很少被当作一项测量决策来审视，尽管它决定了审计能够评估哪些回复。本工作检验了该步骤究竟剔除了什么，将涵盖两种现有范式的七种偏见评估工具——三种基于词典的工具和四种以大语言模型为裁判的工具——应用于两个各包含360条生成回复的交叉性数据集。在两个数据集中，该过滤器剔除的都是一个在人口统计上偏斜的子集，且完全由三个响应模型中的一个产生：该模型对朝鲜相关提示的拒答率在陈述性内容上是美国相关提示的2.15倍，在操作性内容上是1.76倍。随后我们移除过滤器，将每一条拒答都送入全部七种工具进行评分。Bias-Lexicon将拒答评为“无偏见”，而纳入拒答后，它所报告的国籍差异随之缩小。Hu…（原文摘要在此处截断）",
+    "tldr": "本文揭示了偏见审计中“先过滤拒答再评分”这一默认做法造成的测量盲区：拒答集中来自单一模型且针对特定国籍提示的频率显著更高，而部分评估工具会把拒答误判为无偏见内容，从而系统性低估模型偏见。",
+    "en_tdlr": "This paper uncovers a coverage limit in bias evaluation caused by the common pre-scoring filtering of refusals: refusals come almost entirely from one responder model and occur far more often for North Korean prompts (2.15x on declarative content), while some instruments score refusals as bias-free, systematically shrinking the reported disparities."
 }

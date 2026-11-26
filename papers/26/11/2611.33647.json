@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.33647",
     "context": "Title: The Danger of Double Precision: Working Precision as a Hidden Constraint in Gaussian Process Maximum Likelihood\nAbstract: arXiv:2611.33647v1 Announce Type: new  Abstract: Gaussian process (GP) hyperparameters are routinely fitted by maximizing the marginal likelihood in IEEE double precision, although for smooth kernels and noiseless data the covariance matrix is often more ill conditioned than double precision can resolve. For a squared-exponential kernel on a design with a Bayesian-optimization cluster, refits over a range of significand widths, judged against a high-precision reference, show that the double-precision fit is a different model and that fits converge only once the width exceeds the base-2 logarithm of the covariance condition number, about 70 bits. Cholesky failure acts as an implicit conditioning constraint, caused mostly by rounding of the kernel entries; the constrained solution predicted from the working precision alone is within 20% of the best Powell fits at five of the six precisions from 40 to 64 bits, with a local expansion proved for the idealized problem. Across 43 kernels, des",
     "path": "papers/26/11/2611.33647.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1281,
+    "translated_title": "双精度的危险：工作精度作为高斯过程最大似然中的隐藏约束",
+    "translated_abstract": "高斯过程（GP）超参数通常通过在IEEE双精度下最大化边际似然来拟合，尽管对于平滑核和无噪声数据，协方差矩阵往往比双精度所能解析的更加病态。对于在包含贝叶斯优化簇的设计点上的平方指数核，在一系列有效数字宽度范围内进行重新拟合，并以高精度参考结果为基准进行评判，结果表明双精度拟合实际上是一个不同的模型，且只有当有效数字宽度超过协方差条件数的以2为底的对数（约70位）时，拟合结果才会收敛。Cholesky分解失败起到了一种隐式条件数约束的作用，这主要由核矩阵元素的四舍五入引起；仅根据工作精度预测出的受约束解，在40到64位的六种精度中有五种与最佳Powell拟合结果相差在20%以内，并且针对理想化问题证明了局部展开。在43个核的实验中……",
+    "tldr": "高斯过程超参数的最大似然拟合受浮点工作精度的隐式约束——只有当有效数字宽度超过协方差条件数（约70位）时拟合才会收敛，因此双精度下的拟合实际上得到的是一个不同的模型。",
+    "en_tdlr": "Gaussian process maximum likelihood fits are implicitly constrained by working precision—fits converge only once the significand width exceeds the covariance condition number (~70 bits), meaning the double-precision fit is effectively a different model."
 }

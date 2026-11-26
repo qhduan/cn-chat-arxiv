@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.34818",
     "context": "Title: Deep Reinforcement Learning for Multi-UAV Data Harvesting Under Variable Team Sizes and Agent Loss\nAbstract: arXiv:2611.34818v1 Announce Type: new  Abstract: Collecting data from wireless sensors can be challenging when limited communication infrastructure prevents them from offloading their measurements. In such settings, unmanned aerial vehicles (UAVs) can exploit their mobility to harvest data locally, while coordinated UAV teams can provide efficient and redundant coverage of remote areas. Multi-agent reinforcement learning (MARL) enables such teams to learn decentralized coordination policies. However, training separate policies for different team and sensor populations is costly, and fixed-population policies may be vulnerable to agent failures. This work proposes F-MADDPG, a flexible variant of Multi-Agent Deep Deterministic Policy Gradient (MADDPG) that supports data harvesting with varying numbers of wireless sensors and UAVs. The framework also accommodates unexpected catastrophic failures that permanently remove agents during a mission. We compare F-MADDPG with a MADDPG baseline th",
     "path": "papers/26/11/2611.34818.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1025,
+    "translated_title": "面向可变团队规模与智能体失效的多无人机数据采集深度强化学习",
+    "translated_abstract": "当有限的通信基础设施阻碍无线传感器上传其测量数据时，从这些传感器收集数据可能极具挑战性。在此类场景下，无人驾驶飞行器（UAV）可以利用其机动性在本地采集数据，而协同的无人机团队则能够为偏远地区提供高效且冗余的覆盖。多智能体强化学习（MARL）使这样的团队得以学习去中心化的协调策略。然而，为不同的团队规模和传感器数量分别训练策略成本高昂，且面向固定规模的策略可能容易受到智能体故障的影响。本工作提出了F-MADDPG，这是多智能体深度确定性策略梯度（MADDPG）的一种灵活变体，支持在无线传感器和无人机数量可变的情况下进行数据采集。该框架还能够应对任务期间因意外灾难性故障而永久失去智能体的情况。我们将F-MADDPG与MADDPG基线进行了对比实验。",
+    "tldr": "本文提出F-MADDPG，一种灵活的MADDPG变体，能够在传感器与无人机数量可变的场景下进行数据采集，并对任务中智能体的灾难性失效保持鲁棒性。",
+    "en_tdlr": "This paper proposes F-MADDPG, a flexible MADDPG variant that enables data harvesting with variable numbers of sensors and UAVs while remaining robust to catastrophic agent loss during missions."
 }

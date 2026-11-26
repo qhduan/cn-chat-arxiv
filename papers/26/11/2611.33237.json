@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.33237",
     "context": "Title: Resource-Efficient Multimodal Fusion for Early Rice Blast Forecasting in Sustainable Agriculture\nAbstract: arXiv:2611.33237v1 Announce Type: new  Abstract: Resource-efficient artificial intelligence has become increasingly important for sustainable agriculture, where timely disease forecasting must be achieved under computational and energy constraints. Early estimation of rice blast can enhance food security by optimizing crop management practices while reducing excessive pesticide use. However, existing frameworks often suffer from high computational overhead and limited capability to model the complex spectral-temporal dependencies present in heterogeneous meteorological and remote sensing data. To address these challenges, this paper proposes a lightweight multimodal fusion framework comprising an attentive positional encoding-based Transformer and a convolutional neural network (CNN)-embedded gated recurrent unit (GRU) for efficient spectral-temporal representation learning. The attention-enhanced positional encoding assigns adaptive importance to sequential meteorological tokens, enab",
     "path": "papers/26/11/2611.33237.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1101,
+    "translated_title": "面向可持续农业的资源高效多模态融合稻瘟病早期预测方法",
+    "translated_abstract": "面向可持续农业的资源高效人工智能日益重要，因为在计算和能源受限的条件下必须实现及时的病害预测。稻瘟病的早期评估可以通过优化作物管理措施来增强粮食安全，同时减少过量的农药使用。然而，现有框架往往存在计算开销高的问题，且在建模异构气象与遥感数据中复杂的谱-时序依赖关系方面能力有限。为应对这些挑战，本文提出了一种轻量级多模态融合框架，该框架由基于注意力位置编码的Transformer和嵌入卷积神经网络（CNN）的门控循环单元（GRU）组成，用于高效的谱-时序表征学习。注意力增强的位置编码为序列气象标记分配自适应的重要性，从而使得……（原文摘要在此处被截断）",
+    "tldr": "该论文提出了一种由注意力位置编码Transformer与CNN嵌入GRU组成的轻量级多模态融合框架，能够在计算与能源受限条件下高效建模气象和遥感数据的谱-时序依赖关系，实现稻瘟病的早期预测。",
+    "en_tdlr": "This paper proposes a lightweight multimodal fusion framework combining an attentive positional encoding-based Transformer with a CNN-embedded GRU, which efficiently models spectral-temporal dependencies in heterogeneous meteorological and remote sensing data to enable early rice blast forecasting under computational and energy constraints."
 }

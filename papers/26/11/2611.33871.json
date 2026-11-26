@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.33871",
     "context": "Title: Contextual language representations link narrative processing to language and literacy in children\nAbstract: arXiv:2611.33871v1 Announce Type: new  Abstract: Spoken narratives extensively connect moment-to-moment language processing with knowledge accumulated through language and literacy experience. This study examined that relationship using functional magnetic resonance imaging (fMRI) during Cantonese story listening and contextual representations from large language model (LLM). The imaging cohort comprised 23 school-age children; 16 contributed complete standardized literacy and language assessments and served as held-out participants in a nested cross-subject encoding analysis of the same story. Contextual embeddings predicted distributed narrative responses, with prominent correspondence in temporoparietal and default-network parcels. Regional summaries of the top 25% of voxels ranked by held-out correlation yielded atlas-wide means of r=0.174 and partial R2=0.0165. A joint feature model identified negative surprisal and positive predictive-entropy coefficients across cortical and subc",
     "path": "papers/26/11/2611.33871.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1553,
+    "translated_title": "情境语言表征将叙事加工与儿童的语言和读写能力联系起来",
+    "translated_abstract": "口语叙事将逐时刻的语言加工与通过语言和读写经验所积累的知识广泛地联系起来。本研究在儿童聆听粤语故事期间使用功能磁共振成像，并结合来自大语言模型（LLM）的情境表征来考察这种关系。成像队列包括23名学龄儿童；其中16名完成了完整的标准化读写与语言评估，并作为留存被试参与了对同一故事的嵌套跨被试编码分析。情境嵌入能够预测分布式的叙事反应，并在颞顶区域和默认网络分区中表现出显著的对应关系。按留存相关性排序的前25%体素的区域汇总在全脑图谱范围内得到了r=0.174的平均相关值和偏R²=0.0165。联合特征模型在皮层和皮层下区域识别出负向的惊讶度系数和正向的预测熵系数……",
+    "tldr": "本研究结合功能磁共振成像与大语言模型的情境嵌入表征，发现儿童聆听故事时的大脑叙事加工反应（尤其在颞顶和默认网络区域）可由LLM情境表征有效预测，从而将神经层面的叙事加工与儿童的语言和读写能力联系起来。",
+    "en_tdlr": "This study combines fMRI with LLM contextual embeddings to show that children's narrative brain responses during story listening—especially in temporoparietal and default-network regions—can be predicted by contextual language representations, linking narrative processing to language and literacy in children."
 }

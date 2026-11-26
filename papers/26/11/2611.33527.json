@@ -4,9 +4,9 @@
     "link": "https://arxiv.org/abs/2611.33527",
     "context": "Title: Casper: A Projection-Based Neurosymbolic Layer for Scalable & Guaranteed Constraint Satisfaction\nAbstract: arXiv:2611.33527v1 Announce Type: new  Abstract: Many real-world problems demand exact constraint satisfaction to be meaningfully solved, yet existing neurosymbolic methods face a stark trade-off: those that guarantee satisfaction fail to scale, while those that scale must resort to approximation. Meanwhile, traditional deep learning approaches offer no satisfaction guarantees at all. In this paper, we propose Casper, a neurosymbolic layer that simultaneously (i) guarantees constraint satisfaction, (ii) scales at inference time, (iii) is fully automated, requiring no problem-specific engineering, and (iv) is fully differentiable, making it composable with any neural predictor both at training and at inference time. Casper casts constraint satisfaction as a closed-form Euclidean projection onto the constraint-feasible region, computable in a single forward pass. Experiments across MNIST arithmetic (up to 1024 digits), Sudoku solving, and Warcraft pathfinding show that Casper is the only",
     "path": "papers/26/11/2611.33527.json",
-    "pending": [
-        "translated_title",
-        "translated_abstract",
-        "tldr"
-    ]
+    "total_tokens": 1511,
+    "translated_title": "Casper：一种基于投影的可扩展且保证约束满足的神经符号层",
+    "translated_abstract": "许多现实世界的问题需要精确的约束满足才能得到有意义的解决，然而现有的神经符号方法面临一个严峻的权衡：那些能保证约束满足的方法无法扩展，而那些能够扩展的方法则必须 resort to 近似。与此同时，传统的深度学习方法完全不提供任何满足保证。在本文中，我们提出了 Casper，这是一种神经符号层，它同时具备以下特点：(i) 保证约束满足，(ii) 在推理时可扩展，(iii) 完全自动化，无需针对特定问题的工程设计，以及 (iv) 完全可微，使其在训练和推理阶段都能与任何神经预测器进行组合。Casper 将约束满足问题转化为对约束可行域的闭式欧几里得投影，可在单次前向传播中完成计算。在 MNIST 算术（多达 1024 位数字）、数独求解和 Warcraft 寻路等实验中，结果表明 Casper 是唯一……（原文摘要在此处截断）",
+    "tldr": "Casper 是一种基于投影的神经符号层，通过将对约束可行域的闭式欧几里得投影嵌入单次前向传播，同时实现了约束满足保证、推理时的可扩展性、完全自动化以及完全可微性。",
+    "en_tdlr": "Casper is a projection-based neurosymbolic layer that casts constraint satisfaction as a closed-form Euclidean projection onto the constraint-feasible region computed in a single forward pass, simultaneously guaranteeing constraint satisfaction, scaling at inference time, requiring no problem-specific engineering, and remaining fully differentiable."
 }
